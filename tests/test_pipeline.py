@@ -26,6 +26,7 @@ from ocr_pipeline.pipeline import (
     _table_total_reconciliation,
     _infer_chart_type,
     _numeric_value,
+    _provenance,
     _proximity_bindings,
     _visual_title,
     _vision_summary,
@@ -33,12 +34,13 @@ from ocr_pipeline.pipeline import (
     clean_text,
     parse_pages,
 )
+from ocr_pipeline.validate_run import _resolve_run_path
 
 
 class PipelineUnitTests(unittest.TestCase):
-    def test_v040_versions(self) -> None:
-        self.assertEqual(__version__, "0.4.0")
-        self.assertEqual(PIPELINE_VERSION, "0.4.0")
+    def test_v041_versions(self) -> None:
+        self.assertEqual(__version__, "0.4.1")
+        self.assertEqual(PIPELINE_VERSION, "0.4.1")
         self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/2.0")
         self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/1.1")
         self.assertEqual(INSPECTION_SCHEMA_VERSION, "pdf-inspection/1.0")
@@ -48,6 +50,14 @@ class PipelineUnitTests(unittest.TestCase):
         self.assertEqual(parse_pages("1-3,5,3", 6), [1, 2, 3, 5])
         with self.assertRaises(ValueError):
             parse_pages("7", 6)
+
+    def test_run_artifact_paths_are_portable(self) -> None:
+        region = Region("p001-r001", 1, "visual", [0, 0, 10, 10], 1, "test", 0.8)
+        provenance = _provenance("0" * 64, region, [], Path("C:/render/page-001.png"))
+        self.assertEqual(provenance["rendered_page"], "page-images/page-001.png")
+        with tempfile.TemporaryDirectory() as temporary:
+            run = Path(temporary)
+            self.assertEqual(_resolve_run_path(run, "source/input.pdf"), run / "source/input.pdf")
 
     def test_ocr_cleanup_dehyphenates_and_joins(self) -> None:
         raw = "The firm tar-\ngets income produc-\ning real estate.\n\nNext paragraph."

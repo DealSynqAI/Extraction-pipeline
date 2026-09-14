@@ -1,0 +1,178 @@
+{
+  "schema_version": "unified-source-collection/1.1",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_filename": "GP - Coulton Creek Capital Q42023 Company Financial Overview.pdf",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page_count": 16,
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-001.json",
+      "sha256": "edad8e1f7b64b1acb2e28b25005d422b0e972b5c3e303915630589a4395184a2",
+      "block_count": 5,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 2,
+      "file": "page-002.json",
+      "sha256": "6374ef779408f704d3d1a209cb6ef849cea178ef06598d141dd57969c244ac5f",
+      "block_count": 5,
+      "unassigned_evidence_count": 2,
+      "valid": true
+    },
+    {
+      "page": 3,
+      "file": "page-003.json",
+      "sha256": "43c72839e59cee9b9c6e1a11f89ba221fc362932cd90774e48d18bcc199f91f1",
+      "block_count": 3,
+      "unassigned_evidence_count": 2,
+      "valid": true
+    },
+    {
+      "page": 4,
+      "file": "page-004.json",
+      "sha256": "198cb4702ae2d29708f1866f4bd84ff18d389fed1deeaf6b8a45c802422c678f",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 5,
+      "file": "page-005.json",
+      "sha256": "a0cf32463dacc2f4bd8eccd30ee0882fc38d54dd77ac58d3124ff064c7f579e2",
+      "block_count": 8,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 6,
+      "file": "page-006.json",
+      "sha256": "747312ac3474e3be59b80f5b56d3d849fe04fb2d040899e5c8aaaa5fa22f5eec",
+      "block_count": 89,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 7,
+      "file": "page-007.json",
+      "sha256": "8a818889a6e66ca0dee5b207dd8ad623dfef8a01684362003e19b28ea4f6a40d",
+      "block_count": 14,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 8,
+      "file": "page-008.json",
+      "sha256": "f3c2f220cdcf8982b3645c17664521ce784ec6c413b070afff7622a175800ced",
+      "block_count": 5,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 9,
+      "file": "page-009.json",
+      "sha256": "98bee91e2b51e7f287ce3bf6a3c64f821d8a7c2db323056ccea8fd4a89291b2e",
+      "block_count": 9,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 10,
+      "file": "page-010.json",
+      "sha256": "729d0480f182ba3949464140f24b71bde99b1fe9d9cde77e7231689f32fe488d",
+      "block_count": 4,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 11,
+      "file": "page-011.json",
+      "sha256": "41ba851f665e03b8c8bff6328bb52a93c5c968b26ba1146fe2f4975b19782c6b",
+      "block_count": 10,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 12,
+      "file": "page-012.json",
+      "sha256": "17dbfdbb653f36a9b72a41813f5cbca2f468349a22df035f3a36393d93303340",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 13,
+      "file": "page-013.json",
+      "sha256": "aac1f9773a2f73d76f3aa6be7eda6fc969b122216a063ffdc218e188ba5e80bb",
+      "block_count": 15,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 14,
+      "file": "page-014.json",
+      "sha256": "1a57985ed14ff9d5995b7e7360906b9a4c7e42538a18a778a151b033713f7c45",
+      "block_count": 20,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 15,
+      "file": "page-015.json",
+      "sha256": "7ff18e1b54930e7002da5cebe772e709a41e513b79dc9ae19cc89e9c960fdc08",
+      "block_count": 6,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 16,
+      "file": "page-016.json",
+      "sha256": "8cf4dbe1e11b5d9d333121fba0c062d1eaf08c485c90bf356bee621cf59eb0a5",
+      "block_count": 21,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    }
+  ],
+  "block_counts_by_type": {
+    "chart": 7,
+    "chart_observation": 50,
+    "decoration": 14,
+    "heading": 22,
+    "map": 1,
+    "map_binding": 2,
+    "photograph": 3,
+    "table": 2,
+    "table_header": 2,
+    "table_record": 84,
+    "text": 30,
+    "unclassified_visual": 3
+  },
+  "validation_counts": {
+    "needs_review": 15,
+    "passed": 205
+  },
+  "validation": {
+    "valid": true,
+    "errors": []
+  },
+  "semantic_interpretation_performed": false
+}

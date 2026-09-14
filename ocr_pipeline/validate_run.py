@@ -27,6 +27,11 @@ def _write_json_new(path: Path, payload: Any) -> None:
     temporary.replace(path)
 
 
+def _resolve_run_path(run: Path, value: Any) -> Path:
+    path = Path(str(value or ""))
+    return path if path.is_absolute() else run / path
+
+
 def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
     run = run.resolve(strict=True)
     schema_path = (schema_path or Path(__file__).resolve().parents[1] / "schemas/unified-source-block.schema.json").resolve(strict=True)
@@ -79,7 +84,7 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         inspected_pages = [int(page.get("page")) for page in inspection.get("pages", [])]
         if inspected_pages != collection.get("selected_pages"):
             integrity_errors.append("inspection page records do not match selected pages")
-    preserved_source = Path(str(run_manifest.get("preserved_source", "")))
+    preserved_source = _resolve_run_path(run, run_manifest.get("preserved_source"))
     if not preserved_source.is_file():
         integrity_errors.append("preserved source file is missing")
     elif _sha256(preserved_source) != collection.get("source_sha256"):
@@ -110,7 +115,7 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
             integrity_errors.append(f"page {page_number}: document_id mismatch")
         if page_payload.get("source_sha256") != collection.get("source_sha256"):
             integrity_errors.append(f"page {page_number}: source hash mismatch")
-        rendered = Path(str(page_payload.get("evidence_ledger", {}).get("rendered_page", "")))
+        rendered = _resolve_run_path(run, page_payload.get("evidence_ledger", {}).get("rendered_page"))
         rendered_hash = page_payload.get("evidence_ledger", {}).get("rendered_page_sha256")
         if not rendered.is_file():
             integrity_errors.append(f"page {page_number}: rendered evidence image is missing")

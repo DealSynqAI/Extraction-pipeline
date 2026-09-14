@@ -1,0 +1,616 @@
+{
+  "schema_version": "unified-source-page/2.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 15,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 15,
+      "block_id": "p015-r003-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "CONTACT INFORMATION",
+        "raw_text": "CONTACT INFORMATION",
+        "native_text": "CONTACT INFORMATION",
+        "visible_ocr_text": "CONTACT INFORMATION",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        60.0,
+        83.072296,
+        336.040183,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          43.2,
+          44.85903999999999,
+          285.14893200000006,
+          64.89903999999996
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 15,
+      "block_id": "p015-r004-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898",
+        "raw_text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898",
+        "native_text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898",
+        "visible_ocr_text": "Chris Hanks | chanks@ccrcapital.com |303-250-5898",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        156.736111,
+        247.021852,
+        694.142861,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          112.85,
+          133.3918,
+          612.63286,
+          153.43179999999995
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 15,
+      "block_id": "p015-r005-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "Will Hensley | whensley@ccrcapital.com | 720-771-6909",
+        "raw_text": "Will Hensley | whensley@ccrcapital.com | 720-771-6909",
+        "native_text": "Will Hensley | whensley@ccrcapital.com | 720-771-6909",
+        "visible_ocr_text": "Will Hensley  whensley@ccrcapital.com | 720-771-6909",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        138.067306,
+        353.679185,
+        723.808883,
+        37.120259
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 3,
+        "source_bbox_points": [
+          99.40846000000005,
+          190.98676,
+          620.5508560000001,
+          211.0317
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 15,
+      "block_id": "p015-r006-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "Scott Brown | sbrown@ccrcapital.com | 816-225-3859",
+        "raw_text": "Scott Brown | sbrown@ccrcapital.com | 816-225-3859",
+        "native_text": "Scott Brown | sbrown@ccrcapital.com | 816-225-3859",
+        "visible_ocr_text": "Scott Brown sbrown@ccrcapital.com 816-225-3859",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        153.047472,
+        460.345667,
+        693.9926,
+        37.120444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r006",
+        "classification_method": "native-positioned-words",
+        "reading_order": 4,
+        "source_bbox_points": [
+          110.19418000000007,
+          248.58666000000005,
+          609.868852,
+          268.63169999999997
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0004"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "unclassified_visual",
+      "page": 15,
+      "block_id": "p015-r001-unclassified-visual",
+      "parent_block_id": null,
+      "content": {
+        "title": "COULTON CREEK",
+        "labels": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 3,
+          "vertical_line_count": 4,
+          "diagonal_line_count": 8,
+          "rectangle_candidate_count": 2,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 14,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 3,
+          "vertical_axis_candidate_count": 4,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.375,
+          "saturated_pixel_fraction": 0.59651
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p015-r001.json",
+          "sha256": "d4c9baf8df3de2f45bead931e1d3b559e59dd57890888e5141b0a7ecff0b974b"
+        },
+        "region_image": "region-images/p015-r001.png"
+      },
+      "coordinates": [
+        796.666718,
+        544.888814,
+        171.333324,
+        306.444413
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Qwen3-VL visual grounding",
+        "Python reconstruction"
+      ],
+      "confidence": 0.8,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r001",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 5,
+        "source_bbox_points": [
+          573.6000366,
+          294.2399597,
+          696.96003,
+          459.7199428
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0005",
+          "p015-ocr-0006"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 15,
+      "block_id": "p015-r002-decoration",
+      "parent_block_id": null,
+      "content": {
+        "title": "COULTON CREEK",
+        "labels": [
+          "COULTON CREEK",
+          "Company Overview - 2023",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p015-r002.json",
+          "sha256": "23145d76797a06f94eb322985457751b29b7c49b7a0e0a4d00b191c30cc68a38"
+        },
+        "region_image": "region-images/p015-r002.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p015-r002",
+        "classification_method": "repeated-page-band",
+        "reading_order": 6,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p015-ocr-0007",
+          "p015-ocr-0008",
+          "p015-ocr-0009"
+        ],
+        "rendered_page": "page-images/page-015.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-015.png",
+    "rendered_page_sha256": "a0935f024b1e8669e52a1a9933c0db42efbe1ba449a17f8ef618209da7299061",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p015-ocr-0001",
+        "text": "CONTACT INFORMATION",
+        "confidence": 0.99435,
+        "coordinates": [
+          59.475805,
+          74.468085,
+          337.197576,
+          35.239366
+        ],
+        "polygon": [
+          [
+            59.475805,
+            74.468085
+          ],
+          [
+            396.673381,
+            74.468085
+          ],
+          [
+            396.673381,
+            109.707452
+          ],
+          [
+            59.475805,
+            109.707452
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0002",
+        "text": "Chris Hanks | chanks@ccrcapital.com |303-250-5898",
+        "confidence": 0.96397,
+        "coordinates": [
+          154.737905,
+          238.696804,
+          699.092743,
+          41.223416
+        ],
+        "polygon": [
+          [
+            154.737905,
+            238.696804
+          ],
+          [
+            853.830648,
+            238.696804
+          ],
+          [
+            853.830648,
+            279.92022
+          ],
+          [
+            154.737905,
+            279.92022
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0003",
+        "text": "Will Hensley  whensley@ccrcapital.com | 720-771-6909",
+        "confidence": 0.95605,
+        "coordinates": [
+          133.064514,
+          343.085124,
+          732.862895,
+          47.872342
+        ],
+        "polygon": [
+          [
+            133.064514,
+            343.085124
+          ],
+          [
+            865.927409,
+            343.085124
+          ],
+          [
+            865.927409,
+            390.957465
+          ],
+          [
+            133.064514,
+            390.957465
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0004",
+        "text": "Scott Brown sbrown@ccrcapital.com 816-225-3859",
+        "confidence": 0.97886,
+        "coordinates": [
+          149.697581,
+          452.127658,
+          699.596771,
+          41.223416
+        ],
+        "polygon": [
+          [
+            149.697581,
+            452.127658
+          ],
+          [
+            849.294352,
+            452.127658
+          ],
+          [
+            849.294352,
+            493.351074
+          ],
+          [
+            149.697581,
+            493.351074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0005",
+        "text": "COULTON CREEK",
+        "confidence": 0.99951,
+        "coordinates": [
+          801.411296,
+          563.164876,
+          161.290283,
+          23.936198
+        ],
+        "polygon": [
+          [
+            801.411296,
+            563.164876
+          ],
+          [
+            962.701579,
+            563.164876
+          ],
+          [
+            962.701579,
+            587.101074
+          ],
+          [
+            801.411296,
+            587.101074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0006",
+        "text": "CAPITAL",
+        "confidence": 0.95592,
+        "coordinates": [
+          803.427409,
+          811.170247,
+          160.282227,
+          30.585069
+        ],
+        "polygon": [
+          [
+            803.427409,
+            811.170247
+          ],
+          [
+            963.709635,
+            811.170247
+          ],
+          [
+            963.709635,
+            841.755317
+          ],
+          [
+            803.427409,
+            841.755317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0007",
+        "text": "COULTON CREEK",
+        "confidence": 0.9686,
+        "coordinates": [
+          143.64919,
+          916.888346,
+          182.459676,
+          28.590386
+        ],
+        "polygon": [
+          [
+            143.64919,
+            916.888346
+          ],
+          [
+            326.108866,
+            916.888346
+          ],
+          [
+            326.108866,
+            945.478733
+          ],
+          [
+            143.64919,
+            945.478733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0008",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99904,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          210.685465,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.141113,
+            932.845812
+          ],
+          [
+            955.141113,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p015-ocr-0009",
+        "text": "CAPITAL",
+        "confidence": 0.99586,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

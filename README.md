@@ -1,6 +1,6 @@
 # DealSynq OCR pipeline through Unified Source Blocks
 
-Current package version: `0.4.0`.
+Current package version: `0.4.1`.
 
 This folder implements the requested architecture boundary:
 
@@ -83,6 +83,8 @@ run/
 
 Every block carries `document_id`, `page`, `block_id`, optional `parent_block_id`, typed `content`, normalized source coordinates, extraction methods, confidence, validation, and provenance. Page files use `unified-source-page/2.0`, the collection uses `unified-source-collection/1.1`, inspection uses `pdf-inspection/1.0`, and visual diagnostics use `opencv-region-diagnostic/1.0`. The JSON Schema is in `schemas/unified-source-block.schema.json`.
 
+Run artifact references are stored relative to the run root so a complete run remains valid after it is copied or cloned on another machine.
+
 ## Tests
 
 ```powershell
@@ -101,3 +103,10 @@ Install the `validate` extra, then independently validate every block against th
 ```
 
 `schema_valid` and `integrity_valid` answer whether the JSON contract and artifacts are sound. They do not turn `needs_review` extraction candidates into approved evidence.
+
+## Complete example run
+
+A full 16-page, 300-DPI RapidOCR + OpenCV + Qwen3-VL run is published in
+[`examples/coulton-creek-qwen3vl4b-v041`](examples/coulton-creek-qwen3vl4b-v041/README.md).
+It includes the preserved source, rendered evidence, region crops, OCR output, diagnostics,
+Unified Source Blocks, and an independent validation report.

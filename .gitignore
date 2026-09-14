@@ -18,6 +18,12 @@ tmp/
 *.jpg
 *.jpeg
 
+# Curated, intentionally published evidence runs live here.
+!examples/**/*.pdf
+!examples/**/*.png
+!examples/**/*.jpg
+!examples/**/*.jpeg
+
 .DS_Store
 Thumbs.db
 .idea/

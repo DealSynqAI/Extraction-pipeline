@@ -1,0 +1,1510 @@
+{
+  "schema_version": "unified-source-page/2.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 11,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "page": 11,
+      "block_id": "p011-r003-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "TRACK RECORD – FUND LEVEL RETURNS  18.5% INCEPTION TO DATE IRR (UNLEVERED) 35% average total leverage (Senior Units and Line of Credit)",
+        "raw_text": "TRACK RECORD – FUND LEVEL RETURNS\n 18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+        "native_text": "TRACK RECORD – FUND LEVEL RETURNS\n 18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+        "visible_ocr_text": "TRACK RECORD - FUND LEVEL RETURNS\n18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        46.11125,
+        82.00063,
+        685.222811,
+        156.624185
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99765,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          526.5605240000002,
+          128.85739999999998
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0001",
+          "p011-ocr-0002",
+          "p011-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "page": 11,
+      "block_id": "p011-r002-chart",
+      "parent_block_id": null,
+      "content": {
+        "title": "Annual Unlevered Fund Level IRR to Date",
+        "labels": [
+          "Annual Unlevered Fund Level IRR to Date",
+          "18.9%",
+          "19.0%",
+          "19.1%",
+          "18.8%",
+          "16.7%",
+          "12.9%",
+          "11.3%",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "Assumes return of capital for terminal cash flow (no mark to market on current investments)."
+        ],
+        "chart_type": "bar",
+        "vision_summary": {
+          "horizontal_line_count": 2,
+          "vertical_line_count": 20,
+          "diagonal_line_count": 0,
+          "rectangle_candidate_count": 11,
+          "bar_candidate_count": 11,
+          "point_candidate_count": 134,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 2,
+          "vertical_axis_candidate_count": 18,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.25789
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p011-r002.json",
+          "sha256": "c14257142a605b2692175967e6ca7448f33df5ac94d67b916fba623d9ee04009"
+        },
+        "region_image": "region-images/p011-r002.png",
+        "expected_observation_count": 10,
+        "emitted_observation_count": 7,
+        "observation_completeness": 0.7
+      },
+      "coordinates": [
+        100.235437,
+        248.661478,
+        799.680757,
+        621.338522
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.94,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "reconstructed 7 of 10 detected vector bars"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0004",
+          "p011-ocr-0005",
+          "p011-ocr-0006",
+          "p011-ocr-0007",
+          "p011-ocr-0008",
+          "p011-ocr-0009",
+          "p011-ocr-0010",
+          "p011-ocr-0011",
+          "p011-ocr-0012",
+          "p011-ocr-0013",
+          "p011-ocr-0014",
+          "p011-ocr-0015",
+          "p011-ocr-0016",
+          "p011-ocr-0017",
+          "p011-ocr-0018",
+          "p011-ocr-0019",
+          "p011-ocr-0020",
+          "p011-ocr-0021",
+          "p011-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-001",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "11.3%",
+        "numeric_value": 11.3,
+        "normalized_value": 0.113,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0012",
+        "value_evidence_id": "p011-ocr-0011",
+        "label_coordinates": [
+          179.435486,
+          779.255317,
+          35.786296,
+          23.936198
+        ],
+        "value_coordinates": [
+          185.483866,
+          530.585124,
+          23.185486,
+          71.808485
+        ],
+        "visual_mark_coordinates": [
+          180.23543653847224,
+          522.5025305605554,
+          34.181414999999994,
+          245.32712076574072
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2014"
+      },
+      "coordinates": [
+        180.235437,
+        522.502531,
+        34.181415,
+        245.327121
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97916,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0011",
+          "p011-ocr-0012"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-002",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "12.9%",
+        "numeric_value": 12.9,
+        "normalized_value": 0.129,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0013",
+        "value_evidence_id": "p011-ocr-0010",
+        "label_coordinates": [
+          246.97581,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "value_coordinates": [
+          254.032247,
+          496.010634,
+          21.673401,
+          71.143609
+        ],
+        "visual_mark_coordinates": [
+          248.59828896722217,
+          486.75949665666656,
+          32.96066299500002,
+          281.07012481981485
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2015"
+      },
+      "coordinates": [
+        248.598289,
+        486.759497,
+        32.960663,
+        281.070125
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97752,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0010",
+          "p011-ocr-0013"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-003",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "16.7%",
+        "numeric_value": 16.7,
+        "normalized_value": 0.16699999999999998,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0014",
+        "value_evidence_id": "p011-ocr-0009",
+        "label_coordinates": [
+          314.516134,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "value_coordinates": [
+          319.556458,
+          411.569146,
+          24.697571,
+          79.122369
+        ],
+        "visual_mark_coordinates": [
+          315.74034453347224,
+          403.9006792542593,
+          32.960640566249964,
+          363.9289422222222
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2016"
+      },
+      "coordinates": [
+        315.740345,
+        403.900679,
+        32.960641,
+        363.928942
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97816,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0009",
+          "p011-ocr-0014"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-004",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "18.9%",
+        "numeric_value": 18.9,
+        "normalized_value": 0.18899999999999997,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0015",
+        "value_evidence_id": "p011-ocr-0005",
+        "label_coordinates": [
+          381.048381,
+          779.255317,
+          35.282267,
+          21.941515
+        ],
+        "value_coordinates": [
+          387.600789,
+          363.031928,
+          23.185506,
+          74.468072
+        ],
+        "visual_mark_coordinates": [
+          382.88240009972225,
+          355.16020018518515,
+          32.96066299500006,
+          412.66942129129626
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2017"
+      },
+      "coordinates": [
+        382.8824,
+        355.1602,
+        32.960663,
+        412.669421
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97775,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0005",
+          "p011-ocr-0015"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-005",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "19.0%",
+        "numeric_value": 19.0,
+        "normalized_value": 0.19,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0017",
+        "value_evidence_id": "p011-ocr-0006",
+        "label_coordinates": [
+          516.633057,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "value_coordinates": [
+          521.169352,
+          363.696804,
+          25.201619,
+          79.122342
+        ],
+        "visual_mark_coordinates": [
+          517.1665336609722,
+          353.5355046146296,
+          34.181414999999994,
+          414.29411686185176
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2019"
+      },
+      "coordinates": [
+        517.166534,
+        353.535505,
+        34.181415,
+        414.294117
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97779,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0006",
+          "p011-ocr-0017"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-006",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "19.1%",
+        "numeric_value": 19.1,
+        "normalized_value": 0.191,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0018",
+        "value_evidence_id": "p011-ocr-0007",
+        "label_coordinates": [
+          583.165324,
+          779.920247,
+          35.282267,
+          21.941461
+        ],
+        "value_coordinates": [
+          587.701619,
+          359.042562,
+          26.713704,
+          76.462755
+        ],
+        "visual_mark_coordinates": [
+          584.3085892272221,
+          351.9108388938888,
+          34.181414999999994,
+          415.9188124324073
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2020"
+      },
+      "coordinates": [
+        584.308589,
+        351.910839,
+        34.181415,
+        415.918812
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97738,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0007",
+          "p011-ocr-0018"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 11,
+      "block_id": "p011-r002-chart-chart_observation-007",
+      "parent_block_id": "p011-r002-chart",
+      "content": {
+        "chart_title": "Annual Unlevered Fund Level IRR to Date",
+        "value": "18.8%",
+        "numeric_value": 18.8,
+        "normalized_value": 0.188,
+        "unit": "percent",
+        "label_evidence_id": "p011-ocr-0020",
+        "value_evidence_id": "p011-ocr-0008",
+        "label_coordinates": [
+          718.245931,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "value_coordinates": [
+          723.286296,
+          365.026611,
+          24.697591,
+          75.132975
+        ],
+        "visual_mark_coordinates": [
+          719.8134972222222,
+          358.40956147648143,
+          32.9606629949999,
+          409.42006
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": null,
+        "category": "2022"
+      },
+      "coordinates": [
+        719.813497,
+        358.409561,
+        32.960663,
+        409.42006
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97616,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0008",
+          "p011-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 11,
+      "block_id": "p011-r001-decoration",
+      "parent_block_id": null,
+      "content": {
+        "title": "COULTON CREEK",
+        "labels": [
+          "COULTON CREEK",
+          "Company Overview - 2023",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p011-r001.json",
+          "sha256": "489d42131efecbd170a7c61866a40719c93f1c6852ed03b7528698ff0eb27670"
+        },
+        "region_image": "region-images/p011-r001.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 3,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0023",
+          "p011-ocr-0024",
+          "p011-ocr-0025"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-011.png",
+    "rendered_page_sha256": "342503f7565539f6438ace7d10f02aa2d58525122978f0ed15b83726dbe07a3b",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p011-ocr-0001",
+        "text": "TRACK RECORD - FUND LEVEL RETURNS",
+        "confidence": 0.96933,
+        "coordinates": [
+          44.858871,
+          73.138299,
+          575.604833,
+          35.23936
+        ],
+        "polygon": [
+          [
+            44.858871,
+            73.138299
+          ],
+          [
+            620.463704,
+            73.138299
+          ],
+          [
+            620.463704,
+            108.377658
+          ],
+          [
+            44.858871,
+            108.377658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0002",
+        "text": "18.5% INCEPTION TO DATE IRR (UNLEVERED)",
+        "confidence": 0.98775,
+        "coordinates": [
+          107.862905,
+          152.260647,
+          623.487925,
+          49.867011
+        ],
+        "polygon": [
+          [
+            107.862905,
+            152.260647
+          ],
+          [
+            731.35083,
+            154.255317
+          ],
+          [
+            731.35083,
+            202.127658
+          ],
+          [
+            107.862905,
+            200.132975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0003",
+        "text": "35% average total leverage (Senior Units and Line of Credit)",
+        "confidence": 0.99424,
+        "coordinates": [
+          125.0,
+          206.781915,
+          503.02417,
+          32.579793
+        ],
+        "polygon": [
+          [
+            125.0,
+            206.781915
+          ],
+          [
+            628.02417,
+            206.781915
+          ],
+          [
+            628.02417,
+            239.361708
+          ],
+          [
+            125.0,
+            239.361708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0004",
+        "text": "Annual Unlevered Fund Level IRR to Date",
+        "confidence": 0.99792,
+        "coordinates": [
+          301.411296,
+          270.611708,
+          395.665283,
+          31.914903
+        ],
+        "polygon": [
+          [
+            301.411296,
+            270.611708
+          ],
+          [
+            697.076579,
+            271.941488
+          ],
+          [
+            697.076579,
+            302.526611
+          ],
+          [
+            301.411296,
+            301.196804
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0005",
+        "text": "18.9%",
+        "confidence": 0.99944,
+        "coordinates": [
+          387.600789,
+          363.031928,
+          23.185506,
+          74.468072
+        ],
+        "polygon": [
+          [
+            387.600789,
+            363.031928
+          ],
+          [
+            410.786296,
+            363.031928
+          ],
+          [
+            410.786296,
+            437.5
+          ],
+          [
+            387.600789,
+            437.5
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0006",
+        "text": "19.0%",
+        "confidence": 0.999,
+        "coordinates": [
+          521.169352,
+          363.696804,
+          25.201619,
+          79.122342
+        ],
+        "polygon": [
+          [
+            521.169352,
+            363.696804
+          ],
+          [
+            546.370972,
+            363.696804
+          ],
+          [
+            546.370972,
+            442.819146
+          ],
+          [
+            521.169352,
+            442.819146
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0007",
+        "text": "19.1%",
+        "confidence": 0.99833,
+        "coordinates": [
+          587.701619,
+          359.042562,
+          26.713704,
+          76.462755
+        ],
+        "polygon": [
+          [
+            589.717733,
+            359.042562
+          ],
+          [
+            614.415324,
+            360.372342
+          ],
+          [
+            612.39917,
+            435.505317
+          ],
+          [
+            587.701619,
+            434.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0008",
+        "text": "18.8%",
+        "confidence": 0.99982,
+        "coordinates": [
+          723.286296,
+          365.026611,
+          24.697591,
+          75.132975
+        ],
+        "polygon": [
+          [
+            724.294352,
+            365.026611
+          ],
+          [
+            747.983887,
+            365.691488
+          ],
+          [
+            746.97583,
+            440.159587
+          ],
+          [
+            723.286296,
+            439.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0009",
+        "text": "16.7%",
+        "confidence": 0.99977,
+        "coordinates": [
+          319.556458,
+          411.569146,
+          24.697571,
+          79.122369
+        ],
+        "polygon": [
+          [
+            319.556458,
+            411.569146
+          ],
+          [
+            344.254028,
+            411.569146
+          ],
+          [
+            344.254028,
+            490.691515
+          ],
+          [
+            319.556458,
+            490.691515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0010",
+        "text": "12.9%",
+        "confidence": 0.99893,
+        "coordinates": [
+          254.032247,
+          496.010634,
+          21.673401,
+          71.143609
+        ],
+        "polygon": [
+          [
+            254.032247,
+            496.010634
+          ],
+          [
+            275.705648,
+            496.010634
+          ],
+          [
+            275.705648,
+            567.154243
+          ],
+          [
+            254.032247,
+            567.154243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0011",
+        "text": "11.3%",
+        "confidence": 0.99881,
+        "coordinates": [
+          185.483866,
+          530.585124,
+          23.185486,
+          71.808485
+        ],
+        "polygon": [
+          [
+            186.995972,
+            530.585124
+          ],
+          [
+            208.669352,
+            531.25
+          ],
+          [
+            207.157247,
+            602.393609
+          ],
+          [
+            185.483866,
+            601.728733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0012",
+        "text": "2014",
+        "confidence": 0.99999,
+        "coordinates": [
+          179.435486,
+          779.255317,
+          35.786296,
+          23.936198
+        ],
+        "polygon": [
+          [
+            179.435486,
+            779.255317
+          ],
+          [
+            215.221781,
+            779.255317
+          ],
+          [
+            215.221781,
+            803.191515
+          ],
+          [
+            179.435486,
+            803.191515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0013",
+        "text": "2015",
+        "confidence": 0.99999,
+        "coordinates": [
+          246.97581,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "polygon": [
+          [
+            246.97581,
+            779.920247
+          ],
+          [
+            281.754028,
+            779.920247
+          ],
+          [
+            281.754028,
+            801.861708
+          ],
+          [
+            246.97581,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0014",
+        "text": "2016",
+        "confidence": 0.93469,
+        "coordinates": [
+          314.516134,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "polygon": [
+          [
+            314.516134,
+            779.920247
+          ],
+          [
+            349.294352,
+            779.920247
+          ],
+          [
+            349.294352,
+            801.861708
+          ],
+          [
+            314.516134,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0015",
+        "text": "2017",
+        "confidence": 0.99999,
+        "coordinates": [
+          381.048381,
+          779.255317,
+          35.282267,
+          21.941515
+        ],
+        "polygon": [
+          [
+            381.048381,
+            779.255317
+          ],
+          [
+            416.330648,
+            779.255317
+          ],
+          [
+            416.330648,
+            801.196832
+          ],
+          [
+            381.048381,
+            801.196832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0016",
+        "text": "2018",
+        "confidence": 0.99999,
+        "coordinates": [
+          449.092733,
+          779.920247,
+          35.282267,
+          21.941461
+        ],
+        "polygon": [
+          [
+            449.092733,
+            779.920247
+          ],
+          [
+            484.375,
+            779.920247
+          ],
+          [
+            484.375,
+            801.861708
+          ],
+          [
+            449.092733,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0017",
+        "text": "2019",
+        "confidence": 0.99999,
+        "coordinates": [
+          516.633057,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            516.633057,
+            779.920247
+          ],
+          [
+            551.411296,
+            779.920247
+          ],
+          [
+            551.411296,
+            801.861708
+          ],
+          [
+            516.633057,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0018",
+        "text": "2020",
+        "confidence": 0.99999,
+        "coordinates": [
+          583.165324,
+          779.920247,
+          35.282267,
+          21.941461
+        ],
+        "polygon": [
+          [
+            583.165324,
+            779.920247
+          ],
+          [
+            618.447591,
+            779.920247
+          ],
+          [
+            618.447591,
+            801.861708
+          ],
+          [
+            583.165324,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0019",
+        "text": "2021",
+        "confidence": 0.99999,
+        "coordinates": [
+          650.705648,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            650.705648,
+            779.920247
+          ],
+          [
+            685.483887,
+            779.920247
+          ],
+          [
+            685.483887,
+            801.861708
+          ],
+          [
+            650.705648,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0020",
+        "text": "2022",
+        "confidence": 0.99999,
+        "coordinates": [
+          718.245931,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            718.245931,
+            779.920247
+          ],
+          [
+            753.02417,
+            779.920247
+          ],
+          [
+            753.02417,
+            801.861708
+          ],
+          [
+            718.245931,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0021",
+        "text": "2023",
+        "confidence": 0.99999,
+        "coordinates": [
+          784.778239,
+          779.255317,
+          35.786296,
+          23.936198
+        ],
+        "polygon": [
+          [
+            784.778239,
+            779.255317
+          ],
+          [
+            820.564535,
+            779.255317
+          ],
+          [
+            820.564535,
+            803.191515
+          ],
+          [
+            784.778239,
+            803.191515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0022",
+        "text": "Assumes return of capital for terminal cash flow (no mark to market on current investments).",
+        "confidence": 0.99917,
+        "coordinates": [
+          114.415324,
+          821.143609,
+          792.338664,
+          31.914931
+        ],
+        "polygon": [
+          [
+            114.415324,
+            821.143609
+          ],
+          [
+            906.753988,
+            821.808539
+          ],
+          [
+            906.753988,
+            853.058539
+          ],
+          [
+            114.415324,
+            852.393609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0023",
+        "text": "COULTON CREEK",
+        "confidence": 0.97796,
+        "coordinates": [
+          145.161285,
+          918.88303,
+          179.939524,
+          24.60102
+        ],
+        "polygon": [
+          [
+            145.161285,
+            918.88303
+          ],
+          [
+            325.10081,
+            918.88303
+          ],
+          [
+            325.10081,
+            943.484049
+          ],
+          [
+            145.161285,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0024",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99719,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0025",
+        "text": "CAPITAL",
+        "confidence": 0.98427,
+        "coordinates": [
+          144.153229,
+          940.824436,
+          92.741933,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.153229,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            144.153229,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

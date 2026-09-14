@@ -1,0 +1,5545 @@
+{
+  "schema_version": "pdf-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page_count": 16,
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "pdf_metadata": {
+    "source_member_bboxes": [
+      [
+        95.8777084,
+        341.38123873,
+        103.7229962383,
+        419.7268109500001
+      ],
+      [
+        119.41358966920001,
+        297.85591492000003,
+        128.1305781289,
+        419.7268109500001
+      ],
+      [
+        143.82118931410002,
+        328.32364336,
+        151.6664771524,
+        419.7268109500001
+      ],
+      [
+        168.22877120470002,
+        298.72642246000004,
+        176.074059043,
+        419.7268109500001
+      ],
+      [
+        192.63635309530002,
+        310.91351029000003,
+        200.48164093360003,
+        419.7268109500001
+      ],
+      [
+        216.1722521188,
+        236.92045804000003,
+        224.8892405785,
+        419.72679322
+      ],
+      [
+        240.57983400940003,
+        328.32364336,
+        248.425139602,
+        419.7268109500001
+      ],
+      [
+        264.98741590000003,
+        353.56832656000006,
+        272.8327214926,
+        419.7268109500001
+      ],
+      [
+        289.39499779060003,
+        302.20845262,
+        297.2403033832,
+        419.72681095
+      ],
+      [
+        313.80257968120003,
+        306.56097259,
+        321.6478852738,
+        419.72679322
+      ],
+      [
+        337.33847870470004,
+        232.56792034,
+        346.0554671644,
+        419.7268109500001
+      ],
+      [
+        361.74606059530004,
+        333.54667087,
+        369.5913661879,
+        419.7268109500001
+      ],
+      [
+        386.15364248590004,
+        266.51767894,
+        393.9989303242,
+        419.72679322
+      ],
+      [
+        410.56122437650004,
+        261.2946337,
+        418.40651221480005,
+        419.72679322
+      ],
+      [
+        434.09712340000004,
+        315.26603026000004,
+        442.8141118597,
+        419.72679322
+      ],
+      [
+        458.5047052906,
+        273.48173926000004,
+        466.3499931289,
+        419.72681095
+      ],
+      [
+        482.91228718120004,
+        335.28768595,
+        490.75757501950005,
+        419.7268109500001
+      ],
+      [
+        507.3198868261,
+        308.30198767,
+        515.1651746644,
+        419.7268109500001
+      ],
+      [
+        531.7274687167001,
+        336.15819349000003,
+        539.5727565550001,
+        419.7268109500001
+      ],
+      [
+        555.2633499859,
+        317.87755288000005,
+        563.9803561999,
+        419.72679322
+      ],
+      [
+        579.6709318765,
+        331.80565579000006,
+        587.5162197148001,
+        419.7268109500001
+      ],
+      [
+        604.0785315214,
+        336.15819349000003,
+        611.9238193597,
+        419.7268109500001
+      ],
+      [
+        628.486113412,
+        336.15819349000003,
+        636.3314012503,
+        419.7268109500001
+      ]
+    ],
+    "member_coordinates": [
+      [
+        133.1634838888889,
+        632.1874791296297,
+        10.896233108749993,
+        145.08439300000012
+      ],
+      [
+        165.85220787388891,
+        551.5850276296296,
+        12.106928416249987,
+        225.68684450000006
+      ],
+      [
+        199.7516518251389,
+        608.0067469629629,
+        10.896233108749975,
+        169.2651251666668
+      ],
+      [
+        233.65107111763893,
+        553.1970786296297,
+        10.896233108749975,
+        224.07479350000008
+      ],
+      [
+        267.55049041013893,
+        575.7657597962963,
+        10.896233108750014,
+        201.5061123333334
+      ],
+      [
+        300.2392390538889,
+        438.741588962963,
+        12.106928416249987,
+        338.53025033333324
+      ],
+      [
+        334.138658346389,
+        608.0067469629629,
+        10.896257767499959,
+        169.2651251666668
+      ],
+      [
+        368.0380776388889,
+        654.7561602962965,
+        10.896257767499959,
+        122.51571183333336
+      ],
+      [
+        401.937496931389,
+        559.6452826296296,
+        10.896257767499959,
+        217.62658950000002
+      ],
+      [
+        435.8369162238889,
+        567.7055047962963,
+        10.896257767499959,
+        209.56633449999998
+      ],
+      [
+        468.5256648676389,
+        430.681333962963,
+        12.106928416249946,
+        346.59053816666676
+      ],
+      [
+        502.42508416013897,
+        617.6790201296296,
+        10.896257767499959,
+        159.5928520000001
+      ],
+      [
+        536.324503452639,
+        493.55125729629634,
+        10.896233108749936,
+        283.720582
+      ],
+      [
+        570.223922745139,
+        483.8789512962963,
+        10.896233108750014,
+        293.3928879999999
+      ],
+      [
+        602.912671388889,
+        583.825981962963,
+        12.106928416249946,
+        193.44585733333324
+      ],
+      [
+        636.8120906813888,
+        506.4476652962964,
+        10.896233108750014,
+        270.8242068333333
+      ],
+      [
+        670.711509973889,
+        620.9031221296297,
+        10.896233108750014,
+        156.3687500000001
+      ],
+      [
+        704.6109539251389,
+        570.9296067962963,
+        10.896233108749936,
+        206.34226533333344
+      ],
+      [
+        738.510373217639,
+        622.5151731296297,
+        10.896233108750014,
+        154.75669900000008
+      ],
+      [
+        771.199097202639,
+        588.662134962963,
+        12.106953074999971,
+        188.6097043333332
+      ],
+      [
+        805.0985164951389,
+        614.4549181296297,
+        10.896233108750014,
+        162.816954
+      ],
+      [
+        838.9979604463889,
+        622.5151731296297,
+        10.896233108750014,
+        154.75669900000008
+      ],
+      [
+        872.8973797388888,
+        622.5151731296297,
+        10.896233108750014,
+        154.75669900000008
+      ]
+    ],
+    "object_family": "pdf-vector-bar-cluster",
+    "visual_hint": "chart",
+    "chart_type_hint": "bar",
+    "expected_mark_count": 23,
+    "source_bbox_points": [
+      38.2777084,
+      178.56792034,
+      693.9314012503,
+      469.8
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.18658,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.57073,
+      "vector_line_count": 6,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 3,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p001-r004",
+          "page": 1,
+          "kind": "normal_text",
+          "coordinates": [
+            134.63861111111112,
+            90.1482592592592,
+            730.7074500000004,
+            74.00000000000007
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "COULTON CREEK CAPITAL",
+          "metadata": {
+            "median_font_size": 39.960000000000036,
+            "word_count": 3,
+            "source_bbox_points": [
+              96.9398,
+              48.68005999999997,
+              623.0491640000002,
+              88.64006
+            ]
+          }
+        },
+        {
+          "region_id": "p001-r001",
+          "page": 1,
+          "kind": "visual",
+          "coordinates": [
+            407.6666513888889,
+            196.4444196296296,
+            184.66665847222222,
+            330.44442648148146
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              3
+            ],
+            "source_bbox_points": [
+              293.519989,
+              106.07998659999998,
+              426.4799831,
+              284.51997689999996
+            ],
+            "source_member_bboxes": [
+              [
+                293.519989,
+                106.07998659999998,
+                426.4799831,
+                284.51997689999996
+              ]
+            ],
+            "member_coordinates": [
+              [
+                407.6666513888889,
+                196.4444196296296,
+                184.66665847222222,
+                330.44442648148146
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p001-r005",
+          "page": 1,
+          "kind": "normal_text",
+          "coordinates": [
+            319.30527777777775,
+            571.3480740740741,
+            361.20048333333335,
+            51.777777777777736
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Company Overview",
+          "metadata": {
+            "median_font_size": 27.95999999999998,
+            "word_count": 2,
+            "source_bbox_points": [
+              229.8998,
+              308.52796,
+              489.964148,
+              336.48796
+            ]
+          }
+        },
+        {
+          "region_id": "p001-r002",
+          "page": 1,
+          "kind": "visual",
+          "coordinates": [
+            0.0,
+            629.1110849999999,
+            1000.0,
+            373.1111024074075
+          ],
+          "reading_order": 4,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              2
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              339.7199859,
+              724.0799833,
+              541.1999812
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                339.7199859,
+                724.0799833,
+                541.1999812
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                629.1110849999999,
+                1000.0,
+                373.1111024074075
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p001-r003",
+          "page": 1,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 5,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 2,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.11297,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.35575,
+      "vector_line_count": 6,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p002-r002",
+          "page": 2,
+          "kind": "normal_text",
+          "coordinates": [
+            98.13319444444446,
+            63.64444444444443,
+            146.63333333333338,
+            44.44444444444444
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "OVERVIEW",
+          "metadata": {
+            "median_font_size": 24.0,
+            "word_count": 1,
+            "source_bbox_points": [
+              70.6559,
+              34.367999999999995,
+              176.23190000000002,
+              58.367999999999995
+            ]
+          }
+        },
+        {
+          "region_id": "p002-r001",
+          "page": 2,
+          "kind": "visual",
+          "coordinates": [
+            499.9999576388889,
+            83.33333333333333,
+            467.15156958333336,
+            761.5402814814815
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              359.9999695,
+              45.0,
+              696.3490996,
+              456.23175200000003
+            ],
+            "source_member_bboxes": [
+              [
+                359.9999695,
+                45.0,
+                696.3490996,
+                456.23175200000003
+              ]
+            ],
+            "member_coordinates": [
+              [
+                499.9999576388889,
+                83.33333333333333,
+                467.15156958333336,
+                761.5402814814815
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p002-r003",
+          "page": 2,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33333333333333,
+            192.89844444444446,
+            342.18240000000003,
+            157.59022222222202
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Coulton Creek Capital LLC is a\nprivate investment company that\nseeks out opportunistic debt and\nequity investments in real estate\nopportunities.",
+          "metadata": {
+            "median_font_size": 15.95999999999998,
+            "word_count": 21,
+            "source_bbox_points": [
+              49.2,
+              104.16516000000001,
+              295.571328,
+              189.26387999999992
+            ]
+          }
+        },
+        {
+          "region_id": "p002-r004",
+          "page": 2,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33333333333333,
+            399.1666666666666,
+            367.78933333333345,
+            93.57288888888878
+          ],
+          "reading_order": 4,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "The firm targets income producing\nreal estate related investments\nbetween $1 million and $25 million.",
+          "metadata": {
+            "median_font_size": 15.95999999999998,
+            "word_count": 15,
+            "source_bbox_points": [
+              49.2,
+              215.54999999999995,
+              314.0083200000001,
+              266.0793599999999
+            ]
+          }
+        },
+        {
+          "region_id": "p002-r005",
+          "page": 2,
+          "kind": "normal_text",
+          "coordinates": [
+            80.83333333333333,
+            736.8237777777779,
+            304.94100000000003,
+            134.73200000000006
+          ],
+          "reading_order": 5,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "COULTON CREEK CAPITAL, LLC\n5613 DTC PARKWAY, SUITE 830\nGREENWOOD VILLAGE, CO 80111\n720-502-1149 │ CCRCAPITAL.COM",
+          "metadata": {
+            "median_font_size": 14.039999999999992,
+            "word_count": 16,
+            "source_bbox_points": [
+              58.2,
+              397.88484,
+              277.75752,
+              470.64012
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 3,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.246,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.21284,
+      "vector_line_count": 7,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.72,
+      "regions": [
+        {
+          "region_id": "p003-r002",
+          "page": 3,
+          "kind": "normal_text",
+          "coordinates": [
+            98.13319444444446,
+            63.64444444444443,
+            139.40000000000003,
+            44.44444444444444
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "ABOUT US",
+          "metadata": {
+            "median_font_size": 24.0,
+            "word_count": 2,
+            "source_bbox_points": [
+              70.6559,
+              34.367999999999995,
+              171.02390000000003,
+              58.367999999999995
+            ]
+          }
+        },
+        {
+          "region_id": "p003-r001",
+          "page": 3,
+          "kind": "visual",
+          "coordinates": [
+            384.00000680555564,
+            67.55554185185183,
+            584.1666577777777,
+            685.7777344444444
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-image-object-merge",
+          "confidence": 0.72,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1,
+              2
+            ],
+            "source_bbox_points": [
+              276.48000490000004,
+              36.47999259999999,
+              697.0799985,
+              406.79996919999996
+            ],
+            "source_member_bboxes": [
+              [
+                362.8800049,
+                79.67999259999999,
+                604.6800018,
+                256.3199887
+              ],
+              [
+                384.0,
+                230.1599731,
+                610.6799985,
+                406.79996919999996
+              ]
+            ],
+            "member_coordinates": [
+              [
+                504.00000680555553,
+                147.55554185185184,
+                335.8333290277778,
+                327.1111038888889
+              ],
+              [
+                533.3333333333334,
+                426.2221724074074,
+                314.83333125,
+                327.1111038888888
+              ]
+            ],
+            "logical_visual_merge": true
+          }
+        },
+        {
+          "region_id": "p003-r003",
+          "page": 3,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33333333333333,
+            189.78714814814808,
+            338.0461000000002,
+            635.414888888889
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Formed in 2013 to source and\nmanage investments for our\nfounder’s capital.\nExpanded to offer investors\nto unique investments\nencompassing both a perpetual\nportfolio of seasoned assets, as\nas single investment sidecar\nopportunities.\nFocus on income producing\ncommercial real estate assets\nunique or opportunistic\ndevelopment projects.\nInvestments span the capital\n- senior debt\n- mezzanine debt\n- preferred equity\n- limited partner and JV equity",
+          "metadata": {
+            "median_font_size": 15.95999999999998,
+            "word_count": 65,
+            "source_bbox_points": [
+              49.2,
+              102.48505999999998,
+              292.5931920000001,
+              445.6091
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "merged_2_image_objects_into_1_visual_region"
+      ]
+    },
+    {
+      "page": 4,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.38297,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.13237,
+      "vector_line_count": 7,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p004-r002",
+          "page": 4,
+          "kind": "normal_text",
+          "coordinates": [
+            60.0,
+            84.1047037037037,
+            369.4624499999999,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "INVESTMENT PHILOSOPHY",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 2,
+            "source_bbox_points": [
+              43.2,
+              45.41654,
+              309.2129639999999,
+              65.45653999999996
+            ]
+          }
+        },
+        {
+          "region_id": "p004-r003",
+          "page": 4,
+          "kind": "normal_text",
+          "coordinates": [
+            59.92049999999993,
+            185.73425925925923,
+            880.1762833333333,
+            664.6784444444444
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "PRINCIPAL INVESTORS: Coulton Creek was founded as a vehicle to generate current\nreturns for a group of five experienced investors. From inception, founders and key\nemployees have invested their own capital in each investment, which has guided our\nperspective for each opportunity and has created exceptional alignment with our\ninvestors.\nToday, Coulton Creek manages approximately 60 positions for our founders and\ninvestors, with the original five founding principals investing in every deal and serving as\nthe investment committee.\nPRESERVATION OF PRINCIPAL: As principal investors, we prioritize preservation of\nprincipal and downside protection. We take a conservative approach to underwriting that\nreflects having our own skin in the game, and often seek a priority position in the capital\nstack.\nCURRENT RETURNS: With a dedicated focus on generating strong current returns for\nour investors, Coulton Creek seeks resilient assets which are less sensitive to volatile\nmarket swings and resulting valuations.\nRETURN OBJECTIVES: As an opportunistic investor without a need to deploy\ncommitted capital (in contrast to many funds), Coulton Creek can be selective in finding\nthose investments which deliver superior risk adjusted returns.",
+          "metadata": {
+            "median_font_size": 15.960000000000008,
+            "word_count": 181,
+            "source_bbox_points": [
+              43.14275999999995,
+              100.29649999999998,
+              676.869684,
+              459.22285999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p004-r001",
+          "page": 4,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 5,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.32106,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.24225,
+      "vector_line_count": 6,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 4,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p005-r005",
+          "page": 5,
+          "kind": "normal_text",
+          "coordinates": [
+            39.87013888888889,
+            77.62859259259261,
+            179.4275833333333,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "LEADERSHIP",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 1,
+            "source_bbox_points": [
+              28.7065,
+              41.91944000000001,
+              157.89435999999998,
+              61.95943999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p005-r001",
+          "page": 5,
+          "kind": "visual",
+          "coordinates": [
+            29.83333263888889,
+            155.7777688888889,
+            171.39441597222222,
+            213.3333114814815
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              2
+            ],
+            "source_bbox_points": [
+              21.4799995,
+              84.1199952,
+              144.883979,
+              199.3199834
+            ],
+            "source_member_bboxes": [
+              [
+                21.4799995,
+                84.1199952,
+                144.883979,
+                199.3199834
+              ]
+            ],
+            "member_coordinates": [
+              [
+                29.83333263888889,
+                155.7777688888889,
+                171.39441597222222,
+                213.3333114814815
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p005-r006",
+          "page": 5,
+          "kind": "normal_text",
+          "coordinates": [
+            239.4602777777775,
+            164.32555555555552,
+            709.3833333333333,
+            212.2833333333331
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Chris Hanks – Managing Director\nChris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over\n$277 million of direct investments, building a diversified portfolio of private real estate equity and\ndebt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as\nwell guiding investment decisions for Coulton Creek.\nBefore Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy\nbenefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and\nraised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris\nconcluded his tenure with the company’s $250 million sale in January 2012.",
+          "metadata": {
+            "median_font_size": 12.0,
+            "word_count": 115,
+            "source_bbox_points": [
+              172.4113999999998,
+              88.73579999999998,
+              683.1673999999998,
+              203.36879999999985
+            ]
+          }
+        },
+        {
+          "region_id": "p005-r002",
+          "page": 5,
+          "kind": "visual",
+          "coordinates": [
+            29.83333263888889,
+            393.33332203703696,
+            171.66665680555556,
+            213.3333101851852
+          ],
+          "reading_order": 4,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              3
+            ],
+            "source_bbox_points": [
+              21.4799995,
+              212.39999389999997,
+              145.0799924,
+              327.5999814
+            ],
+            "source_member_bboxes": [
+              [
+                21.4799995,
+                212.39999389999997,
+                145.0799924,
+                327.5999814
+              ]
+            ],
+            "member_coordinates": [
+              [
+                29.83333263888889,
+                393.33332203703696,
+                171.66665680555556,
+                213.3333101851852
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p005-r007",
+          "page": 5,
+          "kind": "normal_text",
+          "coordinates": [
+            239.4602777777775,
+            405.3831481481481,
+            709.3333333333336,
+            204.28333333333353
+          ],
+          "reading_order": 5,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Will Hensley – Director\nWill joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has\nbeen involved in almost every aspect of Coulton Creek. In his current role as Director, Will is\nresponsible for sourcing new investment opportunities, as well as underwriting, due diligence\nand portfolio management duties.\nPrior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse\nskill set included underwriting and portfolio management, as well as experience and oversight of\ndistressed real estate assets.",
+          "metadata": {
+            "median_font_size": 12.0,
+            "word_count": 86,
+            "source_bbox_points": [
+              172.4113999999998,
+              218.90689999999995,
+              683.1314,
+              329.21990000000005
+            ]
+          }
+        },
+        {
+          "region_id": "p005-r003",
+          "page": 5,
+          "kind": "visual",
+          "coordinates": [
+            29.833330000000004,
+            630.8888753703703,
+            171.99997847222224,
+            213.3333205555555
+          ],
+          "reading_order": 6,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              4
+            ],
+            "source_bbox_points": [
+              21.4799976,
+              340.6799927,
+              145.3199821,
+              455.8799858
+            ],
+            "source_member_bboxes": [
+              [
+                21.4799976,
+                340.6799927,
+                145.3199821,
+                455.8799858
+              ]
+            ],
+            "member_coordinates": [
+              [
+                29.833330000000004,
+                630.8888753703703,
+                171.99997847222224,
+                213.3333205555555
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p005-r008",
+          "page": 5,
+          "kind": "normal_text",
+          "coordinates": [
+            239.46027777777778,
+            639.3298148148149,
+            709.3666666666668,
+            174.94999999999993
+          ],
+          "reading_order": 7,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Scott Brown – Director\nScott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and\nunderwriting new real estate investment opportunities as well as assisting in portfolio\nmanagement and investor relations responsibilities.\nPrior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real\nestate family office. Scott served as a member of RCS’ Investment Committee evaluating the\nrisks, cash flows, capital requirements, deal structuring, and the overall status of RCS’ portfolio.",
+          "metadata": {
+            "median_font_size": 12.0,
+            "word_count": 79,
+            "source_bbox_points": [
+              172.4114,
+              345.23810000000003,
+              683.1554000000001,
+              439.7111
+            ]
+          }
+        },
+        {
+          "region_id": "p005-r004",
+          "page": 5,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 8,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 6,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.21652,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.13237,
+      "vector_line_count": 11,
+      "possible_table_regions": 1,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p006-r003",
+          "page": 6,
+          "kind": "normal_text",
+          "coordinates": [
+            46.111111111111114,
+            82.00062962962967,
+            686.3199000000004,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 5,
+            "source_bbox_points": [
+              33.2,
+              44.280340000000024,
+              527.3503280000003,
+              64.32033999999999
+            ]
+          }
+        },
+        {
+          "region_id": "p006-r004",
+          "page": 6,
+          "kind": "normal_text",
+          "coordinates": [
+            355.3333333333333,
+            164.93000000000004,
+            283.61924999999997,
+            51.777777777777736
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Current Portfolio",
+          "metadata": {
+            "median_font_size": 27.95999999999998,
+            "word_count": 2,
+            "source_bbox_points": [
+              255.84,
+              89.06220000000002,
+              460.04585999999995,
+              117.0222
+            ]
+          }
+        },
+        {
+          "region_id": "p006-r001",
+          "page": 6,
+          "kind": "table",
+          "coordinates": [
+            13.234547245277776,
+            230.53162831296297,
+            973.53682,
+            525.6289346885185
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-aligned-financial-table",
+          "confidence": 0.96,
+          "native_text": "",
+          "metadata": {
+            "rows": [
+              [
+                "Portfolio Investments",
+                "Total Invested",
+                "% of Total Invested",
+                "Return of Capital (CCC",
+                "Leverage Debt)",
+                "Non- controlling Interest",
+                "Coulton % Creek Equity",
+                "of CCC Equity"
+              ],
+              [
+                "Industrial Real Estate",
+                "400,000",
+                "0.3%",
+                "-",
+                "-",
+                "-",
+                "400,000",
+                "0.4%"
+              ],
+              [
+                "Hospitality Real Estate",
+                "15,137,127",
+                "10.4%",
+                "-",
+                "-",
+                "-",
+                "15,137,127",
+                "15.4%"
+              ],
+              [
+                "Multifamily Real Estate",
+                "44,759,986",
+                "30.7%",
+                "-",
+                "-",
+                "10,816,437",
+                "33,943,549",
+                "34.5%"
+              ],
+              [
+                "Residential Development",
+                "13,065,600",
+                "9.0%",
+                "-",
+                "1,710,928",
+                "2,700,000",
+                "8,654,672",
+                "8.8%"
+              ],
+              [
+                "Skilled Nursing Facilities",
+                "1,299,976",
+                "0.9%",
+                "-",
+                "-",
+                "-",
+                "1,299,976",
+                "1.3%"
+              ],
+              [
+                "Retail Real Estate",
+                "2,657,138",
+                "1.8%",
+                "972,330",
+                "-",
+                "-",
+                "1,684,808",
+                "1.7%"
+              ],
+              [
+                "Aviation Real Estate",
+                "500,000",
+                "0.3%",
+                "-",
+                "-",
+                "-",
+                "500,000",
+                "0.5%"
+              ],
+              [
+                "Total Equity Investments",
+                "$77,819,827",
+                "53.4% $",
+                "972,330 $",
+                "1,710,928 $",
+                "13,516,437 $",
+                "61,620,132",
+                "62.6%"
+              ],
+              [
+                "Real Estate Mezzanine Loans",
+                "55,644,400",
+                "38.2%",
+                "",
+                "",
+                "28,045,777",
+                "27,598,623",
+                "28.0%"
+              ],
+              [
+                "Real Estate Bridge Loans",
+                "12,178,360",
+                "8.4%",
+                "",
+                "",
+                "2,985,588",
+                "9,192,772",
+                "9.3%"
+              ],
+              [
+                "Total Loan Investments",
+                "$67,822,760",
+                "46.6%",
+                "",
+                "$",
+                "31,031,365 $",
+                "36,791,395",
+                "37.4%"
+              ],
+              [
+                "Total Investment Portfolio",
+                "$145,642,587",
+                "100.0% $",
+                "972,330 $",
+                "1,710,928 $",
+                "44,547,802 $",
+                "98,411,527",
+                "100.0%"
+              ]
+            ],
+            "row_sections": [
+              null,
+              "Equity",
+              "Equity",
+              "Equity",
+              "Equity",
+              "Equity",
+              "Equity",
+              "Equity",
+              "Equity",
+              "Loans",
+              "Loans",
+              "Loans",
+              "Loans"
+            ],
+            "title": "Current Portfolio",
+            "column_anchors_points": [
+              275.75403032,
+              316.40210104000005,
+              413.9161203999999,
+              490.77150759999995,
+              566.9719454200001,
+              643.8907792800001,
+              689.14873064
+            ],
+            "source_bbox_points": [
+              9.5288740166,
+              124.48707928900001,
+              710.4753844166,
+              408.3267040208
+            ]
+          }
+        },
+        {
+          "region_id": "p006-r002",
+          "page": 6,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 4,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "ignored_fragment_table_inside_aligned_financial_table",
+        "ignored_fragment_table_inside_aligned_financial_table",
+        "ignored_fragment_table_inside_aligned_financial_table",
+        "reconstructed_native_aligned_financial_table"
+      ]
+    },
+    {
+      "page": 7,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.09884,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.62813,
+      "vector_line_count": 6,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p007-r003",
+          "page": 7,
+          "kind": "normal_text",
+          "coordinates": [
+            46.111111111111114,
+            82.00062962962967,
+            686.3199000000004,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 5,
+            "source_bbox_points": [
+              33.2,
+              44.280340000000024,
+              527.3503280000003,
+              64.32033999999999
+            ]
+          }
+        },
+        {
+          "region_id": "p007-r004",
+          "page": 7,
+          "kind": "normal_text",
+          "coordinates": [
+            242.97430555555556,
+            164.93000000000004,
+            504.60421666666696,
+            51.777777777777736
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "$146 million / 61 Investments",
+          "metadata": {
+            "median_font_size": 27.95999999999998,
+            "word_count": 5,
+            "source_bbox_points": [
+              174.9415,
+              89.06220000000002,
+              538.2565360000002,
+              117.0222
+            ]
+          }
+        },
+        {
+          "region_id": "p007-r001",
+          "page": 7,
+          "kind": "visual",
+          "coordinates": [
+            167.5463273611111,
+            200.7685003703704,
+            676.053606111111,
+            661.0764594444444
+          ],
+          "reading_order": 3,
+          "classification_method": "pdf-image-object-merge",
+          "confidence": 0.72,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "source_bbox_points": [
+              120.6333557,
+              108.41499020000002,
+              607.3919520999999,
+              465.3962783
+            ],
+            "source_member_bboxes": [
+              [
+                362.6755066,
+                225.917511,
+                500.1326922,
+                310.911086
+              ],
+              [
+                363.2103577,
+                229.65939329999998,
+                520.9919520999999,
+                371.8499024
+              ],
+              [
+                220.9395294,
+                307.7037964,
+                505.4812522,
+                465.3962783
+              ],
+              [
+                207.0333557,
+                275.0962219,
+                364.8149501,
+                368.1080587
+              ],
+              [
+                212.3818817,
+                205.6045838,
+                364.8149475,
+                310.91108859999997
+              ],
+              [
+                244.4730377,
+                169.2551575,
+                365.8846375,
+                309.8420142
+              ],
+              [
+                291.5401001,
+                151.61499020000002,
+                442.9034601,
+                309.30747210000004
+              ],
+              [
+                362.1406555,
+                172.46246340000005,
+                496.9235768,
+                309.84201540000004
+              ],
+              [
+                362.6755066,
+                223.2447815,
+                496.9235751,
+                310.3765596
+              ],
+              [
+                362.6755066,
+                223.2447815,
+                499.06298649999997,
+                310.3765596
+              ]
+            ],
+            "member_coordinates": [
+              [
+                503.7159813888889,
+                418.3657611111111,
+                190.91275777777778,
+                157.3955092592593
+              ],
+              [
+                504.45883013888886,
+                425.29517277777774,
+                219.1411033333333,
+                263.3157575925927
+              ],
+              [
+                306.8604575,
+                569.8218451851852,
+                395.1968372222222,
+                292.0231146296297
+              ],
+              [
+                287.5463273611111,
+                509.43744796296295,
+                219.14110333333335,
+                172.24414222222225
+              ],
+              [
+                294.97483569444444,
+                380.74922925925927,
+                211.7125913888889,
+                195.01204592592586
+              ],
+              [
+                339.54588569444445,
+                313.43547685185183,
+                168.62722194444447,
+                260.34603092592596
+              ],
+              [
+                404.9168056944445,
+                280.7685003703704,
+                210.22688888888888,
+                292.0231146296297
+              ],
+              [
+                502.9731326388889,
+                319.3749322222223,
+                187.19850180555554,
+                254.40657777777778
+              ],
+              [
+                503.7159813888889,
+                413.41626203703703,
+                186.45565069444444,
+                161.35514462962968
+              ],
+              [
+                503.7159813888889,
+                413.41626203703703,
+                189.4270554166666,
+                161.35514462962968
+              ]
+            ],
+            "logical_visual_merge": true
+          }
+        },
+        {
+          "region_id": "p007-r002",
+          "page": 7,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 4,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "merged_10_image_objects_into_1_visual_region"
+      ]
+    },
+    {
+      "page": 8,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.03031,
+      "native_text_quality": 0.91833,
+      "image_coverage": 0.87326,
+      "vector_line_count": 3,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p008-r003",
+          "page": 8,
+          "kind": "normal_text",
+          "coordinates": [
+            46.111111111111114,
+            82.00062962962967,
+            686.3199000000004,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.91833,
+          "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 5,
+            "source_bbox_points": [
+              33.2,
+              44.280340000000024,
+              527.3503280000003,
+              64.32033999999999
+            ]
+          }
+        },
+        {
+          "region_id": "p008-r001",
+          "page": 8,
+          "kind": "visual",
+          "coordinates": [
+            0.0,
+            129.55548314814817,
+            999.9999026388889,
+            740.8888487037037
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              2
+            ],
+            "source_bbox_points": [
+              0.0,
+              69.9599609,
+              719.9999299,
+              470.0399392
+            ],
+            "source_member_bboxes": [
+              [
+                0.0,
+                69.9599609,
+                719.9999299,
+                470.0399392
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                129.55548314814817,
+                999.9999026388889,
+                740.8888487037037
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p008-r002",
+          "page": 8,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 9,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.08675,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.13237,
+      "vector_line_count": 7,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p009-r003",
+          "page": 9,
+          "kind": "normal_text",
+          "coordinates": [
+            46.11125,
+            82.00062962962967,
+            680.538916666667,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "INVESTOR ALIGNMENT DECEMBER 31, 2023",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 5,
+            "source_bbox_points": [
+              33.2001,
+              44.280340000000024,
+              523.1881200000003,
+              64.32033999999999
+            ]
+          }
+        },
+        {
+          "region_id": "p009-r002",
+          "page": 9,
+          "kind": "visual",
+          "coordinates": [
+            0.0,
+            123.26078055555561,
+            1000.0,
+            746.7392194444444
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-raster-object-cluster",
+          "confidence": 0.84,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [],
+            "source_member_bboxes": [
+              [
+                18.843708,
+                388.79959099999996,
+                160.4390976,
+                431.31581719999997
+              ],
+              [
+                31.9973774,
+                408.8981933,
+                147.2854269,
+                451.4144195
+              ],
+              [
+                59.0784645,
+                428.9967575,
+                120.2043431,
+                463.7827607
+              ],
+              [
+                104.7294388,
+                251.9746093,
+                184.4252045,
+                294.4908355
+              ],
+              [
+                93.1232605,
+                272.07321160000004,
+                195.25763990000002,
+                314.58943780000004
+              ],
+              [
+                116.3356247,
+                292.17179869999995,
+                172.8190315,
+                334.68802489999996
+              ],
+              [
+                494.697113,
+                233.42211909999997,
+                605.3426907,
+                273.6192784
+              ],
+              [
+                497.7920837,
+                251.2016296,
+                598.3789724999999,
+                293.7178558
+              ],
+              [
+                497.0183411,
+                271.3002014,
+                599.1527205,
+                313.8164276
+              ],
+              [
+                519.4569702,
+                291.39877320000005,
+                575.940377,
+                326.9577987
+              ],
+              [
+                569.7504272,
+                295.2638855,
+                702.0608732000001,
+                337.7801117
+              ],
+              [
+                585.2252808,
+                315.36247249999997,
+                687.3596602,
+                357.8786987
+              ],
+              [
+                607.6639404,
+                335.4610443,
+                664.1473472,
+                377.97727050000003
+              ],
+              [
+                223.8862305,
+                249.6556091,
+                397.97892260000003,
+                289.8527684
+              ],
+              [
+                255.609787,
+                267.4350891,
+                366.25536470000003,
+                309.95131530000003
+              ],
+              [
+                282.6908569,
+                287.5336609,
+                339.17426370000004,
+                322.3196641
+              ],
+              [
+                103.1819534,
+                120.56082150000003,
+                325.246854,
+                149.16264640000003
+              ]
+            ],
+            "member_coordinates": [],
+            "object_family": "pdf-raster-object-cluster",
+            "visual_hint": "chart",
+            "chart_type_hint": "pie",
+            "expected_mark_count": null,
+            "object_count": 17,
+            "source_bbox_points": [
+              0.0,
+              66.56082150000003,
+              720.0,
+              469.8
+            ]
+          }
+        },
+        {
+          "region_id": "p009-r001",
+          "page": 9,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "detected_pdf-raster-object-cluster_as_logical_visual"
+      ]
+    },
+    {
+      "page": 10,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.2758,
+      "native_text_quality": 0.99571,
+      "image_coverage": 0.13237,
+      "vector_line_count": 25,
+      "possible_table_regions": 1,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p010-r003",
+          "page": 10,
+          "kind": "normal_text",
+          "coordinates": [
+            57.598749999999995,
+            88.10470370370375,
+            414.29638333333304,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99571,
+          "native_text": "INVESTMENT OPPORTUNITIES",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 2,
+            "source_bbox_points": [
+              41.4711,
+              47.57654000000002,
+              339.7644959999998,
+              67.61653999999999
+            ]
+          }
+        },
+        {
+          "region_id": "p010-r001",
+          "page": 10,
+          "kind": "table",
+          "coordinates": [
+            47.75,
+            172.7777777777778,
+            916.5,
+            676.0
+          ],
+          "reading_order": 2,
+          "classification_method": "pdfplumber-table-finder",
+          "confidence": 0.68,
+          "native_text": "",
+          "metadata": {
+            "rows": [
+              [
+                "Perpetual Evergreen Investments\nSenior Units: Class B Shares:\n Preferred Units: Senior Units  Ownership Units: Coulton\nhave priority in both payment Creek Membership Units\nand liquidation over all other paying 8% preferred return\nCoulton Creek Capital equity with additional profit share.\nholders.\n Priority: Subordinate to Senior\n Fixed Returns: 6.5% - 8.0% Units and Company Debt, pari\nper annum fixed return, with passu with Class A / Founder\nquarterly distributions. Units.\n Diversification: Units are  Targeted Returns: 10% to 15%\ninvested across entire CCC per annum, distributed\nplatform (approx. 60+ quarterly.\ninvestments).\n Historic Track Record: 13.6%\n Minimum Equity Ratio: 1:1 average annual returns since\nratio of all Coulton Creek inception (9/2020).\nequity to Senior Units and\nlong-term debt.  Diversification: Units are\ninvested across entire CCC\n Transferrable: Units can be platform (approx. 60+\nconverted to other investments investments).\nwith CCC.\n Liquidity: Redeem up to 10%\n Liquidity: Redeem up to 10% every 6 months (full\nevery 6 months (full redemption in 5 years).\nredemption in 5 years).",
+                "Direct Investments (SPVs):\n Optionality: Project-Level\ninvestments that allow investors to\nseek opportunities specific to their\ninvestment priorities.\n Priority: Structure and waterfall\nare deal specific, and payouts are\nindependent of Coulton Creek\nentity investments.\n Targeted Returns: Return targets\nvary by offering, but opportunities\nare often available across the\ncapital stack from participating in\n1st DOT senior loans to traditional\nLP equity.\n Historic Track Record: SPV\ninvestments 9-13%+ current cash\nreturns, 14.2% average LP total\nreturns.\n Liquidity: Investment timing and\nliquidity varies by specific\ninvestment offering."
+              ]
+            ],
+            "source_bbox_points": [
+              34.38,
+              93.30000000000001,
+              694.26,
+              458.34000000000003
+            ]
+          }
+        },
+        {
+          "region_id": "p010-r002",
+          "page": 10,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 11,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.11366,
+      "native_text_quality": 0.99765,
+      "image_coverage": 0.13237,
+      "vector_line_count": 15,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p011-r003",
+          "page": 11,
+          "kind": "normal_text",
+          "coordinates": [
+            46.11125,
+            82.00062962962967,
+            685.2228111111114,
+            156.6241851851851
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99765,
+          "native_text": "TRACK RECORD – FUND LEVEL RETURNS\n 18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 23,
+            "source_bbox_points": [
+              33.2001,
+              44.280340000000024,
+              526.5605240000002,
+              128.85739999999998
+            ]
+          }
+        },
+        {
+          "region_id": "p011-r002",
+          "page": 11,
+          "kind": "visual",
+          "coordinates": [
+            100.23543653847224,
+            248.66147760259256,
+            799.6807568162499,
+            621.3385223974075
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-vector-bar-cluster",
+          "confidence": 0.94,
+          "native_text": "",
+          "metadata": {
+            "source_member_bboxes": [
+              [
+                129.7695143077,
+                282.15136650269994,
+                154.3801331077,
+                414.6280117161999
+              ],
+              [
+                178.9907680564,
+                262.85012819459996,
+                202.7224454128,
+                414.62799559729996
+              ],
+              [
+                227.3330480641,
+                218.10636679729998,
+                251.06470927179998,
+                414.62799559729996
+              ],
+              [
+                275.6753280718,
+                191.7865081,
+                299.4070054282,
+                414.62799559729996
+              ],
+              [
+                324.0176242282,
+                197.05047339189997,
+                348.6282430282,
+                414.62799559729996
+              ],
+              [
+                372.3599042359,
+                190.9091724919,
+                396.9705230359,
+                414.62799559729996
+              ],
+              [
+                420.70218424359996,
+                190.03185300269996,
+                445.31280304359996,
+                414.6280117161999
+              ],
+              [
+                469.0444804,
+                188.2771979054,
+                493.6550992,
+                414.62799559729996
+              ],
+              [
+                518.265718,
+                193.54116319729997,
+                541.9973953563999,
+                414.62799559729996
+              ],
+              [
+                566.6080141564,
+                196.1731539027,
+                590.3396592153999,
+                414.6280117161999
+              ]
+            ],
+            "member_coordinates": [
+              [
+                180.23543653847224,
+                522.5025305605554,
+                34.181414999999994,
+                245.32712076574072
+              ],
+              [
+                248.59828896722217,
+                486.75949665666656,
+                32.96066299500002,
+                281.07012481981485
+              ],
+              [
+                315.74034453347224,
+                403.9006792542593,
+                32.960640566249964,
+                363.9289422222222
+              ],
+              [
+                382.88240009972225,
+                355.16020018518515,
+                32.96066299500006,
+                412.66942129129626
+              ],
+              [
+                450.0244780947222,
+                364.90828405907405,
+                34.181414999999994,
+                402.9213374174074
+              ],
+              [
+                517.1665336609722,
+                353.5355046146296,
+                34.181414999999994,
+                414.29411686185176
+              ],
+              [
+                584.3085892272221,
+                351.9108388938888,
+                34.181414999999994,
+                415.9188124324073
+              ],
+              [
+                651.4506672222223,
+                348.6614776025926,
+                34.181414999999994,
+                419.1681438738888
+              ],
+              [
+                719.8134972222222,
+                358.40956147648143,
+                32.9606629949999,
+                409.42006
+              ],
+              [
+                786.9555752172222,
+                363.2836183383333,
+                32.960618137499864,
+                404.5460329879628
+              ]
+            ],
+            "object_family": "pdf-vector-bar-cluster",
+            "visual_hint": "chart",
+            "chart_type_hint": "bar",
+            "expected_mark_count": 10,
+            "source_bbox_points": [
+              72.16951430770001,
+              134.2771979054,
+              647.9396592154,
+              469.8
+            ]
+          }
+        },
+        {
+          "region_id": "p011-r001",
+          "page": 11,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "detected_pdf-vector-bar-cluster_as_logical_visual"
+      ]
+    },
+    {
+      "page": 12,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.08811,
+      "native_text_quality": 0.99695,
+      "image_coverage": 0.13237,
+      "vector_line_count": 23,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p012-r003",
+          "page": 12,
+          "kind": "normal_text",
+          "coordinates": [
+            46.11125,
+            82.00062962962967,
+            650.6361111111108,
+            154.15344444444437
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99695,
+          "native_text": "TRACK RECORD – REALIZED INVESTMENTS\n $126 million realized across 105 investments to date\n",
+          "metadata": {
+            "median_font_size": 18.0,
+            "word_count": 15,
+            "source_bbox_points": [
+              33.2001,
+              44.280340000000024,
+              501.6580999999998,
+              127.52319999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p012-r002",
+          "page": 12,
+          "kind": "visual",
+          "coordinates": [
+            96.95895305555557,
+            220.9004155555556,
+            836.0690895833334,
+            649.0995844444444
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-raster-point-cluster",
+          "confidence": 0.95,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [],
+            "source_member_bboxes": [
+              [
+                127.4104462,
+                313.9998627,
+                141.6390988,
+                328.2209208
+              ],
+              [
+                131.1548309,
+                314.7483368,
+                145.3834835,
+                328.9693949
+              ],
+              [
+                131.1548309,
+                318.4907227,
+                145.3834835,
+                332.71178080000004
+              ],
+              [
+                135.6481018,
+                314.7483368,
+                149.8767544,
+                328.9693949
+              ],
+              [
+                143.8857422,
+                314.7483368,
+                158.1143948,
+                328.9693949
+              ],
+              [
+                148.3789978,
+                311.0059662,
+                162.6076504,
+                325.22702430000004
+              ],
+              [
+                152.1233826,
+                303.521164,
+                166.35203520000002,
+                317.7422221
+              ],
+              [
+                186.5716858,
+                319.9876862,
+                200.80033840000002,
+                334.20874430000003
+              ],
+              [
+                190.3160706,
+                301.27575690000003,
+                204.5447232,
+                315.49681499999997
+              ],
+              [
+                203.0469666,
+                310.2574768,
+                217.2756192,
+                324.4785349
+              ],
+              [
+                215.7778625,
+                304.26965340000004,
+                230.0065151,
+                318.4907115
+              ],
+              [
+                215.7778625,
+                310.2574768,
+                230.0065151,
+                324.4785349
+              ],
+              [
+                220.2711182,
+                295.2879181,
+                234.4997708,
+                309.5089762
+              ],
+              [
+                220.2711182,
+                287.0546875,
+                234.4997708,
+                301.2757456
+              ],
+              [
+                229.2576447,
+                302.7727204,
+                243.4862973,
+                316.99377849999996
+              ],
+              [
+                229.2576447,
+                296.0364075,
+                243.4862973,
+                310.2574656
+              ],
+              [
+                233.0020447,
+                308.7605133,
+                247.2306973,
+                322.9815714
+              ],
+              [
+                233.0020447,
+                317.7422333,
+                247.2306973,
+                331.9632914
+              ],
+              [
+                233.0020447,
+                311.7544403,
+                247.2306973,
+                325.9754984
+              ],
+              [
+                237.495285,
+                272.0851746,
+                251.7239376,
+                286.3062327
+              ],
+              [
+                262.9570923,
+                318.4907227,
+                277.1857449,
+                332.71178080000004
+              ],
+              [
+                266.7014771,
+                300.5272675,
+                280.93012969999995,
+                314.7483256
+              ],
+              [
+                266.7014771,
+                307.2635804,
+                280.93012969999995,
+                321.48463849999996
+              ],
+              [
+                266.7014771,
+                301.27575690000003,
+                280.93012969999995,
+                315.49681499999997
+              ],
+              [
+                266.7014771,
+                284.80928040000003,
+                280.93012969999995,
+                299.03033849999997
+              ],
+              [
+                266.7014771,
+                309.5090027,
+                280.93012969999995,
+                323.7300608
+              ],
+              [
+                279.432373,
+                311.0059662,
+                293.66102559999996,
+                325.22702430000004
+              ],
+              [
+                283.9256592,
+                305.0181427,
+                298.15431179999996,
+                319.2392008
+              ],
+              [
+                301.1497498,
+                321.4846192,
+                315.37840239999997,
+                335.7056773
+              ],
+              [
+                304.894165,
+                311.0059662,
+                319.12281759999996,
+                325.22702430000004
+              ],
+              [
+                304.894165,
+                311.0059662,
+                319.12281759999996,
+                325.22702430000004
+              ],
+              [
+                313.1318359,
+                308.012024,
+                327.3604885,
+                322.2330821
+              ],
+              [
+                322.1183472,
+                319.2391968,
+                336.3469998,
+                333.4602549
+              ],
+              [
+                322.1183472,
+                311.0059662,
+                336.3469998,
+                325.22702430000004
+              ],
+              [
+                334.8492126,
+                302.0242462,
+                349.07786519999996,
+                316.2453043
+              ],
+              [
+                347.5801086,
+                308.7605133,
+                361.8087612,
+                322.9815714
+              ],
+              [
+                355.817749,
+                295.2879181,
+                370.04640159999997,
+                309.5089762
+              ],
+              [
+                355.817749,
+                309.5090027,
+                370.04640159999997,
+                323.7300608
+              ],
+              [
+                364.0553894,
+                306.5151062,
+                378.284042,
+                320.73616430000004
+              ],
+              [
+                368.5486755,
+                308.7605133,
+                382.7773281,
+                322.9815714
+              ],
+              [
+                376.7863159,
+                318.4907227,
+                391.01496849999995,
+                332.71178080000004
+              ],
+              [
+                376.7863159,
+                317.7422333,
+                391.01496849999995,
+                331.9632914
+              ],
+              [
+                381.2795715,
+                317.7422333,
+                395.50822409999995,
+                331.9632914
+              ],
+              [
+                381.2795715,
+                319.2391968,
+                395.50822409999995,
+                333.4602549
+              ],
+              [
+                381.2795715,
+                279.56994629999997,
+                395.50822409999995,
+                293.7910044
+              ],
+              [
+                385.7728577,
+                311.0059662,
+                400.00151029999995,
+                325.22702430000004
+              ],
+              [
+                389.5172119,
+                308.7605133,
+                403.7458645,
+                322.9815714
+              ],
+              [
+                389.5172119,
+                303.521164,
+                403.7458645,
+                317.7422221
+              ],
+              [
+                394.010498,
+                318.4907227,
+                408.23915059999996,
+                332.71178080000004
+              ],
+              [
+                402.2481384,
+                308.7605133,
+                416.476791,
+                322.9815714
+              ],
+              [
+                406.741394,
+                312.50288390000003,
+                420.9700466,
+                326.72394199999997
+              ],
+              [
+                411.2346497,
+                269.8397522,
+                425.46330229999995,
+                284.0608103
+              ],
+              [
+                411.2346497,
+                311.7544403,
+                425.46330229999995,
+                325.9754984
+              ],
+              [
+                414.9790344,
+                311.0059662,
+                429.20768699999996,
+                325.22702430000004
+              ],
+              [
+                427.7099304,
+                272.8336182,
+                441.938583,
+                287.0546763
+              ],
+              [
+                436.6964417,
+                299.77879340000004,
+                450.92509429999996,
+                313.9998515
+              ],
+              [
+                444.934082,
+                318.4907227,
+                459.16273459999996,
+                332.71178080000004
+              ],
+              [
+                444.934082,
+                305.0181427,
+                459.16273459999996,
+                319.2392008
+              ],
+              [
+                444.934082,
+                272.0851746,
+                459.16273459999996,
+                286.3062327
+              ],
+              [
+                449.4273376,
+                310.2574768,
+                463.65599019999996,
+                324.4785349
+              ],
+              [
+                457.664978,
+                313.9998627,
+                471.8936306,
+                328.2209208
+              ],
+              [
+                470.395874,
+                266.0973511,
+                484.62452659999997,
+                280.3184092
+              ],
+              [
+                474.1402588,
+                296.78489690000004,
+                488.3689114,
+                311.005955
+              ],
+              [
+                474.1402588,
+                302.7727204,
+                488.3689114,
+                316.99377849999996
+              ],
+              [
+                474.1402588,
+                276.5760193,
+                488.3689114,
+                290.79707740000003
+              ],
+              [
+                478.6335144,
+                312.50288390000003,
+                492.862167,
+                326.72394199999997
+              ],
+              [
+                478.6335144,
+                302.7727204,
+                492.862167,
+                316.99377849999996
+              ],
+              [
+                478.6335144,
+                298.2818604,
+                492.862167,
+                312.50291849999996
+              ],
+              [
+                486.8711548,
+                313.9998627,
+                501.0998074,
+                328.2209208
+              ],
+              [
+                486.8711548,
+                313.9998627,
+                501.0998074,
+                328.2209208
+              ],
+              [
+                486.8711548,
+                313.2513733,
+                501.0998074,
+                327.4724314
+              ],
+              [
+                491.3644104,
+                313.2513733,
+                505.593063,
+                327.4724314
+              ],
+              [
+                491.3644104,
+                313.2513733,
+                505.593063,
+                327.4724314
+              ],
+              [
+                495.8576965,
+                311.0059662,
+                510.08634909999995,
+                325.22702430000004
+              ],
+              [
+                495.8576965,
+                313.2513733,
+                510.08634909999995,
+                327.4724314
+              ],
+              [
+                499.6020508,
+                320.7361603,
+                513.8307034,
+                334.9572184
+              ],
+              [
+                507.8396912,
+                279.56994629999997,
+                522.0683438,
+                293.7910044
+              ],
+              [
+                512.3330078,
+                313.2513733,
+                526.5616604,
+                327.4724314
+              ],
+              [
+                516.8262329,
+                311.7544403,
+                531.0548855000001,
+                325.9754984
+              ],
+              [
+                525.0638428,
+                309.5090027,
+                539.2924954,
+                323.7300608
+              ],
+              [
+                529.5571289,
+                287.0546875,
+                543.7857815,
+                301.2757456
+              ],
+              [
+                534.050354,
+                313.2513733,
+                548.2790066,
+                327.4724314
+              ],
+              [
+                534.050354,
+                313.2513733,
+                548.2790066,
+                327.4724314
+              ],
+              [
+                534.7993164,
+                275.0790406,
+                549.027969,
+                289.30009870000004
+              ],
+              [
+                537.7947388,
+                309.5090027,
+                552.0233914,
+                323.7300608
+              ],
+              [
+                546.781311,
+                314.7483368,
+                561.0099636,
+                328.9693949
+              ],
+              [
+                552.0234375,
+                262.3549805,
+                566.2520901,
+                276.5760386
+              ],
+              [
+                569.99646,
+                313.2513733,
+                584.2251126,
+                327.4724314
+              ],
+              [
+                571.4942627,
+                318.4907227,
+                585.7229153000001,
+                332.71178080000004
+              ],
+              [
+                572.243103,
+                299.030304,
+                586.4717556,
+                313.2513621
+              ],
+              [
+                587.2205811,
+                330.4663391,
+                601.4492337,
+                344.68739719999996
+              ],
+              [
+                587.2205811,
+                313.2513733,
+                601.4492337,
+                327.4724314
+              ],
+              [
+                564.7543335,
+                298.2818604,
+                578.9829861000001,
+                312.50291849999996
+              ],
+              [
+                592.4627686,
+                313.9998627,
+                606.6914212,
+                328.2209208
+              ],
+              [
+                599.9515381,
+                311.0059662,
+                614.1801907,
+                325.22702430000004
+              ],
+              [
+                597.704895,
+                312.50288390000003,
+                611.9335476,
+                326.72394199999997
+              ],
+              [
+                250.9750824,
+                311.7544404,
+                263.70598209999997,
+                324.478545
+              ],
+              [
+                250.9750824,
+                311.7544404,
+                263.70598209999997,
+                324.478545
+              ],
+              [
+                280.1812744,
+                222.68566900000002,
+                292.9121741,
+                235.4097736
+              ],
+              [
+                292.9121704,
+                403.8170624,
+                305.6430701,
+                416.541167
+              ],
+              [
+                500.3509521,
+                287.0546875,
+                513.0818518,
+                299.77879210000003
+              ],
+              [
+                508.5885925,
+                340.1965485,
+                521.3194922,
+                352.9206531
+              ],
+              [
+                572.243103,
+                434.5046311,
+                584.9740027,
+                447.2287357
+              ],
+              [
+                571.4942627,
+                173.28622440000004,
+                584.2251624,
+                186.010329
+              ],
+              [
+                584.2250366,
+                356.6630249,
+                596.9559363,
+                369.3871295
+              ]
+            ],
+            "member_coordinates": [
+              [
+                176.95895305555555,
+                581.4812272222222,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                182.1594873611111,
+                582.8672903703704,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                182.1594873611111,
+                589.7976346296296,
+                19.762017500000006,
+                26.33529277777787
+              ],
+              [
+                188.4001413888889,
+                582.8672903703704,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                199.84130861111112,
+                582.8672903703704,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                206.0819413888889,
+                575.9369744444443,
+                19.762017500000006,
+                26.33529277777787
+              ],
+              [
+                211.28247583333334,
+                562.0762296296297,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                259.1273413888889,
+                592.5697892592592,
+                19.762017500000006,
+                26.33529277777787
+              ],
+              [
+                264.3278758333333,
+                557.9180683333334,
+                19.762017500000006,
+                26.33529277777766
+              ],
+              [
+                282.0096758333333,
+                574.550882962963,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                299.6914756944444,
+                563.4623211111111,
+                19.762017500000006,
+                26.33529277777766
+              ],
+              [
+                299.6914756944444,
+                574.550882962963,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                305.9321086111111,
+                546.829477962963,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                305.9321086111111,
+                531.5827546296297,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                318.4133954166666,
+                560.690222962963,
+                19.762017500000006,
+                26.33529277777766
+              ],
+              [
+                318.4133954166666,
+                548.2155694444444,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                323.6139509722222,
+                571.7787283333333,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                323.6139509722222,
+                588.4115431481482,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                323.6139509722222,
+                577.3230375925926,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                329.8545625,
+                503.8614344444445,
+                19.762017500000006,
+                26.335292777777763
+              ],
+              [
+                365.21818375000004,
+                589.7976346296296,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                370.4187181944444,
+                556.5319768518519,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                370.4187181944444,
+                569.0066303703704,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                370.4187181944444,
+                557.9180683333334,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                370.4187181944444,
+                527.4245933333334,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                370.4187181944444,
+                573.1648198148148,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                388.1005180555555,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                394.3411933333333,
+                564.8484124074074,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                418.2635413888889,
+                595.3418874074074,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                423.4641180555555,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                423.4641180555555,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                434.9053276388889,
+                570.392637037037,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                447.38659333333334,
+                591.1836977777778,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                447.38659333333334,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                465.0683508333333,
+                559.3041596296296,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                482.7501508333334,
+                571.7787283333333,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                494.1913180555556,
+                546.829477962963,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                494.1913180555556,
+                573.1648198148148,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                505.63248527777785,
+                567.620567037037,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                511.8731604166667,
+                571.7787283333333,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                523.3143276388889,
+                589.7976346296296,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                523.3143276388889,
+                588.4115431481482,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                529.5549604166666,
+                588.4115431481482,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                529.5549604166666,
+                591.1836977777778,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                529.5549604166666,
+                517.7221227777777,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                535.7956356944444,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                540.9961276388889,
+                571.7787283333333,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                540.9961276388889,
+                562.0762296296297,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                547.2368027777777,
+                589.7976346296296,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                558.67797,
+                571.7787283333333,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                564.9186027777778,
+                578.7090442592593,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                571.1592356944444,
+                499.7032448148149,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                571.1592356944444,
+                577.3230375925926,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                576.35977,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                594.04157,
+                505.2474411111111,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                606.5228356944444,
+                555.1459137037037,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                617.9640027777778,
+                589.7976346296296,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                617.9640027777778,
+                564.8484124074074,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                617.9640027777778,
+                503.8614344444445,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                624.2046355555556,
+                574.550882962963,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                635.6458027777778,
+                581.4812272222222,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                653.3276027777778,
+                492.7728724074075,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                658.5281372222222,
+                549.601660925926,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                658.5281372222222,
+                560.690222962963,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                658.5281372222222,
+                512.1778135185185,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                664.76877,
+                578.7090442592593,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                664.76877,
+                560.690222962963,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                664.76877,
+                552.3738155555556,
+                19.762017499999967,
+                26.33529277777766
+              ],
+              [
+                676.2099372222223,
+                581.4812272222222,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                676.2099372222223,
+                581.4812272222222,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                676.2099372222223,
+                580.0951357407408,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                682.45057,
+                580.0951357407408,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                682.45057,
+                580.0951357407408,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                688.6912451388888,
+                575.9369744444443,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                688.6912451388888,
+                580.0951357407408,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                693.8917372222222,
+                593.9558524074074,
+                19.762017499999967,
+                26.335292777777763
+              ],
+              [
+                705.3329044444445,
+                517.7221227777777,
+                19.762017499999967,
+                26.33529277777787
+              ],
+              [
+                711.5736219444444,
+                580.0951357407408,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                717.8142123611112,
+                577.3230375925926,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                729.2553372222222,
+                573.1648198148148,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                735.496012361111,
+                531.5827546296297,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                741.7366027777776,
+                580.0951357407408,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                741.7366027777776,
+                580.0951357407408,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                742.7768283333332,
+                509.4056307407408,
+                19.762017500000045,
+                26.33529277777787
+              ],
+              [
+                746.9371372222223,
+                573.1648198148148,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                759.4184875,
+                582.8672903703704,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                766.69921875,
+                485.8425564814815,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                791.66175,
+                580.0951357407408,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                793.7420315277778,
+                589.7976346296296,
+                19.762017500000045,
+                26.33529277777787
+              ],
+              [
+                794.7820875,
+                553.7598222222223,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                815.5841404166666,
+                611.9747020370371,
+                19.762017500000045,
+                26.33529277777766
+              ],
+              [
+                815.5841404166666,
+                580.0951357407408,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                784.3810187500001,
+                552.3738155555556,
+                19.762017500000045,
+                26.33529277777766
+              ],
+              [
+                822.8649563888888,
+                581.4812272222222,
+                19.762017500000045,
+                26.335292777777763
+              ],
+              [
+                833.266025138889,
+                575.9369744444443,
+                19.762017500000045,
+                26.33529277777787
+              ],
+              [
+                830.1456875,
+                578.7090442592593,
+                19.762017500000045,
+                26.33529277777766
+              ],
+              [
+                348.57650333333333,
+                577.3230377777778,
+                17.681805138888862,
+                23.56315666666662
+              ],
+              [
+                348.57650333333333,
+                577.3230377777778,
+                17.681805138888862,
+                23.56315666666662
+              ],
+              [
+                389.1406588888889,
+                412.3808685185186,
+                17.6818051388889,
+                23.56315666666662
+              ],
+              [
+                406.8224588888889,
+                747.8093748148148,
+                17.6818051388889,
+                23.56315666666662
+              ],
+              [
+                694.9318779166666,
+                531.5827546296297,
+                17.6818051388889,
+                23.563156666666725
+              ],
+              [
+                706.373045138889,
+                629.9936083333334,
+                17.6818051388889,
+                23.56315666666662
+              ],
+              [
+                794.7820875,
+                804.6382057407408,
+                17.6818051388889,
+                23.563156666666725
+              ],
+              [
+                793.7420315277778,
+                320.90041555555564,
+                17.6818051388889,
+                23.56315666666662
+              ],
+              [
+                811.4236619444445,
+                660.487083148148,
+                17.6818051388889,
+                23.563156666666725
+              ]
+            ],
+            "object_family": "pdf-raster-point-cluster",
+            "visual_hint": "chart",
+            "chart_type_hint": "scatterplot",
+            "expected_mark_count": 105,
+            "object_count": 105,
+            "source_bbox_points": [
+              69.8104462,
+              119.28622440000004,
+              671.7801907,
+              469.8
+            ]
+          }
+        },
+        {
+          "region_id": "p012-r001",
+          "page": 12,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "detected_pdf-raster-point-cluster_as_logical_visual"
+      ]
+    },
+    {
+      "page": 13,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.13184,
+      "native_text_quality": 0.99661,
+      "image_coverage": 0.13237,
+      "vector_line_count": 17,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p013-r003",
+          "page": 13,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33319444444444,
+            83.90674074074074,
+            454.4014333333333,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99661,
+          "native_text": "TRACK RECORD – SENIOR UNITS",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 5,
+            "source_bbox_points": [
+              49.1999,
+              45.30964,
+              376.368932,
+              65.34963999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p013-r004",
+          "page": 13,
+          "kind": "normal_text",
+          "coordinates": [
+            52.0,
+            186.1376666666667,
+            552.8089666666667,
+            41.34177777777771
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99661,
+          "native_text": " Preferred Equity Investment (Senior Units)",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 6,
+            "source_bbox_points": [
+              37.44,
+              100.51434,
+              435.46245600000003,
+              122.83889999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p013-r002",
+          "page": 13,
+          "kind": "visual",
+          "coordinates": [
+            91.03465756444444,
+            240.83523420370372,
+            806.9816744133334,
+            629.1647657962964
+          ],
+          "reading_order": 3,
+          "classification_method": "pdf-vector-bar-cluster",
+          "confidence": 0.94,
+          "native_text": "",
+          "metadata": {
+            "source_member_bboxes": [
+              [
+                123.1449534464,
+                328.00713134600005,
+                138.6725369212,
+                403.00222029400004
+              ],
+              [
+                141.2604176576,
+                184.05102647,
+                173.17818800959998,
+                403.0021881665
+              ],
+              [
+                226.662212959,
+                309.04284005600005,
+                243.052441691,
+                403.00220472800004
+              ],
+              [
+                244.77748247120002,
+                253.01203597250003,
+                277.5578921296,
+                403.00220472800004
+              ],
+              [
+                331.0421177288,
+                310.766867952,
+                346.5697012036,
+                403.00222029400004
+              ],
+              [
+                349.15720316479997,
+                223.70361314450003,
+                381.0749735168,
+                403.00220472800004
+              ],
+              [
+                434.55937724140006,
+                303.870771934,
+                450.9496059734,
+                403.00222029400004
+              ],
+              [
+                452.674284552,
+                248.70197184350002,
+                485.4546942104,
+                403.00220472800004
+              ],
+              [
+                538.9392820112,
+                303.870771934,
+                554.4668499086,
+                403.00222029400004
+              ],
+              [
+                557.0539886720001,
+                228.875686787,
+                588.971759024,
+                403.00220472800004
+              ]
+            ],
+            "member_coordinates": [
+              [
+                171.03465756444444,
+                607.4206136037038,
+                21.56608815944444,
+                138.87979434814812
+              ],
+              [
+                196.19502452444442,
+                340.83523420370375,
+                44.33023659999999,
+                405.4651142527777
+              ],
+              [
+                314.80862910972223,
+                572.3015556592593,
+                22.764206572222257,
+                173.99882346666666
+              ],
+              [
+                339.9687256544445,
+                468.54080735648154,
+                45.52834674777779,
+                277.75957176944445
+              ],
+              [
+                459.78071906777774,
+                575.4941999111111,
+                21.56608815944444,
+                170.80620804074084
+              ],
+              [
+                484.940559951111,
+                414.26595026759264,
+                44.33023660000006,
+                332.03442885833334
+              ],
+              [
+                603.5546906130556,
+                562.7236517296296,
+                22.764206572222175,
+                183.5767562222223
+              ],
+              [
+                628.7142841,
+                460.5592071175926,
+                45.52834674777779,
+                285.74117200833336
+              ],
+              [
+                748.5267805711111,
+                562.7236517296296,
+                21.56606652416665,
+                183.5767562222223
+              ],
+              [
+                773.6860953777777,
+                423.8438644203704,
+                44.33023659999991,
+                322.4565147055556
+              ]
+            ],
+            "object_family": "pdf-vector-bar-cluster",
+            "visual_hint": "chart",
+            "chart_type_hint": "bar",
+            "expected_mark_count": 10,
+            "source_bbox_points": [
+              65.5449534464,
+              130.05102647,
+              646.571759024,
+              469.8
+            ]
+          }
+        },
+        {
+          "region_id": "p013-r005",
+          "page": 13,
+          "kind": "normal_text",
+          "coordinates": [
+            895.6229499999998,
+            277.2461111111111,
+            48.14156666666649,
+            29.555555555555625
+          ],
+          "reading_order": 4,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99661,
+          "native_text": "floor.",
+          "metadata": {
+            "median_font_size": 15.960000000000036,
+            "word_count": 1,
+            "source_bbox_points": [
+              644.8485239999999,
+              149.7129,
+              679.5104519999998,
+              165.67290000000003
+            ]
+          }
+        },
+        {
+          "region_id": "p013-r001",
+          "page": 13,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 5,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "ignored_sparse_table_overlapping_detected_chart",
+        "detected_pdf-vector-bar-cluster_as_logical_visual"
+      ]
+    },
+    {
+      "page": 14,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.10988,
+      "native_text_quality": 0.99511,
+      "image_coverage": 0.13237,
+      "vector_line_count": 255,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p014-r003",
+          "page": 14,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33319444444444,
+            83.90674074074074,
+            687.7600000000002,
+            225.928814814815
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 0.99511,
+          "native_text": "TRACK RECORD – CLASS B UNITS\n Equity Investment (Class B)\n 10%-15% target returns\n 13.6% average annual returns since inception (9/2020)\n 13.6% proforma average over 5 years",
+          "metadata": {
+            "median_font_size": 18.0,
+            "word_count": 30,
+            "source_bbox_points": [
+              49.1999,
+              45.30964,
+              544.3871000000001,
+              167.3112000000001
+            ]
+          }
+        },
+        {
+          "region_id": "p014-r002",
+          "page": 14,
+          "kind": "visual",
+          "coordinates": [
+            53.16348388888889,
+            330.681333962963,
+            910.63012895875,
+            539.318666037037
+          ],
+          "reading_order": 2,
+          "classification_method": "pdf-vector-bar-cluster",
+          "confidence": 0.94,
+          "native_text": "",
+          "metadata": {
+            "source_member_bboxes": [
+              [
+                95.8777084,
+                341.38123873,
+                103.7229962383,
+                419.7268109500001
+              ],
+              [
+                119.41358966920001,
+                297.85591492000003,
+                128.1305781289,
+                419.7268109500001
+              ],
+              [
+                143.82118931410002,
+                328.32364336,
+                151.6664771524,
+                419.7268109500001
+              ],
+              [
+                168.22877120470002,
+                298.72642246000004,
+                176.074059043,
+                419.7268109500001
+              ],
+              [
+                192.63635309530002,
+                310.91351029000003,
+                200.48164093360003,
+                419.7268109500001
+              ],
+              [
+                216.1722521188,
+                236.92045804000003,
+                224.8892405785,
+                419.72679322
+              ],
+              [
+                240.57983400940003,
+                328.32364336,
+                248.425139602,
+                419.7268109500001
+              ],
+              [
+                264.98741590000003,
+                353.56832656000006,
+                272.8327214926,
+                419.7268109500001
+              ],
+              [
+                289.39499779060003,
+                302.20845262,
+                297.2403033832,
+                419.72681095
+              ],
+              [
+                313.80257968120003,
+                306.56097259,
+                321.6478852738,
+                419.72679322
+              ],
+              [
+                337.33847870470004,
+                232.56792034,
+                346.0554671644,
+                419.7268109500001
+              ],
+              [
+                361.74606059530004,
+                333.54667087,
+                369.5913661879,
+                419.7268109500001
+              ],
+              [
+                386.15364248590004,
+                266.51767894,
+                393.9989303242,
+                419.72679322
+              ],
+              [
+                410.56122437650004,
+                261.2946337,
+                418.40651221480005,
+                419.72679322
+              ],
+              [
+                434.09712340000004,
+                315.26603026000004,
+                442.8141118597,
+                419.72679322
+              ],
+              [
+                458.5047052906,
+                273.48173926000004,
+                466.3499931289,
+                419.72681095
+              ],
+              [
+                482.91228718120004,
+                335.28768595,
+                490.75757501950005,
+                419.7268109500001
+              ],
+              [
+                507.3198868261,
+                308.30198767,
+                515.1651746644,
+                419.7268109500001
+              ],
+              [
+                531.7274687167001,
+                336.15819349000003,
+                539.5727565550001,
+                419.7268109500001
+              ],
+              [
+                555.2633499859,
+                317.87755288000005,
+                563.9803561999,
+                419.72679322
+              ],
+              [
+                579.6709318765,
+                331.80565579000006,
+                587.5162197148001,
+                419.7268109500001
+              ],
+              [
+                604.0785315214,
+                336.15819349000003,
+                611.9238193597,
+                419.7268109500001
+              ],
+              [
+                628.486113412,
+                336.15819349000003,
+                636.3314012503,
+                419.7268109500001
+              ]
+            ],
+            "member_coordinates": [
+              [
+                133.1634838888889,
+                632.1874791296297,
+                10.896233108749993,
+                145.08439300000012
+              ],
+              [
+                165.85220787388891,
+                551.5850276296296,
+                12.106928416249987,
+                225.68684450000006
+              ],
+              [
+                199.7516518251389,
+                608.0067469629629,
+                10.896233108749975,
+                169.2651251666668
+              ],
+              [
+                233.65107111763893,
+                553.1970786296297,
+                10.896233108749975,
+                224.07479350000008
+              ],
+              [
+                267.55049041013893,
+                575.7657597962963,
+                10.896233108750014,
+                201.5061123333334
+              ],
+              [
+                300.2392390538889,
+                438.741588962963,
+                12.106928416249987,
+                338.53025033333324
+              ],
+              [
+                334.138658346389,
+                608.0067469629629,
+                10.896257767499959,
+                169.2651251666668
+              ],
+              [
+                368.0380776388889,
+                654.7561602962965,
+                10.896257767499959,
+                122.51571183333336
+              ],
+              [
+                401.937496931389,
+                559.6452826296296,
+                10.896257767499959,
+                217.62658950000002
+              ],
+              [
+                435.8369162238889,
+                567.7055047962963,
+                10.896257767499959,
+                209.56633449999998
+              ],
+              [
+                468.5256648676389,
+                430.681333962963,
+                12.106928416249946,
+                346.59053816666676
+              ],
+              [
+                502.42508416013897,
+                617.6790201296296,
+                10.896257767499959,
+                159.5928520000001
+              ],
+              [
+                536.324503452639,
+                493.55125729629634,
+                10.896233108749936,
+                283.720582
+              ],
+              [
+                570.223922745139,
+                483.8789512962963,
+                10.896233108750014,
+                293.3928879999999
+              ],
+              [
+                602.912671388889,
+                583.825981962963,
+                12.106928416249946,
+                193.44585733333324
+              ],
+              [
+                636.8120906813888,
+                506.4476652962964,
+                10.896233108750014,
+                270.8242068333333
+              ],
+              [
+                670.711509973889,
+                620.9031221296297,
+                10.896233108750014,
+                156.3687500000001
+              ],
+              [
+                704.6109539251389,
+                570.9296067962963,
+                10.896233108749936,
+                206.34226533333344
+              ],
+              [
+                738.510373217639,
+                622.5151731296297,
+                10.896233108750014,
+                154.75669900000008
+              ],
+              [
+                771.199097202639,
+                588.662134962963,
+                12.106953074999971,
+                188.6097043333332
+              ],
+              [
+                805.0985164951389,
+                614.4549181296297,
+                10.896233108750014,
+                162.816954
+              ],
+              [
+                838.9979604463889,
+                622.5151731296297,
+                10.896233108750014,
+                154.75669900000008
+              ],
+              [
+                872.8973797388888,
+                622.5151731296297,
+                10.896233108750014,
+                154.75669900000008
+              ]
+            ],
+            "object_family": "pdf-vector-bar-cluster",
+            "visual_hint": "chart",
+            "chart_type_hint": "bar",
+            "expected_mark_count": 23,
+            "source_bbox_points": [
+              38.2777084,
+              178.56792034,
+              693.9314012503,
+              469.8
+            ]
+          }
+        },
+        {
+          "region_id": "p014-r001",
+          "page": 14,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 3,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1",
+        "detected_pdf-vector-bar-cluster_as_logical_visual"
+      ]
+    },
+    {
+      "page": 15,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.09602,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.18488,
+      "vector_line_count": 6,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 2,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p015-r003",
+          "page": 15,
+          "kind": "normal_text",
+          "coordinates": [
+            60.0,
+            83.07229629629629,
+            336.0401833333334,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "CONTACT INFORMATION",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 2,
+            "source_bbox_points": [
+              43.2,
+              44.85903999999999,
+              285.14893200000006,
+              64.89903999999996
+            ]
+          }
+        },
+        {
+          "region_id": "p015-r004",
+          "page": 15,
+          "kind": "normal_text",
+          "coordinates": [
+            156.73611111111111,
+            247.02185185185184,
+            694.1428611111112,
+            37.11111111111104
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 6,
+            "source_bbox_points": [
+              112.85,
+              133.3918,
+              612.63286,
+              153.43179999999995
+            ]
+          }
+        },
+        {
+          "region_id": "p015-r005",
+          "page": 15,
+          "kind": "normal_text",
+          "coordinates": [
+            138.06730555555563,
+            353.6791851851852,
+            723.8088833333333,
+            37.12025925925925
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Will Hensley | whensley@ccrcapital.com | 720-771-6909",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 6,
+            "source_bbox_points": [
+              99.40846000000005,
+              190.98676,
+              620.5508560000001,
+              211.0317
+            ]
+          }
+        },
+        {
+          "region_id": "p015-r006",
+          "page": 15,
+          "kind": "normal_text",
+          "coordinates": [
+            153.04747222222232,
+            460.3456666666668,
+            693.9925999999998,
+            37.12044444444428
+          ],
+          "reading_order": 4,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Scott Brown | sbrown@ccrcapital.com | 816-225-3859",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 6,
+            "source_bbox_points": [
+              110.19418000000007,
+              248.58666000000005,
+              609.868852,
+              268.63169999999997
+            ]
+          }
+        },
+        {
+          "region_id": "p015-r001",
+          "page": 15,
+          "kind": "visual",
+          "coordinates": [
+            796.6667175,
+            544.8888142592592,
+            171.33332416666667,
+            306.44441314814816
+          ],
+          "reading_order": 5,
+          "classification_method": "pdf-image-object",
+          "confidence": 0.58,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              2
+            ],
+            "source_bbox_points": [
+              573.6000366,
+              294.2399597,
+              696.96003,
+              459.7199428
+            ],
+            "source_member_bboxes": [
+              [
+                573.6000366,
+                294.2399597,
+                696.96003,
+                459.7199428
+              ]
+            ],
+            "member_coordinates": [
+              [
+                796.6667175,
+                544.8888142592592,
+                171.33332416666667,
+                306.44441314814816
+              ]
+            ],
+            "logical_visual_merge": false
+          }
+        },
+        {
+          "region_id": "p015-r002",
+          "page": 15,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 6,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    },
+    {
+      "page": 16,
+      "width_points": 720.0,
+      "height_points": 540.0,
+      "rotation": 0,
+      "native_text_available": true,
+      "native_text_coverage": 0.39779,
+      "native_text_quality": 1.0,
+      "image_coverage": 0.13237,
+      "vector_line_count": 3,
+      "possible_table_regions": 0,
+      "possible_visual_regions": 1,
+      "routing_confidence": 0.58,
+      "regions": [
+        {
+          "region_id": "p016-r002",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            60.0,
+            79.06285185185185,
+            182.5365666666667,
+            37.11111111111104
+          ],
+          "reading_order": 1,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "DISCLOSURE",
+          "metadata": {
+            "median_font_size": 20.039999999999964,
+            "word_count": 1,
+            "source_bbox_points": [
+              43.2,
+              42.69394,
+              174.62632800000003,
+              62.73393999999996
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r003",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.33333333333331,
+            146.74933333333334,
+            871.697472222222,
+            68.30488888888898
+          ],
+          "reading_order": 2,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR to take reasonable steps to prevent inadvertent disclosures to\nSOLICITATION OF AN OFFER OF SECURITIES. No legally any other party, and not to use the information in any manner\nbinding obligations will be created unless and until definitive",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 46,
+            "source_bbox_points": [
+              49.19999999999999,
+              79.24464,
+              676.8221799999999,
+              116.12928000000005
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r004",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.3334722222218,
+            202.44388888888892,
+            332.9479999999998,
+            20.444444444444482
+          ],
+          "reading_order": 3,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "that competes with the business of the Company.",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 8,
+            "source_bbox_points": [
+              373.2000999999996,
+              109.31970000000001,
+              612.9226599999995,
+              120.35970000000003
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r005",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.3640000000004,
+            219.0613333333334,
+            871.7588055555542,
+            142.7022222222224
+          ],
+          "reading_order": 4,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "written agreements are executed and delivered by all parties.\nThis summary is not a commitment to purchase or sell any\ninvestment, and any investment is conditioned on the The Company is a limited liability company, which under\ncompletion of due diligence, legal review and final, signed federal law, may be taxed as either a corporation or a\ndocumentation that is satisfactory to the Company and each partnership. The Company has elected to be taxed as a\npotential investor. partnership. Each prospective investor must consult their own",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 86,
+            "source_bbox_points": [
+              49.22208000000029,
+              118.29312000000004,
+              676.8884199999994,
+              195.35232000000013
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r006",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.4254722222211,
+            359.8047777777779,
+            421.72186666666653,
+            44.89600000000006
+          ],
+          "reading_order": 5,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "legal counsel and/or personal tax advisor to determine the\npotential tax consequences of a prospective investment in the",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 18,
+            "source_bbox_points": [
+              373.26633999999916,
+              194.29458000000005,
+              676.906083999999,
+              218.5384200000001
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r007",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.41000000000065,
+            401.3235555555558,
+            421.70653333333337,
+            20.444444444444482
+          ],
+          "reading_order": 6,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "The Company makes no representation or warranty as to the",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 10,
+            "source_bbox_points": [
+              49.25520000000047,
+              216.7147200000001,
+              352.8839040000005,
+              227.75472000000013
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r008",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.4254722222208,
+            408.707888888889,
+            69.59800000000003,
+            20.444444444444482
+          ],
+          "reading_order": 7,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Company.",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 1,
+            "source_bbox_points": [
+              373.26633999999905,
+              220.70226000000008,
+              423.37689999999907,
+              231.7422600000001
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r009",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.4253333333341,
+            425.7751111111113,
+            421.63599999999997,
+            44.89600000000006
+          ],
+          "reading_order": 8,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "accuracy or completeness of the presentation, and shall not\nhave any liability for any representations (expressed or",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 17,
+            "source_bbox_points": [
+              49.26624000000055,
+              229.91856000000013,
+              352.84416000000056,
+              254.16240000000016
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r010",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.425472222221,
+            466.2590000000002,
+            421.5731333333336,
+            20.444444444444482
+          ],
+          "reading_order": 9,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "The Company’s investment activities involve a significant",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 7,
+            "source_bbox_points": [
+              373.2663399999991,
+              251.7798600000001,
+              676.7989959999993,
+              262.8198600000001
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r011",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.47133333333426,
+            474.67822222222253,
+            421.49799999999993,
+            20.444444444444482
+          ],
+          "reading_order": 10,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "implied) regarding information contained herein, any",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 6,
+            "source_bbox_points": [
+              49.29936000000066,
+              256.32624000000015,
+              352.7779200000006,
+              267.3662400000002
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r012",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.4254722222214,
+            490.7105555555558,
+            421.6605333333338,
+            20.444444444444482
+          ],
+          "reading_order": 11,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "degree of risk, including but not limited to illiquidity, interest",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 10,
+            "source_bbox_points": [
+              373.2663399999994,
+              264.9837000000001,
+              676.8619239999997,
+              276.02370000000013
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r013",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.48666666666756,
+            499.12977777777814,
+            421.51026666666655,
+            20.444444444444482
+          ],
+          "reading_order": 12,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "omissions, or any other written or oral communications",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 8,
+            "source_bbox_points": [
+              49.31040000000064,
+              269.53008000000017,
+              352.7977920000006,
+              280.5700800000002
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r014",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.5021388888886,
+            515.1621111111112,
+            338.2686666666666,
+            20.444444444444482
+          ],
+          "reading_order": 13,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "rates, reinvestment, prepayment and default risks.",
+          "metadata": {
+            "median_font_size": 11.04000000000002,
+            "word_count": 6,
+            "source_bbox_points": [
+              373.32153999999974,
+              278.18754000000007,
+              616.8749799999997,
+              289.2275400000001
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r015",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.47133333333464,
+            523.5813333333335,
+            871.7588055555545,
+            216.28566666666646
+          ],
+          "reading_order": 14,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "transmitted to the recipient in the course of its evaluation. No\nperson has been authorized in connection with this\npresentation to give any information or make any Performance of any investment is subject to numerous factors\nrepresentations and, if given or made, must not be relied upon that are neither within the control of, nor predictable by, the\nas having been authorized. Only those representations and Company or its Managers. Such factors include a wide range\nwarranties, which may be made to an investor in a definitive of economic, political, competitive, and other conditions that\nwritten agreement, and subject to such limitations and may affect investments in general or specific industries or\nrestrictions as may be specified therein, will have any legal companies. PAST PERFORMANCE IS NO GUARANTEE OF\neffect. FUTURE PERFORMANCE. Distributions are subject to",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 136,
+            "source_bbox_points": [
+              49.299360000000945,
+              282.7339200000001,
+              676.9657000000002,
+              399.52818
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r016",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.5021388888894,
+            743.874111111111,
+            421.60533333333336,
+            44.89600000000006
+          ],
+          "reading_order": 15,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "available cash. This summary is qualified in its entirety by\nmore detailed information available from the Company.",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 17,
+            "source_bbox_points": [
+              373.3215400000003,
+              401.69201999999996,
+              676.8773800000004,
+              425.93586
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r017",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.48666666666807,
+            779.1982222222223,
+            421.64519999999993,
+            20.444444444444375
+          ],
+          "reading_order": 16,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "By accepting this presentation, recipient acknowledges the",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 7,
+            "source_bbox_points": [
+              49.31040000000101,
+              420.76704000000007,
+              352.894944000001,
+              431.80704000000003
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r018",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.5174722222229,
+            792.7772222222222,
+            421.5394000000001,
+            20.444444444444375
+          ],
+          "reading_order": 17,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Accredited investors should request and review the Offering",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 8,
+            "source_bbox_points": [
+              373.3325800000004,
+              428.0997,
+              676.8409480000005,
+              439.13969999999995
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r019",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.44066666666811,
+            803.6497777777778,
+            421.63446666666664,
+            20.444444444444482
+          ],
+          "reading_order": 18,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "information contained herein is confidential and proprietary",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 7,
+            "source_bbox_points": [
+              49.27728000000104,
+              433.97088,
+              352.85409600000105,
+              445.01088000000004
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r020",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            518.5328055555563,
+            817.2287777777777,
+            170.62933333333334,
+            20.444444444444375
+          ],
+          "reading_order": 19,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "Materials in their entirety.",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 4,
+            "source_bbox_points": [
+              373.3436200000005,
+              441.30354,
+              496.1967400000005,
+              452.34353999999996
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r021",
+          "page": 16,
+          "kind": "normal_text",
+          "coordinates": [
+            68.4253333333348,
+            828.1013333333334,
+            421.6820000000001,
+            44.89599999999996
+          ],
+          "reading_order": 20,
+          "classification_method": "native-positioned-words",
+          "confidence": 1.0,
+          "native_text": "and agrees not to make copies or disclose any of this\ninformation without the permission of the Company,",
+          "metadata": {
+            "median_font_size": 11.039999999999992,
+            "word_count": 18,
+            "source_bbox_points": [
+              49.26624000000106,
+              447.17472000000004,
+              352.8772800000011,
+              471.41856
+            ]
+          }
+        },
+        {
+          "region_id": "p016-r001",
+          "page": 16,
+          "kind": "decoration",
+          "coordinates": [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ],
+          "reading_order": 21,
+          "classification_method": "repeated-page-band",
+          "confidence": 0.98,
+          "native_text": "",
+          "metadata": {
+            "image_indices": [
+              1
+            ],
+            "source_bbox_points": [
+              -4.0800004,
+              470.519989,
+              724.0799833,
+              541.1999869
+            ],
+            "source_member_bboxes": [
+              [
+                -4.0800004,
+                470.519989,
+                724.0799833,
+                541.1999869
+              ]
+            ],
+            "member_coordinates": [
+              [
+                0.0,
+                871.333312962963,
+                1000.0,
+                130.888885
+              ]
+            ],
+            "logical_visual_merge": false,
+            "repeated_on_pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ],
+      "warnings": [
+        "ignored_full_page_table_false_positive_1"
+      ]
+    }
+  ]
+}

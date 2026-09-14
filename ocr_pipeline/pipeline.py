@@ -37,7 +37,7 @@ US_GEOGRAPHIES = {
     "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington",
     "west virginia", "wisconsin", "wyoming", "district of columbia",
 }
-PIPELINE_VERSION = "0.4.0"
+PIPELINE_VERSION = "0.4.1"
 PAGE_SCHEMA_VERSION = "unified-source-page/2.0"
 COLLECTION_SCHEMA_VERSION = "unified-source-collection/1.1"
 INSPECTION_SCHEMA_VERSION = "pdf-inspection/1.0"
@@ -244,7 +244,7 @@ def _provenance(source_hash: str, region: Region, ocr_lines: list[dict[str, Any]
         "reading_order": region.reading_order,
         "source_bbox_points": region.metadata.get("source_bbox_points"),
         "ocr_evidence_ids": [line["evidence_id"] for line in ocr_lines],
-        "rendered_page": str(image),
+        "rendered_page": f"page-images/{image.name}",
     }
 
 
@@ -673,7 +673,7 @@ def _visual_blocks(
             **({"chart_type": chart_type} if kind == "chart" else {}),
             "vision_summary": _vision_summary(features),
             "vision_features_ref": vision_features_ref,
-            "region_image": str(crop_path),
+            "region_image": f"region-images/{crop_path.name}",
         },
         coordinates=region.coordinates, extraction_method=methods, confidence=classification_confidence,
         validation_status=parent_status,
@@ -907,7 +907,7 @@ def run_pipeline(
         shutil.copy2(pdf, copied)
         if _sha256(copied) != source_hash:
             raise RuntimeError("Preserved source copy hash mismatch")
-        manifest["preserved_source"] = str(copied)
+        manifest["preserved_source"] = f"source/{copied.name}"
         manifest["stages"].append({"name": "ingestion", "status": "complete", "finished_utc": _now()})
         _write_json(output / "manifest.json", manifest)
 
@@ -979,7 +979,7 @@ def run_pipeline(
                 "source_sha256": source_hash, "page": inspection.page,
                 "blocks": blocks,
                 "evidence_ledger": {
-                    "rendered_page": str(rendered[inspection.page]),
+                    "rendered_page": f"page-images/{rendered[inspection.page].name}",
                     "rendered_page_sha256": _sha256(rendered[inspection.page]),
                     "ocr_engine": ocr_result.get("engine"),
                     "ocr_lines": ocr_page.get("lines", []),
@@ -1011,7 +1011,7 @@ def run_pipeline(
         ])
         manifest["status"] = "complete"
         manifest["finished_utc"] = _now()
-        manifest["source_blocks_manifest"] = str(blocks_dir / "document-manifest.json")
+        manifest["source_blocks_manifest"] = "source-blocks/document-manifest.json"
         manifest["validation"] = collection_manifest["validation"]
         _write_json(output / "manifest.json", manifest)
         return output

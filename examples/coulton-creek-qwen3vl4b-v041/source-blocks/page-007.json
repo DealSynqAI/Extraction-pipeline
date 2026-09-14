@@ -1,0 +1,1833 @@
+{
+  "schema_version": "unified-source-page/2.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 7,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 7,
+      "block_id": "p007-r003-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+        "raw_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+        "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+        "visible_ocr_text": "DECEMBER 31, 2023\nPORTFOLIO SUMMARY",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        46.111111,
+        82.00063,
+        686.3199,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          33.2,
+          44.280340000000024,
+          527.3503280000003,
+          64.32033999999999
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0001",
+          "p007-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 7,
+      "block_id": "p007-r004-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "$146 million / 61 Investments",
+        "raw_text": "$146 million / 61 Investments",
+        "native_text": "$146 million / 61 Investments",
+        "visible_ocr_text": "$146 million / 61 Investments",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        242.974306,
+        164.93,
+        504.604217,
+        51.777778
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          174.9415,
+          89.06220000000002,
+          538.2565360000002,
+          117.0222
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "page": 7,
+      "block_id": "p007-r001-chart",
+      "parent_block_id": null,
+      "content": {
+        "title": "Portfolio Allocation",
+        "labels": [
+          "Portfolio Allocation",
+          "Aviation",
+          "Office",
+          "Self-Storage",
+          "0.3%",
+          "6.1%",
+          "15.9%",
+          "Land",
+          "Industrial",
+          "7.7%",
+          "0.3%",
+          "Retail",
+          "Healthcare",
+          "7.2%",
+          "0.9%",
+          "Hospitality",
+          "14.9%",
+          "Single Family",
+          "9.2%",
+          "Multifamily",
+          "37.5%"
+        ],
+        "chart_type": "pie",
+        "vision_summary": {
+          "horizontal_line_count": 1,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 29,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 107,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.26319
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p007-r001.json",
+          "sha256": "9561187d9d9b392b011374c11c15412397d0e4399fb12d12156d6f11dc15fd34"
+        },
+        "region_image": "region-images/p007-r001.png",
+        "percentage_total": 100.0,
+        "percentage_total_reconciles": true
+      },
+      "coordinates": [
+        167.546327,
+        200.7685,
+        676.053606,
+        661.076459
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.9,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0004",
+          "p007-ocr-0005",
+          "p007-ocr-0006",
+          "p007-ocr-0007",
+          "p007-ocr-0008",
+          "p007-ocr-0009",
+          "p007-ocr-0010",
+          "p007-ocr-0011",
+          "p007-ocr-0012",
+          "p007-ocr-0013",
+          "p007-ocr-0014",
+          "p007-ocr-0015",
+          "p007-ocr-0016",
+          "p007-ocr-0017",
+          "p007-ocr-0018",
+          "p007-ocr-0019",
+          "p007-ocr-0020",
+          "p007-ocr-0021",
+          "p007-ocr-0022",
+          "p007-ocr-0023",
+          "p007-ocr-0024"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-001",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "0.3%",
+        "numeric_value": 0.3,
+        "normalized_value": 0.003,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0005",
+        "value_evidence_id": "p007-ocr-0008",
+        "label_coordinates": [
+          679.939494,
+          309.175537,
+          75.100789,
+          27.260634
+        ],
+        "value_coordinates": [
+          690.020182,
+          339.760634,
+          49.89917,
+          30.585124
+        ],
+        "visual_mark_coordinates": [
+          502.9731326388889,
+          319.3749322222223,
+          187.19850180555554,
+          254.40657777777778
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Aviation"
+      },
+      "coordinates": [
+        502.973133,
+        319.374932,
+        187.198502,
+        254.406578
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89531,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0005",
+          "p007-ocr-0008"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-002",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "6.1%",
+        "numeric_value": 6.1,
+        "normalized_value": 0.061,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0006",
+        "value_evidence_id": "p007-ocr-0009",
+        "label_coordinates": [
+          360.887085,
+          345.744683,
+          58.971802,
+          30.585097
+        ],
+        "value_coordinates": [
+          362.399211,
+          378.324463,
+          51.411255,
+          33.244683
+        ],
+        "visual_mark_coordinates": [
+          339.54588569444445,
+          313.43547685185183,
+          168.62722194444447,
+          260.34603092592596
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Office"
+      },
+      "coordinates": [
+        339.545886,
+        313.435477,
+        168.627222,
+        260.346031
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89203,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0006",
+          "p007-ocr-0009"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-003",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "15.9%",
+        "numeric_value": 15.9,
+        "normalized_value": 0.159,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0007",
+        "value_evidence_id": "p007-ocr-0010",
+        "label_coordinates": [
+          449.092733,
+          346.409587,
+          110.383057,
+          33.909559
+        ],
+        "value_coordinates": [
+          471.77417,
+          379.65427,
+          59.47583,
+          30.585097
+        ],
+        "visual_mark_coordinates": [
+          404.9168056944445,
+          280.7685003703704,
+          210.22688888888888,
+          292.0231146296297
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Self-Storage"
+      },
+      "coordinates": [
+        404.916806,
+        280.7685,
+        210.226889,
+        292.023115
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89659,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0007",
+          "p007-ocr-0010"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-004",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "7.7%",
+        "numeric_value": 7.7,
+        "normalized_value": 0.077,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0011",
+        "value_evidence_id": "p007-ocr-0013",
+        "label_coordinates": [
+          597.782267,
+          379.65427,
+          48.891113,
+          31.25
+        ],
+        "value_coordinates": [
+          594.254028,
+          412.898953,
+          50.403239,
+          31.25
+        ],
+        "visual_mark_coordinates": [
+          502.9731326388889,
+          319.3749322222223,
+          187.19850180555554,
+          254.40657777777778
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Land"
+      },
+      "coordinates": [
+        502.973133,
+        319.374932,
+        187.198502,
+        254.406578
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89328,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0011",
+          "p007-ocr-0013"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-005",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "0.3%",
+        "numeric_value": 0.3,
+        "normalized_value": 0.003,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0012",
+        "value_evidence_id": "p007-ocr-0014",
+        "label_coordinates": [
+          702.620931,
+          391.622342,
+          84.173421,
+          27.260634
+        ],
+        "value_coordinates": [
+          717.741943,
+          423.537245,
+          47.883057,
+          29.255317
+        ],
+        "visual_mark_coordinates": [
+          502.9731326388889,
+          319.3749322222223,
+          187.19850180555554,
+          254.40657777777778
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Industrial"
+      },
+      "coordinates": [
+        502.973133,
+        319.374932,
+        187.198502,
+        254.406578
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.8939,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0012",
+          "p007-ocr-0014"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-006",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "7.2%",
+        "numeric_value": 7.2,
+        "normalized_value": 0.07200000000000001,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0015",
+        "value_evidence_id": "p007-ocr-0017",
+        "label_coordinates": [
+          329.133057,
+          433.510634,
+          58.971761,
+          33.244683
+        ],
+        "value_coordinates": [
+          330.645162,
+          466.090441,
+          51.915304,
+          33.909559
+        ],
+        "visual_mark_coordinates": [
+          294.97483569444444,
+          380.74922925925927,
+          211.7125913888889,
+          195.01204592592586
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Retail"
+      },
+      "coordinates": [
+        294.974836,
+        380.749229,
+        211.712591,
+        195.012046
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89405,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0015",
+          "p007-ocr-0017"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-007",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "0.9%",
+        "numeric_value": 0.9,
+        "normalized_value": 0.009000000000000001,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0016",
+        "value_evidence_id": "p007-ocr-0018",
+        "label_coordinates": [
+          177.419352,
+          447.473416,
+          96.77419,
+          28.590441
+        ],
+        "value_coordinates": [
+          199.092733,
+          480.053223,
+          47.883077,
+          29.255317
+        ],
+        "visual_mark_coordinates": [
+          294.97483569444444,
+          380.74922925925927,
+          211.7125913888889,
+          195.01204592592586
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Healthcare"
+      },
+      "coordinates": [
+        294.974836,
+        380.749229,
+        211.712591,
+        195.012046
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89394,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0016",
+          "p007-ocr-0018"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-008",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "14.9%",
+        "numeric_value": 14.9,
+        "normalized_value": 0.149,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0019",
+        "value_evidence_id": "p007-ocr-0020",
+        "label_coordinates": [
+          605.342733,
+          509.973416,
+          99.798381,
+          35.239366
+        ],
+        "value_coordinates": [
+          622.479818,
+          542.553223,
+          60.483887,
+          33.244683
+        ],
+        "visual_mark_coordinates": [
+          504.45883013888886,
+          425.29517277777774,
+          219.1411033333333,
+          263.3157575925927
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Hospitality"
+      },
+      "coordinates": [
+        504.45883,
+        425.295173,
+        219.141103,
+        263.315758
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89663,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0019",
+          "p007-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-009",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "9.2%",
+        "numeric_value": 9.2,
+        "normalized_value": 0.092,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0021",
+        "value_evidence_id": "p007-ocr-0022",
+        "label_coordinates": [
+          293.85081,
+          562.5,
+          117.943542,
+          33.909559
+        ],
+        "value_coordinates": [
+          325.10081,
+          593.75,
+          51.915304,
+          33.244683
+        ],
+        "visual_mark_coordinates": [
+          287.5463273611111,
+          509.43744796296295,
+          219.14110333333335,
+          172.24414222222225
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Single Family"
+      },
+      "coordinates": [
+        287.546327,
+        509.437448,
+        219.141103,
+        172.244142
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89806,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0021",
+          "p007-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 7,
+      "block_id": "p007-r001-chart-chart_observation-010",
+      "parent_block_id": "p007-r001-chart",
+      "content": {
+        "chart_title": "Portfolio Allocation",
+        "value": "37.5%",
+        "numeric_value": 37.5,
+        "normalized_value": 0.375,
+        "unit": "percent",
+        "label_evidence_id": "p007-ocr-0023",
+        "value_evidence_id": "p007-ocr-0024",
+        "label_coordinates": [
+          452.116943,
+          685.505317,
+          107.358846,
+          35.904243
+        ],
+        "value_coordinates": [
+          472.782267,
+          720.079807,
+          61.491903,
+          32.579753
+        ],
+        "visual_mark_coordinates": [
+          306.8604575,
+          569.8218451851852,
+          395.1968372222222,
+          292.0231146296297
+        ],
+        "grounding_method": "unique OCR label-value proximity with raster mark ownership",
+        "chart_type": "pie",
+        "series": null,
+        "category": "Multifamily"
+      },
+      "coordinates": [
+        306.860457,
+        569.821845,
+        395.196837,
+        292.023115
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.89402,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r001",
+        "classification_method": "pdf-image-object-merge",
+        "reading_order": 3,
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0023",
+          "p007-ocr-0024"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 7,
+      "block_id": "p007-r002-decoration",
+      "parent_block_id": null,
+      "content": {
+        "title": "COULTON CREEK",
+        "labels": [
+          "COULTON CREEK",
+          "Company Overview - 2023",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p007-r002.json",
+          "sha256": "64daddb1f95eb7f1d21cea4067724dbedf46848c7b3f02218eb5ea986aa01da3"
+        },
+        "region_image": "region-images/p007-r002.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p007-r002",
+        "classification_method": "repeated-page-band",
+        "reading_order": 4,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p007-ocr-0025",
+          "p007-ocr-0026",
+          "p007-ocr-0027"
+        ],
+        "rendered_page": "page-images/page-007.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-007.png",
+    "rendered_page_sha256": "8de0c8246a65c69fe0c7b651fd4d14996ee7f9ad396e8a7f24bab439476468f7",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p007-ocr-0001",
+        "text": "PORTFOLIO SUMMARY",
+        "confidence": 0.99952,
+        "coordinates": [
+          44.858871,
+          71.808512,
+          314.0121,
+          36.569146
+        ],
+        "polygon": [
+          [
+            44.858871,
+            71.808512
+          ],
+          [
+            358.870972,
+            73.138299
+          ],
+          [
+            358.870972,
+            108.377658
+          ],
+          [
+            44.858871,
+            107.047872
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0002",
+        "text": "DECEMBER 31, 2023",
+        "confidence": 0.98057,
+        "coordinates": [
+          454.637085,
+          69.148939,
+          279.737915,
+          42.553189
+        ],
+        "polygon": [
+          [
+            454.637085,
+            69.148939
+          ],
+          [
+            734.375,
+            71.808512
+          ],
+          [
+            734.375,
+            111.702128
+          ],
+          [
+            454.637085,
+            109.042555
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0003",
+        "text": "$146 million / 61 Investments",
+        "confidence": 0.97619,
+        "coordinates": [
+          237.39919,
+          148.271281,
+          516.129049,
+          63.82978
+        ],
+        "polygon": [
+          [
+            237.39919,
+            148.271281
+          ],
+          [
+            753.528239,
+            150.265964
+          ],
+          [
+            753.528239,
+            212.101061
+          ],
+          [
+            237.39919,
+            210.106391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0004",
+        "text": "Portfolio Allocation",
+        "confidence": 0.99977,
+        "coordinates": [
+          386.592733,
+          218.75,
+          226.310506,
+          36.569146
+        ],
+        "polygon": [
+          [
+            386.592733,
+            218.75
+          ],
+          [
+            612.903239,
+            220.079793
+          ],
+          [
+            612.903239,
+            255.319146
+          ],
+          [
+            386.592733,
+            253.989366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0005",
+        "text": "Aviation",
+        "confidence": 0.99999,
+        "coordinates": [
+          679.939494,
+          309.175537,
+          75.100789,
+          27.260634
+        ],
+        "polygon": [
+          [
+            679.939494,
+            309.175537
+          ],
+          [
+            755.040283,
+            309.175537
+          ],
+          [
+            755.040283,
+            336.436171
+          ],
+          [
+            679.939494,
+            336.436171
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0006",
+        "text": "Office",
+        "confidence": 0.99981,
+        "coordinates": [
+          360.887085,
+          345.744683,
+          58.971802,
+          30.585097
+        ],
+        "polygon": [
+          [
+            360.887085,
+            345.744683
+          ],
+          [
+            419.858887,
+            345.744683
+          ],
+          [
+            419.858887,
+            376.32978
+          ],
+          [
+            360.887085,
+            376.32978
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0007",
+        "text": "Self-Storage",
+        "confidence": 0.99996,
+        "coordinates": [
+          449.092733,
+          346.409587,
+          110.383057,
+          33.909559
+        ],
+        "polygon": [
+          [
+            449.596761,
+            346.409587
+          ],
+          [
+            559.475789,
+            348.40427
+          ],
+          [
+            558.971761,
+            380.319146
+          ],
+          [
+            449.092733,
+            378.324463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0008",
+        "text": "0.3%",
+        "confidence": 0.99906,
+        "coordinates": [
+          690.020182,
+          339.760634,
+          49.89917,
+          30.585124
+        ],
+        "polygon": [
+          [
+            690.020182,
+            339.760634
+          ],
+          [
+            739.919352,
+            339.760634
+          ],
+          [
+            739.919352,
+            370.345757
+          ],
+          [
+            690.020182,
+            370.345757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0009",
+        "text": "6.1%",
+        "confidence": 0.99937,
+        "coordinates": [
+          362.399211,
+          378.324463,
+          51.411255,
+          33.244683
+        ],
+        "polygon": [
+          [
+            362.399211,
+            378.324463
+          ],
+          [
+            413.810465,
+            378.324463
+          ],
+          [
+            413.810465,
+            411.569146
+          ],
+          [
+            362.399211,
+            411.569146
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0010",
+        "text": "15.9%",
+        "confidence": 0.99914,
+        "coordinates": [
+          471.77417,
+          379.65427,
+          59.47583,
+          30.585097
+        ],
+        "polygon": [
+          [
+            471.77417,
+            379.65427
+          ],
+          [
+            531.25,
+            379.65427
+          ],
+          [
+            531.25,
+            410.239366
+          ],
+          [
+            471.77417,
+            410.239366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0011",
+        "text": "Land",
+        "confidence": 0.99996,
+        "coordinates": [
+          597.782267,
+          379.65427,
+          48.891113,
+          31.25
+        ],
+        "polygon": [
+          [
+            597.782267,
+            379.65427
+          ],
+          [
+            646.673381,
+            379.65427
+          ],
+          [
+            646.673381,
+            410.90427
+          ],
+          [
+            597.782267,
+            410.90427
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0012",
+        "text": "Industrial",
+        "confidence": 0.99995,
+        "coordinates": [
+          702.620931,
+          391.622342,
+          84.173421,
+          27.260634
+        ],
+        "polygon": [
+          [
+            702.620931,
+            391.622342
+          ],
+          [
+            786.794352,
+            391.622342
+          ],
+          [
+            786.794352,
+            418.882975
+          ],
+          [
+            702.620931,
+            418.882975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0013",
+        "text": "7.7%",
+        "confidence": 0.99974,
+        "coordinates": [
+          594.254028,
+          412.898953,
+          50.403239,
+          31.25
+        ],
+        "polygon": [
+          [
+            594.254028,
+            412.898953
+          ],
+          [
+            644.657267,
+            412.898953
+          ],
+          [
+            644.657267,
+            444.148953
+          ],
+          [
+            594.254028,
+            444.148953
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0014",
+        "text": "0.3%",
+        "confidence": 0.99854,
+        "coordinates": [
+          717.741943,
+          423.537245,
+          47.883057,
+          29.255317
+        ],
+        "polygon": [
+          [
+            717.741943,
+            423.537245
+          ],
+          [
+            765.625,
+            423.537245
+          ],
+          [
+            765.625,
+            452.792562
+          ],
+          [
+            717.741943,
+            452.792562
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0015",
+        "text": "Retail",
+        "confidence": 0.99993,
+        "coordinates": [
+          329.133057,
+          433.510634,
+          58.971761,
+          33.244683
+        ],
+        "polygon": [
+          [
+            329.133057,
+            433.510634
+          ],
+          [
+            388.104818,
+            433.510634
+          ],
+          [
+            388.104818,
+            466.755317
+          ],
+          [
+            329.133057,
+            466.755317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0016",
+        "text": "Healthcare",
+        "confidence": 0.99992,
+        "coordinates": [
+          177.419352,
+          447.473416,
+          96.77419,
+          28.590441
+        ],
+        "polygon": [
+          [
+            177.419352,
+            447.473416
+          ],
+          [
+            274.193542,
+            448.803196
+          ],
+          [
+            274.193542,
+            476.063856
+          ],
+          [
+            177.419352,
+            474.734049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0017",
+        "text": "7.2%",
+        "confidence": 0.99848,
+        "coordinates": [
+          330.645162,
+          466.090441,
+          51.915304,
+          33.909559
+        ],
+        "polygon": [
+          [
+            330.645162,
+            466.090441
+          ],
+          [
+            382.560465,
+            466.090441
+          ],
+          [
+            382.560465,
+            500.0
+          ],
+          [
+            330.645162,
+            500.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0018",
+        "text": "0.9%",
+        "confidence": 0.99762,
+        "coordinates": [
+          199.092733,
+          480.053223,
+          47.883077,
+          29.255317
+        ],
+        "polygon": [
+          [
+            199.092733,
+            480.053223
+          ],
+          [
+            246.97581,
+            480.053223
+          ],
+          [
+            246.97581,
+            509.308539
+          ],
+          [
+            199.092733,
+            509.308539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0019",
+        "text": "Hospitality",
+        "confidence": 0.99998,
+        "coordinates": [
+          605.342733,
+          509.973416,
+          99.798381,
+          35.239366
+        ],
+        "polygon": [
+          [
+            605.342733,
+            509.973416
+          ],
+          [
+            705.141113,
+            511.303223
+          ],
+          [
+            705.141113,
+            545.212782
+          ],
+          [
+            605.342733,
+            543.882975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0020",
+        "text": "14.9%",
+        "confidence": 0.99988,
+        "coordinates": [
+          622.479818,
+          542.553223,
+          60.483887,
+          33.244683
+        ],
+        "polygon": [
+          [
+            622.479818,
+            542.553223
+          ],
+          [
+            682.963704,
+            542.553223
+          ],
+          [
+            682.963704,
+            575.797906
+          ],
+          [
+            622.479818,
+            575.797906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0021",
+        "text": "Single Family",
+        "confidence": 0.96211,
+        "coordinates": [
+          293.85081,
+          562.5,
+          117.943542,
+          33.909559
+        ],
+        "polygon": [
+          [
+            293.85081,
+            562.5
+          ],
+          [
+            411.794352,
+            562.5
+          ],
+          [
+            411.794352,
+            596.409559
+          ],
+          [
+            293.85081,
+            596.409559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0022",
+        "text": "9.2%",
+        "confidence": 0.99854,
+        "coordinates": [
+          325.10081,
+          593.75,
+          51.915304,
+          33.244683
+        ],
+        "polygon": [
+          [
+            325.10081,
+            593.75
+          ],
+          [
+            377.016113,
+            593.75
+          ],
+          [
+            377.016113,
+            626.994683
+          ],
+          [
+            325.10081,
+            626.994683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0023",
+        "text": "Multifamily",
+        "confidence": 0.99927,
+        "coordinates": [
+          452.116943,
+          685.505317,
+          107.358846,
+          35.904243
+        ],
+        "polygon": [
+          [
+            452.620972,
+            685.505317
+          ],
+          [
+            559.475789,
+            687.5
+          ],
+          [
+            558.971761,
+            721.409559
+          ],
+          [
+            452.116943,
+            719.414931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0024",
+        "text": "37.5%",
+        "confidence": 0.99923,
+        "coordinates": [
+          472.782267,
+          720.079807,
+          61.491903,
+          32.579753
+        ],
+        "polygon": [
+          [
+            472.782267,
+            720.079807
+          ],
+          [
+            534.27417,
+            720.079807
+          ],
+          [
+            534.27417,
+            752.659559
+          ],
+          [
+            472.782267,
+            752.659559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0025",
+        "text": "COULTON CREEK",
+        "confidence": 0.98292,
+        "coordinates": [
+          144.153229,
+          917.553168,
+          181.451609,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.153229,
+            917.553168
+          ],
+          [
+            325.604838,
+            917.553168
+          ],
+          [
+            325.604838,
+            944.14898
+          ],
+          [
+            144.153229,
+            944.14898
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0026",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99806,
+        "coordinates": [
+          743.951579,
+          932.845812,
+          211.693604,
+          26.595703
+        ],
+        "polygon": [
+          [
+            743.951579,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            743.951579,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p007-ocr-0027",
+        "text": "CAPITAL",
+        "confidence": 0.99682,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

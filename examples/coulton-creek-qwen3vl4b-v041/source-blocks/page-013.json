@@ -1,0 +1,1892 @@
+{
+  "schema_version": "unified-source-page/2.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 13,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 13,
+      "block_id": "p013-r003-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "TRACK RECORD – SENIOR UNITS",
+        "raw_text": "TRACK RECORD – SENIOR UNITS",
+        "native_text": "TRACK RECORD – SENIOR UNITS",
+        "visible_ocr_text": "TRACK RECORD - SENIOR UNITS",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        68.333194,
+        83.906741,
+        454.401433,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99661,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          49.1999,
+          45.30964,
+          376.368932,
+          65.34963999999997
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 13,
+      "block_id": "p013-r004-block",
+      "parent_block_id": null,
+      "content": {
+        "text": " Preferred Equity Investment (Senior Units)",
+        "raw_text": " Preferred Equity Investment (Senior Units)",
+        "native_text": " Preferred Equity Investment (Senior Units)",
+        "visible_ocr_text": "Preferred Equity Investment (Senior Units)",
+        "native_ocr_token_agreement": 1.0
+      },
+      "coordinates": [
+        52.0,
+        186.137667,
+        552.808967,
+        41.341778
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99661,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          37.44,
+          100.51434,
+          435.46245600000003,
+          122.83889999999997
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "page": 13,
+      "block_id": "p013-r002-chart",
+      "parent_block_id": null,
+      "content": {
+        "title": "Senior Unit Net Income Coverage",
+        "labels": [
+          "6.5% - 8.0% fixed return",
+          "$1 million or greater investment provides Prime+2% up to 8% with 6.5% floor.",
+          "Senior Unit Net Income Coverage",
+          "_",
+          "_",
+          "11.0x",
+          "$15.7M",
+          "$15.4M",
+          "$16.6M",
+          "$16.6M",
+          "$12.5M",
+          "9.0x",
+          "8.7x",
+          "7.5x",
+          "7.7x",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "Senior Units Outstanding",
+          "Senior Unit Distribution Coverage"
+        ],
+        "chart_type": "bar",
+        "vision_summary": {
+          "horizontal_line_count": 3,
+          "vertical_line_count": 20,
+          "diagonal_line_count": 0,
+          "rectangle_candidate_count": 13,
+          "bar_candidate_count": 9,
+          "point_candidate_count": 144,
+          "legend_swatch_candidate_count": 2,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 7,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.375,
+          "saturated_pixel_fraction": 0.04835
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p013-r002.json",
+          "sha256": "24890b9191ea7e7ae82953c7c62b22514c255e95f7e0acd441d4465f786de4f2"
+        },
+        "region_image": "region-images/p013-r002.png",
+        "expected_observation_count": 10,
+        "emitted_observation_count": 10,
+        "observation_completeness": 1.0
+      },
+      "coordinates": [
+        91.034658,
+        240.835234,
+        806.981674,
+        629.164766
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.94,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0003",
+          "p013-ocr-0004",
+          "p013-ocr-0005",
+          "p013-ocr-0006",
+          "p013-ocr-0007",
+          "p013-ocr-0008",
+          "p013-ocr-0009",
+          "p013-ocr-0010",
+          "p013-ocr-0011",
+          "p013-ocr-0012",
+          "p013-ocr-0013",
+          "p013-ocr-0014",
+          "p013-ocr-0015",
+          "p013-ocr-0016",
+          "p013-ocr-0017",
+          "p013-ocr-0018",
+          "p013-ocr-0019",
+          "p013-ocr-0020",
+          "p013-ocr-0021",
+          "p013-ocr-0022",
+          "p013-ocr-0023",
+          "p013-ocr-0024"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-001",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "$12.5M",
+        "numeric_value": 12.5,
+        "normalized_value": 12.5,
+        "unit": "USD",
+        "label_evidence_id": "p013-ocr-0018",
+        "value_evidence_id": "p013-ocr-0013",
+        "label_coordinates": [
+          191.532247,
+          756.648926,
+          52.923401,
+          33.909614
+        ],
+        "value_coordinates": [
+          138.608866,
+          567.819173,
+          59.979838,
+          29.920193
+        ],
+        "visual_mark_coordinates": [
+          171.03465756444444,
+          607.4206136037038,
+          21.56608815944444,
+          138.87979434814812
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Units Outstanding",
+        "category": "2019"
+      },
+      "coordinates": [
+        171.034658,
+        607.420614,
+        21.566088,
+        138.879794
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.8455,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0013",
+          "p013-ocr-0018"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-002",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "11.0x",
+        "numeric_value": 11.0,
+        "normalized_value": 11.0,
+        "unit": "multiple",
+        "label_evidence_id": "p013-ocr-0018",
+        "value_evidence_id": "p013-ocr-0008",
+        "label_coordinates": [
+          191.532247,
+          756.648926,
+          52.923401,
+          33.909614
+        ],
+        "value_coordinates": [
+          194.052409,
+          529.255317,
+          48.387105,
+          27.925564
+        ],
+        "visual_mark_coordinates": [
+          196.19502452444442,
+          340.83523420370375,
+          44.33023659999999,
+          405.4651142527777
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Unit Distribution Coverage",
+        "category": "2019"
+      },
+      "coordinates": [
+        196.195025,
+        340.835234,
+        44.330237,
+        405.465114
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.9787,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0008",
+          "p013-ocr-0018"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-003",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "$15.7M",
+        "numeric_value": 15.7,
+        "normalized_value": 15.7,
+        "unit": "USD",
+        "label_evidence_id": "p013-ocr-0019",
+        "value_evidence_id": "p013-ocr-0009",
+        "label_coordinates": [
+          336.189514,
+          757.313856,
+          52.923401,
+          33.244683
+        ],
+        "value_coordinates": [
+          283.266134,
+          533.244683,
+          59.979838,
+          29.920193
+        ],
+        "visual_mark_coordinates": [
+          314.80862910972223,
+          572.3015556592593,
+          22.764206572222257,
+          173.99882346666666
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Units Outstanding",
+        "category": "2020"
+      },
+      "coordinates": [
+        314.808629,
+        572.301556,
+        22.764207,
+        173.998823
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.84573,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0009",
+          "p013-ocr-0019"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-004",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "7.5x",
+        "numeric_value": 7.5,
+        "normalized_value": 7.5,
+        "unit": "multiple",
+        "label_evidence_id": "p013-ocr-0019",
+        "value_evidence_id": "p013-ocr-0016",
+        "label_coordinates": [
+          336.189514,
+          757.313856,
+          52.923401,
+          33.244683
+        ],
+        "value_coordinates": [
+          336.693542,
+          587.765951,
+          49.395162,
+          37.898926
+        ],
+        "visual_mark_coordinates": [
+          339.9687256544445,
+          468.54080735648154,
+          45.52834674777779,
+          277.75957176944445
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Unit Distribution Coverage",
+        "category": "2020"
+      },
+      "coordinates": [
+        339.968726,
+        468.540807,
+        45.528347,
+        277.759572
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97532,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0016",
+          "p013-ocr-0019"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-005",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "$15.4M",
+        "numeric_value": 15.4,
+        "normalized_value": 15.4,
+        "unit": "USD",
+        "label_evidence_id": "p013-ocr-0020",
+        "value_evidence_id": "p013-ocr-0010",
+        "label_coordinates": [
+          480.846761,
+          757.978733,
+          50.907267,
+          31.25
+        ],
+        "value_coordinates": [
+          427.419352,
+          535.904243,
+          60.483887,
+          29.920247
+        ],
+        "visual_mark_coordinates": [
+          459.78071906777774,
+          575.4941999111111,
+          21.56608815944444,
+          170.80620804074084
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Units Outstanding",
+        "category": "2021"
+      },
+      "coordinates": [
+        459.780719,
+        575.4942,
+        21.566088,
+        170.806208
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.84765,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0010",
+          "p013-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-006",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "9.0x",
+        "numeric_value": 9.0,
+        "normalized_value": 9.0,
+        "unit": "multiple",
+        "label_evidence_id": "p013-ocr-0020",
+        "value_evidence_id": "p013-ocr-0014",
+        "label_coordinates": [
+          480.846761,
+          757.978733,
+          50.907267,
+          31.25
+        ],
+        "value_coordinates": [
+          483.366943,
+          565.159559,
+          46.875,
+          31.914931
+        ],
+        "visual_mark_coordinates": [
+          484.940559951111,
+          414.26595026759264,
+          44.33023660000006,
+          332.03442885833334
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Unit Distribution Coverage",
+        "category": "2021"
+      },
+      "coordinates": [
+        484.94056,
+        414.26595,
+        44.330237,
+        332.034429
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97698,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0014",
+          "p013-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-007",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "$16.6M",
+        "numeric_value": 16.6,
+        "normalized_value": 16.6,
+        "unit": "USD",
+        "label_evidence_id": "p013-ocr-0021",
+        "value_evidence_id": "p013-ocr-0011",
+        "label_coordinates": [
+          625.0,
+          757.313856,
+          52.419352,
+          33.244683
+        ],
+        "value_coordinates": [
+          570.564494,
+          523.936198,
+          59.979858,
+          27.92551
+        ],
+        "visual_mark_coordinates": [
+          603.5546906130556,
+          562.7236517296296,
+          22.764206572222175,
+          183.5767562222223
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Units Outstanding",
+        "category": "2022"
+      },
+      "coordinates": [
+        603.554691,
+        562.723652,
+        22.764207,
+        183.576756
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.84138,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0011",
+          "p013-ocr-0021"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-008",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "7.7x",
+        "numeric_value": 7.7,
+        "normalized_value": 7.7,
+        "unit": "multiple",
+        "label_evidence_id": "p013-ocr-0021",
+        "value_evidence_id": "p013-ocr-0017",
+        "label_coordinates": [
+          625.0,
+          757.313856,
+          52.419352,
+          33.244683
+        ],
+        "value_coordinates": [
+          626.008057,
+          584.441515,
+          49.899211,
+          36.569119
+        ],
+        "visual_mark_coordinates": [
+          628.7142841,
+          460.5592071175926,
+          45.52834674777779,
+          285.74117200833336
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Unit Distribution Coverage",
+        "category": "2022"
+      },
+      "coordinates": [
+        628.714284,
+        460.559207,
+        45.528347,
+        285.741172
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97759,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0017",
+          "p013-ocr-0021"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-009",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "$16.6M",
+        "numeric_value": 16.6,
+        "normalized_value": 16.6,
+        "unit": "USD",
+        "label_evidence_id": "p013-ocr-0022",
+        "value_evidence_id": "p013-ocr-0012",
+        "label_coordinates": [
+          769.153239,
+          757.313856,
+          52.92334,
+          33.244683
+        ],
+        "value_coordinates": [
+          715.221761,
+          523.936198,
+          59.979818,
+          27.92551
+        ],
+        "visual_mark_coordinates": [
+          748.5267805711111,
+          562.7236517296296,
+          21.56606652416665,
+          183.5767562222223
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Units Outstanding",
+        "category": "2023"
+      },
+      "coordinates": [
+        748.526781,
+        562.723652,
+        21.566067,
+        183.576756
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.84224,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0012",
+          "p013-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart_observation",
+      "page": 13,
+      "block_id": "p013-r002-chart-chart_observation-010",
+      "parent_block_id": "p013-r002-chart",
+      "content": {
+        "chart_title": "Senior Unit Net Income Coverage",
+        "value": "8.7x",
+        "numeric_value": 8.7,
+        "normalized_value": 8.7,
+        "unit": "multiple",
+        "label_evidence_id": "p013-ocr-0022",
+        "value_evidence_id": "p013-ocr-0015",
+        "label_coordinates": [
+          769.153239,
+          757.313856,
+          52.92334,
+          33.244683
+        ],
+        "value_coordinates": [
+          770.161296,
+          568.484049,
+          48.891113,
+          33.909559
+        ],
+        "visual_mark_coordinates": [
+          773.6860953777777,
+          423.8438644203704,
+          44.33023659999991,
+          322.4565147055556
+        ],
+        "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+        "chart_type": "bar",
+        "series": "Senior Unit Distribution Coverage",
+        "category": "2023"
+      },
+      "coordinates": [
+        773.686095,
+        423.843864,
+        44.330237,
+        322.456515
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.97526,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          65.5449534464,
+          130.05102647,
+          646.571759024,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0015",
+          "p013-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 13,
+      "block_id": "p013-r005-block",
+      "parent_block_id": null,
+      "content": {
+        "text": "floor.",
+        "raw_text": "floor.",
+        "native_text": "floor.",
+        "visible_ocr_text": null,
+        "native_ocr_token_agreement": null
+      },
+      "coordinates": [
+        895.62295,
+        277.246111,
+        48.141567,
+        29.555556
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99661,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 4,
+        "source_bbox_points": [
+          644.8485239999999,
+          149.7129,
+          679.5104519999998,
+          165.67290000000003
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-013.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/1.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 13,
+      "block_id": "p013-r001-decoration",
+      "parent_block_id": null,
+      "content": {
+        "title": "COULTONCREEK",
+        "labels": [
+          "COULTONCREEK",
+          "Company Overview - 2023",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p013-r001.json",
+          "sha256": "0545697174fdcf0bb32ee0670effd96e4fb0c70f8f1200a93ee24d42903f4389"
+        },
+        "region_image": "region-images/p013-r001.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p013-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 5,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p013-ocr-0025",
+          "p013-ocr-0026",
+          "p013-ocr-0027"
+        ],
+        "rendered_page": "page-images/page-013.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-013.png",
+    "rendered_page_sha256": "0a893935dbe4dca470555a6b32045c2581a152f7e0f2ae053317e918a6f70460",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p013-ocr-0001",
+        "text": "TRACK RECORD - SENIOR UNITS",
+        "confidence": 0.97569,
+        "coordinates": [
+          66.532257,
+          75.132982,
+          457.661306,
+          35.23936
+        ],
+        "polygon": [
+          [
+            66.532257,
+            75.132982
+          ],
+          [
+            524.193563,
+            75.132982
+          ],
+          [
+            524.193563,
+            110.372342
+          ],
+          [
+            66.532257,
+            110.372342
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0002",
+        "text": "Preferred Equity Investment (Senior Units)",
+        "confidence": 0.99985,
+        "coordinates": [
+          77.620967,
+          177.526598,
+          530.241948,
+          51.861694
+        ],
+        "polygon": [
+          [
+            77.620967,
+            177.526598
+          ],
+          [
+            607.862915,
+            179.521281
+          ],
+          [
+            607.862915,
+            229.388292
+          ],
+          [
+            77.620967,
+            227.393623
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0003",
+        "text": "6.5% - 8.0% fixed return",
+        "confidence": 0.99255,
+        "coordinates": [
+          130.040324,
+          224.069146,
+          304.435465,
+          43.882975
+        ],
+        "polygon": [
+          [
+            130.040324,
+            224.069146
+          ],
+          [
+            434.475789,
+            224.069146
+          ],
+          [
+            434.475789,
+            267.952121
+          ],
+          [
+            130.040324,
+            267.952121
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0004",
+        "text": "$1 million or greater investment provides Prime+2% up to 8% with 6.5% floor.",
+        "confidence": 0.99711,
+        "coordinates": [
+          177.419352,
+          265.957438,
+          768.64917,
+          43.218099
+        ],
+        "polygon": [
+          [
+            177.419352,
+            265.957438
+          ],
+          [
+            946.068522,
+            267.287245
+          ],
+          [
+            946.068522,
+            309.175537
+          ],
+          [
+            177.419352,
+            307.845757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0005",
+        "text": "Senior Unit Net Income Coverage",
+        "confidence": 0.99949,
+        "coordinates": [
+          344.758057,
+          327.792562,
+          310.483887,
+          33.244683
+        ],
+        "polygon": [
+          [
+            344.758057,
+            327.792562
+          ],
+          [
+            655.241943,
+            330.452121
+          ],
+          [
+            655.241943,
+            361.037245
+          ],
+          [
+            344.758057,
+            358.377658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0006",
+        "text": "_",
+        "confidence": 0.61758,
+        "coordinates": [
+          482.358887,
+          411.569146,
+          49.89917,
+          157.57978
+        ],
+        "polygon": [
+          [
+            482.358887,
+            411.569146
+          ],
+          [
+            532.258057,
+            411.569146
+          ],
+          [
+            532.258057,
+            569.148926
+          ],
+          [
+            482.358887,
+            569.148926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0007",
+        "text": "_",
+        "confidence": 0.64407,
+        "coordinates": [
+          769.657227,
+          418.882975,
+          52.419352,
+          158.909614
+        ],
+        "polygon": [
+          [
+            769.657227,
+            418.882975
+          ],
+          [
+            822.076579,
+            418.882975
+          ],
+          [
+            822.076579,
+            577.792589
+          ],
+          [
+            769.657227,
+            577.792589
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0008",
+        "text": "11.0x",
+        "confidence": 0.99987,
+        "coordinates": [
+          194.052409,
+          529.255317,
+          48.387105,
+          27.925564
+        ],
+        "polygon": [
+          [
+            194.052409,
+            529.255317
+          ],
+          [
+            242.439514,
+            529.255317
+          ],
+          [
+            242.439514,
+            557.180881
+          ],
+          [
+            194.052409,
+            557.180881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0009",
+        "text": "$15.7M",
+        "confidence": 0.99966,
+        "coordinates": [
+          283.266134,
+          533.244683,
+          59.979838,
+          29.920193
+        ],
+        "polygon": [
+          [
+            283.266134,
+            533.244683
+          ],
+          [
+            343.245972,
+            533.244683
+          ],
+          [
+            343.245972,
+            563.164876
+          ],
+          [
+            283.266134,
+            563.164876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0010",
+        "text": "$15.4M",
+        "confidence": 0.99957,
+        "coordinates": [
+          427.419352,
+          535.904243,
+          60.483887,
+          29.920247
+        ],
+        "polygon": [
+          [
+            427.419352,
+            535.904243
+          ],
+          [
+            487.903239,
+            535.904243
+          ],
+          [
+            487.903239,
+            565.82449
+          ],
+          [
+            427.419352,
+            565.82449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0011",
+        "text": "$16.6M",
+        "confidence": 0.99985,
+        "coordinates": [
+          570.564494,
+          523.936198,
+          59.979858,
+          27.92551
+        ],
+        "polygon": [
+          [
+            570.564494,
+            523.936198
+          ],
+          [
+            630.544352,
+            523.936198
+          ],
+          [
+            630.544352,
+            551.861708
+          ],
+          [
+            570.564494,
+            551.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0012",
+        "text": "$16.6M",
+        "confidence": 0.99984,
+        "coordinates": [
+          715.221761,
+          523.936198,
+          59.979818,
+          27.92551
+        ],
+        "polygon": [
+          [
+            715.221761,
+            523.936198
+          ],
+          [
+            775.201579,
+            523.936198
+          ],
+          [
+            775.201579,
+            551.861708
+          ],
+          [
+            715.221761,
+            551.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0013",
+        "text": "$12.5M",
+        "confidence": 0.99974,
+        "coordinates": [
+          138.608866,
+          567.819173,
+          59.979838,
+          29.920193
+        ],
+        "polygon": [
+          [
+            138.608866,
+            567.819173
+          ],
+          [
+            198.588704,
+            567.819173
+          ],
+          [
+            198.588704,
+            597.739366
+          ],
+          [
+            138.608866,
+            597.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0014",
+        "text": "9.0x",
+        "confidence": 0.99986,
+        "coordinates": [
+          483.366943,
+          565.159559,
+          46.875,
+          31.914931
+        ],
+        "polygon": [
+          [
+            483.366943,
+            565.159559
+          ],
+          [
+            530.241943,
+            565.159559
+          ],
+          [
+            530.241943,
+            597.07449
+          ],
+          [
+            483.366943,
+            597.07449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0015",
+        "text": "8.7x",
+        "confidence": 0.99947,
+        "coordinates": [
+          770.161296,
+          568.484049,
+          48.891113,
+          33.909559
+        ],
+        "polygon": [
+          [
+            770.161296,
+            568.484049
+          ],
+          [
+            819.052409,
+            568.484049
+          ],
+          [
+            819.052409,
+            602.393609
+          ],
+          [
+            770.161296,
+            602.393609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0016",
+        "text": "7.5x",
+        "confidence": 0.99968,
+        "coordinates": [
+          336.693542,
+          587.765951,
+          49.395162,
+          37.898926
+        ],
+        "polygon": [
+          [
+            336.693542,
+            587.765951
+          ],
+          [
+            386.088704,
+            587.765951
+          ],
+          [
+            386.088704,
+            625.664876
+          ],
+          [
+            336.693542,
+            625.664876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0017",
+        "text": "7.7x",
+        "confidence": 0.99968,
+        "coordinates": [
+          626.008057,
+          584.441515,
+          49.899211,
+          36.569119
+        ],
+        "polygon": [
+          [
+            626.008057,
+            584.441515
+          ],
+          [
+            675.907267,
+            584.441515
+          ],
+          [
+            675.907267,
+            621.010634
+          ],
+          [
+            626.008057,
+            621.010634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0018",
+        "text": "2019",
+        "confidence": 1.0,
+        "coordinates": [
+          191.532247,
+          756.648926,
+          52.923401,
+          33.909614
+        ],
+        "polygon": [
+          [
+            191.532247,
+            756.648926
+          ],
+          [
+            244.455648,
+            756.648926
+          ],
+          [
+            244.455648,
+            790.558539
+          ],
+          [
+            191.532247,
+            790.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0019",
+        "text": "2020",
+        "confidence": 0.99999,
+        "coordinates": [
+          336.189514,
+          757.313856,
+          52.923401,
+          33.244683
+        ],
+        "polygon": [
+          [
+            336.189514,
+            757.313856
+          ],
+          [
+            389.112915,
+            757.313856
+          ],
+          [
+            389.112915,
+            790.558539
+          ],
+          [
+            336.189514,
+            790.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0020",
+        "text": "2021",
+        "confidence": 0.99999,
+        "coordinates": [
+          480.846761,
+          757.978733,
+          50.907267,
+          31.25
+        ],
+        "polygon": [
+          [
+            480.846761,
+            757.978733
+          ],
+          [
+            531.754028,
+            757.978733
+          ],
+          [
+            531.754028,
+            789.228733
+          ],
+          [
+            480.846761,
+            789.228733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0021",
+        "text": "2022",
+        "confidence": 0.99998,
+        "coordinates": [
+          625.0,
+          757.313856,
+          52.419352,
+          33.244683
+        ],
+        "polygon": [
+          [
+            625.0,
+            757.313856
+          ],
+          [
+            677.419352,
+            757.313856
+          ],
+          [
+            677.419352,
+            790.558539
+          ],
+          [
+            625.0,
+            790.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0022",
+        "text": "2023",
+        "confidence": 1.0,
+        "coordinates": [
+          769.153239,
+          757.313856,
+          52.92334,
+          33.244683
+        ],
+        "polygon": [
+          [
+            769.153239,
+            757.313856
+          ],
+          [
+            822.076579,
+            757.313856
+          ],
+          [
+            822.076579,
+            790.558539
+          ],
+          [
+            769.153239,
+            790.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0023",
+        "text": "Senior Units Outstanding",
+        "confidence": 0.99973,
+        "coordinates": [
+          158.770162,
+          812.5,
+          287.802429,
+          39.228733
+        ],
+        "polygon": [
+          [
+            158.770162,
+            812.5
+          ],
+          [
+            446.572591,
+            814.494683
+          ],
+          [
+            446.572591,
+            851.728733
+          ],
+          [
+            158.770162,
+            849.734049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0024",
+        "text": "Senior Unit Distribution Coverage",
+        "confidence": 0.99417,
+        "coordinates": [
+          472.782267,
+          811.835124,
+          376.008016,
+          38.563802
+        ],
+        "polygon": [
+          [
+            472.782267,
+            811.835124
+          ],
+          [
+            848.790283,
+            815.82449
+          ],
+          [
+            848.790283,
+            850.398926
+          ],
+          [
+            472.782267,
+            846.409614
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0025",
+        "text": "COULTONCREEK",
+        "confidence": 0.99945,
+        "coordinates": [
+          144.657257,
+          917.553168,
+          180.947581,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.657257,
+            917.553168
+          ],
+          [
+            325.604838,
+            917.553168
+          ],
+          [
+            325.604838,
+            944.14898
+          ],
+          [
+            144.657257,
+            944.14898
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0026",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99895,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p013-ocr-0027",
+        "text": "CAPITAL",
+        "confidence": 0.99445,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}
