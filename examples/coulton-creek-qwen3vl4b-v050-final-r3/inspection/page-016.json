@@ -1,0 +1,328 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 16,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.39779,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.13237,
+  "vector_line_count": 3,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 1,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p016-r002",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        60.0,
+        79.06285185185185,
+        182.5365666666667,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "DISCLOSURE",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 1,
+        "source_bbox_points": [
+          43.2,
+          42.69394,
+          174.62632800000003,
+          62.73393999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r003",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.33333333333331,
+        146.74933333333334,
+        421.78320000000053,
+        215.01422222222246
+      ],
+      "reading_order": 2,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR\nSOLICITATION OF AN OFFER OF SECURITIES. No legally\nbinding obligations will be created unless and until definitive\nwritten agreements are executed and delivered by all parties.\nThis summary is not a commitment to purchase or sell any\ninvestment, and any investment is conditioned on the\ncompletion of due diligence, legal review and final, signed\ndocumentation that is satisfactory to the Company and each\npotential investor.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 73,
+        "source_bbox_points": [
+          49.19999999999999,
+          79.24464,
+          352.88390400000037,
+          195.35232000000013
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r004",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.41000000000065,
+        401.3235555555558,
+        421.77860000000067,
+        338.31466666666654
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The Company makes no representation or warranty as to the\naccuracy or completeness of the presentation, and shall not\nhave any liability for any representations (expressed or\nimplied) regarding information contained herein, any\nomissions, or any other written or oral communications\ntransmitted to the recipient in the course of its evaluation. No\nperson has been authorized in connection with this\npresentation to give any information or make any\nrepresentations and, if given or made, must not be relied upon\nas having been authorized. Only those representations and\nwarranties, which may be made to an investor in a definitive\nwritten agreement, and subject to such limitations and\nrestrictions as may be specified therein, will have any legal\neffect.",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 117,
+        "source_bbox_points": [
+          49.25520000000047,
+          216.7147200000001,
+          352.9357920000009,
+          399.40464000000003
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r005",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.4253333333348,
+        779.1982222222223,
+        421.7065333333332,
+        93.79911111111102
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "By accepting this presentation, recipient acknowledges the\ninformation contained herein is confidential and proprietary\nand agrees not to make copies or disclose any of this\ninformation without the permission of the Company,",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 32,
+        "source_bbox_points": [
+          49.26624000000106,
+          420.76704000000007,
+          352.894944000001,
+          471.41856
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r006",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.3334722222218,
+        148.67499999999998,
+        421.6973333333337,
+        74.21333333333344
+      ],
+      "reading_order": 5,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "to take reasonable steps to prevent inadvertent disclosures to\nany other party, and not to use the information in any manner\nthat competes with the business of the Company.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 29,
+        "source_bbox_points": [
+          373.2000999999996,
+          80.28449999999998,
+          676.8221799999999,
+          120.35970000000003
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r007",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.3488055555549,
+        261.9985555555556,
+        421.7985333333326,
+        167.15377777777798
+      ],
+      "reading_order": 6,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The Company is a limited liability company, which under\nfederal law, may be taxed as either a corporation or a\npartnership. The Company has elected to be taxed as a\npartnership. Each prospective investor must consult their own\nlegal counsel and/or personal tax advisor to determine the\npotential tax consequences of a prospective investment in the\nCompany.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 57,
+        "source_bbox_points": [
+          373.21113999999955,
+          141.47922,
+          676.906083999999,
+          231.7422600000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r008",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.425472222221,
+        466.2590000000002,
+        421.6605333333342,
+        69.34755555555554
+      ],
+      "reading_order": 7,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The Company’s investment activities involve a significant\ndegree of risk, including but not limited to illiquidity, interest\nrates, reinvestment, prepayment and default risks.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 23,
+        "source_bbox_points": [
+          373.2663399999991,
+          251.7798600000001,
+          676.8619239999997,
+          289.2275400000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r009",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.4714722222222,
+        572.7132222222224,
+        421.7586666666669,
+        264.95999999999975
+      ],
+      "reading_order": 8,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Performance of any investment is subject to numerous factors\nthat are neither within the control of, nor predictable by, the\nCompany or its Managers. Such factors include a wide range\nof economic, political, competitive, and other conditions that\nmay affect investments in general or specific industries or\ncompanies. PAST PERFORMANCE IS NO GUARANTEE OF\nFUTURE PERFORMANCE. Distributions are subject to\navailable cash. This summary is qualified in its entirety by\nmore detailed information available from the Company.\nAccredited investors should request and review the Offering\nMaterials in their entirety.",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 89,
+        "source_bbox_points": [
+          373.29946,
+          309.2651400000001,
+          676.9657000000002,
+          452.34353999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r001",
+      "page": 16,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 9,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1",
+    "two_column_reading_order_preserved"
+  ]
+}

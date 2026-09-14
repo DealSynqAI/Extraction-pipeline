@@ -1,6 +1,6 @@
 # DealSynq OCR pipeline through Unified Source Blocks
 
-Current package version: `0.4.1`.
+Current package version: `0.5.0`.
 
 This folder implements the requested architecture boundary:
 
@@ -14,10 +14,11 @@ It deliberately performs no semantic entity, fact, relation, embedding, retrieva
 - Deterministic PDF inspection with native character quality, positioned text, image coverage, vector counts, table candidates, page dimensions, and rotation.
 - Region-level routing for mixed pages. Low-confidence image regions can be sent to a Qwen3-VL endpoint for classification.
 - Native-text usability routing. A text layer is used only when it passes the configured quality threshold; otherwise RapidOCR supplies visible text and coordinates.
-- Native table parsing plus owned row/column records. When native structure is unavailable, OCR geometry provides a conservative reconstruction marked `needs_review`.
+- Native table parsing into one hierarchical table block with owned columns, rows, typed cells, cell coordinates, and cell evidence IDs. When native structure is unavailable, the result stays `needs_review`.
 - Logical visual-object merging before classification, including fragmented PDF chart images and repeated page-band decoration detection.
 - PDF-object completeness detection for vector bar clusters and dense raster point/label clusters. Incomplete bar and scatterplot reconstructions are forced to `needs_review` instead of silently passing as text.
-- Chart/map OCR, OpenCV geometry, optional Qwen3-VL grounding, parent blocks, and observation/binding children. Deterministic chart label/value proximity bindings retain evidence IDs and coordinates; ambiguous candidates remain `needs_review`.
+- Chart/map OCR, OpenCV geometry, optional Qwen3-VL routing, and nested observations/bindings. Deterministic chart label/value bindings retain evidence IDs and coordinates; model confidence alone cannot mark a visual fact as grounded.
+- Generic reconstruction of rotated native-PDF chart values plus x-aligned bar ownership. This recovers vertical percentage labels without page-number or document-value hardcoding.
 - Native positioned financial-table reconstruction that infers columns from repeated numeric alignment, recovers headers and sections from geometry, and reconciles generic subtotals against the final total.
 - Raw OpenCV arrays are isolated in hashed `diagnostics/vision-features/*.json` artifacts. Source blocks expose only compact `vision_summary`, `vision_features_ref`, and `region_image` fields.
 - A common source-block envelope, explicit errors/warnings, provenance, confidence, normalized coordinates, native-versus-visible OCR agreement, page-level validation, and a complete OCR evidence ledger/disposition list.
@@ -61,7 +62,9 @@ Outputs are immutable by design: the target directory must not exist. A failed r
 run/
 |-- manifest.json
 |-- inspection/
-|   `-- document-inspection.json
+|   |-- manifest.json
+|   |-- page-001.json
+|   `-- page-002.json
 |-- diagnostics/
 |   `-- vision-features/
 |       `-- p001-r001.json
@@ -81,7 +84,7 @@ run/
     `-- page-002.json
 ```
 
-Every block carries `document_id`, `page`, `block_id`, optional `parent_block_id`, typed `content`, normalized source coordinates, extraction methods, confidence, validation, and provenance. Page files use `unified-source-page/2.0`, the collection uses `unified-source-collection/1.1`, inspection uses `pdf-inspection/1.0`, and visual diagnostics use `opencv-region-diagnostic/1.0`. The JSON Schema is in `schemas/unified-source-block.schema.json`.
+Every root block carries `document_id`, `page`, `block_id`, type-specific `content`, normalized source coordinates, extraction methods, confidence, validation, and provenance. Table cells, chart observations, KPI metrics, and map bindings are nested under their semantic parent instead of masquerading as independent page blocks. Page files use `unified-source-page/3.0`, the collection uses `unified-source-collection/2.0`, page inspection uses `pdf-page-inspection/1.0`, and visual diagnostics use `opencv-region-diagnostic/1.0`. Dedicated schemas are in `schemas/`.
 
 Run artifact references are stored relative to the run root so a complete run remains valid after it is copied or cloned on another machine.
 
@@ -107,6 +110,6 @@ Install the `validate` extra, then independently validate every block against th
 ## Complete example run
 
 A full 16-page, 300-DPI RapidOCR + OpenCV + Qwen3-VL run is published in
-[`examples/coulton-creek-qwen3vl4b-v041`](examples/coulton-creek-qwen3vl4b-v041/README.md).
+[`examples/coulton-creek-qwen3vl4b-v050-final-r3`](examples/coulton-creek-qwen3vl4b-v050-final-r3/README.md).
 It includes the preserved source, rendered evidence, region crops, OCR output, diagnostics,
 Unified Source Blocks, and an independent validation report.

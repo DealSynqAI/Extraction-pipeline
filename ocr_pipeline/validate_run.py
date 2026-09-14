@@ -38,6 +38,15 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     Draft202012Validator.check_schema(schema)
     validator = Draft202012Validator(schema)
+    schema_dir = schema_path.parent
+    page_schema = json.loads((schema_dir / "unified-source-page.schema.json").read_text(encoding="utf-8"))
+    inspection_index_schema = json.loads((schema_dir / "pdf-inspection-index.schema.json").read_text(encoding="utf-8"))
+    page_inspection_schema = json.loads((schema_dir / "pdf-page-inspection.schema.json").read_text(encoding="utf-8"))
+    for contract in (page_schema, inspection_index_schema, page_inspection_schema):
+        Draft202012Validator.check_schema(contract)
+    page_validator = Draft202012Validator(page_schema)
+    inspection_index_validator = Draft202012Validator(inspection_index_schema)
+    page_inspection_validator = Draft202012Validator(page_inspection_schema)
 
     run_manifest_path = run / "manifest.json"
     collection_path = run / "source-blocks/document-manifest.json"
@@ -53,10 +62,10 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
 
     if run_manifest.get("status") != "complete":
         integrity_errors.append(f"run status is {run_manifest.get('status')!r}, not 'complete'")
-    if run_manifest.get("schema_version") != "unified-source-collection/1.1":
-        integrity_errors.append("run manifest is not unified-source-collection/1.1")
-    if collection.get("schema_version") != "unified-source-collection/1.1":
-        integrity_errors.append("collection manifest is not unified-source-collection/1.1")
+    if run_manifest.get("schema_version") != "unified-source-collection/2.0":
+        integrity_errors.append("run manifest is not unified-source-collection/2.0")
+    if collection.get("schema_version") != "unified-source-collection/2.0":
+        integrity_errors.append("collection manifest is not unified-source-collection/2.0")
     if collection.get("semantic_interpretation_performed") is not False:
         integrity_errors.append("collection does not explicitly stop before semantic interpretation")
     if run_manifest.get("source_sha256") != collection.get("source_sha256"):
@@ -69,10 +78,12 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         inspection = {}
     else:
         inspection = json.loads(inspection_path.read_text(encoding="utf-8"))
+        for error in inspection_index_validator.iter_errors(inspection):
+            integrity_errors.append(f"inspection index schema: {error.message}")
         if _sha256(inspection_path) != inspection_ref.get("sha256"):
             integrity_errors.append("inspection file hash mismatch")
-        if inspection.get("schema_version") != "pdf-inspection/1.0":
-            integrity_errors.append("inspection schema is not pdf-inspection/1.0")
+        if inspection.get("schema_version") != "pdf-inspection-index/1.0":
+            integrity_errors.append("inspection index schema is not pdf-inspection-index/1.0")
         if inspection.get("document_id") != collection.get("document_id"):
             integrity_errors.append("inspection document_id mismatch")
         if inspection.get("source_sha256") != collection.get("source_sha256"):
@@ -84,6 +95,25 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         inspected_pages = [int(page.get("page")) for page in inspection.get("pages", [])]
         if inspected_pages != collection.get("selected_pages"):
             integrity_errors.append("inspection page records do not match selected pages")
+        for record in inspection.get("pages", []):
+            page_number = int(record.get("page", 0))
+            page_inspection_path = inspection_path.parent / str(record.get("file", ""))
+            if not page_inspection_path.is_file():
+                integrity_errors.append(f"page {page_number}: page inspection file is missing")
+                continue
+            if _sha256(page_inspection_path) != record.get("sha256"):
+                integrity_errors.append(f"page {page_number}: page inspection hash mismatch")
+            page_inspection = json.loads(page_inspection_path.read_text(encoding="utf-8"))
+            for error in page_inspection_validator.iter_errors(page_inspection):
+                integrity_errors.append(f"page {page_number}: inspection schema: {error.message}")
+            if page_inspection.get("schema_version") != "pdf-page-inspection/1.0":
+                integrity_errors.append(f"page {page_number}: page inspection schema mismatch")
+            if page_inspection.get("page") != page_number:
+                integrity_errors.append(f"page {page_number}: inspection page number mismatch")
+            if page_inspection.get("document_id") != collection.get("document_id"):
+                integrity_errors.append(f"page {page_number}: inspection document_id mismatch")
+            if page_inspection.get("source_sha256") != collection.get("source_sha256"):
+                integrity_errors.append(f"page {page_number}: inspection source hash mismatch")
     preserved_source = _resolve_run_path(run, run_manifest.get("preserved_source"))
     if not preserved_source.is_file():
         integrity_errors.append("preserved source file is missing")
@@ -105,8 +135,10 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         if actual_hash != page_record.get("sha256"):
             integrity_errors.append(f"page {page_number}: page JSON hash mismatch")
         page_payload = json.loads(page_path.read_text(encoding="utf-8"))
-        if page_payload.get("schema_version") != "unified-source-page/2.0":
-            integrity_errors.append(f"page {page_number}: page schema is not unified-source-page/2.0")
+        for error in page_validator.iter_errors(page_payload):
+            integrity_errors.append(f"page {page_number}: page schema: {error.message}")
+        if page_payload.get("schema_version") != "unified-source-page/3.0":
+            integrity_errors.append(f"page {page_number}: page schema is not unified-source-page/3.0")
         if "inspection" in page_payload:
             integrity_errors.append(f"page {page_number}: v2 page JSON embeds inspection")
         if page_payload.get("page") != page_number:
@@ -125,13 +157,6 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         blocks = page_payload.get("blocks", [])
         total_blocks += len(blocks)
         known_ids = {block.get("block_id") for block in blocks}
-        blocks_by_id = {block.get("block_id"): block for block in blocks}
-        required_parent_types = {
-            "chart_observation": "chart",
-            "map_binding": "map",
-            "table_header": "table",
-            "table_record": "table",
-        }
         if len(known_ids) != len(blocks):
             integrity_errors.append(f"page {page_number}: block IDs are not unique")
         for block_index, block in enumerate(blocks):
@@ -143,18 +168,6 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
                     "json_path": "$" + "".join(f"[{part}]" if isinstance(part, int) else f".{part}" for part in error.absolute_path),
                     "message": error.message,
                 })
-            parent = block.get("parent_block_id")
-            if parent is not None and parent not in known_ids:
-                integrity_errors.append(f"page {page_number}: {block.get('block_id')} has missing parent {parent}")
-            expected_parent_type = required_parent_types.get(block.get("type"))
-            if expected_parent_type and parent is None:
-                integrity_errors.append(
-                    f"page {page_number}: {block.get('block_id')} requires a {expected_parent_type} parent"
-                )
-            elif expected_parent_type and parent in blocks_by_id and blocks_by_id[parent].get("type") != expected_parent_type:
-                integrity_errors.append(
-                    f"page {page_number}: {block.get('block_id')} parent is not {expected_parent_type}"
-                )
             if block.get("page") != page_number:
                 integrity_errors.append(f"page {page_number}: {block.get('block_id')} has incorrect page field")
             if block.get("document_id") != collection.get("document_id"):
@@ -162,7 +175,7 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
             content = block.get("content", {})
             if "vision_features" in content or "line_segments" in content:
                 integrity_errors.append(f"page {page_number}: {block.get('block_id')} embeds raw vision features")
-            if block.get("type") in {"chart", "map", "photograph", "decoration", "unclassified_visual"} and parent is None:
+            if block.get("type") in {"chart", "map", "kpi_panel", "photograph", "decoration", "unclassified_visual"}:
                 feature_ref = content.get("vision_features_ref")
                 if not isinstance(feature_ref, dict) or not feature_ref.get("path") or not feature_ref.get("sha256"):
                     integrity_errors.append(f"page {page_number}: {block.get('block_id')} has no complete vision_features_ref")
@@ -185,26 +198,80 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
                         if diagnostic.get("region_id") != block.get("provenance", {}).get("region_id"):
                             integrity_errors.append(f"page {page_number}: {block.get('block_id')} diagnostic region mismatch")
             status = str(block.get("validation", {}).get("status"))
+            if status == "passed" and block.get("validation", {}).get("errors"):
+                integrity_errors.append(f"page {page_number}: {block.get('block_id')} is passed but contains errors")
+            if block.get("type") == "decoration" and any(key in content for key in {"title", "labels", "text", "raw_text"}):
+                integrity_errors.append(f"page {page_number}: decoration {block.get('block_id')} carries semantic text")
+            if block.get("type") == "table":
+                columns = content.get("columns", [])
+                rows = content.get("rows", [])
+                column_ids = [column.get("column_id") for column in columns]
+                if len(column_ids) != len(set(column_ids)) or any(not column.get("label") for column in columns):
+                    integrity_errors.append(f"page {page_number}: {block.get('block_id')} has invalid column ownership")
+                expected_cell_ids = set(column_ids[1:])
+                for row in rows:
+                    actual_cell_ids = {cell.get("column_id") for cell in row.get("cells", [])}
+                    if actual_cell_ids != expected_cell_ids:
+                        integrity_errors.append(f"page {page_number}: {block.get('block_id')} row {row.get('row_id')} has incomplete cells")
+                    for cell in row.get("cells", []):
+                        raw = str(cell.get("raw_value") or "").strip()
+                        if raw in {"$", "€", "£"} or ("%" in raw and raw.endswith(("$", "€", "£"))):
+                            integrity_errors.append(f"page {page_number}: {block.get('block_id')} has structurally malformed cell {raw!r}")
             status_counts[status] += 1
             type_counts[str(block.get("type"))] += 1
             if status == "needs_review":
                 review_by_page[page_number] += 1
-        child_counts = Counter(block.get("parent_block_id") for block in blocks if block.get("parent_block_id"))
         for block in blocks:
             if block.get("type") != "chart":
                 continue
             expected = block.get("content", {}).get("expected_observation_count")
             emitted = block.get("content", {}).get("emitted_observation_count")
-            actual = child_counts.get(block.get("block_id"), 0)
+            actual = len(block.get("content", {}).get("observations", []))
             if isinstance(emitted, int) and emitted != actual:
                 integrity_errors.append(
-                    f"page {page_number}: {block.get('block_id')} emitted count {emitted} differs from {actual} children"
+                    f"page {page_number}: {block.get('block_id')} emitted count {emitted} differs from {actual} observations"
                 )
             if isinstance(expected, int) and expected > 0 and actual != expected and block.get("validation", {}).get("status") == "passed":
                 integrity_errors.append(
                     f"page {page_number}: incomplete chart {block.get('block_id')} is marked passed"
                 )
-        unassigned_by_page[str(page_number)] = len(page_payload.get("unassigned_evidence", []))
+        evidence_owners: dict[str, list[str]] = {}
+        for block in blocks:
+            for evidence_id in block.get("provenance", {}).get("ocr_evidence_ids", []):
+                evidence_owners.setdefault(str(evidence_id), []).append(str(block.get("block_id")))
+        duplicates = {key: owners for key, owners in evidence_owners.items() if len(owners) > 1}
+        if duplicates:
+            integrity_errors.append(f"page {page_number}: OCR evidence has multiple root owners: {duplicates}")
+        dispositions = page_payload.get("evidence_disposition", [])
+        disposition_ids = [str(item.get("evidence_id")) for item in dispositions]
+        ledger_ids = [str(item.get("evidence_id")) for item in page_payload.get("evidence_ledger", {}).get("ocr_lines", [])]
+        if len(disposition_ids) != len(set(disposition_ids)) or set(disposition_ids) != set(ledger_ids):
+            integrity_errors.append(f"page {page_number}: evidence disposition is not a one-to-one ledger partition")
+        for block in blocks:
+            if block.get("type") != "table":
+                continue
+            referenced = []
+            referenced.extend(
+                evidence_id for column in block.get("content", {}).get("columns", [])
+                for evidence_id in column.get("evidence_ids", [])
+            )
+            referenced.extend(
+                evidence_id for row in block.get("content", {}).get("rows", [])
+                for cell in row.get("cells", []) for evidence_id in cell.get("evidence_ids", [])
+            )
+            for evidence_id in referenced:
+                if block.get("block_id") not in evidence_owners.get(str(evidence_id), []):
+                    integrity_errors.append(
+                        f"page {page_number}: table cell evidence {evidence_id} is not owned by {block.get('block_id')}"
+                    )
+        for item in dispositions:
+            evidence_id = str(item.get("evidence_id"))
+            owners = evidence_owners.get(evidence_id, [])
+            if item.get("status") == "owned" and item.get("owner_block_id") not in owners:
+                integrity_errors.append(f"page {page_number}: evidence {evidence_id} has an incorrect owner disposition")
+            if item.get("status") == "unassigned" and owners:
+                integrity_errors.append(f"page {page_number}: owned evidence {evidence_id} is marked unassigned")
+        unassigned_by_page[str(page_number)] = sum(item.get("status") == "unassigned" for item in dispositions)
 
     if total_blocks != sum(int(value) for value in collection.get("block_counts_by_type", {}).values()):
         integrity_errors.append("total blocks do not match collection type counts")
@@ -214,7 +281,7 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
         integrity_errors.append("recomputed validation counts do not match collection manifest")
 
     return {
-        "schema_version": "unified-source-collection-validation/1.1",
+        "schema_version": "unified-source-collection-validation/2.0",
         "run": str(run),
         "source_sha256": collection.get("source_sha256"),
         "schema": str(schema_path),

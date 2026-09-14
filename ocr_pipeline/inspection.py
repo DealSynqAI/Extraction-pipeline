@@ -164,6 +164,15 @@ def _reading_order_text(words: list[dict[str, Any]]) -> str:
     ).strip()
 
 
+def _words_bbox(words: list[dict[str, Any]]) -> tuple[float, float, float, float] | None:
+    if not words:
+        return None
+    return (
+        min(float(word["x0"]) for word in words), min(float(word["top"]) for word in words),
+        max(float(word["x1"]) for word in words), max(float(word["bottom"]) for word in words),
+    )
+
+
 def _merge_numeric_fragments(
     words: list[dict[str, Any]], page_width: float,
 ) -> list[dict[str, Any]]:
@@ -179,12 +188,23 @@ def _merge_numeric_fragments(
             following = ordered[index + 1]
             following_text = str(following.get("text", "")).strip()
             gap = float(following["x0"]) - float(current["x1"])
-            can_join = (
-                numeric_fragment.fullmatch(current_text) is not None
-                and len(current_text) <= 2
+            short_numeric_prefix = (
+                numeric_fragment.fullmatch(current_text) is not None and len(current_text) <= 2
+            ) or re.fullmatch(r"[$€£]\d{1,2}", current_text) is not None
+            can_join_digits = (
+                short_numeric_prefix
                 and numeric_fragment.fullmatch(following_text) is not None
                 and -1.5 <= gap <= page_width * 0.012
             )
+            # Financial PDFs frequently position a currency glyph independently at
+            # the left edge of a numeric column.  Attach it before column ownership
+            # is calculated so it cannot leak into the percentage column on its left.
+            can_join_currency = (
+                current_text in {"$", "€", "£"}
+                and re.fullmatch(r"\(?[-+]?\d[\d,.]*\)?", following_text) is not None
+                and -1.5 <= gap <= page_width * 0.035
+            )
+            can_join = can_join_digits or can_join_currency
             if not can_join:
                 break
             current["text"] = current_text + following_text
@@ -196,6 +216,38 @@ def _merge_numeric_fragments(
         merged.append(current)
         index += 1
     return merged
+
+
+def _header_phrases(words: list[dict[str, Any]], page_width: float) -> list[dict[str, Any]]:
+    """Join visually contiguous header words before assigning a column.
+
+    Assigning individual words by their centres splits phrases that straddle an
+    inferred boundary (for example ``Leverage (CCC Debt)``).  Phrase ownership is
+    both more stable and more faithful to how multi-line table headers are drawn.
+    """
+    phrases: list[dict[str, Any]] = []
+    for line in _group_positioned_lines(words):
+        current: list[dict[str, Any]] = []
+        for word in sorted(line, key=lambda item: float(item["x0"])):
+            if current and float(word["x0"]) - float(current[-1]["x1"]) > page_width * 0.022:
+                phrases.append({
+                    "text": _join_table_cell(current),
+                    "x0": min(float(item["x0"]) for item in current),
+                    "x1": max(float(item["x1"]) for item in current),
+                    "top": min(float(item["top"]) for item in current),
+                    "bottom": max(float(item["bottom"]) for item in current),
+                })
+                current = []
+            current.append(word)
+        if current:
+            phrases.append({
+                "text": _join_table_cell(current),
+                "x0": min(float(item["x0"]) for item in current),
+                "x1": max(float(item["x1"]) for item in current),
+                "top": min(float(item["top"]) for item in current),
+                "bottom": max(float(item["bottom"]) for item in current),
+            })
+    return phrases
 
 
 def _numeric_column_anchors(
@@ -297,14 +349,24 @@ def detect_aligned_financial_table(
     if bottom - header[3] < page_height * 0.25:
         return None
     column_count = len(boundaries) - 1
+    header_words = [
+        word for word in words
+        if header[1] <= float(word["top"]) <= header[3]
+        and header[0] <= (float(word["x0"]) + float(word["x1"])) / 2 <= header[2]
+    ]
     header_columns: list[list[dict[str, Any]]] = [[] for _ in range(column_count)]
-    for word in words:
-        center = (float(word["x0"]) + float(word["x1"])) / 2
-        if not (header[1] <= float(word["top"]) <= header[3] and header[0] <= center <= header[2]):
-            continue
+    for phrase in _header_phrases(header_words, page_width):
+        center = (float(phrase["x0"]) + float(phrase["x1"])) / 2
         index = next((i for i in range(column_count) if boundaries[i] <= center <= boundaries[i + 1]), column_count - 1)
-        header_columns[index].append(word)
-    headers = [_reading_order_text(column) for column in header_columns]
+        header_columns[index].append(phrase)
+    headers = [
+        re.sub(r"(?<=\w)-\s+(?=\w)", "-", _reading_order_text(column))
+        for column in header_columns
+    ]
+    cell_coordinates: list[list[list[float] | None]] = [[
+        _normalized_xywh(bbox, page_width, page_height) if (bbox := _words_bbox(column)) else None
+        for column in header_columns
+    ]]
     if any(not header_value for header_value in headers):
         return None
     body_words = [
@@ -330,6 +392,10 @@ def detect_aligned_financial_table(
             continue
         rows.append(values)
         row_sections.append(section)
+        cell_coordinates.append([
+            _normalized_xywh(bbox, page_width, page_height) if (bbox := _words_bbox(column)) else None
+            for column in columns
+        ])
     if len(rows) < 6:
         return None
     title_candidates = [
@@ -340,6 +406,7 @@ def detect_aligned_financial_table(
     return {
         "bbox": (header[0], header[1], header[2], bottom),
         "rows": rows,
+        "cell_coordinates": cell_coordinates,
         "row_sections": row_sections,
         "title": title,
         "column_anchors_points": anchors,
@@ -463,8 +530,8 @@ def _native_quality(chars: list[dict[str, Any]], page_area: float) -> tuple[floa
     return round(coverage, 5), round(max(0.0, min(1.0, quality)), 5)
 
 
-def _group_words(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Convert positioned words into conservative paragraph-like regions."""
+def _group_words_single(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Convert one reading-order lane into conservative paragraph regions."""
     if not words:
         return []
     ordered = sorted(words, key=lambda word: (round(float(word["top"]), 1), float(word["x0"])))
@@ -513,6 +580,29 @@ def _group_words(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "word_count": len(flat),
         })
     return result
+
+
+def _group_words(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Group words while preserving a clear two-column reading order."""
+    if not words:
+        return []
+    left_edge = min(float(word["x0"]) for word in words)
+    right_edge = max(float(word["x1"]) for word in words)
+    divider = (left_edge + right_edge) / 2
+    gutter = max(5.0, (right_edge - left_edge) * 0.012)
+    left = [word for word in words if float(word["x1"]) <= divider + gutter]
+    right = [word for word in words if float(word["x0"]) >= divider - gutter]
+    spanning = [word for word in words if word not in left and word not in right]
+    total = len(words)
+    if len(left) >= 20 and len(right) >= 20 and len(spanning) <= max(2, round(total * 0.03)):
+        # Human reading order for a two-column page is the complete left lane,
+        # followed by the complete right lane.  Full-width headings remain first.
+        grouped_spanning = _group_words_single(spanning)
+        grouped_left = _group_words_single(left)
+        grouped_right = _group_words_single(right)
+        grouped_spanning.sort(key=lambda item: item["bbox"][1])
+        return grouped_spanning + grouped_left + grouped_right
+    return _group_words_single(words)
 
 
 def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
@@ -595,6 +685,7 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                     reading_order=order, classification_method=str(aligned_table["classification_method"]),
                     confidence=float(aligned_table["confidence"]), metadata={
                         "rows": aligned_table["rows"],
+                        "cell_coordinates": aligned_table["cell_coordinates"],
                         "row_sections": aligned_table["row_sections"],
                         "title": aligned_table["title"],
                         "column_anchors_points": aligned_table["column_anchors_points"],
@@ -661,6 +752,31 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                 existing_visual_bboxes.append(bbox)
                 warnings.append(f"detected_{visual['object_family']}_as_logical_visual")
 
+            # Preserve positioned native words inside analytical visual regions.
+            # They are a second evidence channel, not inferred facts, and recover
+            # labels that raster OCR can miss (notably rotated bar values).
+            for region in regions:
+                if region.kind != "visual":
+                    continue
+                bbox = tuple(region.metadata.get("source_bbox_points") or ())
+                if len(bbox) != 4:
+                    continue
+                native_visual_words = []
+                for word in positioned_words:
+                    word_bbox = (
+                        float(word["x0"]), float(word["top"]),
+                        float(word["x1"]), float(word["bottom"]),
+                    )
+                    if not _center_in(word_bbox, bbox):
+                        continue
+                    native_visual_words.append({
+                        "text": str(word.get("text", "")),
+                        "coordinates": _normalized_xywh(word_bbox, width, height),
+                        "confidence": 1.0,
+                        "evidence_source": "native_pdf_positioned_word",
+                    })
+                region.metadata["native_visual_words"] = native_visual_words
+
             visual_bboxes = [tuple(region.metadata["source_bbox_points"]) for region in regions if region.kind == "visual"]
             excluded = table_bboxes + visual_bboxes
             words = page.extract_words(extra_attrs=["size"], use_text_flow=True) or []
@@ -687,7 +803,28 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                     kind="unknown", coordinates=[0.0, 0.0, 1000.0, 1000.0], reading_order=1,
                     classification_method="inspection-fallback", confidence=0.25,
                 ))
-            regions.sort(key=lambda region: (region.coordinates[1], region.coordinates[0], region.reading_order))
+            left_text = [
+                region for region in regions
+                if region.kind == "normal_text" and region.coordinates[0] + region.coordinates[2] <= 510
+            ]
+            right_text = [
+                region for region in regions
+                if region.kind == "normal_text" and region.coordinates[0] >= 490
+            ]
+            if len(left_text) >= 2 and len(right_text) >= 2:
+                # Complete the left reading lane before moving to the right lane.
+                # This prevents legal disclosures and other two-column prose from
+                # being interleaved merely because their baselines line up.
+                regions.sort(key=lambda region: (
+                    3 if (region.kind == "decoration" or (
+                        region.coordinates[1] >= 820 and region.coordinates[2] >= 700
+                    )) else
+                    1 if region in right_text else 0,
+                    region.coordinates[1], region.coordinates[0], region.reading_order,
+                ))
+                warnings.append("two_column_reading_order_preserved")
+            else:
+                regions.sort(key=lambda region: (region.coordinates[1], region.coordinates[0], region.reading_order))
             for index, region in enumerate(regions, 1):
                 region.reading_order = index
 

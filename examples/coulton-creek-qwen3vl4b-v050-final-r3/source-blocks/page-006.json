@@ -1,0 +1,7541 @@
+{
+  "schema_version": "unified-source-page/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 6,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 6,
+      "block_id": "p006-r003-block",
+      "content": {
+        "text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+          "ocr": "DECEMBER 31, 2023\nPORTFOLIO SUMMARY",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        46.111111,
+        82.00063,
+        686.3199,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p006-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          33.2,
+          44.280340000000024,
+          527.3503280000003,
+          64.32033999999999
+        ],
+        "ocr_evidence_ids": [
+          "p006-ocr-0001",
+          "p006-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-006.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 6,
+      "block_id": "p006-r004-block",
+      "content": {
+        "text": "Current Portfolio",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Current Portfolio",
+          "ocr": "Current Portfolio",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        355.333333,
+        164.93,
+        283.61925,
+        51.777778
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p006-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          255.84,
+          89.06220000000002,
+          460.04585999999995,
+          117.0222
+        ],
+        "ocr_evidence_ids": [
+          "p006-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-006.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "table",
+      "page": 6,
+      "block_id": "p006-r001-table",
+      "content": {
+        "title": "Current Portfolio",
+        "columns": [
+          {
+            "column_id": "c001",
+            "label": "Portfolio Investments",
+            "value_kind": "text",
+            "coordinates": [
+              70.87777777777778,
+              270.0387057407408,
+              152.06243794444453,
+              18.46796296296292
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c000"
+            ]
+          },
+          {
+            "column_id": "c002",
+            "label": "Total Invested",
+            "value_kind": "currency",
+            "coordinates": [
+              283.3051388888889,
+              270.037965,
+              99.52327461111112,
+              18.46796296296292
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c001"
+            ]
+          },
+          {
+            "column_id": "c003",
+            "label": "% of Total Invested",
+            "value_kind": "percent",
+            "coordinates": [
+              395.39,
+              241.6257427777778,
+              60.024537,
+              75.2929629629629
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c002"
+            ]
+          },
+          {
+            "column_id": "c004",
+            "label": "Return of Capital",
+            "value_kind": "currency",
+            "coordinates": [
+              505.3431383333333,
+              255.83185388888896,
+              67.27816105555564,
+              46.88037037037029
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c003"
+            ]
+          },
+          {
+            "column_id": "c005",
+            "label": "Leverage (CCC Debt)",
+            "value_kind": "currency",
+            "coordinates": [
+              599.2776388888889,
+              255.83185388888896,
+              71.94368316666666,
+              46.88037037037029
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c004"
+            ]
+          },
+          {
+            "column_id": "c006",
+            "label": "Non-controlling Interest",
+            "value_kind": "currency",
+            "coordinates": [
+              702.822638888889,
+              241.6257427777778,
+              77.23923116666664,
+              75.2929629629629
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c005"
+            ]
+          },
+          {
+            "column_id": "c007",
+            "label": "Coulton Creek Equity",
+            "value_kind": "currency",
+            "coordinates": [
+              821.3154994444443,
+              241.6257427777778,
+              55.0079211666667,
+              75.2929629629629
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c006"
+            ]
+          },
+          {
+            "column_id": "c008",
+            "label": "% of CCC Equity",
+            "value_kind": "percent",
+            "coordinates": [
+              915.253416111111,
+              255.83185388888896,
+              59.00733661111117,
+              46.88037037037029
+            ],
+            "evidence_ids": [
+              "p006-r001-native-table-r000-c007"
+            ]
+          }
+        ],
+        "rows": [
+          {
+            "row_id": "r001",
+            "section": "Equity",
+            "label": "Industrial Real Estate",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "400,000",
+                "value_state": "present",
+                "numeric_value": 400000.0,
+                "unit": "USD",
+                "normalized_value": 400000.0,
+                "coordinates": [
+                  334.5438888888889,
+                  359.1307438888889,
+                  48.50227938888886,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "0.3%",
+                "value_state": "present",
+                "numeric_value": 0.3,
+                "unit": "percent",
+                "normalized_value": 0.003,
+                "coordinates": [
+                  408.19030722222215,
+                  359.07534,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.4427894444444,
+                  359.1307438888889,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.1863827777778,
+                  359.1307438888889,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  782.8614299999999,
+                  359.1307438888889,
+                  4.468465555555509,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "400,000",
+                "value_state": "present",
+                "numeric_value": 400000.0,
+                "unit": "USD",
+                "normalized_value": 400000.0,
+                "coordinates": [
+                  845.8362644444444,
+                  359.1307438888889,
+                  48.50227938888894,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "0.4%",
+                "value_state": "present",
+                "numeric_value": 0.4,
+                "unit": "percent",
+                "normalized_value": 0.004,
+                "coordinates": [
+                  925.8939594444444,
+                  359.07534,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r001-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r002",
+            "section": "Equity",
+            "label": "Hospitality Real Estate",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "15,137,127",
+                "value_state": "present",
+                "numeric_value": 15137127.0,
+                "unit": "USD",
+                "normalized_value": 15137127.0,
+                "coordinates": [
+                  316.3647277777776,
+                  387.534470925926,
+                  66.64952288888888,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "10.4%",
+                "value_state": "present",
+                "numeric_value": 10.4,
+                "unit": "percent",
+                "normalized_value": 0.10400000000000001,
+                "coordinates": [
+                  404.9569144444443,
+                  387.47906703703705,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.4150349999998,
+                  387.534470925926,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.1586283333332,
+                  387.534470925926,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  782.8336755555555,
+                  387.534470925926,
+                  4.468465555555509,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "15,137,127",
+                "value_state": "present",
+                "numeric_value": 15137127.0,
+                "unit": "USD",
+                "normalized_value": 15137127.0,
+                "coordinates": [
+                  827.6571033333332,
+                  387.534470925926,
+                  66.64952288888897,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "15.4%",
+                "value_state": "present",
+                "numeric_value": 15.4,
+                "unit": "percent",
+                "normalized_value": 0.154,
+                "coordinates": [
+                  922.6605666666667,
+                  387.47906703703705,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r002-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r003",
+            "section": "Equity",
+            "label": "Multifamily Real Estate",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "44,759,986",
+                "value_state": "present",
+                "numeric_value": 44759986.0,
+                "unit": "USD",
+                "normalized_value": 44759986.0,
+                "coordinates": [
+                  316.3369733333334,
+                  415.93819796296305,
+                  66.64952288888888,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "30.7%",
+                "value_state": "present",
+                "numeric_value": 30.7,
+                "unit": "percent",
+                "normalized_value": 0.307,
+                "coordinates": [
+                  404.9291600000001,
+                  415.88279407407407,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.3872805555555,
+                  415.93819796296305,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.130873888889,
+                  415.93819796296305,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "10,816,437",
+                "value_state": "present",
+                "numeric_value": 10816437.0,
+                "unit": "USD",
+                "normalized_value": 10816437.0,
+                "coordinates": [
+                  720.8857555555556,
+                  415.93819796296305,
+                  66.64952288888897,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "33,943,549",
+                "value_state": "present",
+                "numeric_value": 33943549.0,
+                "unit": "USD",
+                "normalized_value": 33943549.0,
+                "coordinates": [
+                  827.629348888889,
+                  415.93819796296305,
+                  66.64952288888897,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "34.5%",
+                "value_state": "present",
+                "numeric_value": 34.5,
+                "unit": "percent",
+                "normalized_value": 0.345,
+                "coordinates": [
+                  922.6328122222224,
+                  415.88279407407407,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r003-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r004",
+            "section": "Equity",
+            "label": "Residential Development",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "13,065,600",
+                "value_state": "present",
+                "numeric_value": 13065600.0,
+                "unit": "USD",
+                "normalized_value": 13065600.0,
+                "coordinates": [
+                  316.3092188888892,
+                  444.3419250000001,
+                  66.64952288888888,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "9.0%",
+                "value_state": "present",
+                "numeric_value": 9.0,
+                "unit": "percent",
+                "normalized_value": 0.09,
+                "coordinates": [
+                  408.10704388888917,
+                  444.28652111111114,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.3595261111113,
+                  444.3419250000001,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "1,710,928",
+                "value_state": "present",
+                "numeric_value": 1710928.0,
+                "unit": "USD",
+                "normalized_value": 1710928.0,
+                "coordinates": [
+                  622.6627766666669,
+                  444.3419250000001,
+                  59.17663872222221,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "2,700,000",
+                "value_state": "present",
+                "numeric_value": 2700000.0,
+                "unit": "USD",
+                "normalized_value": 2700000.0,
+                "coordinates": [
+                  728.337823888889,
+                  444.3419250000001,
+                  59.17663872222237,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "8,654,672",
+                "value_state": "present",
+                "numeric_value": 8654672.0,
+                "unit": "USD",
+                "normalized_value": 8654672.0,
+                "coordinates": [
+                  835.0814172222224,
+                  444.3419250000001,
+                  59.17663872222237,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "8.8%",
+                "value_state": "present",
+                "numeric_value": 8.8,
+                "unit": "percent",
+                "normalized_value": 0.08800000000000001,
+                "coordinates": [
+                  925.8106961111113,
+                  444.28652111111114,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r004-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r005",
+            "section": "Equity",
+            "label": "Skilled Nursing Facilities",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "1,299,976",
+                "value_state": "present",
+                "numeric_value": 1299976.0,
+                "unit": "USD",
+                "normalized_value": 1299976.0,
+                "coordinates": [
+                  323.7474100000002,
+                  472.74565203703713,
+                  59.17663872222225,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "0.9%",
+                "value_state": "present",
+                "numeric_value": 0.9,
+                "unit": "percent",
+                "normalized_value": 0.009000000000000001,
+                "coordinates": [
+                  408.0792894444447,
+                  472.6902481481482,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.3317716666669,
+                  472.74565203703713,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.0753650000003,
+                  472.74565203703713,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  782.7504122222224,
+                  472.74565203703713,
+                  4.468465555555509,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "1,299,976",
+                "value_state": "present",
+                "numeric_value": 1299976.0,
+                "unit": "USD",
+                "normalized_value": 1299976.0,
+                "coordinates": [
+                  835.053662777778,
+                  472.74565203703713,
+                  59.17663872222237,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "1.3%",
+                "value_state": "present",
+                "numeric_value": 1.3,
+                "unit": "percent",
+                "normalized_value": 0.013000000000000001,
+                "coordinates": [
+                  925.7829416666668,
+                  472.6902481481482,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r005-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r006",
+            "section": "Equity",
+            "label": "Retail Real Estate",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "2,657,138",
+                "value_state": "present",
+                "numeric_value": 2657138.0,
+                "unit": "USD",
+                "normalized_value": 2657138.0,
+                "coordinates": [
+                  323.7196555555556,
+                  501.1493790740742,
+                  59.17663872222225,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "1.8%",
+                "value_state": "present",
+                "numeric_value": 1.8,
+                "unit": "percent",
+                "normalized_value": 0.018000000000000002,
+                "coordinates": [
+                  408.0515350000002,
+                  501.09397518518534,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "972,330",
+                "value_state": "present",
+                "numeric_value": 972330.0,
+                "unit": "USD",
+                "normalized_value": 972330.0,
+                "coordinates": [
+                  526.5352583333334,
+                  501.1493790740742,
+                  48.50227938888886,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.0476105555557,
+                  501.1493790740742,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  782.722657777778,
+                  501.1493790740742,
+                  4.468465555555509,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "1,684,808",
+                "value_state": "present",
+                "numeric_value": 1684808.0,
+                "unit": "USD",
+                "normalized_value": 1684808.0,
+                "coordinates": [
+                  835.0259083333333,
+                  501.1493790740742,
+                  59.17663872222237,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "1.7%",
+                "value_state": "present",
+                "numeric_value": 1.7,
+                "unit": "percent",
+                "normalized_value": 0.017,
+                "coordinates": [
+                  925.7551872222224,
+                  501.09397518518534,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r006-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r007",
+            "section": "Equity",
+            "label": "Aviation Real Estate",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "500,000",
+                "value_state": "present",
+                "numeric_value": 500000.0,
+                "unit": "USD",
+                "normalized_value": 500000.0,
+                "coordinates": [
+                  334.3773622222222,
+                  529.5531061111113,
+                  48.50227938888886,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "0.3%",
+                "value_state": "present",
+                "numeric_value": 0.3,
+                "unit": "percent",
+                "normalized_value": 0.003,
+                "coordinates": [
+                  408.0237805555555,
+                  529.4977022222224,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  570.2762627777778,
+                  529.5531061111113,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  677.0198561111112,
+                  529.5531061111113,
+                  4.468465555555588,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "-",
+                "value_state": "dash",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": [
+                  782.6949033333333,
+                  529.5531061111113,
+                  4.468465555555509,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "500,000",
+                "value_state": "present",
+                "numeric_value": 500000.0,
+                "unit": "USD",
+                "normalized_value": 500000.0,
+                "coordinates": [
+                  845.6697377777778,
+                  529.5531061111113,
+                  48.50227938888894,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "0.5%",
+                "value_state": "present",
+                "numeric_value": 0.5,
+                "unit": "percent",
+                "normalized_value": 0.005,
+                "coordinates": [
+                  925.7274327777777,
+                  529.4977022222224,
+                  29.151880722222263,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r007-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r008",
+            "section": "Equity",
+            "label": "Total Equity Investments",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "$77,819,827",
+                "value_state": "present",
+                "numeric_value": 77819827.0,
+                "unit": "USD",
+                "normalized_value": 77819827.0,
+                "coordinates": [
+                  286.30666444444427,
+                  558.3631283333335,
+                  96.52440688888896,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "53.4%",
+                "value_state": "present",
+                "numeric_value": 53.4,
+                "unit": "percent",
+                "normalized_value": 0.534,
+                "coordinates": [
+                  403.7357188888887,
+                  558.3631283333335,
+                  38.56480055555554,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "$972,330",
+                "value_state": "present",
+                "numeric_value": 972330.0,
+                "unit": "USD",
+                "normalized_value": 972330.0,
+                "coordinates": [
+                  500.87627444444433,
+                  558.3631283333335,
+                  74.10436666666666,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "$1,710,928",
+                "value_state": "present",
+                "numeric_value": 1710928.0,
+                "unit": "USD",
+                "normalized_value": 1710928.0,
+                "coordinates": [
+                  588.3999149999999,
+                  558.3631283333335,
+                  93.32570716666667,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "$13,516,437",
+                "value_state": "present",
+                "numeric_value": 13516437.0,
+                "unit": "USD",
+                "normalized_value": 13516437.0,
+                "coordinates": [
+                  695.1573855555554,
+                  558.3631283333335,
+                  92.25022244444456,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "$61,620,132",
+                "value_state": "present",
+                "numeric_value": 61620132.0,
+                "unit": "USD",
+                "normalized_value": 61620132.0,
+                "coordinates": [
+                  800.8463099999998,
+                  558.3631283333335,
+                  93.31876855555569,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "62.6%",
+                "value_state": "present",
+                "numeric_value": 62.6,
+                "unit": "percent",
+                "normalized_value": 0.626,
+                "coordinates": [
+                  921.4671255555554,
+                  558.3631283333335,
+                  38.5648005555557,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r008-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r009",
+            "section": "Loans",
+            "label": "Real Estate Mezzanine Loans",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "55,644,400",
+                "value_state": "present",
+                "numeric_value": 55644400.0,
+                "unit": "USD",
+                "normalized_value": 55644400.0,
+                "coordinates": [
+                  316.39180555555555,
+                  614.8555587037038,
+                  66.64952288888888,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r009-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "38.2%",
+                "value_state": "present",
+                "numeric_value": 38.2,
+                "unit": "percent",
+                "normalized_value": 0.382,
+                "coordinates": [
+                  404.98399222222224,
+                  614.8001548148148,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r009-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c005",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "28,045,777",
+                "value_state": "present",
+                "numeric_value": 28045777.0,
+                "unit": "USD",
+                "normalized_value": 28045777.0,
+                "coordinates": [
+                  720.9544649999999,
+                  614.8555587037038,
+                  66.64952288888897,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r009-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "27,598,623",
+                "value_state": "present",
+                "numeric_value": 27598623.0,
+                "unit": "USD",
+                "normalized_value": 27598623.0,
+                "coordinates": [
+                  827.6980583333333,
+                  614.8555587037038,
+                  66.64952288888897,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r009-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "28.0%",
+                "value_state": "present",
+                "numeric_value": 28.0,
+                "unit": "percent",
+                "normalized_value": 0.28,
+                "coordinates": [
+                  922.7015216666666,
+                  614.8001548148148,
+                  36.62337716666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r009-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r010",
+            "section": "Loans",
+            "label": "Real Estate Bridge Loans",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "12,178,360",
+                "value_state": "present",
+                "numeric_value": 12178360.0,
+                "unit": "USD",
+                "normalized_value": 12178360.0,
+                "coordinates": [
+                  316.37792833333344,
+                  643.2592857407407,
+                  66.64952288888888,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r010-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "8.4%",
+                "value_state": "present",
+                "numeric_value": 8.4,
+                "unit": "percent",
+                "normalized_value": 0.084,
+                "coordinates": [
+                  408.1757533333334,
+                  643.2038818518519,
+                  29.151880722222263,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r010-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c005",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "2,985,588",
+                "value_state": "present",
+                "numeric_value": 2985588.0,
+                "unit": "USD",
+                "normalized_value": 2985588.0,
+                "coordinates": [
+                  728.4204105555557,
+                  643.2592857407407,
+                  59.17663872222237,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r010-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "9,192,772",
+                "value_state": "present",
+                "numeric_value": 9192772.0,
+                "unit": "USD",
+                "normalized_value": 9192772.0,
+                "coordinates": [
+                  835.164003888889,
+                  643.2592857407407,
+                  59.17663872222237,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r010-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "9.3%",
+                "value_state": "present",
+                "numeric_value": 9.3,
+                "unit": "percent",
+                "normalized_value": 0.09300000000000001,
+                "coordinates": [
+                  925.8932827777779,
+                  643.2038818518519,
+                  29.151880722222263,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r010-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r011",
+            "section": "Loans",
+            "label": "Total Loan Investments",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "$67,822,760",
+                "value_state": "present",
+                "numeric_value": 67822760.0,
+                "unit": "USD",
+                "normalized_value": 67822760.0,
+                "coordinates": [
+                  286.4725144444444,
+                  672.0693079629631,
+                  96.52440688888896,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r011-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "46.6%",
+                "value_state": "present",
+                "numeric_value": 46.6,
+                "unit": "percent",
+                "normalized_value": 0.466,
+                "coordinates": [
+                  403.90156888888885,
+                  672.0693079629631,
+                  38.56480055555554,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r011-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c005",
+                "raw_value": null,
+                "value_state": "blank",
+                "numeric_value": null,
+                "unit": null,
+                "normalized_value": null,
+                "coordinates": null,
+                "evidence_ids": []
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "$31,031,365",
+                "value_state": "present",
+                "numeric_value": 31031365.0,
+                "unit": "USD",
+                "normalized_value": 31031365.0,
+                "coordinates": [
+                  695.3232355555556,
+                  672.0693079629631,
+                  92.25022244444456,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r011-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "$36,791,395",
+                "value_state": "present",
+                "numeric_value": 36791395.0,
+                "unit": "USD",
+                "normalized_value": 36791395.0,
+                "coordinates": [
+                  801.0121599999999,
+                  672.0693079629631,
+                  93.31876855555569,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r011-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "37.4%",
+                "value_state": "present",
+                "numeric_value": 37.4,
+                "unit": "percent",
+                "normalized_value": 0.374,
+                "coordinates": [
+                  921.6329755555554,
+                  672.0693079629631,
+                  38.5648005555557,
+                  18.46796296296292
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r011-c007"
+                ]
+              }
+            ]
+          },
+          {
+            "row_id": "r012",
+            "section": "Loans",
+            "label": "Total Investment Portfolio",
+            "cells": [
+              {
+                "column_id": "c002",
+                "raw_value": "$145,642,587",
+                "value_state": "present",
+                "numeric_value": 145642587.0,
+                "unit": "USD",
+                "normalized_value": 145642587.0,
+                "coordinates": [
+                  286.47251444444436,
+                  731.7392962962964,
+                  96.53134550000001,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c001"
+                ]
+              },
+              {
+                "column_id": "c003",
+                "raw_value": "100.0%",
+                "value_state": "present",
+                "numeric_value": 100.0,
+                "unit": "percent",
+                "normalized_value": 1.0,
+                "coordinates": [
+                  399.62738444444426,
+                  731.7392962962964,
+                  46.03768472222222,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c002"
+                ]
+              },
+              {
+                "column_id": "c004",
+                "raw_value": "$972,330",
+                "value_state": "present",
+                "numeric_value": 972330.0,
+                "unit": "USD",
+                "normalized_value": 972330.0,
+                "coordinates": [
+                  501.04212444444437,
+                  731.7392962962964,
+                  74.10436666666666,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c003"
+                ]
+              },
+              {
+                "column_id": "c005",
+                "raw_value": "$1,710,928",
+                "value_state": "present",
+                "numeric_value": 1710928.0,
+                "unit": "USD",
+                "normalized_value": 1710928.0,
+                "coordinates": [
+                  588.5657649999998,
+                  731.7392962962964,
+                  93.32570716666667,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c004"
+                ]
+              },
+              {
+                "column_id": "c006",
+                "raw_value": "$44,547,802",
+                "value_state": "present",
+                "numeric_value": 44547802.0,
+                "unit": "USD",
+                "normalized_value": 44547802.0,
+                "coordinates": [
+                  695.3232355555555,
+                  731.7392962962964,
+                  92.25022244444456,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c005"
+                ]
+              },
+              {
+                "column_id": "c007",
+                "raw_value": "$98,411,527",
+                "value_state": "present",
+                "numeric_value": 98411527.0,
+                "unit": "USD",
+                "normalized_value": 98411527.0,
+                "coordinates": [
+                  801.0121599999999,
+                  731.7392962962964,
+                  93.31876855555569,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c006"
+                ]
+              },
+              {
+                "column_id": "c008",
+                "raw_value": "100.0%",
+                "value_state": "present",
+                "numeric_value": 100.0,
+                "unit": "percent",
+                "normalized_value": 1.0,
+                "coordinates": [
+                  917.3726683333333,
+                  731.7392962962964,
+                  46.037684722222295,
+                  18.46796296296302
+                ],
+                "evidence_ids": [
+                  "p006-r001-native-table-r012-c007"
+                ]
+              }
+            ]
+          }
+        ],
+        "row_count": 12,
+        "column_count": 8,
+        "reconciliation": {
+          "passed": true,
+          "subtotal_rows": [
+            "Total Equity Investments",
+            "Total Loan Investments"
+          ],
+          "grand_total_row": "Total Investment Portfolio",
+          "checks": [
+            {
+              "column_index": 1,
+              "column": "Total Invested",
+              "subtotal_values": [
+                77819827.0,
+                67822760.0
+              ],
+              "observed_total": 145642587.0,
+              "calculated_total": 145642587.0,
+              "passed": true
+            },
+            {
+              "column_index": 2,
+              "column": "% of Total Invested",
+              "subtotal_values": [
+                53.4,
+                46.6
+              ],
+              "observed_total": 100.0,
+              "calculated_total": 100.0,
+              "passed": true
+            },
+            {
+              "column_index": 5,
+              "column": "Non-controlling Interest",
+              "subtotal_values": [
+                13516437.0,
+                31031365.0
+              ],
+              "observed_total": 44547802.0,
+              "calculated_total": 44547802.0,
+              "passed": true
+            },
+            {
+              "column_index": 6,
+              "column": "Coulton Creek Equity",
+              "subtotal_values": [
+                61620132.0,
+                36791395.0
+              ],
+              "observed_total": 98411527.0,
+              "calculated_total": 98411527.0,
+              "passed": true
+            },
+            {
+              "column_index": 7,
+              "column": "% of CCC Equity",
+              "subtotal_values": [
+                62.6,
+                37.4
+              ],
+              "observed_total": 100.0,
+              "calculated_total": 100.0,
+              "passed": true
+            }
+          ]
+        }
+      },
+      "coordinates": [
+        13.234547,
+        230.531628,
+        973.53682,
+        525.628935
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF table parser",
+        "Python table reconstruction"
+      ],
+      "confidence": 0.96,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p006-r001",
+        "classification_method": "native-positioned-aligned-financial-table",
+        "reading_order": 3,
+        "source_bbox_points": [
+          9.5288740166,
+          124.48707928900001,
+          710.4753844166,
+          408.3267040208
+        ],
+        "ocr_evidence_ids": [
+          "p006-ocr-0004",
+          "p006-ocr-0005",
+          "p006-ocr-0006",
+          "p006-ocr-0007",
+          "p006-ocr-0008",
+          "p006-ocr-0009",
+          "p006-ocr-0010",
+          "p006-ocr-0011",
+          "p006-ocr-0012",
+          "p006-ocr-0013",
+          "p006-ocr-0014",
+          "p006-ocr-0015",
+          "p006-ocr-0016",
+          "p006-ocr-0017",
+          "p006-ocr-0018",
+          "p006-ocr-0019",
+          "p006-ocr-0020",
+          "p006-ocr-0021",
+          "p006-ocr-0022",
+          "p006-ocr-0023",
+          "p006-ocr-0024",
+          "p006-ocr-0025",
+          "p006-ocr-0026",
+          "p006-ocr-0027",
+          "p006-ocr-0028",
+          "p006-ocr-0029",
+          "p006-ocr-0030",
+          "p006-ocr-0031",
+          "p006-ocr-0032",
+          "p006-ocr-0033",
+          "p006-ocr-0034",
+          "p006-ocr-0035",
+          "p006-ocr-0036",
+          "p006-ocr-0037",
+          "p006-ocr-0038",
+          "p006-ocr-0039",
+          "p006-ocr-0040",
+          "p006-ocr-0041",
+          "p006-ocr-0042",
+          "p006-ocr-0043",
+          "p006-ocr-0044",
+          "p006-ocr-0045",
+          "p006-ocr-0046",
+          "p006-ocr-0047",
+          "p006-ocr-0048",
+          "p006-ocr-0049",
+          "p006-ocr-0050",
+          "p006-ocr-0051",
+          "p006-ocr-0052",
+          "p006-ocr-0053",
+          "p006-ocr-0054",
+          "p006-ocr-0055",
+          "p006-ocr-0056",
+          "p006-ocr-0057",
+          "p006-ocr-0058",
+          "p006-ocr-0059",
+          "p006-ocr-0060",
+          "p006-ocr-0061",
+          "p006-ocr-0062",
+          "p006-ocr-0063",
+          "p006-ocr-0064",
+          "p006-ocr-0065",
+          "p006-ocr-0066",
+          "p006-ocr-0067",
+          "p006-ocr-0068",
+          "p006-ocr-0069",
+          "p006-ocr-0070",
+          "p006-ocr-0071",
+          "p006-ocr-0072",
+          "p006-ocr-0073",
+          "p006-ocr-0074",
+          "p006-ocr-0075",
+          "p006-ocr-0076",
+          "p006-ocr-0077",
+          "p006-ocr-0078",
+          "p006-ocr-0079",
+          "p006-ocr-0080",
+          "p006-ocr-0081",
+          "p006-ocr-0082",
+          "p006-ocr-0083",
+          "p006-ocr-0084",
+          "p006-ocr-0085",
+          "p006-ocr-0086",
+          "p006-ocr-0087",
+          "p006-ocr-0088",
+          "p006-ocr-0089",
+          "p006-ocr-0090",
+          "p006-ocr-0091",
+          "p006-ocr-0092",
+          "p006-ocr-0093",
+          "p006-ocr-0094",
+          "p006-ocr-0095",
+          "p006-ocr-0096",
+          "p006-ocr-0097",
+          "p006-ocr-0098",
+          "p006-ocr-0099",
+          "p006-ocr-0100",
+          "p006-ocr-0101",
+          "p006-ocr-0102",
+          "p006-ocr-0103",
+          "p006-ocr-0104",
+          "p006-ocr-0105",
+          "p006-ocr-0106",
+          "p006-ocr-0107",
+          "p006-ocr-0108",
+          "p006-r001-native-table-r000-c000",
+          "p006-r001-native-table-r000-c001",
+          "p006-r001-native-table-r000-c002",
+          "p006-r001-native-table-r000-c003",
+          "p006-r001-native-table-r000-c004",
+          "p006-r001-native-table-r000-c005",
+          "p006-r001-native-table-r000-c006",
+          "p006-r001-native-table-r000-c007",
+          "p006-r001-native-table-r001-c000",
+          "p006-r001-native-table-r001-c001",
+          "p006-r001-native-table-r001-c002",
+          "p006-r001-native-table-r001-c003",
+          "p006-r001-native-table-r001-c004",
+          "p006-r001-native-table-r001-c005",
+          "p006-r001-native-table-r001-c006",
+          "p006-r001-native-table-r001-c007",
+          "p006-r001-native-table-r002-c000",
+          "p006-r001-native-table-r002-c001",
+          "p006-r001-native-table-r002-c002",
+          "p006-r001-native-table-r002-c003",
+          "p006-r001-native-table-r002-c004",
+          "p006-r001-native-table-r002-c005",
+          "p006-r001-native-table-r002-c006",
+          "p006-r001-native-table-r002-c007",
+          "p006-r001-native-table-r003-c000",
+          "p006-r001-native-table-r003-c001",
+          "p006-r001-native-table-r003-c002",
+          "p006-r001-native-table-r003-c003",
+          "p006-r001-native-table-r003-c004",
+          "p006-r001-native-table-r003-c005",
+          "p006-r001-native-table-r003-c006",
+          "p006-r001-native-table-r003-c007",
+          "p006-r001-native-table-r004-c000",
+          "p006-r001-native-table-r004-c001",
+          "p006-r001-native-table-r004-c002",
+          "p006-r001-native-table-r004-c003",
+          "p006-r001-native-table-r004-c004",
+          "p006-r001-native-table-r004-c005",
+          "p006-r001-native-table-r004-c006",
+          "p006-r001-native-table-r004-c007",
+          "p006-r001-native-table-r005-c000",
+          "p006-r001-native-table-r005-c001",
+          "p006-r001-native-table-r005-c002",
+          "p006-r001-native-table-r005-c003",
+          "p006-r001-native-table-r005-c004",
+          "p006-r001-native-table-r005-c005",
+          "p006-r001-native-table-r005-c006",
+          "p006-r001-native-table-r005-c007",
+          "p006-r001-native-table-r006-c000",
+          "p006-r001-native-table-r006-c001",
+          "p006-r001-native-table-r006-c002",
+          "p006-r001-native-table-r006-c003",
+          "p006-r001-native-table-r006-c004",
+          "p006-r001-native-table-r006-c005",
+          "p006-r001-native-table-r006-c006",
+          "p006-r001-native-table-r006-c007",
+          "p006-r001-native-table-r007-c000",
+          "p006-r001-native-table-r007-c001",
+          "p006-r001-native-table-r007-c002",
+          "p006-r001-native-table-r007-c003",
+          "p006-r001-native-table-r007-c004",
+          "p006-r001-native-table-r007-c005",
+          "p006-r001-native-table-r007-c006",
+          "p006-r001-native-table-r007-c007",
+          "p006-r001-native-table-r008-c000",
+          "p006-r001-native-table-r008-c001",
+          "p006-r001-native-table-r008-c002",
+          "p006-r001-native-table-r008-c003",
+          "p006-r001-native-table-r008-c004",
+          "p006-r001-native-table-r008-c005",
+          "p006-r001-native-table-r008-c006",
+          "p006-r001-native-table-r008-c007",
+          "p006-r001-native-table-r009-c000",
+          "p006-r001-native-table-r009-c001",
+          "p006-r001-native-table-r009-c002",
+          "p006-r001-native-table-r009-c005",
+          "p006-r001-native-table-r009-c006",
+          "p006-r001-native-table-r009-c007",
+          "p006-r001-native-table-r010-c000",
+          "p006-r001-native-table-r010-c001",
+          "p006-r001-native-table-r010-c002",
+          "p006-r001-native-table-r010-c005",
+          "p006-r001-native-table-r010-c006",
+          "p006-r001-native-table-r010-c007",
+          "p006-r001-native-table-r011-c000",
+          "p006-r001-native-table-r011-c001",
+          "p006-r001-native-table-r011-c002",
+          "p006-r001-native-table-r011-c005",
+          "p006-r001-native-table-r011-c006",
+          "p006-r001-native-table-r011-c007",
+          "p006-r001-native-table-r012-c000",
+          "p006-r001-native-table-r012-c001",
+          "p006-r001-native-table-r012-c002",
+          "p006-r001-native-table-r012-c003",
+          "p006-r001-native-table-r012-c004",
+          "p006-r001-native-table-r012-c005",
+          "p006-r001-native-table-r012-c006",
+          "p006-r001-native-table-r012-c007"
+        ],
+        "rendered_page": "page-images/page-006.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 6,
+      "block_id": "p006-r002-decoration",
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p006-r002.json",
+          "sha256": "ae2b1de0cad81773afd521ef2dc1da063b7dced21f8487171a86ed2768d54579"
+        },
+        "region_image": "region-images/p006-r002.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p006-r002",
+        "classification_method": "repeated-page-band",
+        "reading_order": 4,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p006-ocr-0109",
+          "p006-ocr-0110",
+          "p006-ocr-0111"
+        ],
+        "rendered_page": "page-images/page-006.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-006.png",
+    "rendered_page_sha256": "eaec81d297899d13b24cebfce11cdbf9e82b7c380fcf6df808daa62931f41b5b",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p006-ocr-0001",
+        "text": "PORTFOLIO SUMMARY",
+        "confidence": 0.99952,
+        "coordinates": [
+          44.858871,
+          73.138299,
+          313.508072,
+          35.23936
+        ],
+        "polygon": [
+          [
+            44.858871,
+            73.138299
+          ],
+          [
+            358.366943,
+            73.138299
+          ],
+          [
+            358.366943,
+            108.377658
+          ],
+          [
+            44.858871,
+            108.377658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0002",
+        "text": "DECEMBER 31, 2023",
+        "confidence": 0.98681,
+        "coordinates": [
+          455.141113,
+          71.143616,
+          279.737874,
+          39.893623
+        ],
+        "polygon": [
+          [
+            455.141113,
+            71.143616
+          ],
+          [
+            734.878988,
+            71.143616
+          ],
+          [
+            734.878988,
+            111.037238
+          ],
+          [
+            455.141113,
+            111.037238
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0003",
+        "text": "Current Portfolio",
+        "confidence": 0.99537,
+        "coordinates": [
+          351.310465,
+          150.930854,
+          291.834676,
+          57.180854
+        ],
+        "polygon": [
+          [
+            351.310465,
+            150.930854
+          ],
+          [
+            643.145142,
+            152.925537
+          ],
+          [
+            643.145142,
+            208.111708
+          ],
+          [
+            351.310465,
+            206.117025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0004",
+        "text": "% of",
+        "confidence": 0.97498,
+        "coordinates": [
+          407.762085,
+          233.377658,
+          39.314535,
+          27.260634
+        ],
+        "polygon": [
+          [
+            407.762085,
+            233.377658
+          ],
+          [
+            447.076619,
+            233.377658
+          ],
+          [
+            447.076619,
+            260.638292
+          ],
+          [
+            407.762085,
+            260.638292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0005",
+        "text": "Non-",
+        "confidence": 0.99962,
+        "coordinates": [
+          722.278239,
+          234.707438,
+          42.338704,
+          25.930854
+        ],
+        "polygon": [
+          [
+            722.278239,
+            234.707438
+          ],
+          [
+            764.616943,
+            234.707438
+          ],
+          [
+            764.616943,
+            260.638292
+          ],
+          [
+            722.278239,
+            260.638292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0006",
+        "text": "Coulton",
+        "confidence": 0.99996,
+        "coordinates": [
+          818.044352,
+          234.707438,
+          61.491943,
+          25.265978
+        ],
+        "polygon": [
+          [
+            818.044352,
+            234.707438
+          ],
+          [
+            879.536296,
+            234.707438
+          ],
+          [
+            879.536296,
+            259.973416
+          ],
+          [
+            818.044352,
+            259.973416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0007",
+        "text": "Return of",
+        "confidence": 0.99982,
+        "coordinates": [
+          502.016113,
+          248.67022,
+          74.596802,
+          24.601047
+        ],
+        "polygon": [
+          [
+            502.016113,
+            248.67022
+          ],
+          [
+            576.612915,
+            248.67022
+          ],
+          [
+            576.612915,
+            273.271267
+          ],
+          [
+            502.016113,
+            273.271267
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0008",
+        "text": "Leverage",
+        "confidence": 0.99998,
+        "coordinates": [
+          601.814494,
+          249.335124,
+          69.05245,
+          26.59573
+        ],
+        "polygon": [
+          [
+            601.814494,
+            249.335124
+          ],
+          [
+            670.866943,
+            250.664903
+          ],
+          [
+            670.866943,
+            275.930854
+          ],
+          [
+            601.814494,
+            274.601074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0009",
+        "text": "% of CCC",
+        "confidence": 0.96086,
+        "coordinates": [
+          911.290283,
+          247.340441,
+          66.532308,
+          26.59573
+        ],
+        "polygon": [
+          [
+            911.290283,
+            247.340441
+          ],
+          [
+            977.822591,
+            248.67022
+          ],
+          [
+            977.822591,
+            273.936171
+          ],
+          [
+            911.290283,
+            272.606391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0010",
+        "text": "Portfolio Investments",
+        "confidence": 0.99991,
+        "coordinates": [
+          69.052419,
+          264.627658,
+          155.241933,
+          21.276611
+        ],
+        "polygon": [
+          [
+            69.052419,
+            264.627658
+          ],
+          [
+            224.294352,
+            265.957438
+          ],
+          [
+            224.294352,
+            285.90427
+          ],
+          [
+            69.052419,
+            284.574463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0011",
+        "text": "Total Invested",
+        "confidence": 0.99961,
+        "coordinates": [
+          280.745972,
+          264.627658,
+          104.334676,
+          21.941488
+        ],
+        "polygon": [
+          [
+            280.745972,
+            264.627658
+          ],
+          [
+            385.080648,
+            264.627658
+          ],
+          [
+            385.080648,
+            286.569146
+          ],
+          [
+            280.745972,
+            286.569146
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0012",
+        "text": "Total",
+        "confidence": 0.99995,
+        "coordinates": [
+          403.225789,
+          263.297879,
+          42.842773,
+          23.936171
+        ],
+        "polygon": [
+          [
+            403.225789,
+            263.297879
+          ],
+          [
+            446.068563,
+            263.297879
+          ],
+          [
+            446.068563,
+            287.234049
+          ],
+          [
+            403.225789,
+            287.234049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0013",
+        "text": "controlling",
+        "confidence": 0.99999,
+        "coordinates": [
+          698.084635,
+          261.303196,
+          85.181478,
+          29.255317
+        ],
+        "polygon": [
+          [
+            698.588704,
+            261.303196
+          ],
+          [
+            783.266113,
+            263.297879
+          ],
+          [
+            782.762126,
+            290.558512
+          ],
+          [
+            698.084635,
+            288.563829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0014",
+        "text": "Creek",
+        "confidence": 0.99997,
+        "coordinates": [
+          824.092773,
+          262.632975,
+          48.387044,
+          25.930854
+        ],
+        "polygon": [
+          [
+            824.092773,
+            262.632975
+          ],
+          [
+            872.479818,
+            262.632975
+          ],
+          [
+            872.479818,
+            288.563829
+          ],
+          [
+            824.092773,
+            288.563829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0015",
+        "text": "Capital",
+        "confidence": 0.99997,
+        "coordinates": [
+          509.072591,
+          276.595757,
+          56.451579,
+          27.925537
+        ],
+        "polygon": [
+          [
+            509.072591,
+            276.595757
+          ],
+          [
+            565.52417,
+            276.595757
+          ],
+          [
+            565.52417,
+            304.521294
+          ],
+          [
+            509.072591,
+            304.521294
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0016",
+        "text": "(CCC Debt)",
+        "confidence": 0.98259,
+        "coordinates": [
+          596.270142,
+          277.925537,
+          76.612915,
+          25.265951
+        ],
+        "polygon": [
+          [
+            596.270142,
+            277.925537
+          ],
+          [
+            672.883057,
+            277.925537
+          ],
+          [
+            672.883057,
+            303.191488
+          ],
+          [
+            596.270142,
+            303.191488
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0017",
+        "text": "Equity",
+        "confidence": 0.99985,
+        "coordinates": [
+          916.330648,
+          275.265951,
+          53.427409,
+          31.914903
+        ],
+        "polygon": [
+          [
+            916.834635,
+            275.265951
+          ],
+          [
+            969.758057,
+            276.595757
+          ],
+          [
+            969.253988,
+            307.180854
+          ],
+          [
+            916.330648,
+            305.851074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0018",
+        "text": "Invested",
+        "confidence": 0.9997,
+        "coordinates": [
+          393.145142,
+          292.553196,
+          64.012126,
+          22.606391
+        ],
+        "polygon": [
+          [
+            393.145142,
+            292.553196
+          ],
+          [
+            457.157267,
+            292.553196
+          ],
+          [
+            457.157267,
+            315.159587
+          ],
+          [
+            393.145142,
+            315.159587
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0019",
+        "text": "Interest",
+        "confidence": 0.99997,
+        "coordinates": [
+          710.181478,
+          292.553196,
+          62.5,
+          23.271267
+        ],
+        "polygon": [
+          [
+            710.181478,
+            292.553196
+          ],
+          [
+            772.681478,
+            292.553196
+          ],
+          [
+            772.681478,
+            315.824463
+          ],
+          [
+            710.181478,
+            315.824463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0020",
+        "text": "Equity",
+        "confidence": 0.99987,
+        "coordinates": [
+          820.060465,
+          288.563829,
+          53.427409,
+          32.57978
+        ],
+        "polygon": [
+          [
+            820.564535,
+            288.563829
+          ],
+          [
+            873.487874,
+            289.893609
+          ],
+          [
+            872.983887,
+            321.143609
+          ],
+          [
+            820.060465,
+            319.813829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0021",
+        "text": "Equity",
+        "confidence": 0.9999,
+        "coordinates": [
+          12.096774,
+          325.132975,
+          50.90726,
+          25.930854
+        ],
+        "polygon": [
+          [
+            12.096774,
+            325.132975
+          ],
+          [
+            63.004033,
+            325.132975
+          ],
+          [
+            63.004033,
+            351.063829
+          ],
+          [
+            12.096774,
+            351.063829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0022",
+        "text": "Industrial Real Estate",
+        "confidence": 0.98152,
+        "coordinates": [
+          35.78629,
+          353.723416,
+          138.104843,
+          21.941488
+        ],
+        "polygon": [
+          [
+            35.78629,
+            353.723416
+          ],
+          [
+            173.891134,
+            353.723416
+          ],
+          [
+            173.891134,
+            375.664903
+          ],
+          [
+            35.78629,
+            375.664903
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0023",
+        "text": "400,000",
+        "confidence": 0.99997,
+        "coordinates": [
+          330.645162,
+          351.728733,
+          55.443542,
+          27.260634
+        ],
+        "polygon": [
+          [
+            331.14919,
+            351.728733
+          ],
+          [
+            386.088704,
+            353.058512
+          ],
+          [
+            385.584676,
+            378.989366
+          ],
+          [
+            330.645162,
+            377.659587
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0024",
+        "text": "0.3%",
+        "confidence": 0.99795,
+        "coordinates": [
+          404.233887,
+          353.058512,
+          36.794352,
+          24.601074
+        ],
+        "polygon": [
+          [
+            404.233887,
+            353.058512
+          ],
+          [
+            441.028239,
+            353.058512
+          ],
+          [
+            441.028239,
+            377.659587
+          ],
+          [
+            404.233887,
+            377.659587
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0025",
+        "text": "400,000",
+        "confidence": 0.99996,
+        "coordinates": [
+          842.741943,
+          352.393609,
+          54.939535,
+          25.930854
+        ],
+        "polygon": [
+          [
+            842.741943,
+            352.393609
+          ],
+          [
+            897.681478,
+            352.393609
+          ],
+          [
+            897.681478,
+            378.324463
+          ],
+          [
+            842.741943,
+            378.324463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0026",
+        "text": "0.4%",
+        "confidence": 0.99966,
+        "coordinates": [
+          922.378988,
+          353.058512,
+          36.290365,
+          24.601074
+        ],
+        "polygon": [
+          [
+            922.378988,
+            353.058512
+          ],
+          [
+            958.669352,
+            353.058512
+          ],
+          [
+            958.669352,
+            377.659587
+          ],
+          [
+            922.378988,
+            377.659587
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0027",
+        "text": "Hospitality Real Estate",
+        "confidence": 0.99989,
+        "coordinates": [
+          36.290321,
+          382.978733,
+          147.177411,
+          23.936171
+        ],
+        "polygon": [
+          [
+            36.290321,
+            382.978733
+          ],
+          [
+            183.467733,
+            382.978733
+          ],
+          [
+            183.467733,
+            406.914903
+          ],
+          [
+            36.290321,
+            406.914903
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0028",
+        "text": "15,137,127",
+        "confidence": 0.99999,
+        "coordinates": [
+          314.516134,
+          382.978733,
+          71.068542,
+          22.606391
+        ],
+        "polygon": [
+          [
+            314.516134,
+            382.978733
+          ],
+          [
+            385.584676,
+            382.978733
+          ],
+          [
+            385.584676,
+            405.585124
+          ],
+          [
+            314.516134,
+            405.585124
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0029",
+        "text": "10.4%",
+        "confidence": 0.99997,
+        "coordinates": [
+          402.217733,
+          380.984049,
+          41.834676,
+          23.936171
+        ],
+        "polygon": [
+          [
+            402.217733,
+            380.984049
+          ],
+          [
+            444.052409,
+            380.984049
+          ],
+          [
+            444.052409,
+            404.92022
+          ],
+          [
+            402.217733,
+            404.92022
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0030",
+        "text": "15,137,127",
+        "confidence": 0.99999,
+        "coordinates": [
+          825.604818,
+          382.978733,
+          71.068522,
+          22.606391
+        ],
+        "polygon": [
+          [
+            825.604818,
+            382.978733
+          ],
+          [
+            896.67334,
+            382.978733
+          ],
+          [
+            896.67334,
+            405.585124
+          ],
+          [
+            825.604818,
+            405.585124
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0031",
+        "text": "15.4%",
+        "confidence": 0.99988,
+        "coordinates": [
+          920.362874,
+          380.984049,
+          41.330648,
+          23.936171
+        ],
+        "polygon": [
+          [
+            920.362874,
+            380.984049
+          ],
+          [
+            961.693522,
+            380.984049
+          ],
+          [
+            961.693522,
+            404.92022
+          ],
+          [
+            920.362874,
+            404.92022
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0032",
+        "text": "Multifamily Real Estate",
+        "confidence": 0.99987,
+        "coordinates": [
+          36.290321,
+          410.90427,
+          149.193545,
+          23.936171
+        ],
+        "polygon": [
+          [
+            36.290321,
+            410.90427
+          ],
+          [
+            185.483866,
+            410.90427
+          ],
+          [
+            185.483866,
+            434.840441
+          ],
+          [
+            36.290321,
+            434.840441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0033",
+        "text": "44,759,986",
+        "confidence": 0.99998,
+        "coordinates": [
+          313.508057,
+          410.239366,
+          72.580648,
+          24.601074
+        ],
+        "polygon": [
+          [
+            313.508057,
+            410.239366
+          ],
+          [
+            386.088704,
+            410.239366
+          ],
+          [
+            386.088704,
+            434.840441
+          ],
+          [
+            313.508057,
+            434.840441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0034",
+        "text": "30.7%",
+        "confidence": 0.99991,
+        "coordinates": [
+          400.705648,
+          410.239366,
+          43.346761,
+          23.936171
+        ],
+        "polygon": [
+          [
+            400.705648,
+            410.239366
+          ],
+          [
+            444.052409,
+            410.239366
+          ],
+          [
+            444.052409,
+            434.175537
+          ],
+          [
+            400.705648,
+            434.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0035",
+        "text": "10,816,437",
+        "confidence": 0.99998,
+        "coordinates": [
+          717.741943,
+          409.574463,
+          71.572591,
+          24.601074
+        ],
+        "polygon": [
+          [
+            717.741943,
+            409.574463
+          ],
+          [
+            789.314535,
+            409.574463
+          ],
+          [
+            789.314535,
+            434.175537
+          ],
+          [
+            717.741943,
+            434.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0036",
+        "text": "33,943,549",
+        "confidence": 0.99998,
+        "coordinates": [
+          824.092773,
+          410.239366,
+          73.084635,
+          24.601074
+        ],
+        "polygon": [
+          [
+            824.092773,
+            410.239366
+          ],
+          [
+            897.177409,
+            410.239366
+          ],
+          [
+            897.177409,
+            434.840441
+          ],
+          [
+            824.092773,
+            434.840441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0037",
+        "text": "34.5%",
+        "confidence": 0.99958,
+        "coordinates": [
+          918.85083,
+          410.239366,
+          42.842692,
+          23.936171
+        ],
+        "polygon": [
+          [
+            918.85083,
+            410.239366
+          ],
+          [
+            961.693522,
+            410.239366
+          ],
+          [
+            961.693522,
+            434.175537
+          ],
+          [
+            918.85083,
+            434.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0038",
+        "text": "Residential Development",
+        "confidence": 0.99998,
+        "coordinates": [
+          36.290321,
+          438.829807,
+          163.30646,
+          23.936144
+        ],
+        "polygon": [
+          [
+            36.290321,
+            438.829807
+          ],
+          [
+            199.596781,
+            440.159587
+          ],
+          [
+            199.596781,
+            462.765951
+          ],
+          [
+            36.290321,
+            461.436198
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0039",
+        "text": "13,065,600",
+        "confidence": 0.99998,
+        "coordinates": [
+          313.508057,
+          438.829807,
+          72.580648,
+          24.601074
+        ],
+        "polygon": [
+          [
+            313.508057,
+            438.829807
+          ],
+          [
+            386.088704,
+            438.829807
+          ],
+          [
+            386.088704,
+            463.430881
+          ],
+          [
+            313.508057,
+            463.430881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0040",
+        "text": "9.0%",
+        "confidence": 0.99973,
+        "coordinates": [
+          403.225789,
+          437.5,
+          37.80245,
+          26.595757
+        ],
+        "polygon": [
+          [
+            403.225789,
+            437.5
+          ],
+          [
+            441.028239,
+            437.5
+          ],
+          [
+            441.028239,
+            464.095757
+          ],
+          [
+            403.225789,
+            464.095757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0041",
+        "text": "1,710,928",
+        "confidence": 0.99998,
+        "coordinates": [
+          620.967733,
+          439.494683,
+          62.500041,
+          23.271267
+        ],
+        "polygon": [
+          [
+            620.967733,
+            439.494683
+          ],
+          [
+            683.467773,
+            439.494683
+          ],
+          [
+            683.467773,
+            462.765951
+          ],
+          [
+            620.967733,
+            462.765951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0042",
+        "text": "2,700,000",
+        "confidence": 0.99997,
+        "coordinates": [
+          724.798421,
+          438.829807,
+          65.52417,
+          24.601074
+        ],
+        "polygon": [
+          [
+            724.798421,
+            438.829807
+          ],
+          [
+            790.322591,
+            438.829807
+          ],
+          [
+            790.322591,
+            463.430881
+          ],
+          [
+            724.798421,
+            463.430881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0043",
+        "text": "8,654,672",
+        "confidence": 0.99997,
+        "coordinates": [
+          831.14917,
+          438.164903,
+          66.028239,
+          24.601047
+        ],
+        "polygon": [
+          [
+            831.14917,
+            438.164903
+          ],
+          [
+            897.177409,
+            438.164903
+          ],
+          [
+            897.177409,
+            462.765951
+          ],
+          [
+            831.14917,
+            462.765951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0044",
+        "text": "8.8%",
+        "confidence": 0.99978,
+        "coordinates": [
+          921.875,
+          437.5,
+          36.794352,
+          26.595757
+        ],
+        "polygon": [
+          [
+            921.875,
+            437.5
+          ],
+          [
+            958.669352,
+            437.5
+          ],
+          [
+            958.669352,
+            464.095757
+          ],
+          [
+            921.875,
+            464.095757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0045",
+        "text": "Skilled Nursing Facilities",
+        "confidence": 0.98895,
+        "coordinates": [
+          35.78629,
+          466.090441,
+          156.250005,
+          25.265951
+        ],
+        "polygon": [
+          [
+            35.78629,
+            466.090441
+          ],
+          [
+            192.036296,
+            467.420193
+          ],
+          [
+            192.036296,
+            491.356391
+          ],
+          [
+            35.78629,
+            490.026584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0046",
+        "text": "1,299,976",
+        "confidence": 0.99998,
+        "coordinates": [
+          321.068542,
+          466.090441,
+          65.020162,
+          25.265951
+        ],
+        "polygon": [
+          [
+            321.068542,
+            466.090441
+          ],
+          [
+            386.088704,
+            466.090441
+          ],
+          [
+            386.088704,
+            491.356391
+          ],
+          [
+            321.068542,
+            491.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0047",
+        "text": "0.9%",
+        "confidence": 0.99964,
+        "coordinates": [
+          403.729818,
+          465.425564,
+          36.794352,
+          26.595703
+        ],
+        "polygon": [
+          [
+            403.729818,
+            465.425564
+          ],
+          [
+            440.52417,
+            465.425564
+          ],
+          [
+            440.52417,
+            492.021267
+          ],
+          [
+            403.729818,
+            492.021267
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0048",
+        "text": "1,299,976",
+        "confidence": 0.99998,
+        "coordinates": [
+          832.157227,
+          466.755317,
+          65.020182,
+          24.601074
+        ],
+        "polygon": [
+          [
+            832.157227,
+            466.755317
+          ],
+          [
+            897.177409,
+            466.755317
+          ],
+          [
+            897.177409,
+            491.356391
+          ],
+          [
+            832.157227,
+            491.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0049",
+        "text": "1.3%",
+        "confidence": 0.99973,
+        "coordinates": [
+          923.387126,
+          466.090441,
+          34.27417,
+          25.265951
+        ],
+        "polygon": [
+          [
+            923.387126,
+            466.090441
+          ],
+          [
+            957.661296,
+            466.090441
+          ],
+          [
+            957.661296,
+            491.356391
+          ],
+          [
+            923.387126,
+            491.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0050",
+        "text": "Retail Real Estate",
+        "confidence": 0.99992,
+        "coordinates": [
+          36.794355,
+          496.010634,
+          111.895159,
+          21.941515
+        ],
+        "polygon": [
+          [
+            36.794355,
+            496.010634
+          ],
+          [
+            148.689514,
+            496.010634
+          ],
+          [
+            148.689514,
+            517.952148
+          ],
+          [
+            36.794355,
+            517.952148
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0051",
+        "text": "2,657,138",
+        "confidence": 0.99998,
+        "coordinates": [
+          320.564514,
+          495.345757,
+          65.020162,
+          24.601074
+        ],
+        "polygon": [
+          [
+            320.564514,
+            495.345757
+          ],
+          [
+            385.584676,
+            495.345757
+          ],
+          [
+            385.584676,
+            519.946832
+          ],
+          [
+            320.564514,
+            519.946832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0052",
+        "text": "1.8%",
+        "confidence": 0.99977,
+        "coordinates": [
+          404.737915,
+          494.015951,
+          35.786255,
+          26.595757
+        ],
+        "polygon": [
+          [
+            404.737915,
+            494.015951
+          ],
+          [
+            440.52417,
+            494.015951
+          ],
+          [
+            440.52417,
+            520.611708
+          ],
+          [
+            404.737915,
+            520.611708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0053",
+        "text": "972,330",
+        "confidence": 0.99756,
+        "coordinates": [
+          522.177409,
+          494.015951,
+          54.939535,
+          25.265951
+        ],
+        "polygon": [
+          [
+            522.177409,
+            494.015951
+          ],
+          [
+            577.116943,
+            494.015951
+          ],
+          [
+            577.116943,
+            519.281901
+          ],
+          [
+            522.177409,
+            519.281901
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0054",
+        "text": "1,684,808",
+        "confidence": 0.99997,
+        "coordinates": [
+          832.661296,
+          494.680881,
+          64.516113,
+          25.265951
+        ],
+        "polygon": [
+          [
+            832.661296,
+            494.680881
+          ],
+          [
+            897.177409,
+            494.680881
+          ],
+          [
+            897.177409,
+            519.946832
+          ],
+          [
+            832.661296,
+            519.946832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0055",
+        "text": "1.7%",
+        "confidence": 0.99983,
+        "coordinates": [
+          923.387126,
+          494.680881,
+          34.27417,
+          25.265951
+        ],
+        "polygon": [
+          [
+            923.387126,
+            494.680881
+          ],
+          [
+            957.661296,
+            494.680881
+          ],
+          [
+            957.661296,
+            519.946832
+          ],
+          [
+            923.387126,
+            519.946832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0056",
+        "text": "Aviation Real Estate",
+        "confidence": 0.99992,
+        "coordinates": [
+          36.290321,
+          524.601074,
+          129.536288,
+          21.941461
+        ],
+        "polygon": [
+          [
+            36.290321,
+            524.601074
+          ],
+          [
+            165.826609,
+            524.601074
+          ],
+          [
+            165.826609,
+            546.542535
+          ],
+          [
+            36.290321,
+            546.542535
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0057",
+        "text": "500,000",
+        "confidence": 0.99996,
+        "coordinates": [
+          331.14919,
+          522.606391,
+          54.435486,
+          25.930827
+        ],
+        "polygon": [
+          [
+            331.14919,
+            522.606391
+          ],
+          [
+            385.584676,
+            522.606391
+          ],
+          [
+            385.584676,
+            548.537218
+          ],
+          [
+            331.14919,
+            548.537218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0058",
+        "text": "0.3%",
+        "confidence": 0.9995,
+        "coordinates": [
+          403.729818,
+          521.941515,
+          37.80245,
+          26.595703
+        ],
+        "polygon": [
+          [
+            403.729818,
+            521.941515
+          ],
+          [
+            441.532267,
+            521.941515
+          ],
+          [
+            441.532267,
+            548.537218
+          ],
+          [
+            403.729818,
+            548.537218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0059",
+        "text": "500,000",
+        "confidence": 0.99997,
+        "coordinates": [
+          842.237874,
+          522.606391,
+          54.939535,
+          25.930827
+        ],
+        "polygon": [
+          [
+            842.237874,
+            522.606391
+          ],
+          [
+            897.177409,
+            522.606391
+          ],
+          [
+            897.177409,
+            548.537218
+          ],
+          [
+            842.237874,
+            548.537218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0060",
+        "text": "0.5%",
+        "confidence": 0.99908,
+        "coordinates": [
+          921.875,
+          521.941515,
+          36.794352,
+          27.260634
+        ],
+        "polygon": [
+          [
+            921.875,
+            521.941515
+          ],
+          [
+            958.669352,
+            521.941515
+          ],
+          [
+            958.669352,
+            549.202148
+          ],
+          [
+            921.875,
+            549.202148
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0061",
+        "text": "Total Equity Investments",
+        "confidence": 0.99841,
+        "coordinates": [
+          14.112904,
+          551.196832,
+          182.459667,
+          25.930827
+        ],
+        "polygon": [
+          [
+            14.112904,
+            551.196832
+          ],
+          [
+            196.572571,
+            552.526584
+          ],
+          [
+            196.572571,
+            577.127658
+          ],
+          [
+            14.112904,
+            575.797906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0062",
+        "text": "$",
+        "confidence": 0.9919,
+        "coordinates": [
+          283.266134,
+          553.856391,
+          12.60081,
+          21.276584
+        ],
+        "polygon": [
+          [
+            283.266134,
+            553.856391
+          ],
+          [
+            295.866943,
+            553.856391
+          ],
+          [
+            295.866943,
+            575.132975
+          ],
+          [
+            283.266134,
+            575.132975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0063",
+        "text": "77,819,827",
+        "confidence": 0.99998,
+        "coordinates": [
+          310.483866,
+          551.861708,
+          74.092753,
+          24.601074
+        ],
+        "polygon": [
+          [
+            310.483866,
+            551.861708
+          ],
+          [
+            384.576619,
+            551.861708
+          ],
+          [
+            384.576619,
+            576.462782
+          ],
+          [
+            310.483866,
+            576.462782
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0064",
+        "text": "53.4%",
+        "confidence": 0.99986,
+        "coordinates": [
+          399.193563,
+          551.196832,
+          46.875,
+          25.930827
+        ],
+        "polygon": [
+          [
+            399.193563,
+            551.196832
+          ],
+          [
+            446.068563,
+            551.196832
+          ],
+          [
+            446.068563,
+            577.127658
+          ],
+          [
+            399.193563,
+            577.127658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0065",
+        "text": "$",
+        "confidence": 0.99127,
+        "coordinates": [
+          498.487915,
+          553.856391,
+          12.096761,
+          20.611708
+        ],
+        "polygon": [
+          [
+            498.487915,
+            553.856391
+          ],
+          [
+            510.584676,
+            553.856391
+          ],
+          [
+            510.584676,
+            574.468099
+          ],
+          [
+            498.487915,
+            574.468099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0066",
+        "text": "972,330",
+        "confidence": 0.99998,
+        "coordinates": [
+          522.177409,
+          552.526584,
+          55.443563,
+          23.271322
+        ],
+        "polygon": [
+          [
+            522.177409,
+            552.526584
+          ],
+          [
+            577.620972,
+            552.526584
+          ],
+          [
+            577.620972,
+            575.797906
+          ],
+          [
+            522.177409,
+            575.797906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0067",
+        "text": "$",
+        "confidence": 0.96941,
+        "coordinates": [
+          585.181437,
+          553.856391,
+          13.104858,
+          20.611708
+        ],
+        "polygon": [
+          [
+            585.181437,
+            553.856391
+          ],
+          [
+            598.286296,
+            553.856391
+          ],
+          [
+            598.286296,
+            574.468099
+          ],
+          [
+            585.181437,
+            574.468099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0068",
+        "text": "1,710,928",
+        "confidence": 0.99998,
+        "coordinates": [
+          618.447591,
+          553.191515,
+          66.028239,
+          22.606391
+        ],
+        "polygon": [
+          [
+            618.447591,
+            553.191515
+          ],
+          [
+            684.47583,
+            553.191515
+          ],
+          [
+            684.47583,
+            575.797906
+          ],
+          [
+            618.447591,
+            575.797906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0069",
+        "text": "$",
+        "confidence": 0.98611,
+        "coordinates": [
+          692.540283,
+          554.521267,
+          12.60083,
+          19.946832
+        ],
+        "polygon": [
+          [
+            692.540283,
+            554.521267
+          ],
+          [
+            705.141113,
+            554.521267
+          ],
+          [
+            705.141113,
+            574.468099
+          ],
+          [
+            692.540283,
+            574.468099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0070",
+        "text": "13,516,437",
+        "confidence": 0.99999,
+        "coordinates": [
+          716.229818,
+          553.856391,
+          72.07666,
+          20.611708
+        ],
+        "polygon": [
+          [
+            716.229818,
+            553.856391
+          ],
+          [
+            788.306478,
+            553.856391
+          ],
+          [
+            788.306478,
+            574.468099
+          ],
+          [
+            716.229818,
+            574.468099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0071",
+        "text": "$",
+        "confidence": 0.99443,
+        "coordinates": [
+          798.387126,
+          553.856391,
+          12.600749,
+          20.611708
+        ],
+        "polygon": [
+          [
+            798.387126,
+            553.856391
+          ],
+          [
+            810.987874,
+            553.856391
+          ],
+          [
+            810.987874,
+            574.468099
+          ],
+          [
+            798.387126,
+            574.468099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0072",
+        "text": "61,620,132",
+        "confidence": 0.99998,
+        "coordinates": [
+          822.580648,
+          553.191515,
+          74.092692,
+          22.606391
+        ],
+        "polygon": [
+          [
+            822.580648,
+            553.191515
+          ],
+          [
+            896.67334,
+            553.191515
+          ],
+          [
+            896.67334,
+            575.797906
+          ],
+          [
+            822.580648,
+            575.797906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0073",
+        "text": "62.6%",
+        "confidence": 0.99974,
+        "coordinates": [
+          917.842773,
+          551.196832,
+          45.866862,
+          25.930827
+        ],
+        "polygon": [
+          [
+            917.842773,
+            551.196832
+          ],
+          [
+            963.709635,
+            551.196832
+          ],
+          [
+            963.709635,
+            577.127658
+          ],
+          [
+            917.842773,
+            577.127658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0074",
+        "text": "Loans",
+        "confidence": 0.99995,
+        "coordinates": [
+          12.600806,
+          581.781901,
+          46.370965,
+          23.271322
+        ],
+        "polygon": [
+          [
+            12.600806,
+            581.781901
+          ],
+          [
+            58.971771,
+            581.781901
+          ],
+          [
+            58.971771,
+            605.053223
+          ],
+          [
+            12.600806,
+            605.053223
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0075",
+        "text": "Real Estate Mezzanine Loans",
+        "confidence": 0.99995,
+        "coordinates": [
+          36.794355,
+          610.372342,
+          186.491941,
+          21.941515
+        ],
+        "polygon": [
+          [
+            36.794355,
+            610.372342
+          ],
+          [
+            223.286296,
+            610.372342
+          ],
+          [
+            223.286296,
+            632.313856
+          ],
+          [
+            36.794355,
+            632.313856
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0076",
+        "text": "55,644,400",
+        "confidence": 0.96513,
+        "coordinates": [
+          313.004028,
+          609.042589,
+          73.084676,
+          24.60102
+        ],
+        "polygon": [
+          [
+            313.004028,
+            609.042589
+          ],
+          [
+            386.088704,
+            609.042589
+          ],
+          [
+            386.088704,
+            633.643609
+          ],
+          [
+            313.004028,
+            633.643609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0077",
+        "text": "38.2%",
+        "confidence": 0.9998,
+        "coordinates": [
+          400.705648,
+          609.042589,
+          43.850789,
+          23.936144
+        ],
+        "polygon": [
+          [
+            400.705648,
+            609.042589
+          ],
+          [
+            444.556437,
+            609.042589
+          ],
+          [
+            444.556437,
+            632.978733
+          ],
+          [
+            400.705648,
+            632.978733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0078",
+        "text": "28,045,777",
+        "confidence": 0.94998,
+        "coordinates": [
+          717.237874,
+          609.042589,
+          72.07666,
+          24.60102
+        ],
+        "polygon": [
+          [
+            717.237874,
+            609.042589
+          ],
+          [
+            789.314535,
+            609.042589
+          ],
+          [
+            789.314535,
+            633.643609
+          ],
+          [
+            717.237874,
+            633.643609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0079",
+        "text": "27,598,623",
+        "confidence": 0.99998,
+        "coordinates": [
+          824.596761,
+          609.042589,
+          72.580648,
+          24.60102
+        ],
+        "polygon": [
+          [
+            824.596761,
+            609.042589
+          ],
+          [
+            897.177409,
+            609.042589
+          ],
+          [
+            897.177409,
+            633.643609
+          ],
+          [
+            824.596761,
+            633.643609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0080",
+        "text": "28.0%",
+        "confidence": 0.99965,
+        "coordinates": [
+          918.346761,
+          607.712782,
+          43.85083,
+          25.930827
+        ],
+        "polygon": [
+          [
+            918.346761,
+            607.712782
+          ],
+          [
+            962.197591,
+            607.712782
+          ],
+          [
+            962.197591,
+            633.643609
+          ],
+          [
+            918.346761,
+            633.643609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0081",
+        "text": "Real Estate Bridge Loans",
+        "confidence": 0.98546,
+        "coordinates": [
+          35.78629,
+          637.632975,
+          160.78628,
+          25.265951
+        ],
+        "polygon": [
+          [
+            35.78629,
+            637.632975
+          ],
+          [
+            196.572571,
+            638.962782
+          ],
+          [
+            196.572571,
+            662.898926
+          ],
+          [
+            35.78629,
+            661.569173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0082",
+        "text": "12,178,360",
+        "confidence": 0.99998,
+        "coordinates": [
+          314.012085,
+          637.632975,
+          71.572591,
+          24.601074
+        ],
+        "polygon": [
+          [
+            314.012085,
+            637.632975
+          ],
+          [
+            385.584676,
+            637.632975
+          ],
+          [
+            385.584676,
+            662.234049
+          ],
+          [
+            314.012085,
+            662.234049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0083",
+        "text": "8.4%",
+        "confidence": 0.99955,
+        "coordinates": [
+          404.233887,
+          636.968099,
+          36.290283,
+          24.601074
+        ],
+        "polygon": [
+          [
+            404.233887,
+            636.968099
+          ],
+          [
+            440.52417,
+            636.968099
+          ],
+          [
+            440.52417,
+            661.569173
+          ],
+          [
+            404.233887,
+            661.569173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0084",
+        "text": "2,985,588",
+        "confidence": 0.99997,
+        "coordinates": [
+          724.798421,
+          636.968099,
+          65.52417,
+          25.265951
+        ],
+        "polygon": [
+          [
+            724.798421,
+            636.968099
+          ],
+          [
+            790.322591,
+            636.968099
+          ],
+          [
+            790.322591,
+            662.234049
+          ],
+          [
+            724.798421,
+            662.234049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0085",
+        "text": "9,192,772",
+        "confidence": 0.99997,
+        "coordinates": [
+          831.14917,
+          636.968099,
+          66.028239,
+          25.265951
+        ],
+        "polygon": [
+          [
+            831.14917,
+            636.968099
+          ],
+          [
+            897.177409,
+            636.968099
+          ],
+          [
+            897.177409,
+            662.234049
+          ],
+          [
+            831.14917,
+            662.234049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0086",
+        "text": "9.3%",
+        "confidence": 0.99678,
+        "coordinates": [
+          921.875,
+          636.968099,
+          36.794352,
+          24.601074
+        ],
+        "polygon": [
+          [
+            921.875,
+            636.968099
+          ],
+          [
+            958.669352,
+            636.968099
+          ],
+          [
+            958.669352,
+            661.569173
+          ],
+          [
+            921.875,
+            661.569173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0087",
+        "text": "Total Loan Investments",
+        "confidence": 0.99995,
+        "coordinates": [
+          15.625,
+          665.558539,
+          170.866943,
+          23.271267
+        ],
+        "polygon": [
+          [
+            15.625,
+            665.558539
+          ],
+          [
+            186.491943,
+            666.888292
+          ],
+          [
+            186.491943,
+            688.829807
+          ],
+          [
+            15.625,
+            687.5
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0088",
+        "text": "$",
+        "confidence": 0.98696,
+        "coordinates": [
+          282.762085,
+          666.888292,
+          14.112915,
+          22.606391
+        ],
+        "polygon": [
+          [
+            282.762085,
+            666.888292
+          ],
+          [
+            296.875,
+            666.888292
+          ],
+          [
+            296.875,
+            689.494683
+          ],
+          [
+            282.762085,
+            689.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0089",
+        "text": "67,822,760",
+        "confidence": 0.99999,
+        "coordinates": [
+          310.483866,
+          665.558539,
+          75.604838,
+          24.60102
+        ],
+        "polygon": [
+          [
+            310.483866,
+            665.558539
+          ],
+          [
+            386.088704,
+            665.558539
+          ],
+          [
+            386.088704,
+            690.159559
+          ],
+          [
+            310.483866,
+            690.159559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0090",
+        "text": "46.6%",
+        "confidence": 0.99547,
+        "coordinates": [
+          399.697591,
+          665.558539,
+          45.362874,
+          23.936144
+        ],
+        "polygon": [
+          [
+            399.697591,
+            665.558539
+          ],
+          [
+            445.060465,
+            665.558539
+          ],
+          [
+            445.060465,
+            689.494683
+          ],
+          [
+            399.697591,
+            689.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0091",
+        "text": "$",
+        "confidence": 0.98955,
+        "coordinates": [
+          692.540283,
+          667.553223,
+          12.60083,
+          20.611708
+        ],
+        "polygon": [
+          [
+            692.540283,
+            667.553223
+          ],
+          [
+            705.141113,
+            667.553223
+          ],
+          [
+            705.141113,
+            688.164931
+          ],
+          [
+            692.540283,
+            688.164931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0092",
+        "text": "31,031,365",
+        "confidence": 0.99998,
+        "coordinates": [
+          715.221761,
+          666.888292,
+          74.596761,
+          22.606391
+        ],
+        "polygon": [
+          [
+            715.221761,
+            666.888292
+          ],
+          [
+            789.818522,
+            666.888292
+          ],
+          [
+            789.818522,
+            689.494683
+          ],
+          [
+            715.221761,
+            689.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0093",
+        "text": "$",
+        "confidence": 0.98912,
+        "coordinates": [
+          797.883057,
+          668.218099,
+          13.608887,
+          19.281901
+        ],
+        "polygon": [
+          [
+            797.883057,
+            668.218099
+          ],
+          [
+            811.491943,
+            668.218099
+          ],
+          [
+            811.491943,
+            687.5
+          ],
+          [
+            797.883057,
+            687.5
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0094",
+        "text": "36,791,395",
+        "confidence": 0.99999,
+        "coordinates": [
+          821.572591,
+          665.558539,
+          75.604818,
+          24.60102
+        ],
+        "polygon": [
+          [
+            821.572591,
+            665.558539
+          ],
+          [
+            897.177409,
+            665.558539
+          ],
+          [
+            897.177409,
+            690.159559
+          ],
+          [
+            821.572591,
+            690.159559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0095",
+        "text": "37.4%",
+        "confidence": 0.99993,
+        "coordinates": [
+          917.338704,
+          664.893609,
+          46.370931,
+          25.930881
+        ],
+        "polygon": [
+          [
+            917.338704,
+            664.893609
+          ],
+          [
+            963.709635,
+            664.893609
+          ],
+          [
+            963.709635,
+            690.82449
+          ],
+          [
+            917.338704,
+            690.82449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0096",
+        "text": "Total Investment Portfolio",
+        "confidence": 0.99476,
+        "coordinates": [
+          16.129032,
+          726.728733,
+          189.51613,
+          21.941515
+        ],
+        "polygon": [
+          [
+            16.129032,
+            726.728733
+          ],
+          [
+            205.645162,
+            726.728733
+          ],
+          [
+            205.645162,
+            748.670247
+          ],
+          [
+            16.129032,
+            748.670247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0097",
+        "text": "$",
+        "confidence": 0.99428,
+        "coordinates": [
+          283.770162,
+          726.728733,
+          12.60081,
+          21.276584
+        ],
+        "polygon": [
+          [
+            283.770162,
+            726.728733
+          ],
+          [
+            296.370972,
+            726.728733
+          ],
+          [
+            296.370972,
+            748.005317
+          ],
+          [
+            283.770162,
+            748.005317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0098",
+        "text": "145,642,587",
+        "confidence": 0.99999,
+        "coordinates": [
+          304.435486,
+          725.398926,
+          81.653219,
+          24.601074
+        ],
+        "polygon": [
+          [
+            304.435486,
+            725.398926
+          ],
+          [
+            386.088704,
+            725.398926
+          ],
+          [
+            386.088704,
+            750.0
+          ],
+          [
+            304.435486,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0099",
+        "text": "100.0%",
+        "confidence": 0.99993,
+        "coordinates": [
+          396.169352,
+          724.734049,
+          53.427409,
+          25.265951
+        ],
+        "polygon": [
+          [
+            396.169352,
+            724.734049
+          ],
+          [
+            449.596761,
+            724.734049
+          ],
+          [
+            449.596761,
+            750.0
+          ],
+          [
+            396.169352,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0100",
+        "text": "$",
+        "confidence": 0.98256,
+        "coordinates": [
+          498.487915,
+          727.393609,
+          12.600789,
+          21.276638
+        ],
+        "polygon": [
+          [
+            498.487915,
+            727.393609
+          ],
+          [
+            511.088704,
+            727.393609
+          ],
+          [
+            511.088704,
+            748.670247
+          ],
+          [
+            498.487915,
+            748.670247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0101",
+        "text": "972,330",
+        "confidence": 0.99998,
+        "coordinates": [
+          521.169352,
+          724.069173,
+          56.955648,
+          27.260634
+        ],
+        "polygon": [
+          [
+            521.673381,
+            724.069173
+          ],
+          [
+            578.125,
+            725.398926
+          ],
+          [
+            577.620972,
+            751.329807
+          ],
+          [
+            521.169352,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0102",
+        "text": "$",
+        "confidence": 0.99661,
+        "coordinates": [
+          585.685465,
+          727.393609,
+          12.60083,
+          20.611708
+        ],
+        "polygon": [
+          [
+            585.685465,
+            727.393609
+          ],
+          [
+            598.286296,
+            727.393609
+          ],
+          [
+            598.286296,
+            748.005317
+          ],
+          [
+            585.685465,
+            748.005317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0103",
+        "text": "1,710,928",
+        "confidence": 0.99998,
+        "coordinates": [
+          617.439494,
+          725.398926,
+          67.036336,
+          24.601074
+        ],
+        "polygon": [
+          [
+            617.439494,
+            725.398926
+          ],
+          [
+            684.47583,
+            725.398926
+          ],
+          [
+            684.47583,
+            750.0
+          ],
+          [
+            617.439494,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0104",
+        "text": "$",
+        "confidence": 0.9919,
+        "coordinates": [
+          692.540283,
+          727.393609,
+          12.60083,
+          20.611708
+        ],
+        "polygon": [
+          [
+            692.540283,
+            727.393609
+          ],
+          [
+            705.141113,
+            727.393609
+          ],
+          [
+            705.141113,
+            748.005317
+          ],
+          [
+            692.540283,
+            748.005317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0105",
+        "text": "44,547,802",
+        "confidence": 0.99999,
+        "coordinates": [
+          715.72583,
+          725.398926,
+          75.100749,
+          24.601074
+        ],
+        "polygon": [
+          [
+            715.72583,
+            725.398926
+          ],
+          [
+            790.826579,
+            725.398926
+          ],
+          [
+            790.826579,
+            750.0
+          ],
+          [
+            715.72583,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0106",
+        "text": "$",
+        "confidence": 0.97345,
+        "coordinates": [
+          798.387126,
+          728.058539,
+          12.600749,
+          19.281901
+        ],
+        "polygon": [
+          [
+            798.387126,
+            728.058539
+          ],
+          [
+            810.987874,
+            728.058539
+          ],
+          [
+            810.987874,
+            747.340441
+          ],
+          [
+            798.387126,
+            747.340441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0107",
+        "text": "98,411,527",
+        "confidence": 0.99998,
+        "coordinates": [
+          822.076579,
+          724.734049,
+          75.10083,
+          24.601074
+        ],
+        "polygon": [
+          [
+            822.076579,
+            724.734049
+          ],
+          [
+            897.177409,
+            724.734049
+          ],
+          [
+            897.177409,
+            749.335124
+          ],
+          [
+            822.076579,
+            749.335124
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0108",
+        "text": "100.0%",
+        "confidence": 0.99995,
+        "coordinates": [
+          914.314535,
+          724.069173,
+          52.92334,
+          25.930827
+        ],
+        "polygon": [
+          [
+            914.314535,
+            724.069173
+          ],
+          [
+            967.237874,
+            724.069173
+          ],
+          [
+            967.237874,
+            750.0
+          ],
+          [
+            914.314535,
+            750.0
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0109",
+        "text": "COULTON CREEK",
+        "confidence": 0.99253,
+        "coordinates": [
+          144.657257,
+          918.88303,
+          180.443553,
+          24.60102
+        ],
+        "polygon": [
+          [
+            144.657257,
+            918.88303
+          ],
+          [
+            325.10081,
+            918.88303
+          ],
+          [
+            325.10081,
+            943.484049
+          ],
+          [
+            144.657257,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0110",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99682,
+        "coordinates": [
+          742.943522,
+          929.521267,
+          213.205648,
+          30.585178
+        ],
+        "polygon": [
+          [
+            742.943522,
+            931.515951
+          ],
+          [
+            956.14917,
+            929.521267
+          ],
+          [
+            956.14917,
+            958.111762
+          ],
+          [
+            742.943522,
+            960.106445
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-ocr-0111",
+        "text": "CAPITAL",
+        "confidence": 0.99649,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          92.741943,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.391134,
+            940.824436
+          ],
+          [
+            236.391134,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c000",
+        "text": "Portfolio Investments",
+        "confidence": 1.0,
+        "coordinates": [
+          70.87777777777778,
+          270.0387057407408,
+          152.06243794444453,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c001",
+        "text": "Total Invested",
+        "confidence": 1.0,
+        "coordinates": [
+          283.3051388888889,
+          270.037965,
+          99.52327461111112,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c002",
+        "text": "% of Total Invested",
+        "confidence": 1.0,
+        "coordinates": [
+          395.39,
+          241.6257427777778,
+          60.024537,
+          75.2929629629629
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c003",
+        "text": "Return of Capital",
+        "confidence": 1.0,
+        "coordinates": [
+          505.3431383333333,
+          255.83185388888896,
+          67.27816105555564,
+          46.88037037037029
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c004",
+        "text": "Leverage (CCC Debt)",
+        "confidence": 1.0,
+        "coordinates": [
+          599.2776388888889,
+          255.83185388888896,
+          71.94368316666666,
+          46.88037037037029
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c005",
+        "text": "Non-controlling Interest",
+        "confidence": 1.0,
+        "coordinates": [
+          702.822638888889,
+          241.6257427777778,
+          77.23923116666664,
+          75.2929629629629
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c006",
+        "text": "Coulton Creek Equity",
+        "confidence": 1.0,
+        "coordinates": [
+          821.3154994444443,
+          241.6257427777778,
+          55.0079211666667,
+          75.2929629629629
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r000-c007",
+        "text": "% of CCC Equity",
+        "confidence": 1.0,
+        "coordinates": [
+          915.253416111111,
+          255.83185388888896,
+          59.00733661111117,
+          46.88037037037029
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c000",
+        "text": "Industrial Real Estate",
+        "confidence": 1.0,
+        "coordinates": [
+          38.85347222222222,
+          359.1307438888889,
+          133.72923966666667,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c001",
+        "text": "400,000",
+        "confidence": 1.0,
+        "coordinates": [
+          334.5438888888889,
+          359.1307438888889,
+          48.50227938888886,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c002",
+        "text": "0.3%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.19030722222215,
+          359.07534,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.4427894444444,
+          359.1307438888889,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.1863827777778,
+          359.1307438888889,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c005",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          782.8614299999999,
+          359.1307438888889,
+          4.468465555555509,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c006",
+        "text": "400,000",
+        "confidence": 1.0,
+        "coordinates": [
+          845.8362644444444,
+          359.1307438888889,
+          48.50227938888894,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r001-c007",
+        "text": "0.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.8939594444444,
+          359.07534,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c000",
+        "text": "Hospitality Real Estate",
+        "confidence": 1.0,
+        "coordinates": [
+          38.82028333333317,
+          387.534470925926,
+          142.305363,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c001",
+        "text": "15,137,127",
+        "confidence": 1.0,
+        "coordinates": [
+          316.3647277777776,
+          387.534470925926,
+          66.64952288888888,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c002",
+        "text": "10.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          404.9569144444443,
+          387.47906703703705,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.4150349999998,
+          387.534470925926,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.1586283333332,
+          387.534470925926,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c005",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          782.8336755555555,
+          387.534470925926,
+          4.468465555555509,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c006",
+        "text": "15,137,127",
+        "confidence": 1.0,
+        "coordinates": [
+          827.6571033333332,
+          387.534470925926,
+          66.64952288888897,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r002-c007",
+        "text": "15.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          922.6605666666667,
+          387.47906703703705,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c000",
+        "text": "Multifamily Real Estate",
+        "confidence": 1.0,
+        "coordinates": [
+          38.792528888888945,
+          415.93819796296305,
+          144.44800611111108,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c001",
+        "text": "44,759,986",
+        "confidence": 1.0,
+        "coordinates": [
+          316.3369733333334,
+          415.93819796296305,
+          66.64952288888888,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c002",
+        "text": "30.7%",
+        "confidence": 1.0,
+        "coordinates": [
+          404.9291600000001,
+          415.88279407407407,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.3872805555555,
+          415.93819796296305,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.130873888889,
+          415.93819796296305,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c005",
+        "text": "10,816,437",
+        "confidence": 1.0,
+        "coordinates": [
+          720.8857555555556,
+          415.93819796296305,
+          66.64952288888897,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c006",
+        "text": "33,943,549",
+        "confidence": 1.0,
+        "coordinates": [
+          827.629348888889,
+          415.93819796296305,
+          66.64952288888897,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r003-c007",
+        "text": "34.5%",
+        "confidence": 1.0,
+        "coordinates": [
+          922.6328122222224,
+          415.88279407407407,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c000",
+        "text": "Residential Development",
+        "confidence": 1.0,
+        "coordinates": [
+          38.76477444444472,
+          444.3419250000001,
+          158.5847323888889,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c001",
+        "text": "13,065,600",
+        "confidence": 1.0,
+        "coordinates": [
+          316.3092188888892,
+          444.3419250000001,
+          66.64952288888888,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c002",
+        "text": "9.0%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.10704388888917,
+          444.28652111111114,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.3595261111113,
+          444.3419250000001,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c004",
+        "text": "1,710,928",
+        "confidence": 1.0,
+        "coordinates": [
+          622.6627766666669,
+          444.3419250000001,
+          59.17663872222221,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c005",
+        "text": "2,700,000",
+        "confidence": 1.0,
+        "coordinates": [
+          728.337823888889,
+          444.3419250000001,
+          59.17663872222237,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c006",
+        "text": "8,654,672",
+        "confidence": 1.0,
+        "coordinates": [
+          835.0814172222224,
+          444.3419250000001,
+          59.17663872222237,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r004-c007",
+        "text": "8.8%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.8106961111113,
+          444.28652111111114,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c000",
+        "text": "Skilled Nursing Facilities",
+        "confidence": 1.0,
+        "coordinates": [
+          38.73702000000018,
+          472.74565203703713,
+          150.76075449999996,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c001",
+        "text": "1,299,976",
+        "confidence": 1.0,
+        "coordinates": [
+          323.7474100000002,
+          472.74565203703713,
+          59.17663872222225,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c002",
+        "text": "0.9%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.0792894444447,
+          472.6902481481482,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.3317716666669,
+          472.74565203703713,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.0753650000003,
+          472.74565203703713,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c005",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          782.7504122222224,
+          472.74565203703713,
+          4.468465555555509,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c006",
+        "text": "1,299,976",
+        "confidence": 1.0,
+        "coordinates": [
+          835.053662777778,
+          472.74565203703713,
+          59.17663872222237,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r005-c007",
+        "text": "1.3%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.7829416666668,
+          472.6902481481482,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c000",
+        "text": "Retail Real Estate",
+        "confidence": 1.0,
+        "coordinates": [
+          38.70926555555564,
+          501.1493790740742,
+          108.11188744444448,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c001",
+        "text": "2,657,138",
+        "confidence": 1.0,
+        "coordinates": [
+          323.7196555555556,
+          501.1493790740742,
+          59.17663872222225,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c002",
+        "text": "1.8%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.0515350000002,
+          501.09397518518534,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c003",
+        "text": "972,330",
+        "confidence": 1.0,
+        "coordinates": [
+          526.5352583333334,
+          501.1493790740742,
+          48.50227938888886,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.0476105555557,
+          501.1493790740742,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c005",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          782.722657777778,
+          501.1493790740742,
+          4.468465555555509,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c006",
+        "text": "1,684,808",
+        "confidence": 1.0,
+        "coordinates": [
+          835.0259083333333,
+          501.1493790740742,
+          59.17663872222237,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r006-c007",
+        "text": "1.7%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.7551872222224,
+          501.09397518518534,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c000",
+        "text": "Aviation Real Estate",
+        "confidence": 1.0,
+        "coordinates": [
+          38.6815111111111,
+          529.5531061111113,
+          125.1822585,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c001",
+        "text": "500,000",
+        "confidence": 1.0,
+        "coordinates": [
+          334.3773622222222,
+          529.5531061111113,
+          48.50227938888886,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c002",
+        "text": "0.3%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.0237805555555,
+          529.4977022222224,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c003",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          570.2762627777778,
+          529.5531061111113,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c004",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          677.0198561111112,
+          529.5531061111113,
+          4.468465555555588,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c005",
+        "text": "-",
+        "confidence": 1.0,
+        "coordinates": [
+          782.6949033333333,
+          529.5531061111113,
+          4.468465555555509,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c006",
+        "text": "500,000",
+        "confidence": 1.0,
+        "coordinates": [
+          845.6697377777778,
+          529.5531061111113,
+          48.50227938888894,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r007-c007",
+        "text": "0.5%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.7274327777777,
+          529.4977022222224,
+          29.151880722222263,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c000",
+        "text": "Total Equity Investments",
+        "confidence": 1.0,
+        "coordinates": [
+          19.43380388888869,
+          558.3631283333335,
+          174.50190627777775,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c001",
+        "text": "$77,819,827",
+        "confidence": 1.0,
+        "coordinates": [
+          286.30666444444427,
+          558.3631283333335,
+          96.52440688888896,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c002",
+        "text": "53.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          403.7357188888887,
+          558.3631283333335,
+          38.56480055555554,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c003",
+        "text": "$972,330",
+        "confidence": 1.0,
+        "coordinates": [
+          500.87627444444433,
+          558.3631283333335,
+          74.10436666666666,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c004",
+        "text": "$1,710,928",
+        "confidence": 1.0,
+        "coordinates": [
+          588.3999149999999,
+          558.3631283333335,
+          93.32570716666667,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c005",
+        "text": "$13,516,437",
+        "confidence": 1.0,
+        "coordinates": [
+          695.1573855555554,
+          558.3631283333335,
+          92.25022244444456,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c006",
+        "text": "$61,620,132",
+        "confidence": 1.0,
+        "coordinates": [
+          800.8463099999998,
+          558.3631283333335,
+          93.31876855555569,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r008-c007",
+        "text": "62.6%",
+        "confidence": 1.0,
+        "coordinates": [
+          921.4671255555554,
+          558.3631283333335,
+          38.5648005555557,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c000",
+        "text": "Real Estate Mezzanine Loans",
+        "confidence": 1.0,
+        "coordinates": [
+          38.84736111111111,
+          614.8555587037038,
+          182.7366499444443,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c001",
+        "text": "55,644,400",
+        "confidence": 1.0,
+        "coordinates": [
+          316.39180555555555,
+          614.8555587037038,
+          66.64952288888888,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c002",
+        "text": "38.2%",
+        "confidence": 1.0,
+        "coordinates": [
+          404.98399222222224,
+          614.8001548148148,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c005",
+        "text": "28,045,777",
+        "confidence": 1.0,
+        "coordinates": [
+          720.9544649999999,
+          614.8555587037038,
+          66.64952288888897,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c006",
+        "text": "27,598,623",
+        "confidence": 1.0,
+        "coordinates": [
+          827.6980583333333,
+          614.8555587037038,
+          66.64952288888897,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r009-c007",
+        "text": "28.0%",
+        "confidence": 1.0,
+        "coordinates": [
+          922.7015216666666,
+          614.8001548148148,
+          36.62337716666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c000",
+        "text": "Real Estate Bridge Loans",
+        "confidence": 1.0,
+        "coordinates": [
+          38.833483888889,
+          643.2592857407407,
+          154.98636866666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c001",
+        "text": "12,178,360",
+        "confidence": 1.0,
+        "coordinates": [
+          316.37792833333344,
+          643.2592857407407,
+          66.64952288888888,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c002",
+        "text": "8.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          408.1757533333334,
+          643.2038818518519,
+          29.151880722222263,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c005",
+        "text": "2,985,588",
+        "confidence": 1.0,
+        "coordinates": [
+          728.4204105555557,
+          643.2592857407407,
+          59.17663872222237,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c006",
+        "text": "9,192,772",
+        "confidence": 1.0,
+        "coordinates": [
+          835.164003888889,
+          643.2592857407407,
+          59.17663872222237,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r010-c007",
+        "text": "9.3%",
+        "confidence": 1.0,
+        "coordinates": [
+          925.8932827777779,
+          643.2038818518519,
+          29.151880722222263,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c000",
+        "text": "Total Loan Investments",
+        "confidence": 1.0,
+        "coordinates": [
+          19.599653888888863,
+          672.0693079629631,
+          164.8891544444444,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c001",
+        "text": "$67,822,760",
+        "confidence": 1.0,
+        "coordinates": [
+          286.4725144444444,
+          672.0693079629631,
+          96.52440688888896,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c002",
+        "text": "46.6%",
+        "confidence": 1.0,
+        "coordinates": [
+          403.90156888888885,
+          672.0693079629631,
+          38.56480055555554,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c005",
+        "text": "$31,031,365",
+        "confidence": 1.0,
+        "coordinates": [
+          695.3232355555556,
+          672.0693079629631,
+          92.25022244444456,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c006",
+        "text": "$36,791,395",
+        "confidence": 1.0,
+        "coordinates": [
+          801.0121599999999,
+          672.0693079629631,
+          93.31876855555569,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r011-c007",
+        "text": "37.4%",
+        "confidence": 1.0,
+        "coordinates": [
+          921.6329755555554,
+          672.0693079629631,
+          38.5648005555557,
+          18.46796296296292
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c000",
+        "text": "Total Investment Portfolio",
+        "confidence": 1.0,
+        "coordinates": [
+          19.613531111110976,
+          731.7392962962964,
+          184.73496994444452,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c001",
+        "text": "$145,642,587",
+        "confidence": 1.0,
+        "coordinates": [
+          286.47251444444436,
+          731.7392962962964,
+          96.53134550000001,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c002",
+        "text": "100.0%",
+        "confidence": 1.0,
+        "coordinates": [
+          399.62738444444426,
+          731.7392962962964,
+          46.03768472222222,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c003",
+        "text": "$972,330",
+        "confidence": 1.0,
+        "coordinates": [
+          501.04212444444437,
+          731.7392962962964,
+          74.10436666666666,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c004",
+        "text": "$1,710,928",
+        "confidence": 1.0,
+        "coordinates": [
+          588.5657649999998,
+          731.7392962962964,
+          93.32570716666667,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c005",
+        "text": "$44,547,802",
+        "confidence": 1.0,
+        "coordinates": [
+          695.3232355555555,
+          731.7392962962964,
+          92.25022244444456,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c006",
+        "text": "$98,411,527",
+        "confidence": 1.0,
+        "coordinates": [
+          801.0121599999999,
+          731.7392962962964,
+          93.31876855555569,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      },
+      {
+        "evidence_id": "p006-r001-native-table-r012-c007",
+        "text": "100.0%",
+        "confidence": 1.0,
+        "coordinates": [
+          917.3726683333333,
+          731.7392962962964,
+          46.037684722222295,
+          18.46796296296302
+        ],
+        "evidence_source": "native_pdf_table_cell"
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p006-ocr-0001",
+      "owner_block_id": "p006-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0002",
+      "owner_block_id": "p006-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0003",
+      "owner_block_id": "p006-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0008",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0009",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0010",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0011",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0012",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0013",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0014",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0015",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0016",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0017",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0018",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0019",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0020",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0021",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0022",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0023",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0024",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0025",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0026",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0027",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0028",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0029",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0030",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0031",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0032",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0033",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0034",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0035",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0036",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0037",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0038",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0039",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0040",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0041",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0042",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0043",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0044",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0045",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0046",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0047",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0048",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0049",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0050",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0051",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0052",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0053",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0054",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0055",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0056",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0057",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0058",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0059",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0060",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0061",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0062",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0063",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0064",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0065",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0066",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0067",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0068",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0069",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0070",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0071",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0072",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0073",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0074",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0075",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0076",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0077",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0078",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0079",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0080",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0081",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0082",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0083",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0084",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0085",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0086",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0087",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0088",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0089",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0090",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0091",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0092",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0093",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0094",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0095",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0096",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0097",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0098",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0099",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0100",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0101",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0102",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0103",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0104",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0105",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0106",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0107",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0108",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0109",
+      "owner_block_id": "p006-r002-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0110",
+      "owner_block_id": "p006-r002-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-ocr-0111",
+      "owner_block_id": "p006-r002-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r000-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r001-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r002-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r003-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r004-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r005-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r006-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r007-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r008-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r009-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r010-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r011-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c000",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c001",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c002",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c003",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c004",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c005",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c006",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p006-r001-native-table-r012-c007",
+      "owner_block_id": "p006-r001-table",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

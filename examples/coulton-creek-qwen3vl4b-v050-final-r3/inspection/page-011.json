@@ -1,0 +1,1120 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 11,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.11366,
+  "native_text_quality": 0.99765,
+  "image_coverage": 0.13237,
+  "vector_line_count": 15,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 2,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p011-r003",
+      "page": 11,
+      "kind": "normal_text",
+      "coordinates": [
+        46.11125,
+        82.00062962962967,
+        685.2228111111114,
+        156.6241851851851
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 0.99765,
+      "native_text": "TRACK RECORD – FUND LEVEL RETURNS\n 18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 23,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          526.5605240000002,
+          128.85739999999998
+        ]
+      }
+    },
+    {
+      "region_id": "p011-r002",
+      "page": 11,
+      "kind": "visual",
+      "coordinates": [
+        100.23543653847224,
+        248.66147760259256,
+        799.6807568162499,
+        621.3385223974075
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-vector-bar-cluster",
+      "confidence": 0.94,
+      "native_text": "",
+      "metadata": {
+        "source_member_bboxes": [
+          [
+            129.7695143077,
+            282.15136650269994,
+            154.3801331077,
+            414.6280117161999
+          ],
+          [
+            178.9907680564,
+            262.85012819459996,
+            202.7224454128,
+            414.62799559729996
+          ],
+          [
+            227.3330480641,
+            218.10636679729998,
+            251.06470927179998,
+            414.62799559729996
+          ],
+          [
+            275.6753280718,
+            191.7865081,
+            299.4070054282,
+            414.62799559729996
+          ],
+          [
+            324.0176242282,
+            197.05047339189997,
+            348.6282430282,
+            414.62799559729996
+          ],
+          [
+            372.3599042359,
+            190.9091724919,
+            396.9705230359,
+            414.62799559729996
+          ],
+          [
+            420.70218424359996,
+            190.03185300269996,
+            445.31280304359996,
+            414.6280117161999
+          ],
+          [
+            469.0444804,
+            188.2771979054,
+            493.6550992,
+            414.62799559729996
+          ],
+          [
+            518.265718,
+            193.54116319729997,
+            541.9973953563999,
+            414.62799559729996
+          ],
+          [
+            566.6080141564,
+            196.1731539027,
+            590.3396592153999,
+            414.6280117161999
+          ]
+        ],
+        "member_coordinates": [
+          [
+            180.23543653847224,
+            522.5025305605554,
+            34.181414999999994,
+            245.32712076574072
+          ],
+          [
+            248.59828896722217,
+            486.75949665666656,
+            32.96066299500002,
+            281.07012481981485
+          ],
+          [
+            315.74034453347224,
+            403.9006792542593,
+            32.960640566249964,
+            363.9289422222222
+          ],
+          [
+            382.88240009972225,
+            355.16020018518515,
+            32.96066299500006,
+            412.66942129129626
+          ],
+          [
+            450.0244780947222,
+            364.90828405907405,
+            34.181414999999994,
+            402.9213374174074
+          ],
+          [
+            517.1665336609722,
+            353.5355046146296,
+            34.181414999999994,
+            414.29411686185176
+          ],
+          [
+            584.3085892272221,
+            351.9108388938888,
+            34.181414999999994,
+            415.9188124324073
+          ],
+          [
+            651.4506672222223,
+            348.6614776025926,
+            34.181414999999994,
+            419.1681438738888
+          ],
+          [
+            719.8134972222222,
+            358.40956147648143,
+            32.9606629949999,
+            409.42006
+          ],
+          [
+            786.9555752172222,
+            363.2836183383333,
+            32.960618137499864,
+            404.5460329879628
+          ]
+        ],
+        "object_family": "pdf-vector-bar-cluster",
+        "visual_hint": "chart",
+        "chart_type_hint": "bar",
+        "expected_mark_count": 10,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "native_visual_words": [
+          {
+            "text": "*",
+            "coordinates": [
+              106.55472222222221,
+              829.007962962963,
+              7.585500000000009,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Assumes",
+            "coordinates": [
+              118.88847222222219,
+              829.007962962963,
+              80.24055000000001,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "return",
+            "coordinates": [
+              204.0469222222222,
+              829.007962962963,
+              51.00809999999995,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              260.04702222222215,
+              829.007962962963,
+              16.255200000000038,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "capital",
+            "coordinates": [
+              281.5477222222222,
+              829.007962962963,
+              56.48760000000017,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "for",
+            "coordinates": [
+              343.03902222222246,
+              829.007962962963,
+              22.81694999999999,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "terminal",
+            "coordinates": [
+              370.86357222222256,
+              829.007962962963,
+              69.31079999999992,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "cash",
+            "coordinates": [
+              445.17807222222257,
+              829.007962962963,
+              41.34389999999984,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "flow",
+            "coordinates": [
+              491.5022722222223,
+              829.007962962963,
+              34.74704999999992,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "(no",
+            "coordinates": [
+              531.5045722222222,
+              829.007962962963,
+              28.175549999999955,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "mark",
+            "coordinates": [
+              564.828122222222,
+              829.007962962963,
+              43.24124999999989,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              613.1530222222219,
+              829.007962962963,
+              16.340999999999973,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "market",
+            "coordinates": [
+              634.8194722222217,
+              829.007962962963,
+              59.568599999999826,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "on",
+            "coordinates": [
+              699.3020722222215,
+              829.007962962963,
+              21.664499999999897,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "current",
+            "coordinates": [
+              726.2920222222214,
+              829.007962962963,
+              60.74639999999978,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investments).",
+            "coordinates": [
+              791.7827722222211,
+              829.007962962963,
+              115.90410000000018,
+              25.999999999999932
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "11",
+            "coordinates": [
+              190.5691922222222,
+              573.5661831481482,
+              19.532222222222252,
+              26.17696500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              190.5691922222222,
+              567.1974081481482,
+              19.532222222222252,
+              6.550739999999922
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "3",
+            "coordinates": [
+              190.5691922222222,
+              554.069933148148,
+              19.532222222222252,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              190.5691922222222,
+              535.6654731481481,
+              19.532222222222252,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "21",
+            "coordinates": [
+              257.89016444444445,
+              538.4654424074074,
+              19.532222222222252,
+              26.17696500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              257.89016444444445,
+              532.0966674074075,
+              19.532222222222252,
+              6.550739999999922
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "9",
+            "coordinates": [
+              257.89016444444445,
+              518.9691924074074,
+              19.532222222222252,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              257.89016444444445,
+              500.56473240740735,
+              19.532222222222252,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "61",
+            "coordinates": [
+              325.2109977777778,
+              455.79988685185185,
+              19.532222222222252,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              325.2109977777778,
+              449.43111185185177,
+              19.532222222222252,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "7",
+            "coordinates": [
+              325.2109977777778,
+              436.3036368518519,
+              19.532222222222252,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              325.2109977777778,
+              417.89917685185185,
+              19.532222222222252,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "81",
+            "coordinates": [
+              392.53197,
+              407.17673870370385,
+              19.532222222222217,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              392.53197,
+              400.8079637037037,
+              19.532222222222217,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "9",
+            "coordinates": [
+              392.53197,
+              387.68048870370376,
+              19.532222222222217,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              392.53197,
+              369.27602870370373,
+              19.532222222222217,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "81",
+            "coordinates": [
+              459.8529422222223,
+              416.70470166666667,
+              19.532222222222217,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              459.8529422222223,
+              410.3359266666666,
+              19.532222222222217,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "5",
+            "coordinates": [
+              459.8529422222223,
+              397.20845166666663,
+              19.532222222222217,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              459.8529422222223,
+              378.80399166666666,
+              19.532222222222217,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "91",
+            "coordinates": [
+              527.1736366666667,
+              405.5950720370371,
+              19.532222222222217,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              527.1736366666667,
+              399.226297037037,
+              19.532222222222217,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "0",
+            "coordinates": [
+              527.1736366666667,
+              386.0988220370371,
+              19.532222222222217,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              527.1736366666667,
+              367.6943620370371,
+              19.532222222222217,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "91",
+            "coordinates": [
+              594.4946088888888,
+              403.91729425925934,
+              19.532222222222217,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              594.4946088888888,
+              397.5485192592592,
+              19.532222222222217,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "1",
+            "coordinates": [
+              594.4946088888888,
+              384.4210442592593,
+              19.532222222222217,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              594.4946088888888,
+              366.0165842592593,
+              19.532222222222217,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "91",
+            "coordinates": [
+              661.8155811111111,
+              400.2215535185186,
+              19.532222222222217,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              661.8155811111111,
+              393.85277851851845,
+              19.532222222222217,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "3",
+            "coordinates": [
+              661.8155811111111,
+              380.72530351851856,
+              19.532222222222217,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              661.8155811111111,
+              362.32084351851853,
+              19.532222222222217,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "81",
+            "coordinates": [
+              729.1364144444443,
+              409.7669238888889,
+              19.532222222222295,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              729.1364144444443,
+              403.39814888888884,
+              19.532222222222295,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "8",
+            "coordinates": [
+              729.1364144444443,
+              390.27067388888884,
+              19.532222222222295,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              729.1364144444443,
+              371.8662138888888,
+              19.532222222222295,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "81",
+            "coordinates": [
+              796.4573866666667,
+              415.800997962963,
+              19.532222222222295,
+              26.176964999999928
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": ".",
+            "coordinates": [
+              796.4573866666667,
+              409.4322229629629,
+              19.532222222222295,
+              6.550740000000027
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "5",
+            "coordinates": [
+              796.4573866666667,
+              396.304747962963,
+              19.532222222222295,
+              13.179464999999965
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "%",
+            "coordinates": [
+              796.4573866666667,
+              377.900287962963,
+              19.532222222222295,
+              18.58642500000003
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2014",
+            "coordinates": [
+              182.77430555555554,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2015",
+            "coordinates": [
+              250.0952777777778,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2016",
+            "coordinates": [
+              317.4161111111111,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2017",
+            "coordinates": [
+              384.7369444444445,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2018",
+            "coordinates": [
+              452.0580555555556,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2019",
+            "coordinates": [
+              519.37875,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2020",
+            "coordinates": [
+              586.6997222222222,
+              785.4648835185186,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2021",
+            "coordinates": [
+              654.0206944444445,
+              785.4650687037038,
+              29.400877500000018,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2022",
+            "coordinates": [
+              721.3415277777779,
+              785.4648835185186,
+              29.400877499999943,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              788.6625,
+              785.4648835185186,
+              29.400877499999943,
+              19.49611111111109
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Annual",
+            "coordinates": [
+              304.8543055555556,
+              277.3881216666666,
+              67.9643611111111,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Unlevered",
+            "coordinates": [
+              376.88001388888887,
+              277.3881216666666,
+              101.57079166666674,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Fund",
+            "coordinates": [
+              481.8673472222223,
+              277.3881216666666,
+              47.85709722222222,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Level",
+            "coordinates": [
+              533.1409861111113,
+              277.3881216666666,
+              50.87237500000014,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "IRR",
+            "coordinates": [
+              588.0770277777781,
+              277.3881216666666,
+              32.590513888888964,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              624.7010555555559,
+              277.3881216666666,
+              21.023444444444394,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Date",
+            "coordinates": [
+              649.1178472222225,
+              277.3881216666666,
+              45.848458333333355,
+              30.869074074074113
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ]
+      }
+    },
+    {
+      "region_id": "p011-r001",
+      "page": 11,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 3,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "10",
+            "coordinates": [
+              500.8333333333333,
+              942.4253703703704,
+              13.950000000000056,
+              16.66666666666677
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1",
+    "detected_pdf-vector-bar-cluster_as_logical_visual"
+  ]
+}

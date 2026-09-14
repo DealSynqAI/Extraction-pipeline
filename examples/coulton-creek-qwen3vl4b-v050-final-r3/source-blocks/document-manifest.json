@@ -1,0 +1,177 @@
+{
+  "schema_version": "unified-source-collection/2.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_filename": "GP - Coulton Creek Capital Q42023 Company Financial Overview.pdf",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page_count": 16,
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-001.json",
+      "sha256": "5780982f04524a543b4ada7b28d1fff7396b9615520a5c0eb964c24cdac9fc49",
+      "block_count": 5,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 2,
+      "file": "page-002.json",
+      "sha256": "e2753b1122f8b12c4195d0c52c6d92faf55a7bf9f88b8b6d4952dac767977f20",
+      "block_count": 5,
+      "unassigned_evidence_count": 2,
+      "valid": true
+    },
+    {
+      "page": 3,
+      "file": "page-003.json",
+      "sha256": "f5a1553aa52ba6d959873102fdf586ec1dfe25c8e6ff1ad3750450d881a7e9cc",
+      "block_count": 3,
+      "unassigned_evidence_count": 2,
+      "valid": true
+    },
+    {
+      "page": 4,
+      "file": "page-004.json",
+      "sha256": "3065a30e57894c475f77dc534c84bbaf65dbdd8e4c1631b4dc8e7b641c85a804",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 5,
+      "file": "page-005.json",
+      "sha256": "923cee164733bc1f0b90178d9212e9c286345743080bf068565e585861974b12",
+      "block_count": 15,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 6,
+      "file": "page-006.json",
+      "sha256": "fcd288f04d465c2669ceddf642d37ff16f4fc29b57a71a0b73a2d976b7c47217",
+      "block_count": 4,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 7,
+      "file": "page-007.json",
+      "sha256": "fabff2f2b38e892815646353866536192507067f0d411efe3a72b049a844d58e",
+      "block_count": 4,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 8,
+      "file": "page-008.json",
+      "sha256": "0f0a9288f6c96d6afa69116a99ed694a4767dfa9be55cb3c1a9d907edd4b2291",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 9,
+      "file": "page-009.json",
+      "sha256": "020fdcca6d508581d4815b1e38b9c761cf792e982540b3a3c3f19236fbddc295",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 10,
+      "file": "page-010.json",
+      "sha256": "6c05789b7f3f7e77523a74eed620b46cd9e4e6beca9383587d3a0d996ed0c21c",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 11,
+      "file": "page-011.json",
+      "sha256": "2f0d1ce48d3760150e715e900087668949209f1a349c590803fffc9930073ee3",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 12,
+      "file": "page-012.json",
+      "sha256": "3bdf6ecdd0761244712c42f34e042b8f1741d6519be63177cd689477068e92f8",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 13,
+      "file": "page-013.json",
+      "sha256": "8e0867ad5a72f7f4da8b5a94a13195edba640b6ad8a31fbaee142b2e79b0650f",
+      "block_count": 5,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 14,
+      "file": "page-014.json",
+      "sha256": "9091afb4944989fe602bc3196a7ff00c870b3ebcb813c8445c0351b10b340bd0",
+      "block_count": 3,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 15,
+      "file": "page-015.json",
+      "sha256": "839d1aa2ea3f19ae9b87eca03e570ebf11e66ff4776d3052034f0e22a413b95e",
+      "block_count": 6,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    },
+    {
+      "page": 16,
+      "file": "page-016.json",
+      "sha256": "91e79ac7759a0b7fe0b516c6a382a823cc59fc287ee38f7b6fbf0e8621f5fcf7",
+      "block_count": 9,
+      "unassigned_evidence_count": 0,
+      "valid": true
+    }
+  ],
+  "block_counts_by_type": {
+    "chart": 6,
+    "comparison_panel": 1,
+    "contact": 4,
+    "decoration": 14,
+    "heading": 18,
+    "kpi_panel": 1,
+    "map": 1,
+    "photograph": 4,
+    "table": 1,
+    "text": 25,
+    "unclassified_visual": 2
+  },
+  "validation_counts": {
+    "needs_review": 14,
+    "passed": 63
+  },
+  "validation": {
+    "valid": true,
+    "errors": []
+  },
+  "semantic_interpretation_performed": false
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 8,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.03031,
+  "native_text_quality": 0.91833,
+  "image_coverage": 0.87326,
+  "vector_line_count": 3,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 2,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p008-r003",
+      "page": 8,
+      "kind": "normal_text",
+      "coordinates": [
+        46.111111111111114,
+        82.00062962962967,
+        686.3199000000004,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 0.91833,
+      "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 5,
+        "source_bbox_points": [
+          33.2,
+          44.280340000000024,
+          527.3503280000003,
+          64.32033999999999
+        ]
+      }
+    },
+    {
+      "region_id": "p008-r001",
+      "page": 8,
+      "kind": "visual",
+      "coordinates": [
+        0.0,
+        129.55548314814817,
+        999.9999026388889,
+        740.8888487037037
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2
+        ],
+        "source_bbox_points": [
+          0.0,
+          69.9599609,
+          719.9999299,
+          470.0399392
+        ],
+        "source_member_bboxes": [
+          [
+            0.0,
+            69.9599609,
+            719.9999299,
+            470.0399392
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            129.55548314814817,
+            999.9999026388889,
+            740.8888487037037
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p008-r002",
+      "page": 8,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 3,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "7",
+            "coordinates": [
+              507.8333333333333,
+              942.4253703703704,
+              6.950000000000027,
+              16.66666666666677
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

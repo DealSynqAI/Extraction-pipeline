@@ -1,0 +1,4057 @@
+{
+  "schema_version": "unified-source-page/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 14,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "page": 14,
+      "block_id": "p014-r003-block",
+      "content": {
+        "text": "TRACK RECORD – CLASS B UNITS  Equity Investment (Class B)  10%-15% target returns  13.6% average annual returns since inception (9/2020)  13.6% proforma average over 5 years",
+        "evidence_text": {
+          "selected": "native",
+          "native": "TRACK RECORD – CLASS B UNITS\n Equity Investment (Class B)\n 10%-15% target returns\n 13.6% average annual returns since inception (9/2020)\n 13.6% proforma average over 5 years",
+          "ocr": "TRACK RECORD - CLASS B UNITS\nEquity Investment (Class B)\n10%-15% target returns\n13.6% average annual returns since inception (9/2020)\n13.6% proforma average over 5 years",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.333194,
+        83.906741,
+        687.76,
+        225.928815
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99511,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p014-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          49.1999,
+          45.30964,
+          544.3871000000001,
+          167.3112000000001
+        ],
+        "ocr_evidence_ids": [
+          "p014-ocr-0001",
+          "p014-ocr-0002",
+          "p014-ocr-0003",
+          "p014-ocr-0004",
+          "p014-ocr-0005"
+        ],
+        "rendered_page": "page-images/page-014.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "page": 14,
+      "block_id": "p014-r002-chart",
+      "content": {
+        "title": "Quarterly Class B Yield (Annualized)",
+        "chart_type": "bar",
+        "observations": [
+          {
+            "item_id": "o001",
+            "raw_value": "9%",
+            "numeric_value": 9.0,
+            "normalized_value": 0.09,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0027",
+            "value_evidence_id": "p014-native-0063",
+            "label_coordinates": [
+              101.310486,
+              785.904243,
+              44.858866,
+              59.840441
+            ],
+            "value_coordinates": [
+              133.88264291666667,
+              644.5516842592593,
+              15.739027777777778,
+              26.562574999999924
+            ],
+            "visual_mark_coordinates": [
+              133.1634838888889,
+              632.1874791296297,
+              10.896233108749993,
+              145.08439300000012
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-18",
+            "confidence": 0.93235,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o002",
+            "raw_value": "15%",
+            "numeric_value": 15.0,
+            "normalized_value": 0.15,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0028",
+            "value_evidence_id": "p014-ocr-0012",
+            "label_coordinates": [
+              132.560486,
+              783.244683,
+              49.89919,
+              66.489366
+            ],
+            "value_coordinates": [
+              163.306447,
+              547.872342,
+              17.137095,
+              111.037218
+            ],
+            "visual_mark_coordinates": [
+              165.85220787388891,
+              551.5850276296296,
+              12.106928416249987,
+              225.68684450000006
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-18",
+            "confidence": 0.94391,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o003",
+            "raw_value": "11%",
+            "numeric_value": 11.0,
+            "normalized_value": 0.11,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0029",
+            "value_evidence_id": "p014-ocr-0019",
+            "label_coordinates": [
+              167.842743,
+              786.569173,
+              45.866933,
+              60.505317
+            ],
+            "value_coordinates": [
+              195.564514,
+              603.723416,
+              19.153219,
+              79.122342
+            ],
+            "visual_mark_coordinates": [
+              199.7516518251389,
+              608.0067469629629,
+              10.896233108749975,
+              169.2651251666668
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-18",
+            "confidence": 0.94375,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o004",
+            "raw_value": "14%",
+            "numeric_value": 14.0,
+            "normalized_value": 0.14,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0030",
+            "value_evidence_id": "p014-ocr-0013",
+            "label_coordinates": [
+              199.596781,
+              787.234049,
+              46.875,
+              61.170193
+            ],
+            "value_coordinates": [
+              230.342733,
+              548.537218,
+              18.145162,
+              61.170247
+            ],
+            "visual_mark_coordinates": [
+              233.65107111763893,
+              553.1970786296297,
+              10.896233108749975,
+              224.07479350000008
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Mar-19",
+            "confidence": 0.93878,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o005",
+            "raw_value": "13%",
+            "numeric_value": 13.0,
+            "normalized_value": 0.13,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0031",
+            "value_evidence_id": "p014-ocr-0014",
+            "label_coordinates": [
+              236.391134,
+              787.234049,
+              43.85081,
+              57.845757
+            ],
+            "value_coordinates": [
+              264.616943,
+              572.473416,
+              17.137085,
+              117.686144
+            ],
+            "visual_mark_coordinates": [
+              267.55049041013893,
+              575.7657597962963,
+              10.896233108750014,
+              201.5061123333334
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-19",
+            "confidence": 0.94267,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o006",
+            "raw_value": "22%",
+            "numeric_value": 22.0,
+            "normalized_value": 0.22,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0032",
+            "value_evidence_id": "p014-ocr-0007",
+            "label_coordinates": [
+              267.137085,
+              784.57449,
+              49.899211,
+              64.494683
+            ],
+            "value_coordinates": [
+              296.875,
+              434.840441,
+              17.641134,
+              60.505317
+            ],
+            "visual_mark_coordinates": [
+              300.2392390538889,
+              438.741588962963,
+              12.106928416249987,
+              338.53025033333324
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-19",
+            "confidence": 0.94249,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o007",
+            "raw_value": "11%",
+            "numeric_value": 11.0,
+            "normalized_value": 0.11,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0033",
+            "value_evidence_id": "p014-ocr-0020",
+            "label_coordinates": [
+              301.915324,
+              787.234049,
+              45.866943,
+              59.840441
+            ],
+            "value_coordinates": [
+              331.14919,
+              603.723416,
+              17.137105,
+              89.095757
+            ],
+            "visual_mark_coordinates": [
+              334.138658346389,
+              608.0067469629629,
+              10.896257767499959,
+              169.2651251666668
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-19",
+            "confidence": 0.94272,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o008",
+            "raw_value": "8%",
+            "numeric_value": 8.0,
+            "normalized_value": 0.08,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0034",
+            "value_evidence_id": "p014-native-0064",
+            "label_coordinates": [
+              333.669352,
+              785.904243,
+              47.379028,
+              62.5
+            ],
+            "value_coordinates": [
+              369.28125402777783,
+              666.9492768518519,
+              15.739027777777721,
+              26.562574999999924
+            ],
+            "visual_mark_coordinates": [
+              368.0380776388889,
+              654.7561602962965,
+              10.896257767499959,
+              122.51571183333336
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Mar-20",
+            "confidence": 0.92747,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o009",
+            "raw_value": "14%",
+            "numeric_value": 14.0,
+            "normalized_value": 0.14,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0035",
+            "value_evidence_id": "p014-native-0065",
+            "label_coordinates": [
+              370.967733,
+              786.569173,
+              43.85083,
+              58.510634
+            ],
+            "value_coordinates": [
+              402.90972625,
+              571.1262075185185,
+              15.739027777777721,
+              37.845644333333325
+            ],
+            "visual_mark_coordinates": [
+              401.937496931389,
+              559.6452826296296,
+              10.896257767499959,
+              217.62658950000002
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-20",
+            "confidence": 0.93246,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o010",
+            "raw_value": "14%",
+            "numeric_value": 14.0,
+            "normalized_value": 0.14,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0036",
+            "value_evidence_id": "p014-ocr-0015",
+            "label_coordinates": [
+              400.201619,
+              782.579807,
+              52.419352,
+              68.484049
+            ],
+            "value_coordinates": [
+              433.467733,
+              565.159559,
+              15.625,
+              60.505317
+            ],
+            "visual_mark_coordinates": [
+              435.8369162238889,
+              567.7055047962963,
+              10.896257767499959,
+              209.56633449999998
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-20",
+            "confidence": 0.9428,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o011",
+            "raw_value": "22%",
+            "numeric_value": 22.0,
+            "normalized_value": 0.22,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0037",
+            "value_evidence_id": "p014-native-0066",
+            "label_coordinates": [
+              436.491943,
+              787.234049,
+              46.370972,
+              60.505317
+            ],
+            "value_coordinates": [
+              470.16639291666667,
+              443.177689,
+              15.739027777777721,
+              37.84564433333327
+            ],
+            "visual_mark_coordinates": [
+              468.5256648676389,
+              430.681333962963,
+              12.106928416249946,
+              346.59053816666676
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-20",
+            "confidence": 0.93122,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o012",
+            "raw_value": "10%",
+            "numeric_value": 10.0,
+            "normalized_value": 0.1,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0038",
+            "value_evidence_id": "p014-ocr-0022",
+            "label_coordinates": [
+              468.245972,
+              785.904243,
+              47.379028,
+              63.164931
+            ],
+            "value_coordinates": [
+              498.991943,
+              623.005317,
+              18.145142,
+              47.872342
+            ],
+            "visual_mark_coordinates": [
+              502.42508416013897,
+              617.6790201296296,
+              10.896257767499959,
+              159.5928520000001
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Mar-21",
+            "confidence": 0.93952,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o013",
+            "raw_value": "18%",
+            "numeric_value": 18.0,
+            "normalized_value": 0.18,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0039",
+            "value_evidence_id": "p014-ocr-0010",
+            "label_coordinates": [
+              505.040324,
+              786.569173,
+              44.354818,
+              59.17551
+            ],
+            "value_coordinates": [
+              533.266113,
+              489.361708,
+              17.641154,
+              62.5
+            ],
+            "visual_mark_coordinates": [
+              536.324503452639,
+              493.55125729629634,
+              10.896233108749936,
+              283.720582
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-21",
+            "confidence": 0.94257,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o014",
+            "raw_value": "19%",
+            "numeric_value": 19.0,
+            "normalized_value": 0.19,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0040",
+            "value_evidence_id": "p014-ocr-0009",
+            "label_coordinates": [
+              536.290324,
+              784.57449,
+              48.891113,
+              65.159559
+            ],
+            "value_coordinates": [
+              566.532267,
+              481.382975,
+              16.633057,
+              119.015951
+            ],
+            "visual_mark_coordinates": [
+              570.223922745139,
+              483.8789512962963,
+              10.896233108750014,
+              293.3928879999999
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-21",
+            "confidence": 0.93992,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o015",
+            "raw_value": "13%",
+            "numeric_value": 13.0,
+            "normalized_value": 0.13,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0041",
+            "value_evidence_id": "p014-ocr-0017",
+            "label_coordinates": [
+              571.068563,
+              787.234049,
+              45.362874,
+              59.175564
+            ],
+            "value_coordinates": [
+              598.790324,
+              581.781901,
+              20.161296,
+              55.851074
+            ],
+            "visual_mark_coordinates": [
+              602.912671388889,
+              583.825981962963,
+              12.106928416249946,
+              193.44585733333324
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-21",
+            "confidence": 0.94164,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o016",
+            "raw_value": "18%",
+            "numeric_value": 18.0,
+            "normalized_value": 0.18,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0042",
+            "value_evidence_id": "p014-ocr-0011",
+            "label_coordinates": [
+              602.822591,
+              786.569173,
+              47.883057,
+              61.835069
+            ],
+            "value_coordinates": [
+              633.568563,
+              501.994683,
+              17.137085,
+              103.058539
+            ],
+            "visual_mark_coordinates": [
+              636.8120906813888,
+              506.4476652962964,
+              10.896233108750014,
+              270.8242068333333
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Mar-22",
+            "confidence": 0.94085,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o017",
+            "raw_value": "10%",
+            "numeric_value": 10.0,
+            "normalized_value": 0.1,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0043",
+            "value_evidence_id": "p014-ocr-0023",
+            "label_coordinates": [
+              639.112915,
+              785.904243,
+              44.858846,
+              58.510688
+            ],
+            "value_coordinates": [
+              667.842733,
+              618.351074,
+              15.625041,
+              63.164876
+            ],
+            "visual_mark_coordinates": [
+              670.711509973889,
+              620.9031221296297,
+              10.896233108750014,
+              156.3687500000001
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-22",
+            "confidence": 0.94178,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o018",
+            "raw_value": "13%",
+            "numeric_value": 13.0,
+            "normalized_value": 0.13,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0044",
+            "value_evidence_id": "p014-ocr-0016",
+            "label_coordinates": [
+              670.866943,
+              783.244683,
+              49.89917,
+              66.489366
+            ],
+            "value_coordinates": [
+              701.612874,
+              566.489366,
+              17.641113,
+              65.159559
+            ],
+            "visual_mark_coordinates": [
+              704.6109539251389,
+              570.9296067962963,
+              10.896233108749936,
+              206.34226533333344
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-22",
+            "confidence": 0.94315,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o019",
+            "raw_value": "10%",
+            "numeric_value": 10.0,
+            "normalized_value": 0.1,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0045",
+            "value_evidence_id": "p014-ocr-0024",
+            "label_coordinates": [
+              704.133057,
+              784.57449,
+              48.387126,
+              63.829753
+            ],
+            "value_coordinates": [
+              734.375,
+              618.351074,
+              19.153239,
+              99.069173
+            ],
+            "visual_mark_coordinates": [
+              738.510373217639,
+              622.5151731296297,
+              10.896233108750014,
+              154.75669900000008
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-22",
+            "confidence": 0.9409,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o020",
+            "raw_value": "12%",
+            "numeric_value": 12.0,
+            "normalized_value": 0.12,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0046",
+            "value_evidence_id": "p014-ocr-0018",
+            "label_coordinates": [
+              736.895182,
+              786.569173,
+              47.883057,
+              61.170193
+            ],
+            "value_coordinates": [
+              766.633057,
+              583.111708,
+              20.665365,
+              107.047852
+            ],
+            "visual_mark_coordinates": [
+              771.199097202639,
+              588.662134962963,
+              12.106953074999971,
+              188.6097043333332
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Mar-23",
+            "confidence": 0.938,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o021",
+            "raw_value": "11%",
+            "numeric_value": 11.0,
+            "normalized_value": 0.11,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0047",
+            "value_evidence_id": "p014-native-0067",
+            "label_coordinates": [
+              774.193522,
+              786.569173,
+              43.85083,
+              58.510634
+            ],
+            "value_coordinates": [
+              806.4502818055556,
+              626.8882445555555,
+              15.739027777777778,
+              37.845644333333325
+            ],
+            "visual_mark_coordinates": [
+              805.0985164951389,
+              614.4549181296297,
+              10.896233108750014,
+              162.816954
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Jun-23",
+            "confidence": 0.93135,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o022",
+            "raw_value": "10%",
+            "numeric_value": 10.0,
+            "normalized_value": 0.1,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0048",
+            "value_evidence_id": "p014-ocr-0025",
+            "label_coordinates": [
+              805.443522,
+              783.909559,
+              48.891113,
+              65.159614
+            ],
+            "value_coordinates": [
+              835.181478,
+              619.680881,
+              18.64917,
+              103.058485
+            ],
+            "visual_mark_coordinates": [
+              838.9979604463889,
+              622.5151731296297,
+              10.896233108750014,
+              154.75669900000008
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Sep-23",
+            "confidence": 0.94341,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o023",
+            "raw_value": "10%",
+            "numeric_value": 10.0,
+            "normalized_value": 0.1,
+            "unit": "percent",
+            "label_evidence_id": "p014-ocr-0049",
+            "value_evidence_id": "p014-native-0068",
+            "label_coordinates": [
+              839.717773,
+              786.569173,
+              46.370931,
+              60.505317
+            ],
+            "value_coordinates": [
+              873.7069484722222,
+              634.6076889999999,
+              15.739027777777778,
+              37.845644333333325
+            ],
+            "visual_mark_coordinates": [
+              872.8973797388888,
+              622.5151731296297,
+              10.896233108750014,
+              154.75669900000008
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "Dec-23",
+            "confidence": 0.93062,
+            "validation_status": "passed",
+            "errors": []
+          }
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 2,
+          "vertical_line_count": 46,
+          "diagonal_line_count": 0,
+          "rectangle_candidate_count": 25,
+          "bar_candidate_count": 25,
+          "point_candidate_count": 207,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 2,
+          "vertical_axis_candidate_count": 10,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.14462
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p014-r002.json",
+          "sha256": "efc038690327e01f1b0b54ea7bba52524fff13b0931d73e236be9f9a3e0f6a25"
+        },
+        "region_image": "region-images/p014-r002.png",
+        "expected_observation_count": 23,
+        "emitted_observation_count": 23,
+        "observation_completeness": 1.0
+      },
+      "coordinates": [
+        53.163484,
+        330.681334,
+        910.630129,
+        539.318666
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Python reconstruction"
+      ],
+      "confidence": 0.94,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p014-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          38.2777084,
+          178.56792034,
+          693.9314012503,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p014-ocr-0006",
+          "p014-ocr-0007",
+          "p014-ocr-0008",
+          "p014-ocr-0009",
+          "p014-ocr-0010",
+          "p014-ocr-0011",
+          "p014-ocr-0012",
+          "p014-ocr-0013",
+          "p014-ocr-0014",
+          "p014-ocr-0015",
+          "p014-ocr-0016",
+          "p014-ocr-0017",
+          "p014-ocr-0018",
+          "p014-ocr-0019",
+          "p014-ocr-0020",
+          "p014-ocr-0021",
+          "p014-ocr-0022",
+          "p014-ocr-0023",
+          "p014-ocr-0024",
+          "p014-ocr-0025",
+          "p014-ocr-0026",
+          "p014-ocr-0027",
+          "p014-ocr-0028",
+          "p014-ocr-0029",
+          "p014-ocr-0030",
+          "p014-ocr-0031",
+          "p014-ocr-0032",
+          "p014-ocr-0033",
+          "p014-ocr-0034",
+          "p014-ocr-0035",
+          "p014-ocr-0036",
+          "p014-ocr-0037",
+          "p014-ocr-0038",
+          "p014-ocr-0039",
+          "p014-ocr-0040",
+          "p014-ocr-0041",
+          "p014-ocr-0042",
+          "p014-ocr-0043",
+          "p014-ocr-0044",
+          "p014-ocr-0045",
+          "p014-ocr-0046",
+          "p014-ocr-0047",
+          "p014-ocr-0048",
+          "p014-ocr-0049",
+          "p014-ocr-0050",
+          "p014-native-0001",
+          "p014-native-0002",
+          "p014-native-0003",
+          "p014-native-0004",
+          "p014-native-0005",
+          "p014-native-0006",
+          "p014-native-0007",
+          "p014-native-0008",
+          "p014-native-0009",
+          "p014-native-0010",
+          "p014-native-0011",
+          "p014-native-0012",
+          "p014-native-0013",
+          "p014-native-0014",
+          "p014-native-0015",
+          "p014-native-0016",
+          "p014-native-0017",
+          "p014-native-0018",
+          "p014-native-0019",
+          "p014-native-0020",
+          "p014-native-0021",
+          "p014-native-0022",
+          "p014-native-0023",
+          "p014-native-0024",
+          "p014-native-0025",
+          "p014-native-0026",
+          "p014-native-0027",
+          "p014-native-0028",
+          "p014-native-0029",
+          "p014-native-0030",
+          "p014-native-0031",
+          "p014-native-0032",
+          "p014-native-0033",
+          "p014-native-0034",
+          "p014-native-0035",
+          "p014-native-0036",
+          "p014-native-0037",
+          "p014-native-0038",
+          "p014-native-0039",
+          "p014-native-0040",
+          "p014-native-0041",
+          "p014-native-0042",
+          "p014-native-0043",
+          "p014-native-0044",
+          "p014-native-0045",
+          "p014-native-0046",
+          "p014-native-0047",
+          "p014-native-0048",
+          "p014-native-0049",
+          "p014-native-0050",
+          "p014-native-0051",
+          "p014-native-0052",
+          "p014-native-0053",
+          "p014-native-0054",
+          "p014-native-0055",
+          "p014-native-0056",
+          "p014-native-0057",
+          "p014-native-0058",
+          "p014-native-0059",
+          "p014-native-0060",
+          "p014-native-0061",
+          "p014-native-0062",
+          "p014-native-0063",
+          "p014-native-0064",
+          "p014-native-0065",
+          "p014-native-0066",
+          "p014-native-0067",
+          "p014-native-0068"
+        ],
+        "rendered_page": "page-images/page-014.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 14,
+      "block_id": "p014-r001-decoration",
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 64,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 5,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85029
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p014-r001.json",
+          "sha256": "a1fe57172c4d1b7c287f73967a06fc5eedff2885d2bbffd7127525d800773057"
+        },
+        "region_image": "region-images/p014-r001.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p014-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 3,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p014-ocr-0051",
+          "p014-ocr-0052",
+          "p014-ocr-0053"
+        ],
+        "rendered_page": "page-images/page-014.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-014.png",
+    "rendered_page_sha256": "1b252fad009ed058465bf3112ed850bb42dbbc8bc92faddaf54589d4be5aeac9",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p014-ocr-0001",
+        "text": "TRACK RECORD - CLASS B UNITS",
+        "confidence": 0.96139,
+        "coordinates": [
+          66.028224,
+          74.468085,
+          473.790339,
+          37.234043
+        ],
+        "polygon": [
+          [
+            66.028224,
+            74.468085
+          ],
+          [
+            539.818563,
+            74.468085
+          ],
+          [
+            539.818563,
+            111.702128
+          ],
+          [
+            66.028224,
+            111.702128
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0002",
+        "text": "Equity Investment (Class B)",
+        "confidence": 0.99976,
+        "coordinates": [
+          95.766123,
+          145.611708,
+          315.020172,
+          45.212769
+        ],
+        "polygon": [
+          [
+            95.766123,
+            145.611708
+          ],
+          [
+            410.786296,
+            146.941488
+          ],
+          [
+            410.786296,
+            190.824476
+          ],
+          [
+            95.766123,
+            189.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0003",
+        "text": "10%-15% target returns",
+        "confidence": 0.99761,
+        "coordinates": [
+          145.665324,
+          185.505317,
+          271.673381,
+          44.547879
+        ],
+        "polygon": [
+          [
+            145.665324,
+            185.505317
+          ],
+          [
+            417.338704,
+            188.16489
+          ],
+          [
+            417.338704,
+            230.053196
+          ],
+          [
+            145.665324,
+            227.393623
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0004",
+        "text": "13.6% average annual returns since inception (9/2020)",
+        "confidence": 0.99966,
+        "coordinates": [
+          145.665324,
+          224.734049,
+          612.399211,
+          45.212755
+        ],
+        "polygon": [
+          [
+            145.665324,
+            224.734049
+          ],
+          [
+            758.064535,
+            226.063829
+          ],
+          [
+            758.064535,
+            269.946804
+          ],
+          [
+            145.665324,
+            268.617025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0005",
+        "text": "13.6% proforma average over 5 years",
+        "confidence": 0.99629,
+        "coordinates": [
+          145.665324,
+          264.627658,
+          427.923381,
+          48.537245
+        ],
+        "polygon": [
+          [
+            145.665324,
+            264.627658
+          ],
+          [
+            573.588704,
+            266.622342
+          ],
+          [
+            573.588704,
+            313.164903
+          ],
+          [
+            145.665324,
+            311.17022
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0006",
+        "text": "Quarterly Class B Yield (Annualized)",
+        "confidence": 0.99796,
+        "coordinates": [
+          325.10081,
+          335.771294,
+          343.245951,
+          32.57978
+        ],
+        "polygon": [
+          [
+            325.10081,
+            335.771294
+          ],
+          [
+            668.346761,
+            335.771294
+          ],
+          [
+            668.346761,
+            368.351074
+          ],
+          [
+            325.10081,
+            368.351074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0007",
+        "text": "22%",
+        "confidence": 0.99897,
+        "coordinates": [
+          296.875,
+          434.840441,
+          17.641134,
+          60.505317
+        ],
+        "polygon": [
+          [
+            296.875,
+            434.840441
+          ],
+          [
+            314.516134,
+            434.840441
+          ],
+          [
+            314.516134,
+            495.345757
+          ],
+          [
+            296.875,
+            495.345757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0008",
+        "text": "2%2%",
+        "confidence": 0.6131,
+        "coordinates": [
+          465.725789,
+          428.856391,
+          17.137126,
+          134.308485
+        ],
+        "polygon": [
+          [
+            465.725789,
+            428.856391
+          ],
+          [
+            482.862915,
+            428.856391
+          ],
+          [
+            482.862915,
+            563.164876
+          ],
+          [
+            465.725789,
+            563.164876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0009",
+        "text": "19%",
+        "confidence": 0.99936,
+        "coordinates": [
+          566.532267,
+          481.382975,
+          16.633057,
+          119.015951
+        ],
+        "polygon": [
+          [
+            566.532267,
+            481.382975
+          ],
+          [
+            583.165324,
+            481.382975
+          ],
+          [
+            583.165324,
+            600.398926
+          ],
+          [
+            566.532267,
+            600.398926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0010",
+        "text": "18%",
+        "confidence": 0.99906,
+        "coordinates": [
+          533.266113,
+          489.361708,
+          17.641154,
+          62.5
+        ],
+        "polygon": [
+          [
+            533.266113,
+            489.361708
+          ],
+          [
+            550.907267,
+            489.361708
+          ],
+          [
+            550.907267,
+            551.861708
+          ],
+          [
+            533.266113,
+            551.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0011",
+        "text": "18%",
+        "confidence": 0.99982,
+        "coordinates": [
+          633.568563,
+          501.994683,
+          17.137085,
+          103.058539
+        ],
+        "polygon": [
+          [
+            633.568563,
+            501.994683
+          ],
+          [
+            650.705648,
+            501.994683
+          ],
+          [
+            650.705648,
+            605.053223
+          ],
+          [
+            633.568563,
+            605.053223
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0012",
+        "text": "15%",
+        "confidence": 0.86379,
+        "coordinates": [
+          163.306447,
+          547.872342,
+          17.137095,
+          111.037218
+        ],
+        "polygon": [
+          [
+            163.306447,
+            547.872342
+          ],
+          [
+            180.443542,
+            547.872342
+          ],
+          [
+            180.443542,
+            658.909559
+          ],
+          [
+            163.306447,
+            658.909559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0013",
+        "text": "14%",
+        "confidence": 0.99931,
+        "coordinates": [
+          230.342733,
+          548.537218,
+          18.145162,
+          61.170247
+        ],
+        "polygon": [
+          [
+            230.342733,
+            548.537218
+          ],
+          [
+            248.487895,
+            548.537218
+          ],
+          [
+            248.487895,
+            609.707465
+          ],
+          [
+            230.342733,
+            609.707465
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0014",
+        "text": "13%",
+        "confidence": 0.99977,
+        "coordinates": [
+          264.616943,
+          572.473416,
+          17.137085,
+          117.686144
+        ],
+        "polygon": [
+          [
+            264.616943,
+            572.473416
+          ],
+          [
+            281.754028,
+            572.473416
+          ],
+          [
+            281.754028,
+            690.159559
+          ],
+          [
+            264.616943,
+            690.159559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0015",
+        "text": "14%",
+        "confidence": 0.99957,
+        "coordinates": [
+          433.467733,
+          565.159559,
+          15.625,
+          60.505317
+        ],
+        "polygon": [
+          [
+            433.467733,
+            565.159559
+          ],
+          [
+            449.092733,
+            565.159559
+          ],
+          [
+            449.092733,
+            625.664876
+          ],
+          [
+            433.467733,
+            625.664876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0016",
+        "text": "13%",
+        "confidence": 0.9983,
+        "coordinates": [
+          701.612874,
+          566.489366,
+          17.641113,
+          65.159559
+        ],
+        "polygon": [
+          [
+            701.612874,
+            566.489366
+          ],
+          [
+            719.253988,
+            566.489366
+          ],
+          [
+            719.253988,
+            631.648926
+          ],
+          [
+            701.612874,
+            631.648926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0017",
+        "text": "13%",
+        "confidence": 0.95767,
+        "coordinates": [
+          598.790324,
+          581.781901,
+          20.161296,
+          55.851074
+        ],
+        "polygon": [
+          [
+            598.790324,
+            581.781901
+          ],
+          [
+            618.951619,
+            581.781901
+          ],
+          [
+            618.951619,
+            637.632975
+          ],
+          [
+            598.790324,
+            637.632975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0018",
+        "text": "12%",
+        "confidence": 0.99973,
+        "coordinates": [
+          766.633057,
+          583.111708,
+          20.665365,
+          107.047852
+        ],
+        "polygon": [
+          [
+            766.633057,
+            583.111708
+          ],
+          [
+            787.298421,
+            583.111708
+          ],
+          [
+            787.298421,
+            690.159559
+          ],
+          [
+            766.633057,
+            690.159559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0019",
+        "text": "11%",
+        "confidence": 0.99971,
+        "coordinates": [
+          195.564514,
+          603.723416,
+          19.153219,
+          79.122342
+        ],
+        "polygon": [
+          [
+            195.564514,
+            603.723416
+          ],
+          [
+            214.717733,
+            603.723416
+          ],
+          [
+            214.717733,
+            682.845757
+          ],
+          [
+            195.564514,
+            682.845757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0020",
+        "text": "11%",
+        "confidence": 0.99984,
+        "coordinates": [
+          331.14919,
+          603.723416,
+          17.137105,
+          89.095757
+        ],
+        "polygon": [
+          [
+            331.14919,
+            603.723416
+          ],
+          [
+            348.286296,
+            603.723416
+          ],
+          [
+            348.286296,
+            692.819173
+          ],
+          [
+            331.14919,
+            692.819173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0021",
+        "text": "%6",
+        "confidence": 0.99136,
+        "coordinates": [
+          130.544352,
+          627.659559,
+          17.137095,
+          83.776638
+        ],
+        "polygon": [
+          [
+            130.544352,
+            627.659559
+          ],
+          [
+            147.681447,
+            627.659559
+          ],
+          [
+            147.681447,
+            711.436198
+          ],
+          [
+            130.544352,
+            711.436198
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0022",
+        "text": "10%",
+        "confidence": 0.99869,
+        "coordinates": [
+          498.991943,
+          623.005317,
+          18.145142,
+          47.872342
+        ],
+        "polygon": [
+          [
+            498.991943,
+            623.005317
+          ],
+          [
+            517.137085,
+            623.005317
+          ],
+          [
+            517.137085,
+            670.877658
+          ],
+          [
+            498.991943,
+            670.877658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0023",
+        "text": "10%",
+        "confidence": 0.99953,
+        "coordinates": [
+          667.842733,
+          618.351074,
+          15.625041,
+          63.164876
+        ],
+        "polygon": [
+          [
+            667.842733,
+            618.351074
+          ],
+          [
+            683.467773,
+            618.351074
+          ],
+          [
+            683.467773,
+            681.515951
+          ],
+          [
+            667.842733,
+            681.515951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0024",
+        "text": "10%",
+        "confidence": 0.99984,
+        "coordinates": [
+          734.375,
+          618.351074,
+          19.153239,
+          99.069173
+        ],
+        "polygon": [
+          [
+            734.375,
+            618.351074
+          ],
+          [
+            753.528239,
+            618.351074
+          ],
+          [
+            753.528239,
+            717.420247
+          ],
+          [
+            734.375,
+            717.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0025",
+        "text": "10%",
+        "confidence": 0.99865,
+        "coordinates": [
+          835.181478,
+          619.680881,
+          18.64917,
+          103.058485
+        ],
+        "polygon": [
+          [
+            835.181478,
+            619.680881
+          ],
+          [
+            853.830648,
+            619.680881
+          ],
+          [
+            853.830648,
+            722.739366
+          ],
+          [
+            835.181478,
+            722.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0026",
+        "text": "%8",
+        "confidence": 0.99527,
+        "coordinates": [
+          363.911296,
+          650.265951,
+          19.153198,
+          101.728733
+        ],
+        "polygon": [
+          [
+            363.911296,
+            650.265951
+          ],
+          [
+            383.064494,
+            650.265951
+          ],
+          [
+            383.064494,
+            751.994683
+          ],
+          [
+            363.911296,
+            751.994683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0027",
+        "text": "Jun-18",
+        "confidence": 0.99999,
+        "coordinates": [
+          101.310486,
+          785.904243,
+          44.858866,
+          59.840441
+        ],
+        "polygon": [
+          [
+            101.310486,
+            829.787272
+          ],
+          [
+            133.568542,
+            785.904243
+          ],
+          [
+            146.169352,
+            801.861708
+          ],
+          [
+            113.911285,
+            845.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0028",
+        "text": "Sep-18",
+        "confidence": 0.99996,
+        "coordinates": [
+          132.560486,
+          783.244683,
+          49.89919,
+          66.489366
+        ],
+        "polygon": [
+          [
+            132.560486,
+            831.117025
+          ],
+          [
+            167.842743,
+            783.244683
+          ],
+          [
+            182.459676,
+            801.861708
+          ],
+          [
+            147.177419,
+            849.734049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0029",
+        "text": "Dec-18",
+        "confidence": 0.99995,
+        "coordinates": [
+          167.842743,
+          786.569173,
+          45.866933,
+          60.505317
+        ],
+        "polygon": [
+          [
+            167.842743,
+            831.117025
+          ],
+          [
+            201.108866,
+            786.569173
+          ],
+          [
+            213.709676,
+            803.191515
+          ],
+          [
+            180.443542,
+            847.07449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0030",
+        "text": "Mar-19",
+        "confidence": 0.99996,
+        "coordinates": [
+          199.596781,
+          787.234049,
+          46.875,
+          61.170193
+        ],
+        "polygon": [
+          [
+            199.596781,
+            832.446832
+          ],
+          [
+            234.375,
+            787.234049
+          ],
+          [
+            246.471781,
+            803.191515
+          ],
+          [
+            211.693542,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0031",
+        "text": "Jun-19",
+        "confidence": 0.99998,
+        "coordinates": [
+          236.391134,
+          787.234049,
+          43.85081,
+          57.845757
+        ],
+        "polygon": [
+          [
+            236.391134,
+            828.457465
+          ],
+          [
+            267.641134,
+            787.234049
+          ],
+          [
+            280.241943,
+            803.856391
+          ],
+          [
+            248.991943,
+            845.079807
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0032",
+        "text": "Sep-19",
+        "confidence": 0.99995,
+        "coordinates": [
+          267.137085,
+          784.57449,
+          49.899211,
+          64.494683
+        ],
+        "polygon": [
+          [
+            267.137085,
+            829.787272
+          ],
+          [
+            302.419352,
+            784.57449
+          ],
+          [
+            317.036296,
+            804.521267
+          ],
+          [
+            281.25,
+            849.069173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0033",
+        "text": "Dec-19",
+        "confidence": 0.99994,
+        "coordinates": [
+          301.915324,
+          787.234049,
+          45.866943,
+          59.840441
+        ],
+        "polygon": [
+          [
+            301.915324,
+            830.452148
+          ],
+          [
+            335.181458,
+            787.234049
+          ],
+          [
+            347.782267,
+            803.856391
+          ],
+          [
+            314.516134,
+            847.07449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0034",
+        "text": "Mar-20",
+        "confidence": 0.99996,
+        "coordinates": [
+          333.669352,
+          785.904243,
+          47.379028,
+          62.5
+        ],
+        "polygon": [
+          [
+            333.669352,
+            831.781901
+          ],
+          [
+            368.951619,
+            785.904243
+          ],
+          [
+            381.048381,
+            802.526584
+          ],
+          [
+            345.766113,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0035",
+        "text": "Jun-20",
+        "confidence": 0.99997,
+        "coordinates": [
+          370.967733,
+          786.569173,
+          43.85083,
+          58.510634
+        ],
+        "polygon": [
+          [
+            370.967733,
+            828.457465
+          ],
+          [
+            402.217733,
+            786.569173
+          ],
+          [
+            414.818563,
+            803.191515
+          ],
+          [
+            383.568563,
+            845.079807
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0036",
+        "text": "Sep-20",
+        "confidence": 0.9999,
+        "coordinates": [
+          400.201619,
+          782.579807,
+          52.419352,
+          68.484049
+        ],
+        "polygon": [
+          [
+            400.201619,
+            829.787272
+          ],
+          [
+            436.995972,
+            782.579807
+          ],
+          [
+            452.620972,
+            803.856391
+          ],
+          [
+            416.330648,
+            851.063856
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0037",
+        "text": "Dec-20",
+        "confidence": 0.99991,
+        "coordinates": [
+          436.491943,
+          787.234049,
+          46.370972,
+          60.505317
+        ],
+        "polygon": [
+          [
+            436.491943,
+            831.117025
+          ],
+          [
+            470.262085,
+            787.234049
+          ],
+          [
+            482.862915,
+            803.856391
+          ],
+          [
+            449.092733,
+            847.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0038",
+        "text": "Mar-21",
+        "confidence": 0.99997,
+        "coordinates": [
+          468.245972,
+          785.904243,
+          47.379028,
+          63.164931
+        ],
+        "polygon": [
+          [
+            468.245972,
+            832.446832
+          ],
+          [
+            503.02417,
+            785.904243
+          ],
+          [
+            515.625,
+            802.526584
+          ],
+          [
+            480.846761,
+            849.069173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0039",
+        "text": "Jun-21",
+        "confidence": 0.99998,
+        "coordinates": [
+          505.040324,
+          786.569173,
+          44.354818,
+          59.17551
+        ],
+        "polygon": [
+          [
+            505.040324,
+            829.122342
+          ],
+          [
+            536.794352,
+            786.569173
+          ],
+          [
+            549.395142,
+            803.191515
+          ],
+          [
+            517.641113,
+            845.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0040",
+        "text": "Sep-21",
+        "confidence": 0.99996,
+        "coordinates": [
+          536.290324,
+          784.57449,
+          48.891113,
+          65.159559
+        ],
+        "polygon": [
+          [
+            536.290324,
+            829.787272
+          ],
+          [
+            570.564494,
+            784.57449
+          ],
+          [
+            585.181437,
+            803.856391
+          ],
+          [
+            550.403239,
+            849.734049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0041",
+        "text": "Dec-21",
+        "confidence": 0.99989,
+        "coordinates": [
+          571.068563,
+          787.234049,
+          45.362874,
+          59.175564
+        ],
+        "polygon": [
+          [
+            571.068563,
+            829.787272
+          ],
+          [
+            603.830648,
+            787.234049
+          ],
+          [
+            616.431437,
+            803.856391
+          ],
+          [
+            583.669352,
+            846.409614
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0042",
+        "text": "Mar-22",
+        "confidence": 0.99997,
+        "coordinates": [
+          602.822591,
+          786.569173,
+          47.883057,
+          61.835069
+        ],
+        "polygon": [
+          [
+            602.822591,
+            831.781901
+          ],
+          [
+            638.104818,
+            786.569173
+          ],
+          [
+            650.705648,
+            803.191515
+          ],
+          [
+            614.919352,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0043",
+        "text": "Jun-22",
+        "confidence": 0.99996,
+        "coordinates": [
+          639.112915,
+          785.904243,
+          44.858846,
+          58.510688
+        ],
+        "polygon": [
+          [
+            639.112915,
+            828.457465
+          ],
+          [
+            671.370972,
+            785.904243
+          ],
+          [
+            683.971761,
+            802.526584
+          ],
+          [
+            652.217733,
+            844.414931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0044",
+        "text": "Sep-22",
+        "confidence": 0.99996,
+        "coordinates": [
+          670.866943,
+          783.244683,
+          49.89917,
+          66.489366
+        ],
+        "polygon": [
+          [
+            670.866943,
+            830.452148
+          ],
+          [
+            706.14917,
+            783.244683
+          ],
+          [
+            720.766113,
+            802.526584
+          ],
+          [
+            685.483887,
+            849.734049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0045",
+        "text": "Dec-22",
+        "confidence": 0.99992,
+        "coordinates": [
+          704.133057,
+          784.57449,
+          48.387126,
+          63.829753
+        ],
+        "polygon": [
+          [
+            704.133057,
+            829.787272
+          ],
+          [
+            738.407227,
+            784.57449
+          ],
+          [
+            752.520182,
+            803.191515
+          ],
+          [
+            718.245931,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0046",
+        "text": "Mar-23",
+        "confidence": 0.99998,
+        "coordinates": [
+          736.895182,
+          786.569173,
+          47.883057,
+          61.170193
+        ],
+        "polygon": [
+          [
+            736.895182,
+            831.117025
+          ],
+          [
+            772.681478,
+            786.569173
+          ],
+          [
+            784.778239,
+            803.191515
+          ],
+          [
+            748.991943,
+            847.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0047",
+        "text": "Jun-23",
+        "confidence": 0.99998,
+        "coordinates": [
+          774.193522,
+          786.569173,
+          43.85083,
+          58.510634
+        ],
+        "polygon": [
+          [
+            774.193522,
+            828.457465
+          ],
+          [
+            805.443522,
+            786.569173
+          ],
+          [
+            818.044352,
+            802.526584
+          ],
+          [
+            786.794352,
+            845.079807
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0048",
+        "text": "Sep-23",
+        "confidence": 0.99997,
+        "coordinates": [
+          805.443522,
+          783.909559,
+          48.891113,
+          65.159614
+        ],
+        "polygon": [
+          [
+            805.443522,
+            830.452148
+          ],
+          [
+            839.717773,
+            783.909559
+          ],
+          [
+            854.334635,
+            801.861708
+          ],
+          [
+            820.060465,
+            849.069173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0049",
+        "text": "Dec-23",
+        "confidence": 0.99996,
+        "coordinates": [
+          839.717773,
+          786.569173,
+          46.370931,
+          60.505317
+        ],
+        "polygon": [
+          [
+            839.717773,
+            830.452148
+          ],
+          [
+            873.487874,
+            786.569173
+          ],
+          [
+            886.088704,
+            803.191515
+          ],
+          [
+            852.318522,
+            847.07449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0050",
+        "text": "*Pro forma Class B-1 returns for quarters ending 9/30/2020 and earlier",
+        "confidence": 0.99025,
+        "coordinates": [
+          98.790324,
+          848.404243,
+          435.987915,
+          25.930881
+        ],
+        "polygon": [
+          [
+            98.790324,
+            848.404243
+          ],
+          [
+            534.778239,
+            850.398926
+          ],
+          [
+            534.778239,
+            874.335124
+          ],
+          [
+            98.790324,
+            872.340441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0051",
+        "text": "COULTONCREEK",
+        "confidence": 0.9991,
+        "coordinates": [
+          144.153229,
+          916.888346,
+          180.947581,
+          26.595703
+        ],
+        "polygon": [
+          [
+            144.153229,
+            916.888346
+          ],
+          [
+            325.10081,
+            916.888346
+          ],
+          [
+            325.10081,
+            943.484049
+          ],
+          [
+            144.153229,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0052",
+        "text": "Company Overview - 2023",
+        "confidence": 0.98831,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-ocr-0053",
+        "text": "CAPITAL",
+        "confidence": 0.99445,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p014-native-0001",
+        "text": "9",
+        "confidence": 1.0,
+        "coordinates": [
+          133.88264291666667,
+          660.4892292592593,
+          15.739027777777773,
+          10.625029999999924
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0002",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          133.88264291666667,
+          644.5516842592593,
+          15.739027777777773,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0003",
+        "text": "51",
+        "confidence": 1.0,
+        "coordinates": [
+          167.5111151388889,
+          579.4970272222222,
+          15.739027777777773,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0004",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          167.5111151388889,
+          563.5615778888888,
+          15.739027777777773,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0005",
+        "text": "11",
+        "confidence": 1.0,
+        "coordinates": [
+          201.13944847222226,
+          635.8364716666667,
+          15.739027777777773,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0006",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          201.13944847222226,
+          619.9010223333333,
+          15.739027777777773,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0007",
+        "text": "41",
+        "confidence": 1.0,
+        "coordinates": [
+          234.76778180555556,
+          581.730730925926,
+          15.739027777777773,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0008",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          234.76778180555556,
+          565.7952815925927,
+          15.739027777777773,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0009",
+        "text": "31",
+        "confidence": 1.0,
+        "coordinates": [
+          268.3961151388889,
+          603.1496198148149,
+          15.739027777777773,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0010",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          268.3961151388889,
+          587.2141704814815,
+          15.739027777777773,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0011",
+        "text": "22",
+        "confidence": 1.0,
+        "coordinates": [
+          302.0244484722222,
+          466.8186938888888,
+          15.739027777777773,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0012",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          302.0244484722222,
+          450.8832445555555,
+          15.739027777777773,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0013",
+        "text": "11",
+        "confidence": 1.0,
+        "coordinates": [
+          335.6529206944445,
+          635.8364716666667,
+          15.739027777777773,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0014",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          335.6529206944445,
+          619.9010223333333,
+          15.739027777777773,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0015",
+        "text": "8",
+        "confidence": 1.0,
+        "coordinates": [
+          369.28125402777783,
+          682.8868218518519,
+          15.739027777777736,
+          10.625029999999924
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0016",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          369.28125402777783,
+          666.9492768518519,
+          15.739027777777736,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0017",
+        "text": "41",
+        "confidence": 1.0,
+        "coordinates": [
+          402.90972625,
+          587.0616568518519,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0018",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          402.90972625,
+          571.1262075185185,
+          15.739027777777736,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0019",
+        "text": "41",
+        "confidence": 1.0,
+        "coordinates": [
+          436.53805958333334,
+          594.859805,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0020",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          436.53805958333334,
+          578.9243556666668,
+          15.739027777777736,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0021",
+        "text": "22",
+        "confidence": 1.0,
+        "coordinates": [
+          470.16639291666667,
+          459.11313833333327,
+          15.739027777777736,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0022",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          470.16639291666667,
+          443.177689,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0023",
+        "text": "01",
+        "confidence": 1.0,
+        "coordinates": [
+          503.7948651388889,
+          644.9573975925927,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0024",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          503.7948651388889,
+          629.0219482592593,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0025",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          537.4231984722222,
+          521.2911012962963,
+          15.739027777777736,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0026",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          537.4231984722222,
+          505.3556519629629,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0027",
+        "text": "91",
+        "confidence": 1.0,
+        "coordinates": [
+          571.0515318055556,
+          512.1066568518519,
+          15.739027777777736,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0028",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          571.0515318055556,
+          496.1712075185185,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0029",
+        "text": "31",
+        "confidence": 1.0,
+        "coordinates": [
+          604.6798651388889,
+          610.9011012962965,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0030",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          604.6798651388889,
+          594.965651962963,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0031",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          638.3083373611112,
+          533.7292494444443,
+          15.739027777777736,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0032",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          638.3083373611112,
+          517.7938001111111,
+          15.739027777777736,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0033",
+        "text": "01",
+        "confidence": 1.0,
+        "coordinates": [
+          671.9366706944445,
+          648.5101753703705,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0034",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          671.9366706944445,
+          632.5747260370371,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0035",
+        "text": "31",
+        "confidence": 1.0,
+        "coordinates": [
+          705.5651429166667,
+          598.496656851852,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0036",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          705.5651429166667,
+          582.5612075185186,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0037",
+        "text": "01",
+        "confidence": 1.0,
+        "coordinates": [
+          739.19347625,
+          649.7635087037037,
+          15.739027777777736,
+          21.91019500000001
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0038",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          739.19347625,
+          633.8280593703704,
+          15.739027777777736,
+          15.27740999999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0039",
+        "text": "21",
+        "confidence": 1.0,
+        "coordinates": [
+          772.8219484722223,
+          616.5773975925927,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0040",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          772.8219484722223,
+          600.6419482592593,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0041",
+        "text": "11",
+        "confidence": 1.0,
+        "coordinates": [
+          806.4502818055556,
+          642.8236938888889,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0042",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          806.4502818055556,
+          626.8882445555555,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0043",
+        "text": "01",
+        "confidence": 1.0,
+        "coordinates": [
+          840.0786151388888,
+          650.5431383333333,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0044",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          840.0786151388888,
+          634.6076889999999,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0045",
+        "text": "01",
+        "confidence": 1.0,
+        "coordinates": [
+          873.7069484722222,
+          650.5431383333333,
+          15.739027777777736,
+          21.9101949999999
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0046",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          873.7069484722222,
+          634.6076889999999,
+          15.739027777777736,
+          15.277410000000044
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0047",
+        "text": "Quarterly",
+        "confidence": 1.0,
+        "coordinates": [
+          327.93805555555554,
+          341.0133711111111,
+          93.22964676388884,
+          30.6288888888889
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0048",
+        "text": "Class",
+        "confidence": 1.0,
+        "coordinates": [
+          424.7953060833333,
+          341.0133711111111,
+          47.92025466666669,
+          30.6288888888889
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0049",
+        "text": "B",
+        "confidence": 1.0,
+        "coordinates": [
+          476.8561357499999,
+          341.0133711111111,
+          12.904792083333344,
+          30.6288888888889
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0050",
+        "text": "Yield",
+        "confidence": 1.0,
+        "coordinates": [
+          493.80949005555556,
+          341.0133711111111,
+          48.67475944444451,
+          30.6288888888889
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0051",
+        "text": "(Annualized)*",
+        "confidence": 1.0,
+        "coordinates": [
+          545.8726200416667,
+          341.0133711111111,
+          131.31143516666688,
+          30.6288888888889
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0052",
+        "text": "*Pro",
+        "confidence": 1.0,
+        "coordinates": [
+          101.92458333333333,
+          855.4138888888889,
+          26.857416666666683,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0053",
+        "text": "forma",
+        "confidence": 1.0,
+        "coordinates": [
+          132.58616666666668,
+          855.4138888888889,
+          35.85461666666669,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0054",
+        "text": "Class",
+        "confidence": 1.0,
+        "coordinates": [
+          171.91295000000002,
+          855.4138888888889,
+          34.58056666666671,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0055",
+        "text": "B-1",
+        "confidence": 1.0,
+        "coordinates": [
+          210.40835000000007,
+          855.4138888888889,
+          21.53573333333322,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0056",
+        "text": "returns",
+        "confidence": 1.0,
+        "coordinates": [
+          235.74963333333335,
+          855.4138888888889,
+          43.07561666666666,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0057",
+        "text": "for",
+        "confidence": 1.0,
+        "coordinates": [
+          282.5740833333333,
+          855.4138888888889,
+          16.26938333333333,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0058",
+        "text": "quarters",
+        "confidence": 1.0,
+        "coordinates": [
+          302.5701666666667,
+          855.4138888888889,
+          50.73651666666667,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0059",
+        "text": "ending",
+        "confidence": 1.0,
+        "coordinates": [
+          357.0555166666667,
+          855.4138888888889,
+          41.34644999999995,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0060",
+        "text": "9/30/2020",
+        "confidence": 1.0,
+        "coordinates": [
+          402.2075166666666,
+          855.4138888888889,
+          61.33976666666664,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0061",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          467.18544999999995,
+          855.4138888888889,
+          23.018666666666675,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0062",
+        "text": "earlier",
+        "confidence": 1.0,
+        "coordinates": [
+          493.84228333333334,
+          855.4138888888889,
+          38.26438333333344,
+          18.44444444444451
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0063",
+        "text": "9%",
+        "confidence": 1.0,
+        "coordinates": [
+          133.88264291666667,
+          644.5516842592593,
+          15.739027777777778,
+          26.562574999999924
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0064",
+        "text": "8%",
+        "confidence": 1.0,
+        "coordinates": [
+          369.28125402777783,
+          666.9492768518519,
+          15.739027777777721,
+          26.562574999999924
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0065",
+        "text": "14%",
+        "confidence": 1.0,
+        "coordinates": [
+          402.90972625,
+          571.1262075185185,
+          15.739027777777721,
+          37.845644333333325
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0066",
+        "text": "22%",
+        "confidence": 1.0,
+        "coordinates": [
+          470.16639291666667,
+          443.177689,
+          15.739027777777721,
+          37.84564433333327
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0067",
+        "text": "11%",
+        "confidence": 1.0,
+        "coordinates": [
+          806.4502818055556,
+          626.8882445555555,
+          15.739027777777778,
+          37.845644333333325
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p014-native-0068",
+        "text": "10%",
+        "confidence": 1.0,
+        "coordinates": [
+          873.7069484722222,
+          634.6076889999999,
+          15.739027777777778,
+          37.845644333333325
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p014-ocr-0001",
+      "owner_block_id": "p014-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0002",
+      "owner_block_id": "p014-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0003",
+      "owner_block_id": "p014-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0004",
+      "owner_block_id": "p014-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0005",
+      "owner_block_id": "p014-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0006",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0007",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0008",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0009",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0010",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0011",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0012",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0013",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0014",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0015",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0016",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0017",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0018",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0019",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0020",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0021",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0022",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0023",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0024",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0025",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0026",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0027",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0028",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0029",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0030",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0031",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0032",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0033",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0034",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0035",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0036",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0037",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0038",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0039",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0040",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0041",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0042",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0043",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0044",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0045",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0046",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0047",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0048",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0049",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0050",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0051",
+      "owner_block_id": "p014-r001-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0052",
+      "owner_block_id": "p014-r001-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-ocr-0053",
+      "owner_block_id": "p014-r001-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0001",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0002",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0003",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0004",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0005",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0006",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0007",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0008",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0009",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0010",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0011",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0012",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0013",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0014",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0015",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0016",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0017",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0018",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0019",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0020",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0021",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0022",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0023",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0024",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0025",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0026",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0027",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0028",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0029",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0030",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0031",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0032",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0033",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0034",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0035",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0036",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0037",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0038",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0039",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0040",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0041",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0042",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0043",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0044",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0045",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0046",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0047",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0048",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0049",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0050",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0051",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0052",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0053",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0054",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0055",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0056",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0057",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0058",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0059",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0060",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0061",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0062",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0063",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0064",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0065",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0066",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0067",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p014-native-0068",
+      "owner_block_id": "p014-r002-chart",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

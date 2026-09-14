@@ -1,0 +1,2727 @@
+{
+  "schema_version": "unified-source-page/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 10,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 10,
+      "block_id": "p010-r003-block",
+      "content": {
+        "text": "INVESTMENT OPPORTUNITIES",
+        "evidence_text": {
+          "selected": "native",
+          "native": "INVESTMENT OPPORTUNITIES",
+          "ocr": "INVESTMENT OPPORTUNITIES",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        57.59875,
+        88.104704,
+        414.296383,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99571,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p010-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          41.4711,
+          47.57654000000002,
+          339.7644959999998,
+          67.61653999999999
+        ],
+        "ocr_evidence_ids": [
+          "p010-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-010.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "comparison_panel",
+      "page": 10,
+      "block_id": "p010-r001-comparison-panel",
+      "content": {
+        "title": null,
+        "sections": [
+          {
+            "section_id": "s001",
+            "title": "Perpetual Evergreen Investments Senior Units: Class B Shares:  Preferred Units: Senior Units  Ownership Units: Coulton have priority in both payment Creek Membership Units and liquidation over all other paying 8% preferred return Coulton Creek Capital equity with additional profit share. holders.  Priority: Subordinate to Senior  Fixed Returns: 6.5% - 8.0% Units and Company Debt, pari per annum fixed return, with passu with Class A / Founder quarterly distributions. Units.  Diversification: Units are  Targeted Returns: 10% to 15% invested across entire CCC per annum, distributed platform (approx. 60+ quarterly. investments).  Historic Track Record: 13.6%  Minimum Equity Ratio: 1:1 average annual returns since ratio of all Coulton Creek inception (9/2020). equity to Senior Units and long-term debt.  Diversification: Units are invested across entire CCC  Transferrable: Units can be platform (approx. 60+ converted to other investments investments). with CCC.  Liquidity: Redeem up to 10%  Liquidity: Redeem up to 10% every 6 months (full every 6 months (full redemption in 5 years). redemption in 5 years).",
+            "text": "Perpetual Evergreen Investments Senior Units: Class B Shares:  Preferred Units: Senior Units  Ownership Units: Coulton have priority in both payment Creek Membership Units and liquidation over all other paying 8% preferred return Coulton Creek Capital equity with additional profit share. holders.  Priority: Subordinate to Senior  Fixed Returns: 6.5% - 8.0% Units and Company Debt, pari per annum fixed return, with passu with Class A / Founder quarterly distributions. Units.  Diversification: Units are  Targeted Returns: 10% to 15% invested across entire CCC per annum, distributed platform (approx. 60+ quarterly. investments).  Historic Track Record: 13.6%  Minimum Equity Ratio: 1:1 average annual returns since ratio of all Coulton Creek inception (9/2020). equity to Senior Units and long-term debt.  Diversification: Units are invested across entire CCC  Transferrable: Units can be platform (approx. 60+ converted to other investments investments). with CCC.  Liquidity: Redeem up to 10%  Liquidity: Redeem up to 10% every 6 months (full every 6 months (full redemption in 5 years). redemption in 5 years).",
+            "structure_complete": false
+          },
+          {
+            "section_id": "s002",
+            "title": "Direct Investments (SPVs):  Optionality: Project-Level investments that allow investors to seek opportunities specific to their investment priorities.  Priority: Structure and waterfall are deal specific, and payouts are independent of Coulton Creek entity investments.  Targeted Returns: Return targets vary by offering, but opportunities are often available across the capital stack from participating in 1st DOT senior loans to traditional LP equity.  Historic Track Record: SPV investments 9-13%+ current cash returns, 14.2% average LP total returns.  Liquidity: Investment timing and liquidity varies by specific investment offering.",
+            "text": "Direct Investments (SPVs):  Optionality: Project-Level investments that allow investors to seek opportunities specific to their investment priorities.  Priority: Structure and waterfall are deal specific, and payouts are independent of Coulton Creek entity investments.  Targeted Returns: Return targets vary by offering, but opportunities are often available across the capital stack from participating in 1st DOT senior loans to traditional LP equity.  Historic Track Record: SPV investments 9-13%+ current cash returns, 14.2% average LP total returns.  Liquidity: Investment timing and liquidity varies by specific investment offering.",
+            "structure_complete": false
+          }
+        ]
+      },
+      "coordinates": [
+        47.75,
+        172.777778,
+        916.5,
+        676.0
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF layout",
+        "Python section reconstruction"
+      ],
+      "confidence": 0.6,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "panel columns were preserved, but nested subsections could not be separated reliably"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p010-r001",
+        "classification_method": "pdfplumber-table-finder",
+        "reading_order": 2,
+        "source_bbox_points": [
+          34.38,
+          93.30000000000001,
+          694.26,
+          458.34000000000003
+        ],
+        "ocr_evidence_ids": [
+          "p010-ocr-0002",
+          "p010-ocr-0003",
+          "p010-ocr-0004",
+          "p010-ocr-0005",
+          "p010-ocr-0006",
+          "p010-ocr-0007",
+          "p010-ocr-0008",
+          "p010-ocr-0009",
+          "p010-ocr-0010",
+          "p010-ocr-0011",
+          "p010-ocr-0012",
+          "p010-ocr-0013",
+          "p010-ocr-0014",
+          "p010-ocr-0015",
+          "p010-ocr-0016",
+          "p010-ocr-0017",
+          "p010-ocr-0018",
+          "p010-ocr-0019",
+          "p010-ocr-0020",
+          "p010-ocr-0021",
+          "p010-ocr-0022",
+          "p010-ocr-0023",
+          "p010-ocr-0024",
+          "p010-ocr-0025",
+          "p010-ocr-0026",
+          "p010-ocr-0027",
+          "p010-ocr-0028",
+          "p010-ocr-0029",
+          "p010-ocr-0030",
+          "p010-ocr-0031",
+          "p010-ocr-0032",
+          "p010-ocr-0033",
+          "p010-ocr-0034",
+          "p010-ocr-0035",
+          "p010-ocr-0036",
+          "p010-ocr-0037",
+          "p010-ocr-0038",
+          "p010-ocr-0039",
+          "p010-ocr-0040",
+          "p010-ocr-0041",
+          "p010-ocr-0042",
+          "p010-ocr-0043",
+          "p010-ocr-0044",
+          "p010-ocr-0045",
+          "p010-ocr-0046",
+          "p010-ocr-0047",
+          "p010-ocr-0048",
+          "p010-ocr-0049",
+          "p010-ocr-0050",
+          "p010-ocr-0051",
+          "p010-ocr-0052",
+          "p010-ocr-0053",
+          "p010-ocr-0054",
+          "p010-ocr-0055",
+          "p010-ocr-0056",
+          "p010-ocr-0057",
+          "p010-ocr-0058",
+          "p010-ocr-0059",
+          "p010-ocr-0060",
+          "p010-ocr-0061",
+          "p010-ocr-0062",
+          "p010-ocr-0063",
+          "p010-ocr-0064",
+          "p010-ocr-0065",
+          "p010-ocr-0066",
+          "p010-ocr-0067",
+          "p010-ocr-0068",
+          "p010-ocr-0069"
+        ],
+        "rendered_page": "page-images/page-010.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 10,
+      "block_id": "p010-r002-decoration",
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p010-r002.json",
+          "sha256": "f2310007943759ae25d122df2f248ee12bb0717c83edc14ebe5c94b2fec23bae"
+        },
+        "region_image": "region-images/p010-r002.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p010-r002",
+        "classification_method": "repeated-page-band",
+        "reading_order": 3,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p010-ocr-0070",
+          "p010-ocr-0071",
+          "p010-ocr-0072"
+        ],
+        "rendered_page": "page-images/page-010.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-010.png",
+    "rendered_page_sha256": "fa939f3258fc408238b6dbef797f8635e0220af31b94d21c01ef2897c419cb52",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p010-ocr-0001",
+        "text": "INVESTMENT OPPORTUNITIES",
+        "confidence": 0.98769,
+        "coordinates": [
+          53.427419,
+          73.138299,
+          420.866933,
+          45.212762
+        ],
+        "polygon": [
+          [
+            53.427419,
+            74.468085
+          ],
+          [
+            474.294352,
+            73.138299
+          ],
+          [
+            474.294352,
+            117.021281
+          ],
+          [
+            53.427419,
+            118.351061
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0002",
+        "text": "Perpetual Evergreen Investments",
+        "confidence": 0.99947,
+        "coordinates": [
+          157.258067,
+          180.851061,
+          402.721751,
+          41.223416
+        ],
+        "polygon": [
+          [
+            157.258067,
+            180.851061
+          ],
+          [
+            559.979818,
+            180.851061
+          ],
+          [
+            559.979818,
+            222.074476
+          ],
+          [
+            157.258067,
+            222.074476
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0003",
+        "text": "Direct Investments (SPVs):",
+        "confidence": 0.99737,
+        "coordinates": [
+          682.459676,
+          185.505317,
+          252.016154,
+          28.590427
+        ],
+        "polygon": [
+          [
+            682.459676,
+            185.505317
+          ],
+          [
+            934.47583,
+            185.505317
+          ],
+          [
+            934.47583,
+            214.095744
+          ],
+          [
+            682.459676,
+            214.095744
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0004",
+        "text": "Senior Units:",
+        "confidence": 0.99994,
+        "coordinates": [
+          54.939514,
+          248.67022,
+          115.927429,
+          28.590413
+        ],
+        "polygon": [
+          [
+            54.939514,
+            248.67022
+          ],
+          [
+            170.866943,
+            248.67022
+          ],
+          [
+            170.866943,
+            277.260634
+          ],
+          [
+            54.939514,
+            277.260634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0005",
+        "text": "Class B Shares:",
+        "confidence": 0.99981,
+        "coordinates": [
+          377.016113,
+          248.67022,
+          143.649211,
+          29.255317
+        ],
+        "polygon": [
+          [
+            377.016113,
+            248.67022
+          ],
+          [
+            520.665324,
+            248.67022
+          ],
+          [
+            520.665324,
+            277.925537
+          ],
+          [
+            377.016113,
+            277.925537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0006",
+        "text": "Optionality: Project-Level",
+        "confidence": 0.98419,
+        "coordinates": [
+          714.213704,
+          267.287245,
+          173.387126,
+          23.936171
+        ],
+        "polygon": [
+          [
+            714.213704,
+            267.287245
+          ],
+          [
+            887.60083,
+            267.287245
+          ],
+          [
+            887.60083,
+            291.223416
+          ],
+          [
+            714.213704,
+            291.223416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0007",
+        "text": "Preferred Units: Senior Units",
+        "confidence": 0.98518,
+        "coordinates": [
+          87.197581,
+          293.218099,
+          197.580638,
+          21.941488
+        ],
+        "polygon": [
+          [
+            87.197581,
+            293.218099
+          ],
+          [
+            284.778219,
+            293.218099
+          ],
+          [
+            284.778219,
+            315.159587
+          ],
+          [
+            87.197581,
+            315.159587
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0008",
+        "text": "Ownership Units: Coulton",
+        "confidence": 0.97981,
+        "coordinates": [
+          408.266113,
+          291.888292,
+          176.915324,
+          23.936171
+        ],
+        "polygon": [
+          [
+            408.266113,
+            291.888292
+          ],
+          [
+            585.181437,
+            291.888292
+          ],
+          [
+            585.181437,
+            315.824463
+          ],
+          [
+            408.266113,
+            315.824463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0009",
+        "text": "investments that allow investors to",
+        "confidence": 0.99564,
+        "coordinates": [
+          714.213704,
+          287.898953,
+          235.887126,
+          21.941488
+        ],
+        "polygon": [
+          [
+            714.213704,
+            287.898953
+          ],
+          [
+            950.10083,
+            287.898953
+          ],
+          [
+            950.10083,
+            309.840441
+          ],
+          [
+            714.213704,
+            309.840441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0010",
+        "text": "have priority in both payment",
+        "confidence": 0.9991,
+        "coordinates": [
+          86.189514,
+          312.5,
+          200.10081,
+          25.265951
+        ],
+        "polygon": [
+          [
+            86.189514,
+            313.82978
+          ],
+          [
+            286.290324,
+            312.5
+          ],
+          [
+            286.290324,
+            336.436171
+          ],
+          [
+            86.189514,
+            337.765951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0011",
+        "text": "Creek Membership Units",
+        "confidence": 0.9975,
+        "coordinates": [
+          408.770142,
+          313.164903,
+          171.370972,
+          21.941488
+        ],
+        "polygon": [
+          [
+            408.770142,
+            313.164903
+          ],
+          [
+            580.141113,
+            313.164903
+          ],
+          [
+            580.141113,
+            335.106391
+          ],
+          [
+            408.770142,
+            335.106391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0012",
+        "text": "seek opportunities specific to their",
+        "confidence": 0.98136,
+        "coordinates": [
+          714.213704,
+          307.845757,
+          233.870931,
+          21.941488
+        ],
+        "polygon": [
+          [
+            714.213704,
+            307.845757
+          ],
+          [
+            948.084635,
+            307.845757
+          ],
+          [
+            948.084635,
+            329.787245
+          ],
+          [
+            714.213704,
+            329.787245
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0013",
+        "text": "and liquidation over all other",
+        "confidence": 0.96997,
+        "coordinates": [
+          86.693553,
+          333.111708,
+          196.572581,
+          21.941488
+        ],
+        "polygon": [
+          [
+            86.693553,
+            333.111708
+          ],
+          [
+            283.266134,
+            333.111708
+          ],
+          [
+            283.266134,
+            355.053196
+          ],
+          [
+            86.693553,
+            355.053196
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0014",
+        "text": "paying 8% preferred return",
+        "confidence": 0.99749,
+        "coordinates": [
+          407.762085,
+          331.117025,
+          185.987915,
+          25.930854
+        ],
+        "polygon": [
+          [
+            407.762085,
+            332.446804
+          ],
+          [
+            593.75,
+            331.117025
+          ],
+          [
+            593.75,
+            355.718099
+          ],
+          [
+            407.762085,
+            357.047879
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0015",
+        "text": "investment priorities.",
+        "confidence": 0.99812,
+        "coordinates": [
+          714.717773,
+          328.457465,
+          141.633057,
+          19.946804
+        ],
+        "polygon": [
+          [
+            714.717773,
+            328.457465
+          ],
+          [
+            856.35083,
+            328.457465
+          ],
+          [
+            856.35083,
+            348.40427
+          ],
+          [
+            714.717773,
+            348.40427
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0016",
+        "text": "Coulton Creek Capital equity",
+        "confidence": 0.99533,
+        "coordinates": [
+          86.189514,
+          350.398953,
+          198.588704,
+          25.930827
+        ],
+        "polygon": [
+          [
+            86.189514,
+            350.398953
+          ],
+          [
+            284.778219,
+            352.393609
+          ],
+          [
+            284.778219,
+            376.32978
+          ],
+          [
+            86.189514,
+            374.335124
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0017",
+        "text": "with additional profit share.",
+        "confidence": 0.99876,
+        "coordinates": [
+          407.762085,
+          351.063829,
+          185.483887,
+          25.265951
+        ],
+        "polygon": [
+          [
+            407.762085,
+            352.393609
+          ],
+          [
+            593.245972,
+            351.063829
+          ],
+          [
+            593.245972,
+            375.0
+          ],
+          [
+            407.762085,
+            376.32978
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0018",
+        "text": "Priority: Structure and waterfall",
+        "confidence": 0.99978,
+        "coordinates": [
+          714.717773,
+          365.026611,
+          211.693522,
+          21.941488
+        ],
+        "polygon": [
+          [
+            714.717773,
+            365.026611
+          ],
+          [
+            926.411296,
+            365.026611
+          ],
+          [
+            926.411296,
+            386.968099
+          ],
+          [
+            714.717773,
+            386.968099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0019",
+        "text": "holders.",
+        "confidence": 0.99999,
+        "coordinates": [
+          86.693553,
+          371.675537,
+          58.467733,
+          22.606391
+        ],
+        "polygon": [
+          [
+            86.693553,
+            371.675537
+          ],
+          [
+            145.161285,
+            371.675537
+          ],
+          [
+            145.161285,
+            394.281928
+          ],
+          [
+            86.693553,
+            394.281928
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0020",
+        "text": "Priority: Subordinate to Senior",
+        "confidence": 0.99978,
+        "coordinates": [
+          408.770142,
+          388.962782,
+          207.661296,
+          23.936171
+        ],
+        "polygon": [
+          [
+            408.770142,
+            388.962782
+          ],
+          [
+            616.431437,
+            388.962782
+          ],
+          [
+            616.431437,
+            412.898953
+          ],
+          [
+            408.770142,
+            412.898953
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0021",
+        "text": "are deal specific, and payouts are",
+        "confidence": 0.9988,
+        "coordinates": [
+          713.709635,
+          384.308512,
+          231.854899,
+          22.606391
+        ],
+        "polygon": [
+          [
+            713.709635,
+            384.308512
+          ],
+          [
+            945.564535,
+            384.973416
+          ],
+          [
+            945.564535,
+            406.914903
+          ],
+          [
+            713.709635,
+            406.25
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0022",
+        "text": "Fixed Returns: 6.5% - 8.0%",
+        "confidence": 0.98491,
+        "coordinates": [
+          87.197581,
+          408.909587,
+          189.516123,
+          23.936171
+        ],
+        "polygon": [
+          [
+            87.197581,
+            408.909587
+          ],
+          [
+            276.713704,
+            408.909587
+          ],
+          [
+            276.713704,
+            432.845757
+          ],
+          [
+            87.197581,
+            432.845757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0023",
+        "text": "Units and Company Debt, pari",
+        "confidence": 0.9645,
+        "coordinates": [
+          408.266113,
+          408.244683,
+          208.165324,
+          25.930854
+        ],
+        "polygon": [
+          [
+            408.266113,
+            408.244683
+          ],
+          [
+            616.431437,
+            410.239366
+          ],
+          [
+            616.431437,
+            434.175537
+          ],
+          [
+            408.266113,
+            432.180854
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0024",
+        "text": "independent of Ćoulton Čreek",
+        "confidence": 0.95948,
+        "coordinates": [
+          714.213704,
+          404.255317,
+          206.653239,
+          21.941488
+        ],
+        "polygon": [
+          [
+            714.213704,
+            404.255317
+          ],
+          [
+            920.866943,
+            404.255317
+          ],
+          [
+            920.866943,
+            426.196804
+          ],
+          [
+            714.213704,
+            426.196804
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0025",
+        "text": "per annum fixed return, with",
+        "confidence": 0.99505,
+        "coordinates": [
+          86.693553,
+          429.521294,
+          192.036285,
+          23.271267
+        ],
+        "polygon": [
+          [
+            86.693553,
+            430.186171
+          ],
+          [
+            278.729838,
+            429.521294
+          ],
+          [
+            278.729838,
+            452.127658
+          ],
+          [
+            86.693553,
+            452.792562
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0026",
+        "text": "passu with Clašs A/ Founder",
+        "confidence": 0.93539,
+        "coordinates": [
+          408.266113,
+          429.521294,
+          203.629028,
+          23.936171
+        ],
+        "polygon": [
+          [
+            408.266113,
+            429.521294
+          ],
+          [
+            611.895142,
+            429.521294
+          ],
+          [
+            611.895142,
+            453.457465
+          ],
+          [
+            408.266113,
+            453.457465
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0027",
+        "text": "entity investments.",
+        "confidence": 0.99994,
+        "coordinates": [
+          714.213704,
+          424.202121,
+          129.032227,
+          21.941515
+        ],
+        "polygon": [
+          [
+            714.213704,
+            424.202121
+          ],
+          [
+            843.245931,
+            424.202121
+          ],
+          [
+            843.245931,
+            446.143636
+          ],
+          [
+            714.213704,
+            446.143636
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0028",
+        "text": "quarterly distributions.",
+        "confidence": 0.99977,
+        "coordinates": [
+          86.693553,
+          448.138292,
+          152.721771,
+          24.601074
+        ],
+        "polygon": [
+          [
+            86.693553,
+            448.138292
+          ],
+          [
+            239.415324,
+            448.138292
+          ],
+          [
+            239.415324,
+            472.739366
+          ],
+          [
+            86.693553,
+            472.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0029",
+        "text": "Units.",
+        "confidence": 0.92078,
+        "coordinates": [
+          408.266113,
+          447.473416,
+          43.346802,
+          23.936144
+        ],
+        "polygon": [
+          [
+            408.266113,
+            447.473416
+          ],
+          [
+            451.612915,
+            447.473416
+          ],
+          [
+            451.612915,
+            471.409559
+          ],
+          [
+            408.266113,
+            471.409559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0030",
+        "text": "Targeted Returns: Return targets",
+        "confidence": 0.99891,
+        "coordinates": [
+          712.701579,
+          460.106391,
+          229.334717,
+          25.265951
+        ],
+        "polygon": [
+          [
+            712.701579,
+            460.106391
+          ],
+          [
+            942.036296,
+            461.436198
+          ],
+          [
+            942.036296,
+            485.372342
+          ],
+          [
+            712.701579,
+            484.042535
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0031",
+        "text": "Diversification: Units are",
+        "confidence": 0.99988,
+        "coordinates": [
+          87.701609,
+          486.702148,
+          167.842743,
+          21.941461
+        ],
+        "polygon": [
+          [
+            87.701609,
+            486.702148
+          ],
+          [
+            255.544352,
+            486.702148
+          ],
+          [
+            255.544352,
+            508.643609
+          ],
+          [
+            87.701609,
+            508.643609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0032",
+        "text": "Targeted Returns: 10% to 15%",
+        "confidence": 0.99677,
+        "coordinates": [
+          408.266113,
+          486.037218,
+          213.205648,
+          23.936198
+        ],
+        "polygon": [
+          [
+            408.266113,
+            486.037218
+          ],
+          [
+            621.471761,
+            486.037218
+          ],
+          [
+            621.471761,
+            509.973416
+          ],
+          [
+            408.266113,
+            509.973416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0033",
+        "text": "vary by offering, but opportunities",
+        "confidence": 0.99784,
+        "coordinates": [
+          712.701579,
+          479.388292,
+          231.35083,
+          27.260634
+        ],
+        "polygon": [
+          [
+            712.701579,
+            480.718099
+          ],
+          [
+            944.052409,
+            479.388292
+          ],
+          [
+            944.052409,
+            505.319173
+          ],
+          [
+            712.701579,
+            506.648926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0034",
+        "text": "invested across entire CCC",
+        "confidence": 0.98438,
+        "coordinates": [
+          87.197581,
+          506.648926,
+          187.49999,
+          21.941515
+        ],
+        "polygon": [
+          [
+            87.197581,
+            506.648926
+          ],
+          [
+            274.697571,
+            506.648926
+          ],
+          [
+            274.697571,
+            528.590441
+          ],
+          [
+            87.197581,
+            528.590441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0035",
+        "text": "per annum, distributed",
+        "confidence": 0.99218,
+        "coordinates": [
+          407.762085,
+          505.984049,
+          156.25,
+          23.271267
+        ],
+        "polygon": [
+          [
+            407.762085,
+            506.648926
+          ],
+          [
+            564.012085,
+            505.984049
+          ],
+          [
+            564.012085,
+            528.590441
+          ],
+          [
+            407.762085,
+            529.255317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0036",
+        "text": "are often available across the",
+        "confidence": 0.98983,
+        "coordinates": [
+          714.213704,
+          500.664876,
+          203.125,
+          21.941515
+        ],
+        "polygon": [
+          [
+            714.213704,
+            500.664876
+          ],
+          [
+            917.338704,
+            500.664876
+          ],
+          [
+            917.338704,
+            522.606391
+          ],
+          [
+            714.213704,
+            522.606391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0037",
+        "text": "platform (approx. 60+",
+        "confidence": 0.99958,
+        "coordinates": [
+          86.693553,
+          525.265951,
+          149.193532,
+          24.601074
+        ],
+        "polygon": [
+          [
+            86.693553,
+            525.265951
+          ],
+          [
+            235.887085,
+            525.265951
+          ],
+          [
+            235.887085,
+            549.867025
+          ],
+          [
+            86.693553,
+            549.867025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0038",
+        "text": "quarterly.",
+        "confidence": 0.98849,
+        "coordinates": [
+          407.762085,
+          525.930881,
+          68.044352,
+          24.60102
+        ],
+        "polygon": [
+          [
+            407.762085,
+            525.930881
+          ],
+          [
+            475.806437,
+            525.930881
+          ],
+          [
+            475.806437,
+            550.531901
+          ],
+          [
+            407.762085,
+            550.531901
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0039",
+        "text": "capital stack from participating in",
+        "confidence": 0.98642,
+        "coordinates": [
+          714.213704,
+          519.946832,
+          225.806478,
+          23.936144
+        ],
+        "polygon": [
+          [
+            714.213704,
+            519.946832
+          ],
+          [
+            940.020182,
+            519.946832
+          ],
+          [
+            940.020182,
+            543.882975
+          ],
+          [
+            714.213704,
+            543.882975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0040",
+        "text": "1stDOT senior loans to traditional",
+        "confidence": 0.99863,
+        "coordinates": [
+          714.717773,
+          539.228733,
+          229.838704,
+          21.941515
+        ],
+        "polygon": [
+          [
+            714.717773,
+            539.228733
+          ],
+          [
+            944.556478,
+            539.228733
+          ],
+          [
+            944.556478,
+            561.170247
+          ],
+          [
+            714.717773,
+            561.170247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0041",
+        "text": "investments).",
+        "confidence": 0.99936,
+        "coordinates": [
+          87.197581,
+          545.877658,
+          90.7258,
+          22.606391
+        ],
+        "polygon": [
+          [
+            87.197581,
+            545.877658
+          ],
+          [
+            177.923381,
+            545.877658
+          ],
+          [
+            177.923381,
+            568.484049
+          ],
+          [
+            87.197581,
+            568.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0042",
+        "text": "LP equity.",
+        "confidence": 0.98493,
+        "coordinates": [
+          712.701579,
+          555.851074,
+          72.580648,
+          29.255317
+        ],
+        "polygon": [
+          [
+            713.205648,
+            555.851074
+          ],
+          [
+            785.282227,
+            557.845757
+          ],
+          [
+            784.778239,
+            585.106391
+          ],
+          [
+            712.701579,
+            583.111708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0043",
+        "text": "Historic Track Record: 13.6%",
+        "confidence": 0.99795,
+        "coordinates": [
+          407.762085,
+          561.835124,
+          202.116943,
+          25.265951
+        ],
+        "polygon": [
+          [
+            407.762085,
+            563.164876
+          ],
+          [
+            609.879028,
+            561.835124
+          ],
+          [
+            609.879028,
+            585.771267
+          ],
+          [
+            407.762085,
+            587.101074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0044",
+        "text": "Minimum Equity Ratio: 1:1",
+        "confidence": 0.98593,
+        "coordinates": [
+          87.197581,
+          583.111708,
+          180.443553,
+          23.936198
+        ],
+        "polygon": [
+          [
+            87.197581,
+            583.111708
+          ],
+          [
+            267.641134,
+            583.111708
+          ],
+          [
+            267.641134,
+            607.047906
+          ],
+          [
+            87.197581,
+            607.047906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0045",
+        "text": "average annual returns since",
+        "confidence": 0.99787,
+        "coordinates": [
+          407.762085,
+          583.776584,
+          201.108887,
+          23.271322
+        ],
+        "polygon": [
+          [
+            407.762085,
+            585.106391
+          ],
+          [
+            608.870972,
+            583.776584
+          ],
+          [
+            608.870972,
+            605.718099
+          ],
+          [
+            407.762085,
+            607.047906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0046",
+        "text": "Historic Track Record: SPV",
+        "confidence": 0.99964,
+        "coordinates": [
+          714.213704,
+          595.744683,
+          189.516113,
+          23.936198
+        ],
+        "polygon": [
+          [
+            714.213704,
+            595.744683
+          ],
+          [
+            903.729818,
+            595.744683
+          ],
+          [
+            903.729818,
+            619.680881
+          ],
+          [
+            714.213704,
+            619.680881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0047",
+        "text": "ratio of all Coulton Creek",
+        "confidence": 0.99838,
+        "coordinates": [
+          87.197581,
+          603.723416,
+          172.883067,
+          21.941461
+        ],
+        "polygon": [
+          [
+            87.197581,
+            603.723416
+          ],
+          [
+            260.080648,
+            603.723416
+          ],
+          [
+            260.080648,
+            625.664876
+          ],
+          [
+            87.197581,
+            625.664876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0048",
+        "text": "inceptíon (9/2020).",
+        "confidence": 0.9579,
+        "coordinates": [
+          408.266113,
+          603.058539,
+          129.536296,
+          24.60102
+        ],
+        "polygon": [
+          [
+            408.266113,
+            603.058539
+          ],
+          [
+            537.802409,
+            603.058539
+          ],
+          [
+            537.802409,
+            627.659559
+          ],
+          [
+            408.266113,
+            627.659559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0049",
+        "text": "equity to Senior Units and",
+        "confidence": 0.99448,
+        "coordinates": [
+          86.693553,
+          622.340441,
+          178.931447,
+          23.936144
+        ],
+        "polygon": [
+          [
+            86.693553,
+            622.340441
+          ],
+          [
+            265.625,
+            622.340441
+          ],
+          [
+            265.625,
+            646.276584
+          ],
+          [
+            86.693553,
+            646.276584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0050",
+        "text": "investments 9-13%+ current cash",
+        "confidence": 0.99962,
+        "coordinates": [
+          714.213704,
+          617.021267,
+          229.838704,
+          21.941515
+        ],
+        "polygon": [
+          [
+            714.213704,
+            617.021267
+          ],
+          [
+            944.052409,
+            617.021267
+          ],
+          [
+            944.052409,
+            638.962782
+          ],
+          [
+            714.213704,
+            638.962782
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0051",
+        "text": "long-term debt.",
+        "confidence": 0.9975,
+        "coordinates": [
+          87.197581,
+          642.952148,
+          105.342743,
+          22.606391
+        ],
+        "polygon": [
+          [
+            87.197581,
+            642.952148
+          ],
+          [
+            192.540324,
+            642.952148
+          ],
+          [
+            192.540324,
+            665.558539
+          ],
+          [
+            87.197581,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0052",
+        "text": "Diversification: Units are",
+        "confidence": 0.99992,
+        "coordinates": [
+          408.770142,
+          638.962782,
+          168.346802,
+          25.265951
+        ],
+        "polygon": [
+          [
+            408.770142,
+            638.962782
+          ],
+          [
+            577.116943,
+            640.292589
+          ],
+          [
+            577.116943,
+            664.228733
+          ],
+          [
+            408.770142,
+            662.898926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0053",
+        "text": "returns, 14.2% average LP total",
+        "confidence": 0.98496,
+        "coordinates": [
+          712.701579,
+          634.973416,
+          220.766195,
+          25.930827
+        ],
+        "polygon": [
+          [
+            712.701579,
+            634.973416
+          ],
+          [
+            933.467773,
+            634.973416
+          ],
+          [
+            933.467773,
+            660.904243
+          ],
+          [
+            712.701579,
+            660.904243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0054",
+        "text": "invested across entire CCC",
+        "confidence": 0.99974,
+        "coordinates": [
+          408.266113,
+          660.239366,
+          189.012126,
+          23.271267
+        ],
+        "polygon": [
+          [
+            408.266113,
+            660.904243
+          ],
+          [
+            597.278239,
+            660.239366
+          ],
+          [
+            597.278239,
+            682.845757
+          ],
+          [
+            408.266113,
+            683.510634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0055",
+        "text": "returns.",
+        "confidence": 0.99954,
+        "coordinates": [
+          713.205648,
+          656.25,
+          55.947591,
+          22.606391
+        ],
+        "polygon": [
+          [
+            713.205648,
+            656.25
+          ],
+          [
+            769.153239,
+            656.25
+          ],
+          [
+            769.153239,
+            678.856391
+          ],
+          [
+            713.205648,
+            678.856391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0056",
+        "text": "Transferrable: Units can be",
+        "confidence": 0.99931,
+        "coordinates": [
+          86.693553,
+          679.521267,
+          188.508067,
+          23.936198
+        ],
+        "polygon": [
+          [
+            86.693553,
+            679.521267
+          ],
+          [
+            275.201619,
+            679.521267
+          ],
+          [
+            275.201619,
+            703.457465
+          ],
+          [
+            86.693553,
+            703.457465
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0057",
+        "text": "platform (approx. 60+",
+        "confidence": 0.99028,
+        "coordinates": [
+          408.770142,
+          679.521267,
+          149.193563,
+          24.601074
+        ],
+        "polygon": [
+          [
+            408.770142,
+            679.521267
+          ],
+          [
+            557.963704,
+            679.521267
+          ],
+          [
+            557.963704,
+            704.122342
+          ],
+          [
+            408.770142,
+            704.122342
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0058",
+        "text": "Liquidity: Investment timing and",
+        "confidence": 0.99712,
+        "coordinates": [
+          713.709635,
+          692.819173,
+          217.741943,
+          25.930827
+        ],
+        "polygon": [
+          [
+            713.709635,
+            692.819173
+          ],
+          [
+            931.451579,
+            694.148926
+          ],
+          [
+            931.451579,
+            718.75
+          ],
+          [
+            713.709635,
+            717.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0059",
+        "text": "converted to other investments",
+        "confidence": 0.99647,
+        "coordinates": [
+          87.197581,
+          701.462782,
+          211.693553,
+          19.946777
+        ],
+        "polygon": [
+          [
+            87.197581,
+            701.462782
+          ],
+          [
+            298.891134,
+            701.462782
+          ],
+          [
+            298.891134,
+            721.409559
+          ],
+          [
+            87.197581,
+            721.409559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0060",
+        "text": "investments).",
+        "confidence": 0.99958,
+        "coordinates": [
+          408.770142,
+          700.132975,
+          92.741943,
+          22.606391
+        ],
+        "polygon": [
+          [
+            408.770142,
+            700.132975
+          ],
+          [
+            501.512085,
+            700.132975
+          ],
+          [
+            501.512085,
+            722.739366
+          ],
+          [
+            408.770142,
+            722.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0061",
+        "text": "with CCC.",
+        "confidence": 0.96472,
+        "coordinates": [
+          85.685486,
+          718.085124,
+          72.076609,
+          23.936144
+        ],
+        "polygon": [
+          [
+            85.685486,
+            718.75
+          ],
+          [
+            157.762095,
+            718.085124
+          ],
+          [
+            157.762095,
+            741.356391
+          ],
+          [
+            85.685486,
+            742.021267
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0062",
+        "text": "liquidity varies by specific",
+        "confidence": 0.99703,
+        "coordinates": [
+          713.709635,
+          712.765951,
+          176.915365,
+          25.930881
+        ],
+        "polygon": [
+          [
+            713.709635,
+            714.095757
+          ],
+          [
+            890.625,
+            712.765951
+          ],
+          [
+            890.625,
+            737.367025
+          ],
+          [
+            713.709635,
+            738.696832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0063",
+        "text": "Liquidity: Redeem up to 10%",
+        "confidence": 0.99966,
+        "coordinates": [
+          407.762085,
+          736.037272,
+          198.588704,
+          25.265951
+        ],
+        "polygon": [
+          [
+            407.762085,
+            736.702148
+          ],
+          [
+            606.350789,
+            736.037272
+          ],
+          [
+            606.350789,
+            760.638292
+          ],
+          [
+            407.762085,
+            761.303223
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0064",
+        "text": "investment offering.",
+        "confidence": 0.97128,
+        "coordinates": [
+          713.709635,
+          733.377658,
+          135.584717,
+          23.936198
+        ],
+        "polygon": [
+          [
+            713.709635,
+            733.377658
+          ],
+          [
+            849.294352,
+            733.377658
+          ],
+          [
+            849.294352,
+            757.313856
+          ],
+          [
+            713.709635,
+            757.313856
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0065",
+        "text": "Liquidity: Redeem up to 10%",
+        "confidence": 0.99874,
+        "coordinates": [
+          86.189514,
+          755.984049,
+          199.596781,
+          25.930881
+        ],
+        "polygon": [
+          [
+            86.189514,
+            755.984049
+          ],
+          [
+            285.786296,
+            755.984049
+          ],
+          [
+            285.786296,
+            781.914931
+          ],
+          [
+            86.189514,
+            781.914931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0066",
+        "text": "every 6 months (full",
+        "confidence": 0.98597,
+        "coordinates": [
+          407.258057,
+          755.984049,
+          138.608887,
+          25.930881
+        ],
+        "polygon": [
+          [
+            407.258057,
+            757.313856
+          ],
+          [
+            545.866943,
+            755.984049
+          ],
+          [
+            545.866943,
+            780.585124
+          ],
+          [
+            407.258057,
+            781.914931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0067",
+        "text": "every 6 months (full",
+        "confidence": 0.98105,
+        "coordinates": [
+          85.685486,
+          775.930881,
+          138.608866,
+          25.930827
+        ],
+        "polygon": [
+          [
+            85.685486,
+            777.260634
+          ],
+          [
+            224.294352,
+            775.930881
+          ],
+          [
+            224.294352,
+            800.531901
+          ],
+          [
+            85.685486,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0068",
+        "text": "redemption in 5 ears).",
+        "confidence": 0.99996,
+        "coordinates": [
+          407.762085,
+          777.260634,
+          158.770182,
+          23.936198
+        ],
+        "polygon": [
+          [
+            407.762085,
+            777.260634
+          ],
+          [
+            566.532267,
+            777.260634
+          ],
+          [
+            566.532267,
+            801.196832
+          ],
+          [
+            407.762085,
+            801.196832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0069",
+        "text": "redemption in 5 ears).",
+        "confidence": 0.99564,
+        "coordinates": [
+          86.693553,
+          796.542589,
+          158.770152,
+          23.936144
+        ],
+        "polygon": [
+          [
+            86.693553,
+            796.542589
+          ],
+          [
+            245.463704,
+            796.542589
+          ],
+          [
+            245.463704,
+            820.478733
+          ],
+          [
+            86.693553,
+            820.478733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0070",
+        "text": "COULTON CREEK",
+        "confidence": 0.99016,
+        "coordinates": [
+          144.657257,
+          917.553168,
+          180.947581,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.657257,
+            917.553168
+          ],
+          [
+            325.604838,
+            917.553168
+          ],
+          [
+            325.604838,
+            944.14898
+          ],
+          [
+            144.657257,
+            944.14898
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0071",
+        "text": "Company Overview - 2023",
+        "confidence": 0.97973,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p010-ocr-0072",
+        "text": "CAPITAL",
+        "confidence": 0.99445,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p010-ocr-0001",
+      "owner_block_id": "p010-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0002",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0003",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0004",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0005",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0006",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0007",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0008",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0009",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0010",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0011",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0012",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0013",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0014",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0015",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0016",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0017",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0018",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0019",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0020",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0021",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0022",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0023",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0024",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0025",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0026",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0027",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0028",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0029",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0030",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0031",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0032",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0033",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0034",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0035",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0036",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0037",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0038",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0039",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0040",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0041",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0042",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0043",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0044",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0045",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0046",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0047",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0048",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0049",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0050",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0051",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0052",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0053",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0054",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0055",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0056",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0057",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0058",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0059",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0060",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0061",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0062",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0063",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0064",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0065",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0066",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0067",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0068",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0069",
+      "owner_block_id": "p010-r001-comparison-panel",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0070",
+      "owner_block_id": "p010-r002-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0071",
+      "owner_block_id": "p010-r002-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p010-ocr-0072",
+      "owner_block_id": "p010-r002-decoration",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

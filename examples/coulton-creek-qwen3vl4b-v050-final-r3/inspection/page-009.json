@@ -1,0 +1,641 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 9,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.08675,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.13237,
+  "vector_line_count": 7,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 2,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p009-r003",
+      "page": 9,
+      "kind": "normal_text",
+      "coordinates": [
+        46.11125,
+        82.00062962962967,
+        680.538916666667,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "INVESTOR ALIGNMENT DECEMBER 31, 2023",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 5,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          523.1881200000003,
+          64.32033999999999
+        ]
+      }
+    },
+    {
+      "region_id": "p009-r002",
+      "page": 9,
+      "kind": "visual",
+      "coordinates": [
+        0.0,
+        123.26078055555561,
+        1000.0,
+        746.7392194444444
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-raster-object-cluster",
+      "confidence": 0.84,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [],
+        "source_member_bboxes": [
+          [
+            18.843708,
+            388.79959099999996,
+            160.4390976,
+            431.31581719999997
+          ],
+          [
+            31.9973774,
+            408.8981933,
+            147.2854269,
+            451.4144195
+          ],
+          [
+            59.0784645,
+            428.9967575,
+            120.2043431,
+            463.7827607
+          ],
+          [
+            104.7294388,
+            251.9746093,
+            184.4252045,
+            294.4908355
+          ],
+          [
+            93.1232605,
+            272.07321160000004,
+            195.25763990000002,
+            314.58943780000004
+          ],
+          [
+            116.3356247,
+            292.17179869999995,
+            172.8190315,
+            334.68802489999996
+          ],
+          [
+            494.697113,
+            233.42211909999997,
+            605.3426907,
+            273.6192784
+          ],
+          [
+            497.7920837,
+            251.2016296,
+            598.3789724999999,
+            293.7178558
+          ],
+          [
+            497.0183411,
+            271.3002014,
+            599.1527205,
+            313.8164276
+          ],
+          [
+            519.4569702,
+            291.39877320000005,
+            575.940377,
+            326.9577987
+          ],
+          [
+            569.7504272,
+            295.2638855,
+            702.0608732000001,
+            337.7801117
+          ],
+          [
+            585.2252808,
+            315.36247249999997,
+            687.3596602,
+            357.8786987
+          ],
+          [
+            607.6639404,
+            335.4610443,
+            664.1473472,
+            377.97727050000003
+          ],
+          [
+            223.8862305,
+            249.6556091,
+            397.97892260000003,
+            289.8527684
+          ],
+          [
+            255.609787,
+            267.4350891,
+            366.25536470000003,
+            309.95131530000003
+          ],
+          [
+            282.6908569,
+            287.5336609,
+            339.17426370000004,
+            322.3196641
+          ],
+          [
+            103.1819534,
+            120.56082150000003,
+            325.246854,
+            149.16264640000003
+          ]
+        ],
+        "member_coordinates": [],
+        "object_family": "pdf-raster-object-cluster",
+        "visual_hint": "chart",
+        "chart_type_hint": "pie",
+        "expected_mark_count": null,
+        "object_count": 17,
+        "source_bbox_points": [
+          0.0,
+          66.56082150000003,
+          720.0,
+          469.8
+        ],
+        "native_visual_words": [
+          {
+            "text": "Return",
+            "coordinates": [
+              45.66499999999999,
+              745.2964657407407,
+              63.70618781944445,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              115.52763970833334,
+              745.2964657407407,
+              18.952303138888876,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Capital",
+            "coordinates": [
+              140.2414610555556,
+              745.2964657407407,
+              63.586579333333326,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$0.97",
+            "coordinates": [
+              63.93388888888889,
+              782.5160953703704,
+              53.35441186111113,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "million",
+            "coordinates": [
+              121.95528847222224,
+              782.5160953703704,
+              63.7016742916667,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "0.7%",
+            "coordinates": [
+              101.54652777777778,
+              819.735725,
+              46.55026873611112,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Founders",
+            "coordinates": [
+              706.6947222222223,
+              453.27016944444443,
+              86.39343519444445,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "&",
+            "coordinates": [
+              800.1947069027779,
+              453.27016944444443,
+              15.910185416666739,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Coulton",
+            "coordinates": [
+              330.2919444444445,
+              483.1873916666666,
+              72.3044582361112,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Creek",
+            "coordinates": [
+              409.82481741666675,
+              483.1873916666666,
+              53.81930522222223,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Capital",
+            "coordinates": [
+              470.0127103333334,
+              483.1873916666666,
+              63.58657933333337,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "SPV",
+            "coordinates": [
+              164.52902777777777,
+              491.42646574074075,
+              35.90962699999998,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "LPs",
+            "coordinates": [
+              206.45067377777778,
+              491.42646574074075,
+              30.50242072222223,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Employees",
+            "coordinates": [
+              710.9933333333333,
+              490.4896138888888,
+              101.42348269444454,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$100",
+            "coordinates": [
+              374.3523611111111,
+              520.4070212962963,
+              46.904580666666675,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "million",
+            "coordinates": [
+              425.9261862638889,
+              520.4070212962963,
+              63.70393105555554,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$45",
+            "coordinates": [
+              148.40930555555556,
+              528.6460953703704,
+              35.08365141666668,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "million",
+            "coordinates": [
+              188.15994469444442,
+              528.6460953703704,
+              63.703931055555586,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$38",
+            "coordinates": [
+              709.9186111111111,
+              527.7092435185186,
+              35.08365141666666,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "million",
+            "coordinates": [
+              749.6692502499999,
+              527.7092435185186,
+              63.70393105555554,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "68%",
+            "coordinates": [
+              411.965,
+              557.626650925926,
+              40.10269430555561,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "31%",
+            "coordinates": [
+              180.6486111111111,
+              565.8655398148147,
+              40.10269430555553,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "26%",
+            "coordinates": [
+              741.0834722222222,
+              564.9288731481482,
+              40.10269430555553,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Other",
+            "coordinates": [
+              810.8869444444446,
+              572.0073916666666,
+              54.22552272222229,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Investors",
+            "coordinates": [
+              871.077094125,
+              572.0073916666666,
+              85.307931763889,
+              30.06203703703713
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$62",
+            "coordinates": [
+              832.3798611111112,
+              609.2270212962964,
+              35.08365141666666,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "million",
+            "coordinates": [
+              872.13050025,
+              609.2270212962964,
+              63.70393105555554,
+              30.062037037037022
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "42%",
+            "coordinates": [
+              863.5445833333334,
+              646.4466509259261,
+              40.10269430555553,
+              30.062037037036916
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "$146",
+            "coordinates": [
+              166.25708333333336,
+              243.76127481481484,
+              59.84429687499999,
+              38.65111111111111
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Million",
+            "coordinates": [
+              230.72933916666665,
+              243.76127481481484,
+              87.58013366666668,
+              38.65111111111111
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Portfolio",
+            "coordinates": [
+              322.0669692916667,
+              243.76127481481484,
+              106.95082583333335,
+              38.65111111111111
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ]
+      }
+    },
+    {
+      "region_id": "p009-r001",
+      "page": 9,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 3,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "8",
+            "coordinates": [
+              507.8333333333333,
+              942.4253703703704,
+              6.950000000000027,
+              16.66666666666677
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1",
+    "detected_pdf-raster-object-cluster_as_logical_visual"
+  ]
+}

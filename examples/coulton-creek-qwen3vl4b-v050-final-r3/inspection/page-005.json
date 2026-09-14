@@ -1,0 +1,534 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 5,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.32106,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.24225,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 4,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p005-r009",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        39.87013888888889,
+        77.62859259259261,
+        179.4275833333333,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "LEADERSHIP",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 1,
+        "source_bbox_points": [
+          28.7065,
+          41.91944000000001,
+          157.89435999999998,
+          61.95943999999997
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r001",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.83333263888889,
+        155.7777688888889,
+        171.39441597222222,
+        213.3333114814815
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2
+        ],
+        "source_bbox_points": [
+          21.4799995,
+          84.1199952,
+          144.883979,
+          199.3199834
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799995,
+            84.1199952,
+            144.883979,
+            199.3199834
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.83333263888889,
+            155.7777688888889,
+            171.39441597222222,
+            213.3333114814815
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r010",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.4602777777775,
+        164.32555555555552,
+        255.60605000000032,
+        212.2833333333331
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Chris Hanks – Managing\nChris co-founded Coulton Creek\n$277 million of direct investments,\ndebt. Today, Chris leads the\nwell guiding investment decisions\nBefore Coulton Creek, Chris was\nbenefit manager. At HealthTrans,\nraised $100 million in debt and\nconcluded his tenure with the",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 42,
+        "source_bbox_points": [
+          172.4113999999998,
+          88.73579999999998,
+          356.447756,
+          203.36879999999985
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r013",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        489.46027777777806,
+        164.32555555555552,
+        459.38333333333287,
+        212.2833333333331
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Director\nCapital in 2013 and has led the company in deploying over\nbuilding a diversified portfolio of private real estate equity and\nCreek team setting the strategic direction for the firm, as\nfor Coulton Creek.\nthe CFO and COO of HealthTrans, a privately held pharmacy\nChris helped grow revenue from $4 million to $300 million and\nto fund acquisitions and a minority recapitalization. Chris\n$250 million sale in January 2012.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 70,
+        "source_bbox_points": [
+          352.4114000000002,
+          88.73579999999998,
+          683.1673999999998,
+          203.36879999999985
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r005",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        461.1269444444444,
+        242.38666666666657,
+        57.10000000000003,
+        22.22222222222222
+      ],
+      "reading_order": 5,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Coulton",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 1,
+        "source_bbox_points": [
+          332.0114,
+          130.88879999999995,
+          373.1234,
+          142.88879999999995
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r006",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        459.2936111111121,
+        333.0533333333331,
+        79.33333333333334,
+        43.55555555555552
+      ],
+      "reading_order": 6,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "equity\ncompany’s",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 2,
+        "source_bbox_points": [
+          330.6914000000007,
+          179.84879999999987,
+          387.81140000000073,
+          203.36879999999985
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r002",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.83333263888889,
+        393.33332203703696,
+        171.66665680555556,
+        213.3333101851852
+      ],
+      "reading_order": 7,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          3
+        ],
+        "source_bbox_points": [
+          21.4799995,
+          212.39999389999997,
+          145.0799924,
+          327.5999814
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799995,
+            212.39999389999997,
+            145.0799924,
+            327.5999814
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.83333263888889,
+            393.33332203703696,
+            171.66665680555556,
+            213.3333101851852
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r011",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.4602777777775,
+        405.3831481481481,
+        258.5333333333334,
+        204.28333333333353
+      ],
+      "reading_order": 8,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Will Hensley – Director\nWill joined Coulton Creek Capital\nbeen involved in almost every\nresponsible for sourcing new\nand portfolio management duties.\nPrior to joining Coulton Creek, Will\nskill set included underwriting and\ndistressed real estate assets.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 37,
+        "source_bbox_points": [
+          172.4113999999998,
+          218.90689999999995,
+          358.55539999999985,
+          329.21990000000005
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r014",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        494.12694444444446,
+        443.44425925925924,
+        454.6666666666666,
+        142.22222222222226
+      ],
+      "reading_order": 9,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "as the third employee in 2015. During his tenure, Will has\nof Coulton Creek. In his current role as Director, Will is\nopportunities, as well as underwriting, due diligence\nworked in commercial banking where he acquired a diverse\nportfolio management, as well as experience and oversight of",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 47,
+        "source_bbox_points": [
+          355.7714,
+          239.4599,
+          683.1314,
+          316.2599
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r007",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        465.9602777777777,
+        467.44425925925924,
+        80.46666666666664,
+        46.22222222222218
+      ],
+      "reading_order": 10,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "aspect\ninvestment",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 2,
+        "source_bbox_points": [
+          335.49139999999994,
+          252.41989999999998,
+          393.4273999999999,
+          277.37989999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r003",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.833330000000004,
+        630.8888753703703,
+        171.99997847222224,
+        213.3333205555555
+      ],
+      "reading_order": 11,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          4
+        ],
+        "source_bbox_points": [
+          21.4799976,
+          340.6799927,
+          145.3199821,
+          455.8799858
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799976,
+            340.6799927,
+            145.3199821,
+            455.8799858
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.833330000000004,
+            630.8888753703703,
+            171.99997847222224,
+            213.3333205555555
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r012",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.46027777777778,
+        639.3298148148149,
+        259.8333333333335,
+        174.94999999999993
+      ],
+      "reading_order": 12,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Scott Brown – Director\nScott joined Coulton Creek Capital\nunderwriting new real estate\nmanagement and investor relations\nPrior to joining Coulton Creek,\nestate family office. Scott served\nrisks, cash flows, capital",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 31,
+        "source_bbox_points": [
+          172.4114,
+          345.23810000000003,
+          359.4914000000001,
+          439.7111
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r015",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        484.12694444444446,
+        680.0575925925925,
+        464.7000000000001,
+        134.22222222222226
+      ],
+      "reading_order": 13,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "as a Director in 2022. Scott is responsible for sourcing and\ninvestment opportunities as well as assisting in portfolio\nresponsibilities.\nworked at Real Capital Solutions, a Colorado-based real\nas a member of RCS’ Investment Committee evaluating the\ndeal structuring, and the overall status of RCS’ portfolio.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 46,
+        "source_bbox_points": [
+          348.57140000000004,
+          367.23109999999997,
+          683.1554000000001,
+          439.7111
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r008",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        422.6269444444446,
+        749.390925925926,
+        101.96666666666667,
+        64.88888888888881
+      ],
+      "reading_order": 14,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Scott\nrequirements,",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 2,
+        "source_bbox_points": [
+          304.29140000000007,
+          404.6711,
+          377.70740000000006,
+          439.7111
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r004",
+      "page": 5,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 15,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

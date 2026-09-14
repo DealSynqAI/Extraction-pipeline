@@ -36,11 +36,13 @@ US_GEOGRAPHIES = {
     "north carolina", "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode island",
     "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington",
     "west virginia", "wisconsin", "wyoming", "district of columbia",
+    "puerto rico",
 }
-PIPELINE_VERSION = "0.4.1"
-PAGE_SCHEMA_VERSION = "unified-source-page/2.0"
-COLLECTION_SCHEMA_VERSION = "unified-source-collection/1.1"
-INSPECTION_SCHEMA_VERSION = "pdf-inspection/1.0"
+PIPELINE_VERSION = "0.5.0"
+PAGE_SCHEMA_VERSION = "unified-source-page/3.0"
+COLLECTION_SCHEMA_VERSION = "unified-source-collection/2.0"
+INSPECTION_SCHEMA_VERSION = "pdf-page-inspection/1.0"
+INSPECTION_INDEX_SCHEMA_VERSION = "pdf-inspection-index/1.0"
 VISION_DIAGNOSTIC_SCHEMA_VERSION = "opencv-region-diagnostic/1.0"
 
 
@@ -158,6 +160,149 @@ def _contains(coordinates: list[float], line: dict[str, Any]) -> bool:
     return x <= cx <= x + w and y <= cy <= y + h
 
 
+def _exclusive_region_lines(
+    regions: list[Region], page_lines: list[dict[str, Any]],
+) -> dict[str, list[dict[str, Any]]]:
+    """Assign every OCR line to at most one logical region.
+
+    PDF image objects often overlap semantic text and repeated footer artwork.
+    A single evidence item must not silently support multiple root blocks.
+    """
+    result = {region.region_id: [] for region in regions}
+    priority = {"table": 5, "normal_text": 4, "visual": 3, "unknown": 2, "decoration": 1}
+    for line in page_lines:
+        candidates = [region for region in regions if _contains(region.coordinates, line)]
+        if not candidates:
+            continue
+        owner = max(
+            candidates,
+            key=lambda region: (
+                priority.get(region.kind, 2),
+                -region.coordinates[2] * region.coordinates[3],
+                region.confidence,
+            ),
+        )
+        result[owner.region_id].append(line)
+    return result
+
+
+def _augment_native_visual_evidence(
+    inspection: PageInspection, page_lines: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Add non-duplicate native positioned words for detected visual regions."""
+    result = list(page_lines)
+    seen_candidates: set[tuple[str, tuple[float, ...]]] = set()
+    native_index = 0
+    for region in inspection.regions:
+        if str(region.metadata.get("chart_type_hint") or "").casefold() != "bar":
+            continue
+        candidates = list(region.metadata.get("native_visual_words", []))
+        candidates.extend(_reconstruct_vertical_values(candidates))
+        for candidate in candidates:
+            text = str(candidate.get("text", "")).strip()
+            coordinates = [float(value) for value in candidate.get("coordinates", [])]
+            if not text or len(coordinates) != 4:
+                continue
+            key = (text.casefold(), tuple(round(value, 2) for value in coordinates))
+            if key in seen_candidates:
+                continue
+            seen_candidates.add(key)
+            cx, cy = _center(coordinates)
+            duplicate = any(
+                str(line.get("text", "")).strip().casefold() == text.casefold()
+                and abs(cx - _center(line["coordinates"])[0]) <= 15
+                and abs(cy - _center(line["coordinates"])[1]) <= 45
+                for line in result
+            )
+            if duplicate:
+                continue
+            native_index += 1
+            result.append({
+                "evidence_id": f"p{inspection.page:03d}-native-{native_index:04d}",
+                "text": text, "confidence": 1.0, "coordinates": coordinates,
+                "evidence_source": "native_pdf_positioned_word",
+            })
+    return result
+
+
+def _augment_native_table_evidence(
+    inspection: PageInspection, page_lines: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    result = list(page_lines)
+    for region in inspection.regions:
+        if region.kind != "table":
+            continue
+        rows = region.metadata.get("rows") or []
+        coordinates = region.metadata.get("cell_coordinates") or []
+        for row_index, row in enumerate(rows):
+            for column_index, value in enumerate(row):
+                text = str(value or "").strip()
+                cell_coordinates = (
+                    coordinates[row_index][column_index]
+                    if row_index < len(coordinates) and column_index < len(coordinates[row_index])
+                    else None
+                )
+                if not text or not cell_coordinates:
+                    continue
+                result.append({
+                    "evidence_id": f"{region.region_id}-native-table-r{row_index:03d}-c{column_index:03d}",
+                    "text": text, "confidence": 1.0, "coordinates": cell_coordinates,
+                    "evidence_source": "native_pdf_table_cell",
+                })
+    return result
+
+
+def _reconstruct_vertical_values(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Reassemble rotated numeric labels split by native PDF extraction.
+
+    Some PDF generators encode a rotated ``18.5%`` as vertically stacked
+    ``81``, ``.``, ``5``, ``%``.  Geometry, rather than a page-specific value
+    list, determines the reconstructed label.
+    """
+    tokens = [
+        item for item in candidates
+        if re.fullmatch(r"[\d.%]+", str(item.get("text", "")).strip())
+        and len(item.get("coordinates", [])) == 4
+    ]
+    by_x: list[list[dict[str, Any]]] = []
+    for token in sorted(tokens, key=lambda item: (_center(item["coordinates"])[0], item["coordinates"][1])):
+        cx, _ = _center(token["coordinates"])
+        group = next((group for group in by_x if abs(_center(group[0]["coordinates"])[0] - cx) <= 4), None)
+        if group is None:
+            by_x.append([token])
+        else:
+            group.append(token)
+    reconstructed = []
+    for x_group in by_x:
+        clusters: list[list[dict[str, Any]]] = []
+        for token in sorted(x_group, key=lambda item: item["coordinates"][1]):
+            if not clusters:
+                clusters.append([token])
+                continue
+            previous = clusters[-1][-1]["coordinates"]
+            gap = token["coordinates"][1] - (previous[1] + previous[3])
+            if gap <= 45:
+                clusters[-1].append(token)
+            else:
+                clusters.append([token])
+        for cluster in clusters:
+            texts = [str(item["text"]).strip() for item in cluster]
+            if "%" not in texts or not any(any(char.isdigit() for char in text) for text in texts):
+                continue
+            ordered = sorted(cluster, key=lambda item: item["coordinates"][1], reverse=True)
+            value = "".join(
+                str(item["text"])[::-1] if str(item["text"]).isdigit() else str(item["text"])
+                for item in ordered
+            )
+            if not re.fullmatch(r"\d{1,3}(?:\.\d+)?%", value):
+                continue
+            reconstructed.append({
+                "text": value, "coordinates": _box_union(*(item["coordinates"] for item in cluster)),
+                "confidence": 1.0, "evidence_source": "native_pdf_rotated_value_reconstruction",
+            })
+    return reconstructed
+
+
 def _crop(image_path: Path, coordinates: list[float], output_path: Path) -> None:
     with Image.open(image_path) as image:
         width, height = image.size
@@ -231,7 +376,9 @@ def _block_type_for_text(region: Region) -> str:
     y = region.coordinates[1]
     if y >= 890 or (font and font <= 8 and y >= 820):
         return "footnote"
-    if word_count <= 14 and (font >= 14 or text.isupper() or text.istitle()):
+    if "@" in text or re.search(r"\b\d{3}[-.) ]\d{3}[- ]\d{4}\b", text):
+        return "contact"
+    if word_count <= 14 and not text.endswith((".", ",", ";", ":")) and (font >= 14 or text.isupper() or text.istitle()):
         return "heading"
     return "text"
 
@@ -266,17 +413,38 @@ def _text_block(
     confidence = inspection.native_text_quality if use_native else (
         sum(float(line["confidence"]) for line in lines) / len(lines) if lines else 0.0
     )
+    block_type = _block_type_for_text(region)
+    word_count = int(region.metadata.get("word_count", len(normalized.split())) or 0)
+    if block_type == "text" and word_count <= 3:
+        warnings.append("short text fragment may have been detached from an adjacent region")
+    if region.coordinates[2] >= 700 and inspection.possible_visual_regions >= 2 and word_count >= 20:
+        warnings.append("wide text spans a mixed visual layout; reading order requires review")
+    if "�" in normalized:
+        warnings.append("text contains an invalid replacement character")
+    content: dict[str, Any] = {
+        "text": normalized,
+        "evidence_text": {
+            "selected": "native" if use_native else "ocr",
+            "native": region.native_text or None,
+            "ocr": visible_ocr or None,
+            "token_agreement": agreement,
+        },
+    }
+    if block_type == "contact":
+        email_match = re.search(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", normalized)
+        phone_match = re.search(r"\b\d{3}[-.) ]\d{3}[- ]\d{4}\b", normalized)
+        name = normalized.split("|")[0].strip() if "|" in normalized else None
+        content.update({
+            "name": name or None,
+            "email": email_match.group(0) if email_match else None,
+            "phone": phone_match.group(0) if phone_match else None,
+        })
     return SourceBlock(
-        document_id=document_id, type=_block_type_for_text(region), page=region.page,
-        block_id=f"{region.region_id}-block", parent_block_id=None,
-        content={
-            "text": normalized, "raw_text": raw,
-            "native_text": region.native_text or None,
-            "visible_ocr_text": visible_ocr or None,
-            "native_ocr_token_agreement": agreement,
-        }, coordinates=region.coordinates,
+        document_id=document_id, type=block_type, page=region.page,
+        block_id=f"{region.region_id}-block",
+        content=content, coordinates=region.coordinates,
         extraction_method=methods, confidence=confidence,
-        validation_status="passed" if normalized else "needs_review", errors=errors, warnings=warnings,
+        validation_status="passed" if normalized and not warnings else "needs_review", errors=errors, warnings=warnings,
         provenance=_provenance(source_hash, region, lines, image),
     )
 
@@ -287,6 +455,7 @@ def _table_blocks(
     rows = region.metadata.get("rows") or []
     table_title = region.metadata.get("title")
     row_sections = region.metadata.get("row_sections") or []
+    cell_coordinates = region.metadata.get("cell_coordinates") or []
     native = bool(rows and max((len(row) for row in rows), default=0) >= 2)
     if not native:
         ordered = sorted(lines, key=lambda line: (line["coordinates"][1], line["coordinates"][0]))
@@ -299,62 +468,123 @@ def _table_blocks(
         rows = [[item["text"] for item in sorted(group, key=lambda item: item["coordinates"][0])] for group in grouped]
     width = max((len(row) for row in rows), default=0)
     rows = [list(row) + [None] * (width - len(row)) for row in rows]
+    if len(rows) == 1 and width >= 2:
+        sections = []
+        for index, value in enumerate(rows[0], 1):
+            raw_text = clean_text(str(value or ""))
+            first_line = raw_text.split("\n", 1)[0].strip() if raw_text else None
+            sections.append({
+                "section_id": f"s{index:03d}", "title": first_line,
+                "text": raw_text, "structure_complete": False,
+            })
+        return [SourceBlock(
+            document_id=document_id, type="comparison_panel", page=region.page,
+            block_id=f"{region.region_id}-comparison-panel",
+            content={"title": region.metadata.get("title"), "sections": sections},
+            coordinates=region.coordinates,
+            extraction_method=["native PDF layout", "Python section reconstruction"],
+            confidence=min(region.confidence, 0.60), validation_status="needs_review",
+            errors=[], warnings=[
+                "panel columns were preserved, but nested subsections could not be separated reliably"
+            ], provenance=_provenance(source_hash, region, lines, image),
+        )]
     reconciliation = _table_total_reconciliation(rows)
     reconciliation_failed = bool(reconciliation and not reconciliation["passed"])
     parent_id = f"{region.region_id}-table"
     warnings = [] if native else ["table reconstructed from OCR geometry; PaddleOCR table structure was unavailable"]
     valid_shape = len(rows) >= 2 and width >= 2
     methods = ["native PDF table parser", "Python table reconstruction"] if native else ["RapidOCR", "PP-OCRv6", "Python table reconstruction"]
+    headers = ["" if value is None else str(value).strip() for value in rows[0]] if rows else []
+    column_kinds: list[str] = []
+    for column_index, header in enumerate(headers):
+        values = [str(row[column_index] or "") for row in rows[1:] if column_index < len(row)]
+        joined = " ".join(values)
+        if column_index == 0:
+            kind_hint = "text"
+        elif "%" in header or "%" in joined:
+            kind_hint = "percent"
+        elif "$" in joined or any(term in header.casefold() for term in {"invested", "capital", "debt", "equity", "interest"}):
+            kind_hint = "currency"
+        elif re.search(r"\bx\b", joined, re.I):
+            kind_hint = "multiple"
+        else:
+            kind_hint = "number"
+        column_kinds.append(kind_hint)
+    columns = [
+        {
+            "column_id": f"c{index + 1:03d}", "label": label, "value_kind": column_kinds[index],
+            "coordinates": cell_coordinates[0][index] if cell_coordinates and index < len(cell_coordinates[0]) else None,
+            "evidence_ids": [f"{region.region_id}-native-table-r000-c{index:03d}"]
+            if cell_coordinates and index < len(cell_coordinates[0]) and cell_coordinates[0][index] else [],
+        }
+        for index, label in enumerate(headers)
+    ]
+    typed_rows = []
+    for row_index, row in enumerate(rows[1:], 1):
+        label = "" if not row or row[0] is None else str(row[0]).strip()
+        cells = []
+        for column_index, value in enumerate(row[1:], 1):
+            raw = None if value is None or str(value).strip() == "" else str(value).strip()
+            state = "blank" if raw is None else "dash" if raw in {"-", "–", "—"} else "present"
+            numeric_value, unit, normalized_value = _numeric_value(raw or "")
+            if state != "present":
+                numeric_value = unit = normalized_value = None
+            elif column_index < len(column_kinds) and column_kinds[column_index] == "currency" and numeric_value is not None:
+                unit = "USD"
+                normalized_value = numeric_value
+            cells.append({
+                "column_id": f"c{column_index + 1:03d}", "raw_value": raw,
+                "value_state": state, "numeric_value": numeric_value,
+                "unit": unit, "normalized_value": normalized_value,
+                "coordinates": (
+                    cell_coordinates[row_index][column_index]
+                    if row_index < len(cell_coordinates) and column_index < len(cell_coordinates[row_index])
+                    else None
+                ),
+                "evidence_ids": [f"{region.region_id}-native-table-r{row_index:03d}-c{column_index:03d}"]
+                if (
+                    row_index < len(cell_coordinates) and column_index < len(cell_coordinates[row_index])
+                    and cell_coordinates[row_index][column_index] and raw is not None
+                ) else [],
+            })
+        typed_rows.append({
+            "row_id": f"r{row_index:03d}",
+            "section": row_sections[row_index] if row_index < len(row_sections) else None,
+            "label": label, "cells": cells,
+        })
+    structure_errors = _table_structure_errors(headers, rows)
     parent = SourceBlock(
-        document_id=document_id, type="table", page=region.page, block_id=parent_id, parent_block_id=None,
+        document_id=document_id, type="table", page=region.page, block_id=parent_id,
         content={
-            "title": table_title, "rows": rows, "row_count": len(rows), "column_count": width,
-            "row_sections": row_sections or None, "reconciliation": reconciliation,
+            "title": table_title, "columns": columns, "rows": typed_rows,
+            "row_count": len(typed_rows), "column_count": width,
+            "reconciliation": reconciliation,
         },
         coordinates=region.coordinates, extraction_method=methods, confidence=region.confidence if native else 0.55,
-        validation_status="passed" if valid_shape and native and not reconciliation_failed else "needs_review",
+        validation_status="passed" if valid_shape and native and not reconciliation_failed and not structure_errors else "needs_review",
         errors=([] if valid_shape else ["table does not contain at least two rows and two columns"])
-        + (["table subtotals do not reconcile with the final total"] if reconciliation_failed else []), warnings=warnings,
+        + (["table subtotals do not reconcile with the final total"] if reconciliation_failed else [])
+        + structure_errors, warnings=warnings,
         provenance=_provenance(source_hash, region, lines, image),
     )
-    blocks = [parent]
-    if not rows:
-        return blocks
-    headers = ["" if value is None else str(value).strip() for value in rows[0]]
-    blocks.append(SourceBlock(
-        document_id=document_id, type="table_header", page=region.page,
-        block_id=f"{parent_id}-header", parent_block_id=parent_id,
-        content={"headers": headers}, coordinates=region.coordinates,
-        extraction_method=methods, confidence=parent.confidence,
-        validation_status=parent.validation_status, errors=list(parent.errors), warnings=list(parent.warnings),
-        provenance=_provenance(source_hash, region, lines, image),
-    ))
-    for row_index, row in enumerate(rows[1:], 1):
-        row_owner = "" if not row or row[0] is None else str(row[0]).strip()
-        for column_index, value in enumerate(row[1:], 1):
-            column_owner = headers[column_index] if column_index < len(headers) else ""
-            ownership_errors = []
-            if not row_owner:
-                ownership_errors.append("missing row owner")
-            if not column_owner:
-                ownership_errors.append("missing column owner")
-            blocks.append(SourceBlock(
-                document_id=document_id, type="table_record", page=region.page,
-                block_id=f"{parent_id}-r{row_index:03d}-c{column_index:03d}", parent_block_id=parent_id,
-                content={
-                    "table_title": table_title, "period": None,
-                    "section": row_sections[row_index] if row_index < len(row_sections) else None,
-                    "row": row_owner,
-                    "column": column_owner, "value": value,
-                    "value_state": "blank" if value is None or str(value).strip() == "" else "dash" if str(value).strip() in {"-", "–", "—"} else "present",
-                },
-                coordinates=region.coordinates, extraction_method=methods,
-                confidence=max(0.0, parent.confidence - (0.12 if ownership_errors else 0.0)),
-                validation_status="passed" if not ownership_errors and native else "needs_review",
-                errors=ownership_errors, warnings=list(warnings),
-                provenance=_provenance(source_hash, region, lines, image),
-            ))
-    return blocks
+    return [parent]
+
+
+def _table_structure_errors(headers: list[str], rows: list[list[Any]]) -> list[str]:
+    """Detect malformed ownership that numeric reconciliation cannot reveal."""
+    errors: list[str] = []
+    if any(not header for header in headers):
+        errors.append("one or more table columns have no header owner")
+    if any(header.count("(") != header.count(")") for header in headers):
+        errors.append("one or more table headers contain unmatched parentheses")
+    for row in rows[1:]:
+        for value in row[1:]:
+            text = str(value or "").strip()
+            if text in {"$", "€", "£"}:
+                errors.append("standalone currency symbol has no owned numeric value")
+            if re.search(r"%\s*[$€£]$", text):
+                errors.append("currency symbol is attached to a percentage cell")
+    return sorted(set(errors))
 
 
 def _table_total_reconciliation(rows: list[list[Any]]) -> dict[str, Any] | None:
@@ -591,6 +821,7 @@ def _bar_bindings(
         line for line in lines
         if _center(line["coordinates"])[1] > baseline
         and any(term in str(line["text"]).casefold() for term in {"outstanding", "coverage", "distribution"})
+        and len(str(line["text"]).split()) >= 2
         and not _CHART_CATEGORY.fullmatch(str(line["text"]).strip())
     ], key=lambda line: line["coordinates"][0])
     assignments: list[tuple[list[float], dict[str, Any]]] = []
@@ -665,30 +896,51 @@ def _visual_blocks(
     labels = [str(line["text"]) for line in lines]
     title = _visual_title(kind, lines)
     chart_type = _infer_chart_type(region, lines, features, qwen_payload) if kind == "chart" else None
+    if kind == "chart" and chart_type == "kpi_panel":
+        kind = "kpi_panel"
     parent_status = "passed" if classification_confidence >= 0.75 else "needs_review"
+    if kind == "unclassified_visual":
+        parent_status = "needs_review"
+        classification_warnings = list(classification_warnings) + [
+            "unclassified visual cannot be accepted as a semantic block"
+        ]
+    base_visual = {
+        "vision_summary": _vision_summary(features),
+        "vision_features_ref": vision_features_ref,
+        "region_image": f"region-images/{crop_path.name}",
+    }
+    if kind == "decoration":
+        content: dict[str, Any] = {
+            "role": "repeated_page_band" if region.metadata.get("repeated_on_pages") else "decorative_artwork",
+            "repeated_on_pages": region.metadata.get("repeated_on_pages"),
+            **base_visual,
+        }
+    elif kind == "photograph":
+        content = {"caption": title, **base_visual}
+    elif kind == "unclassified_visual":
+        content = {"visible_text": labels, **base_visual}
+    elif kind == "kpi_panel":
+        content = {"title": title, "metrics": [], **base_visual}
+    elif kind == "map":
+        content = {"title": title, "bindings": [], **base_visual}
+    else:
+        content = {"title": title, "chart_type": chart_type, "observations": [], **base_visual}
     parent = SourceBlock(
-        document_id=document_id, type=kind, page=region.page, block_id=parent_id, parent_block_id=None,
-        content={
-            "title": title, "labels": labels,
-            **({"chart_type": chart_type} if kind == "chart" else {}),
-            "vision_summary": _vision_summary(features),
-            "vision_features_ref": vision_features_ref,
-            "region_image": f"region-images/{crop_path.name}",
-        },
+        document_id=document_id, type=kind, page=region.page, block_id=parent_id,
+        content=content,
         coordinates=region.coordinates, extraction_method=methods, confidence=classification_confidence,
         validation_status=parent_status,
         errors=[] if labels or kind in {"unclassified_visual", "photograph", "decoration"} else ["no visible labels recovered"],
         warnings=classification_warnings,
         provenance=_provenance(source_hash, region, lines, image),
     )
-    blocks = [parent]
-    if kind not in {"chart", "map"}:
-        return blocks
+    if kind not in {"chart", "map", "kpi_panel"}:
+        return [parent]
     bindings = list(qwen_payload.get("bindings", [])) if qwen_payload else []
     if not bindings:
         if chart_type == "bar":
             bindings = _bar_bindings(lines, title, region.metadata.get("member_coordinates", []))
-        elif chart_type in {"scatterplot", "kpi_panel"}:
+        elif chart_type in {"scatterplot", "kpi_panel"} or kind == "kpi_panel":
             bindings = []
             parent.warnings.append(
                 "scatterplot points require axis-calibrated reconstruction"
@@ -697,6 +949,17 @@ def _visual_blocks(
             )
         else:
             bindings = _proximity_bindings(lines, title, region.metadata.get("member_coordinates", []))
+    if kind == "map":
+        rejected = [
+            binding for binding in bindings
+            if str(binding.get("label") or binding.get("geography") or "").strip().casefold() not in US_GEOGRAPHIES
+        ]
+        bindings = [binding for binding in bindings if binding not in rejected]
+        if rejected:
+            parent.validation_status = "needs_review"
+            parent.warnings.append(
+                f"discarded {len(rejected)} label-value pairs without a recognized geography owner"
+            )
     if kind == "chart" and chart_type == "pie":
         percentage_total = sum(
             float(binding["numeric_value"])
@@ -721,7 +984,7 @@ def _visual_blocks(
             parent.warnings.append(
                 f"reconstructed {len(bindings)} of {expected_marks} detected vector bars"
             )
-    child_type = "chart_observation" if kind == "chart" else "map_binding"
+    nested_items: list[dict[str, Any]] = []
     for index, binding in enumerate(bindings, 1):
         label = str(binding.get("label") or binding.get("category") or binding.get("geography") or "").strip()
         value = str(binding.get("value") or "").strip()
@@ -730,9 +993,9 @@ def _visual_blocks(
             errors.append("binding has no owner label")
         if not value:
             errors.append("binding has no value")
-        content = {
-            "chart_title" if kind == "chart" else "map_title": title,
-            "value": value,
+        item_content = {
+            "item_id": f"o{index:03d}" if kind in {"chart", "kpi_panel"} else f"b{index:03d}",
+            "raw_value": value,
             "numeric_value": binding.get("numeric_value"),
             "normalized_value": binding.get("normalized_value"),
             "unit": binding.get("unit"),
@@ -743,29 +1006,30 @@ def _visual_blocks(
             "visual_mark_coordinates": binding.get("visual_mark_coordinates"),
             "grounding_method": binding.get("grounding_method"),
         }
-        if kind == "chart":
-            content.update({"chart_type": chart_type, "series": binding.get("series"), "category": label})
+        if kind in {"chart", "kpi_panel"}:
+            item_content.update({"series": binding.get("series"), "category": label})
         else:
-            content["geography"] = label
+            item_content["geography"] = label
         selected_lines = [
             line for line in lines
             if line["evidence_id"] in {binding.get("label_evidence_id"), binding.get("value_evidence_id")}
         ]
-        grounded = qwen_payload is not None or bool(selected_lines and binding.get("visual_mark_coordinates"))
+        grounded = bool(selected_lines and binding.get("visual_mark_coordinates"))
         confidence = float(binding.get("confidence", 0.65 if grounded else 0.48))
-        blocks.append(SourceBlock(
-            document_id=document_id, type=child_type, page=region.page,
-            block_id=f"{parent_id}-{child_type}-{index:03d}", parent_block_id=parent_id,
-            content=content, coordinates=binding.get("visual_mark_coordinates") or binding.get("coordinates") or region.coordinates,
-            extraction_method=methods, confidence=confidence,
-            validation_status="passed" if grounded and not errors and confidence >= 0.70 else "needs_review",
-            errors=errors, warnings=[] if grounded else ["nearest-label binding requires visual review"],
-            provenance=_provenance(source_hash, region, selected_lines or lines, image),
-        ))
+        item_content["confidence"] = round(confidence, 5)
+        item_content["validation_status"] = "passed" if grounded and not errors and confidence >= 0.70 else "needs_review"
+        item_content["errors"] = errors
+        nested_items.append(item_content)
+    if kind == "chart":
+        parent.content["observations"] = nested_items
+    elif kind == "map":
+        parent.content["bindings"] = nested_items
+    else:
+        parent.content["metrics"] = nested_items
     if not bindings:
         parent.validation_status = "needs_review"
         parent.warnings.append("no owned visual observations reconstructed")
-    return blocks
+    return [parent]
 
 
 def _route_and_extract_page(
@@ -774,13 +1038,17 @@ def _route_and_extract_page(
     route_threshold: float, qwen: QwenVisionClient | None,
     diagnostics: Path,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[str]]:
-    page_lines = ocr_page.get("lines", [])
+    page_lines = _augment_native_table_evidence(
+        inspection, _augment_native_visual_evidence(inspection, ocr_page.get("lines", [])),
+    )
+    ocr_page["lines"] = page_lines
     region_results = ocr_page.get("regions", {})
     blocks: list[SourceBlock] = []
     assigned: set[str] = set()
     route_errors: list[str] = []
+    lines_by_region = _exclusive_region_lines(inspection.regions, page_lines)
     for region in inspection.regions:
-        lines = [line for line in page_lines if _contains(region.coordinates, line)]
+        lines = lines_by_region.get(region.region_id, [])
         assigned.update(line["evidence_id"] for line in lines)
         features = region_results.get(region.region_id, {}).get("vision_features", {})
         if region.kind == "normal_text":
@@ -913,17 +1181,32 @@ def run_pipeline(
 
         inspections, pdf_metadata = inspect_pdf(pdf)
         selected_inspections = [inspection for inspection in inspections if inspection.page in pages]
-        inspection_path = inspection_dir / "document-inspection.json"
+        inspection_records = []
+        for page_inspection in selected_inspections:
+            page_inspection_path = inspection_dir / f"page-{page_inspection.page:03d}.json"
+            _write_json(page_inspection_path, {
+                "schema_version": INSPECTION_SCHEMA_VERSION,
+                "document_id": document_id,
+                "source_sha256": source_hash,
+                **page_inspection.as_dict(),
+            })
+            inspection_records.append({
+                "page": page_inspection.page,
+                "file": page_inspection_path.name,
+                "sha256": _sha256(page_inspection_path),
+                "region_count": len(page_inspection.regions),
+            })
+        inspection_path = inspection_dir / "manifest.json"
         _write_json(inspection_path, {
-            "schema_version": INSPECTION_SCHEMA_VERSION,
+            "schema_version": INSPECTION_INDEX_SCHEMA_VERSION,
             "document_id": document_id, "source_sha256": source_hash,
             "page_count": page_count, "selected_pages": pages, "pdf_metadata": pdf_metadata,
-            "pages": [inspection.as_dict() for inspection in selected_inspections],
+            "pages": inspection_records,
         })
         manifest["inspection"] = {
             "path": str(inspection_path.relative_to(output)).replace("\\", "/"),
             "sha256": _sha256(inspection_path),
-            "schema_version": INSPECTION_SCHEMA_VERSION,
+            "schema_version": INSPECTION_INDEX_SCHEMA_VERSION,
         }
         manifest["stages"].append({"name": "pdf-inspection", "status": "complete", "finished_utc": _now()})
 
@@ -984,6 +1267,20 @@ def run_pipeline(
                     "ocr_engine": ocr_result.get("engine"),
                     "ocr_lines": ocr_page.get("lines", []),
                 },
+                "evidence_disposition": [
+                    {
+                        "evidence_id": line["evidence_id"],
+                        "owner_block_id": next((
+                            block["block_id"] for block in blocks
+                            if line["evidence_id"] in block.get("provenance", {}).get("ocr_evidence_ids", [])
+                        ), None),
+                        "status": "owned" if any(
+                            line["evidence_id"] in block.get("provenance", {}).get("ocr_evidence_ids", [])
+                            for block in blocks
+                        ) else "unassigned",
+                    }
+                    for line in ocr_page.get("lines", [])
+                ],
                 "unassigned_evidence": unassigned,
                 "validation": {"valid": not errors, "errors": errors},
             }

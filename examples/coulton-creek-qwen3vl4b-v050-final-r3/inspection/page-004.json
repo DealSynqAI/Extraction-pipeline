@@ -1,0 +1,177 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 4,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.38297,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.13237,
+  "vector_line_count": 7,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 1,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p004-r002",
+      "page": 4,
+      "kind": "normal_text",
+      "coordinates": [
+        60.0,
+        84.1047037037037,
+        369.4624499999999,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "INVESTMENT PHILOSOPHY",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 2,
+        "source_bbox_points": [
+          43.2,
+          45.41654,
+          309.2129639999999,
+          65.45653999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p004-r003",
+      "page": 4,
+      "kind": "normal_text",
+      "coordinates": [
+        59.92049999999993,
+        185.73425925925923,
+        880.1762833333333,
+        664.6784444444444
+      ],
+      "reading_order": 2,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "PRINCIPAL INVESTORS: Coulton Creek was founded as a vehicle to generate current\nreturns for a group of five experienced investors. From inception, founders and key\nemployees have invested their own capital in each investment, which has guided our\nperspective for each opportunity and has created exceptional alignment with our\ninvestors.\nToday, Coulton Creek manages approximately 60 positions for our founders and\ninvestors, with the original five founding principals investing in every deal and serving as\nthe investment committee.\nPRESERVATION OF PRINCIPAL: As principal investors, we prioritize preservation of\nprincipal and downside protection. We take a conservative approach to underwriting that\nreflects having our own skin in the game, and often seek a priority position in the capital\nstack.\nCURRENT RETURNS: With a dedicated focus on generating strong current returns for\nour investors, Coulton Creek seeks resilient assets which are less sensitive to volatile\nmarket swings and resulting valuations.\nRETURN OBJECTIVES: As an opportunistic investor without a need to deploy\ncommitted capital (in contrast to many funds), Coulton Creek can be selective in finding\nthose investments which deliver superior risk adjusted returns.",
+      "metadata": {
+        "median_font_size": 15.960000000000008,
+        "word_count": 181,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ]
+      }
+    },
+    {
+      "region_id": "p004-r001",
+      "page": 4,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        130.888885
+      ],
+      "reading_order": 3,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.98,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            130.888885
+          ]
+        ],
+        "logical_visual_merge": false,
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

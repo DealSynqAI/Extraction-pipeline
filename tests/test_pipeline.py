@@ -13,17 +13,22 @@ from ocr_pipeline.inspection import (
     mark_repeated_decorations,
     merge_visual_objects,
     _merge_numeric_fragments,
+    _group_words,
 )
 from ocr_pipeline.models import PageInspection, Region, SourceBlock, validate_source_blocks
 from ocr_pipeline.workers import normalize_vision_payload
 from ocr_pipeline.pipeline import (
     COLLECTION_SCHEMA_VERSION,
     INSPECTION_SCHEMA_VERSION,
+    INSPECTION_INDEX_SCHEMA_VERSION,
     PAGE_SCHEMA_VERSION,
     PIPELINE_VERSION,
     VISION_DIAGNOSTIC_SCHEMA_VERSION,
     _bar_bindings,
     _table_total_reconciliation,
+    _table_structure_errors,
+    _exclusive_region_lines,
+    _reconstruct_vertical_values,
     _infer_chart_type,
     _numeric_value,
     _provenance,
@@ -38,12 +43,13 @@ from ocr_pipeline.validate_run import _resolve_run_path
 
 
 class PipelineUnitTests(unittest.TestCase):
-    def test_v041_versions(self) -> None:
-        self.assertEqual(__version__, "0.4.1")
-        self.assertEqual(PIPELINE_VERSION, "0.4.1")
-        self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/2.0")
-        self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/1.1")
-        self.assertEqual(INSPECTION_SCHEMA_VERSION, "pdf-inspection/1.0")
+    def test_v050_versions(self) -> None:
+        self.assertEqual(__version__, "0.5.0")
+        self.assertEqual(PIPELINE_VERSION, "0.5.0")
+        self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/3.0")
+        self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/2.0")
+        self.assertEqual(INSPECTION_SCHEMA_VERSION, "pdf-page-inspection/1.0")
+        self.assertEqual(INSPECTION_INDEX_SCHEMA_VERSION, "pdf-inspection-index/1.0")
         self.assertEqual(VISION_DIAGNOSTIC_SCHEMA_VERSION, "opencv-region-diagnostic/1.0")
 
     def test_page_parser(self) -> None:
@@ -66,42 +72,32 @@ class PipelineUnitTests(unittest.TestCase):
             "The firm targets income producing real estate.\n\nNext paragraph.",
         )
 
-    def test_common_contract_and_parent_link(self) -> None:
-        parent = SourceBlock(
-            document_id="doc", type="table", page=1, block_id="p1-table", parent_block_id=None,
-            content={"rows": []}, coordinates=[0, 0, 1000, 1000],
-            extraction_method=["test"], confidence=0.8, validation_status="passed",
-            provenance={"source_sha256": "0" * 64, "region_id": "r1"},
+    def test_common_contract_uses_nested_hierarchy(self) -> None:
+        block = SourceBlock(
+            document_id="doc", type="chart", page=1, block_id="chart",
+            content={"title": "Allocation", "chart_type": "pie", "observations": []},
+            coordinates=[0, 0, 1000, 1000], extraction_method=["test"], confidence=0.8,
+            validation_status="needs_review", provenance={"source_sha256": "0" * 64, "region_id": "r1"},
         ).as_dict()
-        child = SourceBlock(
-            document_id="doc", type="table_record", page=1, block_id="p1-cell", parent_block_id="p1-table",
-            content={"row": "A", "column": "B", "value": "1"}, coordinates=[1, 1, 10, 10],
-            extraction_method=["test"], confidence=0.8, validation_status="passed",
-            provenance={"source_sha256": "0" * 64, "region_id": "r1"},
-        ).as_dict()
-        self.assertEqual(validate_source_blocks([parent, child]), [])
+        self.assertNotIn("parent_block_id", block)
+        self.assertEqual(validate_source_blocks([block]), [])
 
     def test_common_contract_rejects_embedded_raw_vision(self) -> None:
         block = SourceBlock(
-            document_id="doc", type="chart", page=1, block_id="chart", parent_block_id=None,
+            document_id="doc", type="chart", page=1, block_id="chart",
             content={"vision_features": {"line_segments": []}}, coordinates=[0, 0, 10, 10],
             extraction_method=["test"], confidence=0.8, validation_status="passed",
             provenance={"source_sha256": "0" * 64, "region_id": "r1"},
         ).as_dict()
         self.assertIn("raw vision features", " ".join(validate_source_blocks([block])))
 
-    def test_child_requires_correct_parent_type(self) -> None:
-        wrong_parent = SourceBlock(
-            document_id="doc", type="text", page=1, block_id="text", parent_block_id=None,
-            content={"text": "wrong"}, coordinates=[0, 0, 10, 10], extraction_method=["test"],
-            confidence=0.8, validation_status="passed",
+    def test_decoration_rejects_semantic_labels(self) -> None:
+        block = SourceBlock(
+            document_id="doc", type="decoration", page=1, block_id="decoration",
+            content={"title": "giant footer label"}, coordinates=[0, 0, 10, 10],
+            extraction_method=["test"], confidence=0.8, validation_status="passed",
         ).as_dict()
-        child = SourceBlock(
-            document_id="doc", type="chart_observation", page=1, block_id="obs", parent_block_id="text",
-            content={"value": "1"}, coordinates=[0, 0, 10, 10], extraction_method=["test"],
-            confidence=0.8, validation_status="passed",
-        ).as_dict()
-        self.assertIn("parent must be chart", " ".join(validate_source_blocks([wrong_parent, child])))
+        self.assertIn("decoration cannot carry semantic text", " ".join(validate_source_blocks([block])))
 
     def test_vision_summary_contains_counts_not_arrays(self) -> None:
         summary = _vision_summary({
@@ -282,6 +278,47 @@ class PipelineUnitTests(unittest.TestCase):
         self.assertEqual(len(merged), 1)
         self.assertEqual(merged[0]["text"], "31,031,365")
 
+    def test_currency_symbol_joins_the_number_on_its_right(self) -> None:
+        fragments = [
+            {"text": "53.4%", "x0": 300, "x1": 340, "top": 100, "bottom": 110},
+            {"text": "$", "x0": 361, "x1": 366, "top": 100, "bottom": 110},
+            {"text": "972,330", "x0": 369, "x1": 413, "top": 100, "bottom": 110},
+        ]
+        merged = _merge_numeric_fragments(fragments, 720)
+        self.assertEqual([item["text"] for item in merged], ["53.4%", "$972,330"])
+
+    def test_table_structure_rejects_shifted_currency_and_bad_headers(self) -> None:
+        errors = _table_structure_errors(
+            ["Asset", "Return of Capital (CCC", "Leverage Debt)"],
+            [["Asset", "Return", "Leverage"], ["Total", "53.4% $", "$"]],
+        )
+        self.assertIn("one or more table headers contain unmatched parentheses", errors)
+        self.assertIn("standalone currency symbol has no owned numeric value", errors)
+
+    def test_ocr_evidence_has_one_region_owner(self) -> None:
+        regions = [
+            Region("text", 1, "normal_text", [0, 0, 100, 100], 1, "test", 0.8),
+            Region("decoration", 1, "decoration", [0, 0, 100, 100], 2, "test", 0.98),
+        ]
+        lines = [{"evidence_id": "e1", "coordinates": [10, 10, 20, 10], "text": "visible"}]
+        owners = _exclusive_region_lines(regions, lines)
+        self.assertEqual([item["evidence_id"] for item in owners["text"]], ["e1"])
+        self.assertEqual(owners["decoration"], [])
+
+    def test_two_column_text_is_not_interleaved(self) -> None:
+        words = []
+        for row in range(12):
+            top = 20 + row * 12
+            words.extend([
+                {"text": f"L{row}", "x0": 20, "x1": 50, "top": top, "bottom": top + 9, "size": 10},
+                {"text": "left", "x0": 55, "x1": 85, "top": top, "bottom": top + 9, "size": 10},
+                {"text": f"R{row}", "x0": 420, "x1": 450, "top": top, "bottom": top + 9, "size": 10},
+                {"text": "right", "x0": 455, "x1": 490, "top": top, "bottom": top + 9, "size": 10},
+            ])
+        paragraphs = _group_words(words)
+        text = "\n".join(item["text"] for item in paragraphs)
+        self.assertLess(text.index("L11"), text.index("R0"))
+
     def test_vector_bar_bindings_use_category_value_and_mark(self) -> None:
         lines = [
             {"evidence_id": "v1", "text": "11.3%", "coordinates": [105, 300, 20, 50]},
@@ -298,6 +335,16 @@ class PipelineUnitTests(unittest.TestCase):
         ])
         self.assertEqual(len({tuple(item["visual_mark_coordinates"]) for item in bindings}), 3)
         self.assertTrue(all(item["grounding_method"].startswith("x-aligned") for item in bindings))
+
+    def test_rotated_native_percentage_is_reconstructed_generically(self) -> None:
+        tokens = [
+            {"text": "81", "coordinates": [100, 160, 20, 25]},
+            {"text": ".", "coordinates": [100, 150, 20, 8]},
+            {"text": "5", "coordinates": [100, 135, 20, 13]},
+            {"text": "%", "coordinates": [100, 115, 20, 18]},
+        ]
+        values = _reconstruct_vertical_values(tokens)
+        self.assertEqual([item["text"] for item in values], ["18.5%"])
 
     def test_generic_subtotals_reconcile(self) -> None:
         rows = [

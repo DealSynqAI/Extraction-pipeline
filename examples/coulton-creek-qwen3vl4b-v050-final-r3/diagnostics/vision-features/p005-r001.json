@@ -1,0 +1,109 @@
+{
+  "schema_version": "opencv-region-diagnostic/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 5,
+  "region_id": "p005-r001",
+  "region_coordinates": [
+    29.83333263888889,
+    155.7777688888889,
+    171.39441597222222,
+    213.3333114814815
+  ],
+  "coordinate_formats": {
+    "region_coordinates": "page-relative [x, y, width, height], normalized 0..1000",
+    "feature_boxes": "region-relative [x, y, width, height], normalized 0..1000",
+    "line_segments": "region-relative [x1, y1, x2, y2], normalized 0..1000"
+  },
+  "vision_summary": {
+    "horizontal_line_count": 0,
+    "vertical_line_count": 3,
+    "diagonal_line_count": 1,
+    "rectangle_candidate_count": 0,
+    "bar_candidate_count": 0,
+    "point_candidate_count": 4,
+    "legend_swatch_candidate_count": 0,
+    "horizontal_axis_candidate_count": 0,
+    "vertical_axis_candidate_count": 0,
+    "plot_boundary_detected": false,
+    "table_grid_confidence": 0.0,
+    "saturated_pixel_fraction": 0.13377
+  },
+  "features": {
+    "horizontal_lines": 0,
+    "vertical_lines": 3,
+    "diagonal_lines": 1,
+    "rectangle_candidates": 0,
+    "bar_candidates": 0,
+    "point_candidates": 4,
+    "legend_swatch_candidates": 0,
+    "horizontal_axis_candidates": 0,
+    "vertical_axis_candidates": 0,
+    "plot_boundary_detected": false,
+    "table_grid_confidence": 0.0,
+    "saturated_pixel_fraction": 0.13377,
+    "line_segments": {
+      "horizontal": [],
+      "vertical": [
+        [
+          1.941748,
+          693.75,
+          1.941748,
+          472.916667
+        ],
+        [
+          0.0,
+          156.25,
+          0.0,
+          0.0
+        ],
+        [
+          561.165049,
+          385.416667,
+          561.165049,
+          227.083333
+        ]
+      ],
+      "diagonal": [
+        [
+          904.854369,
+          858.333333,
+          941.747573,
+          991.666667
+        ]
+      ]
+    },
+    "rectangle_candidate_boxes": [],
+    "bar_candidate_boxes": [],
+    "point_candidate_boxes": [
+      [
+        376.699029,
+        481.25,
+        11.650485,
+        12.5
+      ],
+      [
+        448.543689,
+        477.083333,
+        15.533981,
+        16.666667
+      ],
+      [
+        458.252427,
+        452.083333,
+        29.126214,
+        31.25
+      ],
+      [
+        17.475728,
+        262.5,
+        15.533981,
+        12.5
+      ]
+    ],
+    "legend_swatch_candidate_boxes": [],
+    "horizontal_axis_candidate_segments": [],
+    "vertical_axis_candidate_segments": [],
+    "plot_boundary": null
+  }
+}

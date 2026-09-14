@@ -1,0 +1,1095 @@
+{
+  "schema_version": "unified-source-page/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 12,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "page": 12,
+      "block_id": "p012-r003-block",
+      "content": {
+        "text": "TRACK RECORD – REALIZED INVESTMENTS  $126 million realized across 105 investments to date ",
+        "evidence_text": {
+          "selected": "native",
+          "native": "TRACK RECORD – REALIZED INVESTMENTS\n $126 million realized across 105 investments to date\n",
+          "ocr": "TRACK RECORD - REALIZED INVESTMENTS\n$126 million realized across 105 investments to date\nAverage / median project IRRs = 18.0%/15.1%",
+          "token_agreement": 0.55556
+        }
+      },
+      "coordinates": [
+        46.11125,
+        82.00063,
+        650.636111,
+        154.153444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99695,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p012-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          501.6580999999998,
+          127.52319999999997
+        ],
+        "ocr_evidence_ids": [
+          "p012-ocr-0001",
+          "p012-ocr-0002",
+          "p012-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-012.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "page": 12,
+      "block_id": "p012-r002-chart",
+      "content": {
+        "title": "Realized Investments by Month - IRR",
+        "chart_type": "scatterplot",
+        "observations": [],
+        "vision_summary": {
+          "horizontal_line_count": 26,
+          "vertical_line_count": 22,
+          "diagonal_line_count": 0,
+          "rectangle_candidate_count": 60,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 106,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 14,
+          "vertical_axis_candidate_count": 4,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 1.0,
+          "saturated_pixel_fraction": 0.03191
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p012-r002.json",
+          "sha256": "6c185cd5932b92c00faa496bf160c7e74aae31e9b46e4cbd425bfbafea3bb77c"
+        },
+        "region_image": "region-images/p012-r002.png",
+        "expected_observation_count": 105,
+        "emitted_observation_count": 0,
+        "observation_completeness": 0.0
+      },
+      "coordinates": [
+        96.958953,
+        220.900416,
+        836.06909,
+        649.099584
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.95,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "scatterplot points require axis-calibrated reconstruction",
+          "no owned visual observations reconstructed"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p012-r002",
+        "classification_method": "pdf-raster-point-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          69.8104462,
+          119.28622440000004,
+          671.7801907,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p012-ocr-0004",
+          "p012-ocr-0005",
+          "p012-ocr-0006",
+          "p012-ocr-0007",
+          "p012-ocr-0008",
+          "p012-ocr-0009",
+          "p012-ocr-0010",
+          "p012-ocr-0011",
+          "p012-ocr-0012",
+          "p012-ocr-0013",
+          "p012-ocr-0014",
+          "p012-ocr-0015",
+          "p012-ocr-0016",
+          "p012-ocr-0017",
+          "p012-ocr-0018",
+          "p012-ocr-0019",
+          "p012-ocr-0020",
+          "p012-ocr-0021",
+          "p012-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-012.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 12,
+      "block_id": "p012-r001-decoration",
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p012-r001.json",
+          "sha256": "56b791bf5bbce7d196e3ccf46b6ea22e7172367241178c43e7664eb9cd780d36"
+        },
+        "region_image": "region-images/p012-r001.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p012-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 3,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p012-ocr-0023",
+          "p012-ocr-0024",
+          "p012-ocr-0025"
+        ],
+        "rendered_page": "page-images/page-012.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-012.png",
+    "rendered_page_sha256": "d2ffabe860b72cbb5e2b1a9834b4b6304a16d476f682a0a6ae7ea78705c82849",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p012-ocr-0001",
+        "text": "TRACK RECORD - REALIZED INVESTMENTS",
+        "confidence": 0.98536,
+        "coordinates": [
+          43.850805,
+          71.808512,
+          605.342758,
+          37.234043
+        ],
+        "polygon": [
+          [
+            43.850805,
+            71.808512
+          ],
+          [
+            649.193563,
+            71.808512
+          ],
+          [
+            649.193563,
+            109.042555
+          ],
+          [
+            43.850805,
+            109.042555
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0002",
+        "text": "$126 million realized across 105 investments to date",
+        "confidence": 0.99125,
+        "coordinates": [
+          112.39919,
+          137.632975,
+          587.197571,
+          37.234049
+        ],
+        "polygon": [
+          [
+            112.39919,
+            137.632975
+          ],
+          [
+            699.596761,
+            137.632975
+          ],
+          [
+            699.596761,
+            174.867025
+          ],
+          [
+            112.39919,
+            174.867025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0003",
+        "text": "Average / median project IRRs = 18.0%/15.1%",
+        "confidence": 0.99294,
+        "coordinates": [
+          111.895162,
+          196.143623,
+          524.193542,
+          43.882989
+        ],
+        "polygon": [
+          [
+            111.895162,
+            198.138306
+          ],
+          [
+            636.088704,
+            196.143623
+          ],
+          [
+            636.088704,
+            238.031928
+          ],
+          [
+            111.895162,
+            240.026611
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0004",
+        "text": "Realized Investments by Month - IRR",
+        "confidence": 0.98753,
+        "coordinates": [
+          303.427409,
+          262.632975,
+          392.641113,
+          37.898953
+        ],
+        "polygon": [
+          [
+            303.427409,
+            262.632975
+          ],
+          [
+            696.068522,
+            264.627658
+          ],
+          [
+            696.068522,
+            300.531928
+          ],
+          [
+            303.427409,
+            298.537245
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0005",
+        "text": "100.0%",
+        "confidence": 0.99996,
+        "coordinates": [
+          129.032257,
+          327.127658,
+          41.834686,
+          18.617025
+        ],
+        "polygon": [
+          [
+            129.032257,
+            327.127658
+          ],
+          [
+            170.866943,
+            327.127658
+          ],
+          [
+            170.866943,
+            345.744683
+          ],
+          [
+            129.032257,
+            345.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0006",
+        "text": "75.0%",
+        "confidence": 0.99992,
+        "coordinates": [
+          134.576609,
+          400.265951,
+          36.794362,
+          21.276611
+        ],
+        "polygon": [
+          [
+            134.576609,
+            400.265951
+          ],
+          [
+            171.370972,
+            400.265951
+          ],
+          [
+            171.370972,
+            421.542562
+          ],
+          [
+            134.576609,
+            421.542562
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0007",
+        "text": "50.0%",
+        "confidence": 0.99994,
+        "coordinates": [
+          135.080648,
+          474.069173,
+          36.290324,
+          21.276584
+        ],
+        "polygon": [
+          [
+            135.080648,
+            474.069173
+          ],
+          [
+            171.370972,
+            474.069173
+          ],
+          [
+            171.370972,
+            495.345757
+          ],
+          [
+            135.080648,
+            495.345757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0008",
+        "text": "25.0%",
+        "confidence": 0.9999,
+        "coordinates": [
+          135.080648,
+          548.537218,
+          35.786296,
+          19.281955
+        ],
+        "polygon": [
+          [
+            135.080648,
+            548.537218
+          ],
+          [
+            170.866943,
+            548.537218
+          ],
+          [
+            170.866943,
+            567.819173
+          ],
+          [
+            135.080648,
+            567.819173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0009",
+        "text": "0.0%",
+        "confidence": 0.99992,
+        "coordinates": [
+          141.633067,
+          622.340441,
+          29.737905,
+          19.946777
+        ],
+        "polygon": [
+          [
+            141.633067,
+            622.340441
+          ],
+          [
+            171.370972,
+            622.340441
+          ],
+          [
+            171.370972,
+            642.287218
+          ],
+          [
+            141.633067,
+            642.287218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0010",
+        "text": "Aug-14",
+        "confidence": 0.99986,
+        "coordinates": [
+          159.27419,
+          644.281901,
+          42.338704,
+          21.276638
+        ],
+        "polygon": [
+          [
+            159.27419,
+            644.281901
+          ],
+          [
+            201.612895,
+            644.281901
+          ],
+          [
+            201.612895,
+            665.558539
+          ],
+          [
+            159.27419,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0011",
+        "text": "Aug-15",
+        "confidence": 0.99994,
+        "coordinates": [
+          229.838704,
+          644.281901,
+          42.338704,
+          21.276638
+        ],
+        "polygon": [
+          [
+            229.838704,
+            644.281901
+          ],
+          [
+            272.177409,
+            644.281901
+          ],
+          [
+            272.177409,
+            665.558539
+          ],
+          [
+            229.838704,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0012",
+        "text": "Aug-16",
+        "confidence": 0.99541,
+        "coordinates": [
+          300.403219,
+          642.287218,
+          42.842753,
+          24.601074
+        ],
+        "polygon": [
+          [
+            300.907247,
+            642.287218
+          ],
+          [
+            343.245972,
+            643.617025
+          ],
+          [
+            342.741943,
+            666.888292
+          ],
+          [
+            300.403219,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0013",
+        "text": "Aug-17",
+        "confidence": 0.99994,
+        "coordinates": [
+          371.975789,
+          644.281901,
+          41.834676,
+          21.276638
+        ],
+        "polygon": [
+          [
+            371.975789,
+            644.281901
+          ],
+          [
+            413.810465,
+            644.281901
+          ],
+          [
+            413.810465,
+            665.558539
+          ],
+          [
+            371.975789,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0014",
+        "text": "Aug-18",
+        "confidence": 0.99993,
+        "coordinates": [
+          442.036296,
+          644.281901,
+          42.338704,
+          21.276638
+        ],
+        "polygon": [
+          [
+            442.036296,
+            644.281901
+          ],
+          [
+            484.375,
+            644.281901
+          ],
+          [
+            484.375,
+            665.558539
+          ],
+          [
+            442.036296,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0015",
+        "text": "Aug-19",
+        "confidence": 0.99993,
+        "coordinates": [
+          513.104818,
+          644.281901,
+          41.834676,
+          21.276638
+        ],
+        "polygon": [
+          [
+            513.104818,
+            644.281901
+          ],
+          [
+            554.939494,
+            644.281901
+          ],
+          [
+            554.939494,
+            665.558539
+          ],
+          [
+            513.104818,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0016",
+        "text": "Aug-20",
+        "confidence": 0.99993,
+        "coordinates": [
+          583.669352,
+          644.281901,
+          42.338704,
+          21.276638
+        ],
+        "polygon": [
+          [
+            583.669352,
+            644.281901
+          ],
+          [
+            626.008057,
+            644.281901
+          ],
+          [
+            626.008057,
+            665.558539
+          ],
+          [
+            583.669352,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0017",
+        "text": "Aug-21",
+        "confidence": 0.99994,
+        "coordinates": [
+          654.737915,
+          644.281901,
+          41.330607,
+          21.276638
+        ],
+        "polygon": [
+          [
+            654.737915,
+            644.281901
+          ],
+          [
+            696.068522,
+            644.281901
+          ],
+          [
+            696.068522,
+            665.558539
+          ],
+          [
+            654.737915,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0018",
+        "text": "Aug-22",
+        "confidence": 0.99996,
+        "coordinates": [
+          725.302409,
+          644.281901,
+          41.834717,
+          21.276638
+        ],
+        "polygon": [
+          [
+            725.302409,
+            644.281901
+          ],
+          [
+            767.137126,
+            644.281901
+          ],
+          [
+            767.137126,
+            665.558539
+          ],
+          [
+            725.302409,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0019",
+        "text": "Aug-23",
+        "confidence": 0.99996,
+        "coordinates": [
+          795.866943,
+          644.281901,
+          41.834635,
+          21.276638
+        ],
+        "polygon": [
+          [
+            795.866943,
+            644.281901
+          ],
+          [
+            837.701579,
+            644.281901
+          ],
+          [
+            837.701579,
+            665.558539
+          ],
+          [
+            795.866943,
+            665.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0020",
+        "text": "-25.0%",
+        "confidence": 0.99996,
+        "coordinates": [
+          131.048391,
+          695.478733,
+          40.826609,
+          20.611708
+        ],
+        "polygon": [
+          [
+            131.048391,
+            695.478733
+          ],
+          [
+            171.875,
+            695.478733
+          ],
+          [
+            171.875,
+            716.090441
+          ],
+          [
+            131.048391,
+            716.090441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0021",
+        "text": "-50.0%",
+        "confidence": 0.99995,
+        "coordinates": [
+          131.048391,
+          769.946832,
+          40.826609,
+          20.611708
+        ],
+        "polygon": [
+          [
+            131.048391,
+            769.946832
+          ],
+          [
+            171.875,
+            769.946832
+          ],
+          [
+            171.875,
+            790.558539
+          ],
+          [
+            131.048391,
+            790.558539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0022",
+        "text": "-75.0%",
+        "confidence": 0.99994,
+        "coordinates": [
+          131.048391,
+          843.75,
+          40.826609,
+          20.611708
+        ],
+        "polygon": [
+          [
+            131.048391,
+            843.75
+          ],
+          [
+            171.875,
+            843.75
+          ],
+          [
+            171.875,
+            864.361708
+          ],
+          [
+            131.048391,
+            864.361708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0023",
+        "text": "COULTONCREEK",
+        "confidence": 0.98915,
+        "coordinates": [
+          144.153229,
+          917.553168,
+          181.451609,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.153229,
+            917.553168
+          ],
+          [
+            325.604838,
+            917.553168
+          ],
+          [
+            325.604838,
+            944.14898
+          ],
+          [
+            144.153229,
+            944.14898
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0024",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99366,
+        "coordinates": [
+          743.951579,
+          932.845812,
+          211.693604,
+          26.595703
+        ],
+        "polygon": [
+          [
+            743.951579,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            743.951579,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p012-ocr-0025",
+        "text": "CAPITAL",
+        "confidence": 0.99143,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p012-ocr-0001",
+      "owner_block_id": "p012-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0002",
+      "owner_block_id": "p012-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0003",
+      "owner_block_id": "p012-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0004",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0005",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0006",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0007",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0008",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0009",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0010",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0011",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0012",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0013",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0014",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0015",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0016",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0017",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0018",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0019",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0020",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0021",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0022",
+      "owner_block_id": "p012-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0023",
+      "owner_block_id": "p012-r001-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0024",
+      "owner_block_id": "p012-r001-decoration",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p012-ocr-0025",
+      "owner_block_id": "p012-r001-decoration",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

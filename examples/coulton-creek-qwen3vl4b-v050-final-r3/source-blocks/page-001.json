@@ -1,0 +1,806 @@
+{
+  "schema_version": "unified-source-page/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 1,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 1,
+      "block_id": "p001-r004-block",
+      "content": {
+        "text": "COULTON CREEK CAPITAL",
+        "evidence_text": {
+          "selected": "native",
+          "native": "COULTON CREEK CAPITAL",
+          "ocr": "COULTON CREEK CAPITAL",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        134.638611,
+        90.148259,
+        730.70745,
+        74.0
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          96.9398,
+          48.68005999999997,
+          623.0491640000002,
+          88.64006
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "unclassified_visual",
+      "page": 1,
+      "block_id": "p001-r001-unclassified-visual",
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 3,
+          "vertical_line_count": 4,
+          "diagonal_line_count": 8,
+          "rectangle_candidate_count": 2,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 12,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 3,
+          "vertical_axis_candidate_count": 4,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.375,
+          "saturated_pixel_fraction": 0.59561
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p001-r001.json",
+          "sha256": "a5847f477d5ea209dccbac3e8076e557878c9f54afccfcfe66504e5ccb0e7e52"
+        },
+        "region_image": "region-images/p001-r001.png"
+      },
+      "coordinates": [
+        407.666651,
+        196.44442,
+        184.666658,
+        330.444426
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Qwen3-VL visual grounding",
+        "Python reconstruction"
+      ],
+      "confidence": 0.95,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "unclassified visual cannot be accepted as a semantic block"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r001",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 2,
+        "source_bbox_points": [
+          293.519989,
+          106.07998659999998,
+          426.4799831,
+          284.51997689999996
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0002",
+          "p001-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "page": 1,
+      "block_id": "p001-r005-block",
+      "content": {
+        "text": "Company Overview",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview",
+          "ocr": "Company Overview",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        319.305278,
+        571.348074,
+        361.200483,
+        51.777778
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 3,
+        "source_bbox_points": [
+          229.8998,
+          308.52796,
+          489.964148,
+          336.48796
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0004"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "page": 1,
+      "block_id": "p001-r002-block",
+      "content": {
+        "text": "COULTON CREEK CAPITAL CONFIDENTIAL INFORMATION MEMORANDUM Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or “CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents selling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any subscription agreement and investment in its sole and absolute discretion.",
+        "evidence_text": {
+          "selected": "ocr",
+          "native": "COULTON CREEK\nCAPITAL\nCONFIDENTIAL INFORMATION MEMORANDUM\nImportant Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or\n“CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being\nsolicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents\nselling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and\nconditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering\nMaterials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any\nsubscription agreement and investment in its sole and absolute discretion.",
+          "ocr": "COULTON CREEK\nCAPITAL\nCONFIDENTIAL INFORMATION MEMORANDUM\nImportant Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or\n“CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being\nsolicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents\nselling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and\nconditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering\nMaterials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any\nsubscription agreement and investment in its sole and absolute discretion.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        0.0,
+        629.111085,
+        1000.0,
+        373.111102
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python layout normalization"
+      ],
+      "confidence": 0.9911,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "wide text spans a mixed visual layout; reading order requires review"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r002",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 4,
+        "source_bbox_points": [
+          -4.0800004,
+          339.7199859,
+          724.0799833,
+          541.1999812
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0005",
+          "p001-ocr-0006",
+          "p001-ocr-0007",
+          "p001-ocr-0008",
+          "p001-ocr-0009",
+          "p001-ocr-0010",
+          "p001-ocr-0011",
+          "p001-ocr-0012",
+          "p001-ocr-0013",
+          "p001-ocr-0014"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/2.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "page": 1,
+      "block_id": "p001-r003-decoration",
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 1251,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 25,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 539,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.86359
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p001-r003.json",
+          "sha256": "aa0e637db5cc705593c2e978d4c505d661be3e81801f6c94b43ad3fc03a2eb8c"
+        },
+        "region_image": "region-images/p001-r003.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        130.888885
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r003",
+        "classification_method": "repeated-page-band",
+        "reading_order": 5,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-001.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-001.png",
+    "rendered_page_sha256": "618be5ab06d20eb918540918bfa9b8ed2cbab912f18e07c568cff423373ad0f3",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p001-ocr-0001",
+        "text": "COULTON CREEK CAPITAL",
+        "confidence": 0.99816,
+        "coordinates": [
+          131.048391,
+          71.143616,
+          736.895131,
+          76.462775
+        ],
+        "polygon": [
+          [
+            131.048391,
+            71.143616
+          ],
+          [
+            867.943522,
+            73.138299
+          ],
+          [
+            867.943522,
+            147.606391
+          ],
+          [
+            131.048391,
+            145.611708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0002",
+        "text": "COULTON CREEK",
+        "confidence": 0.99765,
+        "coordinates": [
+          412.298381,
+          217.42022,
+          174.395182,
+          23.936171
+        ],
+        "polygon": [
+          [
+            412.298381,
+            217.42022
+          ],
+          [
+            586.693563,
+            217.42022
+          ],
+          [
+            586.693563,
+            241.356391
+          ],
+          [
+            412.298381,
+            241.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0003",
+        "text": "CAPITAL",
+        "confidence": 0.9598,
+        "coordinates": [
+          412.298381,
+          484.707465,
+          173.891113,
+          30.585069
+        ],
+        "polygon": [
+          [
+            412.298381,
+            484.707465
+          ],
+          [
+            586.189494,
+            484.707465
+          ],
+          [
+            586.189494,
+            515.292535
+          ],
+          [
+            412.298381,
+            515.292535
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0004",
+        "text": "Company Overview",
+        "confidence": 0.99991,
+        "coordinates": [
+          315.020162,
+          555.851074,
+          370.967712,
+          63.829807
+        ],
+        "polygon": [
+          [
+            315.020162,
+            555.851074
+          ],
+          [
+            685.987874,
+            555.851074
+          ],
+          [
+            685.987874,
+            619.680881
+          ],
+          [
+            315.020162,
+            619.680881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0005",
+        "text": "COULTON CREEK",
+        "confidence": 0.97015,
+        "coordinates": [
+          446.572591,
+          684.175564,
+          219.758057,
+          32.579753
+        ],
+        "polygon": [
+          [
+            446.572591,
+            684.175564
+          ],
+          [
+            666.330648,
+            684.175564
+          ],
+          [
+            666.330648,
+            716.755317
+          ],
+          [
+            446.572591,
+            716.755317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0006",
+        "text": "CAPITAL",
+        "confidence": 0.9993,
+        "coordinates": [
+          446.068563,
+          711.436198,
+          111.391113,
+          32.579753
+        ],
+        "polygon": [
+          [
+            446.068563,
+            712.765951
+          ],
+          [
+            557.459676,
+            711.436198
+          ],
+          [
+            557.459676,
+            742.686198
+          ],
+          [
+            446.068563,
+            744.015951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0007",
+        "text": "CONFIDENTIAL INFORMATION MEMORANDUM",
+        "confidence": 0.98807,
+        "coordinates": [
+          249.495972,
+          789.228733,
+          501.008016,
+          27.92551
+        ],
+        "polygon": [
+          [
+            249.495972,
+            789.228733
+          ],
+          [
+            750.503988,
+            789.228733
+          ],
+          [
+            750.503988,
+            817.154243
+          ],
+          [
+            249.495972,
+            817.154243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0008",
+        "text": "Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or",
+        "confidence": 0.99017,
+        "coordinates": [
+          27.721774,
+          841.755317,
+          945.060453,
+          21.941515
+        ],
+        "polygon": [
+          [
+            27.721774,
+            841.755317
+          ],
+          [
+            972.782227,
+            841.755317
+          ],
+          [
+            972.782227,
+            863.696832
+          ],
+          [
+            27.721774,
+            863.696832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0009",
+        "text": "“CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being",
+        "confidence": 0.99242,
+        "coordinates": [
+          27.217743,
+          861.037272,
+          945.060496,
+          22.606337
+        ],
+        "polygon": [
+          [
+            27.217743,
+            861.037272
+          ],
+          [
+            972.278239,
+            862.367025
+          ],
+          [
+            972.278239,
+            883.643609
+          ],
+          [
+            27.217743,
+            882.313856
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0010",
+        "text": "solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents",
+        "confidence": 0.99168,
+        "coordinates": [
+          26.71371,
+          882.313856,
+          945.564529,
+          20.611708
+        ],
+        "polygon": [
+          [
+            26.71371,
+            882.313856
+          ],
+          [
+            972.278239,
+            882.978733
+          ],
+          [
+            972.278239,
+            902.925564
+          ],
+          [
+            26.71371,
+            902.260634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0011",
+        "text": "selling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and",
+        "confidence": 0.995,
+        "coordinates": [
+          26.71371,
+          902.260634,
+          945.06046,
+          21.276584
+        ],
+        "polygon": [
+          [
+            26.71371,
+            902.260634
+          ],
+          [
+            971.77417,
+            902.260634
+          ],
+          [
+            971.77417,
+            923.537218
+          ],
+          [
+            26.71371,
+            923.537218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0012",
+        "text": "conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering",
+        "confidence": 0.99869,
+        "coordinates": [
+          27.217743,
+          922.207465,
+          945.060496,
+          21.276584
+        ],
+        "polygon": [
+          [
+            27.217743,
+            922.207465
+          ],
+          [
+            972.278239,
+            922.207465
+          ],
+          [
+            972.278239,
+            943.484049
+          ],
+          [
+            27.217743,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0013",
+        "text": "Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any",
+        "confidence": 0.99072,
+        "coordinates": [
+          26.71371,
+          942.154297,
+          945.06046,
+          21.276584
+        ],
+        "polygon": [
+          [
+            26.71371,
+            942.154297
+          ],
+          [
+            971.77417,
+            943.484049
+          ],
+          [
+            971.77417,
+            963.430881
+          ],
+          [
+            26.71371,
+            962.101128
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0014",
+        "text": "subscription agreement and investment in its sole and absolute discretion.",
+        "confidence": 0.99481,
+        "coordinates": [
+          27.721774,
+          962.765951,
+          411.290311,
+          19.281901
+        ],
+        "polygon": [
+          [
+            27.721774,
+            962.765951
+          ],
+          [
+            439.012085,
+            962.765951
+          ],
+          [
+            439.012085,
+            982.047852
+          ],
+          [
+            27.721774,
+            982.047852
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p001-ocr-0001",
+      "owner_block_id": "p001-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0002",
+      "owner_block_id": "p001-r001-unclassified-visual",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0003",
+      "owner_block_id": "p001-r001-unclassified-visual",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0004",
+      "owner_block_id": "p001-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0005",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0006",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0007",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0008",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0009",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0010",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0011",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0012",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0013",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0014",
+      "owner_block_id": "p001-r002-block",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

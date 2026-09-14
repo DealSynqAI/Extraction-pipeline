@@ -52,7 +52,6 @@ class SourceBlock:
     type: str
     page: int
     block_id: str
-    parent_block_id: str | None
     content: dict[str, Any]
     coordinates: list[float]
     extraction_method: list[str]
@@ -64,12 +63,11 @@ class SourceBlock:
 
     def as_dict(self) -> dict[str, Any]:
         return {
-            "schema_version": "unified-source-block/1.0",
+            "schema_version": "unified-source-block/2.0",
             "document_id": self.document_id,
             "type": self.type,
             "page": self.page,
             "block_id": self.block_id,
-            "parent_block_id": self.parent_block_id,
             "content": self.content,
             "coordinates": [round(float(value), 6) for value in self.coordinates],
             "coordinate_system": "top-left normalized xywh 0..1000",
@@ -85,24 +83,17 @@ class SourceBlock:
 
 
 def validate_source_blocks(blocks: list[dict[str, Any]]) -> list[str]:
-    """Validate the common contract and page-local parent links."""
+    """Validate root semantic blocks and their nested typed content."""
     errors: list[str] = []
     ids = [str(block.get("block_id", "")) for block in blocks]
     known = set(ids)
-    by_id = {str(block.get("block_id", "")): block for block in blocks}
-    required_parent_types = {
-        "chart_observation": "chart",
-        "map_binding": "map",
-        "table_header": "table",
-        "table_record": "table",
-    }
     if "" in known:
         errors.append("Every block must have a non-empty block_id")
     if len(ids) != len(known):
         errors.append("Block IDs must be unique within a page")
     required = {
         "schema_version", "document_id", "type", "page", "block_id",
-        "parent_block_id", "content", "coordinates", "coordinate_system",
+        "content", "coordinates", "coordinate_system",
         "extraction_method", "confidence", "validation", "provenance",
     }
     for block in blocks:
@@ -121,19 +112,15 @@ def validate_source_blocks(blocks: list[dict[str, Any]]) -> list[str]:
         validation = block.get("validation", {})
         if validation.get("status") not in {"passed", "needs_review", "failed"}:
             errors.append(f"{block_id}: invalid validation status")
-        parent = block.get("parent_block_id")
-        if parent is not None and parent not in known:
-            errors.append(f"{block_id}: unknown parent {parent}")
-        expected_parent_type = required_parent_types.get(str(block.get("type")))
-        if expected_parent_type and parent is None:
-            errors.append(f"{block_id}: {block.get('type')} requires a {expected_parent_type} parent")
-        elif expected_parent_type and parent in by_id and by_id[parent].get("type") != expected_parent_type:
-            errors.append(
-                f"{block_id}: {block.get('type')} parent must be {expected_parent_type}, "
-                f"not {by_id[parent].get('type')}"
-            )
         if not isinstance(block.get("content"), dict):
             errors.append(f"{block_id}: content must be an object")
         elif "vision_features" in block["content"] or "line_segments" in block["content"]:
             errors.append(f"{block_id}: raw vision features must be stored in diagnostics")
+        if block.get("type") == "decoration" and any(
+            key in block.get("content", {}) for key in {"title", "labels", "text", "raw_text"}
+        ):
+            errors.append(f"{block_id}: decoration cannot carry semantic text fields")
+        validation = block.get("validation", {})
+        if validation.get("status") == "passed" and validation.get("errors"):
+            errors.append(f"{block_id}: passed block cannot contain errors")
     return errors
