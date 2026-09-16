@@ -1,0 +1,418 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 5,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.32106,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.24225,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 4,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p005-r005",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        39.87013888888889,
+        77.62859259259261,
+        179.4275833333333,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "LEADERSHIP",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 1,
+        "source_bbox_points": [
+          28.7065,
+          41.91944000000001,
+          157.89435999999998,
+          61.95943999999997
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r001",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.83333263888889,
+        155.7777688888889,
+        171.39441597222222,
+        213.3333114814815
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2
+        ],
+        "source_bbox_points": [
+          21.4799995,
+          84.1199952,
+          144.883979,
+          199.3199834
+        ],
+        "content_bbox_points": [
+          21.4799995,
+          84.1199952,
+          144.883979,
+          199.3199834
+        ],
+        "ownership_bbox_points": [
+          21.4799995,
+          84.1199952,
+          159.28397900000002,
+          199.3199834
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799995,
+            84.1199952,
+            144.883979,
+            199.3199834
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.83333263888889,
+            155.7777688888889,
+            171.39441597222222,
+            213.3333114814815
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "visual_hint": "photograph",
+        "visual_hint_method": "repeated aligned image-card geometry",
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r006",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.4602777777775,
+        164.32555555555552,
+        709.3833333333333,
+        212.2833333333331
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Chris Hanks – Managing Director\nChris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over\n$277 million of direct investments, building a diversified portfolio of private real estate equity and\ndebt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as\nwell guiding investment decisions for Coulton Creek.\nBefore Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy\nbenefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and\nraised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris\nconcluded his tenure with the company’s $250 million sale in January 2012.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 115,
+        "source_bbox_points": [
+          172.4113999999998,
+          88.73579999999998,
+          683.1673999999998,
+          203.36879999999985
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r002",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.83333263888889,
+        393.33332203703696,
+        171.66665680555556,
+        213.3333101851852
+      ],
+      "reading_order": 4,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          3
+        ],
+        "source_bbox_points": [
+          21.4799995,
+          212.39999389999997,
+          145.0799924,
+          327.5999814
+        ],
+        "content_bbox_points": [
+          21.4799995,
+          212.39999389999997,
+          145.0799924,
+          327.5999814
+        ],
+        "ownership_bbox_points": [
+          21.4799995,
+          212.39999389999997,
+          159.47999240000001,
+          327.5999814
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799995,
+            212.39999389999997,
+            145.0799924,
+            327.5999814
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.83333263888889,
+            393.33332203703696,
+            171.66665680555556,
+            213.3333101851852
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "visual_hint": "photograph",
+        "visual_hint_method": "repeated aligned image-card geometry",
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r007",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.4602777777775,
+        405.3831481481481,
+        709.3333333333336,
+        204.28333333333353
+      ],
+      "reading_order": 5,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Will Hensley – Director\nWill joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has\nbeen involved in almost every aspect of Coulton Creek. In his current role as Director, Will is\nresponsible for sourcing new investment opportunities, as well as underwriting, due diligence\nand portfolio management duties.\nPrior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse\nskill set included underwriting and portfolio management, as well as experience and oversight of\ndistressed real estate assets.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 86,
+        "source_bbox_points": [
+          172.4113999999998,
+          218.90689999999995,
+          683.1314,
+          329.21990000000005
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r003",
+      "page": 5,
+      "kind": "visual",
+      "coordinates": [
+        29.833330000000004,
+        630.8888753703703,
+        171.99997847222224,
+        213.3333205555555
+      ],
+      "reading_order": 6,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          4
+        ],
+        "source_bbox_points": [
+          21.4799976,
+          340.6799927,
+          145.3199821,
+          455.8799858
+        ],
+        "content_bbox_points": [
+          21.4799976,
+          340.6799927,
+          145.3199821,
+          455.8799858
+        ],
+        "ownership_bbox_points": [
+          21.4799976,
+          340.6799927,
+          159.7199821,
+          455.8799858
+        ],
+        "source_member_bboxes": [
+          [
+            21.4799976,
+            340.6799927,
+            145.3199821,
+            455.8799858
+          ]
+        ],
+        "member_coordinates": [
+          [
+            29.833330000000004,
+            630.8888753703703,
+            171.99997847222224,
+            213.3333205555555
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "visual_hint": "photograph",
+        "visual_hint_method": "repeated aligned image-card geometry",
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p005-r008",
+      "page": 5,
+      "kind": "normal_text",
+      "coordinates": [
+        239.46027777777778,
+        639.3298148148149,
+        709.3666666666668,
+        174.94999999999993
+      ],
+      "reading_order": 7,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Scott Brown – Director\nScott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and\nunderwriting new real estate investment opportunities as well as assisting in portfolio\nmanagement and investor relations responsibilities.\nPrior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real\nestate family office. Scott served as a member of RCS’ Investment Committee evaluating the\nrisks, cash flows, capital requirements, deal structuring, and the overall status of RCS’ portfolio.",
+      "metadata": {
+        "median_font_size": 12.0,
+        "word_count": 79,
+        "source_bbox_points": [
+          172.4114,
+          345.23810000000003,
+          683.1554000000001,
+          439.7111
+        ]
+      }
+    },
+    {
+      "region_id": "p005-r004",
+      "page": 5,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 8,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 4,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

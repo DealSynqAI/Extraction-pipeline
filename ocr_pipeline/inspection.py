@@ -810,12 +810,41 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                 warnings.append("reconstructed_native_aligned_financial_table")
             for index, (_table, bbox, rows) in enumerate(table_candidates, 1):
                 order += 1
+                panel_words = []
+                if len(rows) == 1 and len(rows[0]) >= 2:
+                    # A one-row table found over broad colored panels can contain
+                    # several *text* lanes inside one apparent cell. Preserve the
+                    # positioned words so later stages do not inherit the table
+                    # finder's interleaved cell reading order.
+                    within = [
+                        word for word in positioned_words
+                        if str(word.get("text", "")).strip()
+                        and float(word["x0"]) >= bbox[0] - 2
+                        and float(word["x1"]) <= bbox[2] + 2
+                        and float(word["top"]) >= bbox[1] - 2
+                        and float(word["bottom"]) <= bbox[3] + 2
+                    ]
+                    for word_index, word in enumerate(
+                        sorted(within, key=lambda item: (float(item["top"]), float(item["x0"]))), 1,
+                    ):
+                        panel_words.append({
+                            "evidence_id": f"p{page_number:03d}-r{order:03d}-native-panel-w{word_index:04d}",
+                            "text": str(word["text"]),
+                            "coordinates": _normalized_xywh((
+                                float(word["x0"]), float(word["top"]),
+                                float(word["x1"]), float(word["bottom"]),
+                            ), width, height),
+                            "font_size_points": float(word.get("size") or 0.0),
+                        })
                 regions.append(Region(
                     region_id=f"p{page_number:03d}-r{order:03d}", page=page_number,
                     kind="table", coordinates=_normalized_xywh(bbox, width, height),
                     reading_order=order, classification_method="pdfplumber-table-finder",
                     confidence=0.92 if len(rows) >= 2 else 0.68,
-                    metadata={"rows": rows, "source_bbox_points": list(bbox)},
+                    metadata={
+                        "rows": rows, "source_bbox_points": list(bbox),
+                        **({"native_panel_words": panel_words} if panel_words else {}),
+                    },
                 ))
 
             logical_visuals = merge_visual_objects(large_images, width, height)

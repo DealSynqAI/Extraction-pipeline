@@ -5,8 +5,10 @@ from pathlib import Path
 import json
 import tempfile
 from PIL import Image
+from jsonschema import Draft202012Validator
 
 from ocr_pipeline import __version__
+from ocr_pipeline.comparison_layout import reconstruct_comparison_panel
 from ocr_pipeline.inspection import (
     detect_aligned_financial_table,
     detect_small_raster_chart,
@@ -31,6 +33,7 @@ from ocr_pipeline.pipeline import (
     _brand_visible_text,
     _table_total_reconciliation,
     _table_structure_errors,
+    _table_blocks,
     _exclusive_region_lines,
     _hybrid_text,
     _kpi_bindings,
@@ -62,12 +65,94 @@ from ocr_pipeline.pipeline import (
     parse_pages,
 )
 from ocr_pipeline.validate_run import _resolve_run_path
+from ocr_pipeline.map_geometry import _albers_point, _state_rings, register_us_state_map, state_for_value
 
 
 class PipelineUnitTests(unittest.TestCase):
-    def test_v060_versions(self) -> None:
-        self.assertEqual(__version__, "0.6.0")
-        self.assertEqual(PIPELINE_VERSION, "0.6.0")
+    @staticmethod
+    def _synthetic_panel_words() -> list[dict[str, object]]:
+        words: list[dict[str, object]] = []
+
+        def word(text: str, x: float, y: float, width: float = 80, size: float = 11) -> None:
+            words.append({
+                "evidence_id": f"synthetic-w{len(words) + 1:03d}", "text": text,
+                "coordinates": [x, y, width, 18], "font_size_points": size,
+            })
+
+        word("Evergreen", 150, 100, 190, 18)
+        word("Investments", 345, 100, 130, 18)
+        word("Direct SPVs", 700, 100, 170, 14)
+        word("Senior Units", 50, 150, 130, 14)
+        word("Class B Shares", 380, 150, 145, 14)
+        for anchor, label, value in (
+            (50, "Fixed Returns: 6.5% - 8.0%", "Liquidity: 10%"),
+            (380, "Preferred Return: 8%", "Targeted Returns: 10% to 15%"),
+            (700, "Cash Returns: 9-13%+", "LP Total Returns: 14.2%"),
+        ):
+            word("•", anchor, 200, 8)
+            word(label, anchor + 18, 201, 190)
+            word("•", anchor, 250, 8)
+            word(value, anchor + 18, 251, 190)
+        return words
+
+    def test_general_comparison_panel_recovers_nested_offers_and_metric_ownership(self) -> None:
+        words = self._synthetic_panel_words()
+        layout = reconstruct_comparison_panel(words)
+        self.assertIsNotNone(layout)
+        self.assertEqual(layout["lane_count"], 3)
+        self.assertEqual(layout["claim_count"], 6)
+        self.assertEqual([section["title"] for section in layout["sections"]], [
+            "Evergreen Investments", "Direct SPVs",
+        ])
+        evergreen, direct = layout["sections"]
+        self.assertEqual([offer["title"] for offer in evergreen["subsections"]], [
+            "Senior Units", "Class B Shares",
+        ])
+        self.assertEqual(evergreen["subsections"][0]["claims"][0]["numeric_mentions"], [{
+            "raw": "6.5% - 8.0%", "values": [6.5, 8.0], "unit": "percent", "kind": "range",
+        }])
+        self.assertEqual(direct["claims"][0]["numeric_mentions"][0]["values"], [9.0, 13.0])
+        self.assertNotIn("Preferred Return", evergreen["subsections"][0]["text"])
+
+        region = Region("p001-r001", 1, "table", [30, 80, 940, 600], 1, "synthetic", 0.68,
+                        metadata={"rows": [["left background", "right background"]],
+                                  "native_panel_words": words})
+        review = {
+            "type": "table", "panel_review": {"lane_count": 3,
+                "leaf_titles": ["Senior Units", "Class B Shares", "Direct SPVs"],
+                "claim_counts": [2, 2, 2], "structure_matches": True},
+        }
+        block = _table_blocks("synthetic-doc", "0" * 64, region, [], Path("page.png"), review)[0]
+        self.assertEqual(block.validation_status, "passed")
+        schema = json.loads((Path(__file__).resolve().parents[1] /
+                             "schemas/unified-source-block.schema.json").read_text(encoding="utf-8"))
+        Draft202012Validator.check_schema(schema)
+        self.assertEqual(list(Draft202012Validator(schema).iter_errors(block.as_dict())), [])
+
+        review["panel_review"]["structure_matches"] = False
+        flag_only = _table_blocks("synthetic-doc", "0" * 64, region, [], Path("page.png"), review)[0]
+        self.assertEqual(flag_only.validation_status, "passed")
+        self.assertIn("flag is false", " ".join(flag_only.warnings))
+        review["panel_review"]["claim_counts"] = [2, 1, 2]
+        conflicted = _table_blocks("synthetic-doc", "0" * 64, region, [], Path("page.png"), review)[0]
+        self.assertEqual(conflicted.validation_status, "needs_review")
+
+    def test_comparison_layout_declines_non_bulleted_two_cell_visual(self) -> None:
+        words = [
+            {"evidence_id": "w1", "text": "Left", "coordinates": [50, 100, 80, 18], "font_size_points": 14},
+            {"evidence_id": "w2", "text": "Right", "coordinates": [550, 100, 80, 18], "font_size_points": 14},
+        ]
+        self.assertIsNone(reconstruct_comparison_panel(words))
+        region = Region("p001-r001", 1, "table", [30, 80, 940, 600], 1, "synthetic", 0.68,
+                        metadata={"rows": [["Left\nbody", "Right\nbody"]],
+                                  "native_panel_words": words})
+        block = _table_blocks("synthetic-doc", "0" * 64, region, [], Path("page.png"))[0]
+        self.assertEqual(block.validation_status, "needs_review")
+        self.assertEqual([section["title"] for section in block.content["sections"]], ["Left", "Right"])
+
+    def test_v070_versions(self) -> None:
+        self.assertEqual(__version__, "0.7.0")
+        self.assertEqual(PIPELINE_VERSION, "0.7.0")
         self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/4.0")
         self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/3.0")
         self.assertEqual(INSPECTION_SCHEMA_VERSION, "pdf-page-inspection/1.0")
@@ -178,7 +263,7 @@ class PipelineUnitTests(unittest.TestCase):
                 __import__("collections").Counter({"acme": 2, "harbor": 2, "capital": 2}),
             )
         self.assertEqual(blocks[0].content["role"], "page_footer")
-        self.assertEqual([block.type for block in blocks[1:]], ["brand_mark", "footnote"])
+        self.assertEqual([block.type for block in blocks[1:]], ["brand_mark", "text"])
         self.assertEqual(blocks[1].content["visible_text"], ["ACME HARBOR", "CAPITAL"])
         self.assertEqual(blocks[2].semantic_role, "running_footer")
         self.assertEqual(validate_source_blocks([block.as_dict() for block in blocks]), [])
@@ -246,6 +331,13 @@ class PipelineUnitTests(unittest.TestCase):
             [{"text": "ACMECREEK"}, {"text": "CAPITAL"}],
             __import__("collections").Counter({"acme": 2, "creek": 2, "capital": 2}),
         )
+        self.assertEqual(visible, ["ACME CREEK", "CAPITAL"])
+
+    def test_brand_text_follows_spatial_reading_order(self) -> None:
+        visible = _brand_visible_text([
+            {"text": "CAPITAL", "coordinates": [100, 930, 100, 25]},
+            {"text": "ACME CREEK", "coordinates": [100, 900, 180, 25]},
+        ], None)
         self.assertEqual(visible, ["ACME CREEK", "CAPITAL"])
 
     def test_later_page_prominent_heading_is_page_title(self) -> None:
@@ -384,6 +476,56 @@ class PipelineUnitTests(unittest.TestCase):
             {"evidence_id": "state", "text": "5.4%", "coordinates": [200, 400, 50, 20]},
         ]
         self.assertEqual([line["evidence_id"] for line in _map_data_value_lines(lines)], ["state"])
+
+    def test_registered_map_geometry_owns_only_colored_state_marks(self) -> None:
+        import cv2
+        import numpy as np
+
+        rings = {
+            name: [[_albers_point(*point) for point in ring] for ring in members]
+            for name, members in _state_rings().items()
+        }
+        points = [point for members in rings.values() for ring in members for point in ring]
+        minimum_x, maximum_x = min(p[0] for p in points), max(p[0] for p in points)
+        minimum_y, maximum_y = min(p[1] for p in points), max(p[1] for p in points)
+        sx, sy = 720 / (maximum_x - minimum_x), 300 / (maximum_y - minimum_y)
+        image = np.full((440, 900, 3), 255, np.uint8)
+        colorado_mask = np.zeros(image.shape[:2], np.uint8)
+        for name, members in rings.items():
+            for ring in members:
+                vertices = np.array([
+                    [round(80 + sx * (x - minimum_x)), round(70 + sy * (y - minimum_y))]
+                    for x, y in ring
+                ], np.int32)
+                cv2.fillPoly(image, [vertices], (225, 200, 185) if name == "Colorado" else (224, 224, 224))
+                cv2.polylines(image, [vertices], True, (255, 255, 255), 2)
+                if name == "Colorado":
+                    cv2.fillPoly(colorado_mask, [vertices], 1)
+        moments = cv2.moments(colorado_mask)
+        center = [moments["m10"] / moments["m00"], moments["m01"] / moments["m00"]]
+        coordinates = [center[0] / 900 * 1000 - 10, center[1] / 440 * 1000 - 10, 20, 20]
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / "synthetic-us-map.png"
+            cv2.imwrite(str(path), image)
+            registration = register_us_state_map(path)
+            self.assertIsNotNone(registration)
+            self.assertGreater(registration["quality"], 0.90)
+            self.assertEqual(registration["projection"], "conus_albers")
+            owner = state_for_value(registration, coordinates, [0, 0, 1000, 1000])
+            self.assertIsNotNone(owner)
+            self.assertEqual(owner[0], "Colorado")
+            self.assertEqual(owner[2], "registered_state_polygon")
+
+    def test_us_reference_rejects_unrelated_rectangular_visual(self) -> None:
+        import cv2
+        import numpy as np
+
+        image = np.full((440, 900, 3), 255, np.uint8)
+        cv2.rectangle(image, (80, 70), (800, 370), (225, 200, 185), -1)
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / "not-a-us-state-map.png"
+            cv2.imwrite(str(path), image)
+            self.assertIsNone(register_us_state_map(path))
 
     def test_diagnostic_explains_coordinate_formats_and_hashes(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

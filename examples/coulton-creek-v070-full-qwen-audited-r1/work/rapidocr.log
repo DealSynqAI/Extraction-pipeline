@@ -1,0 +1,27 @@
+page 1: 14 OCR lines
+page 2: 15 OCR lines
+page 3: 34 OCR lines
+page 4: 22 OCR lines
+page 5: 28 OCR lines
+page 6: 111 OCR lines
+page 7: 27 OCR lines
+page 8: 39 OCR lines
+page 9: 22 OCR lines
+page 10: 72 OCR lines
+page 11: 25 OCR lines
+page 12: 25 OCR lines
+page 13: 27 OCR lines
+page 14: 53 OCR lines
+page 15: 9 OCR lines
+page 16: 55 OCR lines
+
+STDERR
+[INFO] 2026-09-15 21:20:27,095 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 21:20:27,237 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-15 21:20:27,237 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-15 21:20:27,328 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 21:20:27,329 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-15 21:20:27,329 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-15 21:20:27,409 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 21:20:27,428 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-15 21:20:27,428 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx

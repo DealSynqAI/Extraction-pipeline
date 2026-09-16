@@ -1,0 +1,298 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 15,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.09602,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.18488,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 2,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p015-r003",
+      "page": 15,
+      "kind": "normal_text",
+      "coordinates": [
+        60.0,
+        83.07229629629629,
+        336.0401833333334,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "CONTACT INFORMATION",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 2,
+        "source_bbox_points": [
+          43.2,
+          44.85903999999999,
+          285.14893200000006,
+          64.89903999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p015-r004",
+      "page": 15,
+      "kind": "normal_text",
+      "coordinates": [
+        156.73611111111111,
+        247.02185185185184,
+        694.1428611111112,
+        37.11111111111104
+      ],
+      "reading_order": 2,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 6,
+        "source_bbox_points": [
+          112.85,
+          133.3918,
+          612.63286,
+          153.43179999999995
+        ]
+      }
+    },
+    {
+      "region_id": "p015-r005",
+      "page": 15,
+      "kind": "normal_text",
+      "coordinates": [
+        138.06730555555563,
+        353.6791851851852,
+        723.8088833333333,
+        37.12025925925925
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Will Hensley | whensley@ccrcapital.com | 720-771-6909",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 6,
+        "source_bbox_points": [
+          99.40846000000005,
+          190.98676,
+          620.5508560000001,
+          211.0317
+        ]
+      }
+    },
+    {
+      "region_id": "p015-r006",
+      "page": 15,
+      "kind": "normal_text",
+      "coordinates": [
+        153.04747222222232,
+        460.3456666666668,
+        693.9925999999998,
+        37.12044444444428
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Scott Brown | sbrown@ccrcapital.com | 816-225-3859",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 6,
+        "source_bbox_points": [
+          110.19418000000007,
+          248.58666000000005,
+          609.868852,
+          268.63169999999997
+        ]
+      }
+    },
+    {
+      "region_id": "p015-r001",
+      "page": 15,
+      "kind": "visual",
+      "coordinates": [
+        796.6667175,
+        544.8888142592592,
+        171.33332416666667,
+        306.44441314814816
+      ],
+      "reading_order": 5,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2
+        ],
+        "source_bbox_points": [
+          573.6000366,
+          294.2399597,
+          696.96003,
+          459.7199428
+        ],
+        "content_bbox_points": [
+          573.6000366,
+          294.2399597,
+          696.96003,
+          459.7199428
+        ],
+        "ownership_bbox_points": [
+          559.2000366,
+          294.2399597,
+          696.96003,
+          459.7199428
+        ],
+        "source_member_bboxes": [
+          [
+            573.6000366,
+            294.2399597,
+            696.96003,
+            459.7199428
+          ]
+        ],
+        "member_coordinates": [
+          [
+            796.6667175,
+            544.8888142592592,
+            171.33332416666667,
+            306.44441314814816
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p015-r002",
+      "page": 15,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 6,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 4,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

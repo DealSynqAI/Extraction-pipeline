@@ -1,0 +1,3112 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 10,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.2758,
+  "native_text_quality": 0.99571,
+  "image_coverage": 0.13237,
+  "vector_line_count": 25,
+  "possible_table_regions": 1,
+  "possible_visual_regions": 1,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p010-r003",
+      "page": 10,
+      "kind": "normal_text",
+      "coordinates": [
+        57.598749999999995,
+        88.10470370370375,
+        414.29638333333304,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 0.99571,
+      "native_text": "INVESTMENT OPPORTUNITIES",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 2,
+        "source_bbox_points": [
+          41.4711,
+          47.57654000000002,
+          339.7644959999998,
+          67.61653999999999
+        ]
+      }
+    },
+    {
+      "region_id": "p010-r001",
+      "page": 10,
+      "kind": "table",
+      "coordinates": [
+        47.75,
+        172.7777777777778,
+        916.5,
+        676.0
+      ],
+      "reading_order": 2,
+      "classification_method": "pdfplumber-table-finder",
+      "confidence": 0.68,
+      "native_text": "",
+      "metadata": {
+        "rows": [
+          [
+            "Perpetual Evergreen Investments\nSenior Units: Class B Shares:\n Preferred Units: Senior Units  Ownership Units: Coulton\nhave priority in both payment Creek Membership Units\nand liquidation over all other paying 8% preferred return\nCoulton Creek Capital equity with additional profit share.\nholders.\n Priority: Subordinate to Senior\n Fixed Returns: 6.5% - 8.0% Units and Company Debt, pari\nper annum fixed return, with passu with Class A / Founder\nquarterly distributions. Units.\n Diversification: Units are  Targeted Returns: 10% to 15%\ninvested across entire CCC per annum, distributed\nplatform (approx. 60+ quarterly.\ninvestments).\n Historic Track Record: 13.6%\n Minimum Equity Ratio: 1:1 average annual returns since\nratio of all Coulton Creek inception (9/2020).\nequity to Senior Units and\nlong-term debt.  Diversification: Units are\ninvested across entire CCC\n Transferrable: Units can be platform (approx. 60+\nconverted to other investments investments).\nwith CCC.\n Liquidity: Redeem up to 10%\n Liquidity: Redeem up to 10% every 6 months (full\nevery 6 months (full redemption in 5 years).\nredemption in 5 years).",
+            "Direct Investments (SPVs):\n Optionality: Project-Level\ninvestments that allow investors to\nseek opportunities specific to their\ninvestment priorities.\n Priority: Structure and waterfall\nare deal specific, and payouts are\nindependent of Coulton Creek\nentity investments.\n Targeted Returns: Return targets\nvary by offering, but opportunities\nare often available across the\ncapital stack from participating in\n1st DOT senior loans to traditional\nLP equity.\n Historic Track Record: SPV\ninvestments 9-13%+ current cash\nreturns, 14.2% average LP total\nreturns.\n Liquidity: Investment timing and\nliquidity varies by specific\ninvestment offering."
+          ]
+        ],
+        "source_bbox_points": [
+          34.38,
+          93.30000000000001,
+          694.26,
+          458.34000000000003
+        ],
+        "native_panel_words": [
+          {
+            "evidence_id": "p010-r001-native-panel-w0001",
+            "text": "Perpetual",
+            "coordinates": [
+              161.12069444444447,
+              191.06018518518522,
+              113.75749999999996,
+              33.33333333333322
+            ],
+            "font_size_points": 17.999999999999943
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0002",
+            "text": "Evergreen",
+            "coordinates": [
+              281.92819444444444,
+              191.06018518518522,
+              121.41749999999996,
+              33.33333333333322
+            ],
+            "font_size_points": 17.999999999999943
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0003",
+            "text": "Investments",
+            "coordinates": [
+              411.0706944444445,
+              191.06018518518522,
+              145.21000000000006,
+              33.33333333333322
+            ],
+            "font_size_points": 17.999999999999943
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0004",
+            "text": "Direct",
+            "coordinates": [
+              684.7311111111111,
+              192.83322222222216,
+              55.335150000000034,
+              26.000000000000036
+            ],
+            "font_size_points": 14.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0005",
+            "text": "Investments",
+            "coordinates": [
+              745.0660611111109,
+              192.83322222222216,
+              113.5134,
+              26.000000000000036
+            ],
+            "font_size_points": 14.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0006",
+            "text": "(SPVs):",
+            "coordinates": [
+              863.5695111111111,
+              192.83322222222216,
+              69.33225000000016,
+              26.000000000000036
+            ],
+            "font_size_points": 14.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0007",
+            "text": "Class",
+            "coordinates": [
+              379.1118055555556,
+              254.67203703703714,
+              48.74999999999995,
+              25.999999999999932
+            ],
+            "font_size_points": 14.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0008",
+            "text": "B",
+            "coordinates": [
+              433.1131555555556,
+              254.67203703703714,
+              13.006500000000031,
+              25.999999999999932
+            ],
+            "font_size_points": 14.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0009",
+            "text": "Shares",
+            "coordinates": [
+              451.4451055555556,
+              254.67203703703714,
+              61.74284999999995,
+              25.999999999999932
+            ],
+            "font_size_points": 14.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0010",
+            "text": "Senior",
+            "coordinates": [
+              57.598749999999995,
+              254.6724074074074,
+              56.31795000000001,
+              25.999999999999932
+            ],
+            "font_size_points": 14.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0011",
+            "text": "Units:",
+            "coordinates": [
+              119.09005000000002,
+              254.6724074074074,
+              49.92194999999999,
+              25.999999999999932
+            ],
+            "font_size_points": 14.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0012",
+            "text": ":",
+            "coordinates": [
+              513.2784722222223,
+              256.0220370370371,
+              5.004000000000038,
+              23.999999999999964
+            ],
+            "font_size_points": 12.95999999999998
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0013",
+            "text": "",
+            "coordinates": [
+              684.7311111111111,
+              270.4821111111111,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0014",
+            "text": "Optionality:",
+            "coordinates": [
+              716.0645833333333,
+              272.81277777777774,
+              76.42919444444436,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0015",
+            "text": "Project-Level",
+            "coordinates": [
+              796.5663111111111,
+              272.81277777777774,
+              89.38566666666661,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0016",
+            "text": "investments",
+            "coordinates": [
+              716.057111111111,
+              292.378111111111,
+              81.64693333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0017",
+            "text": "that",
+            "coordinates": [
+              801.7045111111112,
+              292.378111111111,
+              25.585199999999965,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0018",
+            "text": "allow",
+            "coordinates": [
+              831.1935777777778,
+              292.378111111111,
+              34.726933333333285,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0019",
+            "text": "investors",
+            "coordinates": [
+              870.3503111111111,
+              292.378111111111,
+              61.15086666666672,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0020",
+            "text": "to",
+            "coordinates": [
+              935.6687777777777,
+              292.378111111111,
+              12.858533333333513,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0021",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              295.4247037037037,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0022",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              295.4250740740741,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0023",
+            "text": "Ownership",
+            "coordinates": [
+              410.4451388888889,
+              297.7553703703703,
+              73.00966666666666,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0024",
+            "text": "Units:",
+            "coordinates": [
+              487.7634722222222,
+              297.7553703703703,
+              39.111,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0025",
+            "text": "Coulton",
+            "coordinates": [
+              530.9470055555556,
+              297.7553703703703,
+              52.676133333333304,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0026",
+            "text": "Preferred",
+            "coordinates": [
+              88.93208333333334,
+              297.7557407407407,
+              64.00900000000001,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0027",
+            "text": "Units:",
+            "coordinates": [
+              156.57508333333334,
+              297.7557407407407,
+              39.11966666666664,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0028",
+            "text": "Senior",
+            "coordinates": [
+              199.92675000000003,
+              297.7557407407407,
+              44.08946666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0029",
+            "text": "Units",
+            "coordinates": [
+              248.24668333333335,
+              297.7557407407407,
+              34.82660000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0030",
+            "text": "seek",
+            "coordinates": [
+              716.057111111111,
+              311.9434444444443,
+              32.32266666666672,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0031",
+            "text": "opportunities",
+            "coordinates": [
+              752.548911111111,
+              311.9434444444443,
+              87.63000000000005,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0032",
+            "text": "specific",
+            "coordinates": [
+              844.1809111111111,
+              311.9434444444443,
+              51.15506666666663,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0033",
+            "text": "to",
+            "coordinates": [
+              899.3379777777777,
+              311.9434444444443,
+              12.858533333333353,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0034",
+            "text": "their",
+            "coordinates": [
+              916.1678444444443,
+              311.9434444444443,
+              29.76200000000012,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0035",
+            "text": "Creek",
+            "coordinates": [
+              410.4484722222223,
+              317.32070370370366,
+              40.82193333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0036",
+            "text": "Membership",
+            "coordinates": [
+              455.43800555555566,
+              317.32070370370366,
+              84.0052,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0037",
+            "text": "Units",
+            "coordinates": [
+              543.580138888889,
+              317.32070370370366,
+              34.828133333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0038",
+            "text": "have",
+            "coordinates": [
+              88.92875,
+              317.321074074074,
+              33.014199999999995,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0039",
+            "text": "priority",
+            "coordinates": [
+              126.25161666666668,
+              317.321074074074,
+              45.99080000000003,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0040",
+            "text": "in",
+            "coordinates": [
+              176.24135000000004,
+              317.321074074074,
+              11.858800000000002,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0041",
+            "text": "both",
+            "coordinates": [
+              192.4088166666667,
+              317.321074074074,
+              29.84786666666671,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0042",
+            "text": "payment",
+            "coordinates": [
+              226.22648333333333,
+              317.321074074074,
+              58.57486666666662,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0043",
+            "text": "investment",
+            "coordinates": [
+              716.057111111111,
+              331.5087777777776,
+              73.90973333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0044",
+            "text": "priorities.",
+            "coordinates": [
+              794.0393777777778,
+              331.5087777777776,
+              62.078533333333354,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0045",
+            "text": "paying",
+            "coordinates": [
+              410.4484722222223,
+              336.88603703703694,
+              44.84233333333331,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0046",
+            "text": "8%",
+            "coordinates": [
+              459.7650722222222,
+              336.88603703703694,
+              22.126000000000012,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0047",
+            "text": "preferred",
+            "coordinates": [
+              485.92680555555563,
+              336.88603703703694,
+              62.33460000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0048",
+            "text": "return",
+            "coordinates": [
+              551.8954055555556,
+              336.88603703703694,
+              40.1825333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0049",
+            "text": "and",
+            "coordinates": [
+              88.92875,
+              336.8864074074073,
+              25.514666666666663,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0050",
+            "text": "liquidation",
+            "coordinates": [
+              118.58341666666666,
+              336.8864074074073,
+              68.83746666666669,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0051",
+            "text": "over",
+            "coordinates": [
+              191.89055000000005,
+              336.8864074074073,
+              29.594866666666658,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0052",
+            "text": "all",
+            "coordinates": [
+              225.71588333333335,
+              336.8864074074073,
+              15.23213333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0053",
+            "text": "other",
+            "coordinates": [
+              245.3778166666667,
+              336.8864074074073,
+              34.92320000000003,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0054",
+            "text": "with",
+            "coordinates": [
+              410.4484722222223,
+              356.45137037037017,
+              27.02499999999996,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0055",
+            "text": "additional",
+            "coordinates": [
+              441.94160555555555,
+              356.45137037037017,
+              65.37213333333338,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0056",
+            "text": "profit",
+            "coordinates": [
+              511.5764055555556,
+              356.45137037037017,
+              34.25006666666669,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0057",
+            "text": "share.",
+            "coordinates": [
+              549.5616722222223,
+              356.45137037037017,
+              42.57913333333324,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0058",
+            "text": "Coulton",
+            "coordinates": [
+              88.92875,
+              356.4517407407406,
+              52.67613333333333,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0059",
+            "text": "Creek",
+            "coordinates": [
+              145.9074166666667,
+              356.4517407407406,
+              40.82193333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0060",
+            "text": "Capital",
+            "coordinates": [
+              190.7298166666667,
+              356.4517407407406,
+              47.554799999999986,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0061",
+            "text": "equity",
+            "coordinates": [
+              242.71441666666666,
+              356.4517407407406,
+              40.990599999999944,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0062",
+            "text": "",
+            "coordinates": [
+              684.7311111111111,
+              367.14877777777775,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0063",
+            "text": "Priority:",
+            "coordinates": [
+              716.0645833333333,
+              369.47944444444437,
+              51.76266666666657,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0064",
+            "text": "Structure",
+            "coordinates": [
+              771.8982499999998,
+              369.47944444444437,
+              62.346866666666756,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0065",
+            "text": "and",
+            "coordinates": [
+              837.8791166666667,
+              369.47944444444437,
+              25.514666666666603,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0066",
+            "text": "waterfall",
+            "coordinates": [
+              867.5291833333333,
+              369.47944444444437,
+              57.055333333333316,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0067",
+            "text": "holders.",
+            "coordinates": [
+              88.92875,
+              376.01707407407383,
+              54.407266666666665,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0068",
+            "text": "are",
+            "coordinates": [
+              716.0619166666667,
+              389.04477777777765,
+              22.187333333333314,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0069",
+            "text": "deal",
+            "coordinates": [
+              742.2205833333333,
+              389.04477777777765,
+              28.88799999999997,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0070",
+            "text": "specific,",
+            "coordinates": [
+              775.3712499999999,
+              389.04477777777765,
+              55.41773333333345,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0071",
+            "text": "and",
+            "coordinates": [
+              834.6928500000001,
+              389.04477777777765,
+              25.514666666666603,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0072",
+            "text": "payouts",
+            "coordinates": [
+              864.5100500000001,
+              389.04477777777765,
+              53.47806666666659,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0073",
+            "text": "are",
+            "coordinates": [
+              921.9901166666666,
+              389.04477777777765,
+              22.187333333333314,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0074",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              392.31359259259267,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0075",
+            "text": "Priority:",
+            "coordinates": [
+              410.4451388888889,
+              394.6442592592593,
+              51.76266666666665,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0076",
+            "text": "Subordinate",
+            "coordinates": [
+              466.28033888888893,
+              394.6442592592593,
+              82.49026666666666,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0077",
+            "text": "to",
+            "coordinates": [
+              552.9060055555557,
+              394.6442592592593,
+              12.858533333333275,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0078",
+            "text": "Senior",
+            "coordinates": [
+              569.7358722222224,
+              394.6442592592593,
+              44.08946666666659,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0079",
+            "text": "independent",
+            "coordinates": [
+              716.0619166666667,
+              408.610111111111,
+              84.04813333333342,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0080",
+            "text": "of",
+            "coordinates": [
+              804.3481833333333,
+              408.610111111111,
+              12.757333333333381,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0081",
+            "text": "Coulton",
+            "coordinates": [
+              821.1765166666668,
+              408.610111111111,
+              52.67613333333322,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0082",
+            "text": "Creek",
+            "coordinates": [
+              878.1551833333333,
+              408.610111111111,
+              40.82193333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0083",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              411.8695185185185,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0084",
+            "text": "Fixed",
+            "coordinates": [
+              88.93208333333334,
+              414.20018518518515,
+              37.190999999999995,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0085",
+            "text": "Returns:",
+            "coordinates": [
+              130.59275,
+              414.20018518518515,
+              57.93533333333332,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0086",
+            "text": "6.5%",
+            "coordinates": [
+              192.43195000000003,
+              414.20018518518515,
+              34.953866666666634,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0087",
+            "text": "-",
+            "coordinates": [
+              231.28508333333335,
+              414.20018518518515,
+              5.106000000000006,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0088",
+            "text": "8.0%",
+            "coordinates": [
+              240.43141666666665,
+              414.20018518518515,
+              34.95540000000001,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0089",
+            "text": "Units",
+            "coordinates": [
+              410.44247222222225,
+              414.20959259259257,
+              34.828133333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0090",
+            "text": "and",
+            "coordinates": [
+              449.4412722222223,
+              414.20959259259257,
+              25.514666666666685,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0091",
+            "text": "Company",
+            "coordinates": [
+              479.09593888888895,
+              414.20959259259257,
+              65.47793333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0092",
+            "text": "Debt,",
+            "coordinates": [
+              548.739938888889,
+              414.20959259259257,
+              36.5853333333333,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0093",
+            "text": "pari",
+            "coordinates": [
+              589.4438055555555,
+              414.20959259259257,
+              25.560666666666677,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0094",
+            "text": "entity",
+            "coordinates": [
+              716.0619166666667,
+              428.1754444444443,
+              36.65586666666659,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0095",
+            "text": "investments.",
+            "coordinates": [
+              756.7213166666667,
+              428.1754444444443,
+              85.90806666666677,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0096",
+            "text": "per",
+            "coordinates": [
+              88.93808333333332,
+              433.76551851851843,
+              22.09533333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0097",
+            "text": "annum",
+            "coordinates": [
+              115.09674999999999,
+              433.76551851851843,
+              46.75133333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0098",
+            "text": "fixed",
+            "coordinates": [
+              165.9114166666667,
+              433.76551851851843,
+              32.353333333333346,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0099",
+            "text": "return,",
+            "coordinates": [
+              202.40015000000005,
+              433.76551851851843,
+              44.41453333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0100",
+            "text": "with",
+            "coordinates": [
+              250.55295,
+              433.76551851851843,
+              27.02499999999996,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0101",
+            "text": "passu",
+            "coordinates": [
+              410.44247222222214,
+              433.77492592592586,
+              40.84799999999996,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0102",
+            "text": "with",
+            "coordinates": [
+              455.43047222222225,
+              433.77492592592586,
+              27.02499999999996,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0103",
+            "text": "Class",
+            "coordinates": [
+              486.7580055555556,
+              433.77492592592586,
+              38.16159999999995,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0104",
+            "text": "A",
+            "coordinates": [
+              529.4184055555556,
+              433.77492592592586,
+              10.227333333333316,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0105",
+            "text": "/",
+            "coordinates": [
+              543.7566055555557,
+              433.77492592592586,
+              4.262666666666664,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0106",
+            "text": "Founder",
+            "coordinates": [
+              552.0902722222222,
+              433.77492592592586,
+              56.917333333333254,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0107",
+            "text": "quarterly",
+            "coordinates": [
+              88.93808333333332,
+              453.3308518518517,
+              59.8184,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0108",
+            "text": "distributions.",
+            "coordinates": [
+              152.42268333333334,
+              453.3308518518517,
+              85.90346666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0109",
+            "text": "Units.",
+            "coordinates": [
+              410.44247222222214,
+              453.3402592592592,
+              39.08466666666668,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0110",
+            "text": "",
+            "coordinates": [
+              684.7311111111111,
+              463.8154444444445,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0111",
+            "text": "Targeted",
+            "coordinates": [
+              716.0645833333333,
+              466.14611111111117,
+              61.676799999999965,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0112",
+            "text": "Returns:",
+            "coordinates": [
+              781.3753833333334,
+              466.14611111111117,
+              57.951866666666604,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0113",
+            "text": "Return",
+            "coordinates": [
+              843.0624499999999,
+              466.14611111111117,
+              46.01533333333332,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0114",
+            "text": "targets",
+            "coordinates": [
+              893.2147166666667,
+              466.14611111111117,
+              46.989000000000026,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0115",
+            "text": "vary",
+            "coordinates": [
+              716.0625833333334,
+              485.71144444444445,
+              28.826666666666593,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0116",
+            "text": "by",
+            "coordinates": [
+              749.0629833333335,
+              485.71144444444445,
+              16.1613333333332,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0117",
+            "text": "offering,",
+            "coordinates": [
+              769.3903833333334,
+              485.71144444444445,
+              55.580266666666645,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0118",
+            "text": "but",
+            "coordinates": [
+              828.54025,
+              485.71144444444445,
+              21.25199999999994,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0119",
+            "text": "opportunities",
+            "coordinates": [
+              853.8632500000001,
+              485.71144444444445,
+              87.62846666666648,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0120",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              488.9802592592593,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0121",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              488.9806296296297,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999964
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0122",
+            "text": "Targeted",
+            "coordinates": [
+              410.4451388888889,
+              491.31092592592597,
+              61.67680000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0123",
+            "text": "Returns:",
+            "coordinates": [
+              475.7559388888889,
+              491.31092592592597,
+              57.951866666666604,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0124",
+            "text": "10%",
+            "coordinates": [
+              537.4430055555555,
+              491.31092592592597,
+              30.62066666666673,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0125",
+            "text": "to",
+            "coordinates": [
+              572.2665388888889,
+              491.31092592592597,
+              12.858533333333353,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0126",
+            "text": "15%",
+            "coordinates": [
+              589.0948722222222,
+              491.31092592592597,
+              30.62066666666673,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0127",
+            "text": "Diversification:",
+            "coordinates": [
+              88.93208333333334,
+              491.31129629629635,
+              99.42933333333333,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0128",
+            "text": "Units",
+            "coordinates": [
+              192.60261666666665,
+              491.31129629629635,
+              34.82660000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0129",
+            "text": "are",
+            "coordinates": [
+              231.59988333333334,
+              491.31129629629635,
+              22.18580000000002,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0130",
+            "text": "are",
+            "coordinates": [
+              716.0625833333334,
+              505.2767777777777,
+              22.187333333333314,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0131",
+            "text": "often",
+            "coordinates": [
+              742.22125,
+              505.2767777777777,
+              34.34819999999993,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0132",
+            "text": "available",
+            "coordinates": [
+              780.2065166666667,
+              505.2767777777777,
+              60.003933333333414,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0133",
+            "text": "across",
+            "coordinates": [
+              845.0128500000002,
+              505.2767777777777,
+              45.155133333333374,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0134",
+            "text": "the",
+            "coordinates": [
+              894.1699833333333,
+              505.2767777777777,
+              21.353199999999916,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0135",
+            "text": "per",
+            "coordinates": [
+              410.4431388888888,
+              510.87625925925926,
+              22.095333333333322,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0136",
+            "text": "annum,",
+            "coordinates": [
+              436.5987388888889,
+              510.87625925925926,
+              51.07533333333328,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0137",
+            "text": "distributed",
+            "coordinates": [
+              491.57793888888887,
+              510.87625925925926,
+              70.67133333333338,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0138",
+            "text": "invested",
+            "coordinates": [
+              88.92474999999999,
+              510.87662962962963,
+              56.84373333333333,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0139",
+            "text": "across",
+            "coordinates": [
+              150.07101666666668,
+              510.87662962962963,
+              45.15513333333335,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0140",
+            "text": "entire",
+            "coordinates": [
+              199.05948333333333,
+              510.87662962962963,
+              38.34713333333334,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0141",
+            "text": "CCC",
+            "coordinates": [
+              241.54201666666668,
+              510.87662962962963,
+              33.070933333333286,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0142",
+            "text": "capital",
+            "coordinates": [
+              716.0625833333334,
+              524.842111111111,
+              44.221333333333256,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0143",
+            "text": "stack",
+            "coordinates": [
+              764.5465833333334,
+              524.842111111111,
+              35.82786666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0144",
+            "text": "from",
+            "coordinates": [
+              804.20625,
+              524.842111111111,
+              30.933466666666714,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0145",
+            "text": "participating",
+            "coordinates": [
+              838.6985833333334,
+              524.842111111111,
+              82.49793333333315,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0146",
+            "text": "in",
+            "coordinates": [
+              925.3365166666667,
+              524.842111111111,
+              11.858799999999944,
+              20.444444444444482
+            ],
+            "font_size_points": 11.04000000000002
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0147",
+            "text": "quarterly.",
+            "coordinates": [
+              410.4431388888888,
+              530.4415925925925,
+              63.91393333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0148",
+            "text": "platform",
+            "coordinates": [
+              88.92474999999999,
+              530.441962962963,
+              55.590999999999994,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0149",
+            "text": "(approx.",
+            "coordinates": [
+              148.07308333333336,
+              530.441962962963,
+              56.07246666666668,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0150",
+            "text": "60+",
+            "coordinates": [
+              208.21654999999998,
+              530.441962962963,
+              25.943999999999985,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0151",
+            "text": "st",
+            "coordinates": [
+              724.5645833333333,
+              542.7961111111111,
+              7.990999999999973,
+              13.555555555555438
+            ],
+            "font_size_points": 7.319999999999993
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0152",
+            "text": "DOT",
+            "coordinates": [
+              736.5665833333334,
+              544.3683333333332,
+              32.368666666666634,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0153",
+            "text": "senior",
+            "coordinates": [
+              773.0691166666668,
+              544.3683333333332,
+              41.59013333333329,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0154",
+            "text": "loans",
+            "coordinates": [
+              818.8851166666668,
+              544.3683333333332,
+              36.48566666666666,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0155",
+            "text": "to",
+            "coordinates": [
+              859.53685,
+              544.3683333333332,
+              12.858533333333353,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0156",
+            "text": "traditional",
+            "coordinates": [
+              876.3667166666668,
+              544.3683333333332,
+              66.37799999999979,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0157",
+            "text": "1",
+            "coordinates": [
+              716.0625833333334,
+              544.4074444444444,
+              8.525333333333329,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0158",
+            "text": "investments).",
+            "coordinates": [
+              88.92474999999999,
+              550.0072962962963,
+              91.07540000000002,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0159",
+            "text": "LP",
+            "coordinates": [
+              716.0659166666666,
+              563.9336666666667,
+              18.72200000000011,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0160",
+            "text": "equity.",
+            "coordinates": [
+              738.8987833333333,
+              563.9336666666667,
+              45.08613333333342,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0161",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              566.0913703703704,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0162",
+            "text": "Historic",
+            "coordinates": [
+              410.4451388888889,
+              568.4220370370371,
+              50.98179999999996,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0163",
+            "text": "Track",
+            "coordinates": [
+              465.5945388888889,
+              568.4220370370371,
+              38.50046666666671,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0164",
+            "text": "Record:",
+            "coordinates": [
+              507.9252722222223,
+              568.4220370370371,
+              53.61586666666661,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0165",
+            "text": "13.6%",
+            "coordinates": [
+              565.6136722222222,
+              568.4220370370371,
+              43.448533333333394,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0166",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              585.6472962962964,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0167",
+            "text": "Minimum",
+            "coordinates": [
+              88.93208333333334,
+              587.977962962963,
+              61.76113333333334,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0168",
+            "text": "Equity",
+            "coordinates": [
+              155.08775,
+              587.977962962963,
+              42.66040000000005,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0169",
+            "text": "Ratio:",
+            "coordinates": [
+              201.75168333333335,
+              587.977962962963,
+              39.94306666666666,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0170",
+            "text": "1:1",
+            "coordinates": [
+              245.93595,
+              587.977962962963,
+              21.353199999999994,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0171",
+            "text": "average",
+            "coordinates": [
+              410.44647222222216,
+              587.9873703703705,
+              55.34413333333335,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0172",
+            "text": "annual",
+            "coordinates": [
+              469.7604055555555,
+              587.9873703703705,
+              45.877333333333326,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0173",
+            "text": "returns",
+            "coordinates": [
+              519.9004055555556,
+              587.9873703703705,
+              47.81699999999994,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0174",
+            "text": "since",
+            "coordinates": [
+              571.5507388888889,
+              587.9873703703705,
+              35.685266666666614,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0175",
+            "text": "",
+            "coordinates": [
+              684.7311111111111,
+              599.8154444444444,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0176",
+            "text": "Historic",
+            "coordinates": [
+              716.0645833333333,
+              602.1461111111112,
+              50.98180000000004,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0177",
+            "text": "Track",
+            "coordinates": [
+              771.2139833333334,
+              602.1461111111112,
+              38.50046666666663,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0178",
+            "text": "Record:",
+            "coordinates": [
+              813.5447166666667,
+              602.1461111111112,
+              53.61572777777768,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0179",
+            "text": "SPV",
+            "coordinates": [
+              871.2329777777777,
+              602.1461111111112,
+              30.559333333333427,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0180",
+            "text": "ratio",
+            "coordinates": [
+              88.92875,
+              607.5432962962964,
+              29.853999999999992,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0181",
+            "text": "of",
+            "coordinates": [
+              122.75255,
+              607.5432962962964,
+              12.757333333333342,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0182",
+            "text": "all",
+            "coordinates": [
+              139.57935,
+              607.5432962962964,
+              15.23213333333335,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0183",
+            "text": "Coulton",
+            "coordinates": [
+              159.23975000000002,
+              607.5432962962964,
+              52.676133333333375,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0184",
+            "text": "Creek",
+            "coordinates": [
+              216.2184166666667,
+              607.5432962962964,
+              40.82346666666664,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0185",
+            "text": "inception",
+            "coordinates": [
+              410.44647222222216,
+              607.5527037037037,
+              61.170800000000014,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0186",
+            "text": "(9/2020).",
+            "coordinates": [
+              475.9259388888889,
+              607.5527037037037,
+              61.40386666666673,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0187",
+            "text": "investments",
+            "coordinates": [
+              716.0657777777777,
+              621.7114444444444,
+              81.64693333333335,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0188",
+            "text": "9-13%+",
+            "coordinates": [
+              801.7147111111112,
+              621.7114444444444,
+              53.290999999999954,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0189",
+            "text": "current",
+            "coordinates": [
+              858.7163777777778,
+              621.7114444444444,
+              47.746466666666585,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0190",
+            "text": "cash",
+            "coordinates": [
+              910.3682444444445,
+              621.7114444444444,
+              32.35179999999992,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0191",
+            "text": "equity",
+            "coordinates": [
+              88.92875,
+              627.1086296296297,
+              40.99060000000001,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0192",
+            "text": "to",
+            "coordinates": [
+              133.92288333333335,
+              627.1086296296297,
+              12.858533333333336,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0193",
+            "text": "Senior",
+            "coordinates": [
+              150.7512166666667,
+              627.1086296296297,
+              44.08946666666671,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0194",
+            "text": "Units",
+            "coordinates": [
+              199.07115000000005,
+              627.1086296296297,
+              34.828133333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0195",
+            "text": "and",
+            "coordinates": [
+              238.2324833333334,
+              627.1086296296297,
+              25.514666666666685,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0196",
+            "text": "returns,",
+            "coordinates": [
+              716.0657777777777,
+              641.2767777777777,
+              52.078133333333355,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0197",
+            "text": "14.2%",
+            "coordinates": [
+              771.7150444444444,
+              641.2767777777777,
+              43.448533333333394,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0198",
+            "text": "average",
+            "coordinates": [
+              819.2008444444444,
+              641.2767777777777,
+              55.341066666666606,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0199",
+            "text": "LP",
+            "coordinates": [
+              878.5132444444444,
+              641.2767777777777,
+              18.721999999999955,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0200",
+            "text": "total",
+            "coordinates": [
+              901.5086444444444,
+              641.2767777777777,
+              29.061266666666718,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0201",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              643.4247037037037,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0202",
+            "text": "Diversification:",
+            "coordinates": [
+              410.4451388888889,
+              645.7553703703704,
+              99.4293333333333,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0203",
+            "text": "Units",
+            "coordinates": [
+              514.1156722222223,
+              645.7553703703704,
+              34.82659999999993,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0204",
+            "text": "are",
+            "coordinates": [
+              553.112938888889,
+              645.7553703703704,
+              22.185799999999983,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0205",
+            "text": "long-term",
+            "coordinates": [
+              88.92875,
+              646.673962962963,
+              64.92899999999997,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0206",
+            "text": "debt.",
+            "coordinates": [
+              157.41661666666664,
+              646.673962962963,
+              34.07986666666668,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0207",
+            "text": "returns.",
+            "coordinates": [
+              716.0657777777777,
+              660.8421111111111,
+              52.078133333333355,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0208",
+            "text": "invested",
+            "coordinates": [
+              410.43780555555554,
+              665.3207037037038,
+              56.84373333333331,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0209",
+            "text": "across",
+            "coordinates": [
+              471.58407222222223,
+              665.3207037037038,
+              45.155133333333374,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0210",
+            "text": "entire",
+            "coordinates": [
+              520.5725388888889,
+              665.3207037037038,
+              38.34713333333334,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0211",
+            "text": "CCC",
+            "coordinates": [
+              563.0550722222222,
+              665.3207037037038,
+              33.07093333333337,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0212",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              682.5361851851852,
+              12.174666666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0213",
+            "text": "Transferrable:",
+            "coordinates": [
+              88.93208333333334,
+              684.866851851852,
+              95.42933333333333,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0214",
+            "text": "Units",
+            "coordinates": [
+              188.09815,
+              684.866851851852,
+              34.828133333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0215",
+            "text": "can",
+            "coordinates": [
+              227.09695,
+              684.866851851852,
+              24.68666666666665,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0216",
+            "text": "be",
+            "coordinates": [
+              255.92361666666673,
+              684.866851851852,
+              17.019999999999968,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0217",
+            "text": "platform",
+            "coordinates": [
+              410.43780555555554,
+              684.8860370370371,
+              55.59100000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0218",
+            "text": "(approx.",
+            "coordinates": [
+              469.5861388888889,
+              684.8860370370371,
+              56.07246666666663,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0219",
+            "text": "60+",
+            "coordinates": [
+              529.7296055555556,
+              684.8860370370371,
+              25.94399999999995,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0220",
+            "text": "",
+            "coordinates": [
+              684.7311111111111,
+              696.4821111111112,
+              12.174666666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0221",
+            "text": "Liquidity:",
+            "coordinates": [
+              716.0645833333333,
+              698.8127777777778,
+              60.26266666666658,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0222",
+            "text": "Investment",
+            "coordinates": [
+              780.5653833333333,
+              698.8127777777778,
+              74.90639999999993,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0223",
+            "text": "timing",
+            "coordinates": [
+              859.2069833333333,
+              698.8127777777778,
+              40.852600000000116,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0224",
+            "text": "and",
+            "coordinates": [
+              904.2011166666666,
+              698.8127777777778,
+              25.514666666666603,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0225",
+            "text": "converted",
+            "coordinates": [
+              88.92675,
+              704.4321851851852,
+              67.16920000000002,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0226",
+            "text": "to",
+            "coordinates": [
+              160.06728333333334,
+              704.4321851851852,
+              12.858533333333336,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0227",
+            "text": "other",
+            "coordinates": [
+              176.89715000000004,
+              704.4321851851852,
+              34.92320000000003,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0228",
+            "text": "investments",
+            "coordinates": [
+              215.71348333333336,
+              704.4321851851852,
+              81.64539999999998,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0229",
+            "text": "investments).",
+            "coordinates": [
+              410.43780555555554,
+              704.4513703703703,
+              91.07540000000004,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0230",
+            "text": "liquidity",
+            "coordinates": [
+              716.06725,
+              718.3781111111111,
+              50.97566666666672,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0231",
+            "text": "varies",
+            "coordinates": [
+              771.3761166666665,
+              718.3781111111111,
+              40.6609333333334,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0232",
+            "text": "by",
+            "coordinates": [
+              816.3763833333333,
+              718.3781111111111,
+              16.165933333333427,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0233",
+            "text": "specific",
+            "coordinates": [
+              836.7145166666666,
+              718.3781111111111,
+              51.15506666666663,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0234",
+            "text": "with",
+            "coordinates": [
+              88.92675,
+              723.9975185185186,
+              27.018866666666653,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0235",
+            "text": "CCC.",
+            "coordinates": [
+              120.42141666666666,
+              723.9975185185186,
+              37.24466666666668,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0236",
+            "text": "investment",
+            "coordinates": [
+              716.06725,
+              737.9434444444445,
+              73.90973333333335,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0237",
+            "text": "offering.",
+            "coordinates": [
+              794.0495166666667,
+              737.9434444444445,
+              55.58180000000005,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0238",
+            "text": "",
+            "coordinates": [
+              379.1118055555556,
+              740.0913703703704,
+              12.174666666666667,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0239",
+            "text": "Liquidity:",
+            "coordinates": [
+              410.4451388888889,
+              742.4220370370371,
+              60.26266666666665,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0240",
+            "text": "Redeem",
+            "coordinates": [
+              474.94900555555563,
+              742.4220370370371,
+              57.74993333333332,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0241",
+            "text": "up",
+            "coordinates": [
+              536.9309388888889,
+              742.4220370370371,
+              17.020000000000046,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0242",
+            "text": "to",
+            "coordinates": [
+              558.0909388888889,
+              742.4220370370371,
+              12.858533333333353,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0243",
+            "text": "10%",
+            "coordinates": [
+              574.9192722222224,
+              742.4220370370371,
+              30.620666666666647,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0244",
+            "text": "",
+            "coordinates": [
+              57.598749999999995,
+              759.6472962962963,
+              12.174666666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0245",
+            "text": "Liquidity:",
+            "coordinates": [
+              88.93208333333334,
+              761.9779629629629,
+              60.26266666666667,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0246",
+            "text": "Redeem",
+            "coordinates": [
+              153.43595,
+              761.9779629629629,
+              57.74993333333332,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0247",
+            "text": "up",
+            "coordinates": [
+              215.41788333333335,
+              761.9779629629629,
+              17.020000000000003,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0248",
+            "text": "to",
+            "coordinates": [
+              236.5778833333334,
+              761.9779629629629,
+              12.858533333333275,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0249",
+            "text": "10%",
+            "coordinates": [
+              253.40621666666675,
+              761.9779629629629,
+              30.620666666666647,
+              20.444444444444482
+            ],
+            "font_size_points": 11.040000000000006
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0250",
+            "text": "every",
+            "coordinates": [
+              410.44780555555553,
+              761.9873703703704,
+              37.32439999999997,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0251",
+            "text": "6",
+            "coordinates": [
+              451.9382722222222,
+              761.9873703703704,
+              8.525333333333329,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0252",
+            "text": "months",
+            "coordinates": [
+              464.5990055555556,
+              761.9873703703704,
+              50.31633333333332,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0253",
+            "text": "(full",
+            "coordinates": [
+              518.7486722222222,
+              761.9873703703704,
+              24.898266666666697,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0254",
+            "text": "every",
+            "coordinates": [
+              88.93475,
+              781.5432962962963,
+              37.32439999999999,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0255",
+            "text": "6",
+            "coordinates": [
+              130.42521666666667,
+              781.5432962962963,
+              8.525333333333329,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0256",
+            "text": "months",
+            "coordinates": [
+              143.08595,
+              781.5432962962963,
+              50.316333333333354,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0257",
+            "text": "(full",
+            "coordinates": [
+              197.23561666666671,
+              781.5432962962963,
+              24.898266666666657,
+              20.444444444444375
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0258",
+            "text": "redemption",
+            "coordinates": [
+              410.44780555555553,
+              781.5527037037036,
+              76.66513333333333,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0259",
+            "text": "in",
+            "coordinates": [
+              490.9156055555556,
+              781.5527037037036,
+              11.858800000000022,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0260",
+            "text": "5",
+            "coordinates": [
+              507.076938888889,
+              781.5527037037036,
+              8.525333333333329,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0261",
+            "text": "years).",
+            "coordinates": [
+              519.7376722222223,
+              781.5527037037036,
+              46.75286666666664,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0262",
+            "text": "redemption",
+            "coordinates": [
+              88.93475,
+              801.1086296296296,
+              76.66513333333336,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0263",
+            "text": "in",
+            "coordinates": [
+              169.40255000000002,
+              801.1086296296296,
+              11.858800000000022,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0264",
+            "text": "5",
+            "coordinates": [
+              185.5638833333334,
+              801.1086296296296,
+              8.525333333333329,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          },
+          {
+            "evidence_id": "p010-r001-native-panel-w0265",
+            "text": "years).",
+            "coordinates": [
+              198.22461666666672,
+              801.1086296296296,
+              46.75286666666664,
+              20.444444444444482
+            ],
+            "font_size_points": 11.039999999999992
+          }
+        ]
+      }
+    },
+    {
+      "region_id": "p010-r002",
+      "page": 10,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 3,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 4,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

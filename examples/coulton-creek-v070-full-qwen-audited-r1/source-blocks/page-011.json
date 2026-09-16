@@ -1,0 +1,2736 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 11,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 11,
+      "block_id": "p011-r003-block",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "text": "TRACK RECORD – FUND LEVEL RETURNS  18.5% INCEPTION TO DATE IRR (UNLEVERED) 35% average total leverage (Senior Units and Line of Credit)",
+        "evidence_text": {
+          "selected": "native",
+          "native": "TRACK RECORD – FUND LEVEL RETURNS\n 18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+          "ocr": "TRACK RECORD - FUND LEVEL RETURNS\n18.5% INCEPTION TO DATE IRR (UNLEVERED)\n35% average total leverage (Senior Units and Line of Credit)",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        46.11125,
+        82.00063,
+        685.222811,
+        156.624185
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99765,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 1,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          526.5605240000002,
+          128.85739999999998
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0001",
+          "p011-ocr-0002",
+          "p011-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "semantic_role": "data_visualization",
+      "page": 11,
+      "block_id": "p011-r002-chart",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "title": "Annual Unlevered Fund Level IRR to Date",
+        "chart_type": "bar",
+        "observations": [
+          {
+            "item_id": "o001",
+            "raw_value": "11.3%",
+            "numeric_value": 11.3,
+            "normalized_value": 0.113,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0012",
+            "value_evidence_id": "p011-ocr-0011",
+            "label_coordinates": [
+              179.435486,
+              779.255317,
+              35.786296,
+              23.936198
+            ],
+            "value_coordinates": [
+              185.483866,
+              530.585124,
+              23.185486,
+              71.808485
+            ],
+            "visual_mark_coordinates": [
+              180.23543653847224,
+              522.5025305605554,
+              34.181414999999994,
+              245.32712076574072
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2014",
+            "confidence": 0.97916,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o002",
+            "raw_value": "12.9%",
+            "numeric_value": 12.9,
+            "normalized_value": 0.129,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0013",
+            "value_evidence_id": "p011-ocr-0010",
+            "label_coordinates": [
+              246.97581,
+              779.920247,
+              34.778219,
+              21.941461
+            ],
+            "value_coordinates": [
+              254.032247,
+              496.010634,
+              21.673401,
+              71.143609
+            ],
+            "visual_mark_coordinates": [
+              248.59828896722217,
+              486.75949665666656,
+              32.96066299500002,
+              281.07012481981485
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2015",
+            "confidence": 0.97752,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o003",
+            "raw_value": "16.7%",
+            "numeric_value": 16.7,
+            "normalized_value": 0.16699999999999998,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0014",
+            "value_evidence_id": "p011-ocr-0009",
+            "label_coordinates": [
+              314.516134,
+              779.920247,
+              34.778219,
+              21.941461
+            ],
+            "value_coordinates": [
+              319.556458,
+              411.569146,
+              24.697571,
+              79.122369
+            ],
+            "visual_mark_coordinates": [
+              315.74034453347224,
+              403.9006792542593,
+              32.960640566249964,
+              363.9289422222222
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2016",
+            "confidence": 0.97816,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o004",
+            "raw_value": "18.9%",
+            "numeric_value": 18.9,
+            "normalized_value": 0.18899999999999997,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0015",
+            "value_evidence_id": "p011-ocr-0005",
+            "label_coordinates": [
+              381.048381,
+              779.255317,
+              35.282267,
+              21.941515
+            ],
+            "value_coordinates": [
+              387.600789,
+              363.031928,
+              23.185506,
+              74.468072
+            ],
+            "visual_mark_coordinates": [
+              382.88240009972225,
+              355.16020018518515,
+              32.96066299500006,
+              412.66942129129626
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2017",
+            "confidence": 0.97775,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o005",
+            "raw_value": "18.5%",
+            "numeric_value": 18.5,
+            "normalized_value": 0.185,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0016",
+            "value_evidence_id": "p011-native-0064",
+            "label_coordinates": [
+              449.092733,
+              779.920247,
+              35.282267,
+              21.941461
+            ],
+            "value_coordinates": [
+              459.8529422222223,
+              378.80399166666666,
+              19.53222222222223,
+              64.07767499999994
+            ],
+            "visual_mark_coordinates": [
+              450.0244780947222,
+              364.90828405907405,
+              34.181414999999994,
+              402.9213374174074
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2018",
+            "confidence": 0.9707,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o006",
+            "raw_value": "19.0%",
+            "numeric_value": 19.0,
+            "normalized_value": 0.19,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0017",
+            "value_evidence_id": "p011-ocr-0006",
+            "label_coordinates": [
+              516.633057,
+              779.920247,
+              34.778239,
+              21.941461
+            ],
+            "value_coordinates": [
+              521.169352,
+              363.696804,
+              25.201619,
+              79.122342
+            ],
+            "visual_mark_coordinates": [
+              517.1665336609722,
+              353.5355046146296,
+              34.181414999999994,
+              414.29411686185176
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2019",
+            "confidence": 0.97779,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o007",
+            "raw_value": "19.1%",
+            "numeric_value": 19.1,
+            "normalized_value": 0.191,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0018",
+            "value_evidence_id": "p011-ocr-0007",
+            "label_coordinates": [
+              583.165324,
+              779.920247,
+              35.282267,
+              21.941461
+            ],
+            "value_coordinates": [
+              587.701619,
+              359.042562,
+              26.713704,
+              76.462755
+            ],
+            "visual_mark_coordinates": [
+              584.3085892272221,
+              351.9108388938888,
+              34.181414999999994,
+              415.9188124324073
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2020",
+            "confidence": 0.97738,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o008",
+            "raw_value": "19.3%",
+            "numeric_value": 19.3,
+            "normalized_value": 0.193,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0019",
+            "value_evidence_id": "p011-native-0065",
+            "label_coordinates": [
+              650.705648,
+              779.920247,
+              34.778239,
+              21.941461
+            ],
+            "value_coordinates": [
+              661.8155811111111,
+              362.32084351851853,
+              19.53222222222223,
+              64.077675
+            ],
+            "visual_mark_coordinates": [
+              651.4506672222223,
+              348.6614776025926,
+              34.181414999999994,
+              419.1681438738888
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2021",
+            "confidence": 0.96875,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o009",
+            "raw_value": "18.8%",
+            "numeric_value": 18.8,
+            "normalized_value": 0.188,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0020",
+            "value_evidence_id": "p011-ocr-0008",
+            "label_coordinates": [
+              718.245931,
+              779.920247,
+              34.778239,
+              21.941461
+            ],
+            "value_coordinates": [
+              723.286296,
+              365.026611,
+              24.697591,
+              75.132975
+            ],
+            "visual_mark_coordinates": [
+              719.8134972222222,
+              358.40956147648143,
+              32.9606629949999,
+              409.42006
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2022",
+            "confidence": 0.97616,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o010",
+            "raw_value": "18.5%",
+            "numeric_value": 18.5,
+            "normalized_value": 0.185,
+            "unit": "percent",
+            "label_evidence_id": "p011-ocr-0021",
+            "value_evidence_id": "p011-native-0066",
+            "label_coordinates": [
+              784.778239,
+              779.255317,
+              35.786296,
+              23.936198
+            ],
+            "value_coordinates": [
+              796.4573866666667,
+              377.900287962963,
+              19.532222222222344,
+              64.07767499999994
+            ],
+            "visual_mark_coordinates": [
+              786.9555752172222,
+              363.2836183383333,
+              32.960618137499864,
+              404.5460329879628
+            ],
+            "grounding_method": "x-aligned OCR value/category with PDF vector bar mark",
+            "series": null,
+            "category": "2023",
+            "confidence": 0.9688,
+            "validation_status": "passed",
+            "errors": []
+          }
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 2,
+          "vertical_line_count": 20,
+          "diagonal_line_count": 0,
+          "rectangle_candidate_count": 11,
+          "bar_candidate_count": 11,
+          "point_candidate_count": 134,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 2,
+          "vertical_axis_candidate_count": 18,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.25789
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p011-r002.json",
+          "sha256": "c14257142a605b2692175967e6ca7448f33df5ac94d67b916fba623d9ee04009"
+        },
+        "region_image": "region-images/p011-r002.png",
+        "expected_observation_count": 10,
+        "emitted_observation_count": 10,
+        "observation_completeness": 1.0
+      },
+      "coordinates": [
+        100.235437,
+        248.661478,
+        799.680757,
+        621.338522
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "PDF vector geometry",
+        "Qwen3-VL semantic linking",
+        "Python reconstruction"
+      ],
+      "confidence": 0.94,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": [
+          "Qwen disagreed with deterministic ownership for 3 value(s); deterministic evidence retained",
+          "Qwen returned 3 grounded binding(s) for 10 deterministic binding(s); deterministic evidence retained",
+          "Qwen semantic reconciliation: 0 confirmed, 0 added, 3 conflicted"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r002",
+        "classification_method": "pdf-vector-bar-cluster",
+        "reading_order": 2,
+        "source_bbox_points": [
+          72.16951430770001,
+          134.2771979054,
+          647.9396592154,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0004",
+          "p011-ocr-0005",
+          "p011-ocr-0006",
+          "p011-ocr-0007",
+          "p011-ocr-0008",
+          "p011-ocr-0009",
+          "p011-ocr-0010",
+          "p011-ocr-0011",
+          "p011-ocr-0012",
+          "p011-ocr-0013",
+          "p011-ocr-0014",
+          "p011-ocr-0015",
+          "p011-ocr-0016",
+          "p011-ocr-0017",
+          "p011-ocr-0018",
+          "p011-ocr-0019",
+          "p011-ocr-0020",
+          "p011-ocr-0021",
+          "p011-ocr-0022",
+          "p011-native-0001",
+          "p011-native-0002",
+          "p011-native-0003",
+          "p011-native-0004",
+          "p011-native-0005",
+          "p011-native-0006",
+          "p011-native-0007",
+          "p011-native-0008",
+          "p011-native-0009",
+          "p011-native-0010",
+          "p011-native-0011",
+          "p011-native-0012",
+          "p011-native-0013",
+          "p011-native-0014",
+          "p011-native-0015",
+          "p011-native-0016",
+          "p011-native-0017",
+          "p011-native-0018",
+          "p011-native-0019",
+          "p011-native-0020",
+          "p011-native-0021",
+          "p011-native-0022",
+          "p011-native-0023",
+          "p011-native-0024",
+          "p011-native-0025",
+          "p011-native-0026",
+          "p011-native-0027",
+          "p011-native-0028",
+          "p011-native-0029",
+          "p011-native-0030",
+          "p011-native-0031",
+          "p011-native-0032",
+          "p011-native-0033",
+          "p011-native-0034",
+          "p011-native-0035",
+          "p011-native-0036",
+          "p011-native-0037",
+          "p011-native-0038",
+          "p011-native-0039",
+          "p011-native-0040",
+          "p011-native-0041",
+          "p011-native-0042",
+          "p011-native-0043",
+          "p011-native-0044",
+          "p011-native-0045",
+          "p011-native-0046",
+          "p011-native-0047",
+          "p011-native-0048",
+          "p011-native-0049",
+          "p011-native-0050",
+          "p011-native-0051",
+          "p011-native-0052",
+          "p011-native-0053",
+          "p011-native-0054",
+          "p011-native-0055",
+          "p011-native-0056",
+          "p011-native-0057",
+          "p011-native-0058",
+          "p011-native-0059",
+          "p011-native-0060",
+          "p011-native-0061",
+          "p011-native-0062",
+          "p011-native-0063",
+          "p011-native-0064",
+          "p011-native-0065",
+          "p011-native-0066"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "page_footer",
+      "page": 11,
+      "block_id": "p011-r001-page-band",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p011-r001-band-001-brand-mark",
+          "p011-r001-band-002-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "page_footer",
+        "child_block_ids": [
+          "p011-r001-band-001-brand-mark",
+          "p011-r001-band-002-block"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python semantic repeated-page-band decomposition"
+      ],
+      "confidence": 0.98111,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 3,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 11,
+      "block_id": "p011-r001-band-001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p011-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p011-r001.json",
+          "sha256": "22208b944199035f01c1f724e43498c757369150094d7885786cb84598bf6759"
+        },
+        "region_image": "region-images/p011-r001-band-001.png"
+      },
+      "coordinates": [
+        144.153229,
+        918.88303,
+        180.94758,
+        48.537218
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python repeated-band decomposition"
+      ],
+      "confidence": 0.98111,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 4,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0025",
+          "p011-ocr-0023"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "running_footer",
+      "page": 11,
+      "block_id": "p011-r001-band-002-block",
+      "hierarchy": {
+        "parent_block_id": "p011-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company Overview - 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview - 2023",
+          "ocr": "Company Overview - 2023",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        744.455648,
+        932.845812,
+        211.189535,
+        26.595703
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99765,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p011-r001-band-002",
+        "classification_method": "semantic repeated-page-band decomposition",
+        "reading_order": 5,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p011-ocr-0024"
+        ],
+        "rendered_page": "page-images/page-011.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-011.png",
+    "rendered_page_sha256": "342503f7565539f6438ace7d10f02aa2d58525122978f0ed15b83726dbe07a3b",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p011-ocr-0001",
+        "text": "TRACK RECORD - FUND LEVEL RETURNS",
+        "confidence": 0.96933,
+        "coordinates": [
+          44.858871,
+          73.138299,
+          575.604833,
+          35.23936
+        ],
+        "polygon": [
+          [
+            44.858871,
+            73.138299
+          ],
+          [
+            620.463704,
+            73.138299
+          ],
+          [
+            620.463704,
+            108.377658
+          ],
+          [
+            44.858871,
+            108.377658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0002",
+        "text": "18.5% INCEPTION TO DATE IRR (UNLEVERED)",
+        "confidence": 0.98775,
+        "coordinates": [
+          107.862905,
+          152.260647,
+          623.487925,
+          49.867011
+        ],
+        "polygon": [
+          [
+            107.862905,
+            152.260647
+          ],
+          [
+            731.35083,
+            154.255317
+          ],
+          [
+            731.35083,
+            202.127658
+          ],
+          [
+            107.862905,
+            200.132975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0003",
+        "text": "35% average total leverage (Senior Units and Line of Credit)",
+        "confidence": 0.99424,
+        "coordinates": [
+          125.0,
+          206.781915,
+          503.02417,
+          32.579793
+        ],
+        "polygon": [
+          [
+            125.0,
+            206.781915
+          ],
+          [
+            628.02417,
+            206.781915
+          ],
+          [
+            628.02417,
+            239.361708
+          ],
+          [
+            125.0,
+            239.361708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0004",
+        "text": "Annual Unlevered Fund Level IRR to Date",
+        "confidence": 0.99792,
+        "coordinates": [
+          301.411296,
+          270.611708,
+          395.665283,
+          31.914903
+        ],
+        "polygon": [
+          [
+            301.411296,
+            270.611708
+          ],
+          [
+            697.076579,
+            271.941488
+          ],
+          [
+            697.076579,
+            302.526611
+          ],
+          [
+            301.411296,
+            301.196804
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0005",
+        "text": "18.9%",
+        "confidence": 0.99944,
+        "coordinates": [
+          387.600789,
+          363.031928,
+          23.185506,
+          74.468072
+        ],
+        "polygon": [
+          [
+            387.600789,
+            363.031928
+          ],
+          [
+            410.786296,
+            363.031928
+          ],
+          [
+            410.786296,
+            437.5
+          ],
+          [
+            387.600789,
+            437.5
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0006",
+        "text": "19.0%",
+        "confidence": 0.999,
+        "coordinates": [
+          521.169352,
+          363.696804,
+          25.201619,
+          79.122342
+        ],
+        "polygon": [
+          [
+            521.169352,
+            363.696804
+          ],
+          [
+            546.370972,
+            363.696804
+          ],
+          [
+            546.370972,
+            442.819146
+          ],
+          [
+            521.169352,
+            442.819146
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0007",
+        "text": "19.1%",
+        "confidence": 0.99833,
+        "coordinates": [
+          587.701619,
+          359.042562,
+          26.713704,
+          76.462755
+        ],
+        "polygon": [
+          [
+            589.717733,
+            359.042562
+          ],
+          [
+            614.415324,
+            360.372342
+          ],
+          [
+            612.39917,
+            435.505317
+          ],
+          [
+            587.701619,
+            434.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0008",
+        "text": "18.8%",
+        "confidence": 0.99982,
+        "coordinates": [
+          723.286296,
+          365.026611,
+          24.697591,
+          75.132975
+        ],
+        "polygon": [
+          [
+            724.294352,
+            365.026611
+          ],
+          [
+            747.983887,
+            365.691488
+          ],
+          [
+            746.97583,
+            440.159587
+          ],
+          [
+            723.286296,
+            439.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0009",
+        "text": "16.7%",
+        "confidence": 0.99977,
+        "coordinates": [
+          319.556458,
+          411.569146,
+          24.697571,
+          79.122369
+        ],
+        "polygon": [
+          [
+            319.556458,
+            411.569146
+          ],
+          [
+            344.254028,
+            411.569146
+          ],
+          [
+            344.254028,
+            490.691515
+          ],
+          [
+            319.556458,
+            490.691515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0010",
+        "text": "12.9%",
+        "confidence": 0.99893,
+        "coordinates": [
+          254.032247,
+          496.010634,
+          21.673401,
+          71.143609
+        ],
+        "polygon": [
+          [
+            254.032247,
+            496.010634
+          ],
+          [
+            275.705648,
+            496.010634
+          ],
+          [
+            275.705648,
+            567.154243
+          ],
+          [
+            254.032247,
+            567.154243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0011",
+        "text": "11.3%",
+        "confidence": 0.99881,
+        "coordinates": [
+          185.483866,
+          530.585124,
+          23.185486,
+          71.808485
+        ],
+        "polygon": [
+          [
+            186.995972,
+            530.585124
+          ],
+          [
+            208.669352,
+            531.25
+          ],
+          [
+            207.157247,
+            602.393609
+          ],
+          [
+            185.483866,
+            601.728733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0012",
+        "text": "2014",
+        "confidence": 0.99999,
+        "coordinates": [
+          179.435486,
+          779.255317,
+          35.786296,
+          23.936198
+        ],
+        "polygon": [
+          [
+            179.435486,
+            779.255317
+          ],
+          [
+            215.221781,
+            779.255317
+          ],
+          [
+            215.221781,
+            803.191515
+          ],
+          [
+            179.435486,
+            803.191515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0013",
+        "text": "2015",
+        "confidence": 0.99999,
+        "coordinates": [
+          246.97581,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "polygon": [
+          [
+            246.97581,
+            779.920247
+          ],
+          [
+            281.754028,
+            779.920247
+          ],
+          [
+            281.754028,
+            801.861708
+          ],
+          [
+            246.97581,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0014",
+        "text": "2016",
+        "confidence": 0.93469,
+        "coordinates": [
+          314.516134,
+          779.920247,
+          34.778219,
+          21.941461
+        ],
+        "polygon": [
+          [
+            314.516134,
+            779.920247
+          ],
+          [
+            349.294352,
+            779.920247
+          ],
+          [
+            349.294352,
+            801.861708
+          ],
+          [
+            314.516134,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0015",
+        "text": "2017",
+        "confidence": 0.99999,
+        "coordinates": [
+          381.048381,
+          779.255317,
+          35.282267,
+          21.941515
+        ],
+        "polygon": [
+          [
+            381.048381,
+            779.255317
+          ],
+          [
+            416.330648,
+            779.255317
+          ],
+          [
+            416.330648,
+            801.196832
+          ],
+          [
+            381.048381,
+            801.196832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0016",
+        "text": "2018",
+        "confidence": 0.99999,
+        "coordinates": [
+          449.092733,
+          779.920247,
+          35.282267,
+          21.941461
+        ],
+        "polygon": [
+          [
+            449.092733,
+            779.920247
+          ],
+          [
+            484.375,
+            779.920247
+          ],
+          [
+            484.375,
+            801.861708
+          ],
+          [
+            449.092733,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0017",
+        "text": "2019",
+        "confidence": 0.99999,
+        "coordinates": [
+          516.633057,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            516.633057,
+            779.920247
+          ],
+          [
+            551.411296,
+            779.920247
+          ],
+          [
+            551.411296,
+            801.861708
+          ],
+          [
+            516.633057,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0018",
+        "text": "2020",
+        "confidence": 0.99999,
+        "coordinates": [
+          583.165324,
+          779.920247,
+          35.282267,
+          21.941461
+        ],
+        "polygon": [
+          [
+            583.165324,
+            779.920247
+          ],
+          [
+            618.447591,
+            779.920247
+          ],
+          [
+            618.447591,
+            801.861708
+          ],
+          [
+            583.165324,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0019",
+        "text": "2021",
+        "confidence": 0.99999,
+        "coordinates": [
+          650.705648,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            650.705648,
+            779.920247
+          ],
+          [
+            685.483887,
+            779.920247
+          ],
+          [
+            685.483887,
+            801.861708
+          ],
+          [
+            650.705648,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0020",
+        "text": "2022",
+        "confidence": 0.99999,
+        "coordinates": [
+          718.245931,
+          779.920247,
+          34.778239,
+          21.941461
+        ],
+        "polygon": [
+          [
+            718.245931,
+            779.920247
+          ],
+          [
+            753.02417,
+            779.920247
+          ],
+          [
+            753.02417,
+            801.861708
+          ],
+          [
+            718.245931,
+            801.861708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0021",
+        "text": "2023",
+        "confidence": 0.99999,
+        "coordinates": [
+          784.778239,
+          779.255317,
+          35.786296,
+          23.936198
+        ],
+        "polygon": [
+          [
+            784.778239,
+            779.255317
+          ],
+          [
+            820.564535,
+            779.255317
+          ],
+          [
+            820.564535,
+            803.191515
+          ],
+          [
+            784.778239,
+            803.191515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0022",
+        "text": "Assumes return of capital for terminal cash flow (no mark to market on current investments).",
+        "confidence": 0.99917,
+        "coordinates": [
+          114.415324,
+          821.143609,
+          792.338664,
+          31.914931
+        ],
+        "polygon": [
+          [
+            114.415324,
+            821.143609
+          ],
+          [
+            906.753988,
+            821.808539
+          ],
+          [
+            906.753988,
+            853.058539
+          ],
+          [
+            114.415324,
+            852.393609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0023",
+        "text": "COULTON CREEK",
+        "confidence": 0.97796,
+        "coordinates": [
+          145.161285,
+          918.88303,
+          179.939524,
+          24.60102
+        ],
+        "polygon": [
+          [
+            145.161285,
+            918.88303
+          ],
+          [
+            325.10081,
+            918.88303
+          ],
+          [
+            325.10081,
+            943.484049
+          ],
+          [
+            145.161285,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0024",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99719,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-ocr-0025",
+        "text": "CAPITAL",
+        "confidence": 0.98427,
+        "coordinates": [
+          144.153229,
+          940.824436,
+          92.741933,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.153229,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            144.153229,
+            967.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p011-native-0001",
+        "text": "*",
+        "confidence": 1.0,
+        "coordinates": [
+          106.55472222222221,
+          829.007962962963,
+          7.585500000000009,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0002",
+        "text": "Assumes",
+        "confidence": 1.0,
+        "coordinates": [
+          118.88847222222219,
+          829.007962962963,
+          80.24055000000001,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0003",
+        "text": "return",
+        "confidence": 1.0,
+        "coordinates": [
+          204.0469222222222,
+          829.007962962963,
+          51.00809999999995,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0004",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          260.04702222222215,
+          829.007962962963,
+          16.255200000000038,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0005",
+        "text": "capital",
+        "confidence": 1.0,
+        "coordinates": [
+          281.5477222222222,
+          829.007962962963,
+          56.48760000000017,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0006",
+        "text": "for",
+        "confidence": 1.0,
+        "coordinates": [
+          343.03902222222246,
+          829.007962962963,
+          22.81694999999999,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0007",
+        "text": "terminal",
+        "confidence": 1.0,
+        "coordinates": [
+          370.86357222222256,
+          829.007962962963,
+          69.31079999999992,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0008",
+        "text": "cash",
+        "confidence": 1.0,
+        "coordinates": [
+          445.17807222222257,
+          829.007962962963,
+          41.34389999999984,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0009",
+        "text": "flow",
+        "confidence": 1.0,
+        "coordinates": [
+          491.5022722222223,
+          829.007962962963,
+          34.74704999999992,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0010",
+        "text": "(no",
+        "confidence": 1.0,
+        "coordinates": [
+          531.5045722222222,
+          829.007962962963,
+          28.175549999999955,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0011",
+        "text": "mark",
+        "confidence": 1.0,
+        "coordinates": [
+          564.828122222222,
+          829.007962962963,
+          43.24124999999989,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0012",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          613.1530222222219,
+          829.007962962963,
+          16.340999999999973,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0013",
+        "text": "market",
+        "confidence": 1.0,
+        "coordinates": [
+          634.8194722222217,
+          829.007962962963,
+          59.568599999999826,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0014",
+        "text": "on",
+        "confidence": 1.0,
+        "coordinates": [
+          699.3020722222215,
+          829.007962962963,
+          21.664499999999897,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0015",
+        "text": "current",
+        "confidence": 1.0,
+        "coordinates": [
+          726.2920222222214,
+          829.007962962963,
+          60.74639999999978,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0016",
+        "text": "investments).",
+        "confidence": 1.0,
+        "coordinates": [
+          791.7827722222211,
+          829.007962962963,
+          115.90410000000018,
+          25.999999999999932
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0017",
+        "text": "11",
+        "confidence": 1.0,
+        "coordinates": [
+          190.5691922222222,
+          573.5661831481482,
+          19.532222222222252,
+          26.17696500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0018",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          190.5691922222222,
+          567.1974081481482,
+          19.532222222222252,
+          6.550739999999922
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0019",
+        "text": "3",
+        "confidence": 1.0,
+        "coordinates": [
+          190.5691922222222,
+          554.069933148148,
+          19.532222222222252,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0020",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          190.5691922222222,
+          535.6654731481481,
+          19.532222222222252,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0021",
+        "text": "21",
+        "confidence": 1.0,
+        "coordinates": [
+          257.89016444444445,
+          538.4654424074074,
+          19.532222222222252,
+          26.17696500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0022",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          257.89016444444445,
+          532.0966674074075,
+          19.532222222222252,
+          6.550739999999922
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0023",
+        "text": "9",
+        "confidence": 1.0,
+        "coordinates": [
+          257.89016444444445,
+          518.9691924074074,
+          19.532222222222252,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0024",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          257.89016444444445,
+          500.56473240740735,
+          19.532222222222252,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0025",
+        "text": "61",
+        "confidence": 1.0,
+        "coordinates": [
+          325.2109977777778,
+          455.79988685185185,
+          19.532222222222252,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0026",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          325.2109977777778,
+          449.43111185185177,
+          19.532222222222252,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0027",
+        "text": "7",
+        "confidence": 1.0,
+        "coordinates": [
+          325.2109977777778,
+          436.3036368518519,
+          19.532222222222252,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0028",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          325.2109977777778,
+          417.89917685185185,
+          19.532222222222252,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0029",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          392.53197,
+          407.17673870370385,
+          19.532222222222217,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0030",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          392.53197,
+          400.8079637037037,
+          19.532222222222217,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0031",
+        "text": "9",
+        "confidence": 1.0,
+        "coordinates": [
+          392.53197,
+          387.68048870370376,
+          19.532222222222217,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0032",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          392.53197,
+          369.27602870370373,
+          19.532222222222217,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0033",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          459.8529422222223,
+          416.70470166666667,
+          19.532222222222217,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0034",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          459.8529422222223,
+          410.3359266666666,
+          19.532222222222217,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0035",
+        "text": "5",
+        "confidence": 1.0,
+        "coordinates": [
+          459.8529422222223,
+          397.20845166666663,
+          19.532222222222217,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0036",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          459.8529422222223,
+          378.80399166666666,
+          19.532222222222217,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0037",
+        "text": "91",
+        "confidence": 1.0,
+        "coordinates": [
+          527.1736366666667,
+          405.5950720370371,
+          19.532222222222217,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0038",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          527.1736366666667,
+          399.226297037037,
+          19.532222222222217,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0039",
+        "text": "0",
+        "confidence": 1.0,
+        "coordinates": [
+          527.1736366666667,
+          386.0988220370371,
+          19.532222222222217,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0040",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          527.1736366666667,
+          367.6943620370371,
+          19.532222222222217,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0041",
+        "text": "91",
+        "confidence": 1.0,
+        "coordinates": [
+          594.4946088888888,
+          403.91729425925934,
+          19.532222222222217,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0042",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          594.4946088888888,
+          397.5485192592592,
+          19.532222222222217,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0043",
+        "text": "1",
+        "confidence": 1.0,
+        "coordinates": [
+          594.4946088888888,
+          384.4210442592593,
+          19.532222222222217,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0044",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          594.4946088888888,
+          366.0165842592593,
+          19.532222222222217,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0045",
+        "text": "91",
+        "confidence": 1.0,
+        "coordinates": [
+          661.8155811111111,
+          400.2215535185186,
+          19.532222222222217,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0046",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          661.8155811111111,
+          393.85277851851845,
+          19.532222222222217,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0047",
+        "text": "3",
+        "confidence": 1.0,
+        "coordinates": [
+          661.8155811111111,
+          380.72530351851856,
+          19.532222222222217,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0048",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          661.8155811111111,
+          362.32084351851853,
+          19.532222222222217,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0049",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          729.1364144444443,
+          409.7669238888889,
+          19.532222222222295,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0050",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          729.1364144444443,
+          403.39814888888884,
+          19.532222222222295,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0051",
+        "text": "8",
+        "confidence": 1.0,
+        "coordinates": [
+          729.1364144444443,
+          390.27067388888884,
+          19.532222222222295,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0052",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          729.1364144444443,
+          371.8662138888888,
+          19.532222222222295,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0053",
+        "text": "81",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4573866666667,
+          415.800997962963,
+          19.532222222222295,
+          26.176964999999928
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0054",
+        "text": ".",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4573866666667,
+          409.4322229629629,
+          19.532222222222295,
+          6.550740000000027
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0055",
+        "text": "5",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4573866666667,
+          396.304747962963,
+          19.532222222222295,
+          13.179464999999965
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0056",
+        "text": "%",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4573866666667,
+          377.900287962963,
+          19.532222222222295,
+          18.58642500000003
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0057",
+        "text": "Annual",
+        "confidence": 1.0,
+        "coordinates": [
+          304.8543055555556,
+          277.3881216666666,
+          67.9643611111111,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0058",
+        "text": "Unlevered",
+        "confidence": 1.0,
+        "coordinates": [
+          376.88001388888887,
+          277.3881216666666,
+          101.57079166666674,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0059",
+        "text": "Fund",
+        "confidence": 1.0,
+        "coordinates": [
+          481.8673472222223,
+          277.3881216666666,
+          47.85709722222222,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0060",
+        "text": "Level",
+        "confidence": 1.0,
+        "coordinates": [
+          533.1409861111113,
+          277.3881216666666,
+          50.87237500000014,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0061",
+        "text": "IRR",
+        "confidence": 1.0,
+        "coordinates": [
+          588.0770277777781,
+          277.3881216666666,
+          32.590513888888964,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0062",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          624.7010555555559,
+          277.3881216666666,
+          21.023444444444394,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0063",
+        "text": "Date",
+        "confidence": 1.0,
+        "coordinates": [
+          649.1178472222225,
+          277.3881216666666,
+          45.848458333333355,
+          30.869074074074113
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0064",
+        "text": "18.5%",
+        "confidence": 1.0,
+        "coordinates": [
+          459.8529422222223,
+          378.80399166666666,
+          19.53222222222223,
+          64.07767499999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0065",
+        "text": "19.3%",
+        "confidence": 1.0,
+        "coordinates": [
+          661.8155811111111,
+          362.32084351851853,
+          19.53222222222223,
+          64.077675
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p011-native-0066",
+        "text": "18.5%",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4573866666667,
+          377.900287962963,
+          19.532222222222344,
+          64.07767499999994
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p011-ocr-0001",
+      "owner_block_id": "p011-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0002",
+      "owner_block_id": "p011-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0003",
+      "owner_block_id": "p011-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0004",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0005",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0006",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0007",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0008",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0009",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0010",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0011",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0012",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0013",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0014",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0015",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0016",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0017",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0018",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0019",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0020",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0021",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0022",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0023",
+      "owner_block_id": "p011-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0024",
+      "owner_block_id": "p011-r001-band-002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-ocr-0025",
+      "owner_block_id": "p011-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0001",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0002",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0003",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0004",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0005",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0006",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0007",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0008",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0009",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0010",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0011",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0012",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0013",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0014",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0015",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0016",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0017",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0018",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0019",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0020",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0021",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0022",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0023",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0024",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0025",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0026",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0027",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0028",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0029",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0030",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0031",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0032",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0033",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0034",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0035",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0036",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0037",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0038",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0039",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0040",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0041",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0042",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0043",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0044",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0045",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0046",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0047",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0048",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0049",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0050",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0051",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0052",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0053",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0054",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0055",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0056",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0057",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0058",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0059",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0060",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0061",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0062",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0063",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0064",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0065",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p011-native-0066",
+      "owner_block_id": "p011-r002-chart",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "complete",
+    "warnings": []
+  }
+}

@@ -1,0 +1,3727 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 1,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.18658,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.57073,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 3,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p001-r004",
+      "page": 1,
+      "kind": "normal_text",
+      "coordinates": [
+        134.63861111111112,
+        90.1482592592592,
+        730.7074500000004,
+        74.00000000000007
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "COULTON CREEK CAPITAL",
+      "metadata": {
+        "median_font_size": 39.960000000000036,
+        "word_count": 3,
+        "source_bbox_points": [
+          96.9398,
+          48.68005999999997,
+          623.0491640000002,
+          88.64006
+        ]
+      }
+    },
+    {
+      "region_id": "p001-r001",
+      "page": 1,
+      "kind": "visual",
+      "coordinates": [
+        407.6666513888889,
+        196.4444196296296,
+        184.66665847222222,
+        330.44442648148146
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          3
+        ],
+        "source_bbox_points": [
+          293.519989,
+          106.07998659999998,
+          426.4799831,
+          284.51997689999996
+        ],
+        "content_bbox_points": [
+          293.519989,
+          106.07998659999998,
+          426.4799831,
+          284.51997689999996
+        ],
+        "ownership_bbox_points": [
+          293.519989,
+          106.07998659999998,
+          440.8799831,
+          284.51997689999996
+        ],
+        "source_member_bboxes": [
+          [
+            293.519989,
+            106.07998659999998,
+            426.4799831,
+            284.51997689999996
+          ]
+        ],
+        "member_coordinates": [
+          [
+            407.6666513888889,
+            196.4444196296296,
+            184.66665847222222,
+            330.44442648148146
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p001-r005",
+      "page": 1,
+      "kind": "normal_text",
+      "coordinates": [
+        319.30527777777775,
+        571.3480740740741,
+        361.20048333333335,
+        51.777777777777736
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Company Overview",
+      "metadata": {
+        "median_font_size": 27.95999999999998,
+        "word_count": 2,
+        "source_bbox_points": [
+          229.8998,
+          308.52796,
+          489.964148,
+          336.48796
+        ]
+      }
+    },
+    {
+      "region_id": "p001-r002",
+      "page": 1,
+      "kind": "visual",
+      "coordinates": [
+        0.0,
+        629.1110849999999,
+        1000.0,
+        370.8889150000001
+      ],
+      "reading_order": 4,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          339.7199859,
+          724.0799833,
+          541.1999812
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          339.7199859,
+          724.0799833,
+          541.1999812
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          339.7199859,
+          720.0,
+          541.1999812
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            339.7199859,
+            724.0799833,
+            541.1999812
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            629.1110849999999,
+            1000.0,
+            370.8889150000001
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "CONFIDENTIAL",
+            "coordinates": [
+              250.84194444444447,
+              796.3288148148148,
+              164.21953333333335,
+              29.555555555555625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "INFORMATION",
+            "coordinates": [
+              421.8511277777777,
+              796.3288148148148,
+              154.33985000000004,
+              29.555555555555625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "MEMORANDUM",
+            "coordinates": [
+              583.1956444444445,
+              796.3288148148148,
+              166.81524999999996,
+              29.555555555555625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Important",
+            "coordinates": [
+              29.417499999999997,
+              848.2266666666666,
+              57.82875000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Note:",
+            "coordinates": [
+              91.75083333333332,
+              847.3766666666666,
+              31.137499999999996,
+              17.516666666666673
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "The",
+            "coordinates": [
+              131.91333333333333,
+              847.3766666666666,
+              21.450000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "information",
+            "coordinates": [
+              157.9133333333333,
+              847.3766666666666,
+              61.792499999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "contained",
+            "coordinates": [
+              224.0883333333333,
+              847.3766666666666,
+              54.28374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              282.7508333333333,
+              847.3766666666666,
+              9.787499999999996,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "this",
+            "coordinates": [
+              297.0883333333333,
+              847.3766666666666,
+              19.420000000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "overview",
+            "coordinates": [
+              320.9258333333333,
+              847.3766666666666,
+              49.18499999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "is",
+            "coordinates": [
+              374.4258333333333,
+              847.3766666666666,
+              9.08750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "provided",
+            "coordinates": [
+              388.0883333333333,
+              847.3766666666666,
+              48.116250000000036,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "only",
+            "coordinates": [
+              440.5883333333333,
+              847.3766666666666,
+              23.083749999999977,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "as",
+            "coordinates": [
+              468.0883333333333,
+              847.3766666666666,
+              13.087500000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "a",
+            "coordinates": [
+              485.7508333333333,
+              847.3766666666666,
+              6.950000000000027,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "summary",
+            "coordinates": [
+              497.0883333333333,
+              847.3766666666666,
+              51.42500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              552.9258333333333,
+              847.3766666666666,
+              10.475000000000042,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              567.9258333333333,
+              847.3766666666666,
+              17.45000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "historical",
+            "coordinates": [
+              589.7633333333334,
+              847.3766666666666,
+              49.44249999999997,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "activities",
+            "coordinates": [
+              643.6008333333334,
+              847.3766666666666,
+              47.90875000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              695.9383333333335,
+              847.3766666666666,
+              10.475000000000042,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Coulton",
+            "coordinates": [
+              710.9383333333335,
+              847.3766666666666,
+              43.11625000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Creek",
+            "coordinates": [
+              758.6008333333334,
+              847.3766666666666,
+              33.25375000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Capital",
+            "coordinates": [
+              796.4383333333335,
+              847.3766666666666,
+              38.77500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "LLC",
+            "coordinates": [
+              839.7758333333335,
+              847.3766666666666,
+              22.86250000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "(the",
+            "coordinates": [
+              866.9383333333335,
+              847.3766666666666,
+              21.61250000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "“Company”",
+            "coordinates": [
+              893.1008333333334,
+              847.3766666666666,
+              61.66999999999992,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              959.2633333333337,
+              847.3766666666666,
+              11.16249999999989,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "“CCC”)",
+            "coordinates": [
+              29.438333333333507,
+              867.3766666666667,
+              39.49625000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              73.43833333333352,
+              867.3766666666667,
+              20.950000000000014,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "does",
+            "coordinates": [
+              98.77583333333348,
+              867.3766666666667,
+              27.083749999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "not",
+            "coordinates": [
+              130.27583333333348,
+              867.3766666666667,
+              17.312499999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "constitute",
+            "coordinates": [
+              151.9508333333335,
+              867.3766666666667,
+              53.44999999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              209.9508333333335,
+              867.3766666666667,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offer",
+            "coordinates": [
+              228.12583333333347,
+              867.3766666666667,
+              25.162500000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              257.6258333333335,
+              867.3766666666667,
+              10.450000000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sell,",
+            "coordinates": [
+              272.4633333333335,
+              867.3766666666667,
+              22.13750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              299.12583333333356,
+              867.3766666666667,
+              11.162500000000009,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              314.6258333333335,
+              867.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicitation",
+            "coordinates": [
+              336.3008333333335,
+              867.3766666666667,
+              58.301250000000046,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              399.13833333333355,
+              867.3766666666667,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              413.81333333333356,
+              867.3766666666667,
+              13.950000000000056,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offer",
+            "coordinates": [
+              432.1508333333335,
+              867.3766666666667,
+              25.162500000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              461.6508333333335,
+              867.3766666666667,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "buy,",
+            "coordinates": [
+              476.48833333333346,
+              867.3766666666667,
+              23.478749999999987,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              504.32583333333343,
+              867.3766666666667,
+              52.917499999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              561.6633333333335,
+              867.3766666666667,
+              11.162500000000048,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "invest",
+            "coordinates": [
+              577.1633333333335,
+              867.3766666666667,
+              32.641250000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              614.1633333333335,
+              867.3766666666667,
+              9.787500000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              628.3258333333335,
+              867.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "membership",
+            "coordinates": [
+              650.0008333333335,
+              867.3766666666667,
+              68.78374999999997,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "interest",
+            "coordinates": [
+              723.1633333333334,
+              867.3766666666667,
+              40.97499999999994,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offered",
+            "coordinates": [
+              768.5008333333335,
+              867.3766666666667,
+              38.949999999999974,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "by",
+            "coordinates": [
+              811.8383333333335,
+              867.3766666666667,
+              13.24999999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "CCC.",
+            "coordinates": [
+              829.5008333333335,
+              867.3766666666667,
+              30.499999999999893,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "No",
+            "coordinates": [
+              864.3383333333336,
+              867.3766666666667,
+              15.95000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "money",
+            "coordinates": [
+              884.8383333333336,
+              867.3766666666667,
+              37.58374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "is",
+            "coordinates": [
+              926.6758333333336,
+              867.3766666666667,
+              9.08750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "being",
+            "coordinates": [
+              940.1758333333336,
+              867.3766666666667,
+              30.616250000000083,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicited",
+            "coordinates": [
+              29.51333333333363,
+              887.3766666666667,
+              45.27500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              79.35083333333364,
+              887.3766666666667,
+              20.78750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "if",
+            "coordinates": [
+              104.68833333333363,
+              887.3766666666667,
+              6.312500000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sent",
+            "coordinates": [
+              115.36333333333363,
+              887.3766666666667,
+              23.646250000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              143.5258333333336,
+              887.3766666666667,
+              9.787500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "response",
+            "coordinates": [
+              157.8633333333336,
+              887.3766666666667,
+              51.29625,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              213.70083333333358,
+              887.3766666666667,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "not",
+            "coordinates": [
+              235.5383333333336,
+              887.3766666666667,
+              17.47500000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              257.53833333333364,
+              887.3766666666667,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accepted.",
+            "coordinates": [
+              275.8758333333336,
+              887.3766666666667,
+              54.25875000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "No",
+            "coordinates": [
+              334.71333333333365,
+              887.3766666666667,
+              15.949999999999973,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sale",
+            "coordinates": [
+              355.0508333333337,
+              887.3766666666667,
+              22.946250000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              382.5508333333336,
+              887.3766666666667,
+              10.475000000000042,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              397.3883333333336,
+              887.3766666666667,
+              52.91624999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              454.8883333333337,
+              887.3766666666667,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              476.7258333333337,
+              887.3766666666667,
+              13.78750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "made",
+            "coordinates": [
+              495.0633333333338,
+              887.3766666666667,
+              31.287500000000062,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              530.7383333333337,
+              887.3766666666667,
+              11.162500000000048,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "commitments",
+            "coordinates": [
+              546.4008333333337,
+              887.3766666666667,
+              74.42125000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              625.4008333333337,
+              887.3766666666667,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "purchase",
+            "coordinates": [
+              640.2383333333337,
+              887.3766666666667,
+              51.45000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accepted",
+            "coordinates": [
+              696.0758333333337,
+              887.3766666666667,
+              50.78375000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "until",
+            "coordinates": [
+              751.4133333333336,
+              887.3766666666667,
+              22.94249999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "delivery",
+            "coordinates": [
+              778.9133333333338,
+              887.3766666666667,
+              43.08375000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              826.4133333333338,
+              887.3766666666667,
+              10.474999999999884,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              841.4133333333338,
+              887.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offering",
+            "coordinates": [
+              863.2508333333337,
+              887.3766666666667,
+              41.783749999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "documents",
+            "coordinates": [
+              909.5883333333338,
+              887.3766666666667,
+              61.09499999999994,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "selling",
+            "coordinates": [
+              29.58833333333375,
+              907.3766666666666,
+              35.45125,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "such",
+            "coordinates": [
+              71.08833333333375,
+              907.3766666666666,
+              26.457499999999996,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              103.42583333333377,
+              907.3766666666666,
+              52.760000000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              162.26333333333378,
+              907.3766666666666,
+              20.78749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "related",
+            "coordinates": [
+              189.10083333333375,
+              907.3766666666666,
+              38.124999999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "documents",
+            "coordinates": [
+              233.26333333333375,
+              907.3766666666666,
+              61.08375,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "including",
+            "coordinates": [
+              300.42583333333374,
+              907.3766666666666,
+              49.28374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "a",
+            "coordinates": [
+              355.7633333333337,
+              907.3766666666666,
+              6.950000000000027,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "subscription",
+            "coordinates": [
+              368.43833333333373,
+              907.3766666666666,
+              66.78374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "agreement",
+            "coordinates": [
+              441.2758333333337,
+              907.3766666666666,
+              59.65375000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "(collectively",
+            "coordinates": [
+              506.93833333333373,
+              907.3766666666666,
+              64.5975,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              577.4383333333337,
+              907.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "“Offering",
+            "coordinates": [
+              600.7758333333337,
+              907.3766666666666,
+              48.60875000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials”),",
+            "coordinates": [
+              655.4383333333336,
+              907.3766666666666,
+              62.2949999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "each",
+            "coordinates": [
+              723.7758333333337,
+              907.3766666666666,
+              27.116250000000107,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              756.9383333333336,
+              907.3766666666666,
+              10.474999999999884,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "which",
+            "coordinates": [
+              773.4383333333336,
+              907.3766666666666,
+              31.78750000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "shall",
+            "coordinates": [
+              811.2758333333336,
+              907.3766666666666,
+              25.607500000000034,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "contain",
+            "coordinates": [
+              842.9383333333337,
+              907.3766666666666,
+              40.121249999999975,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              889.1008333333338,
+              907.3766666666666,
+              17.44999999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "terms",
+            "coordinates": [
+              912.600833333334,
+              907.3766666666666,
+              31.087500000000052,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              949.763333333334,
+              907.3766666666666,
+              20.78749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "conditions",
+            "coordinates": [
+              29.600833333333927,
+              927.3766666666666,
+              56.25500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              89.60083333333392,
+              927.3766666666666,
+              10.475000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              103.60083333333391,
+              927.3766666666666,
+              13.950000000000015,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment.",
+            "coordinates": [
+              121.2633333333339,
+              927.3766666666666,
+              63.81250000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Any",
+            "coordinates": [
+              188.76333333333395,
+              927.3766666666666,
+              21.413750000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offering",
+            "coordinates": [
+              213.76333333333395,
+              927.3766666666666,
+              41.783749999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              259.26333333333395,
+              927.3766666666666,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              273.26333333333395,
+              927.3766666666666,
+              52.75000000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              329.600833333334,
+              927.3766666666666,
+              11.162500000000009,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              344.42583333333397,
+              927.3766666666666,
+              17.45000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicitation",
+            "coordinates": [
+              365.26333333333395,
+              927.3766666666666,
+              58.437500000000064,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              427.42583333333397,
+              927.3766666666666,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              441.42583333333397,
+              927.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "potential",
+            "coordinates": [
+              462.42583333333397,
+              927.3766666666666,
+              47.27500000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment",
+            "coordinates": [
+              513.250833333334,
+              927.3766666666666,
+              60.47500000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "opportunity",
+            "coordinates": [
+              577.250833333334,
+              927.3766666666666,
+              61.91750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "described",
+            "coordinates": [
+              642.750833333334,
+              927.3766666666666,
+              54.12500000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "herein",
+            "coordinates": [
+              700.413333333334,
+              927.3766666666666,
+              34.783750000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              738.913333333334,
+              927.3766666666666,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              759.913333333334,
+              927.3766666666666,
+              13.78750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "made",
+            "coordinates": [
+              777.4133333333338,
+              927.3766666666666,
+              31.283750000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "only",
+            "coordinates": [
+              812.2508333333337,
+              927.3766666666666,
+              23.08375000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "pursuant",
+            "coordinates": [
+              838.9133333333338,
+              927.3766666666666,
+              48.641250000000014,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              891.2383333333338,
+              927.3766666666666,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              905.2383333333336,
+              927.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Offering",
+            "coordinates": [
+              926.2383333333336,
+              927.3766666666666,
+              44.450000000000024,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials.",
+            "coordinates": [
+              29.575833333333417,
+              947.3766666666666,
+              54.31250000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "The",
+            "coordinates": [
+              88.91333333333341,
+              947.3766666666666,
+              21.450000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Offering",
+            "coordinates": [
+              115.41333333333343,
+              947.3766666666666,
+              44.45,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials,",
+            "coordinates": [
+              164.7508333333334,
+              947.3766666666666,
+              54.30750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "when",
+            "coordinates": [
+              224.08833333333342,
+              947.3766666666666,
+              29.783749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "available,",
+            "coordinates": [
+              258.75083333333345,
+              947.3766666666666,
+              52.80875,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              316.5883333333334,
+              947.3766666666666,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              338.9258333333334,
+              947.3766666666666,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "provided",
+            "coordinates": [
+              357.76333333333343,
+              947.3766666666666,
+              47.95,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "for",
+            "coordinates": [
+              410.76333333333343,
+              947.3766666666666,
+              14.499999999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              430.26333333333343,
+              947.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "recipient’s",
+            "coordinates": [
+              452.6008333333335,
+              947.3766666666666,
+              56.26250000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sole",
+            "coordinates": [
+              513.7633333333337,
+              947.3766666666666,
+              22.95500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              541.6008333333336,
+              947.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "exclusive",
+            "coordinates": [
+              567.4383333333336,
+              947.3766666666666,
+              51.45000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "use.",
+            "coordinates": [
+              623.9383333333336,
+              947.3766666666666,
+              23.63750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "The",
+            "coordinates": [
+              652.4383333333337,
+              947.3766666666666,
+              21.450000000000024,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Company",
+            "coordinates": [
+              678.9383333333337,
+              947.3766666666666,
+              53.58375000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "reserves",
+            "coordinates": [
+              737.4383333333337,
+              947.3766666666666,
+              47.91624999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              790.438333333334,
+              947.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "right",
+            "coordinates": [
+              812.7758333333339,
+              947.3766666666666,
+              24.30874999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              841.938333333334,
+              947.3766666666666,
+              10.450000000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accept",
+            "coordinates": [
+              857.438333333334,
+              947.3766666666666,
+              36.80874999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              899.1133333333339,
+              947.3766666666666,
+              11.16249999999989,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "reject",
+            "coordinates": [
+              915.2758333333339,
+              947.3766666666666,
+              30.47874999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "any",
+            "coordinates": [
+              950.7758333333342,
+              947.3766666666666,
+              20.250000000000057,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "subscription",
+            "coordinates": [
+              29.613333333333948,
+              967.3766666666666,
+              67.1175,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "agreement",
+            "coordinates": [
+              99.77583333333395,
+              967.3766666666666,
+              60.14125,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              162.93833333333396,
+              967.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment",
+            "coordinates": [
+              187.27583333333394,
+              967.3766666666666,
+              60.808750000000025,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              251.11333333333394,
+              967.3766666666666,
+              9.787499999999996,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "its",
+            "coordinates": [
+              264.2883333333339,
+              967.3766666666666,
+              12.583750000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sole",
+            "coordinates": [
+              280.2883333333339,
+              967.3766666666666,
+              23.116249999999997,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              306.7883333333339,
+              967.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "absolute",
+            "coordinates": [
+              330.9508333333339,
+              967.3766666666666,
+              47.61750000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "discretion.",
+            "coordinates": [
+              381.7883333333339,
+              967.3766666666666,
+              57.31249999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ]
+      }
+    },
+    {
+      "region_id": "p001-r003",
+      "page": 1,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 5,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "“CCC”)",
+            "coordinates": [
+              29.438333333333507,
+              867.3766666666667,
+              39.49625000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              73.43833333333352,
+              867.3766666666667,
+              20.950000000000014,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "does",
+            "coordinates": [
+              98.77583333333348,
+              867.3766666666667,
+              27.083749999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "not",
+            "coordinates": [
+              130.27583333333348,
+              867.3766666666667,
+              17.312499999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "constitute",
+            "coordinates": [
+              151.9508333333335,
+              867.3766666666667,
+              53.44999999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              209.9508333333335,
+              867.3766666666667,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offer",
+            "coordinates": [
+              228.12583333333347,
+              867.3766666666667,
+              25.162500000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              257.6258333333335,
+              867.3766666666667,
+              10.450000000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sell,",
+            "coordinates": [
+              272.4633333333335,
+              867.3766666666667,
+              22.13750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              299.12583333333356,
+              867.3766666666667,
+              11.162500000000009,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              314.6258333333335,
+              867.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicitation",
+            "coordinates": [
+              336.3008333333335,
+              867.3766666666667,
+              58.301250000000046,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              399.13833333333355,
+              867.3766666666667,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              413.81333333333356,
+              867.3766666666667,
+              13.950000000000056,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offer",
+            "coordinates": [
+              432.1508333333335,
+              867.3766666666667,
+              25.162500000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              461.6508333333335,
+              867.3766666666667,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "buy,",
+            "coordinates": [
+              476.48833333333346,
+              867.3766666666667,
+              23.478749999999987,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              504.32583333333343,
+              867.3766666666667,
+              52.917499999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              561.6633333333335,
+              867.3766666666667,
+              11.162500000000048,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "invest",
+            "coordinates": [
+              577.1633333333335,
+              867.3766666666667,
+              32.641250000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              614.1633333333335,
+              867.3766666666667,
+              9.787500000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              628.3258333333335,
+              867.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "membership",
+            "coordinates": [
+              650.0008333333335,
+              867.3766666666667,
+              68.78374999999997,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "interest",
+            "coordinates": [
+              723.1633333333334,
+              867.3766666666667,
+              40.97499999999994,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offered",
+            "coordinates": [
+              768.5008333333335,
+              867.3766666666667,
+              38.949999999999974,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "by",
+            "coordinates": [
+              811.8383333333335,
+              867.3766666666667,
+              13.24999999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "CCC.",
+            "coordinates": [
+              829.5008333333335,
+              867.3766666666667,
+              30.499999999999893,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "No",
+            "coordinates": [
+              864.3383333333336,
+              867.3766666666667,
+              15.95000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "money",
+            "coordinates": [
+              884.8383333333336,
+              867.3766666666667,
+              37.58374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "is",
+            "coordinates": [
+              926.6758333333336,
+              867.3766666666667,
+              9.08750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "being",
+            "coordinates": [
+              940.1758333333336,
+              867.3766666666667,
+              30.616250000000083,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicited",
+            "coordinates": [
+              29.51333333333363,
+              887.3766666666667,
+              45.27500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              79.35083333333364,
+              887.3766666666667,
+              20.78750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "if",
+            "coordinates": [
+              104.68833333333363,
+              887.3766666666667,
+              6.312500000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sent",
+            "coordinates": [
+              115.36333333333363,
+              887.3766666666667,
+              23.646250000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              143.5258333333336,
+              887.3766666666667,
+              9.787500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "response",
+            "coordinates": [
+              157.8633333333336,
+              887.3766666666667,
+              51.29625,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              213.70083333333358,
+              887.3766666666667,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "not",
+            "coordinates": [
+              235.5383333333336,
+              887.3766666666667,
+              17.47500000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              257.53833333333364,
+              887.3766666666667,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accepted.",
+            "coordinates": [
+              275.8758333333336,
+              887.3766666666667,
+              54.25875000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "No",
+            "coordinates": [
+              334.71333333333365,
+              887.3766666666667,
+              15.949999999999973,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sale",
+            "coordinates": [
+              355.0508333333337,
+              887.3766666666667,
+              22.946250000000035,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              382.5508333333336,
+              887.3766666666667,
+              10.475000000000042,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              397.3883333333336,
+              887.3766666666667,
+              52.91624999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              454.8883333333337,
+              887.3766666666667,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              476.7258333333337,
+              887.3766666666667,
+              13.78750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "made",
+            "coordinates": [
+              495.0633333333338,
+              887.3766666666667,
+              31.287500000000062,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              530.7383333333337,
+              887.3766666666667,
+              11.162500000000048,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "commitments",
+            "coordinates": [
+              546.4008333333337,
+              887.3766666666667,
+              74.42125000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              625.4008333333337,
+              887.3766666666667,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "purchase",
+            "coordinates": [
+              640.2383333333337,
+              887.3766666666667,
+              51.45000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accepted",
+            "coordinates": [
+              696.0758333333337,
+              887.3766666666667,
+              50.78375000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "until",
+            "coordinates": [
+              751.4133333333336,
+              887.3766666666667,
+              22.94249999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "delivery",
+            "coordinates": [
+              778.9133333333338,
+              887.3766666666667,
+              43.08375000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              826.4133333333338,
+              887.3766666666667,
+              10.474999999999884,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              841.4133333333338,
+              887.3766666666667,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offering",
+            "coordinates": [
+              863.2508333333337,
+              887.3766666666667,
+              41.783749999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "documents",
+            "coordinates": [
+              909.5883333333338,
+              887.3766666666667,
+              61.09499999999994,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "selling",
+            "coordinates": [
+              29.58833333333375,
+              907.3766666666666,
+              35.45125,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "such",
+            "coordinates": [
+              71.08833333333375,
+              907.3766666666666,
+              26.457499999999996,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              103.42583333333377,
+              907.3766666666666,
+              52.760000000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              162.26333333333378,
+              907.3766666666666,
+              20.78749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "related",
+            "coordinates": [
+              189.10083333333375,
+              907.3766666666666,
+              38.124999999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "documents",
+            "coordinates": [
+              233.26333333333375,
+              907.3766666666666,
+              61.08375,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "including",
+            "coordinates": [
+              300.42583333333374,
+              907.3766666666666,
+              49.28374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "a",
+            "coordinates": [
+              355.7633333333337,
+              907.3766666666666,
+              6.950000000000027,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "subscription",
+            "coordinates": [
+              368.43833333333373,
+              907.3766666666666,
+              66.78374999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "agreement",
+            "coordinates": [
+              441.2758333333337,
+              907.3766666666666,
+              59.65375000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "(collectively",
+            "coordinates": [
+              506.93833333333373,
+              907.3766666666666,
+              64.5975,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              577.4383333333337,
+              907.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "“Offering",
+            "coordinates": [
+              600.7758333333337,
+              907.3766666666666,
+              48.60875000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials”),",
+            "coordinates": [
+              655.4383333333336,
+              907.3766666666666,
+              62.2949999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "each",
+            "coordinates": [
+              723.7758333333337,
+              907.3766666666666,
+              27.116250000000107,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              756.9383333333336,
+              907.3766666666666,
+              10.474999999999884,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "which",
+            "coordinates": [
+              773.4383333333336,
+              907.3766666666666,
+              31.78750000000008,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "shall",
+            "coordinates": [
+              811.2758333333336,
+              907.3766666666666,
+              25.607500000000034,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "contain",
+            "coordinates": [
+              842.9383333333337,
+              907.3766666666666,
+              40.121249999999975,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              889.1008333333338,
+              907.3766666666666,
+              17.44999999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "terms",
+            "coordinates": [
+              912.600833333334,
+              907.3766666666666,
+              31.087500000000052,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              949.763333333334,
+              907.3766666666666,
+              20.78749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "conditions",
+            "coordinates": [
+              29.600833333333927,
+              927.3766666666666,
+              56.25500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              89.60083333333392,
+              927.3766666666666,
+              10.475000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "an",
+            "coordinates": [
+              103.60083333333391,
+              927.3766666666666,
+              13.950000000000015,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment.",
+            "coordinates": [
+              121.2633333333339,
+              927.3766666666666,
+              63.81250000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Any",
+            "coordinates": [
+              188.76333333333395,
+              927.3766666666666,
+              21.413750000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "offering",
+            "coordinates": [
+              213.76333333333395,
+              927.3766666666666,
+              41.783749999999976,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              259.26333333333395,
+              927.3766666666666,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "securities",
+            "coordinates": [
+              273.26333333333395,
+              927.3766666666666,
+              52.75000000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              329.600833333334,
+              927.3766666666666,
+              11.162500000000009,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              344.42583333333397,
+              927.3766666666666,
+              17.45000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "solicitation",
+            "coordinates": [
+              365.26333333333395,
+              927.3766666666666,
+              58.437500000000064,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "of",
+            "coordinates": [
+              427.42583333333397,
+              927.3766666666666,
+              10.312500000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              441.42583333333397,
+              927.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "potential",
+            "coordinates": [
+              462.42583333333397,
+              927.3766666666666,
+              47.27500000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment",
+            "coordinates": [
+              513.250833333334,
+              927.3766666666666,
+              60.47500000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "opportunity",
+            "coordinates": [
+              577.250833333334,
+              927.3766666666666,
+              61.91750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "described",
+            "coordinates": [
+              642.750833333334,
+              927.3766666666666,
+              54.12500000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "herein",
+            "coordinates": [
+              700.413333333334,
+              927.3766666666666,
+              34.783750000000026,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              738.913333333334,
+              927.3766666666666,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              759.913333333334,
+              927.3766666666666,
+              13.78750000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "made",
+            "coordinates": [
+              777.4133333333338,
+              927.3766666666666,
+              31.283750000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "only",
+            "coordinates": [
+              812.2508333333337,
+              927.3766666666666,
+              23.08375000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "pursuant",
+            "coordinates": [
+              838.9133333333338,
+              927.3766666666666,
+              48.641250000000014,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              891.2383333333338,
+              927.3766666666666,
+              10.287500000000055,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              905.2383333333336,
+              927.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Offering",
+            "coordinates": [
+              926.2383333333336,
+              927.3766666666666,
+              44.450000000000024,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials.",
+            "coordinates": [
+              29.575833333333417,
+              947.3766666666666,
+              54.31250000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "The",
+            "coordinates": [
+              88.91333333333341,
+              947.3766666666666,
+              21.450000000000003,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Offering",
+            "coordinates": [
+              115.41333333333343,
+              947.3766666666666,
+              44.45,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Materials,",
+            "coordinates": [
+              164.7508333333334,
+              947.3766666666666,
+              54.30750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "when",
+            "coordinates": [
+              224.08833333333342,
+              947.3766666666666,
+              29.783749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "available,",
+            "coordinates": [
+              258.75083333333345,
+              947.3766666666666,
+              52.80875,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "will",
+            "coordinates": [
+              316.5883333333334,
+              947.3766666666666,
+              17.283749999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "be",
+            "coordinates": [
+              338.9258333333334,
+              947.3766666666666,
+              13.78749999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "provided",
+            "coordinates": [
+              357.76333333333343,
+              947.3766666666666,
+              47.95,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "for",
+            "coordinates": [
+              410.76333333333343,
+              947.3766666666666,
+              14.499999999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              430.26333333333343,
+              947.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "recipient’s",
+            "coordinates": [
+              452.6008333333335,
+              947.3766666666666,
+              56.26250000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sole",
+            "coordinates": [
+              513.7633333333337,
+              947.3766666666666,
+              22.95500000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              541.6008333333336,
+              947.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "exclusive",
+            "coordinates": [
+              567.4383333333336,
+              947.3766666666666,
+              51.45000000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "use.",
+            "coordinates": [
+              623.9383333333336,
+              947.3766666666666,
+              23.63750000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "The",
+            "coordinates": [
+              652.4383333333337,
+              947.3766666666666,
+              21.450000000000024,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Company",
+            "coordinates": [
+              678.9383333333337,
+              947.3766666666666,
+              53.58375000000004,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "reserves",
+            "coordinates": [
+              737.4383333333337,
+              947.3766666666666,
+              47.91624999999995,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "the",
+            "coordinates": [
+              790.438333333334,
+              947.3766666666666,
+              17.287500000000005,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "right",
+            "coordinates": [
+              812.7758333333339,
+              947.3766666666666,
+              24.30874999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "to",
+            "coordinates": [
+              841.938333333334,
+              947.3766666666666,
+              10.450000000000001,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "accept",
+            "coordinates": [
+              857.438333333334,
+              947.3766666666666,
+              36.80874999999999,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "or",
+            "coordinates": [
+              899.1133333333339,
+              947.3766666666666,
+              11.16249999999989,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "reject",
+            "coordinates": [
+              915.2758333333339,
+              947.3766666666666,
+              30.47874999999986,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "any",
+            "coordinates": [
+              950.7758333333342,
+              947.3766666666666,
+              20.250000000000057,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "subscription",
+            "coordinates": [
+              29.613333333333948,
+              967.3766666666666,
+              67.1175,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "agreement",
+            "coordinates": [
+              99.77583333333395,
+              967.3766666666666,
+              60.14125,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              162.93833333333396,
+              967.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "investment",
+            "coordinates": [
+              187.27583333333394,
+              967.3766666666666,
+              60.808750000000025,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "in",
+            "coordinates": [
+              251.11333333333394,
+              967.3766666666666,
+              9.787499999999996,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "its",
+            "coordinates": [
+              264.2883333333339,
+              967.3766666666666,
+              12.583750000000016,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "sole",
+            "coordinates": [
+              280.2883333333339,
+              967.3766666666666,
+              23.116249999999997,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "and",
+            "coordinates": [
+              306.7883333333339,
+              967.3766666666666,
+              20.950000000000006,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "absolute",
+            "coordinates": [
+              330.9508333333339,
+              967.3766666666666,
+              47.61750000000002,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "discretion.",
+            "coordinates": [
+              381.7883333333339,
+              967.3766666666666,
+              57.31249999999998,
+              16.666666666666668
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 143,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

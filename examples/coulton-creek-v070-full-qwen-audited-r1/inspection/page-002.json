@@ -1,0 +1,179 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 2,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.11297,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.35575,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 1,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p002-r002",
+      "page": 2,
+      "kind": "normal_text",
+      "coordinates": [
+        98.13319444444446,
+        63.64444444444443,
+        146.63333333333338,
+        44.44444444444444
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "OVERVIEW",
+      "metadata": {
+        "median_font_size": 24.0,
+        "word_count": 1,
+        "source_bbox_points": [
+          70.6559,
+          34.367999999999995,
+          176.23190000000002,
+          58.367999999999995
+        ]
+      }
+    },
+    {
+      "region_id": "p002-r001",
+      "page": 2,
+      "kind": "visual",
+      "coordinates": [
+        499.9999576388889,
+        83.33333333333333,
+        467.15156958333336,
+        761.5402814814815
+      ],
+      "reading_order": 2,
+      "classification_method": "pdf-image-object",
+      "confidence": 0.58,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          359.9999695,
+          45.0,
+          696.3490996,
+          456.23175200000003
+        ],
+        "content_bbox_points": [
+          359.9999695,
+          45.0,
+          696.3490996,
+          456.23175200000003
+        ],
+        "ownership_bbox_points": [
+          345.59996950000004,
+          45.0,
+          696.3490996,
+          456.23175200000003
+        ],
+        "source_member_bboxes": [
+          [
+            359.9999695,
+            45.0,
+            696.3490996,
+            456.23175200000003
+          ]
+        ],
+        "member_coordinates": [
+          [
+            499.9999576388889,
+            83.33333333333333,
+            467.15156958333336,
+            761.5402814814815
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": []
+      }
+    },
+    {
+      "region_id": "p002-r003",
+      "page": 2,
+      "kind": "normal_text",
+      "coordinates": [
+        68.33333333333333,
+        192.89844444444446,
+        342.18240000000003,
+        157.59022222222202
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Coulton Creek Capital LLC is a\nprivate investment company that\nseeks out opportunistic debt and\nequity investments in real estate\nopportunities.",
+      "metadata": {
+        "median_font_size": 15.95999999999998,
+        "word_count": 21,
+        "source_bbox_points": [
+          49.2,
+          104.16516000000001,
+          295.571328,
+          189.26387999999992
+        ]
+      }
+    },
+    {
+      "region_id": "p002-r004",
+      "page": 2,
+      "kind": "normal_text",
+      "coordinates": [
+        68.33333333333333,
+        399.1666666666666,
+        367.78933333333345,
+        93.57288888888878
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The firm targets income producing\nreal estate related investments\nbetween $1 million and $25 million.",
+      "metadata": {
+        "median_font_size": 15.95999999999998,
+        "word_count": 15,
+        "source_bbox_points": [
+          49.2,
+          215.54999999999995,
+          314.0083200000001,
+          266.0793599999999
+        ]
+      }
+    },
+    {
+      "region_id": "p002-r005",
+      "page": 2,
+      "kind": "normal_text",
+      "coordinates": [
+        80.83333333333333,
+        736.8237777777779,
+        304.94100000000003,
+        134.73200000000006
+      ],
+      "reading_order": 5,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "COULTON CREEK CAPITAL, LLC\n5613 DTC PARKWAY, SUITE 830\nGREENWOOD VILLAGE, CO 80111\n720-502-1149 │ CCRCAPITAL.COM",
+      "metadata": {
+        "median_font_size": 14.039999999999992,
+        "word_count": 16,
+        "source_bbox_points": [
+          58.2,
+          397.88484,
+          277.75752,
+          470.64012
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1"
+  ]
+}

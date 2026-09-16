@@ -1,0 +1,4177 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 1,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 1,
+      "block_id": "p001-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p001-r004-block",
+          "p001-r001-brand-mark"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p001-r004-block",
+          "p001-r001-brand-mark"
+        ]
+      },
+      "coordinates": [
+        134.638611,
+        90.148259,
+        730.70745,
+        436.740587
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "document_title",
+      "page": 1,
+      "block_id": "p001-r004-block",
+      "hierarchy": {
+        "parent_block_id": "p001-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "COULTON CREEK CAPITAL",
+        "evidence_text": {
+          "selected": "native",
+          "native": "COULTON CREEK CAPITAL",
+          "ocr": "COULTON CREEK CAPITAL",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        134.638611,
+        90.148259,
+        730.70745,
+        74.0
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          96.9398,
+          48.68005999999997,
+          623.0491640000002,
+          88.64006
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 1,
+      "block_id": "p001-r001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p001-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 3,
+          "vertical_line_count": 4,
+          "diagonal_line_count": 8,
+          "rectangle_candidate_count": 2,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 12,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 3,
+          "vertical_axis_candidate_count": 4,
+          "plot_boundary_detected": true,
+          "table_grid_confidence": 0.375,
+          "saturated_pixel_fraction": 0.59561
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p001-r001.json",
+          "sha256": "a5847f477d5ea209dccbac3e8076e557878c9f54afccfcfe66504e5ccb0e7e52"
+        },
+        "region_image": "region-images/p001-r001.png"
+      },
+      "coordinates": [
+        407.666651,
+        196.44442,
+        184.666658,
+        330.444426
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r001",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 3,
+        "source_bbox_points": [
+          293.519989,
+          106.07998659999998,
+          426.4799831,
+          284.51997689999996
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0002",
+          "p001-ocr-0003"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 1,
+      "block_id": "p001-section-002",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p001-r005-block",
+          "p001-r002-content-group"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p001-r005-block",
+          "p001-r002-content-group"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        571.348074,
+        1000.0,
+        428.651926
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.98472,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "one or more child blocks require review"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-section-002",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 4,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "section_heading",
+      "page": 1,
+      "block_id": "p001-r005-block",
+      "hierarchy": {
+        "parent_block_id": "p001-section-002",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "Company Overview",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview",
+          "ocr": "Company Overview",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        319.305278,
+        571.348074,
+        361.200483,
+        51.777778
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 5,
+        "source_bbox_points": [
+          229.8998,
+          308.52796,
+          489.964148,
+          336.48796
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0004"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "content_panel",
+      "page": 1,
+      "block_id": "p001-r002-content-group",
+      "hierarchy": {
+        "parent_block_id": "p001-section-002",
+        "child_block_ids": [
+          "p001-r002-s001-block",
+          "p001-r002-s002-block",
+          "p001-r002-s003-block",
+          "p001-r003-decoration"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "mixed_text_panel",
+        "child_block_ids": [
+          "p001-r002-s001-block",
+          "p001-r002-s002-block",
+          "p001-r002-s003-block",
+          "p001-r003-decoration"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        629.111085,
+        1000.0,
+        370.888915
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python whitespace segmentation"
+      ],
+      "confidence": 0.98472,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "one or more child blocks require review"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r002",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 6,
+        "source_bbox_points": [
+          -4.0800004,
+          339.7199859,
+          724.0799833,
+          541.1999812
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "brand_mark_text",
+      "page": 1,
+      "block_id": "p001-r002-s001-block",
+      "hierarchy": {
+        "parent_block_id": "p001-r002-content-group",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "COULTON CREEK CAPITAL",
+        "evidence_text": {
+          "selected": "ocr",
+          "native": null,
+          "ocr": "COULTON CREEK\nCAPITAL",
+          "token_agreement": null
+        }
+      },
+      "coordinates": [
+        446.068563,
+        684.175564,
+        220.262085,
+        59.840387
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python layout normalization"
+      ],
+      "confidence": 0.98472,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r002-s001",
+        "classification_method": "visual-text-whitespace-segmentation",
+        "reading_order": 7,
+        "source_bbox_points": [
+          321.16936536,
+          369.45480456,
+          479.75806656000003,
+          401.76861354
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0005",
+          "p001-ocr-0006"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "panel_heading",
+      "page": 1,
+      "block_id": "p001-r002-s002-block",
+      "hierarchy": {
+        "parent_block_id": "p001-r002-content-group",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "CONFIDENTIAL INFORMATION MEMORANDUM CONFIDENTIAL INFORMATION MEMORANDUM",
+        "evidence_text": {
+          "selected": "ocr",
+          "native": null,
+          "ocr": "CONFIDENTIAL INFORMATION MEMORANDUM\nCONFIDENTIAL\nINFORMATION\nMEMORANDUM",
+          "token_agreement": null
+        }
+      },
+      "coordinates": [
+        249.495972,
+        789.228733,
+        501.008016,
+        36.655637
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99702,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r002-s002",
+        "classification_method": "visual-text-whitespace-segmentation",
+        "reading_order": 8,
+        "source_bbox_points": [
+          179.63709984000002,
+          426.18351582,
+          540.36287136,
+          445.97756000000004
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0007",
+          "p001-native-0001",
+          "p001-native-0002",
+          "p001-native-0003"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "legal_notice",
+      "page": 1,
+      "block_id": "p001-r002-s003-block",
+      "hierarchy": {
+        "parent_block_id": "p001-r002-content-group",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or Important “CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being “CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents solicited if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents selling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and selling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any Materials. The Offering Materials, when available, will be provided for recipient’s sole and exclusive use. The Company reserves the right to accept or reject any subscription agreement and investment in its sole and absolute discretion. subscription agreement and investment in its sole and absolute discretion.",
+        "evidence_text": {
+          "selected": "ocr",
+          "native": null,
+          "ocr": "Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or\nNote:\nThe\ninformation\ncontained\nin\nthis\noverview\nis\nprovided\nonly\nas\na\nsummary\nof\nthe\nhistorical\nactivities\nof\nCoulton\nCreek\nCapital\nLLC\n(the\n“Company”\nor\nImportant\n“CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being\n“CCC”)\nand\ndoes\nnot\nconstitute\nan\noffer\nto\nsell,\nor\nthe\nsolicitation\nof\nan\noffer\nto\nbuy,\nsecurities\nor\ninvest\nin\nthe\nmembership\ninterest\noffered\nby\nCCC.\nNo\nmoney\nis\nbeing\nsolicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents\nsolicited\nif\nsent\nin\nresponse\nwill\nnot\nbe\naccepted.\nNo\nsale\nof\nsecurities\nwill\nbe\nmade\nor\ncommitments\nto\npurchase\naccepted\nuntil\ndelivery\nof\nthe\noffering\ndocuments\nselling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and\nselling\nsuch\nsecurities\nand\nrelated\ndocuments\nincluding\na\nsubscription\nagreement\n(collectively\nthe\n“Offering\nMaterials”),\neach\nof\nwhich\nshall\ncontain\nthe\nterms\nand\nconditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering\nconditions\nof\nan\ninvestment.\nAny\noffering\nof\nsecurities\nor\nthe\nsolicitation\nof\nthe\npotential\ninvestment\nopportunity\ndescribed\nherein\nwill\nbe\nmade\nonly\npursuant\nto\nthe\nOffering\nMaterials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any\nMaterials.\nThe\nOffering\nMaterials,\nwhen\navailable,\nwill\nbe\nprovided\nfor\nrecipient’s\nsole\nand\nexclusive\nuse.\nThe\nCompany\nreserves\nthe\nright\nto\naccept\nor\nreject\nany\nsubscription agreement and investment in its sole and absolute discretion.\nsubscription\nagreement\nand\ninvestment\nin\nits\nsole\nand\nabsolute\ndiscretion.",
+          "token_agreement": null
+        }
+      },
+      "coordinates": [
+        26.71371,
+        841.755317,
+        946.068517,
+        142.288016
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python layout normalization"
+      ],
+      "confidence": 0.99973,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r002-s003",
+        "classification_method": "visual-text-whitespace-segmentation",
+        "reading_order": 9,
+        "source_bbox_points": [
+          19.2338712,
+          454.54787118,
+          700.4032034400001,
+          531.3833999999999
+        ],
+        "ocr_evidence_ids": [
+          "p001-ocr-0008",
+          "p001-native-0005",
+          "p001-native-0006",
+          "p001-native-0007",
+          "p001-native-0008",
+          "p001-native-0009",
+          "p001-native-0010",
+          "p001-native-0011",
+          "p001-native-0012",
+          "p001-native-0013",
+          "p001-native-0014",
+          "p001-native-0015",
+          "p001-native-0016",
+          "p001-native-0017",
+          "p001-native-0018",
+          "p001-native-0019",
+          "p001-native-0020",
+          "p001-native-0021",
+          "p001-native-0022",
+          "p001-native-0023",
+          "p001-native-0024",
+          "p001-native-0025",
+          "p001-native-0026",
+          "p001-native-0027",
+          "p001-native-0028",
+          "p001-native-0029",
+          "p001-native-0004",
+          "p001-ocr-0009",
+          "p001-native-0030",
+          "p001-native-0031",
+          "p001-native-0032",
+          "p001-native-0033",
+          "p001-native-0034",
+          "p001-native-0035",
+          "p001-native-0036",
+          "p001-native-0037",
+          "p001-native-0038",
+          "p001-native-0039",
+          "p001-native-0040",
+          "p001-native-0041",
+          "p001-native-0042",
+          "p001-native-0043",
+          "p001-native-0044",
+          "p001-native-0045",
+          "p001-native-0046",
+          "p001-native-0047",
+          "p001-native-0048",
+          "p001-native-0049",
+          "p001-native-0050",
+          "p001-native-0051",
+          "p001-native-0052",
+          "p001-native-0053",
+          "p001-native-0054",
+          "p001-native-0055",
+          "p001-native-0056",
+          "p001-native-0057",
+          "p001-native-0058",
+          "p001-native-0059",
+          "p001-native-0060",
+          "p001-ocr-0010",
+          "p001-native-0061",
+          "p001-native-0062",
+          "p001-native-0063",
+          "p001-native-0064",
+          "p001-native-0065",
+          "p001-native-0066",
+          "p001-native-0067",
+          "p001-native-0068",
+          "p001-native-0069",
+          "p001-native-0070",
+          "p001-native-0071",
+          "p001-native-0072",
+          "p001-native-0073",
+          "p001-native-0074",
+          "p001-native-0075",
+          "p001-native-0076",
+          "p001-native-0077",
+          "p001-native-0078",
+          "p001-native-0079",
+          "p001-native-0080",
+          "p001-native-0081",
+          "p001-native-0082",
+          "p001-native-0083",
+          "p001-native-0084",
+          "p001-native-0085",
+          "p001-native-0086",
+          "p001-native-0087",
+          "p001-ocr-0011",
+          "p001-native-0088",
+          "p001-native-0089",
+          "p001-native-0090",
+          "p001-native-0091",
+          "p001-native-0092",
+          "p001-native-0093",
+          "p001-native-0094",
+          "p001-native-0095",
+          "p001-native-0096",
+          "p001-native-0097",
+          "p001-native-0098",
+          "p001-native-0099",
+          "p001-native-0100",
+          "p001-native-0101",
+          "p001-native-0102",
+          "p001-native-0103",
+          "p001-native-0104",
+          "p001-native-0105",
+          "p001-native-0106",
+          "p001-native-0107",
+          "p001-native-0108",
+          "p001-native-0109",
+          "p001-ocr-0012",
+          "p001-native-0110",
+          "p001-native-0111",
+          "p001-native-0112",
+          "p001-native-0113",
+          "p001-native-0114",
+          "p001-native-0115",
+          "p001-native-0116",
+          "p001-native-0117",
+          "p001-native-0118",
+          "p001-native-0119",
+          "p001-native-0120",
+          "p001-native-0121",
+          "p001-native-0122",
+          "p001-native-0123",
+          "p001-native-0124",
+          "p001-native-0125",
+          "p001-native-0126",
+          "p001-native-0127",
+          "p001-native-0128",
+          "p001-native-0129",
+          "p001-native-0130",
+          "p001-native-0131",
+          "p001-native-0132",
+          "p001-native-0133",
+          "p001-native-0134",
+          "p001-native-0135",
+          "p001-ocr-0013",
+          "p001-native-0136",
+          "p001-native-0137",
+          "p001-native-0138",
+          "p001-native-0139",
+          "p001-native-0140",
+          "p001-native-0141",
+          "p001-native-0142",
+          "p001-native-0143",
+          "p001-native-0144",
+          "p001-native-0145",
+          "p001-native-0146",
+          "p001-native-0147",
+          "p001-native-0148",
+          "p001-native-0149",
+          "p001-native-0150",
+          "p001-native-0151",
+          "p001-native-0152",
+          "p001-native-0153",
+          "p001-native-0154",
+          "p001-native-0155",
+          "p001-native-0156",
+          "p001-native-0157",
+          "p001-native-0158",
+          "p001-native-0159",
+          "p001-native-0160",
+          "p001-ocr-0014",
+          "p001-native-0161",
+          "p001-native-0162",
+          "p001-native-0163",
+          "p001-native-0164",
+          "p001-native-0165",
+          "p001-native-0166",
+          "p001-native-0167",
+          "p001-native-0168",
+          "p001-native-0169",
+          "p001-native-0170"
+        ],
+        "rendered_page": "page-images/page-001.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "decoration",
+      "semantic_role": "background_decoration",
+      "page": 1,
+      "block_id": "p001-r003-decoration",
+      "hierarchy": {
+        "parent_block_id": "p001-r002-content-group",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "role": "repeated_page_band",
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 1251,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 25,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 539,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.86359
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p001-r003.json",
+          "sha256": "9e4fdd67da07bfa04993970d6849c87e2aeb100eb4fe90ca44a893ffaa730756"
+        },
+        "region_image": "region-images/p001-r003.png"
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "decorative image overlaps semantic text; retain as background evidence only"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p001-r003",
+        "classification_method": "repeated-page-band",
+        "reading_order": 10,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-001.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-001.png",
+    "rendered_page_sha256": "618be5ab06d20eb918540918bfa9b8ed2cbab912f18e07c568cff423373ad0f3",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p001-ocr-0001",
+        "text": "COULTON CREEK CAPITAL",
+        "confidence": 0.99816,
+        "coordinates": [
+          131.048391,
+          71.143616,
+          736.895131,
+          76.462775
+        ],
+        "polygon": [
+          [
+            131.048391,
+            71.143616
+          ],
+          [
+            867.943522,
+            73.138299
+          ],
+          [
+            867.943522,
+            147.606391
+          ],
+          [
+            131.048391,
+            145.611708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0002",
+        "text": "COULTON CREEK",
+        "confidence": 0.99765,
+        "coordinates": [
+          412.298381,
+          217.42022,
+          174.395182,
+          23.936171
+        ],
+        "polygon": [
+          [
+            412.298381,
+            217.42022
+          ],
+          [
+            586.693563,
+            217.42022
+          ],
+          [
+            586.693563,
+            241.356391
+          ],
+          [
+            412.298381,
+            241.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0003",
+        "text": "CAPITAL",
+        "confidence": 0.9598,
+        "coordinates": [
+          412.298381,
+          484.707465,
+          173.891113,
+          30.585069
+        ],
+        "polygon": [
+          [
+            412.298381,
+            484.707465
+          ],
+          [
+            586.189494,
+            484.707465
+          ],
+          [
+            586.189494,
+            515.292535
+          ],
+          [
+            412.298381,
+            515.292535
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0004",
+        "text": "Company Overview",
+        "confidence": 0.99991,
+        "coordinates": [
+          315.020162,
+          555.851074,
+          370.967712,
+          63.829807
+        ],
+        "polygon": [
+          [
+            315.020162,
+            555.851074
+          ],
+          [
+            685.987874,
+            555.851074
+          ],
+          [
+            685.987874,
+            619.680881
+          ],
+          [
+            315.020162,
+            619.680881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0005",
+        "text": "COULTON CREEK",
+        "confidence": 0.97015,
+        "coordinates": [
+          446.572591,
+          684.175564,
+          219.758057,
+          32.579753
+        ],
+        "polygon": [
+          [
+            446.572591,
+            684.175564
+          ],
+          [
+            666.330648,
+            684.175564
+          ],
+          [
+            666.330648,
+            716.755317
+          ],
+          [
+            446.572591,
+            716.755317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0006",
+        "text": "CAPITAL",
+        "confidence": 0.9993,
+        "coordinates": [
+          446.068563,
+          711.436198,
+          111.391113,
+          32.579753
+        ],
+        "polygon": [
+          [
+            446.068563,
+            712.765951
+          ],
+          [
+            557.459676,
+            711.436198
+          ],
+          [
+            557.459676,
+            742.686198
+          ],
+          [
+            446.068563,
+            744.015951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0007",
+        "text": "CONFIDENTIAL INFORMATION MEMORANDUM",
+        "confidence": 0.98807,
+        "coordinates": [
+          249.495972,
+          789.228733,
+          501.008016,
+          27.92551
+        ],
+        "polygon": [
+          [
+            249.495972,
+            789.228733
+          ],
+          [
+            750.503988,
+            789.228733
+          ],
+          [
+            750.503988,
+            817.154243
+          ],
+          [
+            249.495972,
+            817.154243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0008",
+        "text": "Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the “Company” or",
+        "confidence": 0.99017,
+        "coordinates": [
+          27.721774,
+          841.755317,
+          945.060453,
+          21.941515
+        ],
+        "polygon": [
+          [
+            27.721774,
+            841.755317
+          ],
+          [
+            972.782227,
+            841.755317
+          ],
+          [
+            972.782227,
+            863.696832
+          ],
+          [
+            27.721774,
+            863.696832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0009",
+        "text": "“CCC”) and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being",
+        "confidence": 0.99242,
+        "coordinates": [
+          27.217743,
+          861.037272,
+          945.060496,
+          22.606337
+        ],
+        "polygon": [
+          [
+            27.217743,
+            861.037272
+          ],
+          [
+            972.278239,
+            862.367025
+          ],
+          [
+            972.278239,
+            883.643609
+          ],
+          [
+            27.217743,
+            882.313856
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0010",
+        "text": "solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents",
+        "confidence": 0.99168,
+        "coordinates": [
+          26.71371,
+          882.313856,
+          945.564529,
+          20.611708
+        ],
+        "polygon": [
+          [
+            26.71371,
+            882.313856
+          ],
+          [
+            972.278239,
+            882.978733
+          ],
+          [
+            972.278239,
+            902.925564
+          ],
+          [
+            26.71371,
+            902.260634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0011",
+        "text": "selling such securities and related documents including a subscription agreement (collectively the “Offering Materials”), each of which shall contain the terms and",
+        "confidence": 0.995,
+        "coordinates": [
+          26.71371,
+          902.260634,
+          945.06046,
+          21.276584
+        ],
+        "polygon": [
+          [
+            26.71371,
+            902.260634
+          ],
+          [
+            971.77417,
+            902.260634
+          ],
+          [
+            971.77417,
+            923.537218
+          ],
+          [
+            26.71371,
+            923.537218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0012",
+        "text": "conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering",
+        "confidence": 0.99869,
+        "coordinates": [
+          27.217743,
+          922.207465,
+          945.060496,
+          21.276584
+        ],
+        "polygon": [
+          [
+            27.217743,
+            922.207465
+          ],
+          [
+            972.278239,
+            922.207465
+          ],
+          [
+            972.278239,
+            943.484049
+          ],
+          [
+            27.217743,
+            943.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0013",
+        "text": "Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any",
+        "confidence": 0.99072,
+        "coordinates": [
+          26.71371,
+          942.154297,
+          945.06046,
+          21.276584
+        ],
+        "polygon": [
+          [
+            26.71371,
+            942.154297
+          ],
+          [
+            971.77417,
+            943.484049
+          ],
+          [
+            971.77417,
+            963.430881
+          ],
+          [
+            26.71371,
+            962.101128
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-ocr-0014",
+        "text": "subscription agreement and investment in its sole and absolute discretion.",
+        "confidence": 0.99481,
+        "coordinates": [
+          27.721774,
+          962.765951,
+          411.290311,
+          19.281901
+        ],
+        "polygon": [
+          [
+            27.721774,
+            962.765951
+          ],
+          [
+            439.012085,
+            962.765951
+          ],
+          [
+            439.012085,
+            982.047852
+          ],
+          [
+            27.721774,
+            982.047852
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p001-native-0001",
+        "text": "CONFIDENTIAL",
+        "confidence": 1.0,
+        "coordinates": [
+          250.84194444444447,
+          796.3288148148148,
+          164.21953333333335,
+          29.555555555555625
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0002",
+        "text": "INFORMATION",
+        "confidence": 1.0,
+        "coordinates": [
+          421.8511277777777,
+          796.3288148148148,
+          154.33985000000004,
+          29.555555555555625
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0003",
+        "text": "MEMORANDUM",
+        "confidence": 1.0,
+        "coordinates": [
+          583.1956444444445,
+          796.3288148148148,
+          166.81524999999996,
+          29.555555555555625
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0004",
+        "text": "Important",
+        "confidence": 1.0,
+        "coordinates": [
+          29.417499999999997,
+          848.2266666666666,
+          57.82875000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0005",
+        "text": "Note:",
+        "confidence": 1.0,
+        "coordinates": [
+          91.75083333333332,
+          847.3766666666666,
+          31.137499999999996,
+          17.516666666666673
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0006",
+        "text": "The",
+        "confidence": 1.0,
+        "coordinates": [
+          131.91333333333333,
+          847.3766666666666,
+          21.450000000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0007",
+        "text": "information",
+        "confidence": 1.0,
+        "coordinates": [
+          157.9133333333333,
+          847.3766666666666,
+          61.792499999999976,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0008",
+        "text": "contained",
+        "confidence": 1.0,
+        "coordinates": [
+          224.0883333333333,
+          847.3766666666666,
+          54.28374999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0009",
+        "text": "in",
+        "confidence": 1.0,
+        "coordinates": [
+          282.7508333333333,
+          847.3766666666666,
+          9.787499999999996,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0010",
+        "text": "this",
+        "confidence": 1.0,
+        "coordinates": [
+          297.0883333333333,
+          847.3766666666666,
+          19.420000000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0011",
+        "text": "overview",
+        "confidence": 1.0,
+        "coordinates": [
+          320.9258333333333,
+          847.3766666666666,
+          49.18499999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0012",
+        "text": "is",
+        "confidence": 1.0,
+        "coordinates": [
+          374.4258333333333,
+          847.3766666666666,
+          9.08750000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0013",
+        "text": "provided",
+        "confidence": 1.0,
+        "coordinates": [
+          388.0883333333333,
+          847.3766666666666,
+          48.116250000000036,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0014",
+        "text": "only",
+        "confidence": 1.0,
+        "coordinates": [
+          440.5883333333333,
+          847.3766666666666,
+          23.083749999999977,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0015",
+        "text": "as",
+        "confidence": 1.0,
+        "coordinates": [
+          468.0883333333333,
+          847.3766666666666,
+          13.087500000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0016",
+        "text": "a",
+        "confidence": 1.0,
+        "coordinates": [
+          485.7508333333333,
+          847.3766666666666,
+          6.950000000000027,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0017",
+        "text": "summary",
+        "confidence": 1.0,
+        "coordinates": [
+          497.0883333333333,
+          847.3766666666666,
+          51.42500000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0018",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          552.9258333333333,
+          847.3766666666666,
+          10.475000000000042,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0019",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          567.9258333333333,
+          847.3766666666666,
+          17.45000000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0020",
+        "text": "historical",
+        "confidence": 1.0,
+        "coordinates": [
+          589.7633333333334,
+          847.3766666666666,
+          49.44249999999997,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0021",
+        "text": "activities",
+        "confidence": 1.0,
+        "coordinates": [
+          643.6008333333334,
+          847.3766666666666,
+          47.90875000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0022",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          695.9383333333335,
+          847.3766666666666,
+          10.475000000000042,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0023",
+        "text": "Coulton",
+        "confidence": 1.0,
+        "coordinates": [
+          710.9383333333335,
+          847.3766666666666,
+          43.11625000000008,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0024",
+        "text": "Creek",
+        "confidence": 1.0,
+        "coordinates": [
+          758.6008333333334,
+          847.3766666666666,
+          33.25375000000008,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0025",
+        "text": "Capital",
+        "confidence": 1.0,
+        "coordinates": [
+          796.4383333333335,
+          847.3766666666666,
+          38.77500000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0026",
+        "text": "LLC",
+        "confidence": 1.0,
+        "coordinates": [
+          839.7758333333335,
+          847.3766666666666,
+          22.86250000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0027",
+        "text": "(the",
+        "confidence": 1.0,
+        "coordinates": [
+          866.9383333333335,
+          847.3766666666666,
+          21.61250000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0028",
+        "text": "“Company”",
+        "confidence": 1.0,
+        "coordinates": [
+          893.1008333333334,
+          847.3766666666666,
+          61.66999999999992,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0029",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          959.2633333333337,
+          847.3766666666666,
+          11.16249999999989,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0030",
+        "text": "“CCC”)",
+        "confidence": 1.0,
+        "coordinates": [
+          29.438333333333507,
+          867.3766666666667,
+          39.49625000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0031",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          73.43833333333352,
+          867.3766666666667,
+          20.950000000000014,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0032",
+        "text": "does",
+        "confidence": 1.0,
+        "coordinates": [
+          98.77583333333348,
+          867.3766666666667,
+          27.083749999999995,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0033",
+        "text": "not",
+        "confidence": 1.0,
+        "coordinates": [
+          130.27583333333348,
+          867.3766666666667,
+          17.312499999999986,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0034",
+        "text": "constitute",
+        "confidence": 1.0,
+        "coordinates": [
+          151.9508333333335,
+          867.3766666666667,
+          53.44999999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0035",
+        "text": "an",
+        "confidence": 1.0,
+        "coordinates": [
+          209.9508333333335,
+          867.3766666666667,
+          13.78749999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0036",
+        "text": "offer",
+        "confidence": 1.0,
+        "coordinates": [
+          228.12583333333347,
+          867.3766666666667,
+          25.162500000000026,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0037",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          257.6258333333335,
+          867.3766666666667,
+          10.450000000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0038",
+        "text": "sell,",
+        "confidence": 1.0,
+        "coordinates": [
+          272.4633333333335,
+          867.3766666666667,
+          22.13750000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0039",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          299.12583333333356,
+          867.3766666666667,
+          11.162500000000009,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0040",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          314.6258333333335,
+          867.3766666666667,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0041",
+        "text": "solicitation",
+        "confidence": 1.0,
+        "coordinates": [
+          336.3008333333335,
+          867.3766666666667,
+          58.301250000000046,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0042",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          399.13833333333355,
+          867.3766666666667,
+          10.312500000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0043",
+        "text": "an",
+        "confidence": 1.0,
+        "coordinates": [
+          413.81333333333356,
+          867.3766666666667,
+          13.950000000000056,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0044",
+        "text": "offer",
+        "confidence": 1.0,
+        "coordinates": [
+          432.1508333333335,
+          867.3766666666667,
+          25.162500000000026,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0045",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          461.6508333333335,
+          867.3766666666667,
+          10.287500000000055,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0046",
+        "text": "buy,",
+        "confidence": 1.0,
+        "coordinates": [
+          476.48833333333346,
+          867.3766666666667,
+          23.478749999999987,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0047",
+        "text": "securities",
+        "confidence": 1.0,
+        "coordinates": [
+          504.32583333333343,
+          867.3766666666667,
+          52.917499999999976,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0048",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          561.6633333333335,
+          867.3766666666667,
+          11.162500000000048,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0049",
+        "text": "invest",
+        "confidence": 1.0,
+        "coordinates": [
+          577.1633333333335,
+          867.3766666666667,
+          32.641250000000035,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0050",
+        "text": "in",
+        "confidence": 1.0,
+        "coordinates": [
+          614.1633333333335,
+          867.3766666666667,
+          9.787500000000035,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0051",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          628.3258333333335,
+          867.3766666666667,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0052",
+        "text": "membership",
+        "confidence": 1.0,
+        "coordinates": [
+          650.0008333333335,
+          867.3766666666667,
+          68.78374999999997,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0053",
+        "text": "interest",
+        "confidence": 1.0,
+        "coordinates": [
+          723.1633333333334,
+          867.3766666666667,
+          40.97499999999994,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0054",
+        "text": "offered",
+        "confidence": 1.0,
+        "coordinates": [
+          768.5008333333335,
+          867.3766666666667,
+          38.949999999999974,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0055",
+        "text": "by",
+        "confidence": 1.0,
+        "coordinates": [
+          811.8383333333335,
+          867.3766666666667,
+          13.24999999999995,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0056",
+        "text": "CCC.",
+        "confidence": 1.0,
+        "coordinates": [
+          829.5008333333335,
+          867.3766666666667,
+          30.499999999999893,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0057",
+        "text": "No",
+        "confidence": 1.0,
+        "coordinates": [
+          864.3383333333336,
+          867.3766666666667,
+          15.95000000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0058",
+        "text": "money",
+        "confidence": 1.0,
+        "coordinates": [
+          884.8383333333336,
+          867.3766666666667,
+          37.58374999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0059",
+        "text": "is",
+        "confidence": 1.0,
+        "coordinates": [
+          926.6758333333336,
+          867.3766666666667,
+          9.08750000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0060",
+        "text": "being",
+        "confidence": 1.0,
+        "coordinates": [
+          940.1758333333336,
+          867.3766666666667,
+          30.616250000000083,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0061",
+        "text": "solicited",
+        "confidence": 1.0,
+        "coordinates": [
+          29.51333333333363,
+          887.3766666666667,
+          45.27500000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0062",
+        "text": "if",
+        "confidence": 1.0,
+        "coordinates": [
+          104.68833333333363,
+          887.3766666666667,
+          6.312500000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0063",
+        "text": "sent",
+        "confidence": 1.0,
+        "coordinates": [
+          115.36333333333363,
+          887.3766666666667,
+          23.646250000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0064",
+        "text": "in",
+        "confidence": 1.0,
+        "coordinates": [
+          143.5258333333336,
+          887.3766666666667,
+          9.787500000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0065",
+        "text": "response",
+        "confidence": 1.0,
+        "coordinates": [
+          157.8633333333336,
+          887.3766666666667,
+          51.29625,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0066",
+        "text": "will",
+        "confidence": 1.0,
+        "coordinates": [
+          213.70083333333358,
+          887.3766666666667,
+          17.283749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0067",
+        "text": "not",
+        "confidence": 1.0,
+        "coordinates": [
+          235.5383333333336,
+          887.3766666666667,
+          17.47500000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0068",
+        "text": "be",
+        "confidence": 1.0,
+        "coordinates": [
+          257.53833333333364,
+          887.3766666666667,
+          13.78749999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0069",
+        "text": "accepted.",
+        "confidence": 1.0,
+        "coordinates": [
+          275.8758333333336,
+          887.3766666666667,
+          54.25875000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0070",
+        "text": "No",
+        "confidence": 1.0,
+        "coordinates": [
+          334.71333333333365,
+          887.3766666666667,
+          15.949999999999973,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0071",
+        "text": "sale",
+        "confidence": 1.0,
+        "coordinates": [
+          355.0508333333337,
+          887.3766666666667,
+          22.946250000000035,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0072",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          382.5508333333336,
+          887.3766666666667,
+          10.475000000000042,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0073",
+        "text": "securities",
+        "confidence": 1.0,
+        "coordinates": [
+          397.3883333333336,
+          887.3766666666667,
+          52.91624999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0074",
+        "text": "will",
+        "confidence": 1.0,
+        "coordinates": [
+          454.8883333333337,
+          887.3766666666667,
+          17.283749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0075",
+        "text": "be",
+        "confidence": 1.0,
+        "coordinates": [
+          476.7258333333337,
+          887.3766666666667,
+          13.78750000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0076",
+        "text": "made",
+        "confidence": 1.0,
+        "coordinates": [
+          495.0633333333338,
+          887.3766666666667,
+          31.287500000000062,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0077",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          530.7383333333337,
+          887.3766666666667,
+          11.162500000000048,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0078",
+        "text": "commitments",
+        "confidence": 1.0,
+        "coordinates": [
+          546.4008333333337,
+          887.3766666666667,
+          74.42125000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0079",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          625.4008333333337,
+          887.3766666666667,
+          10.287500000000055,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0080",
+        "text": "purchase",
+        "confidence": 1.0,
+        "coordinates": [
+          640.2383333333337,
+          887.3766666666667,
+          51.45000000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0081",
+        "text": "accepted",
+        "confidence": 1.0,
+        "coordinates": [
+          696.0758333333337,
+          887.3766666666667,
+          50.78375000000008,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0082",
+        "text": "until",
+        "confidence": 1.0,
+        "coordinates": [
+          751.4133333333336,
+          887.3766666666667,
+          22.94249999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0083",
+        "text": "delivery",
+        "confidence": 1.0,
+        "coordinates": [
+          778.9133333333338,
+          887.3766666666667,
+          43.08375000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0084",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          826.4133333333338,
+          887.3766666666667,
+          10.474999999999884,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0085",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          841.4133333333338,
+          887.3766666666667,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0086",
+        "text": "offering",
+        "confidence": 1.0,
+        "coordinates": [
+          863.2508333333337,
+          887.3766666666667,
+          41.783749999999976,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0087",
+        "text": "documents",
+        "confidence": 1.0,
+        "coordinates": [
+          909.5883333333338,
+          887.3766666666667,
+          61.09499999999994,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0088",
+        "text": "selling",
+        "confidence": 1.0,
+        "coordinates": [
+          29.58833333333375,
+          907.3766666666666,
+          35.45125,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0089",
+        "text": "such",
+        "confidence": 1.0,
+        "coordinates": [
+          71.08833333333375,
+          907.3766666666666,
+          26.457499999999996,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0090",
+        "text": "securities",
+        "confidence": 1.0,
+        "coordinates": [
+          103.42583333333377,
+          907.3766666666666,
+          52.760000000000026,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0091",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          162.26333333333378,
+          907.3766666666666,
+          20.78749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0092",
+        "text": "related",
+        "confidence": 1.0,
+        "coordinates": [
+          189.10083333333375,
+          907.3766666666666,
+          38.124999999999986,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0093",
+        "text": "documents",
+        "confidence": 1.0,
+        "coordinates": [
+          233.26333333333375,
+          907.3766666666666,
+          61.08375,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0094",
+        "text": "including",
+        "confidence": 1.0,
+        "coordinates": [
+          300.42583333333374,
+          907.3766666666666,
+          49.28374999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0095",
+        "text": "a",
+        "confidence": 1.0,
+        "coordinates": [
+          355.7633333333337,
+          907.3766666666666,
+          6.950000000000027,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0096",
+        "text": "subscription",
+        "confidence": 1.0,
+        "coordinates": [
+          368.43833333333373,
+          907.3766666666666,
+          66.78374999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0097",
+        "text": "agreement",
+        "confidence": 1.0,
+        "coordinates": [
+          441.2758333333337,
+          907.3766666666666,
+          59.65375000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0098",
+        "text": "(collectively",
+        "confidence": 1.0,
+        "coordinates": [
+          506.93833333333373,
+          907.3766666666666,
+          64.5975,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0099",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          577.4383333333337,
+          907.3766666666666,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0100",
+        "text": "“Offering",
+        "confidence": 1.0,
+        "coordinates": [
+          600.7758333333337,
+          907.3766666666666,
+          48.60875000000004,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0101",
+        "text": "Materials”),",
+        "confidence": 1.0,
+        "coordinates": [
+          655.4383333333336,
+          907.3766666666666,
+          62.2949999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0102",
+        "text": "each",
+        "confidence": 1.0,
+        "coordinates": [
+          723.7758333333337,
+          907.3766666666666,
+          27.116250000000107,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0103",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          756.9383333333336,
+          907.3766666666666,
+          10.474999999999884,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0104",
+        "text": "which",
+        "confidence": 1.0,
+        "coordinates": [
+          773.4383333333336,
+          907.3766666666666,
+          31.78750000000008,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0105",
+        "text": "shall",
+        "confidence": 1.0,
+        "coordinates": [
+          811.2758333333336,
+          907.3766666666666,
+          25.607500000000034,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0106",
+        "text": "contain",
+        "confidence": 1.0,
+        "coordinates": [
+          842.9383333333337,
+          907.3766666666666,
+          40.121249999999975,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0107",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          889.1008333333338,
+          907.3766666666666,
+          17.44999999999995,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0108",
+        "text": "terms",
+        "confidence": 1.0,
+        "coordinates": [
+          912.600833333334,
+          907.3766666666666,
+          31.087500000000052,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0109",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          949.763333333334,
+          907.3766666666666,
+          20.78749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0110",
+        "text": "conditions",
+        "confidence": 1.0,
+        "coordinates": [
+          29.600833333333927,
+          927.3766666666666,
+          56.25500000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0111",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          89.60083333333392,
+          927.3766666666666,
+          10.475000000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0112",
+        "text": "an",
+        "confidence": 1.0,
+        "coordinates": [
+          103.60083333333391,
+          927.3766666666666,
+          13.950000000000015,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0113",
+        "text": "investment.",
+        "confidence": 1.0,
+        "coordinates": [
+          121.2633333333339,
+          927.3766666666666,
+          63.81250000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0114",
+        "text": "Any",
+        "confidence": 1.0,
+        "coordinates": [
+          188.76333333333395,
+          927.3766666666666,
+          21.413750000000004,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0115",
+        "text": "offering",
+        "confidence": 1.0,
+        "coordinates": [
+          213.76333333333395,
+          927.3766666666666,
+          41.783749999999976,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0116",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          259.26333333333395,
+          927.3766666666666,
+          10.312500000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0117",
+        "text": "securities",
+        "confidence": 1.0,
+        "coordinates": [
+          273.26333333333395,
+          927.3766666666666,
+          52.75000000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0118",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          329.600833333334,
+          927.3766666666666,
+          11.162500000000009,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0119",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          344.42583333333397,
+          927.3766666666666,
+          17.45000000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0120",
+        "text": "solicitation",
+        "confidence": 1.0,
+        "coordinates": [
+          365.26333333333395,
+          927.3766666666666,
+          58.437500000000064,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0121",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          427.42583333333397,
+          927.3766666666666,
+          10.312500000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0122",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          441.42583333333397,
+          927.3766666666666,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0123",
+        "text": "potential",
+        "confidence": 1.0,
+        "coordinates": [
+          462.42583333333397,
+          927.3766666666666,
+          47.27500000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0124",
+        "text": "investment",
+        "confidence": 1.0,
+        "coordinates": [
+          513.250833333334,
+          927.3766666666666,
+          60.47500000000004,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0125",
+        "text": "opportunity",
+        "confidence": 1.0,
+        "coordinates": [
+          577.250833333334,
+          927.3766666666666,
+          61.91750000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0126",
+        "text": "described",
+        "confidence": 1.0,
+        "coordinates": [
+          642.750833333334,
+          927.3766666666666,
+          54.12500000000004,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0127",
+        "text": "herein",
+        "confidence": 1.0,
+        "coordinates": [
+          700.413333333334,
+          927.3766666666666,
+          34.783750000000026,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0128",
+        "text": "will",
+        "confidence": 1.0,
+        "coordinates": [
+          738.913333333334,
+          927.3766666666666,
+          17.283749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0129",
+        "text": "be",
+        "confidence": 1.0,
+        "coordinates": [
+          759.913333333334,
+          927.3766666666666,
+          13.78750000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0130",
+        "text": "made",
+        "confidence": 1.0,
+        "coordinates": [
+          777.4133333333338,
+          927.3766666666666,
+          31.283750000000055,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0131",
+        "text": "only",
+        "confidence": 1.0,
+        "coordinates": [
+          812.2508333333337,
+          927.3766666666666,
+          23.08375000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0132",
+        "text": "pursuant",
+        "confidence": 1.0,
+        "coordinates": [
+          838.9133333333338,
+          927.3766666666666,
+          48.641250000000014,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0133",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          891.2383333333338,
+          927.3766666666666,
+          10.287500000000055,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0134",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          905.2383333333336,
+          927.3766666666666,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0135",
+        "text": "Offering",
+        "confidence": 1.0,
+        "coordinates": [
+          926.2383333333336,
+          927.3766666666666,
+          44.450000000000024,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0136",
+        "text": "Materials.",
+        "confidence": 1.0,
+        "coordinates": [
+          29.575833333333417,
+          947.3766666666666,
+          54.31250000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0137",
+        "text": "The",
+        "confidence": 1.0,
+        "coordinates": [
+          88.91333333333341,
+          947.3766666666666,
+          21.450000000000003,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0138",
+        "text": "Offering",
+        "confidence": 1.0,
+        "coordinates": [
+          115.41333333333343,
+          947.3766666666666,
+          44.45,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0139",
+        "text": "Materials,",
+        "confidence": 1.0,
+        "coordinates": [
+          164.7508333333334,
+          947.3766666666666,
+          54.30750000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0140",
+        "text": "when",
+        "confidence": 1.0,
+        "coordinates": [
+          224.08833333333342,
+          947.3766666666666,
+          29.783749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0141",
+        "text": "available,",
+        "confidence": 1.0,
+        "coordinates": [
+          258.75083333333345,
+          947.3766666666666,
+          52.80875,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0142",
+        "text": "will",
+        "confidence": 1.0,
+        "coordinates": [
+          316.5883333333334,
+          947.3766666666666,
+          17.283749999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0143",
+        "text": "be",
+        "confidence": 1.0,
+        "coordinates": [
+          338.9258333333334,
+          947.3766666666666,
+          13.78749999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0144",
+        "text": "provided",
+        "confidence": 1.0,
+        "coordinates": [
+          357.76333333333343,
+          947.3766666666666,
+          47.95,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0145",
+        "text": "for",
+        "confidence": 1.0,
+        "coordinates": [
+          410.76333333333343,
+          947.3766666666666,
+          14.499999999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0146",
+        "text": "recipient’s",
+        "confidence": 1.0,
+        "coordinates": [
+          452.6008333333335,
+          947.3766666666666,
+          56.26250000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0147",
+        "text": "sole",
+        "confidence": 1.0,
+        "coordinates": [
+          513.7633333333337,
+          947.3766666666666,
+          22.95500000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0148",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          541.6008333333336,
+          947.3766666666666,
+          20.950000000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0149",
+        "text": "exclusive",
+        "confidence": 1.0,
+        "coordinates": [
+          567.4383333333336,
+          947.3766666666666,
+          51.45000000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0150",
+        "text": "use.",
+        "confidence": 1.0,
+        "coordinates": [
+          623.9383333333336,
+          947.3766666666666,
+          23.63750000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0151",
+        "text": "The",
+        "confidence": 1.0,
+        "coordinates": [
+          652.4383333333337,
+          947.3766666666666,
+          21.450000000000024,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0152",
+        "text": "Company",
+        "confidence": 1.0,
+        "coordinates": [
+          678.9383333333337,
+          947.3766666666666,
+          53.58375000000004,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0153",
+        "text": "reserves",
+        "confidence": 1.0,
+        "coordinates": [
+          737.4383333333337,
+          947.3766666666666,
+          47.91624999999995,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0154",
+        "text": "the",
+        "confidence": 1.0,
+        "coordinates": [
+          790.438333333334,
+          947.3766666666666,
+          17.287500000000005,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0155",
+        "text": "right",
+        "confidence": 1.0,
+        "coordinates": [
+          812.7758333333339,
+          947.3766666666666,
+          24.30874999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0156",
+        "text": "to",
+        "confidence": 1.0,
+        "coordinates": [
+          841.938333333334,
+          947.3766666666666,
+          10.450000000000001,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0157",
+        "text": "accept",
+        "confidence": 1.0,
+        "coordinates": [
+          857.438333333334,
+          947.3766666666666,
+          36.80874999999999,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0158",
+        "text": "or",
+        "confidence": 1.0,
+        "coordinates": [
+          899.1133333333339,
+          947.3766666666666,
+          11.16249999999989,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0159",
+        "text": "reject",
+        "confidence": 1.0,
+        "coordinates": [
+          915.2758333333339,
+          947.3766666666666,
+          30.47874999999986,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0160",
+        "text": "any",
+        "confidence": 1.0,
+        "coordinates": [
+          950.7758333333342,
+          947.3766666666666,
+          20.250000000000057,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0161",
+        "text": "subscription",
+        "confidence": 1.0,
+        "coordinates": [
+          29.613333333333948,
+          967.3766666666666,
+          67.1175,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0162",
+        "text": "agreement",
+        "confidence": 1.0,
+        "coordinates": [
+          99.77583333333395,
+          967.3766666666666,
+          60.14125,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0163",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          162.93833333333396,
+          967.3766666666666,
+          20.950000000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0164",
+        "text": "investment",
+        "confidence": 1.0,
+        "coordinates": [
+          187.27583333333394,
+          967.3766666666666,
+          60.808750000000025,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0165",
+        "text": "in",
+        "confidence": 1.0,
+        "coordinates": [
+          251.11333333333394,
+          967.3766666666666,
+          9.787499999999996,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0166",
+        "text": "its",
+        "confidence": 1.0,
+        "coordinates": [
+          264.2883333333339,
+          967.3766666666666,
+          12.583750000000016,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0167",
+        "text": "sole",
+        "confidence": 1.0,
+        "coordinates": [
+          280.2883333333339,
+          967.3766666666666,
+          23.116249999999997,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0168",
+        "text": "and",
+        "confidence": 1.0,
+        "coordinates": [
+          306.7883333333339,
+          967.3766666666666,
+          20.950000000000006,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0169",
+        "text": "absolute",
+        "confidence": 1.0,
+        "coordinates": [
+          330.9508333333339,
+          967.3766666666666,
+          47.61750000000002,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p001-native-0170",
+        "text": "discretion.",
+        "confidence": 1.0,
+        "coordinates": [
+          381.7883333333339,
+          967.3766666666666,
+          57.31249999999998,
+          16.666666666666668
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p001-ocr-0001",
+      "owner_block_id": "p001-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0002",
+      "owner_block_id": "p001-r001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0003",
+      "owner_block_id": "p001-r001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0004",
+      "owner_block_id": "p001-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0005",
+      "owner_block_id": "p001-r002-s001-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0006",
+      "owner_block_id": "p001-r002-s001-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0007",
+      "owner_block_id": "p001-r002-s002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0008",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0009",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0010",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0011",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0012",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0013",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-ocr-0014",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0001",
+      "owner_block_id": "p001-r002-s002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0002",
+      "owner_block_id": "p001-r002-s002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0003",
+      "owner_block_id": "p001-r002-s002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0004",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0005",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0006",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0007",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0008",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0009",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0010",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0011",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0012",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0013",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0014",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0015",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0016",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0017",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0018",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0019",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0020",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0021",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0022",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0023",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0024",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0025",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0026",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0027",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0028",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0029",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0030",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0031",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0032",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0033",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0034",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0035",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0036",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0037",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0038",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0039",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0040",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0041",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0042",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0043",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0044",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0045",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0046",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0047",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0048",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0049",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0050",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0051",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0052",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0053",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0054",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0055",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0056",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0057",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0058",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0059",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0060",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0061",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0062",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0063",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0064",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0065",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0066",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0067",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0068",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0069",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0070",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0071",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0072",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0073",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0074",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0075",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0076",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0077",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0078",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0079",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0080",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0081",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0082",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0083",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0084",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0085",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0086",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0087",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0088",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0089",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0090",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0091",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0092",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0093",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0094",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0095",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0096",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0097",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0098",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0099",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0100",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0101",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0102",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0103",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0104",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0105",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0106",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0107",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0108",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0109",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0110",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0111",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0112",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0113",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0114",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0115",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0116",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0117",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0118",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0119",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0120",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0121",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0122",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0123",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0124",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0125",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0126",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0127",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0128",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0129",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0130",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0131",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0132",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0133",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0134",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0135",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0136",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0137",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0138",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0139",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0140",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0141",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0142",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0143",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0144",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0145",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0146",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0147",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0148",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0149",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0150",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0151",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0152",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0153",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0154",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0155",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0156",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0157",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0158",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0159",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0160",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0161",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0162",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0163",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0164",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0165",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0166",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0167",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0168",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0169",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p001-native-0170",
+      "owner_block_id": "p001-r002-s003-block",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "needs_review",
+    "warnings": [
+      "3 source blocks require review"
+    ]
+  }
+}

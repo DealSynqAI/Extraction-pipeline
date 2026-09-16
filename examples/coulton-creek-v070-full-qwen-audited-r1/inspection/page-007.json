@@ -1,0 +1,845 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 7,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.09884,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.62813,
+  "vector_line_count": 6,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 2,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p007-r003",
+      "page": 7,
+      "kind": "normal_text",
+      "coordinates": [
+        46.111111111111114,
+        82.00062962962967,
+        686.3199000000004,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 5,
+        "source_bbox_points": [
+          33.2,
+          44.280340000000024,
+          527.3503280000003,
+          64.32033999999999
+        ]
+      }
+    },
+    {
+      "region_id": "p007-r004",
+      "page": 7,
+      "kind": "normal_text",
+      "coordinates": [
+        242.97430555555556,
+        164.93000000000004,
+        504.60421666666696,
+        51.777777777777736
+      ],
+      "reading_order": 2,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "$146 million / 61 Investments",
+      "metadata": {
+        "median_font_size": 27.95999999999998,
+        "word_count": 5,
+        "source_bbox_points": [
+          174.9415,
+          89.06220000000002,
+          538.2565360000002,
+          117.0222
+        ]
+      }
+    },
+    {
+      "region_id": "p007-r001",
+      "page": 7,
+      "kind": "visual",
+      "coordinates": [
+        167.5463273611111,
+        200.7685003703704,
+        676.053606111111,
+        661.0764594444444
+      ],
+      "reading_order": 3,
+      "classification_method": "pdf-image-object-merge",
+      "confidence": 0.72,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "source_bbox_points": [
+          120.6333557,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "content_bbox_points": [
+          207.0333557,
+          151.61499020000002,
+          520.9919520999999,
+          465.3962783
+        ],
+        "ownership_bbox_points": [
+          192.63335569999998,
+          108.41499020000002,
+          607.3919520999999,
+          465.3962783
+        ],
+        "source_member_bboxes": [
+          [
+            362.6755066,
+            225.917511,
+            500.1326922,
+            310.911086
+          ],
+          [
+            363.2103577,
+            229.65939329999998,
+            520.9919520999999,
+            371.8499024
+          ],
+          [
+            220.9395294,
+            307.7037964,
+            505.4812522,
+            465.3962783
+          ],
+          [
+            207.0333557,
+            275.0962219,
+            364.8149501,
+            368.1080587
+          ],
+          [
+            212.3818817,
+            205.6045838,
+            364.8149475,
+            310.91108859999997
+          ],
+          [
+            244.4730377,
+            169.2551575,
+            365.8846375,
+            309.8420142
+          ],
+          [
+            291.5401001,
+            151.61499020000002,
+            442.9034601,
+            309.30747210000004
+          ],
+          [
+            362.1406555,
+            172.46246340000005,
+            496.9235768,
+            309.84201540000004
+          ],
+          [
+            362.6755066,
+            223.2447815,
+            496.9235751,
+            310.3765596
+          ],
+          [
+            362.6755066,
+            223.2447815,
+            499.06298649999997,
+            310.3765596
+          ]
+        ],
+        "member_coordinates": [
+          [
+            503.7159813888889,
+            418.3657611111111,
+            190.91275777777778,
+            157.3955092592593
+          ],
+          [
+            504.45883013888886,
+            425.29517277777774,
+            219.1411033333333,
+            263.3157575925927
+          ],
+          [
+            306.8604575,
+            569.8218451851852,
+            395.1968372222222,
+            292.0231146296297
+          ],
+          [
+            287.5463273611111,
+            509.43744796296295,
+            219.14110333333335,
+            172.24414222222225
+          ],
+          [
+            294.97483569444444,
+            380.74922925925927,
+            211.7125913888889,
+            195.01204592592586
+          ],
+          [
+            339.54588569444445,
+            313.43547685185183,
+            168.62722194444447,
+            260.34603092592596
+          ],
+          [
+            404.9168056944445,
+            280.7685003703704,
+            210.22688888888888,
+            292.0231146296297
+          ],
+          [
+            502.9731326388889,
+            319.3749322222223,
+            187.19850180555554,
+            254.40657777777778
+          ],
+          [
+            503.7159813888889,
+            413.41626203703703,
+            186.45565069444444,
+            161.35514462962968
+          ],
+          [
+            503.7159813888889,
+            413.41626203703703,
+            189.4270554166666,
+            161.35514462962968
+          ]
+        ],
+        "logical_visual_merge": true,
+        "pdf_soft_mask_slices": [
+          {
+            "pdf_image_index": 2,
+            "smask_sha256": "64ef0960eeaebb817bbd180505d7ea12fbc51fe489b4c902ba4d3078809adc65",
+            "projected_alpha_area": 78.08597891644196,
+            "source_bbox_points": [
+              362.6755066,
+              225.917511,
+              500.1326922,
+              310.911086
+            ],
+            "mark_coordinates": [
+              521.5444101307826,
+              424.3052142907058,
+              169.3700730479896,
+              134.62760540414632
+            ],
+            "alpha_centroid_coordinates": [
+              628.569082,
+              474.013592
+            ]
+          },
+          {
+            "pdf_image_index": 3,
+            "smask_sha256": "777401402a64a3f00d82f93ca935b8ddb0909c44d5c1c2e48cae4cccf38cac22",
+            "projected_alpha_area": 4200.931485234297,
+            "source_bbox_points": [
+              363.2103577,
+              229.65939329999998,
+              520.9919520999999,
+              371.8499024
+            ],
+            "mark_coordinates": [
+              508.91593732532954,
+              431.23462595655803,
+              210.9697401581921,
+              252.42676009816216
+            ],
+            "alpha_centroid_coordinates": [
+              643.067697,
+              560.413747
+            ]
+          },
+          {
+            "pdf_image_index": 4,
+            "smask_sha256": "6bdc75fd7070fc3af4206f48937152fee6f1e14f4a84f04be3de2182640ca920",
+            "projected_alpha_area": 10594.054652351911,
+            "source_bbox_points": [
+              220.9395294,
+              307.7037964,
+              505.4812522,
+              465.3962783
+            ],
+            "mark_coordinates": [
+              310.5747134889306,
+              574.7713895009416,
+              387.02547404657474,
+              282.12402599811685
+            ],
+            "alpha_centroid_coordinates": [
+              503.442675,
+              721.749195
+            ]
+          },
+          {
+            "pdf_image_index": 5,
+            "smask_sha256": "6ba5088b3b5b7ee492d783a5463bc2761e01a2de5ccfa7655b828955918f5bbb",
+            "projected_alpha_area": 2603.4523522945606,
+            "source_bbox_points": [
+              207.0333557,
+              275.0962219,
+              364.8149501,
+              368.1080587
+            ],
+            "mark_coordinates": [
+              291.26058334981167,
+              515.3769011430395,
+              210.22688896045196,
+              160.3652358620691
+            ],
+            "alpha_centroid_coordinates": [
+              364.586489,
+              587.71754
+            ]
+          },
+          {
+            "pdf_image_index": 6,
+            "smask_sha256": "9b6478575bb9dfb8929c032a6ff42ee509080aa5d9586fb32a77a361e166d96e",
+            "projected_alpha_area": 252.07829055142923,
+            "source_bbox_points": [
+              210.2424622,
+              266.00881960000004,
+              364.8149394,
+              311.4456364
+            ],
+            "mark_coordinates": [
+              295.7176757103037,
+              498.5483783616558,
+              200.5698233564014,
+              70.2835292549019
+            ],
+            "alpha_centroid_coordinates": [
+              365.747874,
+              527.78253
+            ]
+          },
+          {
+            "pdf_image_index": 7,
+            "smask_sha256": "aed2ff90b5cf1593be636d0ef514e42032290e5fcad3e52b88c64570f7ad03a3",
+            "projected_alpha_area": 2046.468185769989,
+            "source_bbox_points": [
+              212.3818817,
+              205.6045838,
+              364.8149475,
+              310.91108859999997
+            ],
+            "mark_coordinates": [
+              298.68909168372323,
+              386.6886824346682,
+              202.7983770146199,
+              183.13313957510806
+            ],
+            "alpha_centroid_coordinates": [
+              379.51567,
+              483.032743
+            ]
+          },
+          {
+            "pdf_image_index": 8,
+            "smask_sha256": "6bb4dcd274751f72c67c81101590819a559f063252636297d79bee161ec87c43",
+            "projected_alpha_area": 1726.5068377177313,
+            "source_bbox_points": [
+              244.4730377,
+              169.2551575,
+              365.8846375,
+              309.8420142
+            ],
+            "mark_coordinates": [
+              344.0029928824033,
+              318.38502116603297,
+              158.97015637053357,
+              248.46712457189122
+            ],
+            "alpha_centroid_coordinates": [
+              417.017082,
+              422.102689
+            ]
+          },
+          {
+            "pdf_image_index": 9,
+            "smask_sha256": "7e48d99a041137f111c44e9de6f39e38859aa5e0c60642e329b7a253d25ad228",
+            "projected_alpha_area": 4495.908010396167,
+            "source_bbox_points": [
+              291.5401001,
+              151.61499020000002,
+              442.9034601,
+              309.30747210000004
+            ],
+            "mark_coordinates": [
+              408.6310616818806,
+              285.7180446861268,
+              202.05552571652925,
+              281.13411713496555
+            ],
+            "alpha_centroid_coordinates": [
+              508.32419,
+              387.869968
+            ]
+          },
+          {
+            "pdf_image_index": 10,
+            "smask_sha256": "fbc3bb4cfc664b109f93d473e0d116d8ba1131e36326c77fb4d501181e40126a",
+            "projected_alpha_area": 2186.369288340365,
+            "source_bbox_points": [
+              362.1406555,
+              172.46246340000005,
+              496.9235768,
+              309.84201540000004
+            ],
+            "mark_coordinates": [
+              508.1730910223766,
+              325.31438539991365,
+              177.54143623622127,
+              242.52767142239506
+            ],
+            "alpha_centroid_coordinates": [
+              603.379569,
+              434.700039
+            ]
+          },
+          {
+            "pdf_image_index": 12,
+            "smask_sha256": "a96619daeb0c6c04468e2a01a7c03d4c5bba7ed3860c181c4024c9431170cd0f",
+            "projected_alpha_area": 97.61279931340668,
+            "source_bbox_points": [
+              362.6755066,
+              223.2447815,
+              499.06298649999997,
+              310.3765596
+            ],
+            "mark_coordinates": [
+              520.058707738562,
+              419.35571521358776,
+              168.6272218807189,
+              140.5670585117019
+            ],
+            "alpha_centroid_coordinates": [
+              627.109691,
+              470.867259
+            ]
+          }
+        ],
+        "native_visual_words": [
+          {
+            "text": "Industrial",
+            "coordinates": [
+              705.5644444444443,
+              397.6610779629629,
+              78.47680652777787,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "0.3%",
+            "coordinates": [
+              721.9072222222221,
+              430.3281150000001,
+              40.6213295833333,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Hospitality",
+            "coordinates": [
+              610.7259722222221,
+              518.3573742592592,
+              90.47687638888888,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "14.9%",
+            "coordinates": [
+              627.8115277777778,
+              551.0242261111111,
+              51.03088375000001,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Single",
+            "coordinates": [
+              300.5595833333333,
+              569.3344112962963,
+              50.20253194444445,
+              26.727592592592522
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Family",
+            "coordinates": [
+              354.0414256944444,
+              569.3344112962963,
+              54.07753361111109,
+              26.727592592592522
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "9.2%",
+            "coordinates": [
+              331.75930555555556,
+              602.0014483333332,
+              40.621329583333335,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Multifamily",
+            "coordinates": [
+              457.9051388888889,
+              695.2933001851852,
+              97.90396291666663,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "37.5%",
+            "coordinates": [
+              478.7048611111111,
+              727.9603372222223,
+              51.03088375000001,
+              26.727592592592522
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Aviation",
+            "coordinates": [
+              683.1905555555555,
+              314.2834853703704,
+              69.45519291666673,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "0.3%",
+            "coordinates": [
+              695.0762500000001,
+              346.95052240740745,
+              40.62132958333322,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Office",
+            "coordinates": [
+              366.3940277777778,
+              353.9940409259259,
+              50.19049777777775,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Self-Storage",
+            "coordinates": [
+              454.14138888888897,
+              354.2433001851852,
+              101.45375750000001,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "6.1%",
+            "coordinates": [
+              368.6225,
+              386.6608927777778,
+              40.62132958333338,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "15.9%",
+            "coordinates": [
+              476.42680555555563,
+              386.9103372222222,
+              51.03088375000001,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Land",
+            "coordinates": [
+              603.9041666666667,
+              387.3551520370371,
+              38.99872277777779,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "7.7%",
+            "coordinates": [
+              600.1898611111111,
+              420.0221890740741,
+              40.62132958333338,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Retail",
+            "coordinates": [
+              335.63041666666663,
+              442.0199668518518,
+              48.01833069444443,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "7.2%",
+            "coordinates": [
+              337.11611111111114,
+              474.6870038888889,
+              40.621329583333335,
+              26.727592592592625
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Portfolio",
+            "coordinates": [
+              388.68055555555554,
+              226.78085481481483,
+              99.47297411111111,
+              36.62666666666662
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Allocation",
+            "coordinates": [
+              495.64334355555565,
+              226.78085481481483,
+              115.04354133333354,
+              36.62666666666662
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ]
+      }
+    },
+    {
+      "region_id": "p007-r005",
+      "page": 7,
+      "kind": "normal_text",
+      "coordinates": [
+        180.91722222222222,
+        454.090152037037,
+        90.30839805555557,
+        59.394629629629755
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Healthcare\n0.9%",
+      "metadata": {
+        "median_font_size": 14.432900000000018,
+        "word_count": 2,
+        "source_bbox_points": [
+          130.2604,
+          245.20868209999998,
+          195.28244660000001,
+          277.28178210000004
+        ]
+      }
+    },
+    {
+      "region_id": "p007-r002",
+      "page": 7,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 5,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "6",
+            "coordinates": [
+              507.8333333333333,
+              942.4253703703704,
+              6.950000000000027,
+              16.66666666666677
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 5,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1",
+    "merged_10_image_objects_into_1_visual_region"
+  ]
+}

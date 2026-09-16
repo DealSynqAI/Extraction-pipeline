@@ -34,6 +34,9 @@ def normalize_vision_payload(payload: Any) -> dict[str, Any]:
     table_review = payload.get("table_review")
     if isinstance(table_review, dict):
         normalized["table_review"] = table_review
+    panel_review = payload.get("panel_review")
+    if isinstance(panel_review, dict):
+        normalized["panel_review"] = panel_review
     return normalized
 
 
@@ -146,6 +149,17 @@ class QwenVisionClient:
                         "structure_matches": {"type": "boolean"},
                     },
                     "required": ["data_row_count", "column_count", "headers", "structure_matches"],
+                    "additionalProperties": False,
+                },
+                "panel_review": {
+                    "type": "object",
+                    "properties": {
+                        "lane_count": {"type": "integer", "minimum": 0},
+                        "leaf_titles": {"type": "array", "items": {"type": "string"}, "maxItems": 12},
+                        "claim_counts": {"type": "array", "items": {"type": "integer", "minimum": 0}, "maxItems": 12},
+                        "structure_matches": {"type": "boolean"},
+                    },
+                    "required": ["lane_count", "leaf_titles", "claim_counts", "structure_matches"],
                     "additionalProperties": False,
                 },
             },

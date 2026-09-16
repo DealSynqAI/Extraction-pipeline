@@ -1,0 +1,238 @@
+{
+  "schema_version": "opencv-region-diagnostic/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 5,
+  "region_id": "p005-r003",
+  "region_coordinates": [
+    29.833330000000004,
+    630.8888753703703,
+    171.99997847222224,
+    213.3333205555555
+  ],
+  "coordinate_formats": {
+    "region_coordinates": "page-relative [x, y, width, height], normalized 0..1000",
+    "feature_boxes": "region-relative [x, y, width, height], normalized 0..1000",
+    "line_segments": "region-relative [x1, y1, x2, y2], normalized 0..1000"
+  },
+  "vision_summary": {
+    "horizontal_line_count": 4,
+    "vertical_line_count": 4,
+    "diagonal_line_count": 6,
+    "rectangle_candidate_count": 2,
+    "bar_candidate_count": 0,
+    "point_candidate_count": 12,
+    "legend_swatch_candidate_count": 0,
+    "horizontal_axis_candidate_count": 1,
+    "vertical_axis_candidate_count": 0,
+    "plot_boundary_detected": false,
+    "table_grid_confidence": 0.5,
+    "saturated_pixel_fraction": 0.10148
+  },
+  "features": {
+    "horizontal_lines": 4,
+    "vertical_lines": 4,
+    "diagonal_lines": 6,
+    "rectangle_candidates": 2,
+    "bar_candidates": 0,
+    "point_candidates": 12,
+    "legend_swatch_candidates": 0,
+    "horizontal_axis_candidates": 1,
+    "vertical_axis_candidates": 0,
+    "plot_boundary_detected": false,
+    "table_grid_confidence": 0.5,
+    "saturated_pixel_fraction": 0.10148,
+    "line_segments": {
+      "horizontal": [
+        [
+          513.565891,
+          0.0,
+          998.062016,
+          0.0
+        ],
+        [
+          127.906977,
+          2.083333,
+          556.20155,
+          2.083333
+        ],
+        [
+          451.550388,
+          239.583333,
+          567.829457,
+          235.416667
+        ],
+        [
+          362.403101,
+          247.916667,
+          587.209302,
+          252.083333
+        ]
+      ],
+      "vertical": [
+        [
+          1.937984,
+          662.5,
+          1.937984,
+          285.416667
+        ],
+        [
+          0.0,
+          356.25,
+          0.0,
+          208.333333
+        ],
+        [
+          0.0,
+          731.25,
+          1.937984,
+          893.75
+        ],
+        [
+          792.635659,
+          941.666667,
+          802.325581,
+          779.166667
+        ]
+      ],
+      "diagonal": [
+        [
+          602.713178,
+          456.25,
+          817.829457,
+          545.833333
+        ],
+        [
+          65.891473,
+          910.416667,
+          112.403101,
+          741.666667
+        ],
+        [
+          205.426357,
+          554.166667,
+          372.093023,
+          477.083333
+        ],
+        [
+          383.72093,
+          272.916667,
+          406.976744,
+          402.083333
+        ],
+        [
+          434.108527,
+          368.75,
+          511.627907,
+          235.416667
+        ],
+        [
+          385.658915,
+          445.833333,
+          515.503876,
+          668.75
+        ]
+      ]
+    },
+    "rectangle_candidate_boxes": [
+      [
+        395.348837,
+        425.0,
+        38.75969,
+        110.416667
+      ],
+      [
+        362.403101,
+        227.083333,
+        205.426357,
+        279.166667
+      ]
+    ],
+    "bar_candidate_boxes": [],
+    "point_candidate_boxes": [
+      [
+        498.062016,
+        827.083333,
+        21.317829,
+        25.0
+      ],
+      [
+        498.062016,
+        668.75,
+        21.317829,
+        27.083333
+      ],
+      [
+        498.062016,
+        668.75,
+        21.317829,
+        27.083333
+      ],
+      [
+        498.062016,
+        633.333333,
+        15.503876,
+        14.583333
+      ],
+      [
+        420.542636,
+        587.5,
+        17.44186,
+        20.833333
+      ],
+      [
+        569.767442,
+        585.416667,
+        15.503876,
+        20.833333
+      ],
+      [
+        420.542636,
+        587.5,
+        17.44186,
+        20.833333
+      ],
+      [
+        569.767442,
+        585.416667,
+        17.44186,
+        20.833333
+      ],
+      [
+        430.232558,
+        531.25,
+        9.689922,
+        12.5
+      ],
+      [
+        478.682171,
+        322.916667,
+        15.503876,
+        8.333333
+      ],
+      [
+        428.294574,
+        247.916667,
+        11.627907,
+        10.416667
+      ],
+      [
+        430.232558,
+        241.666667,
+        15.503876,
+        16.666667
+      ]
+    ],
+    "legend_swatch_candidate_boxes": [],
+    "horizontal_axis_candidate_segments": [
+      [
+        513.565891,
+        0.0,
+        998.062016,
+        0.0
+      ]
+    ],
+    "vertical_axis_candidate_segments": [],
+    "plot_boundary": null
+  }
+}

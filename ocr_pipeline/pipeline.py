@@ -20,7 +20,9 @@ import unicodedata
 from PIL import Image
 from pypdf import PdfReader
 
+from .comparison_layout import reconstruct_comparison_panel
 from .inspection import inspect_pdf
+from .map_geometry import ATLAS_URL, colored_mark_for_value, register_us_state_map, state_for_value
 from .models import PageInspection, Region, SourceBlock, validate_source_blocks
 from .workers import QwenVisionClient, run_rapidocr_worker
 
@@ -41,7 +43,7 @@ US_GEOGRAPHIES = {
     "west virginia", "wisconsin", "wyoming", "district of columbia",
     "puerto rico",
 }
-PIPELINE_VERSION = "0.6.0"
+PIPELINE_VERSION = "0.7.0"
 PAGE_SCHEMA_VERSION = "unified-source-page/4.0"
 COLLECTION_SCHEMA_VERSION = "unified-source-collection/3.0"
 INSPECTION_SCHEMA_VERSION = "pdf-page-inspection/1.0"
@@ -240,6 +242,14 @@ def _augment_native_table_evidence(
     for region in inspection.regions:
         if region.kind != "table":
             continue
+        for word in region.metadata.get("native_panel_words") or []:
+            result.append({
+                "evidence_id": word["evidence_id"],
+                "text": word["text"],
+                "confidence": 1.0,
+                "coordinates": word["coordinates"],
+                "evidence_source": "native_pdf_positioned_panel_word",
+            })
         rows = region.metadata.get("rows") or []
         coordinates = region.metadata.get("cell_coordinates") or []
         for row_index, row in enumerate(rows):
@@ -967,10 +977,62 @@ def _table_blocks(
     width = max((len(row) for row in rows), default=0)
     rows = [list(row) + [None] * (width - len(row)) for row in rows]
     if len(rows) == 1 and width >= 2:
+        layout = reconstruct_comparison_panel(region.metadata.get("native_panel_words") or [])
+        if layout:
+            panel_review = qwen_payload.get("panel_review") if qwen_payload else None
+            review_matches = False
+            comparison_warnings: list[str] = []
+            if isinstance(panel_review, dict):
+                expected_titles = [re.sub(r"\W+", "", title.casefold()) for title in layout["leaf_titles"]]
+                actual_titles = [
+                    re.sub(r"\W+", "", str(title).casefold())
+                    for title in panel_review.get("leaf_titles", [])
+                ]
+                expected_counts = [
+                    len(leaf.get("claims", []))
+                    for section in layout["sections"]
+                    for leaf in (section.get("subsections") or [section])
+                ]
+                review_matches = (
+                    panel_review.get("lane_count") == layout["lane_count"]
+                    and actual_titles == expected_titles
+                    and panel_review.get("claim_counts") == expected_counts
+                )
+                if not review_matches:
+                    comparison_warnings.append("Qwen comparison-layout review disagreed with positioned-word ownership")
+                elif panel_review.get("structure_matches") is not True:
+                    comparison_warnings.append(
+                        "Qwen structure_matches flag is false despite agreement on all explicit layout fields"
+                    )
+            elif qwen_payload is not None:
+                comparison_warnings.append("Qwen comparison-layout review returned no structured panel review")
+            if qwen_error:
+                comparison_warnings.append(f"Qwen comparison-layout review unavailable: {qwen_error}")
+            if qwen_payload is None and not qwen_error:
+                comparison_warnings.append("Qwen comparison-layout review was not configured")
+            content = {
+                "title": layout["title"], "sections": layout["sections"],
+                "lane_count": layout["lane_count"], "claim_count": layout["claim_count"],
+                "bullet_anchor_coordinates": layout["bullet_anchor_coordinates"],
+                "vision_review": panel_review if isinstance(panel_review, dict) else None,
+            }
+            return [SourceBlock(
+                document_id=document_id, type="comparison_panel", page=region.page,
+                block_id=f"{region.region_id}-comparison-panel",
+                content=content, coordinates=region.coordinates,
+                extraction_method=[
+                    "native PDF positioned words", "Python lane/heading/bullet reconstruction",
+                    *(["Qwen3-VL comparison-layout review"] if qwen_payload is not None else []),
+                ],
+                confidence=0.90 if review_matches else 0.72,
+                validation_status="passed" if review_matches else "needs_review",
+                errors=[], warnings=comparison_warnings,
+                provenance=_provenance(source_hash, region, lines, image),
+            )]
         sections = []
         for index, value in enumerate(rows[0], 1):
             raw_text = clean_text(str(value or ""))
-            first_line = raw_text.split("\n", 1)[0].strip() if raw_text else None
+            first_line = str(value or "").split("\n", 1)[0].strip() if raw_text else None
             sections.append({
                 "section_id": f"s{index:03d}", "title": first_line,
                 "text": raw_text, "structure_complete": False,
@@ -1328,6 +1390,119 @@ def _map_data_value_lines(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
     ]
 
 
+def _map_literal_context(lines: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, list[dict[str, Any]]]:
+    """Preserve scale endpoints and copyright without treating them as data."""
+    labels = [
+        line for line in lines
+        if "%" in str(line.get("text", "")) and not re.search(r"\d", str(line.get("text", "")))
+    ]
+    legend = None
+    if labels:
+        label = labels[0]
+        endpoints = [
+            line for line in lines
+            if re.fullmatch(r"[-+]?\d[\d,.]*\s*%", str(line.get("text", "")).strip())
+            and abs(_center(line["coordinates"])[1] - _center(label["coordinates"])[1]) <= 75
+        ]
+        endpoints.sort(key=lambda line: _center(line["coordinates"])[0])
+        legend = {
+            "title": str(label["text"]).strip(),
+            "endpoints": [str(line["text"]).strip() for line in endpoints],
+            "evidence_ids": [label["evidence_id"], *(line["evidence_id"] for line in endpoints)],
+        }
+    credits = [
+        {"text": str(line["text"]).strip(), "evidence_id": line["evidence_id"]}
+        for line in lines
+        if str(line.get("text", "")).strip().lower().startswith("powered by")
+        or "©" in str(line.get("text", ""))
+    ]
+    return legend, credits
+
+
+def _map_geometry_bindings(
+    lines: list[dict[str, Any]], region: Region, crop_path: Path,
+) -> tuple[list[dict[str, Any]], dict[str, Any], list[str]]:
+    """Accept literal map values only with printed names or registered marks."""
+    values = _map_data_value_lines(lines)
+    allowed_ids = {line["evidence_id"] for line in values}
+    registration = register_us_state_map(crop_path)
+    warnings: list[str] = []
+    registration_info: dict[str, Any] = {
+        "status": "accepted" if registration else "unavailable",
+        "reference": ATLAS_URL if registration else None,
+        "projection": registration["projection"] if registration else None,
+        "silhouette_iou": registration["quality"] if registration else None,
+    }
+    bindings: list[dict[str, Any]] = []
+    for value in values:
+        resolved = (
+            state_for_value(registration, value["coordinates"], region.coordinates)
+            if registration else None
+        )
+        if resolved is None:
+            continue
+        name, mark_box, method = resolved
+        numeric_value, unit, normalized_value = _numeric_value(str(value["text"]))
+        confidence = min(0.96, 0.72 + 0.25 * registration["quality"])
+        if method == "registered_state_leader_line":
+            confidence -= 0.04
+        bindings.append({
+            "label": name,
+            "value": str(value["text"]).strip(),
+            "numeric_value": numeric_value,
+            "unit": unit,
+            "normalized_value": normalized_value,
+            "label_evidence_id": None,
+            "value_evidence_id": value["evidence_id"],
+            "label_coordinates": None,
+            "value_coordinates": value["coordinates"],
+            "visual_mark_coordinates": mark_box,
+            "coordinates": _box_union(value["coordinates"], mark_box),
+            "grounding_method": f"OCR value + {method} + registered public US-state boundary",
+            "confidence": round(confidence, 5),
+            "geography_basis": "reference_geometry",
+            "mark_validation": method,
+            "mark_verified": True,
+        })
+    # Text printed on the map itself is a separate, stronger owner signal. It
+    # also handles territorial insets for which a mainland atlas cannot fit.
+    literal = _proximity_bindings(lines, None, [])
+    used_values = {binding["value_evidence_id"] for binding in bindings}
+    used_names = {str(binding["label"]).casefold() for binding in bindings}
+    for candidate in literal:
+        name = str(candidate["label"]).strip()
+        if (
+            candidate["value_evidence_id"] not in allowed_ids
+            or candidate["value_evidence_id"] in used_values
+            or name.casefold() not in US_GEOGRAPHIES
+            or name.casefold() in used_names
+        ):
+            continue
+        mark = colored_mark_for_value(crop_path, candidate["value_coordinates"], region.coordinates)
+        if mark is None:
+            continue
+        candidate.update({
+            "visual_mark_coordinates": mark,
+            "grounding_method": "printed geography label + OCR value proximity + filled raster mark",
+            "geography_basis": "printed_label",
+            "mark_validation": "filled_raster_component",
+            "mark_verified": True,
+            "confidence": max(0.90, candidate["confidence"]),
+        })
+        bindings.append(candidate)
+        used_values.add(candidate["value_evidence_id"])
+        used_names.add(name.casefold())
+    if registration:
+        warnings.append(
+            f"US-state reference registration: {registration['projection']} silhouette IoU {registration['quality']:.5f}"
+        )
+    if len(bindings) < len(values):
+        warnings.append(f"{len(values) - len(bindings)} printed map value(s) remain without independently checked ownership")
+    return sorted(bindings, key=lambda binding: (
+        binding["value_coordinates"][1], binding["value_coordinates"][0]
+    )), registration_info, warnings
+
+
 def _qwen_semantic_prompt(
     kind: str, lines: list[dict[str, Any]], region: Region,
     target_value_ids: list[str] | None = None,
@@ -1343,6 +1518,27 @@ def _qwen_semantic_prompt(
         if str(line.get("text", "")).strip()
     ]
     if kind == "table":
+        panel_layout = reconstruct_comparison_panel(region.metadata.get("native_panel_words") or [])
+        if panel_layout:
+            candidate = {
+                "lane_count": panel_layout["lane_count"],
+                "leaf_titles": panel_layout["leaf_titles"],
+                "claim_counts": [
+                    len(leaf.get("claims", []))
+                    for section in panel_layout["sections"]
+                    for leaf in (section.get("subsections") or [section])
+                ],
+            }
+            return (
+                "This is a nested comparison panel, not a row-by-column data table. Independently inspect "
+                "the image and verify the number of text lanes, each offer heading, and the number of bullet "
+                "claims in each lane. Do not transcribe or revise claims. Return exactly one JSON object with "
+                "keys type, confidence, chart_type, bindings, panel_review. Use type table, chart_type null, "
+                "bindings []. panel_review must contain lane_count, leaf_titles (left to right), claim_counts "
+                "(left to right), and structure_matches. Set structure_matches false when any candidate item "
+                "disagrees with the image.\nCandidate:\n"
+                + json.dumps(candidate, ensure_ascii=False, separators=(",", ":"))
+            )
         rows = region.metadata.get("rows") or []
         width = max((len(row) for row in rows), default=0)
         candidate = {
@@ -1930,7 +2126,11 @@ def _visual_blocks(
     elif kind == "kpi_panel":
         content = {"title": None, "as_of": None, "metrics": [], **base_visual}
     elif kind == "map":
-        content = {"title": title, "bindings": [], **base_visual}
+        legend, attribution = _map_literal_context(lines)
+        content = {
+            "title": title, "bindings": [], "legend": legend,
+            "attribution": attribution, **base_visual,
+        }
     else:
         content = {"title": title, "chart_type": chart_type, "observations": [], **base_visual}
     parent = SourceBlock(
@@ -1948,7 +2148,13 @@ def _visual_blocks(
     mark_boxes = region.metadata.get("member_coordinates", [])
     deterministic_bindings: list[dict[str, Any]] = []
     completed_kpi_groups = 0
-    if chart_type == "bar":
+    if kind == "map":
+        deterministic_bindings, registration_info, map_warnings = _map_geometry_bindings(
+            lines, region, crop_path
+        )
+        parent.content["registration"] = registration_info
+        parent.warnings.extend(map_warnings)
+    elif chart_type == "bar":
         deterministic_bindings = _bar_bindings(lines, title, mark_boxes)
     elif chart_type == "scatterplot":
         parent.warnings.append("scatterplot points require axis-calibrated reconstruction")
@@ -1958,17 +2164,6 @@ def _visual_blocks(
     else:
         deterministic_bindings = _proximity_bindings(lines, title, mark_boxes)
 
-    if kind == "map":
-        rejected = [
-            binding for binding in deterministic_bindings
-            if str(binding.get("label") or binding.get("geography") or "").strip().casefold() not in US_GEOGRAPHIES
-        ]
-        deterministic_bindings = [binding for binding in deterministic_bindings if binding not in rejected]
-        if rejected:
-            parent.validation_status = "needs_review"
-            parent.warnings.append(
-                f"discarded {len(rejected)} label-value pairs without a recognized geography owner"
-            )
     model_bindings = _ground_model_bindings(kind, qwen_payload, lines, mark_boxes)
     bindings, reconciliation_warnings = _reconcile_visual_bindings(
         deterministic_bindings, model_bindings, allow_model_additions=False,
@@ -2027,6 +2222,11 @@ def _visual_blocks(
         parent.content["binding_completeness"] = round(
             len(bindings) / len(expected_values), 5,
         ) if expected_values else 0.0
+        assigned_ids = {binding.get("value_evidence_id") for binding in bindings}
+        parent.content["unresolved_values"] = [
+            {"evidence_id": line["evidence_id"], "raw_value": str(line["text"]).strip()}
+            for line in expected_values if line["evidence_id"] not in assigned_ids
+        ]
         if len(bindings) != len(expected_values):
             parent.validation_status = "needs_review"
             parent.warnings.append(
@@ -2070,11 +2270,18 @@ def _visual_blocks(
             item_content.update({"series": binding.get("series"), "category": label})
         else:
             item_content["geography"] = label
+            item_content["geography_basis"] = binding.get("geography_basis", "unverified_vision")
+            item_content["mark_validation"] = binding.get("mark_validation", "unverified")
         selected_lines = [
             line for line in lines
             if line["evidence_id"] in {binding.get("label_evidence_id"), binding.get("value_evidence_id")}
         ]
         grounded = bool(selected_lines and binding.get("visual_mark_coordinates"))
+        if kind == "map":
+            grounded = bool(
+                binding.get("mark_verified") and binding.get("value_evidence_id")
+                and binding.get("visual_mark_coordinates")
+            )
         if kind == "chart" and chart_type == "pie":
             grounded = bool(
                 binding.get("label_evidence_id") and binding.get("value_evidence_id")
@@ -2089,6 +2296,15 @@ def _visual_blocks(
         parent.content["observations"] = nested_items
     elif kind == "map":
         parent.content["bindings"] = nested_items
+        if (
+            len(nested_items) == parent.content["expected_binding_count"]
+            and all(item["validation_status"] == "passed" for item in nested_items)
+            and not qwen_semantic_failed
+        ):
+            parent.validation_status = "passed"
+            parent.confidence = max(parent.confidence, 0.90)
+        else:
+            parent.validation_status = "needs_review"
     else:
         parent.content["metrics"] = nested_items
         if completed_kpi_groups >= 1 and len(bindings) == completed_kpi_groups * 2 and not qwen_semantic_failed:
@@ -2217,7 +2433,9 @@ def _brand_visible_text(
         return choices[-1] if choices[-1] and len(choices[-1]) >= 2 else None
 
     visible = []
-    for line in lines:
+    for line in sorted(lines, key=lambda item: (
+        float(item.get("coordinates", [0, 0])[1]), float(item.get("coordinates", [0, 0])[0])
+    )):
         words = str(line.get("text", "")).split()
         repaired = []
         for word in words:
@@ -2337,6 +2555,10 @@ def _semantic_page_band_blocks(
             child = _text_block(
                 document_id, source_hash, inspection, child_region, cluster, image, native_threshold,
             )
+            # A known repeated page band is navigation text, not a source
+            # footnote even when it sits at the page bottom.
+            if child.type == "footnote":
+                child.type = "text"
             child.semantic_role = "running_footer" if coordinates[1] >= 500 else "running_header"
         child.parent_block_id = parent_id
         child.hierarchy_depth = 1

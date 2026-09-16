@@ -1,6 +1,6 @@
 # DealSynq OCR pipeline through Unified Source Blocks
 
-Current package version: `0.6.0`.
+Current package version: `0.7.0`.
 
 This folder implements the requested architecture boundary:
 
@@ -15,11 +15,13 @@ It deliberately performs no semantic entity, fact, relation, embedding, retrieva
 - Region-level routing for mixed pages. Low-confidence image regions can be sent to Qwen3-VL for classification; confidence does not bypass later semantic processing.
 - Native-text usability routing. A text layer is used only when it passes the configured quality threshold; otherwise RapidOCR supplies visible text and coordinates.
 - Native table parsing into one hierarchical table block with owned columns, rows, typed cells, cell coordinates, and cell evidence IDs. When native structure is unavailable, the result stays `needs_review`.
+- One-row PDF "tables" over comparison-card backgrounds are reclassified using positioned words: repeated bullet anchors define text lanes, heading spans define category/offer hierarchy, and each claim keeps its own coordinates and evidence IDs. Percent mentions stay attached to the owning claim and preserve ranges. A weak layout or a conflicting/missing Qwen comparison review remains `needs_review`; this is not a document- or page-specific rule.
 - Logical visual-object merging before classification, including fragmented PDF chart images and repeated page-band decoration detection.
 - PDF-object completeness detection for vector bar clusters and dense raster point/label clusters. Incomplete bar and scatterplot reconstructions are forced to `needs_review` instead of silently passing as text.
 - Tables, charts, and maps always use a sequential specialist flow when Qwen is enabled: deterministic native/OCR reading, OpenCV or table geometry, Qwen3-VL semantic linking/review, then Python reconstruction and validation. Deterministic evidence is retained when the model fails or disagrees.
 - Generic reconstruction of rotated native-PDF chart values plus x-aligned bar ownership. This recovers vertical percentage labels without page-number or document-value hardcoding.
 - Pie-chart label/value pairs are checked against OCR evidence and Qwen confirmation. When a PDF exposes distinct soft-mask wedge objects whose areas reconcile one-to-one with the visible percentages, each observation references its exact PDF mask; otherwise slice geometry is explicitly unresolved and the chart remains in review. Merged image-fragment bounding boxes alone never count as slice ownership.
+- US-state choropleth values are checked against a reusable Census boundary reference. The pipeline compares conterminous-US projections, requires strong rendered-silhouette alignment, associates interior OCR labels with state polygons and external labels with OpenCV leader lines, and keeps Qwen as the mandatory semantic stage without letting an unverified Qwen owner replace geometry. The scale endpoints are not state observations; map credits and unresolved values remain explicit. State names inferred from reference geometry are distinguished from names actually printed on the page. Maps that do not fit the reference remain in review.
 - Native positioned financial-table reconstruction that infers columns from repeated numeric alignment, recovers headers and sections from geometry, and reconciles generic subtotals against the final total.
 - Raw OpenCV arrays are isolated in hashed `diagnostics/vision-features/*.json` artifacts. Source blocks expose only compact `vision_summary`, `vision_features_ref`, and `region_image` fields.
 - A common source-block envelope, explicit errors/warnings, provenance, confidence, normalized coordinates, native-versus-visible OCR agreement, page-level validation, and a complete OCR evidence ledger/disposition list.
@@ -34,6 +36,8 @@ It deliberately performs no semantic entity, fact, relation, embedding, retrieva
 - Page-organized output exactly at the requested boundary: `source-blocks/document-manifest.json` and `source-blocks/page-NNN.json`.
 
 PaddleOCR table structure is an optional future specialist. The working fallback does not pretend that OCR line proximity is validated table structure: those blocks stay in review until an adapter or human validates ownership.
+
+The included US-state reference is the [US Census Bureau 2025 cartographic boundary file](https://www.census.gov/geographies/mapping-files/2025/geo/carto-boundary-file.html), packaged for offline runs. It is geographic reference data, not Coulton-specific extraction data. Other countries or map projections require their own registered reference adapter; the pipeline must not invent owners for them.
 
 ## Install
 
@@ -124,15 +128,16 @@ Install the `validate` extra, then independently validate every block against th
 
 `schema_valid` and `integrity_valid` answer whether the JSON contract and artifacts are sound. They do not turn `needs_review` extraction candidates into approved evidence.
 
-## Complete example run
+## Complete example run and audit
 
-A full 16-page, 300-DPI RapidOCR + OpenCV + Qwen3-VL run is published in
-[`examples/coulton-creek-qwen3vl4b-v050-final-r3`](examples/coulton-creek-qwen3vl4b-v050-final-r3/README.md).
-It includes the preserved source, rendered evidence, region crops, OCR output, diagnostics,
-Unified Source Blocks, and an independent validation report.
+The latest full 16-page, 300-DPI RapidOCR + OpenCV + Qwen3-VL 0.7.0 run is
+[`examples/coulton-creek-v070-full-qwen-audited-r1`](examples/coulton-creek-v070-full-qwen-audited-r1/README.md).
+It includes the preserved source, per-page PDF inspection, rendered evidence, region crops,
+OCR output, diagnostics, per-page Unified Source Blocks, and an independent validation report.
+The [page-by-page audit](reports/COULTON_CREEK_FULL_PIPELINE_AUDIT_2026-09-15.md)
+explains what works, what remains misleading, and the general fixes still needed.
 
-The newer, page-scoped 0.6.0 Qwen rerun demonstrating general Page 7 fixes and
-distinct PDF soft-mask pie evidence is in
+Earlier historical outputs remain at
+[`examples/coulton-creek-qwen3vl4b-v050-final-r3`](examples/coulton-creek-qwen3vl4b-v050-final-r3/README.md)
+and the page-7-only
 [`examples/coulton-creek-v060-page007-qwen-final-r3`](examples/coulton-creek-v060-page007-qwen-final-r3/README.md).
-It validates Page 7 only; the older 16-page example has not been regenerated with
-these latest rules.

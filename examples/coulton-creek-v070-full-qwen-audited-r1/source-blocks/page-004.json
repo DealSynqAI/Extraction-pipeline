@@ -1,0 +1,1745 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 4,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 4,
+      "block_id": "p004-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p004-r002-block",
+          "p004-r003-subsection-001",
+          "p004-r003-subsection-002",
+          "p004-r003-subsection-003",
+          "p004-r003-subsection-004"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p004-r002-block",
+          "p004-r003-subsection-001",
+          "p004-r003-subsection-002",
+          "p004-r003-subsection-003",
+          "p004-r003-subsection-004"
+        ]
+      },
+      "coordinates": [
+        55.443548,
+        84.104704,
+        889.112929,
+        764.299539
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.75,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "page_title",
+      "page": 4,
+      "block_id": "p004-r002-block",
+      "hierarchy": {
+        "parent_block_id": "p004-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "INVESTMENT PHILOSOPHY",
+        "evidence_text": {
+          "selected": "native",
+          "native": "INVESTMENT PHILOSOPHY",
+          "ocr": "INVESTMENT PHILOSOPHY",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        60.0,
+        84.104704,
+        369.46245,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r002",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          43.2,
+          45.41654,
+          309.2129639999999,
+          65.45653999999996
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 4,
+      "block_id": "p004-r003-subsection-001",
+      "hierarchy": {
+        "parent_block_id": "p004-section-001",
+        "child_block_ids": [
+          "p004-r003-subsection-001-heading",
+          "p004-r003-subsection-001-body-block"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "subsection",
+        "child_block_ids": [
+          "p004-r003-subsection-001-heading",
+          "p004-r003-subsection-001-body-block"
+        ]
+      },
+      "coordinates": [
+        56.451614,
+        175.531915,
+        887.096726,
+        280.58511
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python inline-heading hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-001-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 3,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "section_heading",
+      "page": 4,
+      "block_id": "p004-r003-subsection-001-heading",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-001",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "PRINCIPAL INVESTORS",
+        "evidence_text": {
+          "selected": "native",
+          "native": "PRINCIPAL INVESTORS",
+          "ocr": "PRINCIPAL INVESTORS",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        57.459676,
+        175.531915,
+        224.326244,
+        37.234049
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python inline-heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-001-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 4,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 4,
+      "block_id": "p004-r003-subsection-001-body-block",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-001",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Coulton Creek was founded as a vehicle to generate current returns for a group of five experienced investors. From inception, founders and key employees have invested their own capital in each investment, which has guided our perspective for each opportunity and has created exceptional alignment with our investors.\n\nToday, Coulton Creek manages approximately 60 positions for our founders and investors, with the original five founding principals investing in every deal and serving as the investment committee.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Coulton Creek was founded as a vehicle to generate current\nreturns for a group of five experienced investors. From inception, founders and key\nemployees have invested their own capital in each investment, which has guided our\nperspective for each opportunity and has created exceptional alignment with our\ninvestors.\n\nToday, Coulton Creek manages approximately 60 positions for our founders and\ninvestors, with the original five founding principals investing in every deal and serving as\nthe investment committee.",
+          "ocr": "Coulton Creek was founded as a vehicle to generate current\nreturns for a group of five experienced investors. From inception, founders and key\nemployees have invested their own capital in each investment, which has guided our\nperspective for each opportunity and has created exceptional alignment with our\ninvestors.\nToday, Coulton Creek manages approximately 60 positions for our founders and\ninvestors, with the original five founding principals investing in every deal and serving as\nthe investment committee.",
+          "token_agreement": 1.0
+        },
+        "structure": {
+          "paragraphs": [
+            "Coulton Creek was founded as a vehicle to generate current returns for a group of five experienced investors. From inception, founders and key employees have invested their own capital in each investment, which has guided our perspective for each opportunity and has created exceptional alignment with our investors.",
+            "Today, Coulton Creek manages approximately 60 positions for our founders and investors, with the original five founding principals investing in every deal and serving as the investment committee."
+          ],
+          "lists": []
+        }
+      },
+      "coordinates": [
+        56.451614,
+        175.531915,
+        887.096726,
+        280.58511
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-001-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 5,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0002",
+          "p004-ocr-0003",
+          "p004-ocr-0004",
+          "p004-ocr-0005",
+          "p004-ocr-0006",
+          "p004-ocr-0007",
+          "p004-ocr-0008",
+          "p004-ocr-0009"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 4,
+      "block_id": "p004-r003-subsection-002",
+      "hierarchy": {
+        "parent_block_id": "p004-section-001",
+        "child_block_ids": [
+          "p004-r003-subsection-002-heading",
+          "p004-r003-subsection-002-body-block"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "subsection",
+        "child_block_ids": [
+          "p004-r003-subsection-002-heading",
+          "p004-r003-subsection-002-body-block"
+        ]
+      },
+      "coordinates": [
+        56.451614,
+        476.063856,
+        888.104863,
+        130.98405
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python inline-heading hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-002-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 6,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "section_heading",
+      "page": 4,
+      "block_id": "p004-r003-subsection-002-heading",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-002",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "PRESERVATION OF PRINCIPAL",
+        "evidence_text": {
+          "selected": "native",
+          "native": "PRESERVATION OF PRINCIPAL",
+          "ocr": "PRESERVATION OF PRINCIPAL",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        56.451614,
+        476.063856,
+        288.63408,
+        38.563802
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python inline-heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-002-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 7,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 4,
+      "block_id": "p004-r003-subsection-002-body-block",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-002",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "text": "As principal investors, we prioritize preservation of principal and downside protection. We take a conservative approach to underwriting that reflects having our own skin in the game, and often seek a priority position in the capital stack.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "As principal investors, we prioritize preservation of\nprincipal and downside protection. We take a conservative approach to underwriting that\nreflects having our own skin in the game, and often seek a priority position in the capital\nstack.",
+          "ocr": "As principal investors, we prioritize preservation of\nprincipal and downside protection. We take a conservative approach to underwriting that\nreflects having our own skin in the game, and often seek a priority position in the capital\nstack.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        56.451614,
+        476.063856,
+        888.104863,
+        130.98405
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-002-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 8,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0010",
+          "p004-ocr-0011",
+          "p004-ocr-0012",
+          "p004-ocr-0013"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 4,
+      "block_id": "p004-r003-subsection-003",
+      "hierarchy": {
+        "parent_block_id": "p004-section-001",
+        "child_block_ids": [
+          "p004-r003-subsection-003-heading",
+          "p004-r003-subsection-003-body-block"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "subsection",
+        "child_block_ids": [
+          "p004-r003-subsection-003-heading",
+          "p004-r003-subsection-003-body-block"
+        ]
+      },
+      "coordinates": [
+        56.955643,
+        625.664876,
+        886.08871,
+        102.393663
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python inline-heading hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-003-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 9,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "section_heading",
+      "page": 4,
+      "block_id": "p004-r003-subsection-003-heading",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-003",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "CURRENT RETURNS",
+        "evidence_text": {
+          "selected": "native",
+          "native": "CURRENT RETURNS",
+          "ocr": "CURRENT RETURNS",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        56.955643,
+        625.664876,
+        177.217742,
+        39.228733
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python inline-heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-003-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 10,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 4,
+      "block_id": "p004-r003-subsection-003-body-block",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-003",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "text": "With a dedicated focus on generating strong current returns for our investors, Coulton Creek seeks resilient assets which are less sensitive to volatile market swings and resulting valuations.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "With a dedicated focus on generating strong current returns for\nour investors, Coulton Creek seeks resilient assets which are less sensitive to volatile\nmarket swings and resulting valuations.",
+          "ocr": "With a dedicated focus on generating strong current returns for\nour investors, Coulton Creek seeks resilient assets which are less sensitive to volatile\nmarket swings and resulting valuations.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        56.955643,
+        625.664876,
+        886.08871,
+        102.393663
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-003-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 11,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0014",
+          "p004-ocr-0015",
+          "p004-ocr-0016"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 4,
+      "block_id": "p004-r003-subsection-004",
+      "hierarchy": {
+        "parent_block_id": "p004-section-001",
+        "child_block_ids": [
+          "p004-r003-subsection-004-heading",
+          "p004-r003-subsection-004-body-block"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "subsection",
+        "child_block_ids": [
+          "p004-r003-subsection-004-heading",
+          "p004-r003-subsection-004-body-block"
+        ]
+      },
+      "coordinates": [
+        55.443548,
+        744.015951,
+        887.096735,
+        104.388292
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python inline-heading hierarchy"
+      ],
+      "confidence": 0.75,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-004-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 12,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "section_heading",
+      "page": 4,
+      "block_id": "p004-r003-subsection-004-heading",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-004",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "RETURN OBJECTIVES",
+        "evidence_text": {
+          "selected": "native",
+          "native": "RETURN OBJECTIVES",
+          "ocr": "RETURN OBJECTIVES",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        56.451614,
+        744.015951,
+        221.522167,
+        39.228733
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python inline-heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-004-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 13,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 4,
+      "block_id": "p004-r003-subsection-004-body-block",
+      "hierarchy": {
+        "parent_block_id": "p004-r003-subsection-004",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "text": "As an opportunistic investor without a need to deploy committed capital (in contrast to many funds), Coulton Creek can be selective in finding those investments which deliver superior risk adjusted returns.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "As an opportunistic investor without a need to deploy\ncommitted capital (in contrast to many funds), Coulton Creek can be selective in finding\nthose investments which deliver superior risk adjusted returns.",
+          "ocr": "As an opportunistic investor without a need to deploy\nCot  c   i oi (      ing\nthose investments which deliver superior risk adjusted returns.",
+          "token_agreement": 0.5
+        }
+      },
+      "coordinates": [
+        55.443548,
+        744.015951,
+        887.096735,
+        104.388292
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.75,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r003-subsection-004-body",
+        "classification_method": "inline-heading subsection reconstruction",
+        "reading_order": 14,
+        "source_bbox_points": [
+          43.14275999999995,
+          100.29649999999998,
+          676.869684,
+          459.22285999999997
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0017",
+          "p004-ocr-0018",
+          "p004-ocr-0019"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "page_footer",
+      "page": 4,
+      "block_id": "p004-r001-page-band",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p004-r001-band-001-brand-mark",
+          "p004-r001-band-002-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "page_footer",
+        "child_block_ids": [
+          "p004-r001-band-001-brand-mark",
+          "p004-r001-band-002-block"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python semantic repeated-page-band decomposition"
+      ],
+      "confidence": 0.97705,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 15,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 4,
+      "block_id": "p004-r001-band-001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p004-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p004-r001.json",
+          "sha256": "3f3a567a12e75e29b2c64abf692acddde24323bb058514a26a06a518a16fba83"
+        },
+        "region_image": "region-images/p004-r001-band-001.png"
+      },
+      "coordinates": [
+        143.64919,
+        915.558485,
+        182.459676,
+        52.526585
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python repeated-band decomposition"
+      ],
+      "confidence": 0.97705,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 16,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0020",
+          "p004-ocr-0022"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "running_footer",
+      "page": 4,
+      "block_id": "p004-r001-band-002-block",
+      "hierarchy": {
+        "parent_block_id": "p004-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company Overview - 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview - 2023",
+          "ocr": "Company Overview - 2023",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        744.455648,
+        931.515951,
+        210.685465,
+        27.925564
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p004-r001-band-002",
+        "classification_method": "semantic repeated-page-band decomposition",
+        "reading_order": 17,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p004-ocr-0021"
+        ],
+        "rendered_page": "page-images/page-004.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-004.png",
+    "rendered_page_sha256": "3e7d8858c3a2d77068daef73be4935271ee6e82826741dbafd94b49799919d9f",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p004-ocr-0001",
+        "text": "INVESTMENT PHILOSOPHY",
+        "confidence": 0.99736,
+        "coordinates": [
+          58.971771,
+          73.138299,
+          371.97582,
+          39.228726
+        ],
+        "polygon": [
+          [
+            58.971771,
+            73.138299
+          ],
+          [
+            430.947591,
+            73.138299
+          ],
+          [
+            430.947591,
+            112.367025
+          ],
+          [
+            58.971771,
+            112.367025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0002",
+        "text": "PRINCIPAL INVESTORS: Coulton Creek was founded as a vehicle to generate current",
+        "confidence": 0.98825,
+        "coordinates": [
+          57.459676,
+          175.531915,
+          886.088664,
+          37.234049
+        ],
+        "polygon": [
+          [
+            57.459676,
+            175.531915
+          ],
+          [
+            943.54834,
+            178.191488
+          ],
+          [
+            943.54834,
+            212.765964
+          ],
+          [
+            57.459676,
+            210.106391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0003",
+        "text": "returns for a group of five experienced investors. From inception, founders and key",
+        "confidence": 0.99324,
+        "coordinates": [
+          56.451614,
+          210.771281,
+          886.592738,
+          34.574476
+        ],
+        "polygon": [
+          [
+            56.451614,
+            210.771281
+          ],
+          [
+            943.044352,
+            210.771281
+          ],
+          [
+            943.044352,
+            245.345757
+          ],
+          [
+            56.451614,
+            245.345757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0004",
+        "text": "employees have invested their own capital in each investment, which has guided our",
+        "confidence": 0.99093,
+        "coordinates": [
+          56.451614,
+          242.021267,
+          887.096725,
+          36.569173
+        ],
+        "polygon": [
+          [
+            56.451614,
+            242.021267
+          ],
+          [
+            943.54834,
+            242.021267
+          ],
+          [
+            943.54834,
+            278.590441
+          ],
+          [
+            56.451614,
+            278.590441
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0005",
+        "text": "perspective for each opportunity and has created exceptional alignment with our",
+        "confidence": 0.99108,
+        "coordinates": [
+          56.955643,
+          274.601074,
+          885.584641,
+          34.574463
+        ],
+        "polygon": [
+          [
+            56.955643,
+            274.601074
+          ],
+          [
+            942.540283,
+            274.601074
+          ],
+          [
+            942.540283,
+            309.175537
+          ],
+          [
+            56.955643,
+            309.175537
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0006",
+        "text": "investors.",
+        "confidence": 0.99998,
+        "coordinates": [
+          58.467743,
+          308.510634,
+          98.286285,
+          29.255317
+        ],
+        "polygon": [
+          [
+            58.467743,
+            308.510634
+          ],
+          [
+            156.754028,
+            308.510634
+          ],
+          [
+            156.754028,
+            337.765951
+          ],
+          [
+            58.467743,
+            337.765951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0007",
+        "text": "Today, Coulton Creek manages approximately 60 positions for our founders and",
+        "confidence": 0.99217,
+        "coordinates": [
+          57.96371,
+          359.042562,
+          885.080643,
+          37.234049
+        ],
+        "polygon": [
+          [
+            57.96371,
+            359.042562
+          ],
+          [
+            943.044352,
+            359.042562
+          ],
+          [
+            943.044352,
+            396.276611
+          ],
+          [
+            57.96371,
+            396.276611
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0008",
+        "text": "investors, with the original five founding principals investing in every deal and serving as",
+        "confidence": 0.99409,
+        "coordinates": [
+          56.451614,
+          391.622342,
+          886.592738,
+          37.234049
+        ],
+        "polygon": [
+          [
+            56.451614,
+            391.622342
+          ],
+          [
+            943.044352,
+            392.287245
+          ],
+          [
+            943.044352,
+            428.856391
+          ],
+          [
+            56.451614,
+            428.191488
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0009",
+        "text": "the investment committee.",
+        "confidence": 0.99472,
+        "coordinates": [
+          57.96371,
+          425.531928,
+          262.096776,
+          30.585097
+        ],
+        "polygon": [
+          [
+            57.96371,
+            425.531928
+          ],
+          [
+            320.060486,
+            425.531928
+          ],
+          [
+            320.060486,
+            456.117025
+          ],
+          [
+            57.96371,
+            456.117025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0010",
+        "text": "PRESERVATION OF PRINCIPAL: As principal investors, we prioritize preservation of",
+        "confidence": 0.98684,
+        "coordinates": [
+          56.451614,
+          476.063856,
+          888.104863,
+          38.563802
+        ],
+        "polygon": [
+          [
+            56.451614,
+            476.063856
+          ],
+          [
+            944.556478,
+            478.058539
+          ],
+          [
+            944.556478,
+            514.627658
+          ],
+          [
+            56.451614,
+            512.632975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0011",
+        "text": "principal and downside protection. We take a conservative approach to underwriting that",
+        "confidence": 0.99988,
+        "coordinates": [
+          57.459676,
+          511.303223,
+          886.088664,
+          34.574436
+        ],
+        "polygon": [
+          [
+            57.459676,
+            511.303223
+          ],
+          [
+            943.54834,
+            511.303223
+          ],
+          [
+            943.54834,
+            545.877658
+          ],
+          [
+            57.459676,
+            545.877658
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0012",
+        "text": "reflects having our own skin in the game, and often seek a priority position in the capital",
+        "confidence": 0.98808,
+        "coordinates": [
+          56.955643,
+          543.218099,
+          885.080653,
+          34.57449
+        ],
+        "polygon": [
+          [
+            56.955643,
+            543.218099
+          ],
+          [
+            942.036296,
+            543.218099
+          ],
+          [
+            942.036296,
+            577.792589
+          ],
+          [
+            56.955643,
+            577.792589
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0013",
+        "text": "stack.",
+        "confidence": 0.99998,
+        "coordinates": [
+          57.459676,
+          576.462782,
+          61.995972,
+          30.585124
+        ],
+        "polygon": [
+          [
+            57.459676,
+            576.462782
+          ],
+          [
+            119.455648,
+            576.462782
+          ],
+          [
+            119.455648,
+            607.047906
+          ],
+          [
+            57.459676,
+            607.047906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0014",
+        "text": "CURRENT RETURNS: With a dedicated focus on generating strong current returns for",
+        "confidence": 0.98692,
+        "coordinates": [
+          56.955643,
+          625.664876,
+          886.08871,
+          39.228733
+        ],
+        "polygon": [
+          [
+            56.955643,
+            625.664876
+          ],
+          [
+            943.044352,
+            627.659559
+          ],
+          [
+            943.044352,
+            664.893609
+          ],
+          [
+            56.955643,
+            662.898926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0015",
+        "text": "our investors, Coulton Creek seeks resilient assets which are less sensitive to volatile",
+        "confidence": 0.98644,
+        "coordinates": [
+          56.955643,
+          661.569173,
+          884.576584,
+          32.579753
+        ],
+        "polygon": [
+          [
+            56.955643,
+            661.569173
+          ],
+          [
+            941.532227,
+            661.569173
+          ],
+          [
+            941.532227,
+            694.148926
+          ],
+          [
+            56.955643,
+            694.148926
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0016",
+        "text": "market swings and resulting valuations.",
+        "confidence": 0.9913,
+        "coordinates": [
+          56.955643,
+          693.484049,
+          392.13709,
+          34.57449
+        ],
+        "polygon": [
+          [
+            56.955643,
+            694.813856
+          ],
+          [
+            449.092733,
+            693.484049
+          ],
+          [
+            449.092733,
+            726.728733
+          ],
+          [
+            56.955643,
+            728.058539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0017",
+        "text": "RETURN OBJECTIVES: As an opportunistic investor without a need to deploy",
+        "confidence": 0.97721,
+        "coordinates": [
+          56.451614,
+          744.015951,
+          886.088669,
+          39.228733
+        ],
+        "polygon": [
+          [
+            56.451614,
+            744.015951
+          ],
+          [
+            942.540283,
+            746.010634
+          ],
+          [
+            942.540283,
+            783.244683
+          ],
+          [
+            56.451614,
+            781.25
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0018",
+        "text": "Cot  c   i oi (      ing",
+        "confidence": 0.67098,
+        "coordinates": [
+          55.443548,
+          778.590441,
+          886.088679,
+          35.904243
+        ],
+        "polygon": [
+          [
+            55.443548,
+            778.590441
+          ],
+          [
+            941.532227,
+            779.255317
+          ],
+          [
+            941.532227,
+            814.494683
+          ],
+          [
+            55.443548,
+            813.829807
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0019",
+        "text": "those investments which deliver superior risk adjusted returns.",
+        "confidence": 0.99607,
+        "coordinates": [
+          56.451614,
+          812.5,
+          617.943527,
+          35.904243
+        ],
+        "polygon": [
+          [
+            56.451614,
+            813.164931
+          ],
+          [
+            674.395142,
+            812.5
+          ],
+          [
+            674.395142,
+            847.739366
+          ],
+          [
+            56.451614,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0020",
+        "text": "COULTON CREEK",
+        "confidence": 0.95815,
+        "coordinates": [
+          143.64919,
+          915.558485,
+          182.459676,
+          30.585178
+        ],
+        "polygon": [
+          [
+            143.64919,
+            915.558485
+          ],
+          [
+            326.108866,
+            915.558485
+          ],
+          [
+            326.108866,
+            946.143663
+          ],
+          [
+            143.64919,
+            946.143663
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0021",
+        "text": "Company Overview - 2023",
+        "confidence": 0.97811,
+        "coordinates": [
+          744.455648,
+          931.515951,
+          210.685465,
+          27.925564
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.141113,
+            931.515951
+          ],
+          [
+            955.141113,
+            958.111762
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p004-ocr-0022",
+        "text": "CAPITAL",
+        "confidence": 0.99595,
+        "coordinates": [
+          144.153229,
+          940.824436,
+          92.237905,
+          27.260634
+        ],
+        "polygon": [
+          [
+            144.153229,
+            940.824436
+          ],
+          [
+            236.391134,
+            940.824436
+          ],
+          [
+            236.391134,
+            968.085069
+          ],
+          [
+            144.153229,
+            968.085069
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p004-ocr-0001",
+      "owner_block_id": "p004-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0002",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0003",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0004",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0005",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0006",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0007",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0008",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0009",
+      "owner_block_id": "p004-r003-subsection-001-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0010",
+      "owner_block_id": "p004-r003-subsection-002-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0011",
+      "owner_block_id": "p004-r003-subsection-002-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0012",
+      "owner_block_id": "p004-r003-subsection-002-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0013",
+      "owner_block_id": "p004-r003-subsection-002-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0014",
+      "owner_block_id": "p004-r003-subsection-003-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0015",
+      "owner_block_id": "p004-r003-subsection-003-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0016",
+      "owner_block_id": "p004-r003-subsection-003-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0017",
+      "owner_block_id": "p004-r003-subsection-004-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0018",
+      "owner_block_id": "p004-r003-subsection-004-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0019",
+      "owner_block_id": "p004-r003-subsection-004-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0020",
+      "owner_block_id": "p004-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0021",
+      "owner_block_id": "p004-r001-band-002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p004-ocr-0022",
+      "owner_block_id": "p004-r001-band-001-brand-mark",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "complete",
+    "warnings": []
+  }
+}

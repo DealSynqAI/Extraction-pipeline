@@ -1,0 +1,2067 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 9,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 9,
+      "block_id": "p009-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p009-r003-block",
+          "p009-r002-chart"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p009-r003-block",
+          "p009-r002-chart"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        82.00063,
+        1000.0,
+        787.99937
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.84,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "one or more child blocks require review"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-009.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "page_title",
+      "page": 9,
+      "block_id": "p009-r003-block",
+      "hierarchy": {
+        "parent_block_id": "p009-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "INVESTOR ALIGNMENT DECEMBER 31, 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "INVESTOR ALIGNMENT DECEMBER 31, 2023",
+          "ocr": "DECEMBER 31, 2023\nINVESTOR ALIGNMENT",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        46.11125,
+        82.00063,
+        680.538917,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          33.2001,
+          44.280340000000024,
+          523.1881200000003,
+          64.32033999999999
+        ],
+        "ocr_evidence_ids": [
+          "p009-ocr-0001",
+          "p009-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-009.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "chart",
+      "semantic_role": "data_visualization",
+      "page": 9,
+      "block_id": "p009-r002-chart",
+      "hierarchy": {
+        "parent_block_id": "p009-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "title": "$146 Million Portfolio",
+        "chart_type": "pie",
+        "observations": [
+          {
+            "item_id": "o001",
+            "raw_value": "$146",
+            "numeric_value": 146.0,
+            "normalized_value": 146.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0023",
+            "value_evidence_id": "p009-native-0022",
+            "label_coordinates": [
+              230.72933916666665,
+              243.76127481481484,
+              87.58013366666668,
+              38.65111111111111
+            ],
+            "value_coordinates": [
+              166.25708333333336,
+              243.76127481481484,
+              59.84429687499999,
+              38.65111111111111
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Million",
+            "confidence": 0.80332,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o002",
+            "raw_value": "$100 million",
+            "numeric_value": 100.0,
+            "normalized_value": 100000000.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0013",
+            "value_evidence_id": "p009-ocr-0009",
+            "label_coordinates": [
+              425.9261862638889,
+              520.4070212962963,
+              63.70393105555554,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              371.471761,
+              512.632975,
+              120.967733,
+              33.909559
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "million",
+            "confidence": 0.90705,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o003",
+            "raw_value": "$38 million",
+            "numeric_value": 38.0,
+            "normalized_value": 38000000.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0017",
+            "value_evidence_id": "p009-ocr-0010",
+            "label_coordinates": [
+              749.6692502499999,
+              527.7092435185186,
+              63.70393105555554,
+              30.062037037036916
+            ],
+            "value_coordinates": [
+              704.133057,
+              517.952148,
+              112.903239,
+              37.898926
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "million",
+            "confidence": 0.91653,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o004",
+            "raw_value": "$45 million",
+            "numeric_value": 45.0,
+            "normalized_value": 45000000.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0015",
+            "value_evidence_id": "p009-ocr-0008",
+            "label_coordinates": [
+              188.15994469444442,
+              528.6460953703704,
+              63.703931055555586,
+              30.062037037036916
+            ],
+            "value_coordinates": [
+              142.137095,
+              519.281901,
+              113.407257,
+              35.904297
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "million",
+            "confidence": 0.91574,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o005",
+            "raw_value": "$100",
+            "numeric_value": 100.0,
+            "normalized_value": 100.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0007",
+            "value_evidence_id": "p009-native-0012",
+            "label_coordinates": [
+              330.2919444444445,
+              483.1873916666666,
+              72.3044582361112,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              374.3523611111111,
+              520.4070212962963,
+              46.904580666666675,
+              30.062037037037022
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Coulton",
+            "confidence": 0.86266,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o006",
+            "raw_value": "$38",
+            "numeric_value": 38.0,
+            "normalized_value": 38.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-ocr-0007",
+            "value_evidence_id": "p009-native-0016",
+            "label_coordinates": [
+              706.14917,
+              482.712782,
+              110.887126,
+              37.234049
+            ],
+            "value_coordinates": [
+              709.9186111111111,
+              527.7092435185186,
+              35.08365141666666,
+              30.062037037036916
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Employees",
+            "confidence": 0.85267,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o007",
+            "raw_value": "$45",
+            "numeric_value": 45.0,
+            "normalized_value": 45.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0010",
+            "value_evidence_id": "p009-native-0014",
+            "label_coordinates": [
+              164.52902777777777,
+              491.42646574074075,
+              35.90962699999998,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              148.40930555555556,
+              528.6460953703704,
+              35.08365141666668,
+              30.062037037036916
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "SPV",
+            "confidence": 0.87855,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o008",
+            "raw_value": "68%",
+            "numeric_value": 68.0,
+            "normalized_value": 0.68,
+            "unit": "percent",
+            "label_evidence_id": "p009-native-0008",
+            "value_evidence_id": "p009-ocr-0011",
+            "label_coordinates": [
+              409.82481741666675,
+              483.1873916666666,
+              53.81930522222223,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              407.762085,
+              549.202148,
+              48.387085,
+              34.574436
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Creek",
+            "confidence": 0.82312,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o009",
+            "raw_value": "26%",
+            "numeric_value": 26.0,
+            "normalized_value": 0.26,
+            "unit": "percent",
+            "label_evidence_id": "p009-ocr-0004",
+            "value_evidence_id": "p009-ocr-0013",
+            "label_coordinates": [
+              701.612874,
+              445.478733,
+              101.814535,
+              31.914876
+            ],
+            "value_coordinates": [
+              734.878988,
+              557.180881,
+              50.403239,
+              34.574436
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Founders",
+            "confidence": 0.73343,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o010",
+            "raw_value": "31%",
+            "numeric_value": 31.0,
+            "normalized_value": 0.31,
+            "unit": "percent",
+            "label_evidence_id": "p009-native-0011",
+            "value_evidence_id": "p009-ocr-0012",
+            "label_coordinates": [
+              206.45067377777778,
+              491.42646574074075,
+              30.50242072222223,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              174.395162,
+              557.845757,
+              50.403219,
+              34.57449
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "LPs",
+            "confidence": 0.81571,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o011",
+            "raw_value": "$62 million",
+            "numeric_value": 62.0,
+            "normalized_value": 62000000.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0021",
+            "value_evidence_id": "p009-ocr-0015",
+            "label_coordinates": [
+              872.13050025,
+              609.2270212962964,
+              63.70393105555554,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              827.620931,
+              601.728733,
+              111.391195,
+              33.909559
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "million",
+            "confidence": 0.91719,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o012",
+            "raw_value": "$62",
+            "numeric_value": 62.0,
+            "normalized_value": 62.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0018",
+            "value_evidence_id": "p009-native-0020",
+            "label_coordinates": [
+              810.8869444444446,
+              572.0073916666666,
+              54.22552272222229,
+              30.06203703703713
+            ],
+            "value_coordinates": [
+              832.3798611111112,
+              609.2270212962964,
+              35.08365141666666,
+              30.062037037037022
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Other",
+            "confidence": 0.88184,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o013",
+            "raw_value": "42%",
+            "numeric_value": 42.0,
+            "normalized_value": 0.42,
+            "unit": "percent",
+            "label_evidence_id": "p009-ocr-0014",
+            "value_evidence_id": "p009-ocr-0016",
+            "label_coordinates": [
+              805.947591,
+              565.159559,
+              153.729818,
+              31.914931
+            ],
+            "value_coordinates": [
+              855.846761,
+              634.973416,
+              53.427409,
+              39.228733
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Other Investors",
+            "confidence": 0.81306,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o014",
+            "raw_value": "$0.97 million",
+            "numeric_value": 0.97,
+            "normalized_value": 970000.0,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0005",
+            "value_evidence_id": "p009-ocr-0018",
+            "label_coordinates": [
+              121.95528847222224,
+              782.5160953703704,
+              63.7016742916667,
+              30.062037037037022
+            ],
+            "value_coordinates": [
+              59.475805,
+              773.936198,
+              129.032252,
+              34.574436
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "million",
+            "confidence": 0.89905,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o015",
+            "raw_value": "$0.97",
+            "numeric_value": 0.97,
+            "normalized_value": 0.97,
+            "unit": "USD",
+            "label_evidence_id": "p009-native-0001",
+            "value_evidence_id": "p009-native-0004",
+            "label_coordinates": [
+              45.66499999999999,
+              745.2964657407407,
+              63.70618781944445,
+              30.06203703703713
+            ],
+            "value_coordinates": [
+              63.93388888888889,
+              782.5160953703704,
+              53.35441186111113,
+              30.062037037037022
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "Return",
+            "confidence": 0.88109,
+            "validation_status": "passed",
+            "errors": []
+          },
+          {
+            "item_id": "o016",
+            "raw_value": "0.7%",
+            "numeric_value": 0.7,
+            "normalized_value": 0.006999999999999999,
+            "unit": "percent",
+            "label_evidence_id": "p009-native-0002",
+            "value_evidence_id": "p009-ocr-0019",
+            "label_coordinates": [
+              115.52763970833334,
+              745.2964657407407,
+              18.952303138888876,
+              30.06203703703713
+            ],
+            "value_coordinates": [
+              97.278229,
+              812.5,
+              53.931447,
+              33.244683
+            ],
+            "visual_mark_coordinates": null,
+            "grounding_method": "OCR label-value spatial association; individual pie-slice geometry unresolved",
+            "visual_mark_ref": null,
+            "series": null,
+            "category": "of",
+            "confidence": 0.8224,
+            "validation_status": "passed",
+            "errors": []
+          }
+        ],
+        "vision_summary": {
+          "horizontal_line_count": 0,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 11,
+          "rectangle_candidate_count": 1,
+          "bar_candidate_count": 1,
+          "point_candidate_count": 101,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.14967
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p009-r002.json",
+          "sha256": "ec33dcbbac36e7e367d35e0fc5b44dc7a4b864d24210aa06662faa5057a6a571"
+        },
+        "region_image": "region-images/p009-r002.png",
+        "slice_geometry_status": "unresolved",
+        "percentage_total": 167.7,
+        "expected_observation_count": 5,
+        "emitted_observation_count": 16,
+        "observation_completeness": 1.0,
+        "percentage_total_reconciles": false
+      },
+      "coordinates": [
+        0.0,
+        123.260781,
+        1000.0,
+        746.739219
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Qwen3-VL semantic linking",
+        "Python reconstruction"
+      ],
+      "confidence": 0.84,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "Qwen disagreed with deterministic ownership for 3 value(s); deterministic evidence retained",
+          "Qwen returned 4 grounded binding(s) for 16 deterministic binding(s); deterministic evidence retained",
+          "Qwen semantic reconciliation: 0 confirmed, 0 added, 3 conflicted",
+          "Qwen proposed 1 semantic ownership binding(s) that Python could not independently validate; omitted",
+          "individual pie-slice geometry was not validated; label-value associations are retained",
+          "pie observations do not reconcile to a complete 100% allocation"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-r002",
+        "classification_method": "pdf-raster-object-cluster",
+        "reading_order": 3,
+        "source_bbox_points": [
+          0.0,
+          66.56082150000003,
+          720.0,
+          469.8
+        ],
+        "ocr_evidence_ids": [
+          "p009-ocr-0003",
+          "p009-ocr-0004",
+          "p009-ocr-0005",
+          "p009-ocr-0006",
+          "p009-ocr-0007",
+          "p009-ocr-0008",
+          "p009-ocr-0009",
+          "p009-ocr-0010",
+          "p009-ocr-0011",
+          "p009-ocr-0012",
+          "p009-ocr-0013",
+          "p009-ocr-0014",
+          "p009-ocr-0015",
+          "p009-ocr-0016",
+          "p009-ocr-0017",
+          "p009-ocr-0018",
+          "p009-ocr-0019",
+          "p009-native-0001",
+          "p009-native-0002",
+          "p009-native-0003",
+          "p009-native-0004",
+          "p009-native-0005",
+          "p009-native-0006",
+          "p009-native-0007",
+          "p009-native-0008",
+          "p009-native-0009",
+          "p009-native-0010",
+          "p009-native-0011",
+          "p009-native-0012",
+          "p009-native-0013",
+          "p009-native-0014",
+          "p009-native-0015",
+          "p009-native-0016",
+          "p009-native-0017",
+          "p009-native-0018",
+          "p009-native-0019",
+          "p009-native-0020",
+          "p009-native-0021",
+          "p009-native-0022",
+          "p009-native-0023",
+          "p009-native-0024"
+        ],
+        "rendered_page": "page-images/page-009.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "page_footer",
+      "page": 9,
+      "block_id": "p009-r001-page-band",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p009-r001-band-001-brand-mark",
+          "p009-r001-band-002-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "page_footer",
+        "child_block_ids": [
+          "p009-r001-band-001-brand-mark",
+          "p009-r001-band-002-block"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python semantic repeated-page-band decomposition"
+      ],
+      "confidence": 0.99687,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 4,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-009.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 9,
+      "block_id": "p009-r001-band-001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p009-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p009-r001.json",
+          "sha256": "4702dbc5a0493d1a833285510a717bbd92856198b2d1cafe50dce691a45cce07"
+        },
+        "region_image": "region-images/p009-r001-band-001.png"
+      },
+      "coordinates": [
+        143.64919,
+        917.553168,
+        181.955648,
+        49.86708
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python repeated-band decomposition"
+      ],
+      "confidence": 0.99687,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 5,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p009-ocr-0022",
+          "p009-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-009.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "running_footer",
+      "page": 9,
+      "block_id": "p009-r001-band-002-block",
+      "hierarchy": {
+        "parent_block_id": "p009-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company Overview - 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview - 2023",
+          "ocr": "Company Overview - 2023",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        744.455648,
+        932.845812,
+        211.189535,
+        26.595703
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p009-r001-band-002",
+        "classification_method": "semantic repeated-page-band decomposition",
+        "reading_order": 6,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p009-ocr-0021"
+        ],
+        "rendered_page": "page-images/page-009.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-009.png",
+    "rendered_page_sha256": "edbc77983fdb9ebef8167d9119c32b71faaaf862708163cc2e487a29d3c0955c",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p009-ocr-0001",
+        "text": "INVESTOR ALIGNMENT",
+        "confidence": 0.99972,
+        "coordinates": [
+          44.354838,
+          71.808512,
+          317.036275,
+          37.234043
+        ],
+        "polygon": [
+          [
+            44.354838,
+            71.808512
+          ],
+          [
+            361.391113,
+            71.808512
+          ],
+          [
+            361.391113,
+            109.042555
+          ],
+          [
+            44.354838,
+            109.042555
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0002",
+        "text": "DECEMBER 31, 2023",
+        "confidence": 0.97745,
+        "coordinates": [
+          449.092733,
+          70.478726,
+          279.233846,
+          41.888299
+        ],
+        "polygon": [
+          [
+            449.092733,
+            70.478726
+          ],
+          [
+            728.326579,
+            71.808512
+          ],
+          [
+            728.326579,
+            112.367025
+          ],
+          [
+            449.092733,
+            111.037238
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0003",
+        "text": "$146 Million Portfolio",
+        "confidence": 0.99989,
+        "coordinates": [
+          162.802419,
+          235.372342,
+          268.145172,
+          39.893609
+        ],
+        "polygon": [
+          [
+            162.802419,
+            235.372342
+          ],
+          [
+            430.947591,
+            235.372342
+          ],
+          [
+            430.947591,
+            275.265951
+          ],
+          [
+            162.802419,
+            275.265951
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0004",
+        "text": "Founders",
+        "confidence": 0.99997,
+        "coordinates": [
+          701.612874,
+          445.478733,
+          101.814535,
+          31.914876
+        ],
+        "polygon": [
+          [
+            701.612874,
+            445.478733
+          ],
+          [
+            803.427409,
+            445.478733
+          ],
+          [
+            803.427409,
+            477.393609
+          ],
+          [
+            701.612874,
+            477.393609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0005",
+        "text": "Coulton Creek Capital",
+        "confidence": 0.99994,
+        "coordinates": [
+          326.612895,
+          475.398926,
+          208.669373,
+          34.57449
+        ],
+        "polygon": [
+          [
+            326.612895,
+            475.398926
+          ],
+          [
+            535.282267,
+            477.393609
+          ],
+          [
+            535.282267,
+            509.973416
+          ],
+          [
+            326.612895,
+            507.978733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0006",
+        "text": "SPV LPs",
+        "confidence": 0.99946,
+        "coordinates": [
+          159.27419,
+          483.377658,
+          82.157267,
+          33.909559
+        ],
+        "polygon": [
+          [
+            159.27419,
+            483.377658
+          ],
+          [
+            241.431458,
+            483.377658
+          ],
+          [
+            241.431458,
+            517.287218
+          ],
+          [
+            159.27419,
+            517.287218
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0007",
+        "text": "Employees",
+        "confidence": 0.99982,
+        "coordinates": [
+          706.14917,
+          482.712782,
+          110.887126,
+          37.234049
+        ],
+        "polygon": [
+          [
+            706.14917,
+            482.712782
+          ],
+          [
+            817.036296,
+            484.042535
+          ],
+          [
+            817.036296,
+            519.946832
+          ],
+          [
+            706.14917,
+            518.617025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0008",
+        "text": "$45 million",
+        "confidence": 0.9969,
+        "coordinates": [
+          142.137095,
+          519.281901,
+          113.407257,
+          35.904297
+        ],
+        "polygon": [
+          [
+            142.137095,
+            519.281901
+          ],
+          [
+            255.544352,
+            519.281901
+          ],
+          [
+            255.544352,
+            555.186198
+          ],
+          [
+            142.137095,
+            555.186198
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0009",
+        "text": "$100 million",
+        "confidence": 0.99982,
+        "coordinates": [
+          371.471761,
+          512.632975,
+          120.967733,
+          33.909559
+        ],
+        "polygon": [
+          [
+            371.471761,
+            512.632975
+          ],
+          [
+            492.439494,
+            512.632975
+          ],
+          [
+            492.439494,
+            546.542535
+          ],
+          [
+            371.471761,
+            546.542535
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0010",
+        "text": "$38 million",
+        "confidence": 0.99827,
+        "coordinates": [
+          704.133057,
+          517.952148,
+          112.903239,
+          37.898926
+        ],
+        "polygon": [
+          [
+            704.637126,
+            517.952148
+          ],
+          [
+            817.036296,
+            519.946832
+          ],
+          [
+            816.532227,
+            555.851074
+          ],
+          [
+            704.133057,
+            553.856391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0011",
+        "text": "68%",
+        "confidence": 0.99654,
+        "coordinates": [
+          407.762085,
+          549.202148,
+          48.387085,
+          34.574436
+        ],
+        "polygon": [
+          [
+            407.762085,
+            549.202148
+          ],
+          [
+            456.14917,
+            549.202148
+          ],
+          [
+            456.14917,
+            583.776584
+          ],
+          [
+            407.762085,
+            583.776584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0012",
+        "text": "31%",
+        "confidence": 0.99031,
+        "coordinates": [
+          174.395162,
+          557.845757,
+          50.403219,
+          34.57449
+        ],
+        "polygon": [
+          [
+            174.395162,
+            557.845757
+          ],
+          [
+            224.798381,
+            557.845757
+          ],
+          [
+            224.798381,
+            592.420247
+          ],
+          [
+            174.395162,
+            592.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0013",
+        "text": "26%",
+        "confidence": 0.99595,
+        "coordinates": [
+          734.878988,
+          557.180881,
+          50.403239,
+          34.574436
+        ],
+        "polygon": [
+          [
+            734.878988,
+            557.180881
+          ],
+          [
+            785.282227,
+            557.180881
+          ],
+          [
+            785.282227,
+            591.755317
+          ],
+          [
+            734.878988,
+            591.755317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0014",
+        "text": "Other Investors",
+        "confidence": 0.99993,
+        "coordinates": [
+          805.947591,
+          565.159559,
+          153.729818,
+          31.914931
+        ],
+        "polygon": [
+          [
+            805.947591,
+            565.159559
+          ],
+          [
+            959.677409,
+            566.489366
+          ],
+          [
+            959.677409,
+            597.07449
+          ],
+          [
+            805.947591,
+            595.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0015",
+        "text": "$62 million",
+        "confidence": 0.98546,
+        "coordinates": [
+          827.620931,
+          601.728733,
+          111.391195,
+          33.909559
+        ],
+        "polygon": [
+          [
+            827.620931,
+            601.728733
+          ],
+          [
+            939.012126,
+            601.728733
+          ],
+          [
+            939.012126,
+            635.638292
+          ],
+          [
+            827.620931,
+            635.638292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0016",
+        "text": "42%",
+        "confidence": 0.99814,
+        "coordinates": [
+          855.846761,
+          634.973416,
+          53.427409,
+          39.228733
+        ],
+        "polygon": [
+          [
+            857.358887,
+            634.973416
+          ],
+          [
+            909.27417,
+            638.297906
+          ],
+          [
+            907.762126,
+            674.202148
+          ],
+          [
+            855.846761,
+            671.542589
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0017",
+        "text": "Return of Capital",
+        "confidence": 0.9955,
+        "coordinates": [
+          41.834676,
+          736.702148,
+          165.826619,
+          35.239366
+        ],
+        "polygon": [
+          [
+            41.834676,
+            736.702148
+          ],
+          [
+            207.661296,
+            738.696832
+          ],
+          [
+            207.661296,
+            771.941515
+          ],
+          [
+            41.834676,
+            769.946832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0018",
+        "text": "$0.97 million",
+        "confidence": 0.99506,
+        "coordinates": [
+          59.475805,
+          773.936198,
+          129.032252,
+          34.574436
+        ],
+        "polygon": [
+          [
+            59.475805,
+            773.936198
+          ],
+          [
+            188.508057,
+            775.265951
+          ],
+          [
+            188.508057,
+            808.510634
+          ],
+          [
+            59.475805,
+            807.180881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0019",
+        "text": "0.7%",
+        "confidence": 0.99584,
+        "coordinates": [
+          97.278229,
+          812.5,
+          53.931447,
+          33.244683
+        ],
+        "polygon": [
+          [
+            97.278229,
+            812.5
+          ],
+          [
+            151.209676,
+            812.5
+          ],
+          [
+            151.209676,
+            845.744683
+          ],
+          [
+            97.278229,
+            845.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0020",
+        "text": "COULTONCREEK",
+        "confidence": 0.9993,
+        "coordinates": [
+          144.153229,
+          917.553168,
+          181.451609,
+          26.595812
+        ],
+        "polygon": [
+          [
+            144.153229,
+            917.553168
+          ],
+          [
+            325.604838,
+            917.553168
+          ],
+          [
+            325.604838,
+            944.14898
+          ],
+          [
+            144.153229,
+            944.14898
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0021",
+        "text": "Company Overview - 2023",
+        "confidence": 0.98089,
+        "coordinates": [
+          744.455648,
+          932.845812,
+          211.189535,
+          26.595703
+        ],
+        "polygon": [
+          [
+            744.455648,
+            932.845812
+          ],
+          [
+            955.645182,
+            932.845812
+          ],
+          [
+            955.645182,
+            959.441515
+          ],
+          [
+            744.455648,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-ocr-0022",
+        "text": "CAPITAL",
+        "confidence": 0.99445,
+        "coordinates": [
+          143.64919,
+          940.824436,
+          93.245972,
+          26.595812
+        ],
+        "polygon": [
+          [
+            143.64919,
+            940.824436
+          ],
+          [
+            236.895162,
+            940.824436
+          ],
+          [
+            236.895162,
+            967.420247
+          ],
+          [
+            143.64919,
+            967.420247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p009-native-0001",
+        "text": "Return",
+        "confidence": 1.0,
+        "coordinates": [
+          45.66499999999999,
+          745.2964657407407,
+          63.70618781944445,
+          30.06203703703713
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0002",
+        "text": "of",
+        "confidence": 1.0,
+        "coordinates": [
+          115.52763970833334,
+          745.2964657407407,
+          18.952303138888876,
+          30.06203703703713
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0003",
+        "text": "Capital",
+        "confidence": 1.0,
+        "coordinates": [
+          140.2414610555556,
+          745.2964657407407,
+          63.586579333333326,
+          30.06203703703713
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0004",
+        "text": "$0.97",
+        "confidence": 1.0,
+        "coordinates": [
+          63.93388888888889,
+          782.5160953703704,
+          53.35441186111113,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0005",
+        "text": "million",
+        "confidence": 1.0,
+        "coordinates": [
+          121.95528847222224,
+          782.5160953703704,
+          63.7016742916667,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0006",
+        "text": "&",
+        "confidence": 1.0,
+        "coordinates": [
+          800.1947069027779,
+          453.27016944444443,
+          15.910185416666739,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0007",
+        "text": "Coulton",
+        "confidence": 1.0,
+        "coordinates": [
+          330.2919444444445,
+          483.1873916666666,
+          72.3044582361112,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0008",
+        "text": "Creek",
+        "confidence": 1.0,
+        "coordinates": [
+          409.82481741666675,
+          483.1873916666666,
+          53.81930522222223,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0009",
+        "text": "Capital",
+        "confidence": 1.0,
+        "coordinates": [
+          470.0127103333334,
+          483.1873916666666,
+          63.58657933333337,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0010",
+        "text": "SPV",
+        "confidence": 1.0,
+        "coordinates": [
+          164.52902777777777,
+          491.42646574074075,
+          35.90962699999998,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0011",
+        "text": "LPs",
+        "confidence": 1.0,
+        "coordinates": [
+          206.45067377777778,
+          491.42646574074075,
+          30.50242072222223,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0012",
+        "text": "$100",
+        "confidence": 1.0,
+        "coordinates": [
+          374.3523611111111,
+          520.4070212962963,
+          46.904580666666675,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0013",
+        "text": "million",
+        "confidence": 1.0,
+        "coordinates": [
+          425.9261862638889,
+          520.4070212962963,
+          63.70393105555554,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0014",
+        "text": "$45",
+        "confidence": 1.0,
+        "coordinates": [
+          148.40930555555556,
+          528.6460953703704,
+          35.08365141666668,
+          30.062037037036916
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0015",
+        "text": "million",
+        "confidence": 1.0,
+        "coordinates": [
+          188.15994469444442,
+          528.6460953703704,
+          63.703931055555586,
+          30.062037037036916
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0016",
+        "text": "$38",
+        "confidence": 1.0,
+        "coordinates": [
+          709.9186111111111,
+          527.7092435185186,
+          35.08365141666666,
+          30.062037037036916
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0017",
+        "text": "million",
+        "confidence": 1.0,
+        "coordinates": [
+          749.6692502499999,
+          527.7092435185186,
+          63.70393105555554,
+          30.062037037036916
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0018",
+        "text": "Other",
+        "confidence": 1.0,
+        "coordinates": [
+          810.8869444444446,
+          572.0073916666666,
+          54.22552272222229,
+          30.06203703703713
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0019",
+        "text": "Investors",
+        "confidence": 1.0,
+        "coordinates": [
+          871.077094125,
+          572.0073916666666,
+          85.307931763889,
+          30.06203703703713
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0020",
+        "text": "$62",
+        "confidence": 1.0,
+        "coordinates": [
+          832.3798611111112,
+          609.2270212962964,
+          35.08365141666666,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0021",
+        "text": "million",
+        "confidence": 1.0,
+        "coordinates": [
+          872.13050025,
+          609.2270212962964,
+          63.70393105555554,
+          30.062037037037022
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0022",
+        "text": "$146",
+        "confidence": 1.0,
+        "coordinates": [
+          166.25708333333336,
+          243.76127481481484,
+          59.84429687499999,
+          38.65111111111111
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0023",
+        "text": "Million",
+        "confidence": 1.0,
+        "coordinates": [
+          230.72933916666665,
+          243.76127481481484,
+          87.58013366666668,
+          38.65111111111111
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      },
+      {
+        "evidence_id": "p009-native-0024",
+        "text": "Portfolio",
+        "confidence": 1.0,
+        "coordinates": [
+          322.0669692916667,
+          243.76127481481484,
+          106.95082583333335,
+          38.65111111111111
+        ],
+        "evidence_source": "native_pdf_positioned_word"
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p009-ocr-0001",
+      "owner_block_id": "p009-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0002",
+      "owner_block_id": "p009-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0003",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0004",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0005",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0006",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0007",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0008",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0009",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0010",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0011",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0012",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0013",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0014",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0015",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0016",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0017",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0018",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0019",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0020",
+      "owner_block_id": "p009-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0021",
+      "owner_block_id": "p009-r001-band-002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-ocr-0022",
+      "owner_block_id": "p009-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0001",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0002",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0003",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0004",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0005",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0006",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0007",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0008",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0009",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0010",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0011",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0012",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0013",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0014",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0015",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0016",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0017",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0018",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0019",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0020",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0021",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0022",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0023",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p009-native-0024",
+      "owner_block_id": "p009-r002-chart",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "needs_review",
+    "warnings": [
+      "2 source blocks require review"
+    ]
+  }
+}

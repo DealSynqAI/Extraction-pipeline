@@ -1,0 +1,642 @@
+{
+  "schema_version": "pdf-page-inspection/1.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 16,
+  "width_points": 720.0,
+  "height_points": 540.0,
+  "rotation": 0,
+  "native_text_available": true,
+  "native_text_coverage": 0.39779,
+  "native_text_quality": 1.0,
+  "image_coverage": 0.13237,
+  "vector_line_count": 3,
+  "possible_table_regions": 0,
+  "possible_visual_regions": 1,
+  "routing_confidence": 0.58,
+  "regions": [
+    {
+      "region_id": "p016-r002",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        60.0,
+        79.06285185185185,
+        182.5365666666667,
+        37.11111111111104
+      ],
+      "reading_order": 1,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "DISCLOSURE",
+      "metadata": {
+        "median_font_size": 20.039999999999964,
+        "word_count": 1,
+        "source_bbox_points": [
+          43.2,
+          42.69394,
+          174.62632800000003,
+          62.73393999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r003",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.33333333333331,
+        146.74933333333334,
+        871.697472222222,
+        68.30488888888898
+      ],
+      "reading_order": 2,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR to take reasonable steps to prevent inadvertent disclosures to\nSOLICITATION OF AN OFFER OF SECURITIES. No legally any other party, and not to use the information in any manner\nbinding obligations will be created unless and until definitive",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 46,
+        "source_bbox_points": [
+          49.19999999999999,
+          79.24464,
+          676.8221799999999,
+          116.12928000000005
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r005",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.3640000000004,
+        219.0613333333334,
+        871.7588055555542,
+        142.7022222222224
+      ],
+      "reading_order": 3,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "written agreements are executed and delivered by all parties.\nThis summary is not a commitment to purchase or sell any\ninvestment, and any investment is conditioned on the The Company is a limited liability company, which under\ncompletion of due diligence, legal review and final, signed federal law, may be taxed as either a corporation or a\ndocumentation that is satisfactory to the Company and each partnership. The Company has elected to be taxed as a\npotential investor. partnership. Each prospective investor must consult their own",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 86,
+        "source_bbox_points": [
+          49.22208000000029,
+          118.29312000000004,
+          676.8884199999994,
+          195.35232000000013
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r007",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.41000000000065,
+        401.3235555555558,
+        421.70653333333337,
+        20.444444444444482
+      ],
+      "reading_order": 4,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The Company makes no representation or warranty as to the",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 10,
+        "source_bbox_points": [
+          49.25520000000047,
+          216.7147200000001,
+          352.8839040000005,
+          227.75472000000013
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r009",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.4253333333341,
+        425.7751111111113,
+        421.63599999999997,
+        44.89600000000006
+      ],
+      "reading_order": 5,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "accuracy or completeness of the presentation, and shall not\nhave any liability for any representations (expressed or",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 17,
+        "source_bbox_points": [
+          49.26624000000055,
+          229.91856000000013,
+          352.84416000000056,
+          254.16240000000016
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r011",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.47133333333426,
+        474.67822222222253,
+        421.49799999999993,
+        20.444444444444482
+      ],
+      "reading_order": 6,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "implied) regarding information contained herein, any",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 6,
+        "source_bbox_points": [
+          49.29936000000066,
+          256.32624000000015,
+          352.7779200000006,
+          267.3662400000002
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r013",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.48666666666756,
+        499.12977777777814,
+        421.51026666666655,
+        20.444444444444482
+      ],
+      "reading_order": 7,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "omissions, or any other written or oral communications",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 8,
+        "source_bbox_points": [
+          49.31040000000064,
+          269.53008000000017,
+          352.7977920000006,
+          280.5700800000002
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r015",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.47133333333464,
+        523.5813333333335,
+        871.7588055555545,
+        216.28566666666646
+      ],
+      "reading_order": 8,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "transmitted to the recipient in the course of its evaluation. No\nperson has been authorized in connection with this\npresentation to give any information or make any Performance of any investment is subject to numerous factors\nrepresentations and, if given or made, must not be relied upon that are neither within the control of, nor predictable by, the\nas having been authorized. Only those representations and Company or its Managers. Such factors include a wide range\nwarranties, which may be made to an investor in a definitive of economic, political, competitive, and other conditions that\nwritten agreement, and subject to such limitations and may affect investments in general or specific industries or\nrestrictions as may be specified therein, will have any legal companies. PAST PERFORMANCE IS NO GUARANTEE OF\neffect. FUTURE PERFORMANCE. Distributions are subject to",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 136,
+        "source_bbox_points": [
+          49.299360000000945,
+          282.7339200000001,
+          676.9657000000002,
+          399.52818
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r017",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.48666666666807,
+        779.1982222222223,
+        421.64519999999993,
+        20.444444444444375
+      ],
+      "reading_order": 9,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "By accepting this presentation, recipient acknowledges the",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 7,
+        "source_bbox_points": [
+          49.31040000000101,
+          420.76704000000007,
+          352.894944000001,
+          431.80704000000003
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r019",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.44066666666811,
+        803.6497777777778,
+        421.63446666666664,
+        20.444444444444482
+      ],
+      "reading_order": 10,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "information contained herein is confidential and proprietary",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 7,
+        "source_bbox_points": [
+          49.27728000000104,
+          433.97088,
+          352.85409600000105,
+          445.01088000000004
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r021",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        68.4253333333348,
+        828.1013333333334,
+        421.6820000000001,
+        44.89599999999996
+      ],
+      "reading_order": 11,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "and agrees not to make copies or disclose any of this\ninformation without the permission of the Company,",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 18,
+        "source_bbox_points": [
+          49.26624000000106,
+          447.17472000000004,
+          352.8772800000011,
+          471.41856
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r004",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.3334722222218,
+        202.44388888888892,
+        332.9479999999998,
+        20.444444444444482
+      ],
+      "reading_order": 12,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "that competes with the business of the Company.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 8,
+        "source_bbox_points": [
+          373.2000999999996,
+          109.31970000000001,
+          612.9226599999995,
+          120.35970000000003
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r006",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.4254722222211,
+        359.8047777777779,
+        421.72186666666653,
+        44.89600000000006
+      ],
+      "reading_order": 13,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "legal counsel and/or personal tax advisor to determine the\npotential tax consequences of a prospective investment in the",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 18,
+        "source_bbox_points": [
+          373.26633999999916,
+          194.29458000000005,
+          676.906083999999,
+          218.5384200000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r008",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.4254722222208,
+        408.707888888889,
+        69.59800000000003,
+        20.444444444444482
+      ],
+      "reading_order": 14,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Company.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 1,
+        "source_bbox_points": [
+          373.26633999999905,
+          220.70226000000008,
+          423.37689999999907,
+          231.7422600000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r010",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.425472222221,
+        466.2590000000002,
+        421.5731333333336,
+        20.444444444444482
+      ],
+      "reading_order": 15,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "The Company’s investment activities involve a significant",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 7,
+        "source_bbox_points": [
+          373.2663399999991,
+          251.7798600000001,
+          676.7989959999993,
+          262.8198600000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r012",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.4254722222214,
+        490.7105555555558,
+        421.6605333333338,
+        20.444444444444482
+      ],
+      "reading_order": 16,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "degree of risk, including but not limited to illiquidity, interest",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 10,
+        "source_bbox_points": [
+          373.2663399999994,
+          264.9837000000001,
+          676.8619239999997,
+          276.02370000000013
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r014",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.5021388888886,
+        515.1621111111112,
+        338.2686666666666,
+        20.444444444444482
+      ],
+      "reading_order": 17,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "rates, reinvestment, prepayment and default risks.",
+      "metadata": {
+        "median_font_size": 11.04000000000002,
+        "word_count": 6,
+        "source_bbox_points": [
+          373.32153999999974,
+          278.18754000000007,
+          616.8749799999997,
+          289.2275400000001
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r016",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.5021388888894,
+        743.874111111111,
+        421.60533333333336,
+        44.89600000000006
+      ],
+      "reading_order": 18,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "available cash. This summary is qualified in its entirety by\nmore detailed information available from the Company.",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 17,
+        "source_bbox_points": [
+          373.3215400000003,
+          401.69201999999996,
+          676.8773800000004,
+          425.93586
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r018",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.5174722222229,
+        792.7772222222222,
+        421.5394000000001,
+        20.444444444444375
+      ],
+      "reading_order": 19,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Accredited investors should request and review the Offering",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 8,
+        "source_bbox_points": [
+          373.3325800000004,
+          428.0997,
+          676.8409480000005,
+          439.13969999999995
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r020",
+      "page": 16,
+      "kind": "normal_text",
+      "coordinates": [
+        518.5328055555563,
+        817.2287777777777,
+        170.62933333333334,
+        20.444444444444375
+      ],
+      "reading_order": 20,
+      "classification_method": "native-positioned-words",
+      "confidence": 1.0,
+      "native_text": "Materials in their entirety.",
+      "metadata": {
+        "median_font_size": 11.039999999999992,
+        "word_count": 4,
+        "source_bbox_points": [
+          373.3436200000005,
+          441.30354,
+          496.1967400000005,
+          452.34353999999996
+        ]
+      }
+    },
+    {
+      "region_id": "p016-r001",
+      "page": 16,
+      "kind": "decoration",
+      "coordinates": [
+        0.0,
+        871.333312962963,
+        1000.0,
+        128.66668703703704
+      ],
+      "reading_order": 21,
+      "classification_method": "repeated-page-band",
+      "confidence": 0.82,
+      "native_text": "",
+      "metadata": {
+        "image_indices": [
+          1
+        ],
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "content_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ownership_bbox_points": [
+          -4.0800004,
+          470.519989,
+          720.0,
+          541.1999869
+        ],
+        "source_member_bboxes": [
+          [
+            -4.0800004,
+            470.519989,
+            724.0799833,
+            541.1999869
+          ]
+        ],
+        "member_coordinates": [
+          [
+            0.0,
+            871.333312962963,
+            1000.0,
+            128.66668703703704
+          ]
+        ],
+        "logical_visual_merge": false,
+        "pdf_soft_mask_slices": [],
+        "native_visual_words": [
+          {
+            "text": "Company",
+            "coordinates": [
+              746.636388888889,
+              939.5079629629629,
+              75.93333333333338,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "Overview",
+            "coordinates": [
+              827.1380555555556,
+              939.5079629629629,
+              73.80000000000011,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "-",
+            "coordinates": [
+              905.8030555555556,
+              939.5079629629629,
+              5.549999999999973,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          },
+          {
+            "text": "2023",
+            "coordinates": [
+              916.136388888889,
+              939.5079629629629,
+              37.26666666666666,
+              22.22222222222222
+            ],
+            "confidence": 1.0,
+            "evidence_source": "native_pdf_positioned_word"
+          }
+        ],
+        "semantic_text_overlap_count": 4,
+        "repeated_on_pages": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "ignored_full_page_table_false_positive_1",
+    "two_column_reading_order_preserved"
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 2,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 2,
+      "block_id": "p002-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p002-r002-block",
+          "p002-r003-block",
+          "p002-r004-block",
+          "p002-r005-block",
+          "p002-r001-photograph",
+          "p002-u001-brand-mark"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p002-r002-block",
+          "p002-r003-block",
+          "p002-r004-block",
+          "p002-r005-block",
+          "p002-r001-photograph",
+          "p002-u001-brand-mark"
+        ]
+      },
+      "coordinates": [
+        68.333333,
+        63.644444,
+        898.818194,
+        880.504536
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.95454,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "page_title",
+      "page": 2,
+      "block_id": "p002-r002-block",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "OVERVIEW",
+        "evidence_text": {
+          "selected": "native",
+          "native": "OVERVIEW",
+          "ocr": "OVERVIEW",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        98.133194,
+        63.644444,
+        146.633333,
+        44.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-r002",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          70.6559,
+          34.367999999999995,
+          176.23190000000002,
+          58.367999999999995
+        ],
+        "ocr_evidence_ids": [
+          "p002-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 2,
+      "block_id": "p002-r003-block",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Coulton Creek Capital LLC is a private investment company that seeks out opportunistic debt and equity investments in real estate opportunities.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Coulton Creek Capital LLC is a\nprivate investment company that\nseeks out opportunistic debt and\nequity investments in real estate\nopportunities.",
+          "ocr": "Coulton Creek Capital LLC is a\nprivate investment company tha\nseeks out opportunistic debt and\nequity investments in real estate\nopportunities.",
+          "token_agreement": 0.90909
+        }
+      },
+      "coordinates": [
+        68.333333,
+        192.898444,
+        342.1824,
+        157.590222
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.95454,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 3,
+        "source_bbox_points": [
+          49.2,
+          104.16516000000001,
+          295.571328,
+          189.26387999999992
+        ],
+        "ocr_evidence_ids": [
+          "p002-ocr-0002",
+          "p002-ocr-0003",
+          "p002-ocr-0004",
+          "p002-ocr-0005",
+          "p002-ocr-0006"
+        ],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 2,
+      "block_id": "p002-r004-block",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "The firm targets income producing real estate related investments between $1 million and $25 million.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "The firm targets income producing\nreal estate related investments\nbetween $1 million and $25 million.",
+          "ocr": "The firm targets income producing\nreal estate related investments\nbetween $1 million and $25 million.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.333333,
+        399.166667,
+        367.789333,
+        93.572889
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 4,
+        "source_bbox_points": [
+          49.2,
+          215.54999999999995,
+          314.0083200000001,
+          266.0793599999999
+        ],
+        "ocr_evidence_ids": [
+          "p002-ocr-0007",
+          "p002-ocr-0008",
+          "p002-ocr-0009"
+        ],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "contact",
+      "semantic_role": "contact_information",
+      "page": 2,
+      "block_id": "p002-r005-block",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "COULTON CREEK CAPITAL, LLC 5613 DTC PARKWAY, SUITE 830 GREENWOOD VILLAGE, CO 80111 720-502-1149 │ CCRCAPITAL.COM",
+        "evidence_text": {
+          "selected": "native",
+          "native": "COULTON CREEK CAPITAL, LLC\n5613 DTC PARKWAY, SUITE 830\nGREENWOOD VILLAGE, CO 80111\n720-502-1149 │ CCRCAPITAL.COM",
+          "ocr": "COULTON CREEK CAPITAL, LLC\n5613 DTC PARKWAY, SUITE 830\nGREENWOOD VILLAGE, CO 80111\n720-502-1149 |CCRCAPITAL.COM",
+          "token_agreement": 1.0
+        },
+        "name": null,
+        "organization": "COULTON CREEK CAPITAL, LLC",
+        "address": {
+          "street": "5613 DTC PARKWAY, SUITE 830",
+          "city": "GREENWOOD VILLAGE",
+          "state": "CO",
+          "postal_code": "80111"
+        },
+        "email": null,
+        "phone": "720-502-1149",
+        "website": "https://CCRCAPITAL.COM"
+      },
+      "coordinates": [
+        80.833333,
+        736.823778,
+        304.941,
+        134.732
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 5,
+        "source_bbox_points": [
+          58.2,
+          397.88484,
+          277.75752,
+          470.64012
+        ],
+        "ocr_evidence_ids": [
+          "p002-ocr-0010",
+          "p002-ocr-0011",
+          "p002-ocr-0012",
+          "p002-ocr-0013"
+        ],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "photograph",
+      "semantic_role": "photograph",
+      "page": 2,
+      "block_id": "p002-r001-photograph",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "caption": null,
+        "vision_summary": {
+          "horizontal_line_count": 1,
+          "vertical_line_count": 4,
+          "diagonal_line_count": 3,
+          "rectangle_candidate_count": 40,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 42,
+          "legend_swatch_candidate_count": 8,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.20099
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p002-r001.json",
+          "sha256": "db4d2c3ea3ef42d1d1cc663dd43a8eedbd702da619102ab9659d437435cf56ae"
+        },
+        "region_image": "region-images/p002-r001.png"
+      },
+      "coordinates": [
+        499.999958,
+        83.333333,
+        467.15157,
+        761.540281
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.98,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-r001",
+        "classification_method": "Qwen3-VL visual classification",
+        "reading_order": 6,
+        "source_bbox_points": [
+          359.9999695,
+          45.0,
+          696.3490996,
+          456.23175200000003
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-002.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 2,
+      "block_id": "p002-u001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p002-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "ocr_recovery",
+        "vision_summary": null,
+        "vision_features_ref": null,
+        "region_image": "region-images/p002-u001.png"
+      },
+      "coordinates": [
+        712.197591,
+        881.648926,
+        221.270182,
+        62.500054
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "document-level brand recovery"
+      ],
+      "confidence": 0.98384,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p002-u001",
+        "classification_method": "unassigned-ocr-brand-evidence-recovery",
+        "reading_order": 7,
+        "source_bbox_points": [
+          512.78226552,
+          476.09042003999997,
+          672.0967965599999,
+          509.8404492
+        ],
+        "ocr_evidence_ids": [
+          "p002-ocr-0014",
+          "p002-ocr-0015"
+        ],
+        "rendered_page": "page-images/page-002.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-002.png",
+    "rendered_page_sha256": "adbb6ee3d6c452285487c44c379581764430b04bd6fd21dd253246a8233252eb",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p002-ocr-0001",
+        "text": "OVERVIEW",
+        "confidence": 0.99995,
+        "coordinates": [
+          95.766123,
+          55.186171,
+          150.201609,
+          45.212769
+        ],
+        "polygon": [
+          [
+            95.766123,
+            55.186171
+          ],
+          [
+            245.967733,
+            55.186171
+          ],
+          [
+            245.967733,
+            100.398939
+          ],
+          [
+            95.766123,
+            100.398939
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0002",
+        "text": "Coulton Creek Capital LLC is a",
+        "confidence": 0.99975,
+        "coordinates": [
+          66.532257,
+          187.5,
+          309.4758,
+          33.244683
+        ],
+        "polygon": [
+          [
+            66.532257,
+            187.5
+          ],
+          [
+            376.008057,
+            187.5
+          ],
+          [
+            376.008057,
+            220.744683
+          ],
+          [
+            66.532257,
+            220.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0003",
+        "text": "private investment company tha",
+        "confidence": 0.99387,
+        "coordinates": [
+          65.524195,
+          219.414903,
+          349.294367,
+          37.234049
+        ],
+        "polygon": [
+          [
+            65.524195,
+            219.414903
+          ],
+          [
+            414.818563,
+            219.414903
+          ],
+          [
+            414.818563,
+            256.648953
+          ],
+          [
+            65.524195,
+            256.648953
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0004",
+        "text": "seeks out opportunistic debt and",
+        "confidence": 0.99927,
+        "coordinates": [
+          64.516129,
+          249.335124,
+          347.782252,
+          39.228706
+        ],
+        "polygon": [
+          [
+            64.516129,
+            251.32978
+          ],
+          [
+            412.298381,
+            249.335124
+          ],
+          [
+            412.298381,
+            286.569146
+          ],
+          [
+            64.516129,
+            288.563829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0005",
+        "text": "equity investments in real estate",
+        "confidence": 0.98008,
+        "coordinates": [
+          65.020162,
+          281.914903,
+          342.237895,
+          39.228706
+        ],
+        "polygon": [
+          [
+            65.020162,
+            283.909587
+          ],
+          [
+            407.258057,
+            281.914903
+          ],
+          [
+            407.258057,
+            319.148953
+          ],
+          [
+            65.020162,
+            321.143609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0006",
+        "text": "opportunities.",
+        "confidence": 0.99999,
+        "coordinates": [
+          66.028224,
+          315.824463,
+          150.705643,
+          36.569146
+        ],
+        "polygon": [
+          [
+            66.028224,
+            318.484049
+          ],
+          [
+            216.229838,
+            315.824463
+          ],
+          [
+            216.733866,
+            349.734049
+          ],
+          [
+            66.532257,
+            352.393609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0007",
+        "text": "The firm targets income producing",
+        "confidence": 0.98364,
+        "coordinates": [
+          64.012095,
+          391.622342,
+          364.415314,
+          39.893609
+        ],
+        "polygon": [
+          [
+            64.012095,
+            391.622342
+          ],
+          [
+            428.427409,
+            393.617025
+          ],
+          [
+            428.427409,
+            431.515951
+          ],
+          [
+            64.012095,
+            429.521294
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0008",
+        "text": "real estate related investments",
+        "confidence": 0.99592,
+        "coordinates": [
+          65.524195,
+          426.196804,
+          325.100805,
+          32.57978
+        ],
+        "polygon": [
+          [
+            65.524195,
+            426.196804
+          ],
+          [
+            390.625,
+            426.196804
+          ],
+          [
+            390.625,
+            458.776584
+          ],
+          [
+            65.524195,
+            458.776584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0009",
+        "text": "between $1 million and $25 million.",
+        "confidence": 0.99975,
+        "coordinates": [
+          65.020162,
+          456.117025,
+          372.479838,
+          35.904243
+        ],
+        "polygon": [
+          [
+            65.020162,
+            456.781901
+          ],
+          [
+            437.5,
+            456.117025
+          ],
+          [
+            437.5,
+            491.356391
+          ],
+          [
+            65.020162,
+            492.021267
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0010",
+        "text": "COULTON CREEK CAPITAL, LLC",
+        "confidence": 0.99897,
+        "coordinates": [
+          78.125,
+          730.053223,
+          279.233887,
+          31.914876
+        ],
+        "polygon": [
+          [
+            78.125,
+            730.053223
+          ],
+          [
+            357.358887,
+            731.382975
+          ],
+          [
+            357.358887,
+            761.968099
+          ],
+          [
+            78.125,
+            760.638292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0011",
+        "text": "5613 DTC PARKWAY, SUITE 830",
+        "confidence": 0.99879,
+        "coordinates": [
+          78.629033,
+          766.622342,
+          279.233882,
+          28.590441
+        ],
+        "polygon": [
+          [
+            78.629033,
+            766.622342
+          ],
+          [
+            357.862915,
+            766.622342
+          ],
+          [
+            357.862915,
+            795.212782
+          ],
+          [
+            78.629033,
+            795.212782
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0012",
+        "text": "GREENWOOD VILLAGE, CO 80111",
+        "confidence": 0.98769,
+        "coordinates": [
+          77.620967,
+          801.196832,
+          304.939499,
+          32.579753
+        ],
+        "polygon": [
+          [
+            77.620967,
+            803.191515
+          ],
+          [
+            382.560465,
+            801.196832
+          ],
+          [
+            382.560465,
+            831.781901
+          ],
+          [
+            77.620967,
+            833.776584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0013",
+        "text": "720-502-1149 |CCRCAPITAL.COM",
+        "confidence": 0.98635,
+        "coordinates": [
+          77.620967,
+          835.771267,
+          310.98792,
+          35.239366
+        ],
+        "polygon": [
+          [
+            77.620967,
+            835.771267
+          ],
+          [
+            388.608887,
+            835.771267
+          ],
+          [
+            388.608887,
+            871.010634
+          ],
+          [
+            77.620967,
+            871.010634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0014",
+        "text": "COULTON CREEK",
+        "confidence": 0.97218,
+        "coordinates": [
+          712.197591,
+          881.648926,
+          221.270182,
+          37.234104
+        ],
+        "polygon": [
+          [
+            712.197591,
+            882.978733
+          ],
+          [
+            933.467773,
+            881.648926
+          ],
+          [
+            933.467773,
+            917.553168
+          ],
+          [
+            712.197591,
+            918.88303
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p002-ocr-0015",
+        "text": "CAPITAL",
+        "confidence": 0.9955,
+        "coordinates": [
+          713.709635,
+          910.904297,
+          111.391195,
+          33.244683
+        ],
+        "polygon": [
+          [
+            713.709635,
+            912.234049
+          ],
+          [
+            825.10083,
+            910.904297
+          ],
+          [
+            825.10083,
+            942.819119
+          ],
+          [
+            713.709635,
+            944.14898
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p002-ocr-0001",
+      "owner_block_id": "p002-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0002",
+      "owner_block_id": "p002-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0003",
+      "owner_block_id": "p002-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0004",
+      "owner_block_id": "p002-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0005",
+      "owner_block_id": "p002-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0006",
+      "owner_block_id": "p002-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0007",
+      "owner_block_id": "p002-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0008",
+      "owner_block_id": "p002-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0009",
+      "owner_block_id": "p002-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0010",
+      "owner_block_id": "p002-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0011",
+      "owner_block_id": "p002-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0012",
+      "owner_block_id": "p002-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0013",
+      "owner_block_id": "p002-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0014",
+      "owner_block_id": "p002-u001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p002-ocr-0015",
+      "owner_block_id": "p002-u001-brand-mark",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "complete",
+    "warnings": []
+  }
+}

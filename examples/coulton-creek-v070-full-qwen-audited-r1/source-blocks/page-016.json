@@ -1,0 +1,3322 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 16,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 16,
+      "block_id": "p016-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p016-r002-block",
+          "p016-r007-block",
+          "p016-r009-block",
+          "p016-r011-block",
+          "p016-r013-block",
+          "p016-r017-block",
+          "p016-r019-block",
+          "p016-r021-block",
+          "p016-r003-block",
+          "p016-r004-block",
+          "p016-r005-block",
+          "p016-r006-block",
+          "p016-r008-block",
+          "p016-r010-block",
+          "p016-r012-block",
+          "p016-r014-block",
+          "p016-r015-block",
+          "p016-r016-block",
+          "p016-r018-block",
+          "p016-r020-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p016-r002-block",
+          "p016-r007-block",
+          "p016-r009-block",
+          "p016-r011-block",
+          "p016-r013-block",
+          "p016-r017-block",
+          "p016-r019-block",
+          "p016-r021-block",
+          "p016-r003-block",
+          "p016-r004-block",
+          "p016-r005-block",
+          "p016-r006-block",
+          "p016-r008-block",
+          "p016-r010-block",
+          "p016-r012-block",
+          "p016-r014-block",
+          "p016-r015-block",
+          "p016-r016-block",
+          "p016-r018-block",
+          "p016-r020-block"
+        ]
+      },
+      "coordinates": [
+        60.0,
+        79.062852,
+        880.230139,
+        793.934481
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "one or more child blocks require review"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "page_title",
+      "page": 16,
+      "block_id": "p016-r002-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "DISCLOSURE",
+        "evidence_text": {
+          "selected": "native",
+          "native": "DISCLOSURE",
+          "ocr": "DISCLOSURE",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        60.0,
+        79.062852,
+        182.536567,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r002",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          43.2,
+          42.69394,
+          174.62632800000003,
+          62.73393999999996
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r007-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "The Company makes no representation or warranty as to the",
+        "evidence_text": {
+          "selected": "native",
+          "native": "The Company makes no representation or warranty as to the",
+          "ocr": "The Company makes no representation or warranty as to the",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.41,
+        401.323556,
+        421.706533,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r007",
+        "classification_method": "native-positioned-words",
+        "reading_order": 3,
+        "source_bbox_points": [
+          49.25520000000047,
+          216.7147200000001,
+          352.8839040000005,
+          227.75472000000013
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0020"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r009-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "accuracy or completeness of the presentation, and shall not have any liability for any representations (expressed or",
+        "evidence_text": {
+          "selected": "native",
+          "native": "accuracy or completeness of the presentation, and shall not\nhave any liability for any representations (expressed or",
+          "ocr": "accuracy or completeness of the presentation, and shall not\nhave any liability for any representations (expressed or",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.425333,
+        425.775111,
+        421.636,
+        44.896
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r009",
+        "classification_method": "native-positioned-words",
+        "reading_order": 4,
+        "source_bbox_points": [
+          49.26624000000055,
+          229.91856000000013,
+          352.84416000000056,
+          254.16240000000016
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0022",
+          "p016-ocr-0023"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r011-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "implied) regarding information contained herein, any",
+        "evidence_text": {
+          "selected": "native",
+          "native": "implied) regarding information contained herein, any",
+          "ocr": "implied) regarding information contained herein, any",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.471333,
+        474.678222,
+        421.498,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r011",
+        "classification_method": "native-positioned-words",
+        "reading_order": 5,
+        "source_bbox_points": [
+          49.29936000000066,
+          256.32624000000015,
+          352.7779200000006,
+          267.3662400000002
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0025"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r013-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "omissions, or any other written or oral communications",
+        "evidence_text": {
+          "selected": "native",
+          "native": "omissions, or any other written or oral communications",
+          "ocr": "omissions, or any other written or oral communications",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.486667,
+        499.129778,
+        421.510267,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r013",
+        "classification_method": "native-positioned-words",
+        "reading_order": 6,
+        "source_bbox_points": [
+          49.31040000000064,
+          269.53008000000017,
+          352.7977920000006,
+          280.5700800000002
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0027"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r017-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "By accepting this presentation, recipient acknowledges the",
+        "evidence_text": {
+          "selected": "native",
+          "native": "By accepting this presentation, recipient acknowledges the",
+          "ocr": "By accepting this presentation, recipient acknowledges the",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.486667,
+        779.198222,
+        421.6452,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r017",
+        "classification_method": "native-positioned-words",
+        "reading_order": 7,
+        "source_bbox_points": [
+          49.31040000000101,
+          420.76704000000007,
+          352.894944000001,
+          431.80704000000003
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0047"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r019-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "information contained herein is confidential and proprietary",
+        "evidence_text": {
+          "selected": "native",
+          "native": "information contained herein is confidential and proprietary",
+          "ocr": "information contained herein is confidential and proprietary",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.440667,
+        803.649778,
+        421.634467,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r019",
+        "classification_method": "native-positioned-words",
+        "reading_order": 8,
+        "source_bbox_points": [
+          49.27728000000104,
+          433.97088,
+          352.85409600000105,
+          445.01088000000004
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0049"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r021-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "and agrees not to make copies or disclose any of this information without the permission of the Company,",
+        "evidence_text": {
+          "selected": "native",
+          "native": "and agrees not to make copies or disclose any of this\ninformation without the permission of the Company,",
+          "ocr": "and agrees not to make copies or disclose any of this\ninformation without the permission of the Company,",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.425333,
+        828.101333,
+        421.682,
+        44.896
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r021",
+        "classification_method": "native-positioned-words",
+        "reading_order": 9,
+        "source_bbox_points": [
+          49.26624000000106,
+          447.17472000000004,
+          352.8772800000011,
+          471.41856
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0051",
+          "p016-ocr-0052"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "legal_notice",
+      "page": 16,
+      "block_id": "p016-r003-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR to take reasonable steps to prevent inadvertent disclosures to SOLICITATION OF AN OFFER OF SECURITIES. No legally any other party, and not to use the information in any manner binding obligations will be created unless and until definitive",
+        "evidence_text": {
+          "selected": "native",
+          "native": "THIS IS NEITHER AN OFFER OF SECURITIES NOR to take reasonable steps to prevent inadvertent disclosures to\nSOLICITATION OF AN OFFER OF SECURITIES. No legally any other party, and not to use the information in any manner\nbinding obligations will be created unless and until definitive",
+          "ocr": "THIS IS NEITHER AN OFFER OF SECURITIES NOR\nto take reasonable steps to prevent inadvertent disclosures to\nSOLICITATION OF AN OFFER OF SECURITIES. No legally\nany other party, and not to use the information in any manner\nbinding obligations will be created unless and until definitive",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.333333,
+        146.749333,
+        871.697472,
+        68.304889
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r003",
+        "classification_method": "native-positioned-words",
+        "reading_order": 10,
+        "source_bbox_points": [
+          49.19999999999999,
+          79.24464,
+          676.8221799999999,
+          116.12928000000005
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0002",
+          "p016-ocr-0003",
+          "p016-ocr-0004",
+          "p016-ocr-0005",
+          "p016-ocr-0006"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r004-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "that competes with the business of the Company.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "that competes with the business of the Company.",
+          "ocr": "that competes with the business of the Company.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.333472,
+        202.443889,
+        332.948,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r004",
+        "classification_method": "native-positioned-words",
+        "reading_order": 11,
+        "source_bbox_points": [
+          373.2000999999996,
+          109.31970000000001,
+          612.9226599999995,
+          120.35970000000003
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0007"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r005-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "written agreements are executed and delivered by all parties. This summary is not a commitment to purchase or sell any investment, and any investment is conditioned on the The Company is a limited liability company, which under completion of due diligence, legal review and final, signed federal law, may be taxed as either a corporation or a documentation that is satisfactory to the Company and each partnership. The Company has elected to be taxed as a potential investor. partnership. Each prospective investor must consult their own",
+        "evidence_text": {
+          "selected": "native",
+          "native": "written agreements are executed and delivered by all parties.\nThis summary is not a commitment to purchase or sell any\ninvestment, and any investment is conditioned on the The Company is a limited liability company, which under\ncompletion of due diligence, legal review and final, signed federal law, may be taxed as either a corporation or a\ndocumentation that is satisfactory to the Company and each partnership. The Company has elected to be taxed as a\npotential investor. partnership. Each prospective investor must consult their own",
+          "ocr": "written agreements are executed and delivered by all parties.\nThis summary is not a commitment to purchase or sell any\nThe Company is a limited liability company, which under\ninvestment, and any investment is conditioned on the\nfederal law, may be taxed as either a corporation or a\ncompletion of due diligence, legal review and final, signed\npartnership. The Company has elected to be taxed as a\ndocumentation that is satisfactory to the Company and each\npartnership. Each prospective investor must consult their own\npotential investor.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.364,
+        219.061333,
+        871.758806,
+        142.702222
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 12,
+        "source_bbox_points": [
+          49.22208000000029,
+          118.29312000000004,
+          676.8884199999994,
+          195.35232000000013
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0008",
+          "p016-ocr-0009",
+          "p016-ocr-0010",
+          "p016-ocr-0011",
+          "p016-ocr-0012",
+          "p016-ocr-0013",
+          "p016-ocr-0014",
+          "p016-ocr-0015",
+          "p016-ocr-0016",
+          "p016-ocr-0017"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r006-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "legal counsel and/or personal tax advisor to determine the potential tax consequences of a prospective investment in the",
+        "evidence_text": {
+          "selected": "native",
+          "native": "legal counsel and/or personal tax advisor to determine the\npotential tax consequences of a prospective investment in the",
+          "ocr": "legal counsel and/or personal tax advisor to determine the\npotential tax consequences of a prospective investment in the",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.425472,
+        359.804778,
+        421.721867,
+        44.896
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r006",
+        "classification_method": "native-positioned-words",
+        "reading_order": 13,
+        "source_bbox_points": [
+          373.26633999999916,
+          194.29458000000005,
+          676.906083999999,
+          218.5384200000001
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0018",
+          "p016-ocr-0019"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r008-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company.",
+          "ocr": "Company.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.425472,
+        408.707889,
+        69.598,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "needs_review",
+        "errors": [],
+        "warnings": [
+          "short text fragment may have been detached from an adjacent region"
+        ]
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r008",
+        "classification_method": "native-positioned-words",
+        "reading_order": 14,
+        "source_bbox_points": [
+          373.26633999999905,
+          220.70226000000008,
+          423.37689999999907,
+          231.7422600000001
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0021"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r010-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "The Company’s investment activities involve a significant",
+        "evidence_text": {
+          "selected": "native",
+          "native": "The Company’s investment activities involve a significant",
+          "ocr": "The Company's investment activities involve a significant",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.425472,
+        466.259,
+        421.573133,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r010",
+        "classification_method": "native-positioned-words",
+        "reading_order": 15,
+        "source_bbox_points": [
+          373.2663399999991,
+          251.7798600000001,
+          676.7989959999993,
+          262.8198600000001
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0024"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r012-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "degree of risk, including but not limited to illiquidity, interest",
+        "evidence_text": {
+          "selected": "native",
+          "native": "degree of risk, including but not limited to illiquidity, interest",
+          "ocr": "degree of risk, including but not limited to illiquidity, interest",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.425472,
+        490.710556,
+        421.660533,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r012",
+        "classification_method": "native-positioned-words",
+        "reading_order": 16,
+        "source_bbox_points": [
+          373.2663399999994,
+          264.9837000000001,
+          676.8619239999997,
+          276.02370000000013
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0026"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r014-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "rates, reinvestment, prepayment and default risks.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "rates, reinvestment, prepayment and default risks.",
+          "ocr": "rates, reinvestment, prepayment and default risks.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.502139,
+        515.162111,
+        338.268667,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r014",
+        "classification_method": "native-positioned-words",
+        "reading_order": 17,
+        "source_bbox_points": [
+          373.32153999999974,
+          278.18754000000007,
+          616.8749799999997,
+          289.2275400000001
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0028"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r015-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "transmitted to the recipient in the course of its evaluation. No person has been authorized in connection with this presentation to give any information or make any Performance of any investment is subject to numerous factors representations and, if given or made, must not be relied upon that are neither within the control of, nor predictable by, the as having been authorized. Only those representations and Company or its Managers. Such factors include a wide range warranties, which may be made to an investor in a definitive of economic, political, competitive, and other conditions that written agreement, and subject to such limitations and may affect investments in general or specific industries or restrictions as may be specified therein, will have any legal companies. PAST PERFORMANCE IS NO GUARANTEE OF effect. FUTURE PERFORMANCE. Distributions are subject to",
+        "evidence_text": {
+          "selected": "native",
+          "native": "transmitted to the recipient in the course of its evaluation. No\nperson has been authorized in connection with this\npresentation to give any information or make any Performance of any investment is subject to numerous factors\nrepresentations and, if given or made, must not be relied upon that are neither within the control of, nor predictable by, the\nas having been authorized. Only those representations and Company or its Managers. Such factors include a wide range\nwarranties, which may be made to an investor in a definitive of economic, political, competitive, and other conditions that\nwritten agreement, and subject to such limitations and may affect investments in general or specific industries or\nrestrictions as may be specified therein, will have any legal companies. PAST PERFORMANCE IS NO GUARANTEE OF\neffect. FUTURE PERFORMANCE. Distributions are subject to",
+          "ocr": "transmitted to the recipient in the course of its evaluation. No\nperson has been authorized in connection with this\npresentation to give any information or make any\nPerformance of any investment is subject to numerous factors\nrepresentations and, if given or made, must not be relied upon\nthat are neither within the control of, nor predictable by, the\nas having been authorized. Only those representations and\nCompany or its Managers. Such factors include a wide range\nwarranties, which may be made to an investor in a definitive\nof economic, political, competitive, and other conditions that\nwritten agreement, and subject to such limitations and\nmay affect investments in general or specific industries or\ncompanies. PAST PERFORMANCE IS NO GUARANTEE OF\nrestrictions as may be specified therein, will have any legal\nFUTURE PERFORMANCE. Distributions are subject to\neffect.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        68.471333,
+        523.581333,
+        871.758806,
+        216.285667
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r015",
+        "classification_method": "native-positioned-words",
+        "reading_order": 18,
+        "source_bbox_points": [
+          49.299360000000945,
+          282.7339200000001,
+          676.9657000000002,
+          399.52818
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0029",
+          "p016-ocr-0030",
+          "p016-ocr-0031",
+          "p016-ocr-0032",
+          "p016-ocr-0033",
+          "p016-ocr-0034",
+          "p016-ocr-0035",
+          "p016-ocr-0036",
+          "p016-ocr-0037",
+          "p016-ocr-0038",
+          "p016-ocr-0039",
+          "p016-ocr-0040",
+          "p016-ocr-0041",
+          "p016-ocr-0042",
+          "p016-ocr-0043",
+          "p016-ocr-0044"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r016-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "available cash. This summary is qualified in its entirety by more detailed information available from the Company.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "available cash. This summary is qualified in its entirety by\nmore detailed information available from the Company.",
+          "ocr": "available cash. This summary is qualified in its entirety by\nmore detailed information available from the Company.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.502139,
+        743.874111,
+        421.605333,
+        44.896
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r016",
+        "classification_method": "native-positioned-words",
+        "reading_order": 19,
+        "source_bbox_points": [
+          373.3215400000003,
+          401.69201999999996,
+          676.8773800000004,
+          425.93586
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0045",
+          "p016-ocr-0046"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r018-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Accredited investors should request and review the Offering",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Accredited investors should request and review the Offering",
+          "ocr": "Accredited investors should request and review the Offering",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.517472,
+        792.777222,
+        421.5394,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r018",
+        "classification_method": "native-positioned-words",
+        "reading_order": 20,
+        "source_bbox_points": [
+          373.3325800000004,
+          428.0997,
+          676.8409480000005,
+          439.13969999999995
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0048"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 16,
+      "block_id": "p016-r020-block",
+      "hierarchy": {
+        "parent_block_id": "p016-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Materials in their entirety.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Materials in their entirety.",
+          "ocr": "Materials in their entirety.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        518.532806,
+        817.228778,
+        170.629333,
+        20.444444
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r020",
+        "classification_method": "native-positioned-words",
+        "reading_order": 21,
+        "source_bbox_points": [
+          373.3436200000005,
+          441.30354,
+          496.1967400000005,
+          452.34353999999996
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0050"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "page_footer",
+      "page": 16,
+      "block_id": "p016-r001-page-band",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p016-r001-band-001-brand-mark",
+          "p016-r001-band-002-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "page_footer",
+        "child_block_ids": [
+          "p016-r001-band-001-brand-mark",
+          "p016-r001-band-002-block"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python semantic repeated-page-band decomposition"
+      ],
+      "confidence": 0.99093,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 22,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 16,
+      "block_id": "p016-r001-band-001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p016-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p016-r001.json",
+          "sha256": "9044dcacfb5dc83e15891e094959e0f31f4304fc4ad0e0173e48ab82d9d9a2a6"
+        },
+        "region_image": "region-images/p016-r001-band-001.png"
+      },
+      "coordinates": [
+        144.657257,
+        918.218099,
+        179.939524,
+        48.537218
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python repeated-band decomposition"
+      ],
+      "confidence": 0.99093,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r001",
+        "classification_method": "repeated-page-band",
+        "reading_order": 23,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0053",
+          "p016-ocr-0055"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "running_footer",
+      "page": 16,
+      "block_id": "p016-r001-band-002-block",
+      "hierarchy": {
+        "parent_block_id": "p016-r001-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company Overview - 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview - 2023",
+          "ocr": "Company Overview - 2023",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        743.951579,
+        931.515951,
+        211.693604,
+        27.925564
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p016-r001-band-002",
+        "classification_method": "semantic repeated-page-band decomposition",
+        "reading_order": 24,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p016-ocr-0054"
+        ],
+        "rendered_page": "page-images/page-016.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-016.png",
+    "rendered_page_sha256": "0987148d5896ff2f13484a15d465819e2bda2dd8b2e008f6d954f204b8a5c6e7",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p016-ocr-0001",
+        "text": "DISCLOSURE",
+        "confidence": 0.99994,
+        "coordinates": [
+          59.475805,
+          69.148939,
+          183.971766,
+          37.234043
+        ],
+        "polygon": [
+          [
+            59.475805,
+            69.148939
+          ],
+          [
+            243.447571,
+            69.148939
+          ],
+          [
+            243.447571,
+            106.382982
+          ],
+          [
+            59.475805,
+            106.382982
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0002",
+        "text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR",
+        "confidence": 0.99745,
+        "coordinates": [
+          67.03629,
+          140.292562,
+          424.899175,
+          21.941488
+        ],
+        "polygon": [
+          [
+            67.03629,
+            140.292562
+          ],
+          [
+            491.935465,
+            140.292562
+          ],
+          [
+            491.935465,
+            162.234049
+          ],
+          [
+            67.03629,
+            162.234049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0003",
+        "text": "to take reasonable steps to prevent inadvertent disclosures to",
+        "confidence": 0.99284,
+        "coordinates": [
+          516.633057,
+          144.281915,
+          424.89917,
+          21.941488
+        ],
+        "polygon": [
+          [
+            516.633057,
+            144.281915
+          ],
+          [
+            941.532227,
+            144.281915
+          ],
+          [
+            941.532227,
+            166.223402
+          ],
+          [
+            516.633057,
+            166.223402
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0004",
+        "text": "SOLICITATION OF AN OFFER OF SECURITIES. No legally",
+        "confidence": 0.99622,
+        "coordinates": [
+          65.524195,
+          162.898939,
+          425.907242,
+          25.930854
+        ],
+        "polygon": [
+          [
+            65.524195,
+            162.898939
+          ],
+          [
+            491.431437,
+            164.893623
+          ],
+          [
+            491.431437,
+            188.829793
+          ],
+          [
+            65.524195,
+            186.83511
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0005",
+        "text": "any other party, and not to use the information in any manner",
+        "confidence": 0.97963,
+        "coordinates": [
+          516.633057,
+          170.877658,
+          425.907227,
+          23.936171
+        ],
+        "polygon": [
+          [
+            516.633057,
+            170.877658
+          ],
+          [
+            942.540283,
+            170.877658
+          ],
+          [
+            942.540283,
+            194.813829
+          ],
+          [
+            516.633057,
+            194.813829
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0006",
+        "text": "binding obligations will be created unless and until definitive",
+        "confidence": 0.99468,
+        "coordinates": [
+          66.532257,
+          188.829793,
+          424.395152,
+          23.936171
+        ],
+        "polygon": [
+          [
+            66.532257,
+            188.829793
+          ],
+          [
+            490.927409,
+            188.829793
+          ],
+          [
+            490.927409,
+            212.765964
+          ],
+          [
+            66.532257,
+            212.765964
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0007",
+        "text": "that competes with the business of the Company.",
+        "confidence": 0.97934,
+        "coordinates": [
+          516.129028,
+          196.143623,
+          336.189494,
+          25.930854
+        ],
+        "polygon": [
+          [
+            516.129028,
+            196.143623
+          ],
+          [
+            852.318522,
+            197.473402
+          ],
+          [
+            852.318522,
+            222.074476
+          ],
+          [
+            516.129028,
+            220.744683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0008",
+        "text": "written agreements are executed and delivered by all parties.",
+        "confidence": 0.99861,
+        "coordinates": [
+          65.524195,
+          213.430854,
+          425.403214,
+          24.601074
+        ],
+        "polygon": [
+          [
+            65.524195,
+            213.430854
+          ],
+          [
+            490.927409,
+            214.095744
+          ],
+          [
+            490.927409,
+            238.031928
+          ],
+          [
+            65.524195,
+            237.367025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0009",
+        "text": "This summary is not a commitment to purchase or sell any",
+        "confidence": 0.99751,
+        "coordinates": [
+          66.532257,
+          237.367025,
+          424.395152,
+          25.265951
+        ],
+        "polygon": [
+          [
+            66.532257,
+            237.367025
+          ],
+          [
+            490.927409,
+            238.696804
+          ],
+          [
+            490.927409,
+            262.632975
+          ],
+          [
+            66.532257,
+            261.303196
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0010",
+        "text": "investment, and any investment is conditioned on the",
+        "confidence": 0.99688,
+        "coordinates": [
+          66.028224,
+          261.968099,
+          426.41127,
+          25.930854
+        ],
+        "polygon": [
+          [
+            66.028224,
+            261.968099
+          ],
+          [
+            492.439494,
+            261.968099
+          ],
+          [
+            492.439494,
+            287.898953
+          ],
+          [
+            66.028224,
+            287.898953
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0011",
+        "text": "The Company is a limited liability company, which under",
+        "confidence": 0.98175,
+        "coordinates": [
+          516.129028,
+          255.984049,
+          425.907267,
+          25.930854
+        ],
+        "polygon": [
+          [
+            516.129028,
+            255.984049
+          ],
+          [
+            942.036296,
+            255.984049
+          ],
+          [
+            942.036296,
+            281.914903
+          ],
+          [
+            516.129028,
+            281.914903
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0012",
+        "text": "federal law, may be taxed as either a corporation or a",
+        "confidence": 0.9994,
+        "coordinates": [
+          515.625,
+          279.92022,
+          426.915283,
+          25.930854
+        ],
+        "polygon": [
+          [
+            515.625,
+            279.92022
+          ],
+          [
+            942.540283,
+            281.25
+          ],
+          [
+            942.540283,
+            305.851074
+          ],
+          [
+            515.625,
+            304.521294
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0013",
+        "text": "completion of due diligence, legal review and final, signed",
+        "confidence": 0.99715,
+        "coordinates": [
+          65.524195,
+          285.90427,
+          426.41127,
+          26.59573
+        ],
+        "polygon": [
+          [
+            65.524195,
+            286.569146
+          ],
+          [
+            491.935465,
+            285.90427
+          ],
+          [
+            491.935465,
+            311.835124
+          ],
+          [
+            65.524195,
+            312.5
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0014",
+        "text": "documentation that is satisfactory to the Company and each",
+        "confidence": 0.98758,
+        "coordinates": [
+          66.028224,
+          309.840441,
+          425.907242,
+          27.260634
+        ],
+        "polygon": [
+          [
+            66.028224,
+            309.840441
+          ],
+          [
+            491.935465,
+            311.17022
+          ],
+          [
+            491.935465,
+            337.101074
+          ],
+          [
+            66.028224,
+            335.771294
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0015",
+        "text": "partnership. The Company has elected to be taxed as a",
+        "confidence": 0.99378,
+        "coordinates": [
+          516.129028,
+          303.856391,
+          427.419312,
+          27.260634
+        ],
+        "polygon": [
+          [
+            516.129028,
+            305.186171
+          ],
+          [
+            943.54834,
+            303.856391
+          ],
+          [
+            943.54834,
+            329.787245
+          ],
+          [
+            516.129028,
+            331.117025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0016",
+        "text": "potential investor.",
+        "confidence": 0.99998,
+        "coordinates": [
+          66.532257,
+          336.436171,
+          122.983877,
+          23.936171
+        ],
+        "polygon": [
+          [
+            66.532257,
+            336.436171
+          ],
+          [
+            189.516134,
+            336.436171
+          ],
+          [
+            189.516134,
+            360.372342
+          ],
+          [
+            66.532257,
+            360.372342
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0017",
+        "text": "partnership. Each prospective investor must consult their own",
+        "confidence": 0.99978,
+        "coordinates": [
+          516.633057,
+          329.122342,
+          424.395182,
+          25.265951
+        ],
+        "polygon": [
+          [
+            516.633057,
+            330.452121
+          ],
+          [
+            941.028239,
+            329.122342
+          ],
+          [
+            941.028239,
+            353.058512
+          ],
+          [
+            516.633057,
+            354.388292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0018",
+        "text": "legal counsel and/or personal tax advisor to determine the",
+        "confidence": 0.99903,
+        "coordinates": [
+          516.633057,
+          354.388292,
+          424.395182,
+          23.936171
+        ],
+        "polygon": [
+          [
+            516.633057,
+            354.388292
+          ],
+          [
+            941.028239,
+            354.388292
+          ],
+          [
+            941.028239,
+            378.324463
+          ],
+          [
+            516.633057,
+            378.324463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0019",
+        "text": "potential tax consequences of a prospective investment in the",
+        "confidence": 0.99882,
+        "coordinates": [
+          517.137085,
+          380.319146,
+          423.891154,
+          21.941488
+        ],
+        "polygon": [
+          [
+            517.137085,
+            380.319146
+          ],
+          [
+            941.028239,
+            380.319146
+          ],
+          [
+            941.028239,
+            402.260634
+          ],
+          [
+            517.137085,
+            402.260634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0020",
+        "text": "The Company makes no representation or warranty as to the",
+        "confidence": 0.99922,
+        "coordinates": [
+          67.540324,
+          397.606391,
+          423.387085,
+          21.941488
+        ],
+        "polygon": [
+          [
+            67.540324,
+            397.606391
+          ],
+          [
+            490.927409,
+            397.606391
+          ],
+          [
+            490.927409,
+            419.547879
+          ],
+          [
+            67.540324,
+            419.547879
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0021",
+        "text": "Company.",
+        "confidence": 0.9999,
+        "coordinates": [
+          515.625,
+          401.595757,
+          74.092733,
+          28.590413
+        ],
+        "polygon": [
+          [
+            515.625,
+            401.595757
+          ],
+          [
+            589.717733,
+            402.925537
+          ],
+          [
+            589.717733,
+            430.186171
+          ],
+          [
+            515.625,
+            428.856391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0022",
+        "text": "accuracy or completeness of the presentation, and shall not",
+        "confidence": 0.98847,
+        "coordinates": [
+          67.03629,
+          422.207465,
+          424.899175,
+          21.941488
+        ],
+        "polygon": [
+          [
+            67.03629,
+            422.207465
+          ],
+          [
+            491.935465,
+            422.207465
+          ],
+          [
+            491.935465,
+            444.148953
+          ],
+          [
+            67.03629,
+            444.148953
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0023",
+        "text": "have any liability for any representations (expressed or",
+        "confidence": 0.98352,
+        "coordinates": [
+          65.020162,
+          443.484049,
+          427.923401,
+          27.92551
+        ],
+        "polygon": [
+          [
+            65.020162,
+            443.484049
+          ],
+          [
+            492.943563,
+            443.484049
+          ],
+          [
+            492.943563,
+            471.409559
+          ],
+          [
+            65.020162,
+            471.409559
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0024",
+        "text": "The Company's investment activities involve a significant",
+        "confidence": 0.98621,
+        "coordinates": [
+          516.129028,
+          460.771267,
+          425.907267,
+          23.936198
+        ],
+        "polygon": [
+          [
+            516.129028,
+            460.771267
+          ],
+          [
+            942.036296,
+            460.771267
+          ],
+          [
+            942.036296,
+            484.707465
+          ],
+          [
+            516.129028,
+            484.707465
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0025",
+        "text": "implied) regarding information contained herein, any",
+        "confidence": 0.9841,
+        "coordinates": [
+          65.524195,
+          467.420193,
+          426.915298,
+          28.590441
+        ],
+        "polygon": [
+          [
+            65.524195,
+            467.420193
+          ],
+          [
+            492.439494,
+            467.420193
+          ],
+          [
+            492.439494,
+            496.010634
+          ],
+          [
+            65.524195,
+            496.010634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0026",
+        "text": "degree of risk, including but not limited to illiquidity, interest",
+        "confidence": 0.99447,
+        "coordinates": [
+          516.633057,
+          486.037218,
+          425.907227,
+          23.936198
+        ],
+        "polygon": [
+          [
+            516.633057,
+            486.037218
+          ],
+          [
+            942.540283,
+            486.037218
+          ],
+          [
+            942.540283,
+            509.973416
+          ],
+          [
+            516.633057,
+            509.973416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0027",
+        "text": "omissions, or any other written or oral communications",
+        "confidence": 0.99812,
+        "coordinates": [
+          65.524195,
+          492.021267,
+          426.41127,
+          27.260634
+        ],
+        "polygon": [
+          [
+            65.524195,
+            493.351074
+          ],
+          [
+            491.935465,
+            492.021267
+          ],
+          [
+            491.935465,
+            517.952148
+          ],
+          [
+            65.524195,
+            519.281901
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0028",
+        "text": "rates, reinvestment, prepayment and default risks.",
+        "confidence": 0.99984,
+        "coordinates": [
+          515.625,
+          509.308539,
+          342.237874,
+          25.265951
+        ],
+        "polygon": [
+          [
+            515.625,
+            510.638292
+          ],
+          [
+            857.862874,
+            509.308539
+          ],
+          [
+            857.862874,
+            533.244683
+          ],
+          [
+            515.625,
+            534.57449
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0029",
+        "text": "transmitted to the recipient in the course of its evaluation. No",
+        "confidence": 0.99697,
+        "coordinates": [
+          67.03629,
+          519.281901,
+          424.395147,
+          21.941515
+        ],
+        "polygon": [
+          [
+            67.03629,
+            519.281901
+          ],
+          [
+            491.431437,
+            519.281901
+          ],
+          [
+            491.431437,
+            541.223416
+          ],
+          [
+            67.03629,
+            541.223416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0030",
+        "text": "person has been authorized in connection with this",
+        "confidence": 0.99012,
+        "coordinates": [
+          65.020162,
+          540.558539,
+          427.923401,
+          27.92551
+        ],
+        "polygon": [
+          [
+            65.020162,
+            541.888292
+          ],
+          [
+            492.943563,
+            540.558539
+          ],
+          [
+            492.943563,
+            567.154243
+          ],
+          [
+            65.020162,
+            568.484049
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0031",
+        "text": "presentation to give any information or make any",
+        "confidence": 0.99908,
+        "coordinates": [
+          64.516129,
+          565.159559,
+          428.931463,
+          29.255317
+        ],
+        "polygon": [
+          [
+            64.516129,
+            565.82449
+          ],
+          [
+            493.447591,
+            565.159559
+          ],
+          [
+            493.447591,
+            593.75
+          ],
+          [
+            64.516129,
+            594.414876
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0032",
+        "text": "Performance of any investment is subject to numerous factors",
+        "confidence": 0.99945,
+        "coordinates": [
+          516.129028,
+          566.489366,
+          425.907267,
+          24.601074
+        ],
+        "polygon": [
+          [
+            516.129028,
+            566.489366
+          ],
+          [
+            942.036296,
+            567.154243
+          ],
+          [
+            942.036296,
+            591.090441
+          ],
+          [
+            516.129028,
+            590.425564
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0033",
+        "text": "representations and, if given or made, must not be relied upon",
+        "confidence": 0.99758,
+        "coordinates": [
+          65.524195,
+          591.090441,
+          426.41127,
+          25.265951
+        ],
+        "polygon": [
+          [
+            65.524195,
+            592.420247
+          ],
+          [
+            491.935465,
+            591.090441
+          ],
+          [
+            491.935465,
+            615.026584
+          ],
+          [
+            65.524195,
+            616.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0034",
+        "text": "that are neither within the control of, nor predictable by, the",
+        "confidence": 0.99277,
+        "coordinates": [
+          515.625,
+          591.090441,
+          425.907227,
+          24.601074
+        ],
+        "polygon": [
+          [
+            515.625,
+            591.090441
+          ],
+          [
+            941.532227,
+            591.755317
+          ],
+          [
+            941.532227,
+            615.691515
+          ],
+          [
+            515.625,
+            615.026584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0035",
+        "text": "as having been authorized. Only those representations and",
+        "confidence": 0.99178,
+        "coordinates": [
+          66.028224,
+          616.356391,
+          425.907242,
+          23.936198
+        ],
+        "polygon": [
+          [
+            66.028224,
+            616.356391
+          ],
+          [
+            491.935465,
+            616.356391
+          ],
+          [
+            491.935465,
+            640.292589
+          ],
+          [
+            66.028224,
+            640.292589
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0036",
+        "text": "Company or its Managers. Such factors include a wide range",
+        "confidence": 0.99494,
+        "coordinates": [
+          516.633057,
+          616.356391,
+          424.89917,
+          23.936198
+        ],
+        "polygon": [
+          [
+            516.633057,
+            616.356391
+          ],
+          [
+            941.532227,
+            616.356391
+          ],
+          [
+            941.532227,
+            640.292589
+          ],
+          [
+            516.633057,
+            640.292589
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0037",
+        "text": "warranties, which may be made to an investor in a definitive",
+        "confidence": 0.99907,
+        "coordinates": [
+          65.524195,
+          640.292589,
+          425.907242,
+          24.60102
+        ],
+        "polygon": [
+          [
+            65.524195,
+            640.957465
+          ],
+          [
+            491.431437,
+            640.292589
+          ],
+          [
+            491.431437,
+            664.228733
+          ],
+          [
+            65.524195,
+            664.893609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0038",
+        "text": "of economic, political, competitive, and other conditions that",
+        "confidence": 0.98987,
+        "coordinates": [
+          516.129028,
+          640.957465,
+          426.915324,
+          23.936144
+        ],
+        "polygon": [
+          [
+            516.129028,
+            640.957465
+          ],
+          [
+            943.044352,
+            640.957465
+          ],
+          [
+            943.044352,
+            664.893609
+          ],
+          [
+            516.129028,
+            664.893609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0039",
+        "text": "written agreement, and subject to such limitations and",
+        "confidence": 0.98439,
+        "coordinates": [
+          66.028224,
+          664.228733,
+          425.907242,
+          25.265951
+        ],
+        "polygon": [
+          [
+            66.028224,
+            665.558539
+          ],
+          [
+            491.935465,
+            664.228733
+          ],
+          [
+            491.935465,
+            688.164931
+          ],
+          [
+            66.028224,
+            689.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0040",
+        "text": "may affect investments in general or specific industries or",
+        "confidence": 0.99804,
+        "coordinates": [
+          516.633057,
+          665.558539,
+          425.907227,
+          23.936144
+        ],
+        "polygon": [
+          [
+            516.633057,
+            665.558539
+          ],
+          [
+            942.540283,
+            665.558539
+          ],
+          [
+            942.540283,
+            689.494683
+          ],
+          [
+            516.633057,
+            689.494683
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0041",
+        "text": "restrictions as may be specified therein, will have any legal",
+        "confidence": 0.99909,
+        "coordinates": [
+          65.524195,
+          688.829807,
+          426.915298,
+          25.930827
+        ],
+        "polygon": [
+          [
+            65.524195,
+            688.829807
+          ],
+          [
+            492.439494,
+            688.829807
+          ],
+          [
+            492.439494,
+            714.760634
+          ],
+          [
+            65.524195,
+            714.760634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0042",
+        "text": "companies. PAST PERFORMANCE IS NO GUARANTEE OF",
+        "confidence": 0.99629,
+        "coordinates": [
+          516.129028,
+          687.5,
+          425.403198,
+          25.930881
+        ],
+        "polygon": [
+          [
+            516.129028,
+            689.494683
+          ],
+          [
+            941.532227,
+            687.5
+          ],
+          [
+            941.532227,
+            711.436198
+          ],
+          [
+            516.129028,
+            713.430881
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0043",
+        "text": "effect.",
+        "confidence": 0.99995,
+        "coordinates": [
+          66.028224,
+          714.095757,
+          45.866938,
+          23.271267
+        ],
+        "polygon": [
+          [
+            66.028224,
+            714.095757
+          ],
+          [
+            111.895162,
+            714.095757
+          ],
+          [
+            111.895162,
+            737.367025
+          ],
+          [
+            66.028224,
+            737.367025
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0044",
+        "text": "FUTURE PERFORMANCE. Distributions are subject to",
+        "confidence": 0.99568,
+        "coordinates": [
+          516.129028,
+          711.436198,
+          425.907267,
+          27.260634
+        ],
+        "polygon": [
+          [
+            516.129028,
+            711.436198
+          ],
+          [
+            942.036296,
+            714.095757
+          ],
+          [
+            942.036296,
+            738.696832
+          ],
+          [
+            516.129028,
+            736.037272
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0045",
+        "text": "available cash. This summary is qualified in its entirety by",
+        "confidence": 0.99836,
+        "coordinates": [
+          516.129028,
+          737.367025,
+          425.403198,
+          25.930881
+        ],
+        "polygon": [
+          [
+            516.129028,
+            737.367025
+          ],
+          [
+            941.532227,
+            738.696832
+          ],
+          [
+            941.532227,
+            763.297906
+          ],
+          [
+            516.129028,
+            761.968099
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0046",
+        "text": "more detailed information available from the Company.",
+        "confidence": 0.99382,
+        "coordinates": [
+          515.625,
+          762.632975,
+          424.395182,
+          23.936198
+        ],
+        "polygon": [
+          [
+            515.625,
+            762.632975
+          ],
+          [
+            940.020182,
+            762.632975
+          ],
+          [
+            940.020182,
+            786.569173
+          ],
+          [
+            515.625,
+            786.569173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0047",
+        "text": "By accepting this presentation, recipient acknowledges the",
+        "confidence": 0.99364,
+        "coordinates": [
+          66.532257,
+          774.601074,
+          424.89918,
+          23.936198
+        ],
+        "polygon": [
+          [
+            66.532257,
+            774.601074
+          ],
+          [
+            491.431437,
+            774.601074
+          ],
+          [
+            491.431437,
+            798.537272
+          ],
+          [
+            66.532257,
+            798.537272
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0048",
+        "text": "Accredited investors should request and review the Offering",
+        "confidence": 0.98996,
+        "coordinates": [
+          515.625,
+          786.569173,
+          425.403239,
+          25.265951
+        ],
+        "polygon": [
+          [
+            515.625,
+            786.569173
+          ],
+          [
+            941.028239,
+            787.234049
+          ],
+          [
+            941.028239,
+            811.835124
+          ],
+          [
+            515.625,
+            811.170247
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0049",
+        "text": "information contained herein is confidential and proprietary",
+        "confidence": 0.99712,
+        "coordinates": [
+          65.524195,
+          795.877658,
+          425.403214,
+          27.925564
+        ],
+        "polygon": [
+          [
+            65.524195,
+            795.877658
+          ],
+          [
+            490.927409,
+            797.872342
+          ],
+          [
+            490.927409,
+            823.803223
+          ],
+          [
+            65.524195,
+            821.808539
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0050",
+        "text": "Materials in their entirety.",
+        "confidence": 0.99963,
+        "coordinates": [
+          516.129028,
+          811.170247,
+          173.387085,
+          25.930827
+        ],
+        "polygon": [
+          [
+            516.129028,
+            811.170247
+          ],
+          [
+            689.516113,
+            812.5
+          ],
+          [
+            689.516113,
+            837.101074
+          ],
+          [
+            516.129028,
+            835.771267
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0051",
+        "text": "and agrees not to make copies or disclose any of this",
+        "confidence": 0.99956,
+        "coordinates": [
+          65.020162,
+          821.808539,
+          427.419332,
+          26.595703
+        ],
+        "polygon": [
+          [
+            65.020162,
+            822.473416
+          ],
+          [
+            492.439494,
+            821.808539
+          ],
+          [
+            492.439494,
+            847.739366
+          ],
+          [
+            65.020162,
+            848.404243
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0052",
+        "text": "information without the permission of the Company,",
+        "confidence": 0.99006,
+        "coordinates": [
+          66.028224,
+          847.07449,
+          351.310481,
+          25.930827
+        ],
+        "polygon": [
+          [
+            66.028224,
+            847.07449
+          ],
+          [
+            417.338704,
+            847.07449
+          ],
+          [
+            417.338704,
+            873.005317
+          ],
+          [
+            66.028224,
+            873.005317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0053",
+        "text": "COULTON CREEK",
+        "confidence": 0.98274,
+        "coordinates": [
+          144.657257,
+          918.218099,
+          179.939524,
+          24.60102
+        ],
+        "polygon": [
+          [
+            144.657257,
+            918.218099
+          ],
+          [
+            324.596781,
+            918.218099
+          ],
+          [
+            324.596781,
+            942.819119
+          ],
+          [
+            144.657257,
+            942.819119
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0054",
+        "text": "Company Overview - 2023",
+        "confidence": 0.99314,
+        "coordinates": [
+          743.951579,
+          931.515951,
+          211.693604,
+          27.925564
+        ],
+        "polygon": [
+          [
+            743.951579,
+            932.845812
+          ],
+          [
+            955.645182,
+            931.515951
+          ],
+          [
+            955.645182,
+            958.111762
+          ],
+          [
+            743.951579,
+            959.441515
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p016-ocr-0055",
+        "text": "CAPITAL",
+        "confidence": 0.99912,
+        "coordinates": [
+          144.657257,
+          942.154297,
+          91.229828,
+          24.60102
+        ],
+        "polygon": [
+          [
+            144.657257,
+            942.154297
+          ],
+          [
+            235.887085,
+            942.154297
+          ],
+          [
+            235.887085,
+            966.755317
+          ],
+          [
+            144.657257,
+            966.755317
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p016-ocr-0001",
+      "owner_block_id": "p016-r002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0002",
+      "owner_block_id": "p016-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0003",
+      "owner_block_id": "p016-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0004",
+      "owner_block_id": "p016-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0005",
+      "owner_block_id": "p016-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0006",
+      "owner_block_id": "p016-r003-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0007",
+      "owner_block_id": "p016-r004-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0008",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0009",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0010",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0011",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0012",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0013",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0014",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0015",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0016",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0017",
+      "owner_block_id": "p016-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0018",
+      "owner_block_id": "p016-r006-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0019",
+      "owner_block_id": "p016-r006-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0020",
+      "owner_block_id": "p016-r007-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0021",
+      "owner_block_id": "p016-r008-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0022",
+      "owner_block_id": "p016-r009-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0023",
+      "owner_block_id": "p016-r009-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0024",
+      "owner_block_id": "p016-r010-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0025",
+      "owner_block_id": "p016-r011-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0026",
+      "owner_block_id": "p016-r012-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0027",
+      "owner_block_id": "p016-r013-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0028",
+      "owner_block_id": "p016-r014-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0029",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0030",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0031",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0032",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0033",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0034",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0035",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0036",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0037",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0038",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0039",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0040",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0041",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0042",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0043",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0044",
+      "owner_block_id": "p016-r015-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0045",
+      "owner_block_id": "p016-r016-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0046",
+      "owner_block_id": "p016-r016-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0047",
+      "owner_block_id": "p016-r017-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0048",
+      "owner_block_id": "p016-r018-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0049",
+      "owner_block_id": "p016-r019-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0050",
+      "owner_block_id": "p016-r020-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0051",
+      "owner_block_id": "p016-r021-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0052",
+      "owner_block_id": "p016-r021-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0053",
+      "owner_block_id": "p016-r001-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0054",
+      "owner_block_id": "p016-r001-band-002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p016-ocr-0055",
+      "owner_block_id": "p016-r001-band-001-brand-mark",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "needs_review",
+    "warnings": [
+      "2 source blocks require review"
+    ]
+  }
+}

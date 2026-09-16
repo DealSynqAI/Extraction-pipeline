@@ -1,0 +1,2143 @@
+{
+  "schema_version": "unified-source-page/4.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page": 5,
+  "blocks": [
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_section",
+      "page": 5,
+      "block_id": "p005-section-001",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p005-r005-block",
+          "p005-profile-001",
+          "p005-profile-002",
+          "p005-profile-003"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "section",
+        "child_block_ids": [
+          "p005-r005-block",
+          "p005-profile-001",
+          "p005-profile-002",
+          "p005-profile-003"
+        ]
+      },
+      "coordinates": [
+        29.83333,
+        77.628593,
+        919.010281,
+        766.593603
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python heading-led hierarchy"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-section-001",
+        "classification_method": "heading-led-section-grouping",
+        "reading_order": 1,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "page_title",
+      "page": 5,
+      "block_id": "p005-r005-block",
+      "hierarchy": {
+        "parent_block_id": "p005-section-001",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": 1
+      },
+      "content": {
+        "text": "LEADERSHIP",
+        "evidence_text": {
+          "selected": "native",
+          "native": "LEADERSHIP",
+          "ocr": "LEADERSHIP",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        39.870139,
+        77.628593,
+        179.427583,
+        37.111111
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r005",
+        "classification_method": "native-positioned-words",
+        "reading_order": 2,
+        "source_bbox_points": [
+          28.7065,
+          41.91944000000001,
+          157.89435999999998,
+          61.95943999999997
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0001"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "profile",
+      "page": 5,
+      "block_id": "p005-profile-001",
+      "hierarchy": {
+        "parent_block_id": "p005-section-001",
+        "child_block_ids": [
+          "p005-r001-photograph",
+          "p005-r006-profile-biography"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile",
+        "child_block_ids": [
+          "p005-r001-photograph",
+          "p005-r006-profile-biography"
+        ]
+      },
+      "coordinates": [
+        29.833333,
+        155.777769,
+        919.010278,
+        220.83112
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-row hierarchy"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-profile-001",
+        "classification_method": "aligned photograph-biography row grouping",
+        "reading_order": 3,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "photograph",
+      "semantic_role": "profile_image",
+      "page": 5,
+      "block_id": "p005-r001-photograph",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-001",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "caption": null,
+        "vision_summary": {
+          "horizontal_line_count": 0,
+          "vertical_line_count": 3,
+          "diagonal_line_count": 1,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 4,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.13377
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p005-r001.json",
+          "sha256": "c6e8113d4abe697c4155b8ad703f87936699b44c3a22e8a557baec95e72c3d05"
+        },
+        "region_image": "region-images/p005-r001.png"
+      },
+      "coordinates": [
+        29.833333,
+        155.777769,
+        171.394416,
+        213.333311
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r001",
+        "classification_method": "pdf-image-object",
+        "reading_order": 4,
+        "source_bbox_points": [
+          21.4799995,
+          84.1199952,
+          144.883979,
+          199.3199834
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 5,
+      "block_id": "p005-r006-profile-biography",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-001",
+        "child_block_ids": [
+          "p005-r006-profile-biography-heading",
+          "p005-r006-profile-biography-body-block"
+        ],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile_biography",
+        "child_block_ids": [
+          "p005-r006-profile-biography-heading",
+          "p005-r006-profile-biography-body-block"
+        ]
+      },
+      "coordinates": [
+        239.460278,
+        164.325556,
+        709.383333,
+        212.283333
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-biography hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r006",
+        "classification_method": "native-positioned-words",
+        "reading_order": 5,
+        "source_bbox_points": [
+          172.4113999999998,
+          88.73579999999998,
+          683.1673999999998,
+          203.36879999999985
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "profile_name_and_role",
+      "page": 5,
+      "block_id": "p005-r006-profile-biography-heading",
+      "hierarchy": {
+        "parent_block_id": "p005-r006-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "Chris Hanks – Managing Director",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Chris Hanks – Managing Director",
+          "ocr": "Chris Hanks - Managing Director",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        236.391134,
+        156.25,
+        345.766134,
+        36.569146
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "RapidOCR",
+        "Python name-role heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r006",
+        "classification_method": "native-positioned-words",
+        "reading_order": 6,
+        "source_bbox_points": [
+          172.4113999999998,
+          88.73579999999998,
+          683.1673999999998,
+          203.36879999999985
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0002"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 5,
+      "block_id": "p005-r006-profile-biography-body-block",
+      "hierarchy": {
+        "parent_block_id": "p005-r006-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Chris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over $277 million of direct investments, building a diversified portfolio of private real estate equity and debt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as well guiding investment decisions for Coulton Creek. Before Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy benefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and raised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris concluded his tenure with the company’s $250 million sale in January 2012.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Chris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over\n$277 million of direct investments, building a diversified portfolio of private real estate equity and\ndebt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as\nwell guiding investment decisions for Coulton Creek.\nBefore Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy\nbenefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and\nraised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris\nconcluded his tenure with the company’s $250 million sale in January 2012.",
+          "ocr": "Chris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over\n$277 million of direct investments, building a diversified portfolio of private real estate equity and\ndebt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as\nwell guiding investment decisions for Coulton Creek.\nBefore Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy\nbenefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and\nraised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris\nconcluded his tenure with the company's $250 million sale in January 2012.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        236.391134,
+        192.819146,
+        715.22174,
+        182.845757
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r006-profile-biography-body",
+        "classification_method": "name-role biography reconstruction",
+        "reading_order": 7,
+        "source_bbox_points": [
+          172.4113999999998,
+          88.73579999999998,
+          683.1673999999998,
+          203.36879999999985
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0003",
+          "p005-ocr-0004",
+          "p005-ocr-0005",
+          "p005-ocr-0006",
+          "p005-ocr-0007",
+          "p005-ocr-0008",
+          "p005-ocr-0009",
+          "p005-ocr-0010"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "profile",
+      "page": 5,
+      "block_id": "p005-profile-002",
+      "hierarchy": {
+        "parent_block_id": "p005-section-001",
+        "child_block_ids": [
+          "p005-r002-photograph",
+          "p005-r007-profile-biography"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile",
+        "child_block_ids": [
+          "p005-r002-photograph",
+          "p005-r007-profile-biography"
+        ]
+      },
+      "coordinates": [
+        29.833333,
+        393.333322,
+        918.960278,
+        216.333159
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-row hierarchy"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-profile-002",
+        "classification_method": "aligned photograph-biography row grouping",
+        "reading_order": 8,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "photograph",
+      "semantic_role": "profile_image",
+      "page": 5,
+      "block_id": "p005-r002-photograph",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-002",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "caption": null,
+        "vision_summary": {
+          "horizontal_line_count": 0,
+          "vertical_line_count": 2,
+          "diagonal_line_count": 6,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 2,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 0,
+          "vertical_axis_candidate_count": 1,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.10987
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p005-r002.json",
+          "sha256": "bc5ff9ac0e8764a4c924d2cf077934b41db8016c8ddaeb9670cd3726c2392eb1"
+        },
+        "region_image": "region-images/p005-r002.png"
+      },
+      "coordinates": [
+        29.833333,
+        393.333322,
+        171.666657,
+        213.33331
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r002",
+        "classification_method": "pdf-image-object",
+        "reading_order": 9,
+        "source_bbox_points": [
+          21.4799995,
+          212.39999389999997,
+          145.0799924,
+          327.5999814
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 5,
+      "block_id": "p005-r007-profile-biography",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-002",
+        "child_block_ids": [
+          "p005-r007-profile-biography-heading",
+          "p005-r007-profile-biography-body-block"
+        ],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile_biography",
+        "child_block_ids": [
+          "p005-r007-profile-biography-heading",
+          "p005-r007-profile-biography-body-block"
+        ]
+      },
+      "coordinates": [
+        239.460278,
+        405.383148,
+        709.333333,
+        204.283333
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-biography hierarchy"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r007",
+        "classification_method": "native-positioned-words",
+        "reading_order": 10,
+        "source_bbox_points": [
+          172.4113999999998,
+          218.90689999999995,
+          683.1314,
+          329.21990000000005
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "profile_name_and_role",
+      "page": 5,
+      "block_id": "p005-r007-profile-biography-heading",
+      "hierarchy": {
+        "parent_block_id": "p005-r007-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "Will Hensley – Director",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Will Hensley – Director",
+          "ocr": "Will Hensley – Director",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        236.895162,
+        397.606391,
+        243.447571,
+        35.239366
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "RapidOCR",
+        "Python name-role heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r007",
+        "classification_method": "native-positioned-words",
+        "reading_order": 11,
+        "source_bbox_points": [
+          172.4113999999998,
+          218.90689999999995,
+          683.1314,
+          329.21990000000005
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0011"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 5,
+      "block_id": "p005-r007-profile-biography-body-block",
+      "hierarchy": {
+        "parent_block_id": "p005-r007-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Will joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has been involved in almost every aspect of Coulton Creek. In his current role as Director, Will is responsible for sourcing new investment opportunities, as well as underwriting, due diligence and portfolio management duties. Prior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse skill set included underwriting and portfolio management, as well as experience and oversight of distressed real estate assets.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Will joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has\nbeen involved in almost every aspect of Coulton Creek. In his current role as Director, Will is\nresponsible for sourcing new investment opportunities, as well as underwriting, due diligence\nand portfolio management duties.\nPrior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse\nskill set included underwriting and portfolio management, as well as experience and oversight of\ndistressed real estate assets.",
+          "ocr": "Will joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has\nbeen involved in almost every aspect of Coulton Creek. In his current role as Director, Will is\nresponsible for sourcing new investment opportunities, as well as underwriting, due diligence\nand portfolio management duties.\nPrior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse\nskill set included underwriting and portfolio management, as well as experience and oversight of\ndistressed real estate assets.",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        236.391134,
+        436.835124,
+        714.717753,
+        170.212782
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r007-profile-biography-body",
+        "classification_method": "name-role biography reconstruction",
+        "reading_order": 12,
+        "source_bbox_points": [
+          172.4113999999998,
+          218.90689999999995,
+          683.1314,
+          329.21990000000005
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0012",
+          "p005-ocr-0013",
+          "p005-ocr-0014",
+          "p005-ocr-0015",
+          "p005-ocr-0016",
+          "p005-ocr-0017",
+          "p005-ocr-0018"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "profile",
+      "page": 5,
+      "block_id": "p005-profile-003",
+      "hierarchy": {
+        "parent_block_id": "p005-section-001",
+        "child_block_ids": [
+          "p005-r003-photograph",
+          "p005-r008-profile-biography"
+        ],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile",
+        "child_block_ids": [
+          "p005-r003-photograph",
+          "p005-r008-profile-biography"
+        ]
+      },
+      "coordinates": [
+        29.83333,
+        630.888875,
+        918.993614,
+        213.333321
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-row hierarchy"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-profile-003",
+        "classification_method": "aligned photograph-biography row grouping",
+        "reading_order": 13,
+        "source_bbox_points": null,
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "photograph",
+      "semantic_role": "profile_image",
+      "page": 5,
+      "block_id": "p005-r003-photograph",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-003",
+        "child_block_ids": [],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "caption": null,
+        "vision_summary": {
+          "horizontal_line_count": 4,
+          "vertical_line_count": 4,
+          "diagonal_line_count": 6,
+          "rectangle_candidate_count": 2,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 12,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.5,
+          "saturated_pixel_fraction": 0.10148
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p005-r003.json",
+          "sha256": "f3238db9eea4c6c20f3c49dacd2dc9778a52dc4678feb754decb018b30741adb"
+        },
+        "region_image": "region-images/p005-r003.png"
+      },
+      "coordinates": [
+        29.83333,
+        630.888875,
+        171.999978,
+        213.333321
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "OpenCV",
+        "Python reconstruction"
+      ],
+      "confidence": 0.82,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r003",
+        "classification_method": "pdf-image-object",
+        "reading_order": 14,
+        "source_bbox_points": [
+          21.4799976,
+          340.6799927,
+          145.3199821,
+          455.8799858
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "document_subsection",
+      "page": 5,
+      "block_id": "p005-r008-profile-biography",
+      "hierarchy": {
+        "parent_block_id": "p005-profile-003",
+        "child_block_ids": [
+          "p005-r008-profile-biography-heading",
+          "p005-r008-profile-biography-body-block"
+        ],
+        "depth": 2,
+        "heading_level": null
+      },
+      "content": {
+        "role": "profile_biography",
+        "child_block_ids": [
+          "p005-r008-profile-biography-heading",
+          "p005-r008-profile-biography-body-block"
+        ]
+      },
+      "coordinates": [
+        239.460278,
+        639.329815,
+        709.366667,
+        174.95
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python profile-biography hierarchy"
+      ],
+      "confidence": 0.89166,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r008",
+        "classification_method": "native-positioned-words",
+        "reading_order": 15,
+        "source_bbox_points": [
+          172.4114,
+          345.23810000000003,
+          683.1554000000001,
+          439.7111
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "heading",
+      "semantic_role": "profile_name_and_role",
+      "page": 5,
+      "block_id": "p005-r008-profile-biography-heading",
+      "hierarchy": {
+        "parent_block_id": "p005-r008-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": 2
+      },
+      "content": {
+        "text": "Scott Brown – Director",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Scott Brown – Director",
+          "ocr": "Scott Brown – Director",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        237.39919,
+        632.313856,
+        239.919373,
+        32.579753
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "RapidOCR",
+        "Python name-role heading reconstruction"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r008",
+        "classification_method": "native-positioned-words",
+        "reading_order": 16,
+        "source_bbox_points": [
+          172.4114,
+          345.23810000000003,
+          683.1554000000001,
+          439.7111
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0019"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "body_text",
+      "page": 5,
+      "block_id": "p005-r008-profile-biography-body-block",
+      "hierarchy": {
+        "parent_block_id": "p005-r008-profile-biography",
+        "child_block_ids": [],
+        "depth": 3,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Scott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and underwriting new real estate investment opportunities as well as assisting in portfolio management and investor relations responsibilities. Prior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real estate family office. Scott served as a member of RCS’ Investment Committee evaluating the risks, cash flows, capital requirements, deal structuring, and the overall status of RCS’ portfolio.",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Scott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and\nunderwriting new real estate investment opportunities as well as assisting in portfolio\nmanagement and investor relations responsibilities.\nPrior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real\nestate family office. Scott served as a member of RCS’ Investment Committee evaluating the\nrisks, cash flows, capital requirements, deal structuring, and the overall status of RCS’ portfolio.",
+          "ocr": "Scott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and\nunderwriting new real estate investment opportunities as well as assisting in portfolio\nmanagement and investor relations responsibilities.\nPrior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real\nst tt  t  o t  o  othte it t tshe\nrisks, cash flows, capital requirements, deal structuring, and the overall status of RCS' portfolio.",
+          "token_agreement": 0.78333
+        }
+      },
+      "coordinates": [
+        236.895162,
+        673.537218,
+        713.709656,
+        139.627712
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 0.89166,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r008-profile-biography-body",
+        "classification_method": "name-role biography reconstruction",
+        "reading_order": 17,
+        "source_bbox_points": [
+          172.4114,
+          345.23810000000003,
+          683.1554000000001,
+          439.7111
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0020",
+          "p005-ocr-0021",
+          "p005-ocr-0022",
+          "p005-ocr-0023",
+          "p005-ocr-0024",
+          "p005-ocr-0025"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "group",
+      "semantic_role": "page_footer",
+      "page": 5,
+      "block_id": "p005-r004-page-band",
+      "hierarchy": {
+        "parent_block_id": null,
+        "child_block_ids": [
+          "p005-r004-band-001-brand-mark",
+          "p005-r004-band-002-block"
+        ],
+        "depth": 0,
+        "heading_level": null
+      },
+      "content": {
+        "role": "page_footer",
+        "child_block_ids": [
+          "p005-r004-band-001-brand-mark",
+          "p005-r004-band-002-block"
+        ]
+      },
+      "coordinates": [
+        0.0,
+        871.333313,
+        1000.0,
+        128.666687
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "Python semantic repeated-page-band decomposition"
+      ],
+      "confidence": 0.99055,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r004",
+        "classification_method": "repeated-page-band",
+        "reading_order": 18,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "brand_mark",
+      "semantic_role": "brand_mark",
+      "page": 5,
+      "block_id": "p005-r004-band-001-brand-mark",
+      "hierarchy": {
+        "parent_block_id": "p005-r004-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "visible_text": [
+          "COULTON CREEK",
+          "CAPITAL"
+        ],
+        "evidence_mode": "visual_region",
+        "vision_summary": {
+          "horizontal_line_count": 62,
+          "vertical_line_count": 0,
+          "diagonal_line_count": 4,
+          "rectangle_candidate_count": 0,
+          "bar_candidate_count": 0,
+          "point_candidate_count": 30,
+          "legend_swatch_candidate_count": 0,
+          "horizontal_axis_candidate_count": 1,
+          "vertical_axis_candidate_count": 0,
+          "plot_boundary_detected": false,
+          "table_grid_confidence": 0.0,
+          "saturated_pixel_fraction": 0.85028
+        },
+        "vision_features_ref": {
+          "path": "diagnostics/vision-features/p005-r004.json",
+          "sha256": "9f3b4e163b458d0bef4bd0266804dacd4fe41ca7ee834b424e733a09f6eaf429"
+        },
+        "region_image": "region-images/p005-r004-band-001.png"
+      },
+      "coordinates": [
+        144.153229,
+        916.888346,
+        181.451609,
+        51.196723
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "RapidOCR",
+        "PP-OCRv6",
+        "Python repeated-band decomposition"
+      ],
+      "confidence": 0.99055,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r004",
+        "classification_method": "repeated-page-band",
+        "reading_order": 19,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0028",
+          "p005-ocr-0026"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    },
+    {
+      "schema_version": "unified-source-block/3.0",
+      "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+      "type": "text",
+      "semantic_role": "running_footer",
+      "page": 5,
+      "block_id": "p005-r004-band-002-block",
+      "hierarchy": {
+        "parent_block_id": "p005-r004-page-band",
+        "child_block_ids": [],
+        "depth": 1,
+        "heading_level": null
+      },
+      "content": {
+        "text": "Company Overview - 2023",
+        "evidence_text": {
+          "selected": "native",
+          "native": "Company Overview - 2023",
+          "ocr": "Company Overview - 2023",
+          "token_agreement": 1.0
+        }
+      },
+      "coordinates": [
+        744.455648,
+        932.180881,
+        210.685465,
+        27.925564
+      ],
+      "coordinate_system": "top-left normalized xywh 0..1000",
+      "extraction_method": [
+        "native PDF text",
+        "Python layout normalization"
+      ],
+      "confidence": 1.0,
+      "validation": {
+        "status": "passed",
+        "errors": [],
+        "warnings": []
+      },
+      "provenance": {
+        "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+        "region_id": "p005-r004-band-002",
+        "classification_method": "semantic repeated-page-band decomposition",
+        "reading_order": 20,
+        "source_bbox_points": [
+          -4.0800004,
+          470.519989,
+          724.0799833,
+          541.1999869
+        ],
+        "ocr_evidence_ids": [
+          "p005-ocr-0027"
+        ],
+        "rendered_page": "page-images/page-005.png"
+      }
+    }
+  ],
+  "evidence_ledger": {
+    "rendered_page": "page-images/page-005.png",
+    "rendered_page_sha256": "116a1373433150115ce681c83d5268a0bf6584450f8a9c3d8cfa3ac4fe06a058",
+    "ocr_engine": "RapidOCR PP-OCRv6",
+    "ocr_lines": [
+      {
+        "evidence_id": "p005-ocr-0001",
+        "text": "LEADERSHIP",
+        "confidence": 0.99995,
+        "coordinates": [
+          38.810483,
+          65.159573,
+          182.459679,
+          41.888299
+        ],
+        "polygon": [
+          [
+            38.810483,
+            65.159573
+          ],
+          [
+            221.270162,
+            65.159573
+          ],
+          [
+            221.270162,
+            107.047872
+          ],
+          [
+            38.810483,
+            107.047872
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0002",
+        "text": "Chris Hanks - Managing Director",
+        "confidence": 0.97259,
+        "coordinates": [
+          236.391134,
+          156.25,
+          345.766134,
+          36.569146
+        ],
+        "polygon": [
+          [
+            236.391134,
+            156.25
+          ],
+          [
+            582.157267,
+            157.579793
+          ],
+          [
+            582.157267,
+            192.819146
+          ],
+          [
+            236.391134,
+            191.489366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0003",
+        "text": "Chris co-founded Coulton Creek Capital in 2013 and has led the company in deploying over",
+        "confidence": 0.98732,
+        "coordinates": [
+          236.895162,
+          192.819146,
+          714.717712,
+          27.925537
+        ],
+        "polygon": [
+          [
+            236.895162,
+            192.819146
+          ],
+          [
+            951.612874,
+            194.148939
+          ],
+          [
+            951.612874,
+            220.744683
+          ],
+          [
+            236.895162,
+            219.414903
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0004",
+        "text": "$277 million of direct investments, building a diversified portfolio of private real estate equity and",
+        "confidence": 0.99817,
+        "coordinates": [
+          236.391134,
+          215.425537,
+          714.213684,
+          26.59573
+        ],
+        "polygon": [
+          [
+            236.391134,
+            215.425537
+          ],
+          [
+            950.604818,
+            216.090427
+          ],
+          [
+            950.604818,
+            242.021267
+          ],
+          [
+            236.391134,
+            241.356391
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0005",
+        "text": "debt. Today, Chris leads the Coulton Creek team setting the strategic direction for the firm, as",
+        "confidence": 0.98829,
+        "coordinates": [
+          236.895162,
+          238.031928,
+          714.213725,
+          25.930854
+        ],
+        "polygon": [
+          [
+            236.895162,
+            238.031928
+          ],
+          [
+            951.108887,
+            238.031928
+          ],
+          [
+            951.108887,
+            263.962782
+          ],
+          [
+            236.895162,
+            263.962782
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0006",
+        "text": "well guiding investment decisions for Coulton Creek.",
+        "confidence": 0.9984,
+        "coordinates": [
+          236.895162,
+          259.308512,
+          388.608866,
+          25.265951
+        ],
+        "polygon": [
+          [
+            236.895162,
+            260.638292
+          ],
+          [
+            625.504028,
+            259.308512
+          ],
+          [
+            625.504028,
+            283.244683
+          ],
+          [
+            236.895162,
+            284.574463
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0007",
+        "text": "Before Coulton Creek, Chris was the CFO and COO of HealthTrans, a privately held pharmacy",
+        "confidence": 0.99964,
+        "coordinates": [
+          236.391134,
+          283.909587,
+          714.717753,
+          27.260634
+        ],
+        "polygon": [
+          [
+            236.391134,
+            283.909587
+          ],
+          [
+            951.108887,
+            284.574463
+          ],
+          [
+            951.108887,
+            311.17022
+          ],
+          [
+            236.391134,
+            310.505317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0008",
+        "text": "benefit manager. At HealthTrans, Chris helped grow revenue from $4 million to $300 million and",
+        "confidence": 0.9932,
+        "coordinates": [
+          236.895162,
+          307.180854,
+          713.709656,
+          25.930854
+        ],
+        "polygon": [
+          [
+            236.895162,
+            307.180854
+          ],
+          [
+            950.604818,
+            307.180854
+          ],
+          [
+            950.604818,
+            333.111708
+          ],
+          [
+            236.895162,
+            333.111708
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0009",
+        "text": "raised $100 million in debt and equity to fund acquisitions and a minority recapitalization. Chris",
+        "confidence": 0.98973,
+        "coordinates": [
+          236.895162,
+          328.457465,
+          713.709656,
+          25.930827
+        ],
+        "polygon": [
+          [
+            236.895162,
+            328.457465
+          ],
+          [
+            950.604818,
+            328.457465
+          ],
+          [
+            950.604818,
+            354.388292
+          ],
+          [
+            236.895162,
+            354.388292
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0010",
+        "text": "concluded his tenure with the company's $250 million sale in January 2012.",
+        "confidence": 0.98379,
+        "coordinates": [
+          236.391134,
+          349.069146,
+          559.47581,
+          26.595757
+        ],
+        "polygon": [
+          [
+            236.391134,
+            349.734049
+          ],
+          [
+            795.866943,
+            349.069146
+          ],
+          [
+            795.866943,
+            375.0
+          ],
+          [
+            236.391134,
+            375.664903
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0011",
+        "text": "Will Hensley – Director",
+        "confidence": 0.96685,
+        "coordinates": [
+          236.895162,
+          397.606391,
+          243.447571,
+          35.239366
+        ],
+        "polygon": [
+          [
+            236.895162,
+            397.606391
+          ],
+          [
+            480.342733,
+            397.606391
+          ],
+          [
+            480.342733,
+            432.845757
+          ],
+          [
+            236.895162,
+            432.845757
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0012",
+        "text": "Will joined Coulton Creek Capital as the third employee in 2015. During his tenure, Will has",
+        "confidence": 0.99325,
+        "coordinates": [
+          236.895162,
+          436.835124,
+          714.213725,
+          27.92551
+        ],
+        "polygon": [
+          [
+            236.895162,
+            436.835124
+          ],
+          [
+            951.108887,
+            436.835124
+          ],
+          [
+            951.108887,
+            464.760634
+          ],
+          [
+            236.895162,
+            464.760634
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0013",
+        "text": "been involved in almost every aspect of Coulton Creek. In his current role as Director, Will is",
+        "confidence": 0.99133,
+        "coordinates": [
+          236.895162,
+          462.765951,
+          713.709656,
+          25.930881
+        ],
+        "polygon": [
+          [
+            236.895162,
+            462.765951
+          ],
+          [
+            950.604818,
+            462.765951
+          ],
+          [
+            950.604818,
+            488.696832
+          ],
+          [
+            236.895162,
+            488.696832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0014",
+        "text": "responsible for sourcing new investment opportunities, as well as underwriting, due diligence",
+        "confidence": 0.98991,
+        "coordinates": [
+          236.895162,
+          486.702148,
+          713.205668,
+          25.930827
+        ],
+        "polygon": [
+          [
+            236.895162,
+            486.702148
+          ],
+          [
+            950.10083,
+            486.702148
+          ],
+          [
+            950.10083,
+            512.632975
+          ],
+          [
+            236.895162,
+            512.632975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0015",
+        "text": "and portfolio management duties.",
+        "confidence": 0.9986,
+        "coordinates": [
+          236.895162,
+          510.638292,
+          251.008077,
+          25.930881
+        ],
+        "polygon": [
+          [
+            236.895162,
+            510.638292
+          ],
+          [
+            487.903239,
+            510.638292
+          ],
+          [
+            487.903239,
+            536.569173
+          ],
+          [
+            236.895162,
+            536.569173
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0016",
+        "text": "Prior to joining Coulton Creek, Will worked in commercial banking where he acquired a diverse",
+        "confidence": 0.99503,
+        "coordinates": [
+          236.895162,
+          534.57449,
+          713.205668,
+          25.930827
+        ],
+        "polygon": [
+          [
+            236.895162,
+            534.57449
+          ],
+          [
+            950.10083,
+            534.57449
+          ],
+          [
+            950.10083,
+            560.505317
+          ],
+          [
+            236.895162,
+            560.505317
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0017",
+        "text": "skill set included underwriting and portfolio management, as well as experience and oversight of",
+        "confidence": 0.99207,
+        "coordinates": [
+          236.391134,
+          557.845757,
+          714.717753,
+          26.595757
+        ],
+        "polygon": [
+          [
+            236.391134,
+            557.845757
+          ],
+          [
+            951.108887,
+            558.510634
+          ],
+          [
+            951.108887,
+            584.441515
+          ],
+          [
+            236.391134,
+            583.776584
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0018",
+        "text": "distressed real estate assets.",
+        "confidence": 0.99969,
+        "coordinates": [
+          237.903219,
+          583.111708,
+          218.75002,
+          23.936198
+        ],
+        "polygon": [
+          [
+            237.903219,
+            583.111708
+          ],
+          [
+            456.653239,
+            583.111708
+          ],
+          [
+            456.653239,
+            607.047906
+          ],
+          [
+            237.903219,
+            607.047906
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0019",
+        "text": "Scott Brown – Director",
+        "confidence": 0.96465,
+        "coordinates": [
+          237.39919,
+          632.313856,
+          239.919373,
+          32.579753
+        ],
+        "polygon": [
+          [
+            237.39919,
+            632.313856
+          ],
+          [
+            477.318563,
+            632.313856
+          ],
+          [
+            477.318563,
+            664.893609
+          ],
+          [
+            237.39919,
+            664.893609
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0020",
+        "text": "Scott joined Coulton Creek Capital as a Director in 2022. Scott is responsible for sourcing and",
+        "confidence": 0.9943,
+        "coordinates": [
+          236.895162,
+          673.537218,
+          713.709656,
+          27.260688
+        ],
+        "polygon": [
+          [
+            236.895162,
+            673.537218
+          ],
+          [
+            950.604818,
+            674.202148
+          ],
+          [
+            950.604818,
+            700.797906
+          ],
+          [
+            236.895162,
+            700.132975
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0021",
+        "text": "underwriting new real estate investment opportunities as well as assisting in portfolio",
+        "confidence": 0.97669,
+        "coordinates": [
+          236.895162,
+          696.808539,
+          713.205668,
+          25.930827
+        ],
+        "polygon": [
+          [
+            236.895162,
+            696.808539
+          ],
+          [
+            950.10083,
+            696.808539
+          ],
+          [
+            950.10083,
+            722.739366
+          ],
+          [
+            236.895162,
+            722.739366
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0022",
+        "text": "management and investor relations responsibilities.",
+        "confidence": 0.99984,
+        "coordinates": [
+          236.895162,
+          718.085124,
+          381.552429,
+          25.265951
+        ],
+        "polygon": [
+          [
+            236.895162,
+            718.75
+          ],
+          [
+            618.447591,
+            718.085124
+          ],
+          [
+            618.447591,
+            742.686198
+          ],
+          [
+            236.895162,
+            743.351074
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0023",
+        "text": "Prior to joining Coulton Creek, Scott worked at Real Capital Solutions, a Colorado-based real",
+        "confidence": 0.9907,
+        "coordinates": [
+          236.895162,
+          744.015951,
+          713.709656,
+          25.930881
+        ],
+        "polygon": [
+          [
+            236.895162,
+            744.015951
+          ],
+          [
+            950.604818,
+            744.015951
+          ],
+          [
+            950.604818,
+            769.946832
+          ],
+          [
+            236.895162,
+            769.946832
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0024",
+        "text": "st tt  t  o t  o  othte it t tshe",
+        "confidence": 0.58425,
+        "coordinates": [
+          236.895162,
+          765.292589,
+          713.709656,
+          25.930827
+        ],
+        "polygon": [
+          [
+            236.895162,
+            765.292589
+          ],
+          [
+            950.604818,
+            765.292589
+          ],
+          [
+            950.604818,
+            791.223416
+          ],
+          [
+            236.895162,
+            791.223416
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0025",
+        "text": "risks, cash flows, capital requirements, deal structuring, and the overall status of RCS' portfolio.",
+        "confidence": 0.99181,
+        "coordinates": [
+          236.895162,
+          787.234049,
+          704.637065,
+          25.930881
+        ],
+        "polygon": [
+          [
+            236.895162,
+            787.234049
+          ],
+          [
+            941.532227,
+            787.234049
+          ],
+          [
+            941.532227,
+            813.164931
+          ],
+          [
+            236.895162,
+            813.164931
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0026",
+        "text": "COULTON CREEK",
+        "confidence": 0.98188,
+        "coordinates": [
+          144.657257,
+          916.888346,
+          180.947581,
+          28.590386
+        ],
+        "polygon": [
+          [
+            144.657257,
+            916.888346
+          ],
+          [
+            325.604838,
+            916.888346
+          ],
+          [
+            325.604838,
+            945.478733
+          ],
+          [
+            144.657257,
+            945.478733
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0027",
+        "text": "Company Overview - 2023",
+        "confidence": 0.98595,
+        "coordinates": [
+          744.455648,
+          932.180881,
+          210.685465,
+          27.925564
+        ],
+        "polygon": [
+          [
+            744.455648,
+            933.510634
+          ],
+          [
+            955.141113,
+            932.180881
+          ],
+          [
+            955.141113,
+            958.776584
+          ],
+          [
+            744.455648,
+            960.106445
+          ]
+        ]
+      },
+      {
+        "evidence_id": "p005-ocr-0028",
+        "text": "CAPITAL",
+        "confidence": 0.99921,
+        "coordinates": [
+          144.153229,
+          941.489366,
+          92.237905,
+          26.595703
+        ],
+        "polygon": [
+          [
+            144.153229,
+            941.489366
+          ],
+          [
+            236.391134,
+            941.489366
+          ],
+          [
+            236.391134,
+            968.085069
+          ],
+          [
+            144.153229,
+            968.085069
+          ]
+        ]
+      }
+    ]
+  },
+  "evidence_disposition": [
+    {
+      "evidence_id": "p005-ocr-0001",
+      "owner_block_id": "p005-r005-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0002",
+      "owner_block_id": "p005-r006-profile-biography-heading",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0003",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0004",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0005",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0006",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0007",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0008",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0009",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0010",
+      "owner_block_id": "p005-r006-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0011",
+      "owner_block_id": "p005-r007-profile-biography-heading",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0012",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0013",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0014",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0015",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0016",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0017",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0018",
+      "owner_block_id": "p005-r007-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0019",
+      "owner_block_id": "p005-r008-profile-biography-heading",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0020",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0021",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0022",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0023",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0024",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0025",
+      "owner_block_id": "p005-r008-profile-biography-body-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0026",
+      "owner_block_id": "p005-r004-band-001-brand-mark",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0027",
+      "owner_block_id": "p005-r004-band-002-block",
+      "status": "owned"
+    },
+    {
+      "evidence_id": "p005-ocr-0028",
+      "owner_block_id": "p005-r004-band-001-brand-mark",
+      "status": "owned"
+    }
+  ],
+  "unassigned_evidence": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "completeness_status": "complete",
+    "warnings": []
+  }
+}

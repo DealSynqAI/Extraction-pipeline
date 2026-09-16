@@ -5,9 +5,11 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import re
 from typing import Any
 
 from jsonschema import Draft202012Validator
+from .comparison_layout import _bullet_candidates
 
 
 def _sha256(path: Path) -> str:
@@ -158,6 +160,10 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
             integrity_errors.append(f"page {page_number}: rendered evidence hash mismatch")
 
         blocks = page_payload.get("blocks", [])
+        page_ledger_ids = {
+            str(item.get("evidence_id"))
+            for item in page_payload.get("evidence_ledger", {}).get("ocr_lines", [])
+        }
         total_blocks += len(blocks)
         known_ids = {block.get("block_id") for block in blocks}
         blocks_by_id = {block.get("block_id"): block for block in blocks}
@@ -250,6 +256,77 @@ def validate_run(run: Path, schema_path: Path | None = None) -> dict[str, Any]:
                         raw = str(cell.get("raw_value") or "").strip()
                         if raw in {"$", "€", "£"} or ("%" in raw and raw.endswith(("$", "€", "£"))):
                             integrity_errors.append(f"page {page_number}: {block.get('block_id')} has structurally malformed cell {raw!r}")
+            if block.get("type") == "comparison_panel" and "claim_count" in content:
+                claims: list[dict[str, Any]] = []
+                leaf_sections: list[dict[str, Any]] = []
+
+                def collect(section: dict[str, Any]) -> None:
+                    children = section.get("subsections") or []
+                    if children:
+                        for child in children:
+                            collect(child)
+                    else:
+                        leaf_sections.append(section)
+                        claims.extend(section.get("claims") or [])
+
+                for section in content.get("sections", []):
+                    collect(section)
+                claim_ids = [str(claim.get("claim_id")) for claim in claims]
+                if (content.get("claim_count") != len(claims)
+                        or len(claim_ids) != len(set(claim_ids))
+                        or content.get("lane_count") != len(leaf_sections)
+                        or content.get("lane_count") != len(content.get("bullet_anchor_coordinates", []))):
+                    integrity_errors.append(
+                        f"page {page_number}: {block.get('block_id')} comparison lane/claim counts disagree with its tree"
+                    )
+                claim_evidence = [str(evidence_id) for claim in claims for evidence_id in claim.get("evidence_ids", [])]
+                if len(claim_evidence) != len(set(claim_evidence)) or not set(claim_evidence) <= page_ledger_ids:
+                    integrity_errors.append(
+                        f"page {page_number}: {block.get('block_id')} comparison claims have duplicate or untraceable evidence"
+                    )
+                for claim in claims:
+                    for mention in claim.get("numeric_mentions", []):
+                        if str(mention.get("raw")) not in str(claim.get("text")):
+                            integrity_errors.append(
+                                f"page {page_number}: {block.get('block_id')} has a numeric mention absent from its owning claim"
+                            )
+                if status == "passed":
+                    review = content.get("vision_review") or {}
+                    expected_titles = [
+                        re.sub(r"\W+", "", str(section.get("title") or "").casefold())
+                        for section in leaf_sections
+                    ]
+                    actual_titles = [
+                        re.sub(r"\W+", "", str(title).casefold())
+                        for title in review.get("leaf_titles", [])
+                    ]
+                    review_agrees = (
+                        review.get("lane_count") == content.get("lane_count")
+                        and actual_titles == expected_titles
+                        and review.get("claim_counts") == [len(section.get("claims") or []) for section in leaf_sections]
+                    )
+                    if not review_agrees or any(
+                        section.get("structure_complete") is not True for section in content.get("sections", [])
+                    ):
+                        integrity_errors.append(
+                            f"page {page_number}: {block.get('block_id')} passes without complete comparison structure and vision review"
+                        )
+                    region_id = block.get("provenance", {}).get("region_id")
+                    matching_regions = [
+                        region for region in page_inspections.get(page_number, {}).get("regions", [])
+                        if region.get("region_id") == region_id
+                    ]
+                    native_words = (matching_regions[0].get("metadata", {}).get("native_panel_words", [])
+                                    if matching_regions else [])
+                    anchors = content.get("bullet_anchor_coordinates", [])
+                    expected_bullets = sum(
+                        any(abs(float(word.get("coordinates", [0])[0]) - float(anchor)) <= 12 for anchor in anchors)
+                        for word in _bullet_candidates(native_words)
+                    )
+                    if expected_bullets and expected_bullets != len(claims):
+                        integrity_errors.append(
+                            f"page {page_number}: {block.get('block_id')} passed with {len(claims)} claims for {expected_bullets} printed bullets"
+                        )
             status_counts[status] += 1
             type_counts[str(block.get("type"))] += 1
             if status == "needs_review":
