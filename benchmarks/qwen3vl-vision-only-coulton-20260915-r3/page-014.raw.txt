@@ -1,0 +1,198 @@
+{
+  "page_number": 14,
+  "page_title": "TRACK RECORD – CLASS B UNITS",
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "Equity Investment (Class B)",
+      "text": "10%-15% target returns\n13.6% average annual returns since inception (9/2020)\n13.6% proforma average over 5 years",
+      "items": [
+        {
+          "label": "target returns",
+          "value": "10%-15%",
+          "unit": "%",
+          "parent": "Equity Investment (Class B)"
+        },
+        {
+          "label": "average annual returns since inception",
+          "value": "13.6%",
+          "unit": "%",
+          "parent": "Equity Investment (Class B)"
+        },
+        {
+          "label": "proforma average over 5 years",
+          "value": "13.6%",
+          "unit": "%",
+          "parent": "Equity Investment (Class B)"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Quarterly Class B Yield (Annualized)*",
+      "text": "*Pro forma Class B-1 returns for quarters ending 9/30/2020 and earlier",
+      "items": [
+        {
+          "label": "Jun-18",
+          "value": "9%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-18",
+          "value": "15%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-18",
+          "value": "11%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Mar-19",
+          "value": "14%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Jun-19",
+          "value": "13%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-19",
+          "value": "22%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-19",
+          "value": "11%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Mar-20",
+          "value": "8%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Jun-20",
+          "value": "14%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-20",
+          "value": "14%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-20",
+          "value": "22%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Mar-21",
+          "value": "10%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Jun-21",
+          "value": "18%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-21",
+          "value": "19%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-21",
+          "value": "13%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Mar-22",
+          "value": "18%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Jun-22",
+          "value": "10%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-22",
+          "value": "13%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-22",
+          "value": "10%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Mar-23",
+          "value": "12%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Jun-23",
+          "value": "11%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Sep-23",
+          "value": "10%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        },
+        {
+          "label": "Dec-23",
+          "value": "10%",
+          "unit": "%",
+          "parent": "Quarterly Class B Yield (Annualized)*"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "Company Overview - 2023",
+      "text": "COULTON CREEK CAPITAL",
+      "items": [
+        {
+          "label": "Company Overview - 2023",
+          "value": "Company Overview - 2023",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        },
+        {
+          "label": "COULTON CREEK CAPITAL",
+          "value": "COULTON CREEK CAPITAL",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

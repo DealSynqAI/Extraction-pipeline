@@ -1,0 +1,527 @@
+{
+  "page_number": 8,
+  "page_title": "PORTFOLIO SUMMARY",
+  "blocks": [
+    {
+      "type": "chart",
+      "title": "Current Portfolio Investments By State",
+      "text": "PORTFOLIO SUMMARY DECEMBER 31, 2023",
+      "items": [
+        {
+          "label": "% of Portfolio",
+          "value": "0%",
+          "unit": "%",
+          "parent": "chart"
+        },
+        {
+          "label": "% of Portfolio",
+          "value": "41%",
+          "unit": "%",
+          "parent": "chart"
+        }
+      ],
+      "rows": [
+        {
+          "section": "map",
+          "label": "Colorado",
+          "cells": [
+            {
+              "column": "value",
+              "value": "41.4%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "California",
+          "cells": [
+            {
+              "column": "value",
+              "value": "5.4%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Texas",
+          "cells": [
+            {
+              "column": "value",
+              "value": "8.0%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "10.1%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Pennsylvania",
+          "cells": [
+            {
+              "column": "value",
+              "value": "6.4%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Florida",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.0%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Puerto Rico",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.4%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New Jersey",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Massachusetts",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Connecticut",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New Hampshire",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Vermont",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Maine",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Rhode Island",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Maryland",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "Delaware",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        },
+        {
+          "section": "map",
+          "label": "New York",
+          "cells": [
+            {
+              "column": "value",
+              "value": "1.3%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

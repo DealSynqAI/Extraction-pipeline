@@ -1,0 +1,34 @@
+{
+  "page_number": 1,
+  "page_title": "Company Overview",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "COULTON CREEK CAPITAL",
+      "text": "COULTON CREEK CAPITAL",
+      "items": [
+        {
+          "label": "logo",
+          "value": "COULTON CREEK CAPITAL logo (mountains, trees, creek, dark blue border, white text on top and bottom)",
+          "unit": "image",
+          "parent": "logo"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "CONFIDENTIAL INFORMATION MEMORANDUM",
+      "text": "Important Note: The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the \"Company\" or \"CCC\") and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents selling such securities and related documents including a subscription agreement (collectively the \"Offering Materials\"), each of which shall contain the terms and conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any subscription agreement and investment in its sole and absolute discretion.",
+      "items": [
+        {
+          "label": "Important Note",
+          "value": "The information contained in this overview is provided only as a summary of the historical activities of Coulton Creek Capital LLC (the \"Company\" or \"CCC\") and does not constitute an offer to sell, or the solicitation of an offer to buy, securities or invest in the membership interest offered by CCC. No money is being solicited and if sent in response will not be accepted. No sale of securities will be made or commitments to purchase accepted until delivery of the offering documents selling such securities and related documents including a subscription agreement (collectively the \"Offering Materials\"), each of which shall contain the terms and conditions of an investment. Any offering of securities or the solicitation of the potential investment opportunity described herein will be made only pursuant to the Offering Materials. The Offering Materials, when available, will be provided for the recipient's sole and exclusive use. The Company reserves the right to accept or reject any subscription agreement and investment in its sole and absolute discretion.",
+          "unit": "text",
+          "parent": "Important Note"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "page_number": 16,
+  "page_title": "DISCLOSURE",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "DISCLOSURE",
+      "text": "THIS IS NEITHER AN OFFER OF SECURITIES NOR SOLICITATION OF AN OFFER OF SECURITIES. No legally binding obligations will be created unless and until definitive written agreements are executed and delivered by all parties. This summary is not a commitment to purchase or sell any investment, and any investment is conditioned on the completion of due diligence, legal review and final, signed documentation that is satisfactory to the Company and each potential investor.\n\nThe Company makes no representation or warranty as to the accuracy or completeness of the presentation, and shall not have any liability for any representations (expressed or implied) regarding information contained herein, any omissions, or any other written or oral communications transmitted to the recipient in the course of its evaluation. No person has been authorized in connection with this presentation to give any information or make any representations and, if given or made, must not be relied upon as having been authorized. Only those representations and warranties, which may be made to an investor in a definitive written agreement, and subject to such limitations and restrictions as may be specified therein, will have any legal effect.\n\nBy accepting this presentation, recipient acknowledges the information contained herein is confidential and proprietary and agrees not to make copies or disclose any of this information without the permission of the Company,",
+      "items": [
+        {
+          "label": "DISCLOSURE",
+          "value": "THIS IS NEITHER AN OFFER OF SECURITIES NOR SOLICITATION OF AN OFFER OF SECURITIES. No legally binding obligations will be created unless and until definitive written agreements are executed and delivered by all parties. This summary is not a commitment to purchase or sell any investment, and any investment is conditioned on the completion of due diligence, legal review and final, signed documentation that is satisfactory to the Company and each potential investor.\n\nThe Company makes no representation or warranty as to the accuracy or completeness of the presentation, and shall not have any liability for any representations (expressed or implied) regarding information contained herein, any omissions, or any other written or oral communications transmitted to the recipient in the course of its evaluation. No person has been authorized in connection with this presentation to give any information or make any representations and, if given or made, must not be relied upon as having been authorized. Only those representations and warranties, which may be made to an investor in a definitive written agreement, and subject to such limitations and restrictions as may be specified therein, will have any legal effect.\n\nBy accepting this presentation, recipient acknowledges the information contained herein is confidential and proprietary and agrees not to make copies or disclose any of this information without the permission of the Company,",
+          "unit": "text",
+          "parent": "DISCLOSURE"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "DISCLOSURE",
+      "text": "to take reasonable steps to prevent inadvertent disclosures to any other party, and not to use the information in any manner that competes with the business of the Company.\n\nThe Company is a limited liability company, which under federal law, may be taxed as either a corporation or a partnership. The Company has elected to be taxed as a partnership. Each prospective investor must consult their own legal counsel and/or personal tax advisor to determine the potential tax consequences of a prospective investment in the Company.\n\nThe Company's investment activities involve a significant degree of risk, including but not limited to illiquidity, interest rates, reinvestment, prepayment and default risks.\n\nPerformance of any investment is subject to numerous factors that are neither within the control of, nor predictable by, the Company or its Managers. Such factors include a wide range of economic, political, competitive, and other conditions that may affect investments in general or specific industries or companies. PAST PERFORMANCE IS NO GUARANTEE OF FUTURE PERFORMANCE. Distributions are subject to available cash. This summary is qualified in its entirety by more detailed information available from the Company. Accredited investors should request and review the Offering Materials in their entirety.",
+      "items": [
+        {
+          "label": "DISCLOSURE",
+          "value": "to take reasonable steps to prevent inadvertent disclosures to any other party, and not to use the information in any manner that competes with the business of the Company.\n\nThe Company is a limited liability company, which under federal law, may be taxed as either a corporation or a partnership. The Company has elected to be taxed as a partnership. Each prospective investor must consult their own legal counsel and/or personal tax advisor to determine the potential tax consequences of a prospective investment in the Company.\n\nThe Company's investment activities involve a significant degree of risk, including but not limited to illiquidity, interest rates, reinvestment, prepayment and default risks.\n\nPerformance of any investment is subject to numerous factors that are neither within the control of, nor predictable by, the Company or its Managers. Such factors include a wide range of economic, political, competitive, and other conditions that may affect investments in general or specific industries or companies. PAST PERFORMANCE IS NO GUARANTEE OF FUTURE PERFORMANCE. Distributions are subject to available cash. This summary is qualified in its entirety by more detailed information available from the Company. Accredited investors should request and review the Offering Materials in their entirety.",
+          "unit": "text",
+          "parent": "DISCLOSURE"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "DISCLOSURE",
+      "text": "Company Overview - 2023",
+      "items": [
+        {
+          "label": "DISCLOSURE",
+          "value": "Company Overview - 2023",
+          "unit": "text",
+          "parent": "DISCLOSURE"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "DISCLOSURE",
+      "text": "COULTON CREEK CAPITAL",
+      "items": [
+        {
+          "label": "DISCLOSURE",
+          "value": "COULTON CREEK CAPITAL",
+          "unit": "text",
+          "parent": "DISCLOSURE"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

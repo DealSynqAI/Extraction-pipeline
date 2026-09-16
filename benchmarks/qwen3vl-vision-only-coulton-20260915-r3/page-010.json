@@ -1,0 +1,139 @@
+{
+  "page_number": 10,
+  "page_title": "INVESTMENT OPPORTUNITIES",
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "Perpetual Evergreen Investments",
+      "text": "Senior Units: Preferred Units: Senior Units have priority in both payment and liquidation over all other Coulton Creek Capital equity holders. Fixed Returns: 6.5% - 8.0% per annum fixed return, with quarterly distributions. Diversification: Units are invested across entire CCC platform (approx. 60+ investments). Minimum Equity Ratio: 1:1 ratio of all Coulton Creek equity to Senior Units and long-term debt. Transferable: Units can be converted to other investments with CCC. Liquidity: Redeem up to 10% every 6 months (full redemption in 5 years).",
+      "items": [
+        {
+          "label": "Preferred Units",
+          "value": "Senior Units have priority in both payment and liquidation over all other Coulton Creek Capital equity holders.",
+          "unit": "none",
+          "parent": "Senior Units"
+        },
+        {
+          "label": "Fixed Returns",
+          "value": "6.5% - 8.0% per annum fixed return, with quarterly distributions.",
+          "unit": "per annum",
+          "parent": "Senior Units"
+        },
+        {
+          "label": "Diversification",
+          "value": "Units are invested across entire CCC platform (approx. 60+ investments).",
+          "unit": "investments",
+          "parent": "Senior Units"
+        },
+        {
+          "label": "Minimum Equity Ratio",
+          "value": "1:1 ratio of all Coulton Creek equity to Senior Units and long-term debt.",
+          "unit": "ratio",
+          "parent": "Senior Units"
+        },
+        {
+          "label": "Transferable",
+          "value": "Units can be converted to other investments with CCC.",
+          "unit": "none",
+          "parent": "Senior Units"
+        },
+        {
+          "label": "Liquidity",
+          "value": "Redeem up to 10% every 6 months (full redemption in 5 years).",
+          "unit": "percentage",
+          "parent": "Senior Units"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "Class B Shares:",
+      "text": "Ownership Units: Coulton Creek Membership Units paying 8% preferred return with additional profit share. Priority: Subordinate to Senior Units and Company Debt, pari passu with Class A / Founder Units. Targeted Returns: 10% to 15% per annum, distributed quarterly. Historic Track Record: 13.6% average annual returns since inception (9/2020). Diversification: Units are invested across entire CCC platform (approx. 60+ investments). Liquidity: Redeem up to 10% every 6 months (full redemption in 5 years).",
+      "items": [
+        {
+          "label": "Ownership Units",
+          "value": "Coulton Creek Membership Units paying 8% preferred return with additional profit share.",
+          "unit": "percentage",
+          "parent": "Class B Shares"
+        },
+        {
+          "label": "Priority",
+          "value": "Subordinate to Senior Units and Company Debt, pari passu with Class A / Founder Units.",
+          "unit": "none",
+          "parent": "Class B Shares"
+        },
+        {
+          "label": "Targeted Returns",
+          "value": "10% to 15% per annum, distributed quarterly.",
+          "unit": "per annum",
+          "parent": "Class B Shares"
+        },
+        {
+          "label": "Historic Track Record",
+          "value": "13.6% average annual returns since inception (9/2020).",
+          "unit": "percentage",
+          "parent": "Class B Shares"
+        },
+        {
+          "label": "Diversification",
+          "value": "Units are invested across entire CCC platform (approx. 60+ investments).",
+          "unit": "investments",
+          "parent": "Class B Shares"
+        },
+        {
+          "label": "Liquidity",
+          "value": "Redeem up to 10% every 6 months (full redemption in 5 years).",
+          "unit": "percentage",
+          "parent": "Class B Shares"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "Direct Investments (SPVs):",
+      "text": "Optionality: Project-Level investments that allow investors to seek opportunities specific to their investment priorities. Priority: Structure and waterfall are deal specific, and payouts are independent of Coulton Creek entity investments. Targeted Returns: Return targets vary by offering, but opportunities are often available across the capital stack from participating in 1st DOT senior loans to traditional LP equity. Historic Track Record: SPV investments 9-13%+ current cash returns, 14.2% average LP total returns. Liquidity: Investment timing and liquidity varies by specific investment offering.",
+      "items": [
+        {
+          "label": "Optionality",
+          "value": "Project-Level investments that allow investors to seek opportunities specific to their investment priorities.",
+          "unit": "none",
+          "parent": "Direct Investments (SPVs)"
+        },
+        {
+          "label": "Priority",
+          "value": "Structure and waterfall are deal specific, and payouts are independent of Coulton Creek entity investments.",
+          "unit": "none",
+          "parent": "Direct Investments (SPVs)"
+        },
+        {
+          "label": "Targeted Returns",
+          "value": "Return targets vary by offering, but opportunities are often available across the capital stack from participating in 1st DOT senior loans to traditional LP equity.",
+          "unit": "none",
+          "parent": "Direct Investments (SPVs)"
+        },
+        {
+          "label": "Historic Track Record",
+          "value": "SPV investments 9-13%+ current cash returns, 14.2% average LP total returns.",
+          "unit": "percentage",
+          "parent": "Direct Investments (SPVs)"
+        },
+        {
+          "label": "Liquidity",
+          "value": "Investment timing and liquidity varies by specific investment offering.",
+          "unit": "none",
+          "parent": "Direct Investments (SPVs)"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "Company Overview - 2023",
+      "text": "Coulton Creek Capital",
+      "items": [],
+      "rows": []
+    }
+  ]
+}

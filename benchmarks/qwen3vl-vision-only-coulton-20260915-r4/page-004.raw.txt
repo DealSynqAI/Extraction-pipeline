@@ -1,0 +1,8 @@
+{
+  "page_number": 4,
+  "page_title": "INVESTMENT PHILOSOPHY",
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "PRINCIPAL INVESTORS:",
+      "text": "Coulton Creek was founded as a vehicle to generate current returns for a group of five experienced investors. From inception, founders and key employees have invested their own capital in each investment, which has guided our perspective for each opportunity and has created exceptional alignment with our investors. Today, Coulton Creek manages approximately 60 positions for our founders and investors, with the original five founding principals investing in every deal and serving as the investment committee. 10000000000000000000000000000000

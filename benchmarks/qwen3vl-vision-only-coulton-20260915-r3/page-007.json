@@ -1,0 +1,108 @@
+{
+  "page_number": 7,
+  "page_title": "PORTFOLIO SUMMARY",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "PORTFOLIO SUMMARY",
+      "text": "DECEMBER 31, 2023",
+      "items": [
+        {
+          "label": "Portfolio Summary",
+          "value": "$146 million / 61 Investments",
+          "unit": "million",
+          "parent": "Portfolio Summary"
+        },
+        {
+          "label": "Portfolio Allocation",
+          "value": "Portfolio Allocation",
+          "unit": "",
+          "parent": "Portfolio Summary"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Portfolio Allocation",
+      "text": "Portfolio Allocation",
+      "items": [
+        {
+          "label": "Multifamily",
+          "value": "37.5%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Self-Storage",
+          "value": "15.9%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Hospitality",
+          "value": "14.9%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Land",
+          "value": "7.7%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Office",
+          "value": "6.1%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Retail",
+          "value": "7.2%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Single Family",
+          "value": "9.2%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Healthcare",
+          "value": "0.9%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Aviation",
+          "value": "0.3%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        },
+        {
+          "label": "Industrial",
+          "value": "0.3%",
+          "unit": "%",
+          "parent": "Portfolio Allocation"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "Company Overview - 2023",
+      "text": "Company Overview - 2023",
+      "items": [
+        {
+          "label": "Company Overview - 2023",
+          "value": "Company Overview - 2023",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

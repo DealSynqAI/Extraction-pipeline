@@ -1,0 +1,116 @@
+{
+  "page_number": 3,
+  "page_title": "ABOUT US",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "ABOUT US",
+      "text": "Formed in 2013 to source and manage investments for our founder's capital.\n\nExpanded to offer investors access to unique investments encompassing both a perpetual portfolio of seasoned assets, as well as single investment sidecar opportunities.\n\nFocus on income producing commercial real estate assets and unique or opportunistic development projects.\n\nInvestments span the capital stack:\n- senior debt\n- mezzanine debt\n- preferred equity\n- limited partner and JV equity",
+      "items": [
+        {
+          "label": "Formed in 2013 to source and manage investments for our founder's capital.",
+          "value": "Formed in 2013 to source and manage investments for our founder's capital.",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "Expanded to offer investors access to unique investments encompassing both a perpetual portfolio of seasoned assets, as well as single investment sidecar opportunities.",
+          "value": "Expanded to offer investors access to unique investments encompassing both a perpetual portfolio of seasoned assets, as well as single investment sidecar opportunities.",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "Focus on income producing commercial real estate assets and unique or opportunistic development projects.",
+          "value": "Focus on income producing commercial real estate assets and unique or opportunistic development projects.",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "Investments span the capital stack:",
+          "value": "Investments span the capital stack:",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "- senior debt",
+          "value": "- senior debt",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "- mezzanine debt",
+          "value": "- mezzanine debt",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "- preferred equity",
+          "value": "- preferred equity",
+          "unit": "",
+          "parent": "ABOUT US"
+        },
+        {
+          "label": "- limited partner and JV equity",
+          "value": "- limited partner and JV equity",
+          "unit": "",
+          "parent": "ABOUT US"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "As of 12/31/23",
+      "text": "Investments Funded to Date",
+      "items": [
+        {
+          "label": "Investments Funded to Date",
+          "value": "$277 MILLION",
+          "unit": "MILLION",
+          "parent": "chart"
+        },
+        {
+          "label": "Investments Funded to Date",
+          "value": "168",
+          "unit": "Investments",
+          "parent": "chart"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Current Portfolio at cost basis",
+      "text": "Current Portfolio at cost basis",
+      "items": [
+        {
+          "label": "Current Portfolio at cost basis",
+          "value": "$146 MILLION",
+          "unit": "MILLION",
+          "parent": "chart"
+        },
+        {
+          "label": "Current Portfolio at cost basis",
+          "value": "61",
+          "unit": "Investments",
+          "parent": "chart"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "COULTON CREEK CAPITAL",
+      "text": "COULTON CREEK CAPITAL",
+      "items": [
+        {
+          "label": "COULTON CREEK CAPITAL",
+          "value": "COULTON CREEK CAPITAL",
+          "unit": "",
+          "parent": "text"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

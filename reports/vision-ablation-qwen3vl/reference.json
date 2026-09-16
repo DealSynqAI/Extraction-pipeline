@@ -1,0 +1,88 @@
+{
+  "reference_status": "development reference: visibly checked on rendered Coulton pages, not independent blind human adjudication",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "scored_pages": [3, 6, 7, 8, 9, 10, 12, 16],
+  "anchors": {
+    "3": [
+      {"kind": "kpi_binding", "label": "Investments Funded to Date", "value": "277", "unit": "million USD"},
+      {"kind": "kpi_binding", "label": "Investments Funded to Date", "value": "168", "unit": "investments"},
+      {"kind": "kpi_binding", "label": "Current Portfolio at cost basis", "value": "146", "unit": "million USD"},
+      {"kind": "kpi_binding", "label": "Current Portfolio at cost basis", "value": "61", "unit": "investments"}
+    ],
+    "6": [
+      {"kind": "table_cell", "row": "Industrial Real Estate", "column": "Total Invested", "value": "400,000"},
+      {"kind": "table_cell", "row": "Industrial Real Estate", "column": "% of CCC Equity", "value": "0.4%"},
+      {"kind": "table_cell", "row": "Hospitality Real Estate", "column": "Total Invested", "value": "15,137,127"},
+      {"kind": "table_cell", "row": "Multifamily Real Estate", "column": "Total Invested", "value": "44,759,986"},
+      {"kind": "table_cell", "row": "Multifamily Real Estate", "column": "Non-controlling Interest", "value": "10,816,437"},
+      {"kind": "table_cell", "row": "Multifamily Real Estate", "column": "Coulton Creek Equity", "value": "33,943,549"},
+      {"kind": "table_cell", "row": "Residential Development", "column": "Leverage (CCC Debt)", "value": "1,710,928"},
+      {"kind": "table_cell", "row": "Retail Real Estate", "column": "Return of Capital", "value": "972,330"},
+      {"kind": "table_cell", "row": "Total Equity Investments", "column": "Total Invested", "value": "77,819,827"},
+      {"kind": "table_cell", "row": "Total Equity Investments", "column": "% of Total Invested", "value": "53.4%"},
+      {"kind": "table_cell", "row": "Real Estate Mezzanine Loans", "column": "Non-controlling Interest", "value": "28,045,777"},
+      {"kind": "table_cell", "row": "Real Estate Bridge Loans", "column": "Coulton Creek Equity", "value": "9,192,772"},
+      {"kind": "table_cell", "row": "Total Loan Investments", "column": "Total Invested", "value": "67,822,760"},
+      {"kind": "table_cell", "row": "Total Loan Investments", "column": "% of Total Invested", "value": "46.6%"},
+      {"kind": "table_cell", "row": "Total Investment Portfolio", "column": "Total Invested", "value": "145,642,587"},
+      {"kind": "table_cell", "row": "Total Investment Portfolio", "column": "Non-controlling Interest", "value": "44,547,802"},
+      {"kind": "table_cell", "row": "Total Investment Portfolio", "column": "Coulton Creek Equity", "value": "98,411,527"},
+      {"kind": "table_cell", "row": "Total Investment Portfolio", "column": "% of CCC Equity", "value": "100.0%"}
+    ],
+    "7": [
+      {"kind": "chart_binding", "label": "Office", "value": "6.1%"},
+      {"kind": "chart_binding", "label": "Self-Storage", "value": "15.9%"},
+      {"kind": "chart_binding", "label": "Land", "value": "7.7%"},
+      {"kind": "chart_binding", "label": "Aviation", "value": "0.3%"},
+      {"kind": "chart_binding", "label": "Industrial", "value": "0.3%"},
+      {"kind": "chart_binding", "label": "Hospitality", "value": "14.9%"},
+      {"kind": "chart_binding", "label": "Multifamily", "value": "37.5%"},
+      {"kind": "chart_binding", "label": "Single Family", "value": "9.2%"},
+      {"kind": "chart_binding", "label": "Healthcare", "value": "0.9%"},
+      {"kind": "chart_binding", "label": "Retail", "value": "7.2%"}
+    ],
+    "8": [
+      {"kind": "map_binding", "label": "California", "value": "5.4%"},
+      {"kind": "map_binding", "label": "Colorado", "value": "41.4%"},
+      {"kind": "map_binding", "label": "Texas", "value": "8.0%"},
+      {"kind": "map_binding", "label": "New York", "value": "6.4%"},
+      {"kind": "map_binding", "label": "Pennsylvania", "value": "10.1%"},
+      {"kind": "map_binding", "label": "Florida", "value": "1.0%"},
+      {"kind": "map_binding", "label": "Puerto Rico", "value": "1.4%"},
+      {"kind": "map_binding", "label": "Montana", "value": "0.1%"},
+      {"kind": "map_binding", "label": "Arizona", "value": "2.5%"},
+      {"kind": "map_binding", "label": "Iowa", "value": "1.3%"}
+    ],
+    "9": [
+      {"kind": "paired_pie_binding", "label": "SPV LPs", "amount": "45", "percent": "31%", "owner": "main"},
+      {"kind": "paired_pie_binding", "label": "Coulton Creek Capital", "amount": "100", "percent": "68%", "owner": "main"},
+      {"kind": "paired_pie_binding", "label": "Return of Capital", "amount": "0.97", "percent": "0.7%", "owner": "main"},
+      {"kind": "paired_pie_binding", "label": "Founders & Employees", "amount": "38", "percent": "26%", "owner": "inset"},
+      {"kind": "paired_pie_binding", "label": "Other Investors", "amount": "62", "percent": "42%", "owner": "inset"}
+    ],
+    "10": [
+      {"kind": "panel_claim", "owner": "Senior Units", "phrase": "6.5% - 8.0%"},
+      {"kind": "panel_claim", "owner": "Senior Units", "phrase": "1:1"},
+      {"kind": "panel_claim", "owner": "Class B Shares", "phrase": "8% preferred return"},
+      {"kind": "panel_claim", "owner": "Class B Shares", "phrase": "10% to 15%"},
+      {"kind": "panel_claim", "owner": "Class B Shares", "phrase": "13.6%"},
+      {"kind": "panel_claim", "owner": "Direct Investments (SPVs)", "phrase": "14.2%"}
+    ],
+    "12": [
+      {"kind": "page_fact", "phrase": "$126 million realized across 105 investments"},
+      {"kind": "page_fact", "phrase": "average project IRR 18.0%"},
+      {"kind": "page_fact", "phrase": "median project IRR 15.1%"},
+      {"kind": "chart_type", "value": "scatter"},
+      {"kind": "chart_title", "phrase": "Realized Investments by Month - IRR"},
+      {"kind": "safe_scatter", "point_claim": 105, "no_axis_tick_as_observation": true}
+    ],
+    "16": [
+      {"kind": "legal_clause", "phrase": "NEITHER AN OFFER OF SECURITIES NOR SOLICITATION OF AN OFFER OF SECURITIES"},
+      {"kind": "legal_clause", "phrase": "No legally binding obligations will be created"},
+      {"kind": "legal_clause", "phrase": "not a commitment to purchase or sell any investment"},
+      {"kind": "legal_clause", "phrase": "confidential and proprietary"},
+      {"kind": "legal_clause", "phrase": "PAST PERFORMANCE IS NO GUARANTEE OF FUTURE PERFORMANCE"},
+      {"kind": "column_order", "require_noninterleaved_columns": true}
+    ]
+  }
+}

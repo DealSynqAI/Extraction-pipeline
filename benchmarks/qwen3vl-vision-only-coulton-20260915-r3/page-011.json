@@ -1,0 +1,102 @@
+{
+  "page_number": 11,
+  "page_title": "TRACK RECORD – FUND LEVEL RETURNS",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "18.5% INCEPTION TO DATE IRR (UNLEVERED)",
+      "text": "35% average total leverage (Senior Units and Line of Credit)",
+      "items": [
+        {
+          "label": "Annual Unlevered Fund Level IRR to Date",
+          "value": "18.5%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Annual Unlevered Fund Level IRR to Date",
+      "text": "Assumes return of capital for terminal cash flow (no mark to market on current investments).",
+      "items": [
+        {
+          "label": "2014",
+          "value": "11.3%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2015",
+          "value": "12.9%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2016",
+          "value": "16.7%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2017",
+          "value": "18.9%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2018",
+          "value": "18.5%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2019",
+          "value": "19.0%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2020",
+          "value": "19.1%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2021",
+          "value": "19.3%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2022",
+          "value": "18.8%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        },
+        {
+          "label": "2023",
+          "value": "18.5%",
+          "unit": "%",
+          "parent": "Annual Unlevered Fund Level IRR to Date"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "Company Overview - 2023",
+      "text": "COULTON CREEK CAPITAL",
+      "items": [
+        {
+          "label": "Company Overview - 2023",
+          "value": "COULTON CREEK CAPITAL",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

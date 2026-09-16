@@ -1,0 +1,95 @@
+{
+  "page_number": 9,
+  "page_title": "INVESTOR ALIGNMENT",
+  "blocks": [
+    {
+      "type": "chart",
+      "title": "$146 Million Portfolio",
+      "text": "Return of Capital $0.97 million 0.7%",
+      "items": [
+        {
+          "label": "Coulton Creek Capital",
+          "value": "$100 million",
+          "unit": "million",
+          "parent": "chart"
+        },
+        {
+          "label": "SPV LPs",
+          "value": "$45 million",
+          "unit": "million",
+          "parent": "chart"
+        },
+        {
+          "label": "Founders & Employees",
+          "value": "$38 million",
+          "unit": "million",
+          "parent": "chart"
+        },
+        {
+          "label": "Other Investors",
+          "value": "$62 million",
+          "unit": "million",
+          "parent": "chart"
+        }
+      ],
+      "rows": [
+        {
+          "section": "Coulton Creek Capital",
+          "label": "Coulton Creek Capital",
+          "cells": [
+            {
+              "column": "value",
+              "value": "$100 million"
+            },
+            {
+              "column": "percentage",
+              "value": "68%"
+            }
+          ]
+        },
+        {
+          "section": "SPV LPs",
+          "label": "SPV LPs",
+          "cells": [
+            {
+              "column": "value",
+              "value": "$45 million"
+            },
+            {
+              "column": "percentage",
+              "value": "31%"
+            }
+          ]
+        },
+        {
+          "section": "Founders & Employees",
+          "label": "Founders & Employees",
+          "cells": [
+            {
+              "column": "value",
+              "value": "$38 million"
+            },
+            {
+              "column": "percentage",
+              "value": "26%"
+            }
+          ]
+        },
+        {
+          "section": "Other Investors",
+          "label": "Other Investors",
+          "cells": [
+            {
+              "column": "value",
+              "value": "$62 million"
+            },
+            {
+              "column": "percentage",
+              "value": "42%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

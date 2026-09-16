@@ -1,0 +1,40 @@
+{
+  "page_number": 12,
+  "page_title": "TRACK RECORD – REALIZED INVESTMENTS",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Realized Investments by Month - IRR",
+      "text": "➤ $126 million realized across 105 investments to date\n➤ Average / median project IRRs = 18.0%/15.1%",
+      "items": [
+        {
+          "label": "Realized Investments by Month - IRR",
+          "value": "126 million realized across 105 investments to date",
+          "unit": "million",
+          "parent": "text"
+        },
+        {
+          "label": "Average / median project IRRs",
+          "value": "18.0%/15.1%",
+          "unit": "%",
+          "parent": "text"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Realized Investments by Month - IRR",
+      "text": "Realized Investments by Month - IRR",
+      "items": [
+        {
+          "label": "Chart",
+          "value": "Chart",
+          "unit": "none",
+          "parent": "chart"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

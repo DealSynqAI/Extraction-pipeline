@@ -1,0 +1,1486 @@
+{
+  "schema_version": "qwen3vl-vision-only-vs-full-benchmark/1.0",
+  "reference_status": "development reference: visibly checked on rendered Coulton pages, not independent blind human adjudication",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "scored_pages": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    16
+  ],
+  "anchors_scored": 65,
+  "scores": {
+    "vision": {
+      "3": {
+        "correct": 4,
+        "total": 4,
+        "findings": [
+          {
+            "anchor_id": "p003-a01",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Investments Funded to Date",
+              "value": "277",
+              "unit": "million USD"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p003-a02",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Investments Funded to Date",
+              "value": "168",
+              "unit": "investments"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p003-a03",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Current Portfolio at cost basis",
+              "value": "146",
+              "unit": "million USD"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p003-a04",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Current Portfolio at cost basis",
+              "value": "61",
+              "unit": "investments"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "6": {
+        "correct": 16,
+        "total": 18,
+        "findings": [
+          {
+            "anchor_id": "p006-a01",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Industrial Real Estate",
+              "column": "Total Invested",
+              "value": "400,000"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a02",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Industrial Real Estate",
+              "column": "% of CCC Equity",
+              "value": "0.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a03",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Hospitality Real Estate",
+              "column": "Total Invested",
+              "value": "15,137,127"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a04",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Total Invested",
+              "value": "44,759,986"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a05",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Non-controlling Interest",
+              "value": "10,816,437"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a06",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Coulton Creek Equity",
+              "value": "33,943,549"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a07",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Residential Development",
+              "column": "Leverage (CCC Debt)",
+              "value": "1,710,928"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a08",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Retail Real Estate",
+              "column": "Return of Capital",
+              "value": "972,330"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a09",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Equity Investments",
+              "column": "Total Invested",
+              "value": "77,819,827"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a10",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Equity Investments",
+              "column": "% of Total Invested",
+              "value": "53.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a11",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Real Estate Mezzanine Loans",
+              "column": "Non-controlling Interest",
+              "value": "28,045,777"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p006-a12",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Real Estate Bridge Loans",
+              "column": "Coulton Creek Equity",
+              "value": "9,192,772"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p006-a13",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Loan Investments",
+              "column": "Total Invested",
+              "value": "67,822,760"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a14",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Loan Investments",
+              "column": "% of Total Invested",
+              "value": "46.6%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a15",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Total Invested",
+              "value": "145,642,587"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a16",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Non-controlling Interest",
+              "value": "44,547,802"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a17",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Coulton Creek Equity",
+              "value": "98,411,527"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a18",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "% of CCC Equity",
+              "value": "100.0%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "7": {
+        "correct": 10,
+        "total": 10,
+        "findings": [
+          {
+            "anchor_id": "p007-a01",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Office",
+              "value": "6.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a02",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Self-Storage",
+              "value": "15.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a03",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Land",
+              "value": "7.7%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a04",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Aviation",
+              "value": "0.3%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a05",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Industrial",
+              "value": "0.3%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a06",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Hospitality",
+              "value": "14.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a07",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Multifamily",
+              "value": "37.5%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a08",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Single Family",
+              "value": "9.2%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a09",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Healthcare",
+              "value": "0.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a10",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Retail",
+              "value": "7.2%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "8": {
+        "correct": 5,
+        "total": 10,
+        "findings": [
+          {
+            "anchor_id": "p008-a01",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "California",
+              "value": "5.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a02",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Colorado",
+              "value": "41.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a03",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Texas",
+              "value": "8.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a04",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "New York",
+              "value": "6.4%"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p008-a05",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Pennsylvania",
+              "value": "10.1%"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p008-a06",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Florida",
+              "value": "1.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a07",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Puerto Rico",
+              "value": "1.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a08",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Montana",
+              "value": "0.1%"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p008-a09",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Arizona",
+              "value": "2.5%"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p008-a10",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Iowa",
+              "value": "1.3%"
+            },
+            "correct": false
+          }
+        ]
+      },
+      "9": {
+        "correct": 4,
+        "total": 5,
+        "findings": [
+          {
+            "anchor_id": "p009-a01",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "SPV LPs",
+              "amount": "45",
+              "percent": "31%",
+              "owner": "main"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p009-a02",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Coulton Creek Capital",
+              "amount": "100",
+              "percent": "68%",
+              "owner": "main"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p009-a03",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Return of Capital",
+              "amount": "0.97",
+              "percent": "0.7%",
+              "owner": "main"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p009-a04",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Founders & Employees",
+              "amount": "38",
+              "percent": "26%",
+              "owner": "inset"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p009-a05",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Other Investors",
+              "amount": "62",
+              "percent": "42%",
+              "owner": "inset"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "10": {
+        "correct": 6,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p010-a01",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Senior Units",
+              "phrase": "6.5% - 8.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a02",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Senior Units",
+              "phrase": "1:1"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a03",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "8% preferred return"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a04",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "10% to 15%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a05",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "13.6%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a06",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Direct Investments (SPVs)",
+              "phrase": "14.2%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "12": {
+        "correct": 5,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p012-a01",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "$126 million realized across 105 investments"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a02",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "average project IRR 18.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a03",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "median project IRR 15.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a04",
+            "anchor": {
+              "kind": "chart_type",
+              "value": "scatter"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p012-a05",
+            "anchor": {
+              "kind": "chart_title",
+              "phrase": "Realized Investments by Month - IRR"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a06",
+            "anchor": {
+              "kind": "safe_scatter",
+              "point_claim": 105,
+              "no_axis_tick_as_observation": true
+            },
+            "correct": true
+          }
+        ]
+      },
+      "16": {
+        "correct": 6,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p016-a01",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "NEITHER AN OFFER OF SECURITIES NOR SOLICITATION OF AN OFFER OF SECURITIES"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a02",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "No legally binding obligations will be created"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a03",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "not a commitment to purchase or sell any investment"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a04",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "confidential and proprietary"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a05",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "PAST PERFORMANCE IS NO GUARANTEE OF FUTURE PERFORMANCE"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a06",
+            "anchor": {
+              "kind": "column_order",
+              "require_noninterleaved_columns": true
+            },
+            "correct": true
+          }
+        ]
+      }
+    },
+    "full": {
+      "3": {
+        "correct": 0,
+        "total": 4,
+        "findings": [
+          {
+            "anchor_id": "p003-a01",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Investments Funded to Date",
+              "value": "277",
+              "unit": "million USD"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p003-a02",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Investments Funded to Date",
+              "value": "168",
+              "unit": "investments"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p003-a03",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Current Portfolio at cost basis",
+              "value": "146",
+              "unit": "million USD"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p003-a04",
+            "anchor": {
+              "kind": "kpi_binding",
+              "label": "Current Portfolio at cost basis",
+              "value": "61",
+              "unit": "investments"
+            },
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "correct": 18,
+        "total": 18,
+        "findings": [
+          {
+            "anchor_id": "p006-a01",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Industrial Real Estate",
+              "column": "Total Invested",
+              "value": "400,000"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a02",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Industrial Real Estate",
+              "column": "% of CCC Equity",
+              "value": "0.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a03",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Hospitality Real Estate",
+              "column": "Total Invested",
+              "value": "15,137,127"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a04",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Total Invested",
+              "value": "44,759,986"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a05",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Non-controlling Interest",
+              "value": "10,816,437"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a06",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Multifamily Real Estate",
+              "column": "Coulton Creek Equity",
+              "value": "33,943,549"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a07",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Residential Development",
+              "column": "Leverage (CCC Debt)",
+              "value": "1,710,928"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a08",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Retail Real Estate",
+              "column": "Return of Capital",
+              "value": "972,330"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a09",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Equity Investments",
+              "column": "Total Invested",
+              "value": "77,819,827"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a10",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Equity Investments",
+              "column": "% of Total Invested",
+              "value": "53.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a11",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Real Estate Mezzanine Loans",
+              "column": "Non-controlling Interest",
+              "value": "28,045,777"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a12",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Real Estate Bridge Loans",
+              "column": "Coulton Creek Equity",
+              "value": "9,192,772"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a13",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Loan Investments",
+              "column": "Total Invested",
+              "value": "67,822,760"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a14",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Loan Investments",
+              "column": "% of Total Invested",
+              "value": "46.6%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a15",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Total Invested",
+              "value": "145,642,587"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a16",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Non-controlling Interest",
+              "value": "44,547,802"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a17",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "Coulton Creek Equity",
+              "value": "98,411,527"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p006-a18",
+            "anchor": {
+              "kind": "table_cell",
+              "row": "Total Investment Portfolio",
+              "column": "% of CCC Equity",
+              "value": "100.0%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "7": {
+        "correct": 10,
+        "total": 10,
+        "findings": [
+          {
+            "anchor_id": "p007-a01",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Office",
+              "value": "6.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a02",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Self-Storage",
+              "value": "15.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a03",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Land",
+              "value": "7.7%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a04",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Aviation",
+              "value": "0.3%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a05",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Industrial",
+              "value": "0.3%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a06",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Hospitality",
+              "value": "14.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a07",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Multifamily",
+              "value": "37.5%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a08",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Single Family",
+              "value": "9.2%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a09",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Healthcare",
+              "value": "0.9%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p007-a10",
+            "anchor": {
+              "kind": "chart_binding",
+              "label": "Retail",
+              "value": "7.2%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "8": {
+        "correct": 10,
+        "total": 10,
+        "findings": [
+          {
+            "anchor_id": "p008-a01",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "California",
+              "value": "5.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a02",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Colorado",
+              "value": "41.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a03",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Texas",
+              "value": "8.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a04",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "New York",
+              "value": "6.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a05",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Pennsylvania",
+              "value": "10.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a06",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Florida",
+              "value": "1.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a07",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Puerto Rico",
+              "value": "1.4%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a08",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Montana",
+              "value": "0.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a09",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Arizona",
+              "value": "2.5%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p008-a10",
+            "anchor": {
+              "kind": "map_binding",
+              "label": "Iowa",
+              "value": "1.3%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "9": {
+        "correct": 0,
+        "total": 5,
+        "findings": [
+          {
+            "anchor_id": "p009-a01",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "SPV LPs",
+              "amount": "45",
+              "percent": "31%",
+              "owner": "main"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p009-a02",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Coulton Creek Capital",
+              "amount": "100",
+              "percent": "68%",
+              "owner": "main"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p009-a03",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Return of Capital",
+              "amount": "0.97",
+              "percent": "0.7%",
+              "owner": "main"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p009-a04",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Founders & Employees",
+              "amount": "38",
+              "percent": "26%",
+              "owner": "inset"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p009-a05",
+            "anchor": {
+              "kind": "paired_pie_binding",
+              "label": "Other Investors",
+              "amount": "62",
+              "percent": "42%",
+              "owner": "inset"
+            },
+            "correct": false
+          }
+        ]
+      },
+      "10": {
+        "correct": 6,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p010-a01",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Senior Units",
+              "phrase": "6.5% - 8.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a02",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Senior Units",
+              "phrase": "1:1"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a03",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "8% preferred return"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a04",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "10% to 15%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a05",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Class B Shares",
+              "phrase": "13.6%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p010-a06",
+            "anchor": {
+              "kind": "panel_claim",
+              "owner": "Direct Investments (SPVs)",
+              "phrase": "14.2%"
+            },
+            "correct": true
+          }
+        ]
+      },
+      "12": {
+        "correct": 4,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p012-a01",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "$126 million realized across 105 investments"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a02",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "average project IRR 18.0%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a03",
+            "anchor": {
+              "kind": "page_fact",
+              "phrase": "median project IRR 15.1%"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a04",
+            "anchor": {
+              "kind": "chart_type",
+              "value": "scatter"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p012-a05",
+            "anchor": {
+              "kind": "chart_title",
+              "phrase": "Realized Investments by Month - IRR"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p012-a06",
+            "anchor": {
+              "kind": "safe_scatter",
+              "point_claim": 105,
+              "no_axis_tick_as_observation": true
+            },
+            "correct": false
+          }
+        ]
+      },
+      "16": {
+        "correct": 2,
+        "total": 6,
+        "findings": [
+          {
+            "anchor_id": "p016-a01",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "NEITHER AN OFFER OF SECURITIES NOR SOLICITATION OF AN OFFER OF SECURITIES"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p016-a02",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "No legally binding obligations will be created"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p016-a03",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "not a commitment to purchase or sell any investment"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a04",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "confidential and proprietary"
+            },
+            "correct": true
+          },
+          {
+            "anchor_id": "p016-a05",
+            "anchor": {
+              "kind": "legal_clause",
+              "phrase": "PAST PERFORMANCE IS NO GUARANTEE OF FUTURE PERFORMANCE"
+            },
+            "correct": false
+          },
+          {
+            "anchor_id": "p016-a06",
+            "anchor": {
+              "kind": "column_order",
+              "require_noninterleaved_columns": true
+            },
+            "correct": false
+          }
+        ]
+      }
+    }
+  },
+  "totals": {
+    "vision": {
+      "correct": 56,
+      "total": 65
+    },
+    "full": {
+      "correct": 50,
+      "total": 65
+    }
+  },
+  "vision_page_attempts": {
+    "complete": 15,
+    "failed": 1
+  },
+  "vision_seconds_total": 609.381,
+  "vision_seconds_by_page": {
+    "1": 14.864,
+    "2": 16.467,
+    "3": 21.62,
+    "4": 20.512,
+    "5": 155.495,
+    "6": 128.435,
+    "7": 18.289,
+    "8": 47.417,
+    "9": 15.567,
+    "10": 30.583,
+    "11": 19.632,
+    "12": 11.854,
+    "13": 32.3,
+    "14": 30.642,
+    "15": 16.609,
+    "16": 29.095
+  },
+  "vision_json_schema_issue_count": 1,
+  "vision_json_schema_issues_by_page": {
+    "5": [
+      "No parseable page JSON"
+    ]
+  },
+  "full_seconds_total": 254.532,
+  "full_pages_complete": 16,
+  "full_schema_valid": true,
+  "secondary_full_output_agreement_not_gold": {
+    "page_006_table": {
+      "full_cells": 84,
+      "vision_cells": 96,
+      "agreement": 72,
+      "differences": [
+        {
+          "row": "Real Estate Mezzanine Loans",
+          "column": "Return of Capital",
+          "full": null,
+          "vision": "-"
+        },
+        {
+          "row": "Real Estate Mezzanine Loans",
+          "column": "Leverage (CCC Debt)",
+          "full": null,
+          "vision": "28,045,777"
+        },
+        {
+          "row": "Real Estate Mezzanine Loans",
+          "column": "Non-controlling Interest",
+          "full": "28,045,777",
+          "vision": "27,598,623"
+        },
+        {
+          "row": "Real Estate Mezzanine Loans",
+          "column": "Coulton Creek Equity",
+          "full": "27,598,623",
+          "vision": "28.0%"
+        },
+        {
+          "row": "Real Estate Bridge Loans",
+          "column": "Return of Capital",
+          "full": null,
+          "vision": "-"
+        },
+        {
+          "row": "Real Estate Bridge Loans",
+          "column": "Leverage (CCC Debt)",
+          "full": null,
+          "vision": "2,985,588"
+        },
+        {
+          "row": "Real Estate Bridge Loans",
+          "column": "Non-controlling Interest",
+          "full": "2,985,588",
+          "vision": "9,192,772"
+        },
+        {
+          "row": "Real Estate Bridge Loans",
+          "column": "Coulton Creek Equity",
+          "full": "9,192,772",
+          "vision": "9.3%"
+        },
+        {
+          "row": "Total Loan Investments",
+          "column": "Return of Capital",
+          "full": null,
+          "vision": "$ 31,031,365"
+        },
+        {
+          "row": "Total Loan Investments",
+          "column": "Leverage (CCC Debt)",
+          "full": null,
+          "vision": "$ 36,791,395"
+        },
+        {
+          "row": "Total Loan Investments",
+          "column": "Non-controlling Interest",
+          "full": "$31,031,365",
+          "vision": "37.4%"
+        },
+        {
+          "row": "Total Loan Investments",
+          "column": "Coulton Creek Equity",
+          "full": "$36,791,395",
+          "vision": "37.4%"
+        }
+      ]
+    },
+    "page_008_map": {
+      "full_bindings": 27,
+      "vision_bindings": 50,
+      "exact_agreement": 7,
+      "repeated_places": {
+        "newyork": 35
+      },
+      "vision_parent_types": [
+        "chart"
+      ]
+    },
+    "bar_charts": {
+      "11": {
+        "full_observations": 10,
+        "vision_items": 10,
+        "exact_agreement": 10
+      },
+      "13": {
+        "full_observations": 10,
+        "vision_items": 10,
+        "exact_agreement": 10
+      },
+      "14": {
+        "full_observations": 23,
+        "vision_items": 23,
+        "exact_agreement": 23
+      }
+    }
+  },
+  "important_limitations": [
+    "The reference is visually checked development evidence from one PDF, not a blind multi-document human gold set.",
+    "Vision-only used a lighter semantic-page JSON contract; full output used Unified Source Blocks with coordinates and evidence hashes. Content anchors, not schema fields, are compared head-to-head.",
+    "Runtime is illustrative: the full run and vision-only calls were recorded in separate sessions, not randomized paired hardware trials."
+  ]
+}

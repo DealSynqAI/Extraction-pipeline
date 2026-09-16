@@ -1,0 +1,74 @@
+{
+  "page_number": 15,
+  "page_title": "CONTACT INFORMATION",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "CONTACT INFORMATION",
+      "text": "Chris Hanks | chanks@ccrcapital.com | 303-250-5898\nWill Hensley | whensley@ccrcapital.com | 720-771-6909\nScott Brown | sbrown@ccrcapital.com | 816-225-3859",
+      "items": [
+        {
+          "label": "Chris Hanks",
+          "value": "chanks@ccrcapital.com",
+          "unit": "303-250-5898",
+          "parent": "CONTACT INFORMATION"
+        },
+        {
+          "label": "Will Hensley",
+          "value": "whensley@ccrcapital.com",
+          "unit": "720-771-6909",
+          "parent": "CONTACT INFORMATION"
+        },
+        {
+          "label": "Scott Brown",
+          "value": "sbrown@ccrcapital.com",
+          "unit": "816-225-3859",
+          "parent": "CONTACT INFORMATION"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Coulton Creek Capital Logo",
+      "text": "COULTON CREEK\nCAPITAL",
+      "items": [
+        {
+          "label": "Coulton Creek Capital Logo",
+          "value": "COULTON CREEK\nCAPITAL",
+          "unit": "",
+          "parent": "Coulton Creek Capital Logo"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Coulton Creek Capital Logo",
+      "text": "COULTON CREEK\nCAPITAL",
+      "items": [
+        {
+          "label": "Coulton Creek Capital Logo",
+          "value": "COULTON CREEK\nCAPITAL",
+          "unit": "",
+          "parent": "Coulton Creek Capital Logo"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "text",
+      "title": "Company Overview - 2023",
+      "text": "Company Overview - 2023",
+      "items": [
+        {
+          "label": "Company Overview - 2023",
+          "value": "Company Overview - 2023",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

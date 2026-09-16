@@ -141,3 +141,12 @@ Earlier historical outputs remain at
 [`examples/coulton-creek-qwen3vl4b-v050-final-r3`](examples/coulton-creek-qwen3vl4b-v050-final-r3/README.md)
 and the page-7-only
 [`examples/coulton-creek-v060-page007-qwen-final-r3`](examples/coulton-creek-v060-page007-qwen-final-r3/README.md).
+
+## Current-model vision-only benchmark
+
+The [Qwen3-VL image-only versus complete-pipeline benchmark](reports/vision-ablation-qwen3vl/RESULTS_2026-09-15.md)
+uses the published 16-page run as its comparator. It includes 65 visibly checked content/ownership
+anchors, raw model outputs, a scoring script, a short PDF brief, and explicit reliability/runtime
+limits. Vision-only is stronger on some chart and two-column text semantics; the complete pipeline
+is stronger on table-cell and map ownership and remains the only evidence-backed Unified Source
+Block output. Neither side should be considered content-approved on this one development PDF.

@@ -1,0 +1,9 @@
+{
+  "page": 4,
+  "status": "failed",
+  "timestamp_utc": "2026-09-16T02:09:00.767453+00:00",
+  "model": "dealsynq-qwen3-vl:4b-instruct-16k",
+  "seconds": 10.201,
+  "error_type": "JSONDecodeError",
+  "error": "Unterminated string starting at: line 8 column 15 (char 161)"
+}

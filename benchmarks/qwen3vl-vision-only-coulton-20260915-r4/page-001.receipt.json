@@ -1,0 +1,16 @@
+{
+  "page": 1,
+  "status": "complete",
+  "timestamp_utc": "2026-09-16T02:05:59.654492+00:00",
+  "model": "dealsynq-qwen3-vl:4b-instruct-16k",
+  "endpoint": "http://localhost:11434/v1/chat/completions",
+  "page_image": "examples\\coulton-creek-v070-full-qwen-audited-r1\\page-images\\page-001.png",
+  "page_image_sha256": "618be5ab06d20eb918540918bfa9b8ed2cbab912f18e07c568cff423373ad0f3",
+  "prompt_sha256": "69b5b38d0ac39fb8f4ac07a141b4a4d43a22988e7717ad3d35a19d772c66b2d6",
+  "seconds": 17.525,
+  "input_tokens": 4391,
+  "output_tokens": 597,
+  "finish_reason": "stop",
+  "response_schema": "vision-only-page-lite/1.0",
+  "input_policy": "page image + generic prompt only; no OCR/PDF/OpenCV/reference"
+}

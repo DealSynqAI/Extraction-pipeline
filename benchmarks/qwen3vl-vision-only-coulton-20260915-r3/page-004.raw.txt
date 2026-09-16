@@ -1,0 +1,76 @@
+{
+  "page_number": 4,
+  "page_title": "INVESTMENT PHILOSOPHY",
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "PRINCIPAL INVESTORS",
+      "text": "Coulton Creek was founded as a vehicle to generate current returns for a group of five experienced investors. From inception, founders and key employees have invested their own capital in each investment, which has guided our perspective for each opportunity and has created exceptional alignment with our investors. Today, Coulton Creek manages approximately 60 positions for our founders and investors, with the original five founding principals investing in every deal and serving as the investment committee.",
+      "items": [
+        {
+          "label": "PRINCIPAL INVESTORS",
+          "value": "Coulton Creek was founded as a vehicle to generate current returns for a group of five experienced investors. From inception, founders and key employees have invested their own capital in each investment, which has guided our perspective for each opportunity and has created exceptional alignment with our investors. Today, Coulton Creek manages approximately 60 positions for our founders and investors, with the original five founding principals investing in every deal and serving as the investment committee.",
+          "unit": "",
+          "parent": "PRINCIPAL INVESTORS"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "PRESERVATION OF PRINCIPAL",
+      "text": "As principal investors, we prioritize preservation of principal and downside protection. We take a conservative approach to underwriting that reflects having our own skin in the game, and often seek a priority position in the capital stack.",
+      "items": [
+        {
+          "label": "PRESERVATION OF PRINCIPAL",
+          "value": "As principal investors, we prioritize preservation of principal and downside protection. We take a conservative approach to underwriting that reflects having our own skin in the game, and often seek a priority position in the capital stack.",
+          "unit": "",
+          "parent": "PRESERVATION OF PRINCIPAL"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "CURRENT RETURNS",
+      "text": "With a dedicated focus on generating strong current returns for our investors, Coulton Creek seeks resilient assets which are less sensitive to volatile market swings and resulting valuations.",
+      "items": [
+        {
+          "label": "CURRENT RETURNS",
+          "value": "With a dedicated focus on generating strong current returns for our investors, Coulton Creek seeks resilient assets which are less sensitive to volatile market swings and resulting valuations.",
+          "unit": "",
+          "parent": "CURRENT RETURNS"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "heading",
+      "title": "RETURN OBJECTIVES",
+      "text": "As an opportunistic investor without a need to deploy committed capital (in contrast to many funds), Coulton Creek can be selective in finding those investments which deliver superior risk adjusted returns.",
+      "items": [
+        {
+          "label": "RETURN OBJECTIVES",
+          "value": "As an opportunistic investor without a need to deploy committed capital (in contrast to many funds), Coulton Creek can be selective in finding those investments which deliver superior risk adjusted returns.",
+          "unit": "",
+          "parent": "RETURN OBJECTIVES"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Company Overview - 2023",
+      "text": "Coulton Creek Capital",
+      "items": [
+        {
+          "label": "Company Overview - 2023",
+          "value": "Coulton Creek Capital",
+          "unit": "",
+          "parent": "Company Overview - 2023"
+        }
+      ],
+      "rows": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "page_number": 3,
+  "page_title": "ABOUT US",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "ABOUT US",
+      "text": "Formed in 2013 to source and manage investments for our founder's capital.\n\nExpanded to offer investors access to unique investments encompassing both a perpetual portfolio of seasoned assets, as well as single investment sidecar opportunities.\n\nFocus on income producing commercial real estate assets and unique or opportunistic development projects.\n\nInvestments span the capital stack:\n- senior debt\n- mezzanine debt\n- preferred equity\n- limited partner and JV equity",
+      "items": [],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "As of 12/31/23",
+      "text": "Investments Funded to Date",
+      "items": [
+        {
+          "label": "Investments Funded to Date",
+          "value": "$277 MILLION",
+          "unit": "MILLION",
+          "parent": "Investments Funded to Date"
+        },
+        {
+          "label": "Investments Funded to Date",
+          "value": "168",
+          "unit": "Investments",
+          "parent": "Investments Funded to Date"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "chart",
+      "title": "Current Portfolio at cost basis",
+      "text": "Current Portfolio at cost basis",
+      "items": [
+        {
+          "label": "Current Portfolio at cost basis",
+          "value": "$146 MILLION",
+          "unit": "MILLION",
+          "parent": "Current Portfolio at cost basis"
+        },
+        {
+          "label": "Current Portfolio at cost basis",
+          "value": "61",
+          "unit": "Investments",
+          "parent": "Current Portfolio at cost basis"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "type": "photograph",
+      "title": "Coulton Creek Capital",
+      "text": "Coulton Creek Capital",
+      "items": [],
+      "rows": []
+    }
+  ]
+}
