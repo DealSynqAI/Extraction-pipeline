@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import statistics
+import hashlib
 from pathlib import Path
 from typing import Any
 
@@ -12,11 +13,13 @@ from .models import PageInspection, Region
 
 def _normalized_xywh(bbox: tuple[float, float, float, float], width: float, height: float) -> list[float]:
     x0, top, x1, bottom = bbox
+    normalized_x = max(0.0, min(1000.0, x0 * 1000.0 / width))
+    normalized_y = max(0.0, min(1000.0, top * 1000.0 / height))
     return [
-        max(0.0, min(1000.0, x0 * 1000.0 / width)),
-        max(0.0, min(1000.0, top * 1000.0 / height)),
-        max(0.0, min(1000.0, (x1 - x0) * 1000.0 / width)),
-        max(0.0, min(1000.0, (bottom - top) * 1000.0 / height)),
+        normalized_x,
+        normalized_y,
+        max(0.0, min(1000.0 - normalized_x, (x1 - x0) * 1000.0 / width)),
+        max(0.0, min(1000.0 - normalized_y, (bottom - top) * 1000.0 / height)),
     ]
 
 
@@ -468,10 +471,13 @@ def merge_visual_objects(
     merged: list[dict[str, Any]] = []
     for component in components:
         members = [images[index] for index in component]
-        x0 = min(bbox[0] for bbox in members)
-        top = min(bbox[1] for bbox in members)
-        x1 = max(bbox[2] for bbox in members)
-        bottom = max(bbox[3] for bbox in members)
+        content_bbox = (
+            min(bbox[0] for bbox in members),
+            min(bbox[1] for bbox in members),
+            max(bbox[2] for bbox in members),
+            max(bbox[3] for bbox in members),
+        )
+        x0, top, x1, bottom = content_bbox
         if len(component) > 1:
             # Include external labels and a title while avoiding the repeated footer below.
             x0 = max(0.0, x0 - page_width * 0.12)
@@ -479,10 +485,79 @@ def merge_visual_objects(
             top = max(0.0, top - page_height * 0.08)
         merged.append({
             "bbox": (x0, top, x1, bottom),
+            # The interpretation box may expand around the image objects to collect
+            # labels.  The content box remains the exact member union and is the
+            # only safe boundary for excluding ordinary positioned text.
+            "content_bbox": content_bbox,
             "image_indices": [index + 1 for index in component],
             "source_member_bboxes": [list(bbox) for bbox in members],
         })
     return sorted(merged, key=lambda item: (item["bbox"][1], item["bbox"][0]))
+
+
+def _pdf_soft_mask_slices(
+    images: list[dict[str, Any]], page_width: float, page_height: float,
+) -> list[dict[str, Any]]:
+    """Measure solid-color PDF image masks that can represent exact pie wedges."""
+    candidates: list[dict[str, Any]] = []
+    for image_index, image in enumerate(images):
+        palette = image.get("colorspace") or []
+        if not palette or not isinstance(palette[0], list) or len(palette[0]) < 3:
+            continue
+        if getattr(palette[0][0], "name", None) != "Indexed" or palette[0][2] != 0:
+            continue
+        stream = image.get("stream")
+        soft_mask_ref = stream.attrs.get("SMask") if stream is not None else None
+        if soft_mask_ref is None:
+            continue
+        try:
+            width, height = (int(value) for value in image["srcsize"])
+            if width < 50 or height < 50:
+                continue
+            mask = soft_mask_ref.resolve()
+            if int(mask.attrs.get("BitsPerComponent", 0)) != 8:
+                continue
+            pixels = mask.get_data()
+            if len(pixels) != width * height or not max(pixels):
+                continue
+            x0, y0, x1, y1 = (float(image[key]) for key in ("x0", "top", "x1", "bottom"))
+            if x1 <= x0 or y1 <= y0:
+                continue
+            alpha_sum = sum(pixels)
+            projected_area = (x1 - x0) * (y1 - y0) * alpha_sum / (255 * width * height)
+            cutoff = max(8, round(max(pixels) * 0.10))
+            left, top, right, bottom = width, height, -1, -1
+            x_moment = y_moment = 0
+            for offset, alpha in enumerate(pixels):
+                if alpha >= cutoff:
+                    row, column = divmod(offset, width)
+                    left, top = min(left, column), min(top, row)
+                    right, bottom = max(right, column), max(bottom, row)
+                x_moment += (offset % width) * alpha
+                y_moment += (offset // width) * alpha
+            if right < left or bottom < top:
+                continue
+            tight_bbox = (
+                x0 + left / width * (x1 - x0),
+                y0 + top / height * (y1 - y0),
+                x0 + (right + 1) / width * (x1 - x0),
+                y0 + (bottom + 1) / height * (y1 - y0),
+            )
+            centroid = [
+                (x0 + x_moment / alpha_sum / width * (x1 - x0)) * 1000 / page_width,
+                (y0 + y_moment / alpha_sum / height * (y1 - y0)) * 1000 / page_height,
+            ]
+            candidates.append({
+                "pdf_image_index": image_index,
+                "smask_sha256": hashlib.sha256(pixels).hexdigest(),
+                "projected_alpha_area": projected_area,
+                "source_bbox_points": [x0, y0, x1, y1],
+                "mark_coordinates": _normalized_xywh(tight_bbox, page_width, page_height),
+                "alpha_centroid_coordinates": [round(value, 6) for value in centroid],
+            })
+        except (KeyError, TypeError, ValueError, AttributeError, OverflowError):
+            continue
+    return candidates
 
 
 def mark_repeated_decorations(inspections: list[PageInspection]) -> None:
@@ -503,7 +578,9 @@ def mark_repeated_decorations(inspections: list[PageInspection]) -> None:
         for region in regions:
             region.kind = "decoration"
             region.classification_method = "repeated-page-band"
-            region.confidence = 0.98
+            semantic_text_overlap = len(region.metadata.get("native_visual_words", []))
+            region.metadata["semantic_text_overlap_count"] = semantic_text_overlap
+            region.confidence = 0.82 if semantic_text_overlap else 0.98
             region.metadata["repeated_on_pages"] = pages
 
 
@@ -595,6 +672,22 @@ def _group_words(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
     spanning = [word for word in words if word not in left and word not in right]
     total = len(words)
     if len(left) >= 20 and len(right) >= 20 and len(spanning) <= max(2, round(total * 0.03)):
+        # A wide paragraph often crosses the mathematical page centre. If
+        # words on both sides continue the same baselines with ordinary word
+        # spacing, it is one text lane rather than two columns.
+        heights = [max(1.0, float(word["bottom"]) - float(word["top"])) for word in words]
+        median_height = statistics.median(heights)
+        bridged_baselines: set[int] = set()
+        for left_word in left:
+            for right_word in right:
+                if left_word is right_word:
+                    continue
+                top_delta = abs(float(left_word["top"]) - float(right_word["top"]))
+                horizontal_gap = float(right_word["x0"]) - float(left_word["x1"])
+                if top_delta <= max(2.0, median_height * 0.35) and 0 <= horizontal_gap <= max(24.0, median_height * 2.5):
+                    bridged_baselines.add(round((float(left_word["top"]) + float(right_word["top"])) / (2 * median_height)))
+        if len(bridged_baselines) >= 3:
+            return _group_words_single(words)
         # Human reading order for a two-column page is the complete left lane,
         # followed by the complete right lane.  Full-width headings remain first.
         grouped_spanning = _group_words_single(spanning)
@@ -603,6 +696,28 @@ def _group_words(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
         grouped_spanning.sort(key=lambda item: item["bbox"][1])
         return grouped_spanning + grouped_left + grouped_right
     return _group_words_single(words)
+
+
+def _mark_repeated_portrait_visuals(regions: list[Region]) -> None:
+    """Recognize aligned, similarly sized portrait/image cards as photographs."""
+    candidates = [
+        region for region in regions
+        if region.kind == "visual"
+        and len(region.metadata.get("image_indices", [])) == 1
+        and 0.50 <= region.coordinates[2] / max(1.0, region.coordinates[3]) <= 1.20
+        and 15_000 <= region.coordinates[2] * region.coordinates[3] <= 120_000
+    ]
+    for region in candidates:
+        x, _y, width, height = region.coordinates
+        peers = [
+            other for other in candidates
+            if abs((other.coordinates[0] + other.coordinates[2] / 2) - (x + width / 2)) <= 35
+            and abs(other.coordinates[2] - width) <= max(20, width * 0.15)
+            and abs(other.coordinates[3] - height) <= max(25, height * 0.15)
+        ]
+        if len(peers) >= 2:
+            region.metadata["visual_hint"] = "photograph"
+            region.metadata["visual_hint_method"] = "repeated aligned image-card geometry"
 
 
 def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
@@ -704,9 +819,20 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                 ))
 
             logical_visuals = merge_visual_objects(large_images, width, height)
+            masked_slices = _pdf_soft_mask_slices(list(page.images or []), width, height)
             # Full-page scan images are represented once, not as a duplicate visual over native text.
             for visual in logical_visuals:
                 bbox = visual["bbox"]
+                content_bbox = tuple(visual["content_bbox"])
+                content_center = (content_bbox[0] + content_bbox[2]) / 2.0
+                # Allow label capture toward the page edge, but cap expansion
+                # toward the neighbouring text column at a narrow gutter.
+                ownership_bbox = (
+                    bbox[0] if content_center < width / 2 else max(0.0, content_bbox[0] - width * 0.02),
+                    bbox[1],
+                    bbox[2] if content_center >= width / 2 else min(width, content_bbox[2] + width * 0.02),
+                    bbox[3],
+                )
                 ratio = (bbox[2] - bbox[0]) * (bbox[3] - bbox[1]) / area
                 if ratio > 0.90 and quality >= 0.72:
                     continue
@@ -721,12 +847,18 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                     metadata={
                         "image_indices": image_indices,
                         "source_bbox_points": list(bbox),
+                        "content_bbox_points": list(content_bbox),
+                        "ownership_bbox_points": list(ownership_bbox),
                         "source_member_bboxes": visual["source_member_bboxes"],
                         "member_coordinates": [
                             _normalized_xywh(tuple(member), width, height)
                             for member in visual["source_member_bboxes"]
                         ],
                         "logical_visual_merge": len(image_indices) > 1,
+                        "pdf_soft_mask_slices": [
+                            candidate for candidate in masked_slices
+                            if _center_in(tuple(candidate["source_bbox_points"]), content_bbox)
+                        ],
                     },
                 ))
                 if len(image_indices) > 1:
@@ -752,13 +884,19 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                 existing_visual_bboxes.append(bbox)
                 warnings.append(f"detected_{visual['object_family']}_as_logical_visual")
 
+            _mark_repeated_portrait_visuals(regions)
+
             # Preserve positioned native words inside analytical visual regions.
             # They are a second evidence channel, not inferred facts, and recover
             # labels that raster OCR can miss (notably rotated bar values).
             for region in regions:
                 if region.kind != "visual":
                     continue
-                bbox = tuple(region.metadata.get("source_bbox_points") or ())
+                bbox = tuple(
+                    region.metadata.get("ownership_bbox_points")
+                    or region.metadata.get("source_bbox_points")
+                    or ()
+                )
                 if len(bbox) != 4:
                     continue
                 native_visual_words = []
@@ -777,7 +915,16 @@ def inspect_pdf(pdf_path: Path) -> tuple[list[PageInspection], dict[str, Any]]:
                     })
                 region.metadata["native_visual_words"] = native_visual_words
 
-            visual_bboxes = [tuple(region.metadata["source_bbox_points"]) for region in regions if region.kind == "visual"]
+            # Do not let an expanded label-search box consume neighbouring prose.
+            # Only the exact raster/vector content box suppresses normal text.
+            visual_bboxes = [
+                tuple(
+                    region.metadata.get("ownership_bbox_points")
+                    or region.metadata.get("content_bbox_points")
+                    or region.metadata["source_bbox_points"]
+                )
+                for region in regions if region.kind == "visual"
+            ]
             excluded = table_bboxes + visual_bboxes
             words = page.extract_words(extra_attrs=["size"], use_text_flow=True) or []
             words = [word for word in words if not any(_center_in(

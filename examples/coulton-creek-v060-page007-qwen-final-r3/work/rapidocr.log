@@ -1,0 +1,12 @@
+page 7: 27 OCR lines
+
+STDERR
+[INFO] 2026-09-15 20:06:30,172 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 20:06:30,305 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-15 20:06:30,305 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_det_small.onnx
+[INFO] 2026-09-15 20:06:30,383 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 20:06:30,385 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-15 20:06:30,385 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-09-15 20:06:30,462 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-09-15 20:06:30,479 [RapidOCR] download_file.py:60: File exists and is valid: F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx
+[INFO] 2026-09-15 20:06:30,479 [RapidOCR] main.py:63: Using F:\DealSynq\Extraction-pipeline\.venv\Lib\site-packages\rapidocr\models\PP-OCRv6_rec_small.onnx

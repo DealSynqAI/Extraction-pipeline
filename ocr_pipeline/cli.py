@@ -22,7 +22,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--rapidocr-models", type=Path)
     parser.add_argument("--pdftoppm", type=Path)
     parser.add_argument("--qwen-endpoint", help="OpenAI-compatible chat-completions endpoint")
-    parser.add_argument("--qwen-model", default="Qwen3-VL")
+    parser.add_argument("--qwen-model", default="qwen3-vl:4b-instruct")
     return parser
 
 
@@ -42,4 +42,3 @@ def main(argv: list[str] | None = None) -> int:
     )
     print(f"Unified Source Block collection: {result / 'source-blocks' / 'document-manifest.json'}")
     return 0
-

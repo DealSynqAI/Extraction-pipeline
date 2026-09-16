@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 import json
 import tempfile
+from PIL import Image
 
 from ocr_pipeline import __version__
 from ocr_pipeline.inspection import (
@@ -13,7 +14,9 @@ from ocr_pipeline.inspection import (
     mark_repeated_decorations,
     merge_visual_objects,
     _merge_numeric_fragments,
+    _mark_repeated_portrait_visuals,
     _group_words,
+    _normalized_xywh,
 )
 from ocr_pipeline.models import PageInspection, Region, SourceBlock, validate_source_blocks
 from ocr_pipeline.workers import normalize_vision_payload
@@ -25,17 +28,36 @@ from ocr_pipeline.pipeline import (
     PIPELINE_VERSION,
     VISION_DIAGNOSTIC_SCHEMA_VERSION,
     _bar_bindings,
+    _brand_visible_text,
     _table_total_reconciliation,
     _table_structure_errors,
     _exclusive_region_lines,
+    _hybrid_text,
+    _kpi_bindings,
+    _map_data_value_lines,
     _reconstruct_vertical_values,
+    _reconstruct_vertical_words,
     _infer_chart_type,
+    _inline_heading_subsection_blocks,
+    _ground_model_bindings,
     _numeric_value,
     _provenance,
     _proximity_bindings,
+    _qwen_semantic_prompt,
+    _reconcile_visual_bindings,
     _visual_title,
     _vision_summary,
     _write_vision_diagnostic,
+    _looks_like_brand_mark,
+    _parse_contact_details,
+    _recover_unassigned_brand_marks,
+    _semantic_role_for_text,
+    _normalize_page_heading_roles,
+    _pie_label_value_grounding,
+    _suppress_visual_observation_text_duplicates,
+    _semantic_page_band_blocks,
+    _split_visual_text_lines,
+    _text_structure,
     clean_text,
     parse_pages,
 )
@@ -43,11 +65,11 @@ from ocr_pipeline.validate_run import _resolve_run_path
 
 
 class PipelineUnitTests(unittest.TestCase):
-    def test_v050_versions(self) -> None:
-        self.assertEqual(__version__, "0.5.0")
-        self.assertEqual(PIPELINE_VERSION, "0.5.0")
-        self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/3.0")
-        self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/2.0")
+    def test_v060_versions(self) -> None:
+        self.assertEqual(__version__, "0.6.0")
+        self.assertEqual(PIPELINE_VERSION, "0.6.0")
+        self.assertEqual(PAGE_SCHEMA_VERSION, "unified-source-page/4.0")
+        self.assertEqual(COLLECTION_SCHEMA_VERSION, "unified-source-collection/3.0")
         self.assertEqual(INSPECTION_SCHEMA_VERSION, "pdf-page-inspection/1.0")
         self.assertEqual(INSPECTION_INDEX_SCHEMA_VERSION, "pdf-inspection-index/1.0")
         self.assertEqual(VISION_DIAGNOSTIC_SCHEMA_VERSION, "opencv-region-diagnostic/1.0")
@@ -72,15 +94,206 @@ class PipelineUnitTests(unittest.TestCase):
             "The firm targets income producing real estate.\n\nNext paragraph.",
         )
 
-    def test_common_contract_uses_nested_hierarchy(self) -> None:
+    def test_hybrid_text_keeps_ocr_omissions_and_repairs_native_spelling(self) -> None:
+        native = "offer investors to a portfolio of seasoned assets"
+        ocr = "offer investors access to a portfolío of seasoned assèts"
+        self.assertEqual(
+            _hybrid_text(native, ocr),
+            "offer investors access to a portfolio of seasoned assets",
+        )
+
+    def test_bullet_structure_is_preserved(self) -> None:
+        structure = _text_structure(
+            "First paragraph.\nSecond paragraph.\nCapital stack:\n- senior debt\n- preferred equity"
+        )
+        self.assertEqual(structure["paragraphs"], ["First paragraph.", "Second paragraph."])
+        self.assertEqual(structure["lists"][0], {
+            "intro": "Capital stack:", "ordered": False,
+            "items": ["senior debt", "preferred equity"],
+        })
+
+    def test_inline_all_caps_labels_create_subsection_hierarchy(self) -> None:
+        native = (
+            "OPERATING MODEL: First paragraph begins here.\n"
+            "It continues on this line.\n"
+            "A second paragraph starts after whitespace.\n"
+            "It also continues.\n"
+            "RISK CONTROLS: Another section starts here.\n"
+            "It finishes here."
+        )
+        lines = [
+            {"evidence_id": f"e{index}", "text": text, "confidence": 0.99,
+             "coordinates": [50, y, 800, 25]}
+            for index, (text, y) in enumerate([
+                ("OPERATING MODEL: First paragraph begins here.", 180),
+                ("It continues on this line.", 215),
+                ("A second paragraph starts after whitespace.", 270),
+                ("It also continues.", 305),
+                ("RISK CONTROLS: Another section starts here.", 360),
+                ("It finishes here.", 395),
+            ], 1)
+        ]
+        inspection = PageInspection(2, 720, 540, 0, True, 0.9, 1.0, 0.0, 0, 0, 0, 0.95, [], [])
+        region = Region("p002-r001", 2, "normal_text", [50, 180, 800, 240], 1, "native", 0.95, native)
+        blocks = _inline_heading_subsection_blocks(
+            "doc", "0" * 64, inspection, region, lines, Path("page-002.png"), 0.78,
+        )
+        self.assertIsNotNone(blocks)
+        self.assertEqual([block.type for block in blocks], ["group", "heading", "text"] * 2)
+        self.assertEqual(blocks[0].content["role"], "subsection")
+        self.assertEqual(blocks[1].content["text"], "OPERATING MODEL")
+        self.assertEqual(blocks[2].content["structure"]["paragraphs"], [
+            "First paragraph begins here. It continues on this line.",
+            "A second paragraph starts after whitespace. It also continues.",
+        ])
+        self.assertEqual(validate_source_blocks([block.as_dict() for block in blocks]), [])
+
+    def test_text_bearing_footer_decomposes_into_brand_and_running_text(self) -> None:
+        inspection = PageInspection(2, 720, 540, 0, True, 0.2, 1.0, 0.2, 0, 0, 1, 0.9, [], [])
+        region = Region(
+            "p002-r001", 2, "decoration", [0, 870, 1000, 130], 3, "repeated image", 0.98,
+            metadata={
+                "semantic_text_overlap_count": 4,
+                "native_visual_words": [
+                    {"text": "Quarterly", "coordinates": [750, 930, 80, 25]},
+                    {"text": "Review", "coordinates": [835, 930, 60, 25]},
+                    {"text": "2026", "coordinates": [900, 930, 45, 25]},
+                ],
+            },
+        )
+        lines = [
+            {"evidence_id": "brand-1", "text": "ACMEHARBOR", "confidence": 0.99, "coordinates": [50, 910, 180, 25]},
+            {"evidence_id": "brand-2", "text": "ČAPITAL", "confidence": 0.99, "coordinates": [50, 940, 100, 25]},
+            {"evidence_id": "footer", "text": "Quarterly Review 2026", "confidence": 0.99, "coordinates": [750, 930, 195, 25]},
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            image = root / "page-002.png"
+            crops = root / "regions"
+            crops.mkdir()
+            Image.new("RGB", (1000, 1000), "white").save(image)
+            blocks = _semantic_page_band_blocks(
+                "doc", "0" * 64, inspection, region, lines, lines, image, crops, {},
+                {"path": "diagnostics/vision.json", "sha256": "0" * 64}, 0.78,
+                __import__("collections").Counter({"acme": 2, "harbor": 2, "capital": 2}),
+            )
+        self.assertEqual(blocks[0].content["role"], "page_footer")
+        self.assertEqual([block.type for block in blocks[1:]], ["brand_mark", "footnote"])
+        self.assertEqual(blocks[1].content["visible_text"], ["ACME HARBOR", "CAPITAL"])
+        self.assertEqual(blocks[2].semantic_role, "running_footer")
+        self.assertEqual(validate_source_blocks([block.as_dict() for block in blocks]), [])
+
+    def test_common_contract_carries_explicit_hierarchy(self) -> None:
         block = SourceBlock(
             document_id="doc", type="chart", page=1, block_id="chart",
-            content={"title": "Allocation", "chart_type": "pie", "observations": []},
+            content={"title": "Allocation", "chart_type": "pie", "slice_geometry_status": "unresolved", "observations": []},
             coordinates=[0, 0, 1000, 1000], extraction_method=["test"], confidence=0.8,
             validation_status="needs_review", provenance={"source_sha256": "0" * 64, "region_id": "r1"},
         ).as_dict()
-        self.assertNotIn("parent_block_id", block)
+        self.assertEqual(block["hierarchy"], {
+            "parent_block_id": None, "child_block_ids": [], "depth": 0, "heading_level": None,
+        })
+        self.assertEqual(block["semantic_role"], "data_visualization")
         self.assertEqual(validate_source_blocks([block]), [])
+
+    def test_hierarchy_requires_reciprocal_parent_child_links(self) -> None:
+        parent = SourceBlock(
+            document_id="doc", type="group", page=1, block_id="parent",
+            content={"role": "mixed_text_panel", "child_block_ids": ["child"]},
+            coordinates=[0, 0, 100, 100], extraction_method=["test"], confidence=0.8,
+            validation_status="passed", child_block_ids=["child"],
+        ).as_dict()
+        child = SourceBlock(
+            document_id="doc", type="text", page=1, block_id="child",
+            content={"text": "Body", "evidence_text": {"selected": "ocr", "native": None, "ocr": "Body", "token_agreement": None}},
+            coordinates=[10, 10, 20, 20], extraction_method=["test"], confidence=0.8,
+            validation_status="passed", parent_block_id="parent", hierarchy_depth=1,
+        ).as_dict()
+        self.assertEqual(validate_source_blocks([parent, child]), [])
+        child["hierarchy"]["parent_block_id"] = None
+        self.assertIn("not reciprocal", " ".join(validate_source_blocks([parent, child])))
+
+    def test_image_backed_text_splits_on_meaningful_vertical_whitespace(self) -> None:
+        lines = [
+            {"evidence_id": "a", "text": "BRAND", "coordinates": [100, 100, 100, 20]},
+            {"evidence_id": "b", "text": "NAME", "coordinates": [100, 120, 100, 20]},
+            {"evidence_id": "c", "text": "LEGAL HEADING", "coordinates": [100, 180, 200, 20]},
+            {"evidence_id": "d", "text": "Body line one", "coordinates": [100, 230, 500, 16]},
+            {"evidence_id": "e", "text": "Body line two", "coordinates": [100, 247, 500, 16]},
+        ]
+        self.assertEqual([len(group) for group in _split_visual_text_lines(lines)], [2, 1, 2])
+
+    def test_brand_mark_requires_short_repeated_page_text(self) -> None:
+        logo = [
+            {"evidence_id": "logo-1", "text": "ACME", "coordinates": [100, 100, 50, 20]},
+            {"evidence_id": "logo-2", "text": "CAPITAL", "coordinates": [100, 120, 70, 20]},
+        ]
+        page = logo + [{"evidence_id": "title", "text": "ACME CAPITAL", "coordinates": [20, 20, 200, 30]}]
+        self.assertTrue(_looks_like_brand_mark(logo, page))
+        self.assertFalse(_looks_like_brand_mark(
+            [{"evidence_id": "chart", "text": "PORTFOLIO 2025", "coordinates": [100, 100, 100, 20]}], page,
+        ))
+
+    def test_brand_mark_can_use_strong_footer_corner_evidence(self) -> None:
+        logo = [
+            {"evidence_id": "logo-1", "text": "ACME CREEK", "coordinates": [710, 870, 190, 28]},
+            {"evidence_id": "logo-2", "text": "CAPITAL", "coordinates": [710, 902, 100, 25]},
+        ]
+        self.assertTrue(_looks_like_brand_mark(logo, logo))
+
+    def test_brand_text_uses_document_vocabulary_to_split_concatenation(self) -> None:
+        visible = _brand_visible_text(
+            [{"text": "ACMECREEK"}, {"text": "CAPITAL"}],
+            __import__("collections").Counter({"acme": 2, "creek": 2, "capital": 2}),
+        )
+        self.assertEqual(visible, ["ACME CREEK", "CAPITAL"])
+
+    def test_later_page_prominent_heading_is_page_title(self) -> None:
+        self.assertEqual(_semantic_role_for_text("heading", "OVERVIEW", [50, 60, 200, 40], 2), "page_title")
+        self.assertEqual(_semantic_role_for_text("heading", "REPORT", [50, 60, 200, 40], 1), "document_title")
+
+    def test_contact_parser_recovers_organization_address_phone_and_website(self) -> None:
+        raw = (
+            "ACME CAPITAL, LLC\n5613 DTC PARKWAY, SUITE 830\n"
+            "GREENWOOD VILLAGE, CO 80111\n720-502-1149 | ACMECAPITAL.COM"
+        )
+        result = _parse_contact_details(raw, raw.replace("\n", " "))
+        self.assertEqual(result["organization"], "ACME CAPITAL, LLC")
+        self.assertEqual(result["address"], {
+            "street": "5613 DTC PARKWAY, SUITE 830", "city": "GREENWOOD VILLAGE",
+            "state": "CO", "postal_code": "80111",
+        })
+        self.assertEqual(result["phone"], "720-502-1149")
+        self.assertEqual(result["website"], "https://ACMECAPITAL.COM")
+        self.assertIsNone(result["email"])
+
+    def test_unassigned_repeated_logo_text_is_recovered(self) -> None:
+        inspection = PageInspection(2, 720, 540, 0, True, 0.1, 1.0, 0.2, 0, 0, 1, 0.58, [], [])
+        lines = [
+            {"evidence_id": "title", "text": "ACME CAPITAL", "confidence": 1.0, "coordinates": [50, 50, 200, 30]},
+            {"evidence_id": "logo-1", "text": "ACME", "confidence": 0.99, "coordinates": [700, 850, 100, 25]},
+            {"evidence_id": "logo-2", "text": "CAPITAL", "confidence": 0.99, "coordinates": [700, 878, 120, 25]},
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            image = root / "page-002.png"
+            crops = root / "region-images"
+            crops.mkdir()
+            Image.new("RGB", (1000, 1000), "white").save(image)
+            assigned = {"title"}
+            recovered = _recover_unassigned_brand_marks(
+                "doc", "0" * 64, inspection, image, lines, assigned, crops,
+            )
+        self.assertEqual(len(recovered), 1)
+        self.assertEqual(recovered[0].type, "brand_mark")
+        self.assertEqual(recovered[0].content["evidence_mode"], "ocr_recovery")
+        self.assertEqual(assigned, {"title", "logo-1", "logo-2"})
+
+    def test_normalized_coordinates_are_clipped_to_page_edges(self) -> None:
+        x, y, width, height = _normalized_xywh((-4, 470, 724, 542), 720, 540)
+        self.assertEqual(x, 0.0)
+        self.assertEqual(y + height, 1000.0)
+        self.assertEqual(x + width, 1000.0)
 
     def test_common_contract_rejects_embedded_raw_vision(self) -> None:
         block = SourceBlock(
@@ -112,12 +325,65 @@ class PipelineUnitTests(unittest.TestCase):
         payload = normalize_vision_payload({
             "type": " Chart ", "confidence": "1.4", "chart_type": " BAR ",
             "bindings": [{"label": "A", "value": "1"}, "invalid"], "extra": "discarded",
+            "table_review": {"data_row_count": 3, "column_count": 2},
         })
         self.assertEqual(payload["type"], "chart")
         self.assertEqual(payload["confidence"], 1.0)
         self.assertEqual(payload["chart_type"], "bar")
         self.assertEqual(payload["bindings"], [{"label": "A", "value": "1"}])
+        self.assertEqual(payload["table_review"], {"data_row_count": 3, "column_count": 2})
         self.assertNotIn("extra", payload)
+
+    def test_semantic_vision_prompt_uses_ocr_evidence_after_geometry(self) -> None:
+        region = Region("p001-r001", 1, "visual", [0, 0, 1000, 800], 1, "geometry", 0.9)
+        prompt = _qwen_semantic_prompt("chart", [
+            {"evidence_id": "label-1", "text": "Office", "coordinates": [100, 100, 60, 20]},
+            {"evidence_id": "value-1", "text": "12.5%", "coordinates": [100, 130, 50, 20]},
+        ], region)
+        self.assertIn("after OCR and OpenCV geometry", prompt)
+        self.assertIn("label-1", prompt)
+        self.assertIn("value_evidence_id", prompt)
+
+    def test_qwen_bindings_are_grounded_and_reconciled_without_replacement(self) -> None:
+        lines = [
+            {"evidence_id": "label-1", "text": "Office", "coordinates": [100, 100, 60, 20]},
+            {"evidence_id": "value-1", "text": "12.5%", "coordinates": [100, 130, 50, 20]},
+            {"evidence_id": "label-2", "text": "Retail", "coordinates": [300, 100, 60, 20]},
+            {"evidence_id": "value-2", "text": "7.5%", "coordinates": [300, 130, 50, 20]},
+        ]
+        deterministic = _proximity_bindings(lines[:2], None, [[80, 80, 120, 120]])
+        payload = {
+            "type": "chart", "confidence": 0.92, "chart_type": "pie",
+            "bindings": [
+                {"label": "Office", "value": "12.5%", "label_evidence_id": "label-1", "value_evidence_id": "value-1", "confidence": 0.9},
+                {"label": "Retail", "value": "7.5%", "label_evidence_id": "label-2", "value_evidence_id": "value-2", "confidence": 0.9},
+            ],
+        }
+        model = _ground_model_bindings("chart", payload, lines, [[80, 80, 120, 120], [280, 80, 120, 120]])
+        reconciled, warnings = _reconcile_visual_bindings(deterministic, model)
+        self.assertEqual(len(reconciled), 2)
+        self.assertIn("Qwen-confirmed", reconciled[0]["grounding_method"])
+        self.assertIn("1 confirmed, 1 added, 0 conflicted", " ".join(warnings))
+
+    def test_conflicting_qwen_owners_for_one_value_are_rejected(self) -> None:
+        lines = [{"evidence_id": "value-1", "text": "12.5%", "coordinates": [100, 130, 50, 20]}]
+        payload = {
+            "type": "map", "confidence": 0.9, "chart_type": None,
+            "bindings": [
+                {"label": "Texas", "label_evidence_id": None, "value_evidence_id": "value-1"},
+                {"label": "Florida", "label_evidence_id": None, "value_evidence_id": "value-1"},
+            ],
+        }
+        self.assertEqual(_ground_model_bindings("map", payload, lines, []), [])
+
+    def test_map_legend_endpoints_are_not_data_values(self) -> None:
+        lines = [
+            {"evidence_id": "legend", "text": "% of Portfolio", "coordinates": [400, 100, 100, 20]},
+            {"evidence_id": "low", "text": "0%", "coordinates": [450, 130, 30, 20]},
+            {"evidence_id": "high", "text": "41%", "coordinates": [550, 130, 40, 20]},
+            {"evidence_id": "state", "text": "5.4%", "coordinates": [200, 400, 50, 20]},
+        ]
+        self.assertEqual([line["evidence_id"] for line in _map_data_value_lines(lines)], ["state"])
 
     def test_diagnostic_explains_coordinate_formats_and_hashes(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
@@ -152,6 +418,13 @@ class PipelineUnitTests(unittest.TestCase):
             [(100, 100, 300, 300), (305, 120, 500, 310)], 1000, 1000,
         )
         self.assertEqual(len(merged), 1)
+
+    def test_merged_visual_retains_exact_content_box_for_text_exclusion(self) -> None:
+        merged = merge_visual_objects(
+            [(360, 80, 605, 256), (384, 230, 611, 407)], 720, 540,
+        )[0]
+        self.assertEqual(merged["content_bbox"], (360, 80, 611, 407))
+        self.assertLess(merged["bbox"][0], merged["content_bbox"][0])
 
     def test_visual_title_prefers_chart_heading(self) -> None:
         lines = [
@@ -202,6 +475,87 @@ class PipelineUnitTests(unittest.TestCase):
             fixture["expected_percentage_total"], places=5,
         )
         self.assertEqual(len({item["value_evidence_id"] for item in bindings}), 10)
+
+    def test_pie_fragment_boxes_do_not_claim_slice_ownership(self) -> None:
+        bindings = [{
+            "visual_mark_coordinates": [200, 200, 400, 400],
+            "grounding_method": "unique OCR label-value proximity with raster mark ownership; Qwen-confirmed",
+        }]
+        self.assertFalse(_pie_label_value_grounding(bindings))
+        self.assertIsNone(bindings[0]["visual_mark_coordinates"])
+        self.assertIn("Qwen-confirmed label-value association", bindings[0]["grounding_method"])
+        self.assertIn("slice geometry unresolved", bindings[0]["grounding_method"])
+        self.assertNotIn("raster mark ownership", bindings[0]["grounding_method"])
+
+    def test_percent_concordant_pdf_masks_own_distinct_pie_slices(self) -> None:
+        bindings = [{
+            "unit": "percent", "numeric_value": value,
+            "label_coordinates": [x, 200, 50, 20],
+            "value_coordinates": [x, 225, 40, 20],
+            "grounding_method": "OCR label-value proximity; Qwen-confirmed",
+        } for value, x in ((10.0, 100), (20.0, 300), (70.0, 500))]
+        candidates = [{
+            "pdf_image_index": index,
+            "smask_sha256": f"{index + 1:064x}",
+            "projected_alpha_area": value,
+            "mark_coordinates": [x, 250, 100, 100],
+            "alpha_centroid_coordinates": [x + 50, 300],
+        } for index, (value, x) in enumerate(((10.0, 100), (20.0, 300), (70.0, 500)))]
+        self.assertTrue(_pie_label_value_grounding(bindings, candidates))
+        self.assertEqual([item["visual_mark_ref"]["pdf_image_index"] for item in bindings], [0, 1, 2])
+        self.assertEqual(bindings[0]["visual_mark_ref"]["opacity_weighted_area_share_percent"], 10.0)
+        self.assertEqual(len({tuple(item["visual_mark_coordinates"]) for item in bindings}), 3)
+
+    def test_unresolved_pie_cannot_claim_passed_or_slice_marks(self) -> None:
+        chart = SourceBlock(
+            "doc", "chart", 1, "chart",
+            {"chart_type": "pie", "slice_geometry_status": "unresolved", "observations": [
+                {"visual_mark_coordinates": [200, 200, 400, 400]}
+            ]},
+            [150, 200, 600, 600], ["OCR"], 0.9, "passed",
+        ).as_dict()
+        errors = validate_source_blocks([chart])
+        self.assertTrue(any("cannot be marked passed" in error for error in errors))
+        self.assertTrue(any("cannot claim slice mark coordinates" in error for error in errors))
+
+    def test_native_copy_of_owned_chart_label_value_is_suppressed(self) -> None:
+        observation = {
+            "category": "Education", "raw_value": "12.5%",
+            "label_evidence_id": "label-1", "value_evidence_id": "value-1",
+            "label_coordinates": [178, 448, 96, 28],
+            "value_coordinates": [199, 480, 48, 29],
+        }
+        chart = SourceBlock(
+            "doc", "chart", 1, "chart", {"observations": [observation]},
+            [167, 200, 676, 661], ["OCR"], 0.9, "passed",
+        )
+        duplicate = SourceBlock(
+            "doc", "heading", 1, "duplicate",
+            {"text": "Education 12.5%", "evidence_text": {"selected": "native"}},
+            [181, 454, 90, 59], ["native"], 1.0, "passed",
+        )
+        separate = SourceBlock(
+            "doc", "heading", 1, "separate",
+            {"text": "Education 12.5%", "evidence_text": {"selected": "native"}},
+            [40, 80, 90, 59], ["native"], 1.0, "passed",
+        )
+        blocks = [chart, duplicate, separate]
+        _suppress_visual_observation_text_duplicates(blocks)
+        self.assertEqual([block.block_id for block in blocks], ["chart", "separate"])
+
+    def test_numeric_summary_is_not_a_second_page_title(self) -> None:
+        title = SourceBlock(
+            "doc", "heading", 2, "title", {"text": "PORTFOLIO SUMMARY"},
+            [50, 80, 600, 40], ["native"], 1.0, "passed", semantic_role="page_title", heading_level=1,
+        )
+        summary = SourceBlock(
+            "doc", "heading", 2, "summary", {"text": "$250 million / 80 Assets"},
+            [250, 165, 500, 50], ["native"], 1.0, "passed", semantic_role="page_title", heading_level=1,
+        )
+        _normalize_page_heading_roles([summary, title])
+        self.assertEqual(title.semantic_role, "page_title")
+        self.assertEqual(summary.semantic_role, "summary_heading")
+        self.assertEqual(summary.heading_level, 2)
 
     def test_repeated_footer_is_classified_as_decoration(self) -> None:
         inspections = []
@@ -305,6 +659,16 @@ class PipelineUnitTests(unittest.TestCase):
         self.assertEqual([item["evidence_id"] for item in owners["text"]], ["e1"])
         self.assertEqual(owners["decoration"], [])
 
+    def test_visual_owns_text_drawn_inside_it(self) -> None:
+        regions = [
+            Region("visual", 1, "visual", [0, 0, 100, 100], 1, "test", 0.8),
+            Region("text", 1, "normal_text", [10, 10, 30, 30], 2, "test", 0.98),
+        ]
+        lines = [{"evidence_id": "e1", "coordinates": [15, 15, 10, 10], "text": "Category A 0.9%"}]
+        owners = _exclusive_region_lines(regions, lines)
+        self.assertEqual([item["evidence_id"] for item in owners["visual"]], ["e1"])
+        self.assertEqual(owners["text"], [])
+
     def test_two_column_text_is_not_interleaved(self) -> None:
         words = []
         for row in range(12):
@@ -318,6 +682,28 @@ class PipelineUnitTests(unittest.TestCase):
         paragraphs = _group_words(words)
         text = "\n".join(item["text"] for item in paragraphs)
         self.assertLess(text.index("L11"), text.index("R0"))
+
+    def test_wide_paragraph_crossing_page_center_stays_one_lane(self) -> None:
+        words = []
+        for row in range(6):
+            top = 20 + row * 12
+            words.extend([
+                {"text": f"L{row}", "x0": 300, "x1": 350, "top": top, "bottom": top + 9, "size": 10},
+                {"text": f"R{row}", "x0": 356, "x1": 410, "top": top, "bottom": top + 9, "size": 10},
+            ])
+        # Add enough lane words for the two-column detector to engage.
+        words *= 4
+        paragraphs = _group_words(words)
+        self.assertTrue(any("L0 R0" in paragraph["text"] for paragraph in paragraphs))
+
+    def test_aligned_image_cards_receive_photograph_hint(self) -> None:
+        regions = [
+            Region(f"r{index}", 1, "visual", [30, 100 + index * 250, 170, 210], index, "image", 0.58,
+                   metadata={"image_indices": [index]})
+            for index in range(3)
+        ]
+        _mark_repeated_portrait_visuals(regions)
+        self.assertTrue(all(region.metadata.get("visual_hint") == "photograph" for region in regions))
 
     def test_vector_bar_bindings_use_category_value_and_mark(self) -> None:
         lines = [
@@ -345,6 +731,68 @@ class PipelineUnitTests(unittest.TestCase):
         ]
         values = _reconstruct_vertical_values(tokens)
         self.assertEqual([item["text"] for item in values], ["18.5%"])
+
+    def test_vertical_native_unit_is_reconstructed_generically(self) -> None:
+        tokens = [
+            {"text": text, "coordinates": [700, 100 + index * 12, 20, 12]}
+            for index, text in enumerate(["M", "I", "LL", "I", "O", "N"])
+        ]
+        self.assertEqual([item["text"] for item in _reconstruct_vertical_words(tokens)], ["MILLION"])
+
+    def test_kpi_cards_reconstruct_amount_count_label_and_date(self) -> None:
+        def line(evidence_id: str, text: str, coordinates: list[float]) -> dict[str, object]:
+            return {"evidence_id": evidence_id, "text": text, "coordinates": coordinates, "confidence": 0.99}
+
+        lines = [
+            line("p001-ocr-0001", "As of 12/31/23", [520, 100, 180, 25]),
+            line("p001-native-0001", "$", [480, 220, 20, 50]),
+            line("p001-native-0002", "277", [510, 210, 150, 90]),
+            line("p001-ocr-0002", "MILLION", [665, 215, 35, 90]),
+            line("p001-native-0003", "168", [790, 230, 60, 45]),
+            line("p001-ocr-0003", "Investments", [780, 285, 130, 25]),
+            line("p001-ocr-0004", "Investments Funded to", [510, 325, 230, 25]),
+            line("p001-ocr-0005", "Date", [510, 355, 60, 25]),
+            line("p001-native-0004", "$", [500, 510, 20, 50]),
+            line("p001-native-0005", "146", [530, 500, 150, 90]),
+            line("p001-ocr-0006", "MILLION", [685, 505, 35, 90]),
+            line("p001-native-0006", "61", [800, 520, 45, 45]),
+            line("p001-native-0007", "LL", [785, 560, 20, 30]),
+            line("p001-ocr-0007", "Investments", [790, 575, 130, 25]),
+            line("p001-ocr-0008", "Current Portfolio at cost", [530, 615, 245, 25]),
+            line("p001-ocr-0009", "basis", [530, 645, 60, 25]),
+        ]
+        bindings, as_of, completed = _kpi_bindings(lines, [[500, 180, 360, 220], [520, 470, 340, 220]])
+        self.assertEqual(as_of, "2023-12-31")
+        self.assertEqual(completed, 2)
+        actual = {(item["series"], item["label"]): item["normalized_value"] for item in bindings}
+        self.assertEqual(actual[("Investments Funded to Date", "amount")], 277_000_000)
+        self.assertEqual(actual[("Investments Funded to Date", "Investments")], 168)
+        self.assertEqual(actual[("Current Portfolio at cost basis", "amount")], 146_000_000)
+        self.assertEqual(actual[("Current Portfolio at cost basis", "Investments")], 61)
+
+    def test_kpi_count_label_is_not_investment_specific(self) -> None:
+        def line(evidence_id: str, text: str, coordinates: list[float]) -> dict[str, object]:
+            return {"evidence_id": evidence_id, "text": text, "coordinates": coordinates, "confidence": 0.99}
+
+        lines = [
+            line("p001-ocr-0001", "As of 06/30/26", [520, 100, 180, 25]),
+            line("p001-native-0001", "$", [480, 220, 20, 50]),
+            line("p001-native-0002", "42", [510, 210, 120, 90]),
+            line("p001-ocr-0002", "MILLION", [650, 215, 35, 90]),
+            line("p001-native-0003", "73", [790, 230, 60, 45]),
+            line("p001-ocr-0003", "Properties", [780, 285, 130, 25]),
+            line("p001-ocr-0004", "Assets Under Management", [510, 325, 250, 25]),
+        ]
+        bindings, as_of, completed = _kpi_bindings(lines, [[500, 180, 360, 220]])
+        self.assertEqual(as_of, "2026-06-30")
+        self.assertEqual(completed, 1)
+        self.assertEqual(
+            {(item["series"], item["label"]): item["normalized_value"] for item in bindings},
+            {
+                ("Assets Under Management", "amount"): 42_000_000,
+                ("Assets Under Management", "Properties"): 73,
+            },
+        )
 
     def test_generic_subtotals_reconcile(self) -> None:
         rows = [

@@ -1,0 +1,36 @@
+{
+  "schema_version": "unified-source-collection/3.0",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_filename": "GP - Coulton Creek Capital Q42023 Company Financial Overview.pdf",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page_count": 16,
+  "selected_pages": [
+    7
+  ],
+  "pages": [
+    {
+      "page": 7,
+      "file": "page-007.json",
+      "sha256": "483571cbfa5598d736ee452f628bdc7a81b7140a6f0cd57c6e423a30f8873657",
+      "block_count": 7,
+      "unassigned_evidence_count": 0,
+      "valid": true,
+      "completeness_status": "complete"
+    }
+  ],
+  "block_counts_by_type": {
+    "brand_mark": 1,
+    "chart": 1,
+    "footnote": 1,
+    "group": 2,
+    "heading": 2
+  },
+  "validation_counts": {
+    "passed": 7
+  },
+  "validation": {
+    "valid": true,
+    "errors": []
+  },
+  "semantic_interpretation_performed": false
+}

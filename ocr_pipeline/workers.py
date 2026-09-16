@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+from io import BytesIO
 import json
 import os
 from pathlib import Path
@@ -8,6 +9,7 @@ import subprocess
 import sys
 import urllib.request
 from typing import Any
+from PIL import Image
 
 
 def normalize_vision_payload(payload: Any) -> dict[str, Any]:
@@ -23,12 +25,16 @@ def normalize_vision_payload(payload: Any) -> dict[str, Any]:
         bindings = []
     bindings = [binding for binding in bindings if isinstance(binding, dict)]
     chart_type = payload.get("chart_type")
-    return {
+    normalized = {
         "type": str(payload.get("type") or "").strip().lower(),
         "confidence": confidence,
         "chart_type": None if chart_type is None else str(chart_type).strip().lower(),
         "bindings": bindings,
     }
+    table_review = payload.get("table_review")
+    if isinstance(table_review, dict):
+        normalized["table_review"] = table_review
+    return normalized
 
 
 def discover_rapidocr_python() -> Path | None:
@@ -93,13 +99,71 @@ class QwenVisionClient:
         self.api_key_env = api_key_env
         self.timeout = timeout
 
-    def analyze(self, image_path: Path, prompt: str) -> dict[str, Any]:
+    def analyze(self, image_path: Path, prompt: str, max_bindings: int = 60) -> dict[str, Any]:
         mime = "image/png" if image_path.suffix.lower() == ".png" else "image/jpeg"
-        encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
+        with Image.open(image_path) as source:
+            source.load()
+            image = source.convert("RGB")
+            image.thumbnail((1800, 1800), Image.Resampling.LANCZOS)
+            buffer = BytesIO()
+            image.save(buffer, format="PNG", optimize=True)
+        mime = "image/png"
+        encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+        response_schema = {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "normal_text", "table", "chart", "map", "photograph",
+                        "brand_mark", "unclassified_visual",
+                    ],
+                },
+                "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+                "chart_type": {"type": ["string", "null"]},
+                "bindings": {
+                    "type": "array",
+                    # Prevent a vision model from looping until the response is
+                    # truncated while still covering a dense US map.
+                    "maxItems": max(0, int(max_bindings)),
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "label": {"type": "string"},
+                            "label_evidence_id": {"type": ["string", "null"]},
+                            "value_evidence_id": {"type": "string"},
+                        },
+                        "required": ["label", "label_evidence_id", "value_evidence_id"],
+                        "additionalProperties": False,
+                    },
+                },
+                "table_review": {
+                    "type": "object",
+                    "properties": {
+                        "data_row_count": {"type": "integer", "minimum": 0},
+                        "column_count": {"type": "integer", "minimum": 0},
+                        "headers": {"type": "array", "items": {"type": "string"}, "maxItems": 50},
+                        "structure_matches": {"type": "boolean"},
+                    },
+                    "required": ["data_row_count", "column_count", "headers", "structure_matches"],
+                    "additionalProperties": False,
+                },
+            },
+            "required": ["type", "confidence", "chart_type", "bindings"],
+            "additionalProperties": False,
+        }
         body = {
             "model": self.model,
             "temperature": 0,
-            "response_format": {"type": "json_object"},
+            "max_tokens": 4096,
+            # These are understood by common Qwen and Ollama-compatible
+            # servers. Servers that ignore them still receive a bounded call.
+            "enable_thinking": False,
+            "think": False,
+            "response_format": {
+                "type": "json_schema",
+                "json_schema": {"name": "document_region_result", "strict": True, "schema": response_schema},
+            },
             "messages": [{
                 "role": "user",
                 "content": [

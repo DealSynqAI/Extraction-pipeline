@@ -1,0 +1,36 @@
+{
+  "schema_version": "unified-source-collection-validation/3.0",
+  "run": "examples/coulton-creek-v060-page007-qwen-final-r3",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "schema": "schemas/unified-source-block.schema.json",
+  "schema_sha256": "c9cbdc458812a060457b02131830998df0536875438272ad6a0e44091f3315b9",
+  "json_schema_draft": "2020-12",
+  "validator": "jsonschema.Draft202012Validator",
+  "pages_validated": 1,
+  "blocks_validated": 7,
+  "schema_valid": true,
+  "schema_error_count": 0,
+  "schema_errors": [],
+  "integrity_valid": true,
+  "integrity_error_count": 0,
+  "integrity_errors": [],
+  "block_counts_by_type": {
+    "brand_mark": 1,
+    "chart": 1,
+    "footnote": 1,
+    "group": 2,
+    "heading": 2
+  },
+  "validation_counts": {
+    "passed": 7
+  },
+  "needs_review_by_page": {},
+  "unassigned_evidence_by_page": {
+    "7": 0
+  },
+  "completeness_by_page": {
+    "7": "complete"
+  },
+  "content_approval_claimed": false,
+  "result": "valid"
+}

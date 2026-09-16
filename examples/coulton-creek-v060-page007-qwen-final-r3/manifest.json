@@ -1,0 +1,93 @@
+{
+  "schema_version": "unified-source-collection/3.0",
+  "status": "complete",
+  "created_utc": "2026-09-16T00:06:26.908932+00:00",
+  "document_id": "gp-coulton-creek-capital-q42023-company-financial-overview-cf569a8b25fc",
+  "source_filename": "GP - Coulton Creek Capital Q42023 Company Financial Overview.pdf",
+  "source_sha256": "cf569a8b25fcd36301b34e0e976e88227faa9f9cdc7804f34eddad09e8d477ad",
+  "page_count": 16,
+  "selected_pages": [
+    7
+  ],
+  "dpi": 200,
+  "coordinate_system": "top-left normalized xywh 0..1000",
+  "thresholds": {
+    "native_text_usability": 0.78,
+    "routing_confidence": 0.72
+  },
+  "vision_model": {
+    "enabled": true,
+    "provider": "OpenAI-compatible",
+    "endpoint": "http://localhost:11434/v1/chat/completions",
+    "model": "dealsynq-qwen3-vl:4b-instruct-16k",
+    "routing": "low-confidence classification; mandatory semantic stage for table/chart/map"
+  },
+  "runtime": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "pdfplumber": "0.11.10",
+    "pypdf": "6.18.1",
+    "pillow": "12.3.0",
+    "pipeline": "dealsynq-ocr-pipeline/0.6.0"
+  },
+  "stages": [
+    {
+      "name": "ingestion",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:26.925798+00:00"
+    },
+    {
+      "name": "pdf-inspection",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:28.454361+00:00"
+    },
+    {
+      "name": "rendering",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:29.108152+00:00"
+    },
+    {
+      "name": "ocr-and-geometry",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:32.678840+00:00"
+    },
+    {
+      "name": "region-routing-and-extraction",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:43.604066+00:00"
+    },
+    {
+      "name": "reconstruction-and-validation",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:43.604078+00:00"
+    },
+    {
+      "name": "unified-source-block-collection",
+      "status": "complete",
+      "finished_utc": "2026-09-16T00:06:43.604080+00:00"
+    }
+  ],
+  "preserved_source": "source/GP - Coulton Creek Capital Q42023 Company Financial Overview.pdf",
+  "inspection": {
+    "path": "inspection/manifest.json",
+    "sha256": "594b2cbe1889a8d6ca87b5f9806b4c6f2734d3deb933ceae2c6e702fb1115baf",
+    "schema_version": "pdf-inspection-index/1.0"
+  },
+  "rendering": {
+    "engine": "C:\\Users\\vinee\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+    "version": "pdftoppm version 26.07.0",
+    "dpi": 200,
+    "format": "PNG"
+  },
+  "ocr": {
+    "enabled": true,
+    "engine": "RapidOCR PP-OCRv6",
+    "rapidocr_version": "3.9.2",
+    "opencv_version": "5.0.0"
+  },
+  "finished_utc": "2026-09-16T00:06:43.604084+00:00",
+  "source_blocks_manifest": "source-blocks/document-manifest.json",
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}
